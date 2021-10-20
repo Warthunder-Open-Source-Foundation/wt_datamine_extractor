@@ -48,29 +48,13 @@ impl Missile {
 
 		let mass = parameter_to_data(&file, "mass").unwrap().parse().unwrap();
 
-		let force0 = if let Some(value) = parameter_to_data(&file, "force") {
-			value.parse().unwrap()
-		} else {
-			parameter_to_data(&file, "force0").unwrap().parse().unwrap()
-		};
+		let force0 = parameter_to_data(&file, "force").map_or_else(|| parameter_to_data(&file, "force0").unwrap().parse().unwrap(), |value| value.parse().unwrap());
 
-		let force1 = if let Some(value) = parameter_to_data(&file, "force1") {
-			value.parse().unwrap()
-		} else {
-			0.0
-		};
+		let force1 = parameter_to_data(&file, "force1").map_or(0.0, |value| value.parse().unwrap());
 
-		let timefire0 = if let Some(value) = parameter_to_data(&file, "timeFire") {
-			value.parse().unwrap()
-		} else {
-			parameter_to_data(&file, "timeFire0").unwrap().parse().unwrap()
-		};
+		let timefire0 = parameter_to_data(&file, "timeFire").map_or_else(|| parameter_to_data(&file, "timeFire0").unwrap().parse().unwrap(), |value| value.parse().unwrap());
 
-		let timefire1 = if let Some(value) = parameter_to_data(&file, "timeFire1") {
-			value.parse().unwrap()
-		} else {
-			0.0
-		};
+		let timefire1 = parameter_to_data(&file, "timeFire1").map_or(0.0, |value| value.parse().unwrap());
 
 		let cxk = parameter_to_data(&file, "CxK").unwrap().parse().unwrap();
 
@@ -101,17 +85,9 @@ impl Missile {
 			}
 		}
 
-		let fov = if seekertype == SeekerType::Ir {
-			parameter_to_data(&file, "fov").unwrap().parse().unwrap()
-		} else {
-			0.0
-		};
+		let fov = parameter_to_data(&file, "timeFire1").map_or(0.0, |value| value.parse().unwrap());
 
-		let gate = if let Some(value) = parameter_to_data(&file, "gateWidth") {
-			value.parse().unwrap()
-		} else {
-			0.0
-		};
+		let gate = parameter_to_data(&file, "gateWidth").map_or(0.0, |value| value.parse().unwrap());
 
 		let lockanglemax = parameter_to_data(&file, "lockAngleMax").unwrap().parse().unwrap();
 
@@ -161,6 +137,5 @@ fn parameter_to_data(file: &str, parameter: &str) -> Option<String> {
 		let cropped_value = position_value.split_once("\n").unwrap().0;
 		let cleaned_value = cropped_value.replace(",", ""); // Sub-objects somehow contain a comma
 		cleaned_value.trim().to_owned()
-	}
-	)
+	})
 }
