@@ -33,7 +33,7 @@ pub enum SeekerType {
 }
 
 impl Missile {
-	pub fn new_from_file(file: &Vec<u8>, name: String) -> Self {
+	pub fn new_from_file(file: &[u8], name: String) -> Self {
 		let file = String::from_utf8(file.to_vec()).unwrap();
 
 		let seekertype = {
@@ -46,8 +46,7 @@ impl Missile {
 			}
 		};
 
-
-		let mut mass = parameter_to_data(&file, "mass").unwrap().parse().unwrap();
+		let mass = parameter_to_data(&file, "mass").unwrap().parse().unwrap();
 
 		let force0 = if let Some(value) = parameter_to_data(&file, "force") {
 			value.parse().unwrap()
@@ -85,6 +84,7 @@ impl Missile {
 		if let Some(value) = parameter_to_data(&file, "reqAccelMax") {
 			reqaccelmax = value.parse().unwrap();
 		}
+
 		let mut bands: [f64; 4] = [0.0, 0.0, 0.0, 0.0];
 		if seekertype == SeekerType::Ir {
 			if let Some(value) = parameter_to_data(&file, "rangeBand0") {
@@ -101,11 +101,11 @@ impl Missile {
 			}
 		}
 
-		let mut fov = 0.0;
-		if seekertype == SeekerType::Ir {
-			fov = parameter_to_data(&file, "fov").unwrap().parse().unwrap();
-		}
-
+		let fov = if seekertype == SeekerType::Ir {
+			parameter_to_data(&file, "fov").unwrap().parse().unwrap()
+		} else {
+			0.0
+		};
 
 		let gate = if let Some(value) = parameter_to_data(&file, "gateWidth") {
 			value.parse().unwrap()
@@ -117,10 +117,11 @@ impl Missile {
 
 		let anglemax = parameter_to_data(&file, "angleMax").unwrap().parse().unwrap();
 
-		let mut minangletosun = 0.0;
-		if seekertype == SeekerType::Ir {
-			minangletosun = parameter_to_data(&file, "minAngleToSun").unwrap().parse().unwrap();
-		}
+		let minangletosun = if seekertype == SeekerType::Ir {
+			parameter_to_data(&file, "minAngleToSun").unwrap().parse().unwrap()
+		} else {
+			0.0
+		};
 
 		let warmuptime = parameter_to_data(&file, "warmUpTime").unwrap().parse().unwrap();
 
@@ -155,12 +156,11 @@ impl Missile {
 }
 
 fn parameter_to_data(file: &str, parameter: &str) -> Option<String> {
-	if let Some(value) = file.find(parameter) {
+	file.find(parameter).map(|value| {
 		let position_value = file.split_at(value + parameter.len() + 3).1;
 		let cropped_value = position_value.split_once("\n").unwrap().0;
 		let cleaned_value = cropped_value.replace(",", ""); // Sub-objects somehow contain a comma
-		Some(cleaned_value.trim().to_owned())
-	} else {
-		None
+		cleaned_value.trim().to_owned()
 	}
+	)
 }

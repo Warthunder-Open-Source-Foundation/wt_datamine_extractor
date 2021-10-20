@@ -1,7 +1,6 @@
 use std::fs;
-use std::fs::FileType;
 
-use crate::missiles::{Missile, SeekerType};
+use crate::missiles::{Missile};
 
 mod missiles;
 
@@ -13,6 +12,7 @@ fn main() {
 
 	let mut files: Vec<String> = vec![];
 	for (_, entry) in dir_ir.enumerate() {
+
 		let file_name = entry.unwrap().file_name().into_string().unwrap();
 		if file_name.contains("blkx") {
 			files.push(format!("{}IR/{}", PATH, file_name));
