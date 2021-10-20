@@ -1,9 +1,4 @@
-#[derive(Debug, Clone, PartialEq)]
-pub struct Missiles {
-	pub missiles: Vec<Missile>,
-}
-
-#[derive(Debug, Clone, PartialEq)]
+#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq)]
 pub struct Missile {
 	// Metadata
 	pub name: String,
@@ -31,7 +26,7 @@ pub struct Missile {
 	pub cageable: bool,
 }
 
-#[derive(Debug, Clone, PartialEq)]
+#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Eq)]
 pub enum SeekerType {
 	Ir = 0,
 	Radar = 1,
@@ -51,7 +46,8 @@ impl Missile {
 			}
 		};
 
-		let mass = parameter_to_data(&file, "mass").unwrap().parse().unwrap();
+
+		let mut mass = parameter_to_data(&file, "mass").unwrap().parse().unwrap();
 
 		let force0 = if let Some(value) = parameter_to_data(&file, "force") {
 			value.parse().unwrap()
@@ -85,8 +81,10 @@ impl Missile {
 
 		let loadfactormax = parameter_to_data(&file, "loadFactorMax").unwrap().parse().unwrap();
 
-		let reqaccelmax = parameter_to_data(&file, "reqAccelMax").unwrap().parse().unwrap();
-
+		let mut reqaccelmax = 0.0;
+		if let Some(value) = parameter_to_data(&file, "reqAccelMax") {
+			reqaccelmax = value.parse().unwrap();
+		}
 		let mut bands: [f64; 4] = [0.0, 0.0, 0.0, 0.0];
 		if seekertype == SeekerType::Ir {
 			if let Some(value) = parameter_to_data(&file, "rangeBand0") {
@@ -111,7 +109,7 @@ impl Missile {
 
 		let gate = if let Some(value) = parameter_to_data(&file, "gateWidth") {
 			value.parse().unwrap()
-		}else {
+		} else {
 			0.0
 		};
 
@@ -161,7 +159,7 @@ fn parameter_to_data(file: &str, parameter: &str) -> Option<String> {
 		let position_value = file.split_at(value + parameter.len() + 3).1;
 		let cropped_value = position_value.split_once("\n").unwrap().0;
 		let cleaned_value = cropped_value.replace(",", ""); // Sub-objects somehow contain a comma
-		Some(cleaned_value.to_owned())
+		Some(cleaned_value.trim().to_owned())
 	} else {
 		None
 	}

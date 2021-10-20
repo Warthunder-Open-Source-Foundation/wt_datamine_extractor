@@ -1,11 +1,36 @@
 use std::fs;
+use std::fs::FileType;
+
 use crate::missiles::{Missile, SeekerType};
 
 mod missiles;
 
+const PATH: &str = "./missiles/";
+
 fn main() {
-	let file = fs::read("Missilelist/IR/su_r_60m.blkx").unwrap();
-	let missile = Missile::new_from_file(&file, "aim-7e-2".to_owned());
-	// println!("{}", String::from_utf8(file).unwrap());
-	println!("{:?}", missile);
+	let dir_ir = fs::read_dir(format!("{}IR", PATH)).unwrap();
+	let dir_rd = fs::read_dir(format!("{}Radar", PATH)).unwrap();
+
+	let mut files: Vec<String> = vec![];
+	for (_, entry) in dir_ir.enumerate() {
+		let file_name = entry.unwrap().file_name().into_string().unwrap();
+		if file_name.contains("blkx") {
+			files.push(format!("{}IR/{}", PATH, file_name));
+		}
+	}
+	for (_, entry) in dir_rd.enumerate() {
+		let file_name = entry.unwrap().file_name().into_string().unwrap();
+		if file_name.contains("blkx") {
+			files.push(format!("{}Radar/{}", PATH, file_name));
+		}
+	}
+
+	let mut missiles: Vec<Missile> = vec![];
+	for file in files {
+		let data = fs::read(&file).unwrap();
+		missiles.push(Missile::new_from_file(&data, file));
+	}
+	let write = serde_json::to_string_pretty(&missiles).unwrap();
+	fs::write("./all.json", write).unwrap();
+	println!("{:#?}", missiles);
 }
