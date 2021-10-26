@@ -11,6 +11,8 @@ pub struct Missile {
 	pub timefire0: f64,
 	pub timefire1: f64,
 	pub cxk: f64,
+	pub timelife: f64,
+	pub endspeed: f64,
 	pub tnt: f64,
 	pub pfuse: bool,
 	pub loadfactormax: f64,
@@ -57,6 +59,10 @@ impl Missile {
 		let timefire1 = parameter_to_data(&file, "timeFire1").map_or(0.0, |value| value.parse().unwrap());
 
 		let cxk = parameter_to_data(&file, "CxK").unwrap().parse().unwrap();
+
+		let timelife = parameter_to_data(&file, "timeLife").unwrap().parse().unwrap();
+
+		let endspeed = parameter_to_data(&file, "endSpeed").unwrap().parse().unwrap();
 
 		let tnt = parameter_to_data(&file, "explosiveMass").unwrap().parse().unwrap();
 
@@ -114,6 +120,8 @@ impl Missile {
 			timefire0,
 			timefire1,
 			cxk,
+			timelife,
+			endspeed,
 			tnt,
 			pfuse,
 			loadfactormax,
