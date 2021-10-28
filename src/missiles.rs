@@ -62,7 +62,6 @@ impl Missile {
 		let cxk = parameter_to_data(&file, "CxK").unwrap().parse().unwrap();
 
         let dragcx = parameter_to_data(&file, "dragCx").unwrap().parse().unwrap();
-        println!("{}", dragcx);
 
 		let timelife = parameter_to_data(&file, "timeLife").unwrap().parse().unwrap();
 

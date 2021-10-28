@@ -1,27 +1,30 @@
 use std::fs;
 
-use crate::missiles::{Missile};
+use crate::extract::{extract_known, KnownMissiles};
+use crate::missiles::Missile;
 
 mod missiles;
+mod extract;
 
-const PATH: &str = "./missiles/";
+const PATH: &str = "./index/missiles";
+
 
 fn main() {
-	let dir_ir = fs::read_dir(format!("{}IR", PATH)).unwrap();
-	let dir_rd = fs::read_dir(format!("{}Radar", PATH)).unwrap();
+	extract_known();
+
+	// generate_raw();
+}
+
+fn generate_raw() {
+	let dir_ir = fs::read_dir(format!("{}", PATH)).unwrap();
 
 	let mut files: Vec<String> = vec![];
+	let mut known: KnownMissiles = KnownMissiles::new_from_index(vec![]);
 	for (_, entry) in dir_ir.enumerate() {
-
 		let file_name = entry.unwrap().file_name().into_string().unwrap();
 		if file_name.contains("blkx") {
-			files.push(format!("{}IR/{}", PATH, file_name));
-		}
-	}
-	for (_, entry) in dir_rd.enumerate() {
-		let file_name = entry.unwrap().file_name().into_string().unwrap();
-		if file_name.contains("blkx") {
-			files.push(format!("{}Radar/{}", PATH, file_name));
+			files.push(format!("{}/{}", PATH, file_name));
+			known.path.push(file_name);
 		}
 	}
 
@@ -30,7 +33,11 @@ fn main() {
 		let data = fs::read(&file).unwrap();
 		missiles.push(Missile::new_from_file(&data, file));
 	}
-	let write = serde_json::to_string_pretty(&missiles).unwrap();
-	fs::write("./all.json", write).unwrap();
+
+	let known_json = serde_json::to_string_pretty(&known).unwrap();
+	fs::write("./index/known.json", known_json).unwrap();
+
+	let missiles_json = serde_json::to_string_pretty(&missiles).unwrap();
+	fs::write("./all.json", missiles_json).unwrap();
 	//println!("{:#?}", missiles);
 }
