@@ -32,5 +32,5 @@ fn main() {
 	}
 	let write = serde_json::to_string_pretty(&missiles).unwrap();
 	fs::write("./all.json", write).unwrap();
-	println!("{:#?}", missiles);
+	//println!("{:#?}", missiles);
 }
