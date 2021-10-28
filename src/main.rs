@@ -12,7 +12,7 @@ const PATH: &str = "./index/missiles";
 fn main() {
 	extract_known();
 
-	// generate_raw();
+	generate_raw();
 }
 
 fn generate_raw() {
