@@ -1,18 +1,22 @@
 use std::fs;
 
 use crate::extract::{extract_known, KnownMissiles};
+use crate::html_gen::generate_html;
 use crate::missiles::Missile;
 
 mod missiles;
 mod extract;
+mod html_gen;
 
 const PATH: &str = "./index/missiles";
 
 
 fn main() {
-	extract_known();
+// 	extract_known();
+//
+// 	generate_raw();
 
-	generate_raw();
+	generate_html(vec![])
 }
 
 fn generate_raw() {
