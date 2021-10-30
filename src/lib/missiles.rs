@@ -1,4 +1,10 @@
-#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq)]
+use std::fs;
+
+use crate::extract::KnownMissiles;
+
+pub const PATH: &str = "./index/missiles";
+
+#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone)]
 pub struct Missile {
 	// Metadata
 	pub name: String,
@@ -6,12 +12,14 @@ pub struct Missile {
 
 	// Main data
 	pub mass: f64,
+	pub mass_end: f64,
+	pub caliber: f64,
 	pub force0: f64,
 	pub force1: f64,
 	pub timefire0: f64,
 	pub timefire1: f64,
 	pub cxk: f64,
-    pub dragcx: f64,
+	pub dragcx: f64,
 	pub timelife: f64,
 	pub endspeed: f64,
 	pub tnt: f64,
@@ -29,7 +37,7 @@ pub struct Missile {
 	pub cageable: bool,
 }
 
-#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Eq)]
+#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Eq, Clone)]
 pub enum SeekerType {
 	Ir = 0,
 	Radar = 1,
@@ -51,6 +59,10 @@ impl Missile {
 
 		let mass = parameter_to_data(&file, "mass").unwrap().parse().unwrap();
 
+		let mass_end = parameter_to_data(&file, "massEnd").unwrap().parse().unwrap();
+
+		let caliber = parameter_to_data(&file, "caliber").unwrap().parse().unwrap();
+
 		let force0 = parameter_to_data(&file, "force").map_or_else(|| parameter_to_data(&file, "force0").unwrap().parse().unwrap(), |value| value.parse().unwrap());
 
 		let force1 = parameter_to_data(&file, "force1").map_or(0.0, |value| value.parse().unwrap());
@@ -61,7 +73,7 @@ impl Missile {
 
 		let cxk = parameter_to_data(&file, "CxK").unwrap().parse().unwrap();
 
-        let dragcx = parameter_to_data(&file, "dragCx").unwrap().parse().unwrap();
+		let dragcx = parameter_to_data(&file, "dragCx").unwrap().parse().unwrap();
 
 		let timelife = parameter_to_data(&file, "timeLife").unwrap().parse().unwrap();
 
@@ -118,12 +130,14 @@ impl Missile {
 			name,
 			seekertype,
 			mass,
+			mass_end,
+			caliber,
 			force0,
 			force1,
 			timefire0,
 			timefire1,
 			cxk,
-            dragcx,
+			dragcx,
 			timelife,
 			endspeed,
 			tnt,
@@ -141,6 +155,25 @@ impl Missile {
 			cageable,
 		}
 	}
+	pub fn new_from_generated(path: Option<&str>, regen: Option<&str>) -> Vec<Self> {
+		if let Some(value) =  regen {
+			generate_raw(value);
+		}
+		return if let Some(value) = path {
+			serde_json::from_str(&fs::read_to_string(value).unwrap()).unwrap()
+		} else {
+			serde_json::from_str(&fs::read_to_string("./resources/all.json").unwrap()).unwrap()
+		}
+
+	}
+	pub fn select_by_name(missiles: &Vec<Self>, name: &str) -> Option<Self> {
+		for (i, missile) in missiles.iter().enumerate() {
+			if missile.name.contains(&name.replace("-", "_")) {
+				return Some(missiles[i].clone());
+			}
+		}
+		None
+	}
 }
 
 fn parameter_to_data(file: &str, parameter: &str) -> Option<String> {
@@ -150,4 +183,31 @@ fn parameter_to_data(file: &str, parameter: &str) -> Option<String> {
 		let cleaned_value = cropped_value.replace(",", ""); // Sub-objects somehow contain a comma
 		cleaned_value.trim().to_owned()
 	})
+}
+
+pub fn generate_raw(path: &str) {
+	let dir_ir = fs::read_dir(format!("{}", path)).unwrap();
+
+	let mut files: Vec<String> = vec![];
+	let mut known: KnownMissiles = KnownMissiles::new_from_index(vec![]);
+	for (_, entry) in dir_ir.enumerate() {
+		let file_name = entry.unwrap().file_name().into_string().unwrap();
+		if file_name.contains("blkx") {
+			files.push(format!("{}/{}", path, file_name));
+			known.path.push(file_name);
+		}
+	}
+
+	let mut missiles: Vec<Missile> = vec![];
+	for file in files {
+		let data = fs::read(&file).unwrap();
+		missiles.push(Missile::new_from_file(&data, file));
+	}
+
+	let known_json = serde_json::to_string_pretty(&known).unwrap();
+	fs::write("index/known.json", known_json).unwrap();
+
+	let missiles_json = serde_json::to_string_pretty(&missiles).unwrap();
+	fs::write("index/all.json", missiles_json).unwrap();
+	//println!("{:#?}", missiles);
 }

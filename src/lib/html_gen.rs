@@ -71,5 +71,5 @@ pub fn generate_html(missiles: Vec<Missile>) {
       </body>\
     </html>";
 
-	fs::write("./test.html", actual).unwrap();
+	fs::write("../../test.html", actual).unwrap();
 }

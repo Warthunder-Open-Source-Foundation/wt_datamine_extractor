@@ -3,6 +3,14 @@ name = "wt_missile_calc"
 version = "0.1.0"
 edition = "2018"
 
+[lib]
+name = "wt_missile_calc_lib"
+path = "src/lib/lib.rs"
+
+[[bin]]
+name = "wt_missile_calc_bin"
+path = "src/bin/main.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]

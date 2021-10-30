@@ -14,7 +14,7 @@ impl KnownMissiles {
 }
 
 pub fn extract_known() {
-	let known_raw = fs::read_to_string("index/known.json").unwrap();
+	let known_raw = fs::read_to_string("../../index/known.json").unwrap();
 	let known: KnownMissiles = serde_json::from_str(&known_raw).unwrap();
 	for (_, known) in known.path.iter().enumerate() {
 		let path = format!("resources/cache/aces.vromfs.bin_u/gamedata/weapons/rocketguns/{}", known);
