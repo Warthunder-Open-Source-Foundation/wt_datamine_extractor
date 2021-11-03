@@ -6,37 +6,97 @@ pub const PATH: &str = "./index/missiles";
 
 #[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone)]
 pub struct Missile {
-	// Metadata
+	// metadata that is global or does not exist on files that are generated
+
+	/// associated file-name of the missiles
 	pub name: String,
+
+	/// type of seeker that has to be extracted from the file and represented as enum
 	pub seekertype: SeekerType,
 
-	// Main data (from raw)
+
+	// main data raw values taken from the file
+
+	/// mass in kg
 	pub mass: f64,
+
+	/// mass in kg after engine burn
 	pub mass_end: f64,
+
+	/// diameter in meter
 	pub caliber: f64,
+
+	/// first set of thrust in N
 	pub force0: f64,
+
+	/// second set of thrust in N
 	pub force1: f64,
+
+	/// first set of thrust in s
 	pub timefire0: f64,
+
+	/// second set of thrust in s
 	pub timefire1: f64,
+
+	/// drag constant coefficient
 	pub cxk: f64,
+
+	/// drag constant
 	pub dragcx: f64,
+
+	/// absolute time of life after spawning in s
 	pub timelife: f64,
+
+	/// hard cap for velocity in m/s
 	pub endspeed: f64,
-	pub tnt: f64,
+
+	/// amount of raw explosive material in kg
+	pub exp_mass: f64,
+
+	/// proximity fuse
 	pub pfuse: bool,
+
+	/// maximum G load at launch (assuming G = 9.81m/s²)
 	pub loadfactormax: f64,
+
+	/// maximum G during flight (assuming G = 9.81m/s²)
 	pub reqaccelmax: f64,
+
+	/// Range band distances for different spectrums ( when infrared else its 0)
+	/// 0 = rear aspect engine
+	/// 1 = all aspect of target
+	/// 2 = infrared decoys
+	/// 3 = infrared countermeasures and the sun
 	pub bands: [f64; 4],
+
+	/// size of the uncaged part of the seeker in degrees
 	pub fov: f64,
+
+	/// size of the locked seeker center in degrees
 	pub gate: f64,
+
+	/// distance from bore before launch in degrees
 	pub lockanglemax: f64,
+
+	/// distance from bore after launch in degrees
 	pub anglemax: f64,
+
+	/// distance from sun to be distracted in degrees
 	pub minangletosun: f64,
+
+	/// time to switch missile into seek mode in s
 	pub warmuptime: f64,
+
+	/// time the missile remains in seek mode in s
 	pub worktime: f64,
+
+	/// if the seeker is on a gimbal or not
 	pub cageable: bool,
 
+
 	// Calculated (dynamically created and not in files)
+
+	/// total potential energy in m/s²
 	pub deltav: f64,
 }
 
@@ -82,7 +142,7 @@ impl Missile {
 
 		let endspeed = parameter_to_data(&file, "endSpeed").unwrap().parse().unwrap();
 
-		let tnt = parameter_to_data(&file, "explosiveMass").unwrap().parse().unwrap();
+		let exp_mass = parameter_to_data(&file, "explosiveMass").unwrap().parse().unwrap();
 
 		let pfuse = parameter_to_data(&file, "hasProximityFuse").unwrap().parse().unwrap();
 
@@ -143,7 +203,7 @@ impl Missile {
 			dragcx,
 			timelife,
 			endspeed,
-			tnt,
+			exp_mass,
 			pfuse,
 			loadfactormax,
 			reqaccelmax,
