@@ -10,7 +10,7 @@ pub struct Missile {
 	pub name: String,
 	pub seekertype: SeekerType,
 
-	// Main data
+	// Main data (from raw)
 	pub mass: f64,
 	pub mass_end: f64,
 	pub caliber: f64,
@@ -35,6 +35,9 @@ pub struct Missile {
 	pub warmuptime: f64,
 	pub worktime: f64,
 	pub cageable: bool,
+
+	// Calculated (dynamically created and not in files)
+	pub deltav: f64,
 }
 
 #[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Eq, Clone)]
@@ -153,17 +156,18 @@ impl Missile {
 			warmuptime,
 			worktime,
 			cageable,
+			deltav: force0 / mass * timefire0,
 		}
 	}
 	pub fn new_from_generated(path: Option<&str>, regen: Option<&str>) -> Vec<Self> {
-		if let Some(value) =  regen {
+		if let Some(value) = regen {
 			generate_raw(value);
 		}
 		return if let Some(value) = path {
 			serde_json::from_str(&fs::read_to_string(value).unwrap()).unwrap()
 		} else {
 			serde_json::from_str(&fs::read_to_string("./resources/all.json").unwrap()).unwrap()
-		}
+		};
 
 	}
 	pub fn select_by_name(missiles: &Vec<Self>, name: &str) -> Option<Self> {
