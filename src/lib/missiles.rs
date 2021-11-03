@@ -272,6 +272,6 @@ pub fn generate_raw(path: &str) {
 	fs::write("index/known.json", known_json).unwrap();
 
 	let missiles_json = serde_json::to_string_pretty(&missiles).unwrap();
-	fs::write("index/all.json", missiles_json).unwrap();
+	fs::write("../../../wt_ballistics_calc/all.json", missiles_json).unwrap();
 	//println!("{:#?}", missiles);
 }

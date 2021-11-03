@@ -5,7 +5,10 @@ use horrorshow::html;
 use horrorshow::prelude::*;
 use horrorshow::helper::doctype;
 
-pub fn generate_html(missiles: Vec<Missile>) {
+/// # Panics
+///
+/// HTML generated needs to be writable
+pub fn generate_html(missiles: &[Missile]) {
     let test_string = "yes";
 	let actual = format!("{}", html! {
         : doctype::HTML;
@@ -36,10 +39,7 @@ pub fn generate_html(missiles: Vec<Missile>) {
                 // You need semi-colons for tags without children.
                 br; br;
                 p {
-                    // You can also embed closures.
-                    |tmpl| {
-                        tmpl << "Easy!";
-                    }
+                    yes
                 }
             }
         }
