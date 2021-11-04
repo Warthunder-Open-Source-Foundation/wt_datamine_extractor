@@ -62,11 +62,11 @@ pub struct Missile {
 	/// maximum G during flight (assuming G = 9.81m/s²)
 	pub reqaccelmax: f64,
 
-	/// Range band distances for different spectrums ( when infrared else its 0)
+	/// Range band distances for different spectrums (when infrared else its 0)
 	/// 0 = rear aspect engine
 	/// 1 = all aspect of target
 	/// 2 = infrared decoys
-	/// 3 = infrared countermeasures and the sun
+	/// 3 = infrared countermeasures and sun
 	pub bands: [f64; 4],
 
 	/// size of the uncaged part of the seeker in degrees
