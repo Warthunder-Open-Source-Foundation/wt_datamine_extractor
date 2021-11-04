@@ -216,7 +216,7 @@ impl Missile {
 			warmuptime,
 			worktime,
 			cageable,
-			deltav: force0 / mass * timefire0,
+			deltav: (force0 / mass * timefire0) + (force1 / mass * timefire1),
 		}
 	}
 	pub fn new_from_generated(path: Option<&str>, regen: Option<&str>) -> Vec<Self> {
@@ -272,6 +272,6 @@ pub fn generate_raw(path: &str) {
 	fs::write("index/known.json", known_json).unwrap();
 
 	let missiles_json = serde_json::to_string_pretty(&missiles).unwrap();
-	fs::write("../../../wt_ballistics_calc/all.json", missiles_json).unwrap();
+	fs::write("../wt_missile_calc/index/all.json", missiles_json).unwrap();
 	//println!("{:#?}", missiles);
 }
