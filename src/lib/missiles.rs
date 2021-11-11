@@ -219,16 +219,47 @@ impl Missile {
 			deltav: (force0 / mass * timefire0) + (force1 / mass * timefire1),
 		}
 	}
-	pub fn new_from_generated(path: Option<&str>, regen: Option<&str>) -> Vec<Self> {
+	pub fn new_from_generated(path: Option<&str>, regen: Option<&str>) -> Option<Vec<Self>> {
 		if let Some(value) = regen {
 			generate_raw(value);
+			println!("Regenerating missile-index");
 		}
-		return if let Some(value) = path {
-			serde_json::from_str(&fs::read_to_string(value).unwrap()).unwrap()
-		} else {
-			serde_json::from_str(&fs::read_to_string("./resources/all.json").unwrap()).unwrap()
-		};
 
+		if let Some(path) = path {
+			// Path provided
+
+			if let Ok(from_reader) = fs::read_to_string(path) {
+				// Attempt to get from reader
+
+				if let Ok(serialized) = serde_json::from_str::<Vec<Self>>(&from_reader) {
+					// Serialized result
+					return Some(serialized);
+				} else {
+					println!("Cannot parse missile-index from {}, using fallback", path);
+				}
+			} else {
+				println!("Cannot read missile-index from {}, using fallback", path);
+			}
+		}
+		// If the given path does not work in some way a fallback will be used
+		return get_fallback();
+
+
+		fn get_fallback() -> Option<Vec<Missile>> {
+			static FALLBACK: &str = "index/all.json";
+			if let Ok(from_reader) = fs::read_to_string(FALLBACK) {
+				// Attempt to get from reader
+
+				if let Ok(serialized) = serde_json::from_str::<Vec<Missile>>(&from_reader) {
+					// Serialized result
+					return Some(serialized);
+				}
+				println!("Fallback {} cannot be parsed", FALLBACK);
+				return None;
+			}
+			println!("Fallback {} cannot be found", FALLBACK);
+			None
+		}
 	}
 	pub fn select_by_name(missiles: &Vec<Self>, name: &str) -> Option<Self> {
 		for (i, missile) in missiles.iter().enumerate() {
