@@ -216,7 +216,7 @@ impl Missile {
 			warmuptime,
 			worktime,
 			cageable,
-			deltav: (force0 / mass * timefire0) + (force1 / mass * timefire1),
+			deltav: ((force0 / mass * timefire0) + (force1 / mass * timefire1)).round(),
 		}
 	}
 	pub fn new_from_generated(path: Option<&str>, regen: Option<&str>) -> Option<Vec<Self>> {
