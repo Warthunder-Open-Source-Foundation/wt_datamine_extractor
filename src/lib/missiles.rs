@@ -169,7 +169,7 @@ impl Missile {
 			}
 		}
 
-		let fov = parameter_to_data(&file, "timeFire1").map_or(0.0, |value| value.parse().unwrap());
+		let fov = parameter_to_data(&file, "fov").map_or(0.0, |value| value.parse().unwrap());
 
 		let gate = parameter_to_data(&file, "gateWidth").map_or(0.0, |value| value.parse().unwrap());
 
