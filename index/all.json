@@ -1,6 +1,6 @@
 [
   {
-    "name": "./index/missiles/fr_r_530_matra_ir.blkx",
+    "name": "fr_r_530_matra_ir",
     "seekertype": "Ir",
     "mass": 193.5,
     "mass_end": 160.0,
@@ -34,7 +34,7 @@
     "deltav": 616.0
   },
   {
-    "name": "./index/missiles/fr_r_530_matra_radar.blkx",
+    "name": "fr_r_530_matra_radar",
     "seekertype": "Radar",
     "mass": 193.5,
     "mass_end": 160.0,
@@ -68,7 +68,7 @@
     "deltav": 616.0
   },
   {
-    "name": "./index/missiles/fr_r_550_magic.blkx",
+    "name": "fr_r_550_magic",
     "seekertype": "Ir",
     "mass": 89.0,
     "mass_end": 62.0,
@@ -102,7 +102,7 @@
     "deltav": 607.0
   },
   {
-    "name": "./index/missiles/su_9m39.blkx",
+    "name": "su_9m39",
     "seekertype": "Ir",
     "mass": 10.6,
     "mass_end": 8.0068,
@@ -136,7 +136,7 @@
     "deltav": 868.0
   },
   {
-    "name": "./index/missiles/su_pl2.blkx",
+    "name": "su_pl2",
     "seekertype": "Ir",
     "mass": 75.3,
     "mass_end": 54.8,
@@ -170,7 +170,7 @@
     "deltav": 506.0
   },
   {
-    "name": "./index/missiles/su_pl5b.blkx",
+    "name": "su_pl5b",
     "seekertype": "Ir",
     "mass": 84.0,
     "mass_end": 59.7,
@@ -204,7 +204,7 @@
     "deltav": 857.0
   },
   {
-    "name": "./index/missiles/su_r_13m.blkx",
+    "name": "su_r_13m",
     "seekertype": "Ir",
     "mass": 87.7,
     "mass_end": 60.0,
@@ -238,7 +238,7 @@
     "deltav": 593.0
   },
   {
-    "name": "./index/missiles/su_r_23r.blkx",
+    "name": "su_r_23r",
     "seekertype": "Radar",
     "mass": 223.0,
     "mass_end": 190.0,
@@ -272,7 +272,7 @@
     "deltav": 498.0
   },
   {
-    "name": "./index/missiles/su_r_23t.blkx",
+    "name": "su_r_23t",
     "seekertype": "Ir",
     "mass": 215.0,
     "mass_end": 182.0,
@@ -306,7 +306,7 @@
     "deltav": 516.0
   },
   {
-    "name": "./index/missiles/su_r_24r.blkx",
+    "name": "su_r_24r",
     "seekertype": "Radar",
     "mass": 244.0,
     "mass_end": 169.0,
@@ -340,7 +340,7 @@
     "deltav": 615.0
   },
   {
-    "name": "./index/missiles/su_r_24t.blkx",
+    "name": "su_r_24t",
     "seekertype": "Ir",
     "mass": 237.0,
     "mass_end": 162.0,
@@ -374,7 +374,7 @@
     "deltav": 633.0
   },
   {
-    "name": "./index/missiles/su_r_3r.blkx",
+    "name": "su_r_3r",
     "seekertype": "Radar",
     "mass": 75.3,
     "mass_end": 54.8,
@@ -408,7 +408,7 @@
     "deltav": 506.0
   },
   {
-    "name": "./index/missiles/su_r_3s.blkx",
+    "name": "su_r_3s",
     "seekertype": "Ir",
     "mass": 75.3,
     "mass_end": 54.8,
@@ -442,7 +442,7 @@
     "deltav": 506.0
   },
   {
-    "name": "./index/missiles/su_r_60.blkx",
+    "name": "su_r_60",
     "seekertype": "Ir",
     "mass": 44.0,
     "mass_end": 34.0,
@@ -476,7 +476,7 @@
     "deltav": 648.0
   },
   {
-    "name": "./index/missiles/su_r_60m.blkx",
+    "name": "su_r_60m",
     "seekertype": "Ir",
     "mass": 44.0,
     "mass_end": 34.0,
@@ -510,7 +510,7 @@
     "deltav": 648.0
   },
   {
-    "name": "./index/missiles/swd_rb24.blkx",
+    "name": "swd_rb24",
     "seekertype": "Ir",
     "mass": 72.57,
     "mass_end": 55.8,
@@ -544,7 +544,7 @@
     "deltav": 523.0
   },
   {
-    "name": "./index/missiles/swd_rb24j.blkx",
+    "name": "swd_rb24j",
     "seekertype": "Ir",
     "mass": 76.93,
     "mass_end": 58.0,
@@ -578,7 +578,7 @@
     "deltav": 518.0
   },
   {
-    "name": "./index/missiles/swd_rb71.blkx",
+    "name": "swd_rb71",
     "seekertype": "Radar",
     "mass": 193.0,
     "mass_end": 146.0,
@@ -612,7 +612,7 @@
     "deltav": 508.0
   },
   {
-    "name": "./index/missiles/uk_firestreak.blkx",
+    "name": "uk_firestreak",
     "seekertype": "Ir",
     "mass": 136.0,
     "mass_end": 96.0,
@@ -646,7 +646,7 @@
     "deltav": 531.0
   },
   {
-    "name": "./index/missiles/uk_redtop.blkx",
+    "name": "uk_redtop",
     "seekertype": "Ir",
     "mass": 167.0,
     "mass_end": 105.0,
@@ -680,7 +680,7 @@
     "deltav": 539.0
   },
   {
-    "name": "./index/missiles/uk_skyflash_aim_7.blkx",
+    "name": "uk_skyflash_aim_7",
     "seekertype": "Radar",
     "mass": 193.0,
     "mass_end": 146.0,
@@ -714,7 +714,7 @@
     "deltav": 508.0
   },
   {
-    "name": "./index/missiles/uk_skyflash_aim_7_dogfight.blkx",
+    "name": "uk_skyflash_aim_7_dogfight",
     "seekertype": "Radar",
     "mass": 193.0,
     "mass_end": 146.0,
@@ -748,7 +748,7 @@
     "deltav": 508.0
   },
   {
-    "name": "./index/missiles/uk_sraam.blkx",
+    "name": "uk_sraam",
     "seekertype": "Ir",
     "mass": 70.0,
     "mass_end": 51.0,
@@ -782,7 +782,7 @@
     "deltav": 699.0
   },
   {
-    "name": "./index/missiles/us_aim7c_sparrow.blkx",
+    "name": "us_aim7c_sparrow",
     "seekertype": "Radar",
     "mass": 172.0,
     "mass_end": 144.0,
@@ -816,7 +816,7 @@
     "deltav": 382.0
   },
   {
-    "name": "./index/missiles/us_aim7d_sparrow.blkx",
+    "name": "us_aim7d_sparrow",
     "seekertype": "Radar",
     "mass": 197.0,
     "mass_end": 144.0,
@@ -850,7 +850,7 @@
     "deltav": 437.0
   },
   {
-    "name": "./index/missiles/us_aim7e2_dogfight_sparrow.blkx",
+    "name": "us_aim7e2_dogfight_sparrow",
     "seekertype": "Radar",
     "mass": 193.7,
     "mass_end": 146.0,
@@ -884,7 +884,7 @@
     "deltav": 506.0
   },
   {
-    "name": "./index/missiles/us_aim7e_sparrow.blkx",
+    "name": "us_aim7e_sparrow",
     "seekertype": "Radar",
     "mass": 205.0,
     "mass_end": 146.0,
@@ -918,7 +918,7 @@
     "deltav": 478.0
   },
   {
-    "name": "./index/missiles/us_aim92_stinger.blkx",
+    "name": "us_aim92_stinger",
     "seekertype": "Ir",
     "mass": 10.1,
     "mass_end": 7.35,
@@ -952,7 +952,7 @@
     "deltav": 1089.0
   },
   {
-    "name": "./index/missiles/us_aim9b_fgw_2_sidewinder.blkx",
+    "name": "us_aim9b_fgw_2_sidewinder",
     "seekertype": "Ir",
     "mass": 72.57,
     "mass_end": 55.8,
@@ -986,7 +986,7 @@
     "deltav": 523.0
   },
   {
-    "name": "./index/missiles/us_aim9b_sidewinder.blkx",
+    "name": "us_aim9b_sidewinder",
     "seekertype": "Ir",
     "mass": 72.57,
     "mass_end": 55.8,
@@ -1020,7 +1020,7 @@
     "deltav": 523.0
   },
   {
-    "name": "./index/missiles/us_aim9c_sidewinder.blkx",
+    "name": "us_aim9c_sidewinder",
     "seekertype": "Radar",
     "mass": 88.45,
     "mass_end": 55.8,
@@ -1054,7 +1054,7 @@
     "deltav": 739.0
   },
   {
-    "name": "./index/missiles/us_aim9d_sidewinder.blkx",
+    "name": "us_aim9d_sidewinder",
     "seekertype": "Ir",
     "mass": 88.45,
     "mass_end": 55.8,
@@ -1088,7 +1088,7 @@
     "deltav": 739.0
   },
   {
-    "name": "./index/missiles/us_aim9e_sidewinder.blkx",
+    "name": "us_aim9e_sidewinder",
     "seekertype": "Ir",
     "mass": 76.43,
     "mass_end": 57.5,
@@ -1122,7 +1122,7 @@
     "deltav": 521.0
   },
   {
-    "name": "./index/missiles/us_aim9g_sidewinder.blkx",
+    "name": "us_aim9g_sidewinder",
     "seekertype": "Ir",
     "mass": 88.45,
     "mass_end": 55.8,
@@ -1156,7 +1156,7 @@
     "deltav": 739.0
   },
   {
-    "name": "./index/missiles/us_aim9j_sidewinder.blkx",
+    "name": "us_aim9j_sidewinder",
     "seekertype": "Ir",
     "mass": 76.93,
     "mass_end": 58.0,
@@ -1190,7 +1190,7 @@
     "deltav": 518.0
   },
   {
-    "name": "./index/missiles/us_aim9l_sidewinder.blkx",
+    "name": "us_aim9l_sidewinder",
     "seekertype": "Ir",
     "mass": 84.46,
     "mass_end": 57.06,
@@ -1224,7 +1224,7 @@
     "deltav": 753.0
   },
   {
-    "name": "./index/missiles/us_aim9p_sidewinder.blkx",
+    "name": "us_aim9p_sidewinder",
     "seekertype": "Ir",
     "mass": 76.93,
     "mass_end": 58.0,

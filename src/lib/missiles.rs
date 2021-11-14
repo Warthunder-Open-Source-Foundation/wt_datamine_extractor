@@ -110,6 +110,8 @@ impl Missile {
 	pub fn new_from_file(file: &[u8], name: String) -> Self {
 		let file = String::from_utf8(file.to_vec()).unwrap();
 
+		let name = name.split("/").collect::<Vec<&str>>()[3].split(".").collect::<Vec<&str>>()[0].to_string();
+
 		let seekertype = {
 			if file.contains("irSeeker") {
 				SeekerType::Ir
