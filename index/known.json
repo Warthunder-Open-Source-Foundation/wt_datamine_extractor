@@ -1,8 +1,10 @@
 {
   "path": [
+    "atam_mistral.blkx",
     "fr_r_530_matra_ir.blkx",
     "fr_r_530_matra_radar.blkx",
     "fr_r_550_magic.blkx",
+    "is_shafrir_1.blkx",
     "su_9m39.blkx",
     "su_pl2.blkx",
     "su_pl5b.blkx",
@@ -36,6 +38,7 @@
     "us_aim9g_sidewinder.blkx",
     "us_aim9j_sidewinder.blkx",
     "us_aim9l_sidewinder.blkx",
-    "us_aim9p_sidewinder.blkx"
+    "us_aim9p_sidewinder.blkx",
+    "us_fim-92b.blkx"
   ]
 }
