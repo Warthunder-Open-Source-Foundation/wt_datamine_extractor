@@ -271,6 +271,38 @@ impl Missile {
 		}
 		None
 	}
+
+	pub fn new_from_empty() -> Self {
+		Self {
+			name: "".to_string(),
+			seekertype: SeekerType::Ir,
+			mass: 0.0,
+			mass_end: 0.0,
+			caliber: 0.0,
+			force0: 0.0,
+			force1: 0.0,
+			timefire0: 0.0,
+			timefire1: 0.0,
+			cxk: 0.0,
+			dragcx: 0.0,
+			timelife: 0.0,
+			endspeed: 0.0,
+			exp_mass: 0.0,
+			pfuse: false,
+			loadfactormax: 0.0,
+			reqaccelmax: 0.0,
+			bands: [0.0, 0.0, 0.0, 0.0],
+			fov: 0.0,
+			gate: 0.0,
+			lockanglemax: 0.0,
+			anglemax: 0.0,
+			minangletosun: 0.0,
+			warmuptime: 0.0,
+			worktime: 0.0,
+			cageable: false,
+			deltav: 0.0
+		}
+	}
 }
 
 fn parameter_to_data(file: &str, parameter: &str) -> Option<String> {
