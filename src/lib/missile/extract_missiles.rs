@@ -21,7 +21,7 @@ pub fn extract_known_missiles() {
 		if let Ok(contents) = fs::read(path) {
 			fs::write(format!("missile_index/missiles/{}", known), contents).unwrap();
 		} else {
-			println!("Cannot find {}", known);
+			println!("Can not find {}", known);
 		}
 	}
 }

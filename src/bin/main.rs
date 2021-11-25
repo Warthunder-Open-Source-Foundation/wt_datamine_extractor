@@ -5,14 +5,13 @@ use wt_datamine_extractor_lib::thermal::extract_thermals::KnownThermals;
 use wt_datamine_extractor_lib::thermal::thermals::{Crew, Sight, Thermal, VehicleType, write_all};
 
 fn main() {
-	// if fs::read_dir("resources/cache").is_ok() {
-	// 	extract_known_missiles();
-	// }
-	// generate_raw_missiles(PATH);
-	// println!("Generated new all.json");
+	if fs::read_dir("resources/cache").is_ok() {
+		extract_known_missiles();
+		KnownThermals::generate_index().write_index().copy_index_to_folder();
+	}
+	generate_raw_missiles(PATH);
+	println!("Generated new all.json");
 
-	let known = KnownThermals::generate_index().write_index();
-	known.copy_index_to_folder();
-	let thermals = Thermal::generate_from_index(&known);
+	let thermals = Thermal::generate_from_index(&KnownThermals::from_mine());
 	write_all(&thermals);
 }
