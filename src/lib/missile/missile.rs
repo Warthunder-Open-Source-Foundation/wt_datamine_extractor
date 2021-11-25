@@ -299,7 +299,7 @@ impl Missile {
 			warmuptime: 0.0,
 			worktime: 0.0,
 			cageable: false,
-			deltav: 0.0
+			deltav: 0.0,
 		}
 	}
 }

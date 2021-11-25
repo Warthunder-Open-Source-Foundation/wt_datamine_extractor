@@ -20,7 +20,7 @@ pub fn extract_known_missiles() {
 		let path = format!("resources/cache/aces.vromfs.bin_u/gamedata/weapons/rocketguns/{}", known);
 		if let Ok(contents) = fs::read(path) {
 			fs::write(format!("missile_index/missiles/{}", known), contents).unwrap();
-		}else {
+		} else {
 			println!("Cannot find {}", known);
 		}
 	}
