@@ -1,6 +1,5 @@
 use std::fs;
-
-use crate::extract_missiles::KnownMissiles;
+use crate::missile::extract_missiles::KnownMissiles;
 
 pub const PATH: &str = "./missile_index/missiles";
 
@@ -8,7 +7,7 @@ pub const PATH: &str = "./missile_index/missiles";
 pub struct Missile {
 	// metadata that is global or does not exist on files that are generated
 
-	/// associated file-name of the missiles
+	/// associated file-name of the missile
 	pub name: String,
 
 	/// type of seeker that has to be extracted from the file and represented as enum
@@ -223,7 +222,7 @@ impl Missile {
 	}
 	pub fn new_from_generated(path: Option<&str>, regen: Option<&str>) -> Option<Vec<Self>> {
 		if let Some(value) = regen {
-			generate_raw(value);
+			generate_raw_missiles(value);
 			println!("Regenerating missile-missile_index");
 		}
 
@@ -314,7 +313,7 @@ fn parameter_to_data(file: &str, parameter: &str) -> Option<String> {
 	})
 }
 
-pub fn generate_raw(path: &str) {
+pub fn generate_raw_missiles(path: &str) {
 	let dir_ir = fs::read_dir(format!("{}", path)).unwrap();
 
 	let mut files: Vec<String> = vec![];
