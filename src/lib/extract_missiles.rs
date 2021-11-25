@@ -13,13 +13,13 @@ impl KnownMissiles {
 	}
 }
 
-pub fn extract_known() {
-	let known_raw = fs::read_to_string("index/known.json").unwrap();
+pub fn extract_known_missiles() {
+	let known_raw = fs::read_to_string("missile_index/known.json").unwrap();
 	let known: KnownMissiles = serde_json::from_str(&known_raw).unwrap();
 	for known in known.path {
 		let path = format!("resources/cache/aces.vromfs.bin_u/gamedata/weapons/rocketguns/{}", known);
 		if let Ok(contents) = fs::read(path) {
-			fs::write(format!("index/missiles/{}", known), contents).unwrap();
+			fs::write(format!("missile_index/missiles/{}", known), contents).unwrap();
 		}else {
 			println!("Cannot find {}", known);
 		}

@@ -1,8 +1,8 @@
 use std::fs;
 
-use crate::extract::KnownMissiles;
+use crate::extract_missiles::KnownMissiles;
 
-pub const PATH: &str = "./index/missiles";
+pub const PATH: &str = "./missile_index/missiles";
 
 #[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone)]
 pub struct Missile {
@@ -224,7 +224,7 @@ impl Missile {
 	pub fn new_from_generated(path: Option<&str>, regen: Option<&str>) -> Option<Vec<Self>> {
 		if let Some(value) = regen {
 			generate_raw(value);
-			println!("Regenerating missile-index");
+			println!("Regenerating missile-missile_index");
 		}
 
 		if let Some(path) = path {
@@ -237,10 +237,10 @@ impl Missile {
 					// Serialized result
 					return Some(serialized);
 				} else {
-					println!("Cannot parse missile-index from {}, using fallback", path);
+					println!("Cannot parse missile-missile_index from {}, using fallback", path);
 				}
 			} else {
-				println!("Cannot read missile-index from {}, using fallback", path);
+				println!("Cannot read missile-missile_index from {}, using fallback", path);
 			}
 		}
 		// If the given path does not work in some way a fallback will be used
@@ -248,7 +248,7 @@ impl Missile {
 
 
 		fn get_fallback() -> Option<Vec<Missile>> {
-			static FALLBACK: &str = "index/all.json";
+			static FALLBACK: &str = "missile_index/all.json";
 			if let Ok(from_reader) = fs::read_to_string(FALLBACK) {
 				// Attempt to get from reader
 
@@ -334,9 +334,8 @@ pub fn generate_raw(path: &str) {
 	}
 
 	let known_json = serde_json::to_string_pretty(&known).unwrap();
-	fs::write("index/known.json", known_json).unwrap();
+	fs::write("missile_index/known.json", known_json).unwrap();
 
 	let missiles_json = serde_json::to_string_pretty(&missiles).unwrap();
-	fs::write("../wt_missile_calc/index/all.json", missiles_json).unwrap();
-	//println!("{:#?}", missiles);
+	fs::write("missile_index/all.json", missiles_json).unwrap();
 }
