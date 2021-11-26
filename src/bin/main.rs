@@ -13,5 +13,5 @@ fn main() {
 	println!("Generated new all.json");
 
 	let thermals = Thermal::generate_from_index(&KnownThermals::from_mine());
-	write_all(&thermals);
+	write_all(thermals);
 }

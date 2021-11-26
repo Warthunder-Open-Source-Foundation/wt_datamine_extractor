@@ -324,9 +324,11 @@ pub fn generate_raw_missiles(path: &str) {
 		missiles.push(Missile::new_from_file(&data, file));
 	}
 
+	known.path.sort_by_key(|d| d.clone());
 	let known_json = serde_json::to_string_pretty(&known).unwrap();
 	fs::write("missile_index/known.json", known_json).unwrap();
 
+	missiles.sort_by_key(|d| d.name.clone());
 	let missiles_json = serde_json::to_string_pretty(&missiles).unwrap();
 	fs::write("missile_index/all.json", missiles_json).unwrap();
 }

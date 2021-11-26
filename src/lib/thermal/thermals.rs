@@ -5,7 +5,7 @@ use crate::util::parameter_to_data;
 
 const PATH: &str = "resources/cache/War-Thunder-Datamine-master/aces.vromfs.bin_u/gamedata/units/tankmodels";
 
-#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq)]
+#[derive(Clone, serde::Serialize, serde::Deserialize, Debug, PartialEq)]
 pub struct Thermal {
 	pub name: String,
 	pub vehicle_type: VehicleType,
@@ -45,8 +45,7 @@ impl Thermal {
 					sights.push(Sight::from_file(&file, "sightThermal"));
 				}
 
-				let mut name: String = parameter_to_data(&file, "model").unwrap().trim().to_string();
-				name  = name[1..name.len() - 1].to_string();
+				let mut name: String = i.to_owned();
 
 				if sights.len() == 0 {
 					panic!(format!("Missing sight on {}", name))
@@ -62,7 +61,8 @@ impl Thermal {
 	}
 }
 
-pub fn write_all(values: &Vec<Thermal>) {
+pub fn write_all(mut values: Vec<Thermal>) {
+	values.sort_by_key(|d|d.name.clone());
 	fs::write("thermal_index/all.json", serde_json::to_string_pretty(&values).unwrap()).unwrap();
 }
 
@@ -88,14 +88,14 @@ impl Sight {
 	}
 }
 
-#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq)]
+#[derive(Clone, Copy, serde::Serialize, serde::Deserialize, Debug, PartialEq)]
 pub struct Sight {
 	pub crew: Crew,
 	pub x: f64,
 	pub y: f64,
 }
 
-#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq)]
+#[derive(Clone, Copy, serde::Serialize, serde::Deserialize, Debug, PartialEq)]
 pub enum Crew {
 	Global = 0,
 	Gunner = 1,
@@ -103,7 +103,7 @@ pub enum Crew {
 	Driver = 3,
 }
 
-#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq)]
+#[derive(Clone, Copy, serde::Serialize, serde::Deserialize, Debug, PartialEq)]
 pub enum VehicleType {
 	Tank = 0,
 	Helicopter = 1,
