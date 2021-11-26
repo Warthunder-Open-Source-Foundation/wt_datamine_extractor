@@ -17,11 +17,11 @@ impl Thermal {
 		let mut generated: Vec<Self> = vec![];
 		for i in &index.path {
 			if let Ok(file) = fs::read_to_string(format!("thermal_index/thermals/{}", i)) {
-				let vehicle_type = if file.contains("FM") {
+				let vehicle_type = if file.contains("fmFile") {
 					if file.contains("helicopter") {
-						VehicleType::Aircraft
-					} else {
 						VehicleType::Helicopter
+					} else {
+						VehicleType::Aircraft
 					}
 				} else {
 					VehicleType::Tank

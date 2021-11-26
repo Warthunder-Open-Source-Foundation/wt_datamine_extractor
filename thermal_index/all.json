@@ -1,6 +1,44 @@
 [
   {
-    "name": "cm_11",
+    "name": "leclerc_s2",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "ztz_99",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Commander",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "wma_301",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "xm1_chrysler",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -11,7 +49,7 @@
     ]
   },
   {
-    "name": "m60a3_tts",
+    "name": "m1_abrams",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -33,7 +71,7 @@
     ]
   },
   {
-    "name": "pgz_09",
+    "name": "t_72b3_2011",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -44,328 +82,7 @@
     ]
   },
   {
-    "name": "ptl_02",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "type_59d",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "wma_301",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "ztl_11",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      },
-      {
-        "crew": "Commander",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "ztz_96a",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "ztz_96a",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "ztz_99",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      },
-      {
-        "crew": "Commander",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "ztz_99_w",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      },
-      {
-        "crew": "Commander",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "amx_10rc",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "amx_30_b2",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "amx_30_b2_brenus",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "amx_30_super",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "amx_32",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "amx_40",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "crotale_ng",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "leclerc_s1",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "leclerc_s2",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "sk105_a2",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 1200.0,
-        "y": 800.0
-      }
-    ]
-  },
-  {
-    "name": "begleitpanzer_57",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "flarakrad",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "leopard_1a5",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "leopard_2a4",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "leopard_2a5",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      },
-      {
-        "crew": "Commander",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "leopard_2a5",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      },
-      {
-        "crew": "Commander",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "leopard_2a6",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      },
-      {
-        "crew": "Commander",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "leopard_2pl",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      },
-      {
-        "crew": "Commander",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "leopard_a1a1_120",
+    "name": "merkava_mk_3d",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -387,7 +104,7 @@
     ]
   },
   {
-    "name": "marder_1a3",
+    "name": "rooikat_mttd",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -398,30 +115,8 @@
     ]
   },
   {
-    "name": "super_m48",
+    "name": "cv_90120",
     "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "sk105_a2",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 1200.0,
-        "y": 800.0
-      }
-    ]
-  },
-  {
-    "name": "thyssen_henschel_tam_2c",
-    "vehicle_type": "Helicopter",
     "sights": [
       {
         "crew": "Gunner",
@@ -436,18 +131,7 @@
     ]
   },
   {
-    "name": "wiesel_1_mk20",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 1200.0,
-        "y": 800.0
-      }
-    ]
-  },
-  {
-    "name": "wiesel_1_tow",
+    "name": "type_90b",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -458,18 +142,7 @@
     ]
   },
   {
-    "name": "wiesel_2_adwc",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "b1_centauro",
+    "name": "leopard_2a4",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -480,34 +153,7 @@
     ]
   },
   {
-    "name": "b1_centauro_romor",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "c1_ariete",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      },
-      {
-        "crew": "Commander",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "c1_ariete_preserie",
+    "name": "type_90",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -534,83 +180,105 @@
     ]
   },
   {
-    "name": "centauro_mgs_120",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      },
-      {
-        "crew": "Commander",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "dardo_vcc",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "leopard_1a5",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "otomatic",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "vcc_80_hitfist_30",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "type_16",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 1200.0,
-        "y": 800.0
-      },
-      {
-        "crew": "Commander",
-        "x": 1200.0,
-        "y": 800.0
-      }
-    ]
-  },
-  {
     "name": "type_74g_kai",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "wiesel_2_adwc",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "bmp_3",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "t_80u",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "t_72b3_2011",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "m3a3_bradley",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Commander",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "2s6",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "leopard_2pl",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Commander",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "xm1_gm",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -632,7 +300,23 @@
     ]
   },
   {
-    "name": "type_90",
+    "name": "cv_90105_tml",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Commander",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "challenger_1",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -643,11 +327,463 @@
     ]
   },
   {
-    "name": "type_90b",
+    "name": "leopard_2a5",
     "vehicle_type": "Tank",
     "sights": [
       {
         "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      },
+      {
+        "crew": "Commander",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "wiesel_1_mk20",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "m60a3_tts",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "rooikat_105_td",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "sk105_a2",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "super_m48",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "fv510_isv",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "pgz_09",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "t_80u",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "amx_40",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "b1_centauro",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "leopard_a1a1_120",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "ztz_96a",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "adats_bradley",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "amx_30_b2_brenus",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "xm_8",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "9p157",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "flarakrad",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "ztl_11",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Commander",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "amx_10rc",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "challenger_2_dorchester",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "m1a1_abrams",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "challenger_2",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "amx_32",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "strf_9056",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Commander",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "m60a3_tts",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "m1a1_abrams",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "c1_ariete",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Commander",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "type_16",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      },
+      {
+        "crew": "Commander",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "cm_11",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "bmd_4",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "leopard_2a4",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "strv_122b_plss",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      },
+      {
+        "crew": "Commander",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "m901_itv",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "ztz_99_w",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Commander",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "wiesel_1_tow",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "2s25m",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      },
+      {
+        "crew": "Commander",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "m1a2_abrams",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      },
+      {
+        "crew": "Commander",
         "x": 500.0,
         "y": 300.0
       }
@@ -655,6 +791,405 @@
   },
   {
     "name": "type_93",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "ratel_zt3",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "vcc_80_hitfist_30",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "centauro_mgs_120",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Commander",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "amx_30_b2",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "m1_ip_abrams",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "t_80u",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "c1_ariete_preserie",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "leclerc_s1",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "hstv_l",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      },
+      {
+        "crew": "Commander",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "t_80bvm",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "fv102_striker",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "lvkv_90c",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "bmp_2m",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "m60a3_slep",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Commander",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "m1128_mgs",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      },
+      {
+        "crew": "Commander",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "ttd",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "vickers_mk_7",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "otomatic",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "leopard_1a5",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "ptl_02",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "9p149",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "thyssen_henschel_tam_2c",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      },
+      {
+        "crew": "Commander",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "b1_centauro_romor",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "t_80b",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "leopard_1a5",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "dardo_vcc",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "ztz_96a",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "strf_90c",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "amx_30_super",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "challenger_2",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "t_90a",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "type_59d",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "crotale_ng",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "sk105_a2",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -692,612 +1227,7 @@
     ]
   },
   {
-    "name": "crotale_ng",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "cv_90105_tml",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      },
-      {
-        "crew": "Commander",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "cv_90120",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 1200.0,
-        "y": 800.0
-      },
-      {
-        "crew": "Commander",
-        "x": 1200.0,
-        "y": 800.0
-      }
-    ]
-  },
-  {
-    "name": "lvkv_90c",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "strf_9056",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      },
-      {
-        "crew": "Commander",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "strf_90b",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "strf_90c",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "leopard_2a4",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "strv_122b",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      },
-      {
-        "crew": "Commander",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "strv_122b_plss",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      },
-      {
-        "crew": "Commander",
-        "x": 1200.0,
-        "y": 800.0
-      }
-    ]
-  },
-  {
-    "name": "adats_m113a3",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "challenger_1",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "challenger_2_dorchester",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "challenger_2",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "challenger_2",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "challenger_mk_3",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "fv102_striker",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "fv510_isv",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 1200.0,
-        "y": 800.0
-      }
-    ]
-  },
-  {
-    "name": "olifant_mk_2",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      },
-      {
-        "crew": "Commander",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "ratel_zt3",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "rooikat_105_td",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "rooikat_mttd",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "stormer_hvm",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 1200.0,
-        "y": 800.0
-      }
-    ]
-  },
-  {
-    "name": "ttd",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "vickers_mk_7",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "2s25m",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 1200.0,
-        "y": 800.0
-      },
-      {
-        "crew": "Commander",
-        "x": 1200.0,
-        "y": 800.0
-      }
-    ]
-  },
-  {
-    "name": "9p149",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "9p157",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "bmd_4",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "bmp_2m",
-    "vehicle_type": "Helicopter",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "bmp_3",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
     "name": "t_72av_turms",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      },
-      {
-        "crew": "Commander",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "t_72b3_2011",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "t_72b3_2011",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "t_80b",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "t_80bvm",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 1200.0,
-        "y": 800.0
-      }
-    ]
-  },
-  {
-    "name": "t_80u",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "t_80u",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "t_80u",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "t_90a",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "2s6",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 1200.0,
-        "y": 800.0
-      }
-    ]
-  },
-  {
-    "name": "adats_bradley",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "hstv_l",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      },
-      {
-        "crew": "Commander",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "m1128_mgs",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 1200.0,
-        "y": 800.0
-      },
-      {
-        "crew": "Commander",
-        "x": 1200.0,
-        "y": 800.0
-      }
-    ]
-  },
-  {
-    "name": "m1a1_abrams",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "m1a1_abrams",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "m1a1_hc_abrams",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "m1a2_abrams",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      },
-      {
-        "crew": "Commander",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "m1_abrams",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "m1_ip_abrams",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "m3a3_bradley",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1324,7 +1254,78 @@
     ]
   },
   {
-    "name": "m60a3_slep",
+    "name": "challenger_mk_3",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "strv_122b",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      },
+      {
+        "crew": "Commander",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "m1a1_hc_abrams",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "marder_1a3",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "strf_90b",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "crotale_ng",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "olifant_mk_2",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1340,7 +1341,34 @@
     ]
   },
   {
-    "name": "m60a3_tts",
+    "name": "stormer_hvm",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "leopard_2a6",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      },
+      {
+        "crew": "Commander",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "adats_m113a3",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1351,13 +1379,29 @@
     ]
   },
   {
-    "name": "m901_itv",
+    "name": "begleitpanzer_57",
     "vehicle_type": "Tank",
     "sights": [
       {
         "crew": "Gunner",
         "x": 500.0,
         "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "leopard_2a5",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      },
+      {
+        "crew": "Commander",
+        "x": 800.0,
+        "y": 600.0
       }
     ]
   },
@@ -1373,140 +1417,8 @@
     ]
   },
   {
-    "name": "merkava_mk_3d",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "xm1_chrysler",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "xm1_gm",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "xm_8",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "ah_1f",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
-      }
-    ]
-  },
-  {
-    "name": "ah_1s",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
-      }
-    ]
-  },
-  {
-    "name": "ah_1s_late",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
-      }
-    ]
-  },
-  {
-    "name": "ah_1z",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
-      }
-    ]
-  },
-  {
-    "name": "ah_64a",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
-      }
-    ]
-  },
-  {
-    "name": "ah_64a",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
-      }
-    ]
-  },
-  {
     "name": "ah_64d_usa",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
-      }
-    ]
-  },
-  {
-    "name": "ah_64d_japan",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
-      }
-    ]
-  },
-  {
-    "name": "ah_mk1",
-    "vehicle_type": "Tank",
+    "vehicle_type": "Helicopter",
     "sights": [
       {
         "crew": "Global",
@@ -1517,7 +1429,7 @@
   },
   {
     "name": "a_129_a",
-    "vehicle_type": "Tank",
+    "vehicle_type": "Helicopter",
     "sights": [
       {
         "crew": "Global",
@@ -1527,129 +1439,8 @@
     ]
   },
   {
-    "name": "a_129_cbt",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
-      }
-    ]
-  },
-  {
-    "name": "a_7e",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Global",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "g_lynx",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
-      }
-    ]
-  },
-  {
-    "name": "jaguar_gr1a",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Global",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "ka_52",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
-      }
-    ]
-  },
-  {
-    "name": "lynx_ah_mk1",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
-      }
-    ]
-  },
-  {
-    "name": "mi_28n",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
-      }
-    ]
-  },
-  {
-    "name": "mi_28nm",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
-      }
-    ]
-  },
-  {
-    "name": "mi_35m",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
-      }
-    ]
-  },
-  {
-    "name": "sa_341f",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
-      }
-    ]
-  },
-  {
-    "name": "sa_342m",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
-      }
-    ]
-  },
-  {
-    "name": "tiger_had_france",
-    "vehicle_type": "Tank",
+    "name": "ah_1s_late",
+    "vehicle_type": "Helicopter",
     "sights": [
       {
         "crew": "Global",
@@ -1660,7 +1451,7 @@
   },
   {
     "name": "tiger_hap_france",
-    "vehicle_type": "Tank",
+    "vehicle_type": "Helicopter",
     "sights": [
       {
         "crew": "Global",
@@ -1670,8 +1461,41 @@
     ]
   },
   {
-    "name": "tiger_uht",
-    "vehicle_type": "Tank",
+    "name": "ah_mk1",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "sa_341f",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "ka_52",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "a_129_cbt",
+    "vehicle_type": "Helicopter",
     "sights": [
       {
         "crew": "Global",
@@ -1682,7 +1506,183 @@
   },
   {
     "name": "yah_64",
-    "vehicle_type": "Tank",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "ah_64a",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "tiger_had_france",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "g_lynx",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "mi_28n",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "tiger_uht",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "jaguar_gr1a",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "ah_64d_japan",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "ah_1z",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "ah_64a",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "a_7e",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "mi_35m",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "sa_342m",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "ah_1f",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "lynx_ah_mk1",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "mi_28nm",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "ah_1s",
+    "vehicle_type": "Helicopter",
     "sights": [
       {
         "crew": "Global",
