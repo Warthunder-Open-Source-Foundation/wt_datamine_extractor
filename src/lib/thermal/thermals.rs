@@ -1,4 +1,5 @@
 use std::fs;
+use crate::lang::unit_to_local;
 
 use crate::thermal::extract_thermals::KnownThermals;
 use crate::util::parameter_to_data;
@@ -8,6 +9,7 @@ const PATH: &str = "resources/cache/War-Thunder-Datamine-master/aces.vromfs.bin_
 #[derive(Clone, serde::Serialize, serde::Deserialize, Debug, PartialEq)]
 pub struct Thermal {
 	pub name: String,
+	pub localized: String,
 	pub vehicle_type: VehicleType,
 	pub sights: Vec<Sight>,
 }
@@ -45,12 +47,13 @@ impl Thermal {
 					sights.push(Sight::from_file(&file, "sightThermal"));
 				}
 
-				let mut name: String = i.to_owned();
+				let mut name: String = i.split(".").collect::<Vec<&str>>()[0].to_owned();
 
 				if sights.len() == 0 {
 					panic!(format!("Missing sight on {}", name))
 				}
 				generated.push(Self {
+					localized: unit_to_local(&name, "lang/units.csv"),
 					name,
 					vehicle_type,
 					sights,

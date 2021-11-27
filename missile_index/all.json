@@ -1,6 +1,7 @@
 [
   {
     "name": "atam_mistral",
+    "localized": "Mistral",
     "seekertype": "Ir",
     "mass": 18.7,
     "mass_end": 12.5,
@@ -35,6 +36,7 @@
   },
   {
     "name": "fr_r_530_matra_ir",
+    "localized": "Matra R530E",
     "seekertype": "Ir",
     "mass": 193.5,
     "mass_end": 160.0,
@@ -69,6 +71,7 @@
   },
   {
     "name": "fr_r_530_matra_radar",
+    "localized": "Matra R530",
     "seekertype": "Radar",
     "mass": 193.5,
     "mass_end": 160.0,
@@ -103,6 +106,7 @@
   },
   {
     "name": "fr_r_550_magic",
+    "localized": "Matra R550 Magic 1",
     "seekertype": "Ir",
     "mass": 89.0,
     "mass_end": 62.0,
@@ -137,6 +141,7 @@
   },
   {
     "name": "is_shafrir_1",
+    "localized": "Shafrir",
     "seekertype": "Ir",
     "mass": 65.0,
     "mass_end": 45.0,
@@ -171,6 +176,7 @@
   },
   {
     "name": "su_9m39",
+    "localized": "9M39",
     "seekertype": "Ir",
     "mass": 10.6,
     "mass_end": 8.0068,
@@ -205,6 +211,7 @@
   },
   {
     "name": "su_pl2",
+    "localized": "PL-2",
     "seekertype": "Ir",
     "mass": 75.3,
     "mass_end": 54.8,
@@ -239,6 +246,7 @@
   },
   {
     "name": "su_pl5b",
+    "localized": "PL-5B",
     "seekertype": "Ir",
     "mass": 84.0,
     "mass_end": 59.7,
@@ -273,6 +281,7 @@
   },
   {
     "name": "su_r_13m",
+    "localized": "R-13M",
     "seekertype": "Ir",
     "mass": 87.7,
     "mass_end": 60.0,
@@ -307,6 +316,7 @@
   },
   {
     "name": "su_r_23r",
+    "localized": "R-23R",
     "seekertype": "Radar",
     "mass": 223.0,
     "mass_end": 190.0,
@@ -341,6 +351,7 @@
   },
   {
     "name": "su_r_23t",
+    "localized": "R-23T",
     "seekertype": "Ir",
     "mass": 215.0,
     "mass_end": 182.0,
@@ -375,6 +386,7 @@
   },
   {
     "name": "su_r_24r",
+    "localized": "R-24R",
     "seekertype": "Radar",
     "mass": 244.0,
     "mass_end": 169.0,
@@ -409,6 +421,7 @@
   },
   {
     "name": "su_r_24t",
+    "localized": "R-24T",
     "seekertype": "Ir",
     "mass": 237.0,
     "mass_end": 162.0,
@@ -443,6 +456,7 @@
   },
   {
     "name": "su_r_3r",
+    "localized": "R-3R",
     "seekertype": "Radar",
     "mass": 75.3,
     "mass_end": 54.8,
@@ -477,6 +491,7 @@
   },
   {
     "name": "su_r_3s",
+    "localized": "R-3S",
     "seekertype": "Ir",
     "mass": 75.3,
     "mass_end": 54.8,
@@ -511,6 +526,7 @@
   },
   {
     "name": "su_r_60",
+    "localized": "R-60",
     "seekertype": "Ir",
     "mass": 44.0,
     "mass_end": 34.0,
@@ -545,6 +561,7 @@
   },
   {
     "name": "su_r_60m",
+    "localized": "R-60M",
     "seekertype": "Ir",
     "mass": 44.0,
     "mass_end": 34.0,
@@ -579,6 +596,7 @@
   },
   {
     "name": "swd_rb24",
+    "localized": "RB24",
     "seekertype": "Ir",
     "mass": 72.57,
     "mass_end": 55.8,
@@ -613,6 +631,7 @@
   },
   {
     "name": "swd_rb24j",
+    "localized": "RB24J",
     "seekertype": "Ir",
     "mass": 76.93,
     "mass_end": 58.0,
@@ -647,6 +666,7 @@
   },
   {
     "name": "swd_rb71",
+    "localized": "RB71",
     "seekertype": "Radar",
     "mass": 193.0,
     "mass_end": 146.0,
@@ -681,6 +701,7 @@
   },
   {
     "name": "uk_firestreak",
+    "localized": "Firestreak",
     "seekertype": "Ir",
     "mass": 136.0,
     "mass_end": 96.0,
@@ -715,6 +736,7 @@
   },
   {
     "name": "uk_redtop",
+    "localized": "Red Top",
     "seekertype": "Ir",
     "mass": 167.0,
     "mass_end": 105.0,
@@ -749,6 +771,7 @@
   },
   {
     "name": "uk_skyflash_aim_7",
+    "localized": "Skyflash",
     "seekertype": "Radar",
     "mass": 193.0,
     "mass_end": 146.0,
@@ -783,6 +806,7 @@
   },
   {
     "name": "uk_skyflash_aim_7_dogfight",
+    "localized": "Skyflash (DF)",
     "seekertype": "Radar",
     "mass": 193.0,
     "mass_end": 146.0,
@@ -817,6 +841,7 @@
   },
   {
     "name": "uk_sraam",
+    "localized": "SRAAM",
     "seekertype": "Ir",
     "mass": 70.0,
     "mass_end": 51.0,
@@ -851,6 +876,7 @@
   },
   {
     "name": "us_aim7c_sparrow",
+    "localized": "AIM-7C",
     "seekertype": "Radar",
     "mass": 172.0,
     "mass_end": 144.0,
@@ -885,6 +911,7 @@
   },
   {
     "name": "us_aim7d_sparrow",
+    "localized": "AIM-7D",
     "seekertype": "Radar",
     "mass": 197.0,
     "mass_end": 144.0,
@@ -919,6 +946,7 @@
   },
   {
     "name": "us_aim7e2_dogfight_sparrow",
+    "localized": "AIM-7E-2 (DF)",
     "seekertype": "Radar",
     "mass": 193.7,
     "mass_end": 146.0,
@@ -953,6 +981,7 @@
   },
   {
     "name": "us_aim7e_sparrow",
+    "localized": "AIM-7E",
     "seekertype": "Radar",
     "mass": 205.0,
     "mass_end": 146.0,
@@ -987,6 +1016,7 @@
   },
   {
     "name": "us_aim92_stinger",
+    "localized": "AIM-92 Stinger",
     "seekertype": "Ir",
     "mass": 10.1,
     "mass_end": 7.35,
@@ -1021,6 +1051,7 @@
   },
   {
     "name": "us_aim9b_fgw_2_sidewinder",
+    "localized": "AIM-9B FGW.2",
     "seekertype": "Ir",
     "mass": 72.57,
     "mass_end": 55.8,
@@ -1055,6 +1086,7 @@
   },
   {
     "name": "us_aim9b_sidewinder",
+    "localized": "AIM-9B",
     "seekertype": "Ir",
     "mass": 72.57,
     "mass_end": 55.8,
@@ -1089,6 +1121,7 @@
   },
   {
     "name": "us_aim9c_sidewinder",
+    "localized": "AIM-9C",
     "seekertype": "Radar",
     "mass": 88.45,
     "mass_end": 55.8,
@@ -1123,6 +1156,7 @@
   },
   {
     "name": "us_aim9d_sidewinder",
+    "localized": "AIM-9D",
     "seekertype": "Ir",
     "mass": 88.45,
     "mass_end": 55.8,
@@ -1157,6 +1191,7 @@
   },
   {
     "name": "us_aim9e_sidewinder",
+    "localized": "AIM-9E",
     "seekertype": "Ir",
     "mass": 76.43,
     "mass_end": 57.5,
@@ -1191,6 +1226,7 @@
   },
   {
     "name": "us_aim9g_sidewinder",
+    "localized": "AIM-9G",
     "seekertype": "Ir",
     "mass": 88.45,
     "mass_end": 55.8,
@@ -1225,6 +1261,7 @@
   },
   {
     "name": "us_aim9j_sidewinder",
+    "localized": "AIM-9J",
     "seekertype": "Ir",
     "mass": 76.93,
     "mass_end": 58.0,
@@ -1259,6 +1296,7 @@
   },
   {
     "name": "us_aim9l_sidewinder",
+    "localized": "AIM-9L",
     "seekertype": "Ir",
     "mass": 84.46,
     "mass_end": 57.06,
@@ -1293,6 +1331,7 @@
   },
   {
     "name": "us_aim9p_sidewinder",
+    "localized": "AIM-9P",
     "seekertype": "Ir",
     "mass": 76.93,
     "mass_end": 58.0,
@@ -1327,6 +1366,7 @@
   },
   {
     "name": "us_fim-92b",
+    "localized": "Fim-92B",
     "seekertype": "Ir",
     "mass": 10.1,
     "mass_end": 7.35,

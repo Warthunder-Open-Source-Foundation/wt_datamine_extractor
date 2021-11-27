@@ -1,4 +1,5 @@
 use std::fs;
+use crate::lang::unit_to_local;
 use crate::missile::extract_missiles::KnownMissiles;
 use crate::util::parameter_to_data;
 
@@ -10,6 +11,9 @@ pub struct Missile {
 
 	/// associated file-name of the missile
 	pub name: String,
+
+	/// english localized name
+	pub localized: String,
 
 	/// type of seeker that has to be extracted from the file and represented as enum
 	pub seekertype: SeekerType,
@@ -192,6 +196,8 @@ impl Missile {
 		let cageable = parameter_to_data(&file, "uncageBeforeLaunch").unwrap().parse().unwrap();
 
 		Self {
+			// localized first as the borrow consumes name otherwise
+			localized: unit_to_local(&name, "lang/weaponry.csv"),
 			name,
 			seekertype,
 			mass,
@@ -275,6 +281,7 @@ impl Missile {
 	pub fn new_from_empty() -> Self {
 		Self {
 			name: "".to_string(),
+			localized: "".to_string(),
 			seekertype: SeekerType::Ir,
 			mass: 0.0,
 			mass_end: 0.0,
