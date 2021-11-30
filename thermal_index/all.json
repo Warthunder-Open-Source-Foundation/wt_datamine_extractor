@@ -85,7 +85,7 @@
   },
   {
     "name": "ah_64a",
-    "localized": "AH-64A Peten",
+    "localized": "AH-64A",
     "vehicle_type": "Helicopter",
     "sights": [
       {
@@ -270,7 +270,7 @@
   },
   {
     "name": "cn_ztz_99",
-    "localized": "ZTZ99-III",
+    "localized": "ZTZ99-II",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -501,7 +501,7 @@
   },
   {
     "name": "germ_leopard_2a5_yt_cup_2019",
-    "localized": "␙Leopard 2A5",
+    "localized": "Leopard 2A5 YT cup",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -665,7 +665,7 @@
   },
   {
     "name": "it_b1_centauro",
-    "localized": "Centauro I (105) R",
+    "localized": "Centauro I (105)",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -689,7 +689,7 @@
   },
   {
     "name": "it_c1_ariete",
-    "localized": "Ariete PSO",
+    "localized": "Ariete",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -853,7 +853,7 @@
   },
   {
     "name": "jp_type_90",
-    "localized": "Type 90 (B)",
+    "localized": "Type 90",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1113,7 +1113,7 @@
   },
   {
     "name": "sw_strv_122",
-    "localized": "Strv 122B PLSS",
+    "localized": "Strv 122A",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1231,7 +1231,7 @@
   },
   {
     "name": "uk_challenger_ii_yt_cup_2019",
-    "localized": "␙Challenger 2",
+    "localized": "Challenger 2 YT cup",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1450,7 +1450,7 @@
   },
   {
     "name": "us_m1a1_abrams_yt_cup_2019",
-    "localized": "␙M1A1",
+    "localized": "M1A1 YT cup",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1787,7 +1787,7 @@
   },
   {
     "name": "ussr_t_80u_yt_cup_2019",
-    "localized": "␙T-80U",
+    "localized": "T-80U YT cup",
     "vehicle_type": "Tank",
     "sights": [
       {
