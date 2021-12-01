@@ -1,4 +1,5 @@
 use std::fs;
+use any_ascii::any_ascii;
 
 pub fn extract_csv() {
 	let units = fs::read("resources/cache/lang.vromfs.bin_u/lang/units.csv").unwrap();
@@ -32,7 +33,8 @@ pub fn unit_to_local(target: &str, path: &str) -> String {
 	for i in to_scan {
 		for item in &parsed {
 			if item.0.to_lowercase() == i.to_lowercase() {
-				return item.1.clone()
+				let possibly_non_ascii = &item.1;
+				return any_ascii(possibly_non_ascii)
 			}
 		}
 	}

@@ -3,6 +3,12 @@
 version = 3
 
 [[package]]
+name = "any_ascii"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2ff4eacbbe7430f589efd00fde89220646ada6e1a81b0ea220bf88ac62b5d615"
+
+[[package]]
 name = "bstr"
 version = "0.2.17"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -136,6 +142,7 @@ checksum = "8ccb82d61f80a663efe1f787a51b16b5a51e3314d6ac365b08639f52387b33f3"
 name = "wt_datamine_extractor"
 version = "0.2.0"
 dependencies = [
+ "any_ascii",
  "csv",
  "serde",
  "serde_json",
