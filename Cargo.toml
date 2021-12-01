@@ -1,7 +1,7 @@
 [package]
 name = "wt_datamine_extractor"
 version = "0.2.0"
-edition = "2021"
+edition = "2018"
 
 [lib]
 name = "wt_datamine_extractor_lib"
