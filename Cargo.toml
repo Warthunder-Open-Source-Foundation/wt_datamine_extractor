@@ -14,14 +14,18 @@ path = "src/bin/main.rs"
 [profile.release]
 # This makes the compiled code faster and smaller, but it makes compiling slower,
 # so it's only enabled in release mode.
-opt-level = "s"
+opt-level = 3 # Opt 3 seems to have the best compile/run ratio
+
+# Debug data is very useful even when running fast during work
 debug = true
-split-debuginfo = '...'  # Platform-specific.
 debug-assertions = true
 overflow-checks = true
-lto = true
+
+lto = false # Tested it, seems the best ratio
+
+# Just good for compile times
 incremental = true
-codegen-units = 8
+codegen-units = 256
 rpath = false
 
 [dependencies]

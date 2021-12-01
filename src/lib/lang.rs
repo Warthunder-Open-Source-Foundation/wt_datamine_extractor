@@ -59,6 +59,9 @@ fn edge_case_localize_after(raw: &str) -> Option<&str> {
 		"us_fim-92b" => {
 			Some("Fim-92B")
 		}
+		"su_9m336" => {
+			Some("9K333 Werba (hidden)")
+		}
 		"space_rocket_launcher" => {
 			Some("Space rocket launcher")
 		}

@@ -1,9 +1,10 @@
+use std::env::var;
 use std::fs;
+
 use crate::lang::unit_to_local;
 use crate::missile::extract_missiles::KnownMissiles;
+use crate::MISSILES_PATH;
 use crate::util::parameter_to_data;
-
-pub const PATH: &str = "./missile_index/missiles";
 
 #[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone)]
 pub struct Missile {
@@ -114,8 +115,6 @@ impl Missile {
 	pub fn new_from_file(file: &[u8], name: String) -> Self {
 		let file = String::from_utf8(file.to_vec()).unwrap();
 
-		let name = name.split("/").collect::<Vec<&str>>()[3].split(".").collect::<Vec<&str>>()[0].to_string();
-
 		let seekertype = {
 			if file.contains("irSeeker") {
 				SeekerType::Ir
@@ -150,7 +149,7 @@ impl Missile {
 
 		let exp_mass = parameter_to_data(&file, "explosiveMass").unwrap().parse().unwrap();
 
-		let pfuse = parameter_to_data(&file, "hasProximityFuse").unwrap().parse().unwrap();
+		let pfuse = parameter_to_data(&file, "hasProximityFuse").map_or(false, |value| value.parse().unwrap());
 
 		let loadfactormax = parameter_to_data(&file, "loadFactorMax").unwrap().parse().unwrap();
 
@@ -227,115 +226,25 @@ impl Missile {
 			deltav: ((force0 / mass * timefire0) + (force1 / mass * timefire1)).round(),
 		}
 	}
-	pub fn new_from_generated(path: Option<&str>, regen: Option<&str>) -> Option<Vec<Self>> {
-		if let Some(value) = regen {
-			generate_raw_missiles(value);
-			println!("Regenerating missile-missile_index");
-		}
 
-		if let Some(path) = path {
-			// Path provided
+	pub fn write_all(mut values: Vec<Self>) -> Vec<Self> {
+		values.sort_by_key(|d|d.name.clone());
+		fs::write("missile_index/all.json", serde_json::to_string_pretty(&values).unwrap()).unwrap();
+		values
+	}
 
-			if let Ok(from_reader) = fs::read_to_string(path) {
-				// Attempt to get from reader
+	pub fn generate_from_index(index: &KnownMissiles) -> Vec<Self> {
+		let mut generated: Vec<Self> = vec![];
+		for i in &index.path {
+			if let Ok(file) = fs::read(format!("missile_index/missiles/{}", i)) {
 
-				if let Ok(serialized) = serde_json::from_str::<Vec<Self>>(&from_reader) {
-					// Serialized result
-					return Some(serialized);
-				} else {
-					println!("Cannot parse missile-missile_index from {}, using fallback", path);
-				}
-			} else {
-				println!("Cannot read missile-missile_index from {}, using fallback", path);
+				let mut name = i.split(".").collect::<Vec<&str>>()[0].to_owned();
+
+				let missile = Missile::new_from_file(&file, name);
+
+				generated.push(missile)
 			}
 		}
-		// If the given path does not work in some way a fallback will be used
-		return get_fallback();
-
-
-		fn get_fallback() -> Option<Vec<Missile>> {
-			static FALLBACK: &str = "missile_index/all.json";
-			if let Ok(from_reader) = fs::read_to_string(FALLBACK) {
-				// Attempt to get from reader
-
-				if let Ok(serialized) = serde_json::from_str::<Vec<Missile>>(&from_reader) {
-					// Serialized result
-					return Some(serialized);
-				}
-				println!("Fallback {} cannot be parsed", FALLBACK);
-				return None;
-			}
-			println!("Fallback {} cannot be found", FALLBACK);
-			None
-		}
+		generated
 	}
-	pub fn select_by_name(missiles: &Vec<Self>, name: &str) -> Option<Self> {
-		for (i, missile) in missiles.iter().enumerate() {
-			if missile.name.contains(&name.replace("-", "_")) {
-				return Some(missiles[i].clone());
-			}
-		}
-		None
-	}
-
-	pub fn new_from_empty() -> Self {
-		Self {
-			name: "".to_string(),
-			localized: "".to_string(),
-			seekertype: SeekerType::Ir,
-			mass: 0.0,
-			mass_end: 0.0,
-			caliber: 0.0,
-			force0: 0.0,
-			force1: 0.0,
-			timefire0: 0.0,
-			timefire1: 0.0,
-			cxk: 0.0,
-			dragcx: 0.0,
-			timelife: 0.0,
-			endspeed: 0.0,
-			exp_mass: 0.0,
-			pfuse: false,
-			loadfactormax: 0.0,
-			reqaccelmax: 0.0,
-			bands: [0.0, 0.0, 0.0, 0.0],
-			fov: 0.0,
-			gate: 0.0,
-			lockanglemax: 0.0,
-			anglemax: 0.0,
-			minangletosun: 0.0,
-			warmuptime: 0.0,
-			worktime: 0.0,
-			cageable: false,
-			deltav: 0.0,
-		}
-	}
-}
-
-pub fn generate_raw_missiles(path: &str) {
-	let dir_ir = fs::read_dir(format!("{}", path)).unwrap();
-
-	let mut files: Vec<String> = vec![];
-	let mut known: KnownMissiles = KnownMissiles::new_from_index(vec![]);
-	for (_, entry) in dir_ir.enumerate() {
-		let file_name = entry.unwrap().file_name().into_string().unwrap();
-		if file_name.contains("blkx") {
-			files.push(format!("{}/{}", path, file_name));
-			known.path.push(file_name);
-		}
-	}
-
-	let mut missiles: Vec<Missile> = vec![];
-	for file in files {
-		let data = fs::read(&file).unwrap();
-		missiles.push(Missile::new_from_file(&data, file));
-	}
-
-	known.path.sort_by_key(|d| d.clone());
-	let known_json = serde_json::to_string_pretty(&known).unwrap();
-	fs::write("missile_index/known.json", known_json).unwrap();
-
-	missiles.sort_by_key(|d| d.name.clone());
-	let missiles_json = serde_json::to_string_pretty(&missiles).unwrap();
-	fs::write("missile_index/all.json", missiles_json).unwrap();
 }

@@ -62,11 +62,12 @@ impl Thermal {
 		}
 		generated
 	}
-}
 
-pub fn write_all(mut values: Vec<Thermal>) {
-	values.sort_by_key(|d|d.name.clone());
-	fs::write("thermal_index/all.json", serde_json::to_string_pretty(&values).unwrap()).unwrap();
+	pub fn write_all(mut values: Vec<Self>) -> Vec<Self> {
+		values.sort_by_key(|d|d.name.clone());
+		fs::write("thermal_index/all.json", serde_json::to_string_pretty(&values).unwrap()).unwrap();
+		values
+	}
 }
 
 impl Sight {

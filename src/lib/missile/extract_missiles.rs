@@ -6,22 +6,36 @@ pub struct KnownMissiles {
 }
 
 impl KnownMissiles {
-	pub fn new_from_index(known: Vec<String>) -> Self {
+	pub fn generate_index() -> Self {
+		let mut index: Vec<String> = vec![];
+		let folder = fs::read_dir("resources/cache/aces.vromfs.bin_u/gamedata/weapons/rocketguns").unwrap();
+		for i in folder.enumerate() {
+			if let Ok(file) = &i.1 {
+				if let Ok(contents) = fs::read_to_string(file.path()) {
+					// Radar missiles 							IR missiles								 That arent F&F ATGMs
+					if contents.contains("radarSeeker") || (contents.contains("irSeeker") && !contents.contains("atgm")) {
+						index.push(file.file_name().into_string().unwrap());
+					}
+				}
+			}
+		}
 		Self {
-			path: known,
+			path: index,
 		}
 	}
-}
 
-pub fn extract_known_missiles() {
-	let known_raw = fs::read_to_string("missile_index/known.json").unwrap();
-	let known: KnownMissiles = serde_json::from_str(&known_raw).unwrap();
-	for known in known.path {
-		let path = format!("resources/cache/aces.vromfs.bin_u/gamedata/weapons/rocketguns/{}", known);
-		if let Ok(contents) = fs::read(path) {
-			fs::write(format!("missile_index/missiles/{}", known), contents).unwrap();
-		} else {
-			println!("Can not find {}", known);
+	pub fn write_index(self) -> Self {
+		fs::write("missile_index/known.json", serde_json::to_string_pretty(&self).unwrap()).unwrap();
+		self
+	}
+
+	pub fn copy_index_to_folder(self) -> Self {
+		for i in &self.path {
+			let file_path = format!("resources/cache/aces.vromfs.bin_u/gamedata/weapons/rocketguns/{}", i);
+			if let Ok(file) = fs::read(&file_path) {
+				fs::write(format!("missile_index/missiles/{}", i), &file).unwrap();
+			}
 		}
+		self
 	}
 }
