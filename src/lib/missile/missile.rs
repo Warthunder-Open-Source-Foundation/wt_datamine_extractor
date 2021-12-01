@@ -1,9 +1,7 @@
-use std::env::var;
 use std::fs;
 
 use crate::lang::unit_to_local;
 use crate::missile::extract_missiles::KnownMissiles;
-use crate::MISSILES_PATH;
 use crate::util::parameter_to_data;
 
 #[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone)]
@@ -238,11 +236,11 @@ impl Missile {
 		for i in &index.path {
 			if let Ok(file) = fs::read(format!("missile_index/missiles/{}", i)) {
 
-				let mut name = i.split(".").collect::<Vec<&str>>()[0].to_owned();
+				let name = i.split('.').collect::<Vec<&str>>()[0].to_owned();
 
 				let missile = Missile::new_from_file(&file, name);
 
-				generated.push(missile)
+				generated.push(missile);
 			}
 		}
 		generated

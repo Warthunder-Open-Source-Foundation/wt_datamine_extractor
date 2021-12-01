@@ -2,9 +2,6 @@ use std::fs;
 use crate::lang::unit_to_local;
 
 use crate::thermal::extract_thermals::KnownThermals;
-use crate::util::parameter_to_data;
-
-const PATH: &str = "resources/cache/War-Thunder-Datamine-master/aces.vromfs.bin_u/gamedata/units/tankmodels";
 
 #[derive(Clone, serde::Serialize, serde::Deserialize, Debug, PartialEq)]
 pub struct Thermal {
@@ -47,9 +44,9 @@ impl Thermal {
 					sights.push(Sight::from_file(&file, "sightThermal"));
 				}
 
-				let mut name: String = i.split(".").collect::<Vec<&str>>()[0].to_owned();
+				let name: String = i.split('.').collect::<Vec<&str>>()[0].to_owned();
 
-				if sights.len() == 0 {
+				if sights.is_empty() {
 					panic!("Missing sight on {}", name)
 				}
 				generated.push(Self {
@@ -57,7 +54,7 @@ impl Thermal {
 					name,
 					vehicle_type,
 					sights,
-				})
+				});
 			}
 		}
 		generated
@@ -80,10 +77,10 @@ impl Sight {
 			Crew::Global
 		};
 
-		let part = &file.split(keyword).collect::<Vec<&str>>()[1].split("\n").collect::<Vec<&str>>()[1];
-		let array = part.split("[").collect::<Vec<&str>>()[1].split("]").collect::<Vec<&str>>()[0];
-		let x: f64 = array.split(",").collect::<Vec<&str>>()[0].parse().unwrap();
-		let y: f64 = array.split(",").collect::<Vec<&str>>()[1].parse().unwrap();
+		let part = &file.split(keyword).collect::<Vec<&str>>()[1].split('\n').collect::<Vec<&str>>()[1];
+		let array = part.split('[').collect::<Vec<&str>>()[1].split(']').collect::<Vec<&str>>()[0];
+		let x: f64 = array.split(',').collect::<Vec<&str>>()[0].parse().unwrap();
+		let y: f64 = array.split(',').collect::<Vec<&str>>()[1].parse().unwrap();
 		Sight {
 			crew,
 			x,

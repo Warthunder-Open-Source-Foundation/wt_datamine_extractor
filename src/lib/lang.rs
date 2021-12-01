@@ -1,9 +1,4 @@
-use std::collections::HashSet;
 use std::fs;
-use std::process::exit;
-
-use crate::missile::missile::Missile;
-use crate::thermal::thermals::Thermal;
 
 pub fn extract_csv() {
 	let units = fs::read("resources/cache/lang.vromfs.bin_u/lang/units.csv").unwrap();
@@ -37,7 +32,7 @@ pub fn unit_to_local(target: &str, path: &str) -> String {
 	for i in to_scan {
 		for item in &parsed {
 			if item.0.to_lowercase() == i.to_lowercase() {
-				return item.1.to_owned()
+				return item.1.clone()
 			}
 		}
 	}

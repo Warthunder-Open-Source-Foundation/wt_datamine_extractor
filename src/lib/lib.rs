@@ -1,3 +1,9 @@
+#![allow(
+clippy::missing_panics_doc,
+clippy::must_use_candidate,
+clippy::module_inception
+)]
+
 pub mod missile;
 pub mod thermal;
 pub mod util;
