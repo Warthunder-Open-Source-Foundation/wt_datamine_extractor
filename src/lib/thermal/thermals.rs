@@ -50,7 +50,7 @@ impl Thermal {
 				let mut name: String = i.split(".").collect::<Vec<&str>>()[0].to_owned();
 
 				if sights.len() == 0 {
-					panic!(format!("Missing sight on {}", name))
+					panic!("Missing sight on {}", name)
 				}
 				generated.push(Self {
 					localized: unit_to_local(&name, "lang/units.csv"),

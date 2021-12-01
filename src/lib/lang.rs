@@ -42,7 +42,7 @@ pub fn unit_to_local(target: &str, path: &str) -> String {
 		}
 	}
 
-	panic!(format!("Cannot localize {}", target))
+	panic!("Cannot localize {}", target)
 }
 
 // Duplicates / special items go here
@@ -95,7 +95,7 @@ fn test_duplicate_locale_missiles() {
 		if !set.contains(&missile.localized) {
 			set.insert(missile.localized);
 		} else {
-			panic!(format!("Duplicate missile name: {} - {}", &missile.localized, &missile.name));
+			panic!("Duplicate missile name: {} - {}", &missile.localized, &missile.name);
 		}
 	}
 	assert_eq!(missiles.len(), set.len());
@@ -111,7 +111,7 @@ fn test_duplicate_locale_thermals() {
 		if !set.contains(&reference.localized) {
 			set.insert(reference.localized);
 		} else {
-			panic!(format!("Duplicate thermal name: {} - {}", &reference.localized, &reference.name));
+			panic!("Duplicate thermal name: {} - {}", &reference.localized, &reference.name);
 		}
 	}
 	assert_eq!(reference.len(), set.len());
