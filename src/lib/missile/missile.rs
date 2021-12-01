@@ -245,4 +245,13 @@ impl Missile {
 		}
 		generated
 	}
+
+	pub fn select_by_name(missiles: &[Self], name: &str) -> Option<Self> {
+		for (i, missile) in missiles.iter().enumerate() {
+			if missile.name.contains(&name.replace("-", "_")) {
+				return Some(missiles[i].clone());
+			}
+		}
+		None
+	}
 }
