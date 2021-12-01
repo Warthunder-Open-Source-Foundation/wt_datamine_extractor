@@ -771,7 +771,7 @@
   },
   {
     "name": "swd_rb71",
-    "localized": "RB71",
+    "localized": "RB71 (DF)",
     "seekertype": "Radar",
     "mass": 193.0,
     "mass_end": 146.0,

@@ -1,7 +1,7 @@
 [
   {
     "name": "a_129_a",
-    "localized": "A.129 International (P)",
+    "localized": "A-129 International (p)",
     "vehicle_type": "Helicopter",
     "sights": [
       {
@@ -133,7 +133,7 @@
   },
   {
     "name": "ah_mk1",
-    "localized": "Lynx AH.Mk.1",
+    "localized": "AH Mk.1 Apache",
     "vehicle_type": "Helicopter",
     "sights": [
       {
@@ -258,7 +258,7 @@
   },
   {
     "name": "cn_ztz_96a_race",
-    "localized": "ZTZ96A",
+    "localized": "ZTZ96A race",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -535,7 +535,7 @@
   },
   {
     "name": "germ_leopard_2pl",
-    "localized": "Leopard 2PL",
+    "localized": "Leopard 2 PL",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -564,7 +564,7 @@
   },
   {
     "name": "germ_leopard_c2_mexas",
-    "localized": "Leopard C2A1",
+    "localized": "C2A1",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -629,7 +629,7 @@
   },
   {
     "name": "germ_wiesel_1_mk20",
-    "localized": "Wiesel 1A4 MK20",
+    "localized": "Wiesel 1A4",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -641,7 +641,7 @@
   },
   {
     "name": "germ_wiesel_1_tow",
-    "localized": "Wiesel 1A2 TOW",
+    "localized": "Wiesel 1A2",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -665,7 +665,7 @@
   },
   {
     "name": "it_b1_centauro",
-    "localized": "Centauro I (105)",
+    "localized": "Centauro I 105",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -677,7 +677,7 @@
   },
   {
     "name": "it_b1_centauro_romor",
-    "localized": "Centauro I (105) R",
+    "localized": "Centauro I 105 R",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -735,7 +735,7 @@
   },
   {
     "name": "it_centauro_mgs_120",
-    "localized": "Centauro I (120)",
+    "localized": "Centauro I 120",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -788,7 +788,7 @@
   },
   {
     "name": "it_vcc_80_hitfist_30",
-    "localized": "VCC-80/30",
+    "localized": "VCC-80/30 ",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -913,7 +913,7 @@
   },
   {
     "name": "mi_28n",
-    "localized": "Мi-28N",
+    "localized": "Mi-28N",
     "vehicle_type": "Helicopter",
     "sights": [
       {
@@ -949,7 +949,7 @@
   },
   {
     "name": "sa_341f",
-    "localized": "SA.341F Gazelle",
+    "localized": "SA 341F Gazelle",
     "vehicle_type": "Helicopter",
     "sights": [
       {
@@ -961,7 +961,7 @@
   },
   {
     "name": "sa_342m",
-    "localized": "SA.342M Gazelle",
+    "localized": "SA 342M Gazelle",
     "vehicle_type": "Helicopter",
     "sights": [
       {
@@ -1014,7 +1014,7 @@
   },
   {
     "name": "sw_cv_90105_tml",
-    "localized": "CV90105 TML",
+    "localized": "CV 90105 TML",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1031,7 +1031,7 @@
   },
   {
     "name": "sw_cv_90120",
-    "localized": "CV90120",
+    "localized": "CV 90120",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1147,7 +1147,7 @@
   },
   {
     "name": "tiger_had_france",
-    "localized": "EC-665 Tigre HAD",
+    "localized": "EC-665 Tiger HAD",
     "vehicle_type": "Helicopter",
     "sights": [
       {
@@ -1159,7 +1159,7 @@
   },
   {
     "name": "tiger_hap_france",
-    "localized": "EC-665 Tigre HAP",
+    "localized": "EC-665 Tiger HAP",
     "vehicle_type": "Helicopter",
     "sights": [
       {
@@ -1279,7 +1279,7 @@
   },
   {
     "name": "uk_olifant_mk_2",
-    "localized": "Olifant Mk 2",
+    "localized": "Olifant Mk.2",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1296,7 +1296,7 @@
   },
   {
     "name": "uk_ratel_zt3",
-    "localized": "Ratel ZT3A2",
+    "localized": "ZT3A2",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1462,7 +1462,7 @@
   },
   {
     "name": "us_m1a1_hc_abrams",
-    "localized": "M1A1HC",
+    "localized": "M1A1 HC",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1621,7 +1621,7 @@
   },
   {
     "name": "ussr_2s25m",
-    "localized": "Sprut-SDM1",
+    "localized": "2S25M",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1727,7 +1727,7 @@
   },
   {
     "name": "ussr_t_72b3_2017_race",
-    "localized": "T-72B3 ",
+    "localized": "T-72B3 race",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1775,7 +1775,7 @@
   },
   {
     "name": "ussr_t_80u_race",
-    "localized": "T-80U",
+    "localized": "T-80U race",
     "vehicle_type": "Tank",
     "sights": [
       {

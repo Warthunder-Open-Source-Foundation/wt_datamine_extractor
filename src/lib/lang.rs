@@ -1,7 +1,9 @@
+use std::collections::HashSet;
 use std::fs;
 use std::process::exit;
 
-use regex::{Regex, RegexBuilder};
+use crate::missile::missile::Missile;
+use crate::thermal::thermals::Thermal;
 
 pub fn extract_csv() {
 	let units = fs::read("resources/cache/lang.vromfs.bin_u/lang/units.csv").unwrap();
@@ -12,67 +14,49 @@ pub fn extract_csv() {
 }
 
 pub fn unit_to_local(target: &str, path: &str) -> String {
-	let unit_string = String::from_utf8(fs::read(path).unwrap()).unwrap();
+	let mut raw_csv = csv::ReaderBuilder::new()
+		.delimiter(b';')
+		.from_path(path).unwrap();
 
-	// Following this attempts to find the most accurate localization, therefore the multiple cases
-	let regex = RegexBuilder::new(&target)
-		.case_insensitive(true)
-		.build()
-		.unwrap();
+	let parsed = raw_csv.records().map(|x| {
+		let u = x.unwrap();
+		(u.get(0).unwrap().to_owned(), u.get(1).unwrap().to_owned())
+	}).collect::<Vec<(String,String)>>();
 
-	let short_regex = RegexBuilder::new(&format!("{}/short", target))
-		.case_insensitive(true)
-		.build()
-		.unwrap();
 
-	let shop_regex = RegexBuilder::new(&format!("{}_shop", target))
-		.case_insensitive(true)
-		.build()
-		.unwrap();
+	let to_scan = vec![
+		format!("weapons/{}/short", target),
+		format!("weapons/{}", target),
+		format!("{}_shop", target),
+	];
 
-	let mut found: usize;
-
-	if let Some(line) = edge_case_localize_before(&target) {
-		return line.to_owned();
+	if let Some(value) = edge_case_localize(target) {
+		return value.to_owned()
 	}
 
-	if let Some(line) = short_regex.find(&unit_string) {
-		found = line.start();
-	} else if let Some(line) = shop_regex.find(&unit_string) {
-		found = line.start();
-	} else if let Some(line) = regex.find(&unit_string) {
-		found = line.start();
-	} else if let Some(line) = edge_case_localize_after(&target) {
-		return line.to_owned();
-	} else {
-		eprintln!("target = {:?}", target);
-		panic!("Cannot localize")
+	for i in to_scan {
+		for item in &parsed {
+			if item.0.to_lowercase() == i.to_lowercase() {
+				return item.1.to_owned()
+			}
+		}
 	}
-	let untrimmed = unit_string.split_at(found).1.split(";").collect::<Vec<&str>>()[2];
 
-	let trimmed = untrimmed.replace("\"", "").replace("\\", "");
-	trimmed
+	panic!(format!("Cannot localize {}", target))
 }
 
-fn edge_case_localize_after(raw: &str) -> Option<&str> {
+// Duplicates / special items go here
+fn edge_case_localize(raw: &str) -> Option<&str> {
 	match raw {
+		"space_rocket_launcher" => {
+			Some("Space rocket launcher")
+		}
 		"us_fim-92b" => {
 			Some("Fim-92B")
 		}
 		"su_9m336" => {
 			Some("9K333 Werba (hidden)")
 		}
-		"space_rocket_launcher" => {
-			Some("Space rocket launcher")
-		}
-		_ => {
-			None
-		}
-	}
-}
-
-fn edge_case_localize_before(raw: &str) -> Option<&str> {
-	match raw {
 		"us_m1a1_abrams_yt_cup_2019" => {
 			Some("M1A1 YT cup")
 		}
@@ -85,8 +69,50 @@ fn edge_case_localize_before(raw: &str) -> Option<&str> {
 		"ussr_t_80u_yt_cup_2019" => {
 			Some("T-80U YT cup")
 		}
+		"ussr_t_72b3_2017_race" => {
+			Some("T-72B3 race")
+		}
+		"cn_ztz_96a_race" => {
+			Some("ZTZ96A race")
+		}
+		"ussr_t_80u_race" => {
+			Some("T-80U race")
+		}
 		_ => {
 			None
 		}
 	}
+}
+
+
+#[test]
+fn test_duplicate_locale_missiles() {
+	let missiles: Vec<Missile> = serde_json::from_str(&fs::read_to_string("missile_index/all.json").unwrap()).unwrap();
+
+	let mut set = HashSet::new();
+
+	for missile in missiles.clone() {
+		if !set.contains(&missile.localized) {
+			set.insert(missile.localized);
+		} else {
+			panic!(format!("Duplicate missile name: {} - {}", &missile.localized, &missile.name));
+		}
+	}
+	assert_eq!(missiles.len(), set.len());
+}
+
+#[test]
+fn test_duplicate_locale_thermals() {
+	let reference: Vec<Thermal> = serde_json::from_str(&fs::read_to_string("thermal_index/all.json").unwrap()).unwrap();
+
+	let mut set = HashSet::new();
+
+	for reference in reference.clone() {
+		if !set.contains(&reference.localized) {
+			set.insert(reference.localized);
+		} else {
+			panic!(format!("Duplicate thermal name: {} - {}", &reference.localized, &reference.name));
+		}
+	}
+	assert_eq!(reference.len(), set.len());
 }
