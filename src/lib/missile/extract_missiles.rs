@@ -13,12 +13,14 @@ impl KnownMissiles {
 			if let Ok(file) = &i.1 {
 				if let Ok(contents) = fs::read_to_string(file.path()) {
 					// Radar missiles 							IR missiles								 That arent F&F ATGMs
-					if contents.contains("radarSeeker") || (contents.contains("irSeeker") && !contents.contains("atgm")) {
+					if (contents.contains("radarSeeker") || contents.contains("irSeeker")) && contents.contains("\"bulletType\": \"aam\"")
+					{
 						index.push(file.file_name().into_string().unwrap());
 					}
 				}
 			}
 		}
+		index.sort();
 		Self {
 			path: index,
 		}
