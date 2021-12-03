@@ -29,6 +29,7 @@ impl KnownThermals {
 				}
 			}
 		}
+		index.sort();
 		Self {
 			path: index,
 		}
