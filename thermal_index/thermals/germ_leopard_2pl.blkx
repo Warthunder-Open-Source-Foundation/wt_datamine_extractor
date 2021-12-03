@@ -2871,7 +2871,9 @@
       "ex_armor_turret_r_03_dm": true,
       "ex_armor_turret_r_04_dm": true,
       "ex_armor_turret_r_05_dm": true,
-      "ex_armor_turret_l_06_dm": true
+      "ex_armor_turret_l_06_dm": true,
+      "ex_decor_l_06_dm": true,
+      "ex_armor_02_dm": true
     }
   },
   {
@@ -2903,7 +2905,7 @@
       {
         "Weapon": {
           "trigger": "gunner0",
-          "blk": "gameData/Weapons/groundModels_weapons/120mm_Rheinmetall_L44_2A5_user_cannon.blk",
+          "blk": "gameData/Weapons/groundModels_weapons/120mm_Rheinmetall_L44_2PL_user_cannon.blk",
           "emitter": "bone_gun_barrel",
           "flash": "emtr_gun_flame",
           "shotFreq": 0.1667,
@@ -3821,7 +3823,7 @@
           "lifetime": 10.0,
           "wreckages": {
             "count": 3,
-            "speed": 10.0,
+            "speed": 15.0,
             "angle": 80.0,
             "fxName": "fire_tank_explosion_trails"
           },
@@ -3897,7 +3899,7 @@
             {
               "Weapon": {
                 "trigger": "gunner0",
-                "blk": "gameData/Weapons/groundModels_weapons/120mm_Rheinmetall_L44_2A5_user_cannon.blk",
+                "blk": "gameData/Weapons/groundModels_weapons/120mm_Rheinmetall_L44_2PL_user_cannon.blk",
                 "emitter": "bone_gun_barrel",
                 "flash": "emtr_gun_flame",
                 "shotFreq": 0.1667,

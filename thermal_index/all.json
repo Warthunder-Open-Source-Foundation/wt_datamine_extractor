@@ -168,6 +168,18 @@
     ]
   },
   {
+    "name": "cn_m_41d",
+    "localized": "cn_m_41d",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
     "name": "cn_pgz_04a",
     "localized": "PGZ04A",
     "vehicle_type": "Tank",
@@ -234,11 +246,6 @@
     "sights": [
       {
         "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      },
-      {
-        "crew": "Commander",
         "x": 800.0,
         "y": 600.0
       }
@@ -401,6 +408,18 @@
   {
     "name": "fr_leclerc_s2",
     "localized": "Leclerc S2",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "fr_leclerc_sxxi",
+    "localized": "Leclerc SXXI",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -664,6 +683,18 @@
     ]
   },
   {
+    "name": "il_merkava_mk_2d",
+    "localized": "Merkava Mk.2D",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "it_b1_centauro",
     "localized": "Centauro I 105",
     "vehicle_type": "Tank",
@@ -799,6 +830,18 @@
     ]
   },
   {
+    "name": "it_vcc_80_hitfist_60",
+    "localized": "VCC-80/60 ",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "jaguar_gr1a",
     "localized": "Jaguar GR.1A",
     "vehicle_type": "Aircraft",
@@ -807,6 +850,18 @@
         "crew": "Global",
         "x": 500.0,
         "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "jp_type_10",
+    "localized": "Type 10",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
       }
     ]
   },
@@ -1218,6 +1273,18 @@
     ]
   },
   {
+    "name": "uk_challenger_2_tes",
+    "localized": "Challenger 2 TES",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
     "name": "uk_challenger_ii",
     "localized": "Challenger 2",
     "vehicle_type": "Tank",
@@ -1369,6 +1436,18 @@
   {
     "name": "us_adats_bradley",
     "localized": "ADATS",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "us_ags_teledyne",
+    "localized": "AGS",
     "vehicle_type": "Tank",
     "sights": [
       {

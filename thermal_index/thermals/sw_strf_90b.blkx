@@ -152,6 +152,9 @@
         "gun_barrel_armor_dm": {
           "armorThickness": 20.0
         },
+        "turret_01_side_dm": {
+          "armorThickness": 20.0
+        },
         "turret_03_side_dm": {
           "armorThickness": 10.0
         },
@@ -315,9 +318,6 @@
           "armorThickness": 10.0
         },
         "turret_02_bottom_dm": {
-          "armorThickness": 20.0
-        },
-        "turret_01_side_dm": {
           "armorThickness": 20.0
         },
         "turret_01_bottom_dm": {
@@ -2565,11 +2565,11 @@
             "pitch": [-8.0,35.0]
           },
           "limitsTable": {
-            "lim1": [-180.0,-140.0,-1.0,35.0],
+            "lim1": [-180.0,-140.0,-3.0,35.0],
             "lim2": [-140.0,-110.0,-3.0,35.0],
             "lim3": [-110.0,110.0,-8.0,35.0],
             "lim4": [110.0,140.0,-3.0,35.0],
-            "lim5": [140.0,180.0,-1.0,35.0]
+            "lim5": [140.0,180.0,-3.0,35.0]
           },
           "gunStabilizer": {
             "hasVerticalGunFreeMode": false,
@@ -3339,7 +3339,7 @@
           "lifetime": 10.0,
           "wreckages": {
             "count": 3,
-            "speed": 10.0,
+            "speed": 15.0,
             "angle": 80.0,
             "fxName": "fire_tank_explosion_trails"
           },
@@ -3780,11 +3780,11 @@
                   "pitch": [-8.0,35.0]
                 },
                 "limitsTable": {
-                  "lim1": [-180.0,-140.0,-1.0,35.0],
+                  "lim1": [-180.0,-140.0,-3.0,35.0],
                   "lim2": [-140.0,-110.0,-3.0,35.0],
                   "lim3": [-110.0,110.0,-8.0,35.0],
                   "lim4": [110.0,140.0,-3.0,35.0],
-                  "lim5": [140.0,180.0,-1.0,35.0]
+                  "lim5": [140.0,180.0,-3.0,35.0]
                 },
                 "gunStabilizer": {
                   "hasVerticalGunFreeMode": false,
@@ -4021,6 +4021,8 @@
         "image": "#ui/gameuiskin#tank_reinforcement_sw"
       },
       "40mm_sw_kan_90c_HE": [],
+      "40mm_sw_kan_HE_VT": [],
+      "40mm_sw_kan_HE_VT_ammo_pack": [],
       "night_vision_system": {
         "tier": 3,
         "image": "#ui/gameuiskin#thermal_sight",
