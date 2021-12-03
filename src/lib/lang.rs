@@ -38,8 +38,7 @@ pub fn unit_to_local(target: &str, path: &str) -> String {
 			}
 		}
 	}
-
-	panic!("Cannot localize {}", target)
+	return target.to_owned()
 }
 
 // Duplicates / special items go here
