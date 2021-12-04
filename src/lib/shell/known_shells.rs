@@ -18,11 +18,11 @@ impl KnownShells {
 		for i in folder.enumerate() {
 			if let Ok(file) = &i.1 {
 				if let Ok(contents) = fs::read_to_string(file.path()) {
-					for shell_type in SHELL_TYPES {
-						if contents.contains(shell_type) {
+					// for shell_type in SHELL_TYPES {
+						// if contents.contains(shell_type) {
 							index.push(file.file_name().into_string().unwrap());
-						}
-					}
+						// }
+					// }
 				}
 			}
 		}
