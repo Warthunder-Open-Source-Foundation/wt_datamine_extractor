@@ -4,7 +4,7 @@ use wt_datamine_extractor_lib::lang::extract_csv;
 use wt_datamine_extractor_lib::missile::extract_missiles::KnownMissiles;
 use wt_datamine_extractor_lib::missile::missile::Missile;
 use wt_datamine_extractor_lib::shell::known_shells::KnownShells;
-use wt_datamine_extractor_lib::shell::shells::Shell;
+use wt_datamine_extractor_lib::shell::shells::{Shell, ShellType};
 use wt_datamine_extractor_lib::thermal::extract_thermals::KnownThermals;
 use wt_datamine_extractor_lib::thermal::thermals::Thermal;
 
@@ -28,8 +28,8 @@ fn main() {
 
 	let known_shells = KnownShells::generate_index().write_index().copy_index_to_folder();
 
-	let dm_53 = Shell::new_from_file(&fs::read("shell_index/shells/120mm_rheinmetall_l55_user_cannon.blkx").unwrap(), "120mm_rheinmetall_l55_user_cannon.blkx".to_owned());
+	let shells = Shell::generate_from_index(&known_shells);
+	Shell::write_all(shells);
 
-	eprintln!("dm_53 = {:#?}", dm_53);
 	println!("{:?}", start.elapsed());
 }

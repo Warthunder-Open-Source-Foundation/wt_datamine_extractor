@@ -43,18 +43,18 @@ impl Shell {
 				caliber
 			};
 
-			let velocity = f64::from_str(&parameter_to_data(bullet, "speed").unwrap()).unwrap().round() as u32;
+			let velocity = f64::from_str(&parameter_to_data(bullet, "speed").unwrap_or("0".to_owned())).expect(&name).round() as u32;
 
 			let mut penetration: [u32; 9] = shell_to_penetration(bullet, &shell_type);
 
 			let explosive: (String, f64) = match shell_type {
-				ShellType::APFSDS => {
+				ShellType::APFSDS | ShellType::APDS | ShellType::SMOKE  => {
 					(
 					"".to_owned(),
 						0.0
 					)
 				}
-				ShellType::HEFS | ShellType::HEATFS => {
+				ShellType::HEFS | ShellType::HEATFS | ShellType::APCBC | ShellType::ATGM | ShellType::HESH => {
 					(
 					parameter_to_data(bullet, "explosiveType").unwrap().trim().replace("\\", "").replace("\"", ""),
 					f64::from_str(&parameter_to_data(bullet, "explosiveMass").unwrap()).unwrap()
@@ -116,6 +116,11 @@ pub enum ShellType {
 	APFSDS = 0,
 	HEATFS = 1,
 	HEFS = 2,
+	APCBC = 3,
+	SMOKE = 4,
+	APDS = 5,
+	ATGM = 6,
+	HESH = 7,
 }
 
 impl FromStr for ShellType {
@@ -123,14 +128,29 @@ impl FromStr for ShellType {
 
 	fn from_str(s: &str) -> Result<Self, Self::Err> {
 		match s {
-			r#""apds_fs_long_tank""# => {
+			r#""apds_fs_long_tank""# | r#""apds_fs_tank""# | r#""apds_fs_tungsten_small_core_tank""# => {
 				Ok(Self::APFSDS)
 			}
 			r#""heat_fs_tank""# => {
 				Ok(Self::HEATFS)
 			}
-			r#""he_frag""# | r#""he_frag_dist_fuse""# => {
+			r#""he_frag""# | r#""he_frag_tank""# | r#""he_frag_dist_fuse""# => {
 				Ok(Self::HEFS)
+			}
+			r#""apcbc_tank""# => {
+				Ok(Self::APCBC)
+			}
+			r#""smoke_tank""# => {
+				Ok(Self::SMOKE)
+			}
+			r#""apds_tank""# => {
+				Ok(Self::APDS)
+			}
+			r#""atgm_tank""# => {
+				Ok(Self::ATGM)
+			}
+			r#""hesh_tank""# => {
+				Ok(Self::HESH)
 			}
 			_ => { panic!("Cannot determine shell type {}", s) }
 		}
