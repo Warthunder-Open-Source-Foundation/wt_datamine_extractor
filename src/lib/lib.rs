@@ -1,7 +1,9 @@
 #![allow(
 clippy::missing_panics_doc,
 clippy::must_use_candidate,
-clippy::module_inception
+clippy::module_inception,
+clippy::cast_sign_loss,
+clippy::cast_possible_truncation
 )]
 
 pub mod missile;

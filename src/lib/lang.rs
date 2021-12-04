@@ -38,7 +38,7 @@ pub fn unit_to_local(target: &str, path: &str) -> String {
 			}
 		}
 	}
-	return target.to_owned()
+	target.to_owned()
 }
 
 // Duplicates / special items go here
