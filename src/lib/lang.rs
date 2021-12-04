@@ -4,6 +4,7 @@ use any_ascii::any_ascii;
 use crate::missile::missile::Missile;
 use crate::thermal::thermals::Thermal;
 
+
 pub fn extract_csv() {
 	let units = fs::read("resources/cache/lang.vromfs.bin_u/lang/units.csv").unwrap();
 	let weaponry = fs::read("resources/cache/lang.vromfs.bin_u/lang/units_weaponry.csv").unwrap();
@@ -83,35 +84,39 @@ fn edge_case_localize(raw: &str) -> Option<&str> {
 	}
 }
 
+#[cfg(test)]
+mod test {
+	use super::*;
 
-#[test]
-fn test_duplicate_locale_missiles() {
-	let missiles: Vec<Missile> = serde_json::from_str(&fs::read_to_string("missile_index/all.json").unwrap()).unwrap();
+	#[test]
+	fn test_duplicate_locale_missiles() {
+		let missiles: Vec<Missile> = serde_json::from_str(&fs::read_to_string("missile_index/all.json").unwrap()).unwrap();
 
-	let mut set = HashSet::new();
+		let mut set = HashSet::new();
 
-	for missile in missiles.clone() {
-		if !set.contains(&missile.localized) {
-			set.insert(missile.localized);
-		} else {
-			panic!("Duplicate missile name: {} - {}", &missile.localized, &missile.name);
+		for missile in missiles.clone() {
+			if !set.contains(&missile.localized) {
+				set.insert(missile.localized);
+			} else {
+				panic!("Duplicate missile name: {} - {}", &missile.localized, &missile.name);
+			}
 		}
+		assert_eq!(missiles.len(), set.len());
 	}
-	assert_eq!(missiles.len(), set.len());
-}
 
-#[test]
-fn test_duplicate_locale_thermals() {
-	let reference: Vec<Thermal> = serde_json::from_str(&fs::read_to_string("thermal_index/all.json").unwrap()).unwrap();
+	#[test]
+	fn test_duplicate_locale_thermals() {
+		let reference: Vec<Thermal> = serde_json::from_str(&fs::read_to_string("thermal_index/all.json").unwrap()).unwrap();
 
-	let mut set = HashSet::new();
+		let mut set = HashSet::new();
 
-	for reference in reference.clone() {
-		if !set.contains(&reference.localized) {
-			set.insert(reference.localized);
-		} else {
-			panic!("Duplicate thermal name: {} - {}", &reference.localized, &reference.name);
+		for reference in reference.clone() {
+			if !set.contains(&reference.localized) {
+				set.insert(reference.localized);
+			} else {
+				panic!("Duplicate thermal name: {} - {}", &reference.localized, &reference.name);
+			}
 		}
+		assert_eq!(reference.len(), set.len());
 	}
-	assert_eq!(reference.len(), set.len());
 }

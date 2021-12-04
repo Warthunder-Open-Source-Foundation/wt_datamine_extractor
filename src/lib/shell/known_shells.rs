@@ -1,11 +1,5 @@
 use std::fs;
 
-
-const SHELL_TYPES: [&str; 1] = [
-	"apds_fs",
-];
-
-
 #[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq)]
 pub struct KnownShells {
 	pub path: Vec<String>,
@@ -17,7 +11,7 @@ impl KnownShells {
 		let folder = fs::read_dir("resources/cache/aces.vromfs.bin_u/gamedata/weapons/groundmodels_weapons").unwrap();
 		for i in folder.enumerate() {
 			if let Ok(file) = &i.1 {
-				if let Ok(contents) = fs::read_to_string(file.path()) {
+				if let Ok(_contents) = fs::read_to_string(file.path()) {
 					// for shell_type in SHELL_TYPES {
 						// if contents.contains(shell_type) {
 							index.push(file.file_name().into_string().unwrap());

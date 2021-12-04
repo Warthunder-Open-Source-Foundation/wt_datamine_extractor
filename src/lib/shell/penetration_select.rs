@@ -1,10 +1,10 @@
 use std::str::FromStr;
 
-use crate::shell;
+
 use crate::shell::shells::ShellType;
 use crate::util::parameter_to_data;
 
-pub fn shell_to_penetration(shell: &str, shell_type: &ShellType) -> Vec<(u32, u32)> {
+pub fn shell_to_penetration(shell: &str, _shell_type: &ShellType) -> Vec<(u32, u32)> {
 	// X axis represents ranges from 0, 100, 500, 1000, 1500, 2000, 3000, 10000 and 20000
 	let mut penetration: Vec<(u32, u32)> = vec![];
 	if shell.contains("ArmorPower0m") {
