@@ -54,7 +54,18 @@ impl Shell {
 						0.0
 					)
 				}
-				ShellType::He | ShellType::HeatFs | ShellType::ApHe | ShellType::Atgm | ShellType::Hesh | ShellType::Heat | ShellType::SapHei | ShellType::Sam | ShellType::Rocket | ShellType::AtgmHe => {
+				ShellType::He |
+				ShellType::HeatFs |
+				ShellType::ApHe |
+				ShellType::Atgm |
+				ShellType::Hesh |
+				ShellType::Heat |
+				ShellType::SapHei |
+				ShellType::Sam |
+				ShellType::Rocket |
+				ShellType::AtgmHe |
+				ShellType::Shrapnel |
+				ShellType::Aam=> {
 					(
 						if let Some(value) = parameter_to_data(bullet, "explosiveType") {
 							value.trim().replace("\\", "").replace("\"", "")
@@ -138,6 +149,8 @@ pub enum ShellType {
 	Rocket = 14,
 	AtgmHe = 15,
 	Football = 16,
+	Shrapnel = 17,
+	Aam = 18,
 }
 
 impl FromStr for ShellType {
@@ -161,7 +174,15 @@ impl FromStr for ShellType {
 			r#""he_frag_radio_fuse""# |
 			r#""he_frag_fs_tank""# |
 			r#""he_i_t""# |
-			r#""he_frag_i_t""# => {
+			r#""he_frag_i_t""# |
+			r#""he_frag_i""# |
+			r#""frag_i_t""# |
+			r#""he_dp""# |
+			r#""he_frag_t""# |
+			r#""he_frag_vog""# |
+			r#""he_i""# |
+			r#""he_i_t_mine""# |
+			r#""he_grenade_tank""# => {
 				Ok(Self::He)
 			}
 			r#""apcbc_tank""# |
@@ -170,10 +191,14 @@ impl FromStr for ShellType {
 			r#""apc_tank""# |
 			r#""sapcbc_tank""# |
 			r#""sapbc_flat_nose_tank""# |
-			r#""ac_shell_tank""# => {
+			r#""ac_shell_tank""# |
+			r#""sapi""# |
+			r#""aphe""# |
+			r#""apc_t""# => {
 				Ok(Self::ApHe)
 			}
-			r#""smoke_tank""# => {
+			r#""smoke_tank""# |
+			r#""smoke_grenade_tank""# => {
 				Ok(Self::Smoke)
 			}
 			r#""apds_tank""# |
@@ -213,7 +238,12 @@ impl FromStr for ShellType {
 			r#""i_ball_M1""# |
 			r#""ap_ball_M2""# |
 			r#""ap_i_ball_M8""# |
-			r#""ap_i_t""# => {
+			r#""ap_i_t""# |
+			r#""ap_t""# |
+			r#""ap_i""# |
+			r#""ap_tank""# |
+			r#""apc_solid_medium_caliber_tank""# |
+			r#""cannon_ball""# => {
 				Ok(Self::ApSolid)
 			}
 			r#""sam_tank""# |
@@ -229,6 +259,12 @@ impl FromStr for ShellType {
 			r#""football_kick""# |
 			r#""football_jump""# => {
 				Ok(Self::Football)
+			}
+			r#""shrapnel_tank""# => {
+				Ok(Self::Shrapnel)
+			}
+			r#""aam""# => {
+				Ok(Self::Aam)
 			}
 			_ => { panic!("Cannot determine shell type {}", s) }
 		}
