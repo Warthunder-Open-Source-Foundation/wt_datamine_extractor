@@ -48,16 +48,24 @@ impl Shell {
 			let penetration: Vec<(u32, u32)> = shell_to_penetration(bullet, &shell_type);
 
 			let explosive: (String, f64) = match shell_type {
-				ShellType::ApFsDs | ShellType::Apds | ShellType::Smoke | ShellType::Practice => {
+				ShellType::ApFsDs | ShellType::Apds | ShellType::Smoke | ShellType::Practice | ShellType::ApCr | ShellType::ApSolid | ShellType::Football => {
 					(
 						"".to_owned(),
 						0.0
 					)
 				}
-				ShellType::He | ShellType::HeatFs | ShellType::Apcbc | ShellType::Atgm | ShellType::Hesh | ShellType::Heat | ShellType::SapHei => {
+				ShellType::He | ShellType::HeatFs | ShellType::ApHe | ShellType::Atgm | ShellType::Hesh | ShellType::Heat | ShellType::SapHei | ShellType::Sam | ShellType::Rocket | ShellType::AtgmHe => {
 					(
-						parameter_to_data(bullet, "explosiveType").unwrap().trim().replace("\\", "").replace("\"", ""),
-						f64::from_str(&parameter_to_data(bullet, "explosiveMass").unwrap()).unwrap()
+						if let Some(value) = parameter_to_data(bullet, "explosiveType") {
+							value.trim().replace("\\", "").replace("\"", "")
+						} else {
+							"".to_owned()
+						},
+						if let Some(mass) = &parameter_to_data(bullet, "explosiveMass") {
+							f64::from_str(mass).unwrap()
+						} else {
+							0.0
+						}
 					)
 				}
 			};
@@ -116,7 +124,7 @@ pub enum ShellType {
 	ApFsDs = 0,
 	HeatFs = 1,
 	He = 2,
-	Apcbc = 3,
+	ApHe = 3,
 	Smoke = 4,
 	Apds = 5,
 	Atgm = 6,
@@ -124,6 +132,12 @@ pub enum ShellType {
 	Heat = 8,
 	Practice = 9,
 	SapHei = 10,
+	ApCr = 11,
+	ApSolid = 12,
+	Sam = 13,
+	Rocket = 14,
+	AtgmHe = 15,
+	Football = 16,
 }
 
 impl FromStr for ShellType {
@@ -146,11 +160,18 @@ impl FromStr for ShellType {
 			r#""he_frag_dist_fuse""# |
 			r#""he_frag_radio_fuse""# |
 			r#""he_frag_fs_tank""# |
-			r#""he_i_t""# => {
+			r#""he_i_t""# |
+			r#""he_frag_i_t""# => {
 				Ok(Self::He)
 			}
-			r#""apcbc_tank""# => {
-				Ok(Self::Apcbc)
+			r#""apcbc_tank""# |
+			r#""aphe_tank""# |
+			r#""aphebc_tank""# |
+			r#""apc_tank""# |
+			r#""sapcbc_tank""# |
+			r#""sapbc_flat_nose_tank""# |
+			r#""ac_shell_tank""# => {
+				Ok(Self::ApHe)
 			}
 			r#""smoke_tank""# => {
 				Ok(Self::Smoke)
@@ -167,7 +188,7 @@ impl FromStr for ShellType {
 			r#""hesh_tank""# => {
 				Ok(Self::Hesh)
 			}
-			r#""heat_tank""# => {
+			r#""heat_tank""# | r#""heat_grenade_tank""# => {
 				Ok(Self::Heat)
 			}
 			r#""practice_tank""# => {
@@ -175,6 +196,39 @@ impl FromStr for ShellType {
 			}
 			r#""sap_hei_tank""# => {
 				Ok(Self::SapHei)
+			}
+			r#""apcr_tank""# |
+			r#""apcr_t""# => {
+				Ok(Self::ApCr)
+			}
+			r#""apcbc_solid_medium_caliber_tank""# |
+			r#""apbc_tank""# |
+			r#""apbc_usa_tank""# |
+			r#""ap_i_t_ball""# |
+			r#""he_i_ball""# |
+			r#""apcr_i_ball""# |
+			r#""ap_i_ball""# |
+			r#""t_ball""# |
+			r#""ap_i_t_ball_M20""# |
+			r#""i_ball_M1""# |
+			r#""ap_ball_M2""# |
+			r#""ap_i_ball_M8""# |
+			r#""ap_i_t""# => {
+				Ok(Self::ApSolid)
+			}
+			r#""sam_tank""# |
+			r#""atgm_vt_fuze_tank""# => {
+				Ok(Self::Sam)
+			}
+			r#""rocket_tank""# => {
+				Ok(Self::Rocket)
+			}
+			r#""atgm_he_tank""# => {
+				Ok(Self::AtgmHe)
+			}
+			r#""football_kick""# |
+			r#""football_jump""# => {
+				Ok(Self::Football)
 			}
 			_ => { panic!("Cannot determine shell type {}", s) }
 		}

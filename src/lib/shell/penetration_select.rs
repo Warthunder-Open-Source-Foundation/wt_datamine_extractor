@@ -7,7 +7,7 @@ pub fn shell_to_penetration(shell: &str, shell_type: &ShellType) -> Vec<(u32, u3
 	let mut penetration: Vec<(u32, u32)> = vec![];
 	#[allow(clippy::match_same_arms)]
 	match shell_type {
-		ShellType::ApFsDs => {
+		ShellType::ApFsDs | ShellType::ApCr => {
 			for range in 0..5000/100 {
 				if let Some(param) = &parameter_to_data(shell, &format!("ArmorPower{}m", range * 100)) {
 					let param_64 = f64::from_str(&param.split('.').collect::<Vec<&str>>()[0].replace("[", "")).unwrap();
@@ -20,11 +20,14 @@ pub fn shell_to_penetration(shell: &str, shell_type: &ShellType) -> Vec<(u32, u3
 			let pen_32 = f64::from_str(pen.trim()).unwrap().round() as u32;
 			penetration.push((0, pen_32));
 		}
-		ShellType::He | ShellType::Smoke => {
+		ShellType::He | ShellType::Smoke | ShellType::Sam | ShellType::Rocket | ShellType::AtgmHe => {
 			// They dont have penetration values in the files it seems
 		}
-		ShellType::Apcbc | ShellType::Apds | ShellType::Practice | ShellType::SapHei => {
+		ShellType::ApHe | ShellType::Apds | ShellType::Practice | ShellType::SapHei | ShellType::ApSolid => {
 			// TODO It uses demarre that i have yet to calculate
+		}
+		ShellType::Football => {
+			// Yeah no
 		}
 	};
 	penetration
