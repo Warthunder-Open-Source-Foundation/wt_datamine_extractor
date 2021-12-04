@@ -1,7 +1,7 @@
 use std::{fs};
 use std::str::FromStr;
 
-use crate::lang::unit_to_local;
+
 use crate::shell::known_shells::KnownShells;
 use crate::shell::penetration_select::shell_to_penetration;
 use crate::util::parameter_to_data;
@@ -17,7 +17,7 @@ pub struct Shell {
 	pub caliber: u32, // in mm
 	pub true_caliber: u32, // in mm
 	pub velocity: u32, // in m/s
-	pub penetration: [u32; 9], // X axis represents ranges from 0, 100, 500, 1000, 1500, 2000, 3000, 10000 and 20000
+	pub penetration: Vec<(u32,u32)>, // left is range, right is value
 	pub explosive: (String, f64),
 }
 
@@ -45,16 +45,16 @@ impl Shell {
 
 			let velocity = f64::from_str(&parameter_to_data(bullet, "speed").unwrap_or("0".to_owned())).expect(&name).round() as u32;
 
-			let mut penetration: [u32; 9] = shell_to_penetration(bullet, &shell_type);
+			let penetration: Vec<(u32, u32)> = shell_to_penetration(bullet, &shell_type);
 
 			let explosive: (String, f64) = match shell_type {
-				ShellType::APFSDS | ShellType::APDS | ShellType::SMOKE  => {
+				ShellType::ApFsDs | ShellType::Apds | ShellType::Smoke | ShellType::Practice => {
 					(
 					"".to_owned(),
 						0.0
 					)
 				}
-				ShellType::HEFS | ShellType::HEATFS | ShellType::APCBC | ShellType::ATGM | ShellType::HESH => {
+				ShellType::HeFs | ShellType::HeatFs | ShellType::Apcbc | ShellType::Atgm | ShellType::Hesh | ShellType::Heat | ShellType::SapHei => {
 					(
 					parameter_to_data(bullet, "explosiveType").unwrap().trim().replace("\\", "").replace("\"", ""),
 					f64::from_str(&parameter_to_data(bullet, "explosiveMass").unwrap()).unwrap()
@@ -113,14 +113,17 @@ impl Shell {
 
 #[derive(serde::Serialize, Clone, serde::Deserialize, Debug, PartialEq)]
 pub enum ShellType {
-	APFSDS = 0,
-	HEATFS = 1,
-	HEFS = 2,
-	APCBC = 3,
-	SMOKE = 4,
-	APDS = 5,
-	ATGM = 6,
-	HESH = 7,
+	ApFsDs = 0,
+	HeatFs = 1,
+	HeFs = 2,
+	Apcbc = 3,
+	Smoke = 4,
+	Apds = 5,
+	Atgm = 6,
+	Hesh = 7,
+	Heat = 8,
+	Practice = 9,
+	SapHei = 10
 }
 
 impl FromStr for ShellType {
@@ -128,29 +131,38 @@ impl FromStr for ShellType {
 
 	fn from_str(s: &str) -> Result<Self, Self::Err> {
 		match s {
-			r#""apds_fs_long_tank""# | r#""apds_fs_tank""# | r#""apds_fs_tungsten_small_core_tank""# => {
-				Ok(Self::APFSDS)
+			r#""apds_fs_long_tank""# | r#""apds_fs_tank""# | r#""apds_fs_tungsten_small_core_tank""# | r#""apds_fs_tungsten_l10_l15_tank""# | r#""apds_fs_full_body_steel_tank""# => {
+				Ok(Self::ApFsDs)
 			}
 			r#""heat_fs_tank""# => {
-				Ok(Self::HEATFS)
+				Ok(Self::HeatFs)
 			}
-			r#""he_frag""# | r#""he_frag_tank""# | r#""he_frag_dist_fuse""# => {
-				Ok(Self::HEFS)
+			r#""he_frag""# | r#""he_frag_tank""# | r#""he_frag_dist_fuse""# | r#""he_frag_radio_fuse""# | r#""he_frag_fs_tank""# | r#""he_i_t""# => {
+				Ok(Self::HeFs)
 			}
 			r#""apcbc_tank""# => {
-				Ok(Self::APCBC)
+				Ok(Self::Apcbc)
 			}
 			r#""smoke_tank""# => {
-				Ok(Self::SMOKE)
+				Ok(Self::Smoke)
 			}
-			r#""apds_tank""# => {
-				Ok(Self::APDS)
+			r#""apds_tank""# | r#""apds_l15_tank""# | r#""apds_autocannon""# => {
+				Ok(Self::Apds)
 			}
-			r#""atgm_tank""# => {
-				Ok(Self::ATGM)
+			r#""atgm_tank""# | r#""atgm_tandem_tank""# => {
+				Ok(Self::Atgm)
 			}
 			r#""hesh_tank""# => {
-				Ok(Self::HESH)
+				Ok(Self::Hesh)
+			}
+			r#""heat_tank""# => {
+				Ok(Self::Heat)
+			}
+			r#""practice_tank""# => {
+				Ok(Self::Practice)
+			}
+			r#""sap_hei_tank""# => {
+				Ok(Self::SapHei)
 			}
 			_ => { panic!("Cannot determine shell type {}", s) }
 		}

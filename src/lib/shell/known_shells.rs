@@ -1,5 +1,5 @@
 use std::fs;
-use crate::thermal::thermals::Thermal;
+
 
 const SHELL_TYPES: [&str; 1] = [
 	"apds_fs",
@@ -18,8 +18,8 @@ impl KnownShells {
 		for i in folder.enumerate() {
 			if let Ok(file) = &i.1 {
 				if let Ok(contents) = fs::read_to_string(file.path()) {
-					for SHELL_TYPE in SHELL_TYPES {
-						if contents.contains(SHELL_TYPE) {
+					for shell_type in SHELL_TYPES {
+						if contents.contains(shell_type) {
 							index.push(file.file_name().into_string().unwrap());
 						}
 					}
