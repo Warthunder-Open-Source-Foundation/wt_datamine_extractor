@@ -19,7 +19,7 @@ pub fn shell_to_penetration(shell: &str, shell_type: &ShellType) -> Vec<(u32, u3
 			let pen_32 = f64::from_str(pen.trim()).unwrap().round() as u32;
 			penetration.push((0, pen_32));
 		}
-		ShellType::HeFs | ShellType::Smoke => {
+		ShellType::He | ShellType::Smoke => {
 			// They dont have penetration values in the files it seems
 		}
 		ShellType::Apcbc | ShellType::Apds | ShellType::Practice | ShellType::SapHei => {

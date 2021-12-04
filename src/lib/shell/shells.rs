@@ -54,7 +54,7 @@ impl Shell {
 						0.0
 					)
 				}
-				ShellType::HeFs | ShellType::HeatFs | ShellType::Apcbc | ShellType::Atgm | ShellType::Hesh | ShellType::Heat | ShellType::SapHei => {
+				ShellType::He | ShellType::HeatFs | ShellType::Apcbc | ShellType::Atgm | ShellType::Hesh | ShellType::Heat | ShellType::SapHei => {
 					(
 					parameter_to_data(bullet, "explosiveType").unwrap().trim().replace("\\", "").replace("\"", ""),
 					f64::from_str(&parameter_to_data(bullet, "explosiveMass").unwrap()).unwrap()
@@ -115,7 +115,7 @@ impl Shell {
 pub enum ShellType {
 	ApFsDs = 0,
 	HeatFs = 1,
-	HeFs = 2,
+	He = 2,
 	Apcbc = 3,
 	Smoke = 4,
 	Apds = 5,
@@ -138,7 +138,7 @@ impl FromStr for ShellType {
 				Ok(Self::HeatFs)
 			}
 			r#""he_frag""# | r#""he_frag_tank""# | r#""he_frag_dist_fuse""# | r#""he_frag_radio_fuse""# | r#""he_frag_fs_tank""# | r#""he_i_t""# => {
-				Ok(Self::HeFs)
+				Ok(Self::He)
 			}
 			r#""apcbc_tank""# => {
 				Ok(Self::Apcbc)
