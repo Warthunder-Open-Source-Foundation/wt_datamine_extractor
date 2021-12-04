@@ -1,6 +1,10 @@
 use std::fs;
 use crate::thermal::thermals::Thermal;
 
+const SHELL_TYPES: [&str; 1] = [
+	"apds_fs",
+];
+
 
 #[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq)]
 pub struct KnownShells {
@@ -14,13 +18,15 @@ impl KnownShells {
 		for i in folder.enumerate() {
 			if let Ok(file) = &i.1 {
 				if let Ok(contents) = fs::read_to_string(file.path()) {
-					if contents.contains("apds_fs") {
-						index.push(file.file_name().into_string().unwrap());
+					for SHELL_TYPE in SHELL_TYPES {
+						if contents.contains(SHELL_TYPE) {
+							index.push(file.file_name().into_string().unwrap());
+						}
 					}
 				}
 			}
 		}
-		index.sort_by_key(|name| name.to_lowercase());
+		index.sort();
 		Self {
 			path: index
 		}
