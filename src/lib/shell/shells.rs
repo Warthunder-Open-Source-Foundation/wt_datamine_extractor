@@ -185,16 +185,13 @@ impl FromStr for ShellType {
 			r#""he_grenade_tank""# => {
 				Ok(Self::He)
 			}
-			r#""apcbc_tank""# |
 			r#""aphe_tank""# |
 			r#""aphebc_tank""# |
-			r#""apc_tank""# |
 			r#""sapcbc_tank""# |
 			r#""sapbc_flat_nose_tank""# |
 			r#""ac_shell_tank""# |
 			r#""sapi""# |
-			r#""aphe""# |
-			r#""apc_t""# => {
+			r#""aphe""# => {
 				Ok(Self::ApHe)
 			}
 			r#""smoke_tank""# |
@@ -243,6 +240,9 @@ impl FromStr for ShellType {
 			r#""ap_i""# |
 			r#""ap_tank""# |
 			r#""apc_solid_medium_caliber_tank""# |
+			r#""apc_tank""# |
+			r#""apc_t""# |
+			r#""apcbc_tank""# |
 			r#""cannon_ball""# => {
 				Ok(Self::ApSolid)
 			}

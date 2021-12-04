@@ -1,5 +1,8 @@
+use std::collections::HashSet;
 use std::fs;
 use any_ascii::any_ascii;
+use crate::missile::missile::Missile;
+use crate::thermal::thermals::Thermal;
 
 pub fn extract_csv() {
 	let units = fs::read("resources/cache/lang.vromfs.bin_u/lang/units.csv").unwrap();
