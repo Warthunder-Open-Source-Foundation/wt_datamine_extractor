@@ -1286,7 +1286,7 @@
   },
   {
     "name": "uk_challenger_ii",
-    "localized": "Challenger 2",
+    "localized": "uk_challenger_ii",
     "vehicle_type": "Tank",
     "sights": [
       {

@@ -50,7 +50,7 @@ impl Thermal {
 					panic!("Missing sight on {}", name)
 				}
 				generated.push(Self {
-					localized: unit_to_local(&name, Lang::Unit),
+					localized: unit_to_local(&name, Lang::Unit).to_owned(),
 					name,
 					vehicle_type,
 					sights,

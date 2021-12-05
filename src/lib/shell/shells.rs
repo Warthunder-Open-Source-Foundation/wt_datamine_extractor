@@ -12,6 +12,7 @@ pub struct Shell {
 	pub name: String,
 	pub localized: String,
 	pub parent_gun: String,
+	pub parent_gun_localized: String,
 
 	pub shell_type: ShellType,
 	pub caliber: u32,
@@ -82,12 +83,11 @@ impl Shell {
 				}
 			};
 
-			let localized = unit_to_local(bullet, Lang::Weapon);
-
 			shells.push(
 				Self {
+					localized: unit_to_local(&name, Lang::Weapon),
 					name,
-					localized,
+					parent_gun_localized: unit_to_local(&parent_gun, Lang::Weapon),
 					parent_gun: parent_gun.to_owned(),
 					shell_type,
 					caliber,

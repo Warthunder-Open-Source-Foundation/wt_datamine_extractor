@@ -1,7 +1,7 @@
 [
   {
     "name": "atam_mistral",
-    "localized": "Mistral",
+    "localized": "Mistral SATCP",
     "seekertype": "Ir",
     "mass": 18.7,
     "mass_end": 12.5,
@@ -246,7 +246,7 @@
   },
   {
     "name": "su_9m39",
-    "localized": "9M39",
+    "localized": "su_9m39",
     "seekertype": "Ir",
     "mass": 10.6,
     "mass_end": 8.0068,
