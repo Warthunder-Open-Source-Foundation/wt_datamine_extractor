@@ -1,9 +1,5 @@
-use std::collections::HashSet;
 use std::fs;
 use any_ascii::any_ascii;
-use crate::missile::missile::Missile;
-use crate::thermal::thermals::Thermal;
-
 
 pub fn extract_csv() {
 	let units = fs::read("resources/cache/lang.vromfs.bin_u/lang/units.csv").unwrap();
@@ -85,8 +81,11 @@ fn edge_case_localize(raw: &str) -> Option<&str> {
 }
 
 #[cfg(test)]
-mod test {
-	use super::*;
+mod tests {
+	use std::collections::HashSet;
+	use std::fs;
+	use crate::missile::missile::Missile;
+	use crate::thermal::thermals::Thermal;
 
 	#[test]
 	fn test_duplicate_locale_missiles() {

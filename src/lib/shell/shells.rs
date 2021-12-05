@@ -174,7 +174,6 @@ impl FromStr for ShellType {
 			r#""he_frag_radio_fuse""# |
 			r#""he_frag_fs_tank""# |
 			r#""he_i_t""# |
-			r#""he_frag_i_t""# |
 			r#""he_frag_i""# |
 			r#""frag_i_t""# |
 			r#""he_dp""# |
@@ -243,6 +242,7 @@ impl FromStr for ShellType {
 			r#""apc_tank""# |
 			r#""apc_t""# |
 			r#""apcbc_tank""# |
+			r#""he_frag_i_t""# |
 			r#""cannon_ball""# => {
 				Ok(Self::ApSolid)
 			}
