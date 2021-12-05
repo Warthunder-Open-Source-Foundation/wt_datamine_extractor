@@ -21,7 +21,7 @@ debug = true
 debug-assertions = true
 overflow-checks = true
 
-lto = false # Tested it, seems the best ratio
+lto = true # Tested it, seems the best ratio
 
 # Just good for compile times
 incremental = true

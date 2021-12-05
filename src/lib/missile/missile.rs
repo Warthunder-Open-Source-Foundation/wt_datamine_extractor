@@ -1,6 +1,6 @@
 use std::fs;
 
-use crate::lang::unit_to_local;
+use crate::lang::{Lang, unit_to_local};
 use crate::missile::extract_missiles::KnownMissiles;
 use crate::util::parameter_to_data;
 
@@ -194,7 +194,7 @@ impl Missile {
 
 		Self {
 			// localized first as the borrow consumes name otherwise
-			localized: unit_to_local(&name, "lang/weaponry.csv"),
+			localized: unit_to_local(&name, Lang::Weapon),
 			name,
 			seekertype,
 			mass,

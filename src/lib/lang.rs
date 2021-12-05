@@ -1,5 +1,38 @@
 use std::fs;
+
 use any_ascii::any_ascii;
+use lazy_static::lazy_static;
+
+lazy_static! {
+    static ref CSV_UNIT: Vec<(String, String)> = {
+        let mut raw_csv = csv::ReaderBuilder::new()
+		.delimiter(b';')
+		.from_path("lang/units.csv").unwrap();
+
+	let parsed = raw_csv.records().map(|x| {
+		let u = x.unwrap();
+		(u.get(0).unwrap().to_owned(), u.get(1).unwrap().to_owned())
+	}).collect::<Vec<(String,String)>>();
+		parsed
+		};
+
+	static ref CSV_WEAPON: Vec<(String, String)> = {
+        let mut raw_csv = csv::ReaderBuilder::new()
+		.delimiter(b';')
+		.from_path("lang/weaponry.csv").unwrap();
+
+	let parsed = raw_csv.records().map(|x| {
+		let u = x.unwrap();
+		(u.get(0).unwrap().to_owned(), u.get(1).unwrap().to_owned())
+	}).collect::<Vec<(String,String)>>();
+		parsed
+		};
+	}
+
+pub enum Lang {
+	Unit,
+	Weapon,
+}
 
 pub fn extract_csv() {
 	let units = fs::read("resources/cache/lang.vromfs.bin_u/lang/units.csv").unwrap();
@@ -9,16 +42,7 @@ pub fn extract_csv() {
 	fs::write("lang/weaponry.csv", weaponry).unwrap();
 }
 
-pub fn unit_to_local(target: &str, path: &str) -> String {
-	let mut raw_csv = csv::ReaderBuilder::new()
-		.delimiter(b';')
-		.from_path(path).unwrap();
-
-	let parsed = raw_csv.records().map(|x| {
-		let u = x.unwrap();
-		(u.get(0).unwrap().to_owned(), u.get(1).unwrap().to_owned())
-	}).collect::<Vec<(String,String)>>();
-
+pub fn unit_to_local(target: &str, lang: Lang) -> String {
 
 	let to_scan = vec![
 		format!("weapons/{}/short", target),
@@ -26,18 +50,33 @@ pub fn unit_to_local(target: &str, path: &str) -> String {
 		format!("{}_shop", target),
 	];
 
-	if let Some(value) = edge_case_localize(target) {
-		return value.to_owned()
-	}
+	// if let Some(value) = edge_case_localize(target) {
+	// 	return value.to_owned();
+	// }
 
-	for i in to_scan {
-		for item in &parsed {
-			if item.0.to_lowercase() == i.to_lowercase() {
-				let possibly_non_ascii = &item.1;
-				return any_ascii(possibly_non_ascii)
+	match lang {
+		Lang::Weapon => {
+			for i in to_scan {
+				for item in CSV_WEAPON.iter() {
+					if item.0.to_lowercase() == i.to_lowercase() {
+						let possibly_non_ascii = &item.1;
+						return any_ascii(possibly_non_ascii);
+					}
+				}
+			}
+		},
+		Lang::Unit => {
+			for i in to_scan {
+				for item in CSV_UNIT.iter() {
+					if item.0.to_lowercase() == i.to_lowercase() {
+						let possibly_non_ascii = &item.1;
+						return any_ascii(possibly_non_ascii);
+					}
+				}
 			}
 		}
 	}
+
 	target.to_owned()
 }
 
@@ -84,6 +123,7 @@ fn edge_case_localize(raw: &str) -> Option<&str> {
 mod tests {
 	use std::collections::HashSet;
 	use std::fs;
+
 	use crate::missile::missile::Missile;
 	use crate::thermal::thermals::Thermal;
 

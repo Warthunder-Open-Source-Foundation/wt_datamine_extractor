@@ -1,5 +1,6 @@
 use std::fs;
 use std::str::FromStr;
+use crate::lang::{Lang, unit_to_local};
 
 use crate::shell::known_shells::KnownShells;
 use crate::shell::penetration_select::shell_to_penetration;
@@ -81,10 +82,12 @@ impl Shell {
 				}
 			};
 
+			let localized = unit_to_local(bullet, Lang::Weapon);
+
 			shells.push(
 				Self {
 					name,
-					localized: "".to_string(),
+					localized,
 					parent_gun: parent_gun.to_owned(),
 					shell_type,
 					caliber,
