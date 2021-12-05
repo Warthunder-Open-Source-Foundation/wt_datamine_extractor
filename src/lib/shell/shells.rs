@@ -1,10 +1,16 @@
+use std::fmt::{Display, format, Formatter};
 use std::fs;
+use std::iter::Map;
+use std::path::Iter;
 use std::str::FromStr;
 use crate::lang::{Lang, unit_to_local};
 
 use crate::shell::known_shells::KnownShells;
 use crate::shell::penetration_select::shell_to_penetration;
 use crate::util::parameter_to_data;
+
+use strum::IntoEnumIterator;
+use strum_macros::EnumIter;
 
 #[derive(serde::Serialize, Clone, serde::Deserialize, Debug, PartialEq)]
 pub struct Shell {
@@ -133,7 +139,7 @@ impl Shell {
 	}
 }
 
-#[derive(serde::Serialize, Clone, serde::Deserialize, Debug, PartialEq)]
+#[derive(serde::Serialize, Clone, serde::Deserialize, Debug, PartialEq, EnumIter)]
 pub enum ShellType {
 	ApFsDs = 0,
 	HeatFs = 1,
@@ -154,6 +160,12 @@ pub enum ShellType {
 	Football = 16,
 	Shrapnel = 17,
 	Aam = 18,
+}
+
+impl ToString for ShellType {
+	fn to_string(&self) -> String {
+		format!("{:?}", self)
+	}
 }
 
 impl FromStr for ShellType {
