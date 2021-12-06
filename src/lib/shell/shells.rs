@@ -1,25 +1,21 @@
-use std::collections::HashSet;
-use std::fmt::{Display, format, Formatter};
+use std::collections::{HashMap, HashSet};
 use std::fs;
-use std::iter::Map;
-use std::path::Iter;
 use std::str::FromStr;
-use crate::lang::{Lang, unit_to_local};
 
+use strum_macros::EnumIter;
+
+use crate::lang::{Lang, unit_to_local};
 use crate::shell::known_shells::KnownShells;
+use crate::shell::parent_gun::ParentGun;
 use crate::shell::penetration_select::shell_to_penetration;
 use crate::util::parameter_to_data;
-
-use strum::IntoEnumIterator;
-use strum_macros::EnumIter;
-use crate::shell::parent_gun::ParentGun;
 
 #[derive(serde::Serialize, Clone, serde::Deserialize, Debug, PartialEq, Hash, Eq)]
 pub struct Shell {
 	/// Metadata
 	pub name: String,
 	pub localized: String,
-	pub parent_gun: ParentGun,
+	pub parent_guns: Vec<ParentGun>,
 
 	pub shell_type: ShellType,
 
@@ -78,26 +74,18 @@ impl Shell {
 				ShellType::Rocket |
 				ShellType::AtgmHe |
 				ShellType::Shrapnel |
-				ShellType::Aam=> {
+				ShellType::Aam => {
 					(
-						if let Some(value) = parameter_to_data(bullet, "explosiveType") {
-							value.trim().replace("\\", "").replace("\"", "")
-						} else {
-							"".to_owned()
-						},
-						if let Some(mass) = &parameter_to_data(bullet, "explosiveMass") {
-							(f64::from_str(mass).unwrap() * 1000.0).round() as u32
-						} else {
-							0
-						}
+						parameter_to_data(bullet, "explosiveType").map_or_else(|| "".to_owned(), |value| value.trim().replace("\\", "").replace("\"", "")),
+						parameter_to_data(bullet, "explosiveMass").as_ref().map_or(0, |mass| (f64::from_str(mass).unwrap() * 1000.0).round() as u32)
 					)
 				}
 			};
 
 			shells.push(
 				Self {
-					parent_gun: ParentGun { name: parent_gun.to_owned(), localized: unit_to_local(parent_gun, Lang::Weapon) },
-					localized: unit_to_local(&name, Lang::Weapon),
+					parent_guns: [ParentGun { name: parent_gun.to_owned(), localized: unit_to_local(parent_gun, &Lang::Weapon) }].to_vec(),
+					localized: unit_to_local(&name, &Lang::Weapon),
 					name,
 					shell_type,
 					caliber,
@@ -131,14 +119,57 @@ impl Shell {
 			}
 		}
 
-		// Eliminates duplicates
+		// Eliminates duplicates, runs before the following block to prevent unnecessary iteration of full dupes
 		let mut set: HashSet<Shell> = HashSet::new();
 		for shell in &generated {
 			set.insert(shell.clone());
 		}
 		generated = set.into_iter().collect();
 
-		generated
+
+		// We will separate all parent guns from the shell
+		// Then we will get the shell before inserting it, weather or not if that fails, we will choose to push the gun on the identical shell
+		// Alternatively we will keep the entry and insert it anyways
+
+		let mut map: HashMap<Shell, Vec<ParentGun>> = HashMap::new();
+
+		// This needs checking for every shell
+		for shell in &generated {
+
+			// The seperated parent shell is needed to compare the new shells
+			let parents = &shell.parent_guns;
+
+			// New shells for mutation
+			let mut new_shell = shell.clone();
+
+			// Remove parent to equalize shells
+			new_shell.parent_guns.clear();
+
+			// Attempt to get shell
+			if let Some(hit) = map.get(&new_shell) {
+
+				// When a shell is found, it will be added to the new parents
+				let mut new_parents = hit.clone();
+				for parent in parents {
+					new_parents.push(parent.clone());
+				}
+				map.insert(new_shell.clone(), new_parents.clone());
+			} else {
+				map.insert(new_shell.clone(), parents.clone());
+			}
+		}
+
+		let gen_map = map.into_iter().collect::<Vec<(Shell, Vec<ParentGun>)>>();
+
+		let mut new_generated = vec![];
+
+		for item in gen_map {
+			let mut new_shell = item.0.clone();
+			new_shell.parent_guns = item.1;
+			new_generated.push(new_shell);
+		}
+
+		new_generated
 	}
 
 	pub fn select_by_name(shells: &[Self], name: &str) -> Option<Self> {
@@ -151,7 +182,7 @@ impl Shell {
 	}
 }
 
-#[derive(serde::Serialize, Clone, serde::Deserialize, Debug, PartialEq, EnumIter,  Hash, Eq)]
+#[derive(serde::Serialize, Clone, serde::Deserialize, Debug, PartialEq, EnumIter, Hash, Eq)]
 pub enum ShellType {
 	ApFsDs = 0,
 	HeatFs = 1,
@@ -183,6 +214,7 @@ impl ToString for ShellType {
 impl FromStr for ShellType {
 	type Err = ();
 
+	#[allow(clippy::too_many_lines)]
 	fn from_str(s: &str) -> Result<Self, Self::Err> {
 		match s {
 			r#""apds_fs_long_tank""# |

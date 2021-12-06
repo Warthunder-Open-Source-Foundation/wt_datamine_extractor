@@ -1,4 +1,3 @@
-use std::collections::{HashSet};
 use std::fs;
 use std::time::Instant;
 use wt_datamine_extractor_lib::lang::extract_csv;
@@ -6,7 +5,7 @@ use wt_datamine_extractor_lib::missile::extract_missiles::KnownMissiles;
 use wt_datamine_extractor_lib::missile::missile::Missile;
 
 use wt_datamine_extractor_lib::shell::known_shells::KnownShells;
-use wt_datamine_extractor_lib::shell::shells::{Shell, ShellType};
+use wt_datamine_extractor_lib::shell::shells::{Shell};
 use wt_datamine_extractor_lib::thermal::extract_thermals::KnownThermals;
 use wt_datamine_extractor_lib::thermal::thermals::Thermal;
 
