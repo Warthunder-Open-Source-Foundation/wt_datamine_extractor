@@ -199,7 +199,7 @@ mod tests {
 	fn shell_has_parent_gun() {
 		for shell in SHELLS.iter() {
 			// println!("{}", shell.name);
-			assert_ne!(shell.parent_gun, "");
+			assert_ne!(shell.parent_guns, "");
 		}
 	}
 }

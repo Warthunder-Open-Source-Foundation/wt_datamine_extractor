@@ -194,7 +194,7 @@ impl Missile {
 
 		Self {
 			// localized first as the borrow consumes name otherwise
-			localized: unit_to_local(&name, Lang::Weapon),
+			localized: unit_to_local(&name, &Lang::Weapon),
 			name,
 			seekertype,
 			mass,

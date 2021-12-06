@@ -67,7 +67,7 @@ pub fn extract_csv() {
 	fs::write("lang/weaponry.csv", weaponry).unwrap();
 }
 
-pub fn unit_to_local(target: &str, lang: Lang) -> String {
+pub fn unit_to_local(target: &str, lang: &Lang) -> String {
 
 	let to_scan = vec![
 		target.to_owned(),
