@@ -1,3 +1,4 @@
+use std::collections::HashSet;
 use std::fmt::{Display, format, Formatter};
 use std::fs;
 use std::iter::Map;
@@ -13,23 +14,27 @@ use strum::IntoEnumIterator;
 use strum_macros::EnumIter;
 use crate::shell::parent_gun::ParentGun;
 
-#[derive(serde::Serialize, Clone, serde::Deserialize, Debug, PartialEq)]
+#[derive(serde::Serialize, Clone, serde::Deserialize, Debug, PartialEq, Hash, Eq)]
 pub struct Shell {
 	/// Metadata
 	pub name: String,
 	pub localized: String,
-	pub parent_guns: Vec<ParentGun>,
+	pub parent_gun: ParentGun,
 
 	pub shell_type: ShellType,
+
+	// in mm
 	pub caliber: u32,
-	// in mm
 	pub true_caliber: u32,
-	// in mm
-	pub velocity: u32,
+
 	// in m/s
+	pub velocity: u32,
+
+	// in mm
 	pub penetration: Vec<(u32, u32)>,
-	// left is range, right is value
-	pub explosive: (String, f64),
+
+	// left is range, right is value in grams
+	pub explosive: (String, u32),
 }
 
 impl Shell {
@@ -55,11 +60,11 @@ impl Shell {
 
 			let penetration: Vec<(u32, u32)> = shell_to_penetration(bullet, &shell_type);
 
-			let explosive: (String, f64) = match shell_type {
+			let explosive: (String, u32) = match shell_type {
 				ShellType::ApFsDs | ShellType::Apds | ShellType::Smoke | ShellType::Practice | ShellType::ApCr | ShellType::ApSolid | ShellType::Football => {
 					(
 						"".to_owned(),
-						0.0
+						0
 					)
 				}
 				ShellType::He |
@@ -81,9 +86,9 @@ impl Shell {
 							"".to_owned()
 						},
 						if let Some(mass) = &parameter_to_data(bullet, "explosiveMass") {
-							f64::from_str(mass).unwrap()
+							(f64::from_str(mass).unwrap() * 1000.0).round() as u32
 						} else {
-							0.0
+							0
 						}
 					)
 				}
@@ -91,9 +96,9 @@ impl Shell {
 
 			shells.push(
 				Self {
+					parent_gun: ParentGun { name: parent_gun.to_owned(), localized: unit_to_local(parent_gun, Lang::Weapon) },
 					localized: unit_to_local(&name, Lang::Weapon),
 					name,
-					parent_gun_localized: unit_to_local(&parent_gun, Lang::Weapon),
 					shell_type,
 					caliber,
 					true_caliber,
@@ -125,6 +130,14 @@ impl Shell {
 				}
 			}
 		}
+
+		// Eliminates duplicates
+		let mut set: HashSet<Shell> = HashSet::new();
+		for shell in &generated {
+			set.insert(shell.clone());
+		}
+		generated = set.into_iter().collect();
+
 		generated
 	}
 
@@ -138,7 +151,7 @@ impl Shell {
 	}
 }
 
-#[derive(serde::Serialize, Clone, serde::Deserialize, Debug, PartialEq, EnumIter)]
+#[derive(serde::Serialize, Clone, serde::Deserialize, Debug, PartialEq, EnumIter,  Hash, Eq)]
 pub enum ShellType {
 	ApFsDs = 0,
 	HeatFs = 1,

@@ -1,7 +1,6 @@
 use std::fs;
-use std::intrinsics::fsub_fast;
 
-#[derive(serde::Serialize, Clone, serde::Deserialize, Debug, PartialEq)]
+#[derive(serde::Serialize, Clone, serde::Deserialize, Debug, PartialEq, Hash, Eq)]
 pub struct ParentGun {
 	pub name: String,
 	pub localized: String,

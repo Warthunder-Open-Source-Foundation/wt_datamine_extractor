@@ -1,3 +1,4 @@
+use std::collections::{HashSet};
 use std::fs;
 use std::time::Instant;
 use wt_datamine_extractor_lib::lang::extract_csv;
