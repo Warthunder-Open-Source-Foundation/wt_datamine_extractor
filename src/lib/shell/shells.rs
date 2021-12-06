@@ -11,14 +11,14 @@ use crate::util::parameter_to_data;
 
 use strum::IntoEnumIterator;
 use strum_macros::EnumIter;
+use crate::shell::parent_gun::ParentGun;
 
 #[derive(serde::Serialize, Clone, serde::Deserialize, Debug, PartialEq)]
 pub struct Shell {
 	/// Metadata
 	pub name: String,
 	pub localized: String,
-	pub parent_gun: String,
-	pub parent_gun_localized: String,
+	pub parent_guns: Vec<ParentGun>,
 
 	pub shell_type: ShellType,
 	pub caliber: u32,
@@ -94,7 +94,6 @@ impl Shell {
 					localized: unit_to_local(&name, Lang::Weapon),
 					name,
 					parent_gun_localized: unit_to_local(&parent_gun, Lang::Weapon),
-					parent_gun: parent_gun.to_owned(),
 					shell_type,
 					caliber,
 					true_caliber,
