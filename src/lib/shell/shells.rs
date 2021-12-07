@@ -59,14 +59,12 @@ impl Shell {
 				);
 
 			// Shells can sometimes fail to resolve and therefore require manual checking
-			let shell_type= if let Ok(result) = ShellType::from_str(&parameter_to_data(bullet, "bulletType").unwrap()) {
+			let shell_type = if let Ok(result) = ShellType::from_str(&parameter_to_data(bullet, "bulletType").unwrap()) {
 				result
+			} else if explosive.0.is_empty() {
+				ShellType::ApSolid
 			} else {
-				if explosive.0 == "" {
-					ShellType::ApSolid
-				} else {
-					ShellType::ApHe
-				}
+				ShellType::ApHe
 			};
 
 			let penetration: Vec<(u32, u32)> = shell_to_penetration(bullet, &shell_type);
@@ -144,7 +142,7 @@ impl Shell {
 				for parent in parents {
 					new_parents.push(parent.clone());
 				}
-				new_parents.sort_by_key(|x|x.name.clone());
+				new_parents.sort_by_key(|x| x.name.clone());
 				map.insert(new_shell.clone(), new_parents.clone());
 			} else {
 				map.insert(new_shell.clone(), parents.clone());
@@ -161,7 +159,7 @@ impl Shell {
 			new_generated.push(new_shell);
 		}
 
-		new_generated.sort_by_key(|x|x.name.clone());
+		new_generated.sort_by_key(|x| x.name.clone());
 
 		new_generated
 	}
@@ -206,7 +204,7 @@ impl ToString for ShellType {
 }
 
 impl FromStr for ShellType {
-	type Err = (String);
+	type Err = String;
 
 	#[allow(clippy::too_many_lines)]
 	fn from_str(s: &str) -> Result<Self, Self::Err> {
