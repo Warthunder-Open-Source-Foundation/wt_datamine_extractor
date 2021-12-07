@@ -1,5 +1,7 @@
 use std::collections::{HashMap, HashSet};
+use std::collections::hash_map::DefaultHasher;
 use std::fs;
+use std::hash::{Hash, Hasher};
 use std::str::FromStr;
 
 use strum_macros::EnumIter;
@@ -16,6 +18,7 @@ pub struct Shell {
 	pub name: String,
 	pub localized: String,
 	pub parent_guns: Vec<ParentGun>,
+	pub hash: u64,
 
 	pub shell_type: ShellType,
 
@@ -82,6 +85,7 @@ impl Shell {
 					velocity,
 					penetration,
 					explosive,
+					hash: 0 // Remains 0 until write-instancing
 				}
 			);
 		}
@@ -160,6 +164,20 @@ impl Shell {
 		}
 
 		new_generated.sort_by_key(|x| x.name.clone());
+
+		new_generated = {
+			let mut hashed_shells = vec![];
+			for shell in new_generated {
+				let mut hasher = DefaultHasher::new();
+				shell.hash(&mut hasher);
+				let hashed = hasher.finish();
+
+				let mut new_shell = shell.clone();
+				new_shell.hash = hashed;
+				hashed_shells.push(new_shell);
+			}
+			hashed_shells
+		};
 
 		new_generated
 	}
