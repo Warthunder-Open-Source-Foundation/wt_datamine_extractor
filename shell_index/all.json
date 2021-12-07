@@ -110,7 +110,7 @@
     "penetration": [
       [
         0,
-        5
+        390
       ]
     ],
     "explosive": [
@@ -299,7 +299,7 @@
     "penetration": [
       [
         0,
-        5
+        600
       ]
     ],
     "explosive": [
@@ -327,7 +327,7 @@
     "penetration": [
       [
         0,
-        50
+        750
       ]
     ],
     "explosive": [
@@ -724,7 +724,7 @@
     "penetration": [
       [
         0,
-        5
+        390
       ]
     ],
     "explosive": [
@@ -760,7 +760,7 @@
     "penetration": [
       [
         0,
-        5
+        380
       ]
     ],
     "explosive": [
@@ -864,7 +864,7 @@
     "penetration": [
       [
         0,
-        5
+        530
       ]
     ],
     "explosive": [
@@ -981,30 +981,6 @@
     "localized": "Type-83 HEAT",
     "parent_guns": [
       {
-        "name": "105mm_zpl94_user_cannon",
-        "localized": "105mm_zpl94_user_cannon"
-      }
-    ],
-    "shell_type": "HeatFs",
-    "caliber": 105,
-    "true_caliber": 105,
-    "velocity": 1200,
-    "penetration": [
-      [
-        0,
-        5
-      ]
-    ],
-    "explosive": [
-      "comp_b",
-      970
-    ]
-  },
-  {
-    "name": "105mm_TYPE83_HEAT",
-    "localized": "Type-83 HEAT",
-    "parent_guns": [
-      {
         "name": "105mm_at_wma_user_cannon",
         "localized": "105mm_at_wma_user_cannon"
       },
@@ -1024,7 +1000,31 @@
     "penetration": [
       [
         0,
-        5
+        400
+      ]
+    ],
+    "explosive": [
+      "comp_b",
+      970
+    ]
+  },
+  {
+    "name": "105mm_TYPE83_HEAT",
+    "localized": "Type-83 HEAT",
+    "parent_guns": [
+      {
+        "name": "105mm_zpl94_user_cannon",
+        "localized": "105mm_zpl94_user_cannon"
+      }
+    ],
+    "shell_type": "HeatFs",
+    "caliber": 105,
+    "true_caliber": 105,
+    "velocity": 1200,
+    "penetration": [
+      [
+        0,
+        400
       ]
     ],
     "explosive": [
@@ -1052,7 +1052,7 @@
     "penetration": [
       [
         0,
-        8
+        127
       ]
     ],
     "explosive": [
@@ -1076,7 +1076,7 @@
     "penetration": [
       [
         0,
-        8
+        127
       ]
     ],
     "explosive": [
@@ -1100,7 +1100,7 @@
     "penetration": [
       [
         0,
-        5
+        200
       ]
     ],
     "explosive": [
@@ -1216,7 +1216,7 @@
     "penetration": [
       [
         0,
-        5
+        400
       ]
     ],
     "explosive": [
@@ -1516,7 +1516,7 @@
     "penetration": [
       [
         0,
-        8
+        127
       ]
     ],
     "explosive": [
@@ -1679,7 +1679,7 @@
     "penetration": [
       [
         0,
-        5
+        120
       ]
     ],
     "explosive": [
@@ -1772,7 +1772,7 @@
     "penetration": [
       [
         0,
-        50
+        750
       ]
     ],
     "explosive": [
@@ -1834,7 +1834,7 @@
     "penetration": [
       [
         0,
-        5
+        105
       ]
     ],
     "explosive": [
@@ -1858,7 +1858,7 @@
     "penetration": [
       [
         0,
-        5
+        115
       ]
     ],
     "explosive": [
@@ -1894,7 +1894,7 @@
     "penetration": [
       [
         0,
-        5
+        400
       ]
     ],
     "explosive": [
@@ -1930,7 +1930,7 @@
     "penetration": [
       [
         0,
-        8
+        127
       ]
     ],
     "explosive": [
@@ -2026,7 +2026,7 @@
     "penetration": [
       [
         0,
-        8
+        127
       ]
     ],
     "explosive": [
@@ -2269,7 +2269,7 @@
     "penetration": [
       [
         0,
-        8
+        127
       ]
     ],
     "explosive": [
@@ -2436,7 +2436,7 @@
     "penetration": [
       [
         0,
-        5
+        400
       ]
     ],
     "explosive": [
@@ -2484,7 +2484,7 @@
     "penetration": [
       [
         0,
-        5
+        400
       ]
     ],
     "explosive": [
@@ -2508,7 +2508,7 @@
     "penetration": [
       [
         0,
-        5
+        130
       ]
     ],
     "explosive": [
@@ -2891,6 +2891,30 @@
     "localized": "OCC 105 F1",
     "parent_guns": [
       {
+        "name": "105mm_cn_105_57_user_cannon",
+        "localized": "105mm_cn_105_57_user_cannon"
+      }
+    ],
+    "shell_type": "Heat",
+    "caliber": 105,
+    "true_caliber": 105,
+    "velocity": 800,
+    "penetration": [
+      [
+        0,
+        400
+      ]
+    ],
+    "explosive": [
+      "comp_b",
+      780
+    ]
+  },
+  {
+    "name": "105mm_occ_f1",
+    "localized": "OCC 105 F1",
+    "parent_guns": [
+      {
         "name": "105mm_cn_105_f1_user_cannon",
         "localized": "105mm_cn_105_f1_user_cannon"
       },
@@ -2906,31 +2930,7 @@
     "penetration": [
       [
         0,
-        5
-      ]
-    ],
-    "explosive": [
-      "comp_b",
-      780
-    ]
-  },
-  {
-    "name": "105mm_occ_f1",
-    "localized": "OCC 105 F1",
-    "parent_guns": [
-      {
-        "name": "105mm_cn_105_57_user_cannon",
-        "localized": "105mm_cn_105_57_user_cannon"
-      }
-    ],
-    "shell_type": "Heat",
-    "caliber": 105,
-    "true_caliber": 105,
-    "velocity": 800,
-    "penetration": [
-      [
-        0,
-        5
+        400
       ]
     ],
     "explosive": [
@@ -2954,31 +2954,12 @@
     "penetration": [
       [
         0,
-        5
+        350
       ]
     ],
     "explosive": [
       "comp_b",
       780
-    ]
-  },
-  {
-    "name": "105mm_oe_f1_mle60",
-    "localized": "OE 105 F1 Mle.60",
-    "parent_guns": [
-      {
-        "name": "105mm_cn_105_57_user_cannon",
-        "localized": "105mm_cn_105_57_user_cannon"
-      }
-    ],
-    "shell_type": "He",
-    "caliber": 105,
-    "true_caliber": 105,
-    "velocity": 800,
-    "penetration": [],
-    "explosive": [
-      "tnt",
-      2000
     ]
   },
   {
@@ -2998,6 +2979,25 @@
     "caliber": 105,
     "true_caliber": 105,
     "velocity": 700,
+    "penetration": [],
+    "explosive": [
+      "tnt",
+      2000
+    ]
+  },
+  {
+    "name": "105mm_oe_f1_mle60",
+    "localized": "OE 105 F1 Mle.60",
+    "parent_guns": [
+      {
+        "name": "105mm_cn_105_57_user_cannon",
+        "localized": "105mm_cn_105_57_user_cannon"
+      }
+    ],
+    "shell_type": "He",
+    "caliber": 105,
+    "true_caliber": 105,
+    "velocity": 800,
     "penetration": [],
     "explosive": [
       "tnt",
@@ -3176,25 +3176,6 @@
     "localized": "OFPH 105 F1",
     "parent_guns": [
       {
-        "name": "105mm_cn_105_57_user_cannon",
-        "localized": "105mm_cn_105_57_user_cannon"
-      }
-    ],
-    "shell_type": "Smoke",
-    "caliber": 105,
-    "true_caliber": 105,
-    "velocity": 600,
-    "penetration": [],
-    "explosive": [
-      "smoke_composition",
-      50
-    ]
-  },
-  {
-    "name": "105mm_ofph_f1",
-    "localized": "OFPH 105 F1",
-    "parent_guns": [
-      {
         "name": "105mm_cn_105_f1_user_cannon",
         "localized": "105mm_cn_105_f1_user_cannon"
       },
@@ -3214,27 +3195,22 @@
     ]
   },
   {
-    "name": "105mm_psgr_m49",
-    "localized": "psgr m/49",
+    "name": "105mm_ofph_f1",
+    "localized": "OFPH 105 F1",
     "parent_guns": [
       {
-        "name": "105mm_kan_m44_user_cannon",
-        "localized": "105 mm kan m/44 cannon"
+        "name": "105mm_cn_105_57_user_cannon",
+        "localized": "105mm_cn_105_57_user_cannon"
       }
     ],
-    "shell_type": "Heat",
+    "shell_type": "Smoke",
     "caliber": 105,
     "true_caliber": 105,
-    "velocity": 425,
-    "penetration": [
-      [
-        0,
-        5
-      ]
-    ],
+    "velocity": 600,
+    "penetration": [],
     "explosive": [
-      "hexal",
-      950
+      "smoke_composition",
+      50
     ]
   },
   {
@@ -3253,7 +3229,31 @@
     "penetration": [
       [
         0,
-        5
+        240
+      ]
+    ],
+    "explosive": [
+      "hexal",
+      950
+    ]
+  },
+  {
+    "name": "105mm_psgr_m49",
+    "localized": "psgr m/49",
+    "parent_guns": [
+      {
+        "name": "105mm_kan_m44_user_cannon",
+        "localized": "105 mm kan m/44 cannon"
+      }
+    ],
+    "shell_type": "Heat",
+    "caliber": 105,
+    "true_caliber": 105,
+    "velocity": 425,
+    "penetration": [
+      [
+        0,
+        240
       ]
     ],
     "explosive": [
@@ -3395,7 +3395,7 @@
     "penetration": [
       [
         0,
-        5
+        200
       ]
     ],
     "explosive": [
@@ -3662,22 +3662,18 @@
     "localized": "slpprj m/62",
     "parent_guns": [
       {
-        "name": "105mm_bofors_ikv_user_cannon",
-        "localized": "105mm_bofors_ikv_user_cannon"
+        "name": "105mm_l74_103c_user_cannon",
+        "localized": "105mm_l74_103c_user_cannon"
       },
       {
-        "name": "105mm_kan_strv_101_user_cannon",
-        "localized": "105 mm kan Strv 101"
-      },
-      {
-        "name": "105mm_kan_strv_104_user_cannon",
-        "localized": "105 mm kan Strv 101"
+        "name": "105mm_l74_user_cannon",
+        "localized": "105mm_l74_user_cannon"
       }
     ],
     "shell_type": "Apds",
     "caliber": 105,
     "true_caliber": 44,
-    "velocity": 1400,
+    "velocity": 1450,
     "penetration": [
       [
         0,
@@ -3734,18 +3730,22 @@
     "localized": "slpprj m/62",
     "parent_guns": [
       {
-        "name": "105mm_l74_103c_user_cannon",
-        "localized": "105mm_l74_103c_user_cannon"
+        "name": "105mm_bofors_ikv_user_cannon",
+        "localized": "105mm_bofors_ikv_user_cannon"
       },
       {
-        "name": "105mm_l74_user_cannon",
-        "localized": "105mm_l74_user_cannon"
+        "name": "105mm_kan_strv_101_user_cannon",
+        "localized": "105 mm kan Strv 101"
+      },
+      {
+        "name": "105mm_kan_strv_104_user_cannon",
+        "localized": "105 mm kan Strv 101"
       }
     ],
     "shell_type": "Apds",
     "caliber": 105,
     "true_caliber": 44,
-    "velocity": 1450,
+    "velocity": 1400,
     "penetration": [
       [
         0,
@@ -3869,7 +3869,7 @@
     "penetration": [
       [
         0,
-        5
+        400
       ]
     ],
     "explosive": [
@@ -3943,7 +3943,7 @@
     "penetration": [
       [
         0,
-        8
+        127
       ]
     ],
     "explosive": [
@@ -3975,7 +3975,7 @@
     "penetration": [
       [
         0,
-        8
+        127
       ]
     ],
     "explosive": [
@@ -4124,7 +4124,7 @@
     "penetration": [
       [
         0,
-        5
+        380
       ]
     ],
     "explosive": [
@@ -4296,7 +4296,7 @@
     "penetration": [
       [
         0,
-        8
+        127
       ]
     ],
     "explosive": [
@@ -4324,7 +4324,7 @@
     "penetration": [
       [
         0,
-        5
+        400
       ]
     ],
     "explosive": [
@@ -4416,7 +4416,7 @@
     "penetration": [
       [
         0,
-        1
+        433
       ]
     ],
     "explosive": [
@@ -4456,7 +4456,7 @@
     "penetration": [
       [
         0,
-        8
+        152
       ]
     ],
     "explosive": [
@@ -4507,25 +4507,6 @@
     "localized": "M8",
     "parent_guns": [
       {
-        "name": "110mm_m8_rocket_launcher",
-        "localized": "110mm_m8_rocket_launcher"
-      }
-    ],
-    "shell_type": "Rocket",
-    "caliber": 114,
-    "true_caliber": 114,
-    "velocity": 0,
-    "penetration": [],
-    "explosive": [
-      "tnt",
-      1950
-    ]
-  },
-  {
-    "name": "114mm_m8",
-    "localized": "M8",
-    "parent_guns": [
-      {
         "name": "bazooka",
         "localized": "bazooka"
       }
@@ -4538,6 +4519,25 @@
     "explosive": [
       "",
       0
+    ]
+  },
+  {
+    "name": "114mm_m8",
+    "localized": "M8",
+    "parent_guns": [
+      {
+        "name": "110mm_m8_rocket_launcher",
+        "localized": "110mm_m8_rocket_launcher"
+      }
+    ],
+    "shell_type": "Rocket",
+    "caliber": 114,
+    "true_caliber": 114,
+    "velocity": 0,
+    "penetration": [],
+    "explosive": [
+      "tnt",
+      1950
     ]
   },
   {
@@ -4556,7 +4556,7 @@
     "penetration": [
       [
         0,
-        5
+        730
       ]
     ],
     "explosive": [
@@ -4580,7 +4580,7 @@
     "penetration": [
       [
         0,
-        5
+        500
       ]
     ],
     "explosive": [
@@ -4604,7 +4604,7 @@
     "penetration": [
       [
         0,
-        5
+        440
       ]
     ],
     "explosive": [
@@ -4874,7 +4874,7 @@
     "penetration": [
       [
         0,
-        5
+        600
       ]
     ],
     "explosive": [
@@ -4898,7 +4898,7 @@
     "penetration": [
       [
         0,
-        50
+        800
       ]
     ],
     "explosive": [
@@ -4953,55 +4953,7 @@
     "penetration": [
       [
         0,
-        5
-      ]
-    ],
-    "explosive": [
-      "comp_b",
-      1640
-    ]
-  },
-  {
-    "name": "120mm_dm12a1",
-    "localized": "DM12A1",
-    "parent_guns": [
-      {
-        "name": "120mm_rheinmetall_l55_user_cannon",
-        "localized": "120mm_rheinmetall_l55_user_cannon"
-      }
-    ],
-    "shell_type": "HeatFs",
-    "caliber": 120,
-    "true_caliber": 120,
-    "velocity": 1190,
-    "penetration": [
-      [
-        0,
-        5
-      ]
-    ],
-    "explosive": [
-      "comp_b",
-      1640
-    ]
-  },
-  {
-    "name": "120mm_dm12a1",
-    "localized": "DM12A1",
-    "parent_guns": [
-      {
-        "name": "120mm_ctg_l50_user_cannon",
-        "localized": "120 mm CTG cannon"
-      }
-    ],
-    "shell_type": "HeatFs",
-    "caliber": 120,
-    "true_caliber": 120,
-    "velocity": 1170,
-    "penetration": [
-      [
-        0,
-        5
+        480
       ]
     ],
     "explosive": [
@@ -5045,7 +4997,55 @@
     "penetration": [
       [
         0,
-        5
+        480
+      ]
+    ],
+    "explosive": [
+      "comp_b",
+      1640
+    ]
+  },
+  {
+    "name": "120mm_dm12a1",
+    "localized": "DM12A1",
+    "parent_guns": [
+      {
+        "name": "120mm_rheinmetall_l55_user_cannon",
+        "localized": "120mm_rheinmetall_l55_user_cannon"
+      }
+    ],
+    "shell_type": "HeatFs",
+    "caliber": 120,
+    "true_caliber": 120,
+    "velocity": 1190,
+    "penetration": [
+      [
+        0,
+        480
+      ]
+    ],
+    "explosive": [
+      "comp_b",
+      1640
+    ]
+  },
+  {
+    "name": "120mm_dm12a1",
+    "localized": "DM12A1",
+    "parent_guns": [
+      {
+        "name": "120mm_ctg_l50_user_cannon",
+        "localized": "120 mm CTG cannon"
+      }
+    ],
+    "shell_type": "HeatFs",
+    "caliber": 120,
+    "true_caliber": 120,
+    "velocity": 1170,
+    "penetration": [
+      [
+        0,
+        480
       ]
     ],
     "explosive": [
@@ -5615,7 +5615,7 @@
     "penetration": [
       [
         0,
-        5
+        480
       ]
     ],
     "explosive": [
@@ -5931,7 +5931,7 @@
     "penetration": [
       [
         0,
-        8
+        152
       ]
     ],
     "explosive": [
@@ -6076,54 +6076,6 @@
     "localized": "L26",
     "parent_guns": [
       {
-        "name": "120mm_l11a5_mk3_vickers_user_cannon",
-        "localized": "120mm_l11a5_mk3_vickers_user_cannon"
-      }
-    ],
-    "shell_type": "ApFsDs",
-    "caliber": 120,
-    "true_caliber": 27,
-    "velocity": 1550,
-    "penetration": [
-      [
-        0,
-        471
-      ],
-      [
-        100,
-        469
-      ],
-      [
-        500,
-        464
-      ],
-      [
-        1000,
-        458
-      ],
-      [
-        1500,
-        450
-      ],
-      [
-        2000,
-        444
-      ],
-      [
-        3000,
-        429
-      ]
-    ],
-    "explosive": [
-      "",
-      0
-    ]
-  },
-  {
-    "name": "120mm_l26",
-    "localized": "L26",
-    "parent_guns": [
-      {
         "name": "120mm_l30a1_user_cannon",
         "localized": "120mm_l30a1_user_cannon"
       }
@@ -6160,6 +6112,54 @@
       [
         3000,
         455
+      ]
+    ],
+    "explosive": [
+      "",
+      0
+    ]
+  },
+  {
+    "name": "120mm_l26",
+    "localized": "L26",
+    "parent_guns": [
+      {
+        "name": "120mm_l11a5_mk3_vickers_user_cannon",
+        "localized": "120mm_l11a5_mk3_vickers_user_cannon"
+      }
+    ],
+    "shell_type": "ApFsDs",
+    "caliber": 120,
+    "true_caliber": 27,
+    "velocity": 1550,
+    "penetration": [
+      [
+        0,
+        471
+      ],
+      [
+        100,
+        469
+      ],
+      [
+        500,
+        464
+      ],
+      [
+        1000,
+        458
+      ],
+      [
+        1500,
+        450
+      ],
+      [
+        2000,
+        444
+      ],
+      [
+        3000,
+        429
       ]
     ],
     "explosive": [
@@ -6255,7 +6255,7 @@
     "penetration": [
       [
         0,
-        8
+        152
       ]
     ],
     "explosive": [
@@ -6379,7 +6379,7 @@
     "penetration": [
       [
         0,
-        5
+        480
       ]
     ],
     "explosive": [
@@ -6508,7 +6508,7 @@
     "penetration": [
       [
         0,
-        5
+        380
       ]
     ],
     "explosive": [
@@ -6749,7 +6749,7 @@
     "penetration": [
       [
         0,
-        5
+        480
       ]
     ],
     "explosive": [
@@ -6781,7 +6781,7 @@
     "penetration": [
       [
         0,
-        5
+        350
       ]
     ],
     "explosive": [
@@ -6851,7 +6851,7 @@
     "penetration": [
       [
         0,
-        5
+        480
       ]
     ],
     "explosive": [
@@ -6875,7 +6875,7 @@
     "penetration": [
       [
         0,
-        5
+        480
       ]
     ],
     "explosive": [
@@ -7354,7 +7354,7 @@
     "penetration": [
       [
         0,
-        5
+        160
       ]
     ],
     "explosive": [
@@ -7642,7 +7642,7 @@
     "penetration": [
       [
         0,
-        5
+        400
       ]
     ],
     "explosive": [
@@ -7666,7 +7666,7 @@
     "penetration": [
       [
         0,
-        5
+        400
       ]
     ],
     "explosive": [
@@ -7914,7 +7914,7 @@
     "penetration": [
       [
         0,
-        5
+        440
       ]
     ],
     "explosive": [
@@ -7966,7 +7966,7 @@
     "penetration": [
       [
         0,
-        5
+        550
       ]
     ],
     "explosive": [
@@ -7990,7 +7990,7 @@
     "penetration": [
       [
         0,
-        5
+        700
       ]
     ],
     "explosive": [
@@ -8515,7 +8515,7 @@
     "penetration": [
       [
         0,
-        5
+        500
       ]
     ],
     "explosive": [
@@ -8539,7 +8539,7 @@
     "penetration": [
       [
         0,
-        5
+        400
       ]
     ],
     "explosive": [
@@ -8563,7 +8563,7 @@
     "penetration": [
       [
         0,
-        5
+        650
       ]
     ],
     "explosive": [
@@ -8599,7 +8599,7 @@
     "penetration": [
       [
         0,
-        5
+        700
       ]
     ],
     "explosive": [
@@ -8623,7 +8623,7 @@
     "penetration": [
       [
         0,
-        5
+        750
       ]
     ],
     "explosive": [
@@ -8655,7 +8655,7 @@
     "penetration": [
       [
         0,
-        50
+        850
       ]
     ],
     "explosive": [
@@ -8706,7 +8706,7 @@
     "penetration": [
       [
         0,
-        5
+        480
       ]
     ],
     "explosive": [
@@ -8767,30 +8767,6 @@
     "localized": "HJ-73",
     "parent_guns": [
       {
-        "name": "125mm_hj_73_rocket_launcher",
-        "localized": "HJ-73 ATGM"
-      }
-    ],
-    "shell_type": "Atgm",
-    "caliber": 125,
-    "true_caliber": 125,
-    "velocity": 0,
-    "penetration": [
-      [
-        0,
-        5
-      ]
-    ],
-    "explosive": [
-      "a_ix_1",
-      2600
-    ]
-  },
-  {
-    "name": "125mm_hj_73",
-    "localized": "HJ-73",
-    "parent_guns": [
-      {
         "name": "125mm_hj_73_rocket_launcher_user_cannon",
         "localized": "125mm_hj_73_rocket_launcher_user_cannon"
       }
@@ -8802,11 +8778,35 @@
     "penetration": [
       [
         0,
-        5
+        400
       ]
     ],
     "explosive": [
       "",
+      2600
+    ]
+  },
+  {
+    "name": "125mm_hj_73",
+    "localized": "HJ-73",
+    "parent_guns": [
+      {
+        "name": "125mm_hj_73_rocket_launcher",
+        "localized": "HJ-73 ATGM"
+      }
+    ],
+    "shell_type": "Atgm",
+    "caliber": 125,
+    "true_caliber": 125,
+    "velocity": 0,
+    "penetration": [
+      [
+        0,
+        400
+      ]
+    ],
+    "explosive": [
+      "a_ix_1",
       2600
     ]
   },
@@ -8826,7 +8826,7 @@
     "penetration": [
       [
         0,
-        50
+        800
       ]
     ],
     "explosive": [
@@ -8889,7 +8889,7 @@
     "penetration": [
       [
         0,
-        5
+        430
       ]
     ],
     "explosive": [
@@ -8917,7 +8917,7 @@
     "penetration": [
       [
         0,
-        5
+        630
       ]
     ],
     "explosive": [
@@ -8941,7 +8941,7 @@
     "penetration": [
       [
         0,
-        5
+        430
       ]
     ],
     "explosive": [
@@ -8969,7 +8969,7 @@
     "penetration": [
       [
         0,
-        5
+        630
       ]
     ],
     "explosive": [
@@ -8993,7 +8993,7 @@
     "penetration": [
       [
         0,
-        50
+        1000
       ]
     ],
     "explosive": [
@@ -9017,7 +9017,7 @@
     "penetration": [
       [
         0,
-        5
+        430
       ]
     ],
     "explosive": [
@@ -9041,7 +9041,7 @@
     "penetration": [
       [
         0,
-        5
+        630
       ]
     ],
     "explosive": [
@@ -9065,7 +9065,7 @@
     "penetration": [
       [
         0,
-        2
+        650
       ]
     ],
     "explosive": [
@@ -9097,7 +9097,7 @@
     "penetration": [
       [
         0,
-        5
+        100
       ]
     ],
     "explosive": [
@@ -9129,6 +9129,25 @@
     "localized": "PzGr",
     "parent_guns": [
       {
+        "name": "128mm_k40_user_cannon",
+        "localized": "128mm_k40_user_cannon"
+      }
+    ],
+    "shell_type": "ApHe",
+    "caliber": 128,
+    "true_caliber": 128,
+    "velocity": 880,
+    "penetration": [],
+    "explosive": [
+      "ph_salz_h10",
+      550
+    ]
+  },
+  {
+    "name": "128mm_pzrg_39_43",
+    "localized": "PzGr",
+    "parent_guns": [
+      {
         "name": "128mm_kwk44_user_cannon",
         "localized": "128mm_kwk44_user_cannon"
       },
@@ -9141,25 +9160,6 @@
     "caliber": 128,
     "true_caliber": 128,
     "velocity": 930,
-    "penetration": [],
-    "explosive": [
-      "ph_salz_h10",
-      550
-    ]
-  },
-  {
-    "name": "128mm_pzrg_39_43",
-    "localized": "PzGr",
-    "parent_guns": [
-      {
-        "name": "128mm_k40_user_cannon",
-        "localized": "128mm_k40_user_cannon"
-      }
-    ],
-    "shell_type": "ApHe",
-    "caliber": 128,
-    "true_caliber": 128,
-    "velocity": 880,
     "penetration": [],
     "explosive": [
       "ph_salz_h10",
@@ -9294,7 +9294,7 @@
     "penetration": [
       [
         0,
-        2
+        560
       ]
     ],
     "explosive": [
@@ -9322,7 +9322,7 @@
     "penetration": [
       [
         0,
-        50
+        800
       ]
     ],
     "explosive": [
@@ -9545,27 +9545,7 @@
       {
         "name": "136mm_hot_rocket_launcher",
         "localized": "136mm_hot_rocket_launcher"
-      }
-    ],
-    "shell_type": "Atgm",
-    "caliber": 136,
-    "true_caliber": 136,
-    "velocity": 0,
-    "penetration": [
-      [
-        0,
-        5
-      ]
-    ],
-    "explosive": [
-      "comp_b",
-      2900
-    ]
-  },
-  {
-    "name": "136mm_k3s_hot",
-    "localized": "HOT",
-    "parent_guns": [
+      },
       {
         "name": "136mm_k3s_hot_rocket_launcher",
         "localized": "HOT-K3S"
@@ -9758,7 +9738,7 @@
     "penetration": [
       [
         0,
-        15
+        700
       ]
     ],
     "explosive": [
@@ -9782,7 +9762,7 @@
     "penetration": [
       [
         0,
-        100
+        1000
       ]
     ],
     "explosive": [
@@ -9806,7 +9786,7 @@
     "penetration": [
       [
         0,
-        5
+        700
       ]
     ],
     "explosive": [
@@ -9945,7 +9925,7 @@
     "penetration": [
       [
         0,
-        5
+        510
       ]
     ],
     "explosive": [
@@ -9996,7 +9976,7 @@
     "penetration": [
       [
         0,
-        5
+        185
       ]
     ],
     "explosive": [
@@ -10158,7 +10138,7 @@
     "penetration": [
       [
         0,
-        50
+        1200
       ]
     ],
     "explosive": [
@@ -10201,7 +10181,7 @@
     "penetration": [
       [
         0,
-        50
+        1200
       ]
     ],
     "explosive": [
@@ -10244,7 +10224,7 @@
     "penetration": [
       [
         0,
-        5
+        250
       ]
     ],
     "explosive": [
@@ -10272,7 +10252,7 @@
     "penetration": [
       [
         0,
-        5
+        250
       ]
     ],
     "explosive": [
@@ -10304,6 +10284,25 @@
     "localized": "BR-540B",
     "parent_guns": [
       {
+        "name": "152mm_m64_user_cannon",
+        "localized": "152mm_m64_user_cannon"
+      }
+    ],
+    "shell_type": "ApHe",
+    "caliber": 152,
+    "true_caliber": 152,
+    "velocity": 760,
+    "penetration": [],
+    "explosive": [
+      "a_ix_2",
+      660
+    ]
+  },
+  {
+    "name": "152mm_br_540b",
+    "localized": "BR-540B",
+    "parent_guns": [
+      {
         "name": "152mm_2a33_user_cannon",
         "localized": "152mm_2a33_user_cannon"
       },
@@ -10316,25 +10315,6 @@
     "caliber": 152,
     "true_caliber": 152,
     "velocity": 600,
-    "penetration": [],
-    "explosive": [
-      "a_ix_2",
-      660
-    ]
-  },
-  {
-    "name": "152mm_br_540b",
-    "localized": "BR-540B",
-    "parent_guns": [
-      {
-        "name": "152mm_m64_user_cannon",
-        "localized": "152mm_m64_user_cannon"
-      }
-    ],
-    "shell_type": "ApHe",
-    "caliber": 152,
-    "true_caliber": 152,
-    "velocity": 760,
     "penetration": [],
     "explosive": [
       "a_ix_2",
@@ -10369,6 +10349,34 @@
     "localized": "M409A1",
     "parent_guns": [
       {
+        "name": "152mm_xm150e5_kpz_user_cannon",
+        "localized": "152mm_xm150e5_kpz_user_cannon"
+      },
+      {
+        "name": "152mm_xm150e5_user_cannon",
+        "localized": "152mm_xm150e5_user_cannon"
+      }
+    ],
+    "shell_type": "Heat",
+    "caliber": 152,
+    "true_caliber": 152,
+    "velocity": 754,
+    "penetration": [
+      [
+        0,
+        380
+      ]
+    ],
+    "explosive": [
+      "comp_b",
+      2850
+    ]
+  },
+  {
+    "name": "152mm_m409a1",
+    "localized": "M409A1",
+    "parent_guns": [
+      {
         "name": "152mm_football_user_cannon",
         "localized": "Football cannon"
       },
@@ -10396,35 +10404,7 @@
     "penetration": [
       [
         0,
-        5
-      ]
-    ],
-    "explosive": [
-      "comp_b",
-      2850
-    ]
-  },
-  {
-    "name": "152mm_m409a1",
-    "localized": "M409A1",
-    "parent_guns": [
-      {
-        "name": "152mm_xm150e5_kpz_user_cannon",
-        "localized": "152mm_xm150e5_kpz_user_cannon"
-      },
-      {
-        "name": "152mm_xm150e5_user_cannon",
-        "localized": "152mm_xm150e5_user_cannon"
-      }
-    ],
-    "shell_type": "Heat",
-    "caliber": 152,
-    "true_caliber": 152,
-    "velocity": 754,
-    "penetration": [
-      [
-        0,
-        5
+        380
       ]
     ],
     "explosive": [
@@ -10538,7 +10518,7 @@
     "penetration": [
       [
         0,
-        5
+        480
       ]
     ],
     "explosive": [
@@ -10566,7 +10546,7 @@
     "penetration": [
       [
         0,
-        2
+        431
       ]
     ],
     "explosive": [
@@ -10594,7 +10574,7 @@
     "penetration": [
       [
         0,
-        2
+        431
       ]
     ],
     "explosive": [
@@ -10776,7 +10756,7 @@
     "penetration": [
       [
         0,
-        5
+        800
       ]
     ],
     "explosive": [
@@ -10851,7 +10831,7 @@
     "penetration": [
       [
         0,
-        5
+        800
       ]
     ],
     "explosive": [
@@ -10879,31 +10859,12 @@
     "penetration": [
       [
         0,
-        50
+        800
       ]
     ],
     "explosive": [
       "comp_b",
       3200
-    ]
-  },
-  {
-    "name": "152mm_wgr_41",
-    "localized": "Wgr.41 Spr",
-    "parent_guns": [
-      {
-        "name": "158mm_nb_wf_41_gun_rocket_launcher",
-        "localized": "158mm_nb_wf_41_gun_rocket_launcher"
-      }
-    ],
-    "shell_type": "Rocket",
-    "caliber": 150,
-    "true_caliber": 150,
-    "velocity": 0,
-    "penetration": [],
-    "explosive": [
-      "fp02",
-      2150
     ]
   },
   {
@@ -10923,6 +10884,25 @@
     "explosive": [
       "",
       0
+    ]
+  },
+  {
+    "name": "152mm_wgr_41",
+    "localized": "Wgr.41 Spr",
+    "parent_guns": [
+      {
+        "name": "158mm_nb_wf_41_gun_rocket_launcher",
+        "localized": "158mm_nb_wf_41_gun_rocket_launcher"
+      }
+    ],
+    "shell_type": "Rocket",
+    "caliber": 150,
+    "true_caliber": 150,
+    "velocity": 0,
+    "penetration": [],
+    "explosive": [
+      "fp02",
+      2150
     ]
   },
   {
@@ -11133,25 +11113,6 @@
     "localized": "M110",
     "parent_guns": [
       {
-        "name": "155mm_t7_user_cannon",
-        "localized": "155mm_t7_user_cannon"
-      }
-    ],
-    "shell_type": "Smoke",
-    "caliber": 155,
-    "true_caliber": 155,
-    "velocity": 717,
-    "penetration": [],
-    "explosive": [
-      "smoke_composition",
-      50
-    ]
-  },
-  {
-    "name": "155mm_m110",
-    "localized": "M110",
-    "parent_guns": [
-      {
         "name": "155mm_nsj_l30_user_cannon",
         "localized": "155mm_nsj_l30_user_cannon"
       },
@@ -11164,6 +11125,25 @@
     "caliber": 155,
     "true_caliber": 155,
     "velocity": 563,
+    "penetration": [],
+    "explosive": [
+      "smoke_composition",
+      50
+    ]
+  },
+  {
+    "name": "155mm_m110",
+    "localized": "M110",
+    "parent_guns": [
+      {
+        "name": "155mm_t7_user_cannon",
+        "localized": "155mm_t7_user_cannon"
+      }
+    ],
+    "shell_type": "Smoke",
+    "caliber": 155,
+    "true_caliber": 155,
+    "velocity": 717,
     "penetration": [],
     "explosive": [
       "smoke_composition",
@@ -11494,7 +11474,7 @@
     "penetration": [
       [
         0,
-        5
+        600
       ]
     ],
     "explosive": [
@@ -11518,7 +11498,7 @@
     "penetration": [
       [
         0,
-        5
+        600
       ]
     ],
     "explosive": [
@@ -11542,7 +11522,7 @@
     "penetration": [
       [
         0,
-        5
+        600
       ]
     ],
     "explosive": [
@@ -11566,7 +11546,7 @@
     "penetration": [
       [
         0,
-        8
+        203
       ]
     ],
     "explosive": [
@@ -11622,7 +11602,7 @@
     "penetration": [
       [
         0,
-        5
+        535
       ]
     ],
     "explosive": [
@@ -11646,7 +11626,7 @@
     "penetration": [
       [
         0,
-        2
+        535
       ]
     ],
     "explosive": [
@@ -11670,7 +11650,7 @@
     "penetration": [
       [
         0,
-        2
+        700
       ]
     ],
     "explosive": [
@@ -11737,7 +11717,7 @@
     "penetration": [
       [
         0,
-        8
+        228
       ]
     ],
     "explosive": [
@@ -12364,37 +12344,6 @@
     "localized": "Sprgr.",
     "parent_guns": [
       {
-        "name": "20mm_flak38_user_cannon",
-        "localized": "20mm_flak38_user_cannon"
-      },
-      {
-        "name": "20mm_kwk30_k_user_cannon",
-        "localized": "20mm_kwk30_k_user_cannon"
-      },
-      {
-        "name": "20mm_kwk30_user_cannon",
-        "localized": "20mm_kwk30_user_cannon"
-      },
-      {
-        "name": "20mm_kwk38_user_cannon",
-        "localized": "20mm_kwk38_user_cannon"
-      }
-    ],
-    "shell_type": "ApHe",
-    "caliber": 20,
-    "true_caliber": 20,
-    "velocity": 900,
-    "penetration": [],
-    "explosive": [
-      "np_10",
-      6
-    ]
-  },
-  {
-    "name": "20mm_sprgr",
-    "localized": "Sprgr.",
-    "parent_guns": [
-      {
         "name": "20mm_mg_c38",
         "localized": "20mm_mg_c38"
       }
@@ -12428,6 +12377,37 @@
     "explosive": [
       "np_10",
       17
+    ]
+  },
+  {
+    "name": "20mm_sprgr",
+    "localized": "Sprgr.",
+    "parent_guns": [
+      {
+        "name": "20mm_flak38_user_cannon",
+        "localized": "20mm_flak38_user_cannon"
+      },
+      {
+        "name": "20mm_kwk30_k_user_cannon",
+        "localized": "20mm_kwk30_k_user_cannon"
+      },
+      {
+        "name": "20mm_kwk30_user_cannon",
+        "localized": "20mm_kwk30_user_cannon"
+      },
+      {
+        "name": "20mm_kwk38_user_cannon",
+        "localized": "20mm_kwk38_user_cannon"
+      }
+    ],
+    "shell_type": "ApHe",
+    "caliber": 20,
+    "true_caliber": 20,
+    "velocity": 900,
+    "penetration": [],
+    "explosive": [
+      "np_10",
+      6
     ]
   },
   {
@@ -12579,7 +12559,7 @@
     "penetration": [
       [
         0,
-        5
+        36
       ]
     ],
     "explosive": [
@@ -12592,14 +12572,18 @@
     "localized": "M791",
     "parent_guns": [
       {
-        "name": "25mm_oerlikon_kba_dardo_user_cannon",
-        "localized": "25mm_oerlikon_kba_dardo_user_cannon"
+        "name": "25mm_m242_hr_user_cannon",
+        "localized": "25mm_m242_hr_user_cannon"
+      },
+      {
+        "name": "25mm_m242_user_cannon",
+        "localized": "25mm_m242_user_cannon"
       }
     ],
     "shell_type": "Apds",
     "caliber": 25,
     "true_caliber": 14,
-    "velocity": 1335,
+    "velocity": 1345,
     "penetration": [],
     "explosive": [
       "",
@@ -12630,18 +12614,14 @@
     "localized": "M791",
     "parent_guns": [
       {
-        "name": "25mm_m242_hr_user_cannon",
-        "localized": "25mm_m242_hr_user_cannon"
-      },
-      {
-        "name": "25mm_m242_user_cannon",
-        "localized": "25mm_m242_user_cannon"
+        "name": "25mm_oerlikon_kba_dardo_user_cannon",
+        "localized": "25mm_oerlikon_kba_dardo_user_cannon"
       }
     ],
     "shell_type": "Apds",
     "caliber": 25,
     "true_caliber": 14,
-    "velocity": 1345,
+    "velocity": 1335,
     "penetration": [],
     "explosive": [
       "",
@@ -13617,25 +13597,6 @@
     "localized": "BR-167",
     "parent_guns": [
       {
-        "name": "37mm_2a11_user_cannon",
-        "localized": "37mm_2a11_user_cannon"
-      }
-    ],
-    "shell_type": "ApSolid",
-    "caliber": 37,
-    "true_caliber": 37,
-    "velocity": 1000,
-    "penetration": [],
-    "explosive": [
-      "",
-      0
-    ]
-  },
-  {
-    "name": "37mm_UBR_167",
-    "localized": "BR-167",
-    "parent_guns": [
-      {
         "name": "37mm_61_k_user_cannon",
         "localized": "37mm_61_k_user_cannon"
       },
@@ -13648,6 +13609,25 @@
     "caliber": 37,
     "true_caliber": 37,
     "velocity": 880,
+    "penetration": [],
+    "explosive": [
+      "",
+      0
+    ]
+  },
+  {
+    "name": "37mm_UBR_167",
+    "localized": "BR-167",
+    "parent_guns": [
+      {
+        "name": "37mm_2a11_user_cannon",
+        "localized": "37mm_2a11_user_cannon"
+      }
+    ],
+    "shell_type": "ApSolid",
+    "caliber": 37,
+    "true_caliber": 37,
+    "velocity": 1000,
     "penetration": [],
     "explosive": [
       "",
@@ -13953,29 +13933,6 @@
     "localized": "M63 shell",
     "parent_guns": [
       {
-        "name": "37mm_m3_user_cannon",
-        "localized": "37mm_m3_user_cannon"
-      },
-      {
-        "name": "37mm_m5_user_cannon",
-        "localized": "37mm_m5_user_cannon"
-      }
-    ],
-    "shell_type": "He",
-    "caliber": 37,
-    "true_caliber": 37,
-    "velocity": 820,
-    "penetration": [],
-    "explosive": [
-      "tnt",
-      38
-    ]
-  },
-  {
-    "name": "37mm_m63",
-    "localized": "M63 shell",
-    "parent_guns": [
-      {
         "name": "37mm_m3_user_cannon_for_m6a1",
         "localized": "37mm_m3_user_cannon_for_m6a1"
       },
@@ -14000,6 +13957,29 @@
     "caliber": 37,
     "true_caliber": 37,
     "velocity": 807,
+    "penetration": [],
+    "explosive": [
+      "tnt",
+      38
+    ]
+  },
+  {
+    "name": "37mm_m63",
+    "localized": "M63 shell",
+    "parent_guns": [
+      {
+        "name": "37mm_m3_user_cannon",
+        "localized": "37mm_m3_user_cannon"
+      },
+      {
+        "name": "37mm_m5_user_cannon",
+        "localized": "37mm_m5_user_cannon"
+      }
+    ],
+    "shell_type": "He",
+    "caliber": 37,
+    "true_caliber": 37,
+    "velocity": 820,
     "penetration": [],
     "explosive": [
       "tnt",
@@ -14238,33 +14218,6 @@
     "localized": "PzGr",
     "parent_guns": [
       {
-        "name": "37mm_flak36_user_cannon",
-        "localized": "37mm_flak36_user_cannon"
-      },
-      {
-        "name": "37mm_flak43_user_cannon",
-        "localized": "37mm_flak43_user_cannon"
-      },
-      {
-        "name": "37mm_flak44_user_cannon",
-        "localized": "37mm_flak44_user_cannon"
-      }
-    ],
-    "shell_type": "ApHe",
-    "caliber": 37,
-    "true_caliber": 37,
-    "velocity": 770,
-    "penetration": [],
-    "explosive": [
-      "petn",
-      13
-    ]
-  },
-  {
-    "name": "37mm_pzgr",
-    "localized": "PzGr",
-    "parent_guns": [
-      {
         "name": "37mm_kwk36_for_nbfz_user_cannon",
         "localized": "37mm_kwk36_for_nbfz_user_cannon"
       },
@@ -14285,6 +14238,33 @@
     "caliber": 37,
     "true_caliber": 37,
     "velocity": 745,
+    "penetration": [],
+    "explosive": [
+      "petn",
+      13
+    ]
+  },
+  {
+    "name": "37mm_pzgr",
+    "localized": "PzGr",
+    "parent_guns": [
+      {
+        "name": "37mm_flak36_user_cannon",
+        "localized": "37mm_flak36_user_cannon"
+      },
+      {
+        "name": "37mm_flak43_user_cannon",
+        "localized": "37mm_flak43_user_cannon"
+      },
+      {
+        "name": "37mm_flak44_user_cannon",
+        "localized": "37mm_flak44_user_cannon"
+      }
+    ],
+    "shell_type": "ApHe",
+    "caliber": 37,
+    "true_caliber": 37,
+    "velocity": 770,
     "penetration": [],
     "explosive": [
       "petn",
@@ -14390,6 +14370,25 @@
     "localized": "Pzgr. 34(t)",
     "parent_guns": [
       {
+        "name": "37mm_kwk38_t_user_cannon",
+        "localized": "37mm_kwk38_t_user_cannon"
+      }
+    ],
+    "shell_type": "ApHe",
+    "caliber": 37,
+    "true_caliber": 37,
+    "velocity": 741,
+    "penetration": [],
+    "explosive": [
+      "petn",
+      13
+    ]
+  },
+  {
+    "name": "37mm_pzgr_t",
+    "localized": "Pzgr. 34(t)",
+    "parent_guns": [
+      {
         "name": "37mm_kwk34_t_user_cannon",
         "localized": "37mm_kwk34_t_user_cannon"
       }
@@ -14436,25 +14435,6 @@
         2
       ]
     ],
-    "explosive": [
-      "petn",
-      13
-    ]
-  },
-  {
-    "name": "37mm_pzgr_t",
-    "localized": "Pzgr. 34(t)",
-    "parent_guns": [
-      {
-        "name": "37mm_kwk38_t_user_cannon",
-        "localized": "37mm_kwk38_t_user_cannon"
-      }
-    ],
-    "shell_type": "ApHe",
-    "caliber": 37,
-    "true_caliber": 37,
-    "velocity": 741,
-    "penetration": [],
     "explosive": [
       "petn",
       13
@@ -14971,6 +14951,30 @@
     "localized": "M822",
     "parent_guns": [
       {
+        "name": "40mm_grenade_launcher_m129",
+        "localized": "40mm_grenade_launcher_m129"
+      }
+    ],
+    "shell_type": "ApHe",
+    "caliber": 40,
+    "true_caliber": 40,
+    "velocity": 241,
+    "penetration": [
+      [
+        0,
+        76
+      ]
+    ],
+    "explosive": [
+      "rdx_tnt",
+      32
+    ]
+  },
+  {
+    "name": "40mm_m822",
+    "localized": "M822",
+    "parent_guns": [
+      {
         "name": "40mm_l70_bofors_mk3_user_cannon",
         "localized": "40mm_l70_bofors_mk3_user_cannon"
       }
@@ -14983,46 +14987,6 @@
     "explosive": [
       "octol",
       120
-    ]
-  },
-  {
-    "name": "40mm_m822",
-    "localized": "M822",
-    "parent_guns": [
-      {
-        "name": "40mm_grenade_launcher_m129",
-        "localized": "40mm_grenade_launcher_m129"
-      }
-    ],
-    "shell_type": "ApHe",
-    "caliber": 40,
-    "true_caliber": 40,
-    "velocity": 241,
-    "penetration": [
-      [
-        0,
-        2
-      ],
-      [
-        100,
-        2
-      ],
-      [
-        500,
-        1
-      ],
-      [
-        1000,
-        1
-      ],
-      [
-        1500,
-        0
-      ]
-    ],
-    "explosive": [
-      "rdx_tnt",
-      32
     ]
   },
   {
@@ -15927,25 +15891,6 @@
     "localized": "PzGr 39",
     "parent_guns": [
       {
-        "name": "50mm_kwk38_user_cannon",
-        "localized": "50mm_kwk38_user_cannon"
-      }
-    ],
-    "shell_type": "ApHe",
-    "caliber": 50,
-    "true_caliber": 50,
-    "velocity": 685,
-    "penetration": [],
-    "explosive": [
-      "np_10",
-      17
-    ]
-  },
-  {
-    "name": "50mm_pzgr_39",
-    "localized": "PzGr 39",
-    "parent_guns": [
-      {
         "name": "50mm_kwk39_1_user_cannon",
         "localized": "50mm_kwk39_1_user_cannon"
       },
@@ -15962,6 +15907,25 @@
     "caliber": 50,
     "true_caliber": 50,
     "velocity": 835,
+    "penetration": [],
+    "explosive": [
+      "np_10",
+      17
+    ]
+  },
+  {
+    "name": "50mm_pzgr_39",
+    "localized": "PzGr 39",
+    "parent_guns": [
+      {
+        "name": "50mm_kwk38_user_cannon",
+        "localized": "50mm_kwk38_user_cannon"
+      }
+    ],
+    "shell_type": "ApHe",
+    "caliber": 50,
+    "true_caliber": 50,
+    "velocity": 685,
     "penetration": [],
     "explosive": [
       "np_10",
@@ -16019,25 +15983,6 @@
     "localized": "PzGr 40/1",
     "parent_guns": [
       {
-        "name": "50mm_kwk38_user_cannon",
-        "localized": "50mm_kwk38_user_cannon"
-      }
-    ],
-    "shell_type": "ApCr",
-    "caliber": 50,
-    "true_caliber": 21,
-    "velocity": 1050,
-    "penetration": [],
-    "explosive": [
-      "",
-      0
-    ]
-  },
-  {
-    "name": "50mm_pzgr_40_1",
-    "localized": "PzGr 40/1",
-    "parent_guns": [
-      {
         "name": "50mm_kwk39_1_user_cannon",
         "localized": "50mm_kwk39_1_user_cannon"
       },
@@ -16061,22 +16006,22 @@
     ]
   },
   {
-    "name": "50mm_sprgr_38",
-    "localized": "Sprgr. 38",
+    "name": "50mm_pzgr_40_1",
+    "localized": "PzGr 40/1",
     "parent_guns": [
       {
-        "name": "47mm_pak_t_sf_user_cannon",
-        "localized": "47mm_pak_t_sf_user_cannon"
+        "name": "50mm_kwk38_user_cannon",
+        "localized": "50mm_kwk38_user_cannon"
       }
     ],
-    "shell_type": "He",
-    "caliber": 47,
-    "true_caliber": 47,
-    "velocity": 400,
+    "shell_type": "ApCr",
+    "caliber": 50,
+    "true_caliber": 21,
+    "velocity": 1050,
     "penetration": [],
     "explosive": [
-      "fp02",
-      180
+      "",
+      0
     ]
   },
   {
@@ -16108,6 +16053,25 @@
     "explosive": [
       "fp02_np10",
       170
+    ]
+  },
+  {
+    "name": "50mm_sprgr_38",
+    "localized": "Sprgr. 38",
+    "parent_guns": [
+      {
+        "name": "47mm_pak_t_sf_user_cannon",
+        "localized": "47mm_pak_t_sf_user_cannon"
+      }
+    ],
+    "shell_type": "He",
+    "caliber": 47,
+    "true_caliber": 47,
+    "velocity": 400,
+    "penetration": [],
+    "explosive": [
+      "fp02",
+      180
     ]
   },
   {
@@ -16266,6 +16230,25 @@
     "localized": "BR-271M",
     "parent_guns": [
       {
+        "name": "57mm_ch51m_user_cannon",
+        "localized": "57mm_ch51m_user_cannon"
+      }
+    ],
+    "shell_type": "ApHe",
+    "caliber": 57,
+    "true_caliber": 57,
+    "velocity": 1020,
+    "penetration": [],
+    "explosive": [
+      "a_ix_2",
+      13
+    ]
+  },
+  {
+    "name": "57mm_br_271m",
+    "localized": "BR-271M",
+    "parent_guns": [
+      {
         "name": "57mm_zis2_user_cannon",
         "localized": "57mm_zis2_user_cannon"
       },
@@ -16282,25 +16265,6 @@
     "caliber": 57,
     "true_caliber": 57,
     "velocity": 1040,
-    "penetration": [],
-    "explosive": [
-      "a_ix_2",
-      13
-    ]
-  },
-  {
-    "name": "57mm_br_271m",
-    "localized": "BR-271M",
-    "parent_guns": [
-      {
-        "name": "57mm_ch51m_user_cannon",
-        "localized": "57mm_ch51m_user_cannon"
-      }
-    ],
-    "shell_type": "ApHe",
-    "caliber": 57,
-    "true_caliber": 57,
-    "velocity": 1020,
     "penetration": [],
     "explosive": [
       "a_ix_2",
@@ -16488,25 +16452,6 @@
     "localized": "O-271",
     "parent_guns": [
       {
-        "name": "57mm_ch51m_user_cannon",
-        "localized": "57mm_ch51m_user_cannon"
-      }
-    ],
-    "shell_type": "He",
-    "caliber": 57,
-    "true_caliber": 57,
-    "velocity": 695,
-    "penetration": [],
-    "explosive": [
-      "tnt",
-      220
-    ]
-  },
-  {
-    "name": "57mm_o_271",
-    "localized": "O-271",
-    "parent_guns": [
-      {
         "name": "57mm_zis2_user_cannon",
         "localized": "57mm_zis2_user_cannon"
       },
@@ -16523,6 +16468,25 @@
     "caliber": 57,
     "true_caliber": 57,
     "velocity": 700,
+    "penetration": [],
+    "explosive": [
+      "tnt",
+      220
+    ]
+  },
+  {
+    "name": "57mm_o_271",
+    "localized": "O-271",
+    "parent_guns": [
+      {
+        "name": "57mm_ch51m_user_cannon",
+        "localized": "57mm_ch51m_user_cannon"
+      }
+    ],
+    "shell_type": "He",
+    "caliber": 57,
+    "true_caliber": 57,
+    "velocity": 695,
     "penetration": [],
     "explosive": [
       "tnt",
@@ -16655,6 +16619,25 @@
     "localized": "Shot Mk.5 HV",
     "parent_guns": [
       {
+        "name": "57mm_6pdr_qqf_mk_5_l50_user_cannon",
+        "localized": "57mm_6pdr_qqf_mk_5_l50_user_cannon"
+      }
+    ],
+    "shell_type": "ApSolid",
+    "caliber": 57,
+    "true_caliber": 57,
+    "velocity": 891,
+    "penetration": [],
+    "explosive": [
+      "",
+      0
+    ]
+  },
+  {
+    "name": "57mm_shot_mk5t_hv",
+    "localized": "Shot Mk.5 HV",
+    "parent_guns": [
+      {
         "name": "57mm_6pdr_qqf_mk_3_l43_user_cannon",
         "localized": "57mm_6pdr_qqf_mk_3_l43_user_cannon"
       }
@@ -16697,25 +16680,6 @@
         34
       ]
     ],
-    "explosive": [
-      "",
-      0
-    ]
-  },
-  {
-    "name": "57mm_shot_mk5t_hv",
-    "localized": "Shot Mk.5 HV",
-    "parent_guns": [
-      {
-        "name": "57mm_6pdr_qqf_mk_5_l50_user_cannon",
-        "localized": "57mm_6pdr_qqf_mk_5_l50_user_cannon"
-      }
-    ],
-    "shell_type": "ApSolid",
-    "caliber": 57,
-    "true_caliber": 57,
-    "velocity": 891,
-    "penetration": [],
     "explosive": [
       "",
       0
@@ -16797,6 +16761,25 @@
     "localized": "Shot Mk.9",
     "parent_guns": [
       {
+        "name": "57mm_6pdr_qqf_mk_5_l50_user_cannon",
+        "localized": "57mm_6pdr_qqf_mk_5_l50_user_cannon"
+      }
+    ],
+    "shell_type": "ApSolid",
+    "caliber": 57,
+    "true_caliber": 57,
+    "velocity": 847,
+    "penetration": [],
+    "explosive": [
+      "",
+      0
+    ]
+  },
+  {
+    "name": "57mm_shot_mk9t",
+    "localized": "Shot Mk.9",
+    "parent_guns": [
+      {
         "name": "57mm_6pdr_qqf_mk_3_l43_user_cannon",
         "localized": "57mm_6pdr_qqf_mk_3_l43_user_cannon"
       }
@@ -16845,25 +16828,6 @@
     ]
   },
   {
-    "name": "57mm_shot_mk9t",
-    "localized": "Shot Mk.9",
-    "parent_guns": [
-      {
-        "name": "57mm_6pdr_qqf_mk_5_l50_user_cannon",
-        "localized": "57mm_6pdr_qqf_mk_5_l50_user_cannon"
-      }
-    ],
-    "shell_type": "ApSolid",
-    "caliber": 57,
-    "true_caliber": 57,
-    "velocity": 847,
-    "penetration": [],
-    "explosive": [
-      "",
-      0
-    ]
-  },
-  {
     "name": "57mm_type3",
     "localized": "Type 3 HEAT",
     "parent_guns": [
@@ -16883,7 +16847,7 @@
     "penetration": [
       [
         0,
-        5
+        55
       ]
     ],
     "explosive": [
@@ -16953,7 +16917,7 @@
     "penetration": [
       [
         0,
-        2
+        100
       ]
     ],
     "explosive": [
@@ -17217,7 +17181,7 @@
     "penetration": [
       [
         0,
-        5
+        80
       ]
     ],
     "explosive": [
@@ -17326,7 +17290,7 @@
     "penetration": [
       [
         0,
-        1
+        300
       ]
     ],
     "explosive": [
@@ -17385,18 +17349,18 @@
     "localized": "EPS M42",
     "parent_guns": [
       {
-        "name": "75mm_ansaldo_75_18_m34_user_cannon",
-        "localized": "75mm_ansaldo_75_18_m34_user_cannon"
+        "name": "75mm_ansaldo_75_32_m37_user_cannon",
+        "localized": "75mm_ansaldo_75_32_m37_user_cannon"
       }
     ],
     "shell_type": "Heat",
     "caliber": 75,
     "true_caliber": 75,
-    "velocity": 399,
+    "velocity": 580,
     "penetration": [
       [
         0,
-        5
+        100
       ]
     ],
     "explosive": [
@@ -17409,42 +17373,23 @@
     "localized": "EPS M42",
     "parent_guns": [
       {
-        "name": "75mm_ansaldo_75_32_m37_user_cannon",
-        "localized": "75mm_ansaldo_75_32_m37_user_cannon"
+        "name": "75mm_ansaldo_75_18_m34_user_cannon",
+        "localized": "75mm_ansaldo_75_18_m34_user_cannon"
       }
     ],
     "shell_type": "Heat",
     "caliber": 75,
     "true_caliber": 75,
-    "velocity": 580,
+    "velocity": 399,
     "penetration": [
       [
         0,
-        5
+        100
       ]
     ],
     "explosive": [
       "rdx_tnt",
       500
-    ]
-  },
-  {
-    "name": "75mm_gr_fumogena",
-    "localized": "Gr. Fumogena",
-    "parent_guns": [
-      {
-        "name": "75mm_ansaldo_75_32_m37_user_cannon",
-        "localized": "75mm_ansaldo_75_32_m37_user_cannon"
-      }
-    ],
-    "shell_type": "Smoke",
-    "caliber": 75,
-    "true_caliber": 75,
-    "velocity": 490,
-    "penetration": [],
-    "explosive": [
-      "smoke_composition",
-      50
     ]
   },
   {
@@ -17460,6 +17405,25 @@
     "caliber": 75,
     "true_caliber": 75,
     "velocity": 450,
+    "penetration": [],
+    "explosive": [
+      "smoke_composition",
+      50
+    ]
+  },
+  {
+    "name": "75mm_gr_fumogena",
+    "localized": "Gr. Fumogena",
+    "parent_guns": [
+      {
+        "name": "75mm_ansaldo_75_32_m37_user_cannon",
+        "localized": "75mm_ansaldo_75_32_m37_user_cannon"
+      }
+    ],
+    "shell_type": "Smoke",
+    "caliber": 75,
+    "true_caliber": 75,
+    "velocity": 490,
     "penetration": [],
     "explosive": [
       "smoke_composition",
@@ -17490,14 +17454,14 @@
     "localized": "Granata Perforante mod.32",
     "parent_guns": [
       {
-        "name": "75mm_ansaldo_75_18_m34_user_cannon",
-        "localized": "75mm_ansaldo_75_18_m34_user_cannon"
+        "name": "75mm_ansaldo_75_32_m37_user_cannon",
+        "localized": "75mm_ansaldo_75_32_m37_user_cannon"
       }
     ],
     "shell_type": "ApHe",
     "caliber": 75,
     "true_caliber": 75,
-    "velocity": 476,
+    "velocity": 630,
     "penetration": [],
     "explosive": [
       "tnt",
@@ -17509,14 +17473,14 @@
     "localized": "Granata Perforante mod.32",
     "parent_guns": [
       {
-        "name": "75mm_ansaldo_75_32_m37_user_cannon",
-        "localized": "75mm_ansaldo_75_32_m37_user_cannon"
+        "name": "75mm_ansaldo_75_18_m34_user_cannon",
+        "localized": "75mm_ansaldo_75_18_m34_user_cannon"
       }
     ],
     "shell_type": "ApHe",
     "caliber": 75,
     "true_caliber": 75,
-    "velocity": 630,
+    "velocity": 476,
     "penetration": [],
     "explosive": [
       "tnt",
@@ -17583,7 +17547,7 @@
     "penetration": [
       [
         0,
-        5
+        80
       ]
     ],
     "explosive": [
@@ -17619,47 +17583,12 @@
     "penetration": [
       [
         0,
-        5
+        100
       ]
     ],
     "explosive": [
       "h5",
       515
-    ]
-  },
-  {
-    "name": "75mm_k_gr_rot_nb",
-    "localized": "K.Gr.Rot Nb.",
-    "parent_guns": [
-      {
-        "name": "75mm_kwk37_for_nbfz_user_cannon",
-        "localized": "75mm_kwk37_for_nbfz_user_cannon"
-      },
-      {
-        "name": "75mm_kwk37_user_cannon",
-        "localized": "75mm_kwk37_user_cannon"
-      },
-      {
-        "name": "75mm_kwk44_l36_user_cannon",
-        "localized": "75mm_kwk44_l36_user_cannon"
-      },
-      {
-        "name": "75mm_kwk51_user_cannon",
-        "localized": "75mm_kwk51_user_cannon"
-      },
-      {
-        "name": "75mm_stuk37_user_cannon",
-        "localized": "75mm_stuk37_user_cannon"
-      }
-    ],
-    "shell_type": "Smoke",
-    "caliber": 75,
-    "true_caliber": 75,
-    "velocity": 423,
-    "penetration": [],
-    "explosive": [
-      "smoke_composition",
-      50
     ]
   },
   {
@@ -17699,6 +17628,41 @@
     "caliber": 75,
     "true_caliber": 75,
     "velocity": 540,
+    "penetration": [],
+    "explosive": [
+      "smoke_composition",
+      50
+    ]
+  },
+  {
+    "name": "75mm_k_gr_rot_nb",
+    "localized": "K.Gr.Rot Nb.",
+    "parent_guns": [
+      {
+        "name": "75mm_kwk37_for_nbfz_user_cannon",
+        "localized": "75mm_kwk37_for_nbfz_user_cannon"
+      },
+      {
+        "name": "75mm_kwk37_user_cannon",
+        "localized": "75mm_kwk37_user_cannon"
+      },
+      {
+        "name": "75mm_kwk44_l36_user_cannon",
+        "localized": "75mm_kwk44_l36_user_cannon"
+      },
+      {
+        "name": "75mm_kwk51_user_cannon",
+        "localized": "75mm_kwk51_user_cannon"
+      },
+      {
+        "name": "75mm_stuk37_user_cannon",
+        "localized": "75mm_stuk37_user_cannon"
+      }
+    ],
+    "shell_type": "Smoke",
+    "caliber": 75,
+    "true_caliber": 75,
+    "velocity": 423,
     "penetration": [],
     "explosive": [
       "smoke_composition",
@@ -17786,7 +17750,7 @@
     "penetration": [
       [
         0,
-        5
+        100
       ]
     ],
     "explosive": [
@@ -17799,14 +17763,14 @@
     "localized": "M48 shell",
     "parent_guns": [
       {
-        "name": "75mm_m2_howitzer_user_cannon",
-        "localized": "75mm_m2_howitzer_user_cannon"
+        "name": "75mm_m1897a4_user_cannon",
+        "localized": "75 mm M1897A4 cannon"
       }
     ],
     "shell_type": "He",
     "caliber": 75,
     "true_caliber": 75,
-    "velocity": 381,
+    "velocity": 594,
     "penetration": [],
     "explosive": [
       "tnt",
@@ -17868,14 +17832,14 @@
     "localized": "M48 shell",
     "parent_guns": [
       {
-        "name": "75mm_m1897a4_user_cannon",
-        "localized": "75 mm M1897A4 cannon"
+        "name": "75mm_m2_howitzer_user_cannon",
+        "localized": "75mm_m2_howitzer_user_cannon"
       }
     ],
     "shell_type": "He",
     "caliber": 75,
     "true_caliber": 75,
-    "velocity": 594,
+    "velocity": 381,
     "penetration": [],
     "explosive": [
       "tnt",
@@ -17904,6 +17868,58 @@
     "true_caliber": 75,
     "velocity": 618,
     "penetration": [],
+    "explosive": [
+      "exp_d",
+      65
+    ]
+  },
+  {
+    "name": "75mm_m61",
+    "localized": "M61 shot",
+    "parent_guns": [
+      {
+        "name": "75mm_m2_user_cannon",
+        "localized": "75mm_m2_user_cannon"
+      }
+    ],
+    "shell_type": "ApHe",
+    "caliber": 75,
+    "true_caliber": 75,
+    "velocity": 588,
+    "penetration": [
+      [
+        0,
+        79
+      ],
+      [
+        100,
+        78
+      ],
+      [
+        500,
+        72
+      ],
+      [
+        1000,
+        65
+      ],
+      [
+        1500,
+        58
+      ],
+      [
+        2000,
+        52
+      ],
+      [
+        2500,
+        47
+      ],
+      [
+        3000,
+        42
+      ]
+    ],
     "explosive": [
       "exp_d",
       65
@@ -17981,58 +17997,6 @@
     ]
   },
   {
-    "name": "75mm_m61",
-    "localized": "M61 shot",
-    "parent_guns": [
-      {
-        "name": "75mm_m2_user_cannon",
-        "localized": "75mm_m2_user_cannon"
-      }
-    ],
-    "shell_type": "ApHe",
-    "caliber": 75,
-    "true_caliber": 75,
-    "velocity": 588,
-    "penetration": [
-      [
-        0,
-        79
-      ],
-      [
-        100,
-        78
-      ],
-      [
-        500,
-        72
-      ],
-      [
-        1000,
-        65
-      ],
-      [
-        1500,
-        58
-      ],
-      [
-        2000,
-        52
-      ],
-      [
-        2500,
-        47
-      ],
-      [
-        3000,
-        42
-      ]
-    ],
-    "explosive": [
-      "exp_d",
-      65
-    ]
-  },
-  {
     "name": "75mm_m64",
     "localized": "M64",
     "parent_guns": [
@@ -18071,95 +18035,12 @@
     "penetration": [
       [
         0,
-        5
+        89
       ]
     ],
     "explosive": [
       "pentolite",
       453
-    ]
-  },
-  {
-    "name": "75mm_m72",
-    "localized": "M72 shot",
-    "parent_guns": [
-      {
-        "name": "75mm_m1897a4_user_cannon",
-        "localized": "75 mm M1897A4 cannon"
-      }
-    ],
-    "shell_type": "ApSolid",
-    "caliber": 75,
-    "true_caliber": 75,
-    "velocity": 609,
-    "penetration": [
-      [
-        0,
-        108
-      ],
-      [
-        100,
-        107
-      ],
-      [
-        500,
-        90
-      ],
-      [
-        1000,
-        74
-      ],
-      [
-        1500,
-        60
-      ],
-      [
-        2000,
-        50
-      ],
-      [
-        2500,
-        40
-      ],
-      [
-        3000,
-        33
-      ]
-    ],
-    "explosive": [
-      "",
-      0
-    ]
-  },
-  {
-    "name": "75mm_m72",
-    "localized": "M72 shot",
-    "parent_guns": [
-      {
-        "name": "75mm_m3_user_cannon",
-        "localized": "75 mm M3 cannon"
-      },
-      {
-        "name": "75mm_m6_user_cannon",
-        "localized": "75mm_m6_user_cannon"
-      },
-      {
-        "name": "75mm_qqf_mkv_user_cannon",
-        "localized": "75mm_qqf_mkv_user_cannon"
-      },
-      {
-        "name": "75mm_sa_49_user_cannon",
-        "localized": "75mm_sa_49_user_cannon"
-      }
-    ],
-    "shell_type": "ApSolid",
-    "caliber": 75,
-    "true_caliber": 75,
-    "velocity": 619,
-    "penetration": [],
-    "explosive": [
-      "",
-      0
     ]
   },
   {
@@ -18207,6 +18088,89 @@
       [
         3000,
         30
+      ]
+    ],
+    "explosive": [
+      "",
+      0
+    ]
+  },
+  {
+    "name": "75mm_m72",
+    "localized": "M72 shot",
+    "parent_guns": [
+      {
+        "name": "75mm_m3_user_cannon",
+        "localized": "75 mm M3 cannon"
+      },
+      {
+        "name": "75mm_m6_user_cannon",
+        "localized": "75mm_m6_user_cannon"
+      },
+      {
+        "name": "75mm_qqf_mkv_user_cannon",
+        "localized": "75mm_qqf_mkv_user_cannon"
+      },
+      {
+        "name": "75mm_sa_49_user_cannon",
+        "localized": "75mm_sa_49_user_cannon"
+      }
+    ],
+    "shell_type": "ApSolid",
+    "caliber": 75,
+    "true_caliber": 75,
+    "velocity": 619,
+    "penetration": [],
+    "explosive": [
+      "",
+      0
+    ]
+  },
+  {
+    "name": "75mm_m72",
+    "localized": "M72 shot",
+    "parent_guns": [
+      {
+        "name": "75mm_m1897a4_user_cannon",
+        "localized": "75 mm M1897A4 cannon"
+      }
+    ],
+    "shell_type": "ApSolid",
+    "caliber": 75,
+    "true_caliber": 75,
+    "velocity": 609,
+    "penetration": [
+      [
+        0,
+        108
+      ],
+      [
+        100,
+        107
+      ],
+      [
+        500,
+        90
+      ],
+      [
+        1000,
+        74
+      ],
+      [
+        1500,
+        60
+      ],
+      [
+        2000,
+        50
+      ],
+      [
+        2500,
+        40
+      ],
+      [
+        3000,
+        33
       ]
     ],
     "explosive": [
@@ -18576,33 +18540,6 @@
     "localized": "PzGr 40",
     "parent_guns": [
       {
-        "name": "75mm_kwk40_l43_user_cannon",
-        "localized": "75mm_kwk40_l43_user_cannon"
-      },
-      {
-        "name": "75mm_kwk40_user_cannon",
-        "localized": "75mm_kwk40_user_cannon"
-      },
-      {
-        "name": "75mm_stuk40_l43_user_cannon",
-        "localized": "75mm_stuk40_l43_user_cannon"
-      }
-    ],
-    "shell_type": "ApCr",
-    "caliber": 75,
-    "true_caliber": 28,
-    "velocity": 919,
-    "penetration": [],
-    "explosive": [
-      "",
-      0
-    ]
-  },
-  {
-    "name": "75mm_pzgr_40",
-    "localized": "PzGr 40",
-    "parent_guns": [
-      {
         "name": "75mm_kwk40_l48_user_cannon",
         "localized": "75mm_kwk40_l48_user_cannon"
       },
@@ -18653,6 +18590,33 @@
         66
       ]
     ],
+    "explosive": [
+      "",
+      0
+    ]
+  },
+  {
+    "name": "75mm_pzgr_40",
+    "localized": "PzGr 40",
+    "parent_guns": [
+      {
+        "name": "75mm_kwk40_l43_user_cannon",
+        "localized": "75mm_kwk40_l43_user_cannon"
+      },
+      {
+        "name": "75mm_kwk40_user_cannon",
+        "localized": "75mm_kwk40_user_cannon"
+      },
+      {
+        "name": "75mm_stuk40_l43_user_cannon",
+        "localized": "75mm_stuk40_l43_user_cannon"
+      }
+    ],
+    "shell_type": "ApCr",
+    "caliber": 75,
+    "true_caliber": 28,
+    "velocity": 919,
+    "penetration": [],
     "explosive": [
       "",
       0
@@ -19031,14 +18995,14 @@
     "localized": "slpgr m/39",
     "parent_guns": [
       {
-        "name": "75mm_kan_m41_user_cannon",
-        "localized": "75 mm kan m/41 cannon"
+        "name": "75mm_kan_m02_user_cannon",
+        "localized": "75 mm kan m/02 cannon"
       }
     ],
     "shell_type": "ApHe",
     "caliber": 75,
     "true_caliber": 75,
-    "velocity": 580,
+    "velocity": 496,
     "penetration": [],
     "explosive": [
       "tnt",
@@ -19050,14 +19014,14 @@
     "localized": "slpgr m/39",
     "parent_guns": [
       {
-        "name": "75mm_kan_m02_user_cannon",
-        "localized": "75 mm kan m/02 cannon"
+        "name": "75mm_kan_m41_user_cannon",
+        "localized": "75 mm kan m/41 cannon"
       }
     ],
     "shell_type": "ApHe",
     "caliber": 75,
     "true_caliber": 75,
-    "velocity": 496,
+    "velocity": 580,
     "penetration": [],
     "explosive": [
       "tnt",
@@ -19395,6 +19359,62 @@
     "localized": "Type 1 APHE",
     "parent_guns": [
       {
+        "name": "75mm_type4_user_cannon",
+        "localized": "75mm_type4_user_cannon"
+      },
+      {
+        "name": "75mm_type5_user_cannon",
+        "localized": "75mm_type5_user_cannon"
+      }
+    ],
+    "shell_type": "ApHe",
+    "caliber": 75,
+    "true_caliber": 75,
+    "velocity": 830,
+    "penetration": [
+      [
+        0,
+        145
+      ],
+      [
+        100,
+        139
+      ],
+      [
+        500,
+        130
+      ],
+      [
+        1000,
+        118
+      ],
+      [
+        1500,
+        98
+      ],
+      [
+        2000,
+        81
+      ],
+      [
+        2500,
+        78
+      ],
+      [
+        3000,
+        60
+      ]
+    ],
+    "explosive": [
+      "rdx",
+      53
+    ]
+  },
+  {
+    "name": "75mm_type1_ap",
+    "localized": "Type 1 APHE",
+    "parent_guns": [
+      {
         "name": "75mm_type3_user_cannon",
         "localized": "75mm_type3_user_cannon"
       },
@@ -19408,6 +19428,58 @@
     "true_caliber": 75,
     "velocity": 668,
     "penetration": [],
+    "explosive": [
+      "rdx",
+      53
+    ]
+  },
+  {
+    "name": "75mm_type1_ap",
+    "localized": "Type 1 APHE",
+    "parent_guns": [
+      {
+        "name": "75mm_lightweight_type1_model_ii_user_cannon",
+        "localized": "75mm_lightweight_type1_model_ii_user_cannon"
+      }
+    ],
+    "shell_type": "ApHe",
+    "caliber": 75,
+    "true_caliber": 75,
+    "velocity": 830,
+    "penetration": [
+      [
+        0,
+        127
+      ],
+      [
+        100,
+        124
+      ],
+      [
+        500,
+        112
+      ],
+      [
+        1000,
+        95
+      ],
+      [
+        1500,
+        83
+      ],
+      [
+        2000,
+        73
+      ],
+      [
+        2500,
+        63
+      ],
+      [
+        3000,
+        57
+      ]
+    ],
     "explosive": [
       "rdx",
       53
@@ -19470,114 +19542,6 @@
     ]
   },
   {
-    "name": "75mm_type1_ap",
-    "localized": "Type 1 APHE",
-    "parent_guns": [
-      {
-        "name": "75mm_type4_user_cannon",
-        "localized": "75mm_type4_user_cannon"
-      },
-      {
-        "name": "75mm_type5_user_cannon",
-        "localized": "75mm_type5_user_cannon"
-      }
-    ],
-    "shell_type": "ApHe",
-    "caliber": 75,
-    "true_caliber": 75,
-    "velocity": 830,
-    "penetration": [
-      [
-        0,
-        145
-      ],
-      [
-        100,
-        139
-      ],
-      [
-        500,
-        130
-      ],
-      [
-        1000,
-        118
-      ],
-      [
-        1500,
-        98
-      ],
-      [
-        2000,
-        81
-      ],
-      [
-        2500,
-        78
-      ],
-      [
-        3000,
-        60
-      ]
-    ],
-    "explosive": [
-      "rdx",
-      53
-    ]
-  },
-  {
-    "name": "75mm_type1_ap",
-    "localized": "Type 1 APHE",
-    "parent_guns": [
-      {
-        "name": "75mm_lightweight_type1_model_ii_user_cannon",
-        "localized": "75mm_lightweight_type1_model_ii_user_cannon"
-      }
-    ],
-    "shell_type": "ApHe",
-    "caliber": 75,
-    "true_caliber": 75,
-    "velocity": 830,
-    "penetration": [
-      [
-        0,
-        127
-      ],
-      [
-        100,
-        124
-      ],
-      [
-        500,
-        112
-      ],
-      [
-        1000,
-        95
-      ],
-      [
-        1500,
-        83
-      ],
-      [
-        2000,
-        73
-      ],
-      [
-        2500,
-        63
-      ],
-      [
-        3000,
-        57
-      ]
-    ],
-    "explosive": [
-      "rdx",
-      53
-    ]
-  },
-  {
     "name": "75mm_type2",
     "localized": "Type 2 HEAT",
     "parent_guns": [
@@ -19593,7 +19557,7 @@
     "penetration": [
       [
         0,
-        5
+        90
       ]
     ],
     "explosive": [
@@ -19629,25 +19593,6 @@
     "localized": "Type 90 HE",
     "parent_guns": [
       {
-        "name": "75mm_type4_user_cannon",
-        "localized": "75mm_type4_user_cannon"
-      }
-    ],
-    "shell_type": "ApHe",
-    "caliber": 75,
-    "true_caliber": 75,
-    "velocity": 830,
-    "penetration": [],
-    "explosive": [
-      "tnt",
-      490
-    ]
-  },
-  {
-    "name": "75mm_type90",
-    "localized": "Type 90 HE",
-    "parent_guns": [
-      {
         "name": "75mm_lightweight_type1_model_ii_user_cannon",
         "localized": "75mm_lightweight_type1_model_ii_user_cannon"
       },
@@ -19665,6 +19610,25 @@
       }
     ],
     "shell_type": "He",
+    "caliber": 75,
+    "true_caliber": 75,
+    "velocity": 830,
+    "penetration": [],
+    "explosive": [
+      "tnt",
+      490
+    ]
+  },
+  {
+    "name": "75mm_type90",
+    "localized": "Type 90 HE",
+    "parent_guns": [
+      {
+        "name": "75mm_type4_user_cannon",
+        "localized": "75mm_type4_user_cannon"
+      }
+    ],
+    "shell_type": "ApHe",
     "caliber": 75,
     "true_caliber": 75,
     "velocity": 830,
@@ -19867,7 +19831,7 @@
     "penetration": [
       [
         0,
-        5
+        200
       ]
     ],
     "explosive": [
@@ -19903,7 +19867,7 @@
     "penetration": [
       [
         0,
-        5
+        80
       ]
     ],
     "explosive": [
@@ -19935,120 +19899,12 @@
     "penetration": [
       [
         0,
-        5
+        80
       ]
     ],
     "explosive": [
       "a_ix_1",
       623
-    ]
-  },
-  {
-    "name": "76mm_br_350a",
-    "localized": "BR-350A (MD-5 fuze)",
-    "parent_guns": [
-      {
-        "name": "76mm_kt28_for_t26_user_cannon",
-        "localized": "76mm_kt28_for_t26_user_cannon"
-      },
-      {
-        "name": "76mm_kt28_user_cannon",
-        "localized": "76mm_kt28_user_cannon"
-      }
-    ],
-    "shell_type": "ApHe",
-    "caliber": 76,
-    "true_caliber": 76,
-    "velocity": 370,
-    "penetration": [
-      [
-        0,
-        35
-      ],
-      [
-        100,
-        34
-      ],
-      [
-        500,
-        32
-      ],
-      [
-        1000,
-        29
-      ],
-      [
-        1500,
-        27
-      ],
-      [
-        2000,
-        23
-      ],
-      [
-        2500,
-        21
-      ],
-      [
-        3000,
-        17
-      ]
-    ],
-    "explosive": [
-      "tnt",
-      155
-    ]
-  },
-  {
-    "name": "76mm_br_350a",
-    "localized": "BR-350A (MD-5 fuze)",
-    "parent_guns": [
-      {
-        "name": "76mm_l10_user_cannon",
-        "localized": "76mm_l10_user_cannon"
-      }
-    ],
-    "shell_type": "ApHe",
-    "caliber": 76,
-    "true_caliber": 76,
-    "velocity": 555,
-    "penetration": [
-      [
-        0,
-        68
-      ],
-      [
-        100,
-        63
-      ],
-      [
-        500,
-        58
-      ],
-      [
-        1000,
-        51
-      ],
-      [
-        1500,
-        45
-      ],
-      [
-        2000,
-        40
-      ],
-      [
-        2500,
-        36
-      ],
-      [
-        3000,
-        32
-      ]
-    ],
-    "explosive": [
-      "tnt",
-      150
     ]
   },
   {
@@ -20113,6 +19969,114 @@
     "explosive": [
       "tnt",
       150
+    ]
+  },
+  {
+    "name": "76mm_br_350a",
+    "localized": "BR-350A (MD-5 fuze)",
+    "parent_guns": [
+      {
+        "name": "76mm_l10_user_cannon",
+        "localized": "76mm_l10_user_cannon"
+      }
+    ],
+    "shell_type": "ApHe",
+    "caliber": 76,
+    "true_caliber": 76,
+    "velocity": 555,
+    "penetration": [
+      [
+        0,
+        68
+      ],
+      [
+        100,
+        63
+      ],
+      [
+        500,
+        58
+      ],
+      [
+        1000,
+        51
+      ],
+      [
+        1500,
+        45
+      ],
+      [
+        2000,
+        40
+      ],
+      [
+        2500,
+        36
+      ],
+      [
+        3000,
+        32
+      ]
+    ],
+    "explosive": [
+      "tnt",
+      150
+    ]
+  },
+  {
+    "name": "76mm_br_350a",
+    "localized": "BR-350A (MD-5 fuze)",
+    "parent_guns": [
+      {
+        "name": "76mm_kt28_for_t26_user_cannon",
+        "localized": "76mm_kt28_for_t26_user_cannon"
+      },
+      {
+        "name": "76mm_kt28_user_cannon",
+        "localized": "76mm_kt28_user_cannon"
+      }
+    ],
+    "shell_type": "ApHe",
+    "caliber": 76,
+    "true_caliber": 76,
+    "velocity": 370,
+    "penetration": [
+      [
+        0,
+        35
+      ],
+      [
+        100,
+        34
+      ],
+      [
+        500,
+        32
+      ],
+      [
+        1000,
+        29
+      ],
+      [
+        1500,
+        27
+      ],
+      [
+        2000,
+        23
+      ],
+      [
+        2500,
+        21
+      ],
+      [
+        3000,
+        17
+      ]
+    ],
+    "explosive": [
+      "tnt",
+      155
     ]
   },
   {
@@ -20915,7 +20879,7 @@
     "penetration": [
       [
         0,
-        5
+        254
       ]
     ],
     "explosive": [
@@ -21040,6 +21004,29 @@
     "localized": "OF-350M",
     "parent_guns": [
       {
+        "name": "76mm_kt28_for_t26_user_cannon",
+        "localized": "76mm_kt28_for_t26_user_cannon"
+      },
+      {
+        "name": "76mm_kt28_user_cannon",
+        "localized": "76mm_kt28_user_cannon"
+      }
+    ],
+    "shell_type": "He",
+    "caliber": 76,
+    "true_caliber": 76,
+    "velocity": 387,
+    "penetration": [],
+    "explosive": [
+      "tnt",
+      710
+    ]
+  },
+  {
+    "name": "76mm_of_350m",
+    "localized": "OF-350M",
+    "parent_guns": [
+      {
         "name": "76mm_f32_user_cannon",
         "localized": "76mm_f32_user_cannon"
       },
@@ -21060,25 +21047,6 @@
     "caliber": 76,
     "true_caliber": 76,
     "velocity": 615,
-    "penetration": [],
-    "explosive": [
-      "tnt",
-      621
-    ]
-  },
-  {
-    "name": "76mm_of_350m",
-    "localized": "OF-350M",
-    "parent_guns": [
-      {
-        "name": "76mm_l10_user_cannon",
-        "localized": "76mm_l10_user_cannon"
-      }
-    ],
-    "shell_type": "He",
-    "caliber": 76,
-    "true_caliber": 76,
-    "velocity": 560,
     "penetration": [],
     "explosive": [
       "tnt",
@@ -21133,22 +21101,18 @@
     "localized": "OF-350M",
     "parent_guns": [
       {
-        "name": "76mm_kt28_for_t26_user_cannon",
-        "localized": "76mm_kt28_for_t26_user_cannon"
-      },
-      {
-        "name": "76mm_kt28_user_cannon",
-        "localized": "76mm_kt28_user_cannon"
+        "name": "76mm_l10_user_cannon",
+        "localized": "76mm_l10_user_cannon"
       }
     ],
     "shell_type": "He",
     "caliber": 76,
     "true_caliber": 76,
-    "velocity": 387,
+    "velocity": 560,
     "penetration": [],
     "explosive": [
       "tnt",
-      710
+      621
     ]
   },
   {
@@ -21156,14 +21120,14 @@
     "localized": "76/62 APFSDS",
     "parent_guns": [
       {
-        "name": "76mm_gt_4_user_cannon",
-        "localized": "76mm_gt_4_user_cannon"
+        "name": "76mm_oto_breda_76_62_user_cannon",
+        "localized": "76mm_oto_breda_76_62_user_cannon"
       }
     ],
     "shell_type": "ApFsDs",
     "caliber": 76,
     "true_caliber": 26,
-    "velocity": 1615,
+    "velocity": 1580,
     "penetration": [
       [
         0,
@@ -21208,14 +21172,14 @@
     "localized": "76/62 APFSDS",
     "parent_guns": [
       {
-        "name": "76mm_oto_breda_76_62_user_cannon",
-        "localized": "76mm_oto_breda_76_62_user_cannon"
+        "name": "76mm_gt_4_user_cannon",
+        "localized": "76mm_gt_4_user_cannon"
       }
     ],
     "shell_type": "ApFsDs",
     "caliber": 76,
     "true_caliber": 26,
-    "velocity": 1580,
+    "velocity": 1615,
     "penetration": [
       [
         0,
@@ -21656,6 +21620,25 @@
     "localized": "Shot Mk.4",
     "parent_guns": [
       {
+        "name": "76mm_17pdr_qf_user_cannon",
+        "localized": "76mm_17pdr_qf_user_cannon"
+      }
+    ],
+    "shell_type": "ApSolid",
+    "caliber": 76,
+    "true_caliber": 76,
+    "velocity": 883,
+    "penetration": [],
+    "explosive": [
+      "",
+      0
+    ]
+  },
+  {
+    "name": "76mm_shot_mk4_apc",
+    "localized": "Shot Mk.4",
+    "parent_guns": [
+      {
         "name": "77mm_qqf_mk_ii_l50_user_cannon",
         "localized": "77mm_qqf_mk_ii_l50_user_cannon"
       }
@@ -21698,44 +21681,6 @@
         54
       ]
     ],
-    "explosive": [
-      "",
-      0
-    ]
-  },
-  {
-    "name": "76mm_shot_mk4_apc",
-    "localized": "Shot Mk.4",
-    "parent_guns": [
-      {
-        "name": "76mm_17pdr_qf_user_cannon",
-        "localized": "76mm_17pdr_qf_user_cannon"
-      }
-    ],
-    "shell_type": "ApSolid",
-    "caliber": 76,
-    "true_caliber": 76,
-    "velocity": 883,
-    "penetration": [],
-    "explosive": [
-      "",
-      0
-    ]
-  },
-  {
-    "name": "76mm_shot_mk6_ap",
-    "localized": "Shot Mk.6",
-    "parent_guns": [
-      {
-        "name": "76mm_17pdr_qf_user_cannon",
-        "localized": "76mm_17pdr_qf_user_cannon"
-      }
-    ],
-    "shell_type": "ApSolid",
-    "caliber": 76,
-    "true_caliber": 76,
-    "velocity": 883,
-    "penetration": [],
     "explosive": [
       "",
       0
@@ -21794,8 +21739,8 @@
     ]
   },
   {
-    "name": "76mm_shot_mk8_apcbc",
-    "localized": "Shot Mk.8",
+    "name": "76mm_shot_mk6_ap",
+    "localized": "Shot Mk.6",
     "parent_guns": [
       {
         "name": "76mm_17pdr_qf_user_cannon",
@@ -21859,6 +21804,25 @@
         88
       ]
     ],
+    "explosive": [
+      "",
+      0
+    ]
+  },
+  {
+    "name": "76mm_shot_mk8_apcbc",
+    "localized": "Shot Mk.8",
+    "parent_guns": [
+      {
+        "name": "76mm_17pdr_qf_user_cannon",
+        "localized": "76mm_17pdr_qf_user_cannon"
+      }
+    ],
+    "shell_type": "ApSolid",
+    "caliber": 76,
+    "true_caliber": 76,
+    "velocity": 883,
+    "penetration": [],
     "explosive": [
       "",
       0
@@ -21969,79 +21933,6 @@
     "localized": "Smoke grenade",
     "parent_guns": [
       {
-        "name": "60mm_modern_smoke_grenade_launcher",
-        "localized": "Smoke"
-      },
-      {
-        "name": "60mm_smoke_mortar_launcher",
-        "localized": "Smoke"
-      }
-    ],
-    "shell_type": "Smoke",
-    "caliber": 60,
-    "true_caliber": 60,
-    "velocity": 0,
-    "penetration": [],
-    "explosive": [
-      "",
-      0
-    ]
-  },
-  {
-    "name": "76mm_smoke_grenade",
-    "localized": "Smoke grenade",
-    "parent_guns": [
-      {
-        "name": "50mm_uk_smoke_mortar_launcher",
-        "localized": "Smoke"
-      }
-    ],
-    "shell_type": "Smoke",
-    "caliber": 50,
-    "true_caliber": 50,
-    "velocity": 0,
-    "penetration": [],
-    "explosive": [
-      "",
-      0
-    ]
-  },
-  {
-    "name": "76mm_smoke_grenade",
-    "localized": "Smoke grenade",
-    "parent_guns": [
-      {
-        "name": "76mm_fcs_smoke_grenade_launcher",
-        "localized": "Smoke launcher"
-      },
-      {
-        "name": "76mm_modern_smoke_grenade_launcher",
-        "localized": "smoke"
-      },
-      {
-        "name": "76mm_nato_smoke_grenade_launcher",
-        "localized": "Smoke"
-      },
-      {
-        "name": "76mm_nato_smoke_grenade_launcher_ru251",
-        "localized": "Smoke"
-      }
-    ],
-    "shell_type": "Smoke",
-    "caliber": 76,
-    "true_caliber": 76,
-    "velocity": 0,
-    "penetration": [],
-    "explosive": [
-      "",
-      0
-    ]
-  },
-  {
-    "name": "76mm_smoke_grenade",
-    "localized": "Smoke grenade",
-    "parent_guns": [
-      {
         "name": "66mm_germ_smoke_candle_launcher",
         "localized": "Smoke"
       },
@@ -22109,6 +22000,29 @@
     "localized": "Smoke grenade",
     "parent_guns": [
       {
+        "name": "60mm_modern_smoke_grenade_launcher",
+        "localized": "Smoke"
+      },
+      {
+        "name": "60mm_smoke_mortar_launcher",
+        "localized": "Smoke"
+      }
+    ],
+    "shell_type": "Smoke",
+    "caliber": 60,
+    "true_caliber": 60,
+    "velocity": 0,
+    "penetration": [],
+    "explosive": [
+      "",
+      0
+    ]
+  },
+  {
+    "name": "76mm_smoke_grenade",
+    "localized": "Smoke grenade",
+    "parent_guns": [
+      {
         "name": "91mm_germ_smoke_grenade_launcher",
         "localized": "91mm_germ_smoke_grenade_launcher"
       },
@@ -22120,6 +22034,56 @@
     "shell_type": "Smoke",
     "caliber": 91,
     "true_caliber": 91,
+    "velocity": 0,
+    "penetration": [],
+    "explosive": [
+      "",
+      0
+    ]
+  },
+  {
+    "name": "76mm_smoke_grenade",
+    "localized": "Smoke grenade",
+    "parent_guns": [
+      {
+        "name": "50mm_uk_smoke_mortar_launcher",
+        "localized": "Smoke"
+      }
+    ],
+    "shell_type": "Smoke",
+    "caliber": 50,
+    "true_caliber": 50,
+    "velocity": 0,
+    "penetration": [],
+    "explosive": [
+      "",
+      0
+    ]
+  },
+  {
+    "name": "76mm_smoke_grenade",
+    "localized": "Smoke grenade",
+    "parent_guns": [
+      {
+        "name": "76mm_fcs_smoke_grenade_launcher",
+        "localized": "Smoke launcher"
+      },
+      {
+        "name": "76mm_modern_smoke_grenade_launcher",
+        "localized": "smoke"
+      },
+      {
+        "name": "76mm_nato_smoke_grenade_launcher",
+        "localized": "Smoke"
+      },
+      {
+        "name": "76mm_nato_smoke_grenade_launcher_ru251",
+        "localized": "Smoke"
+      }
+    ],
+    "shell_type": "Smoke",
+    "caliber": 76,
+    "true_caliber": 76,
     "velocity": 0,
     "penetration": [],
     "explosive": [
@@ -22278,7 +22242,7 @@
     "penetration": [
       [
         0,
-        1
+        330
       ]
     ],
     "explosive": [
@@ -22570,7 +22534,7 @@
     "penetration": [
       [
         0,
-        5
+        300
       ]
     ],
     "explosive": [
@@ -22598,7 +22562,7 @@
     "penetration": [
       [
         0,
-        5
+        300
       ]
     ],
     "explosive": [
@@ -22874,7 +22838,7 @@
     "penetration": [
       [
         0,
-        5
+        300
       ]
     ],
     "explosive": [
@@ -23008,33 +22972,6 @@
     "localized": "PzGr 39/43",
     "parent_guns": [
       {
-        "name": "88mm_kwk43_for_panther_ii_user_cannon",
-        "localized": "88mm_kwk43_for_panther_ii_user_cannon"
-      },
-      {
-        "name": "88mm_kwk43_user_cannon",
-        "localized": "88mm_kwk43_user_cannon"
-      },
-      {
-        "name": "88mm_pak43_user_cannon",
-        "localized": "88mm_pak43_user_cannon"
-      }
-    ],
-    "shell_type": "ApHe",
-    "caliber": 88,
-    "true_caliber": 88,
-    "velocity": 1000,
-    "penetration": [],
-    "explosive": [
-      "h10",
-      64
-    ]
-  },
-  {
-    "name": "88mm_pzrg_39_43",
-    "localized": "PzGr 39/43",
-    "parent_guns": [
-      {
         "name": "88mm_kwk43_for_tutorial_user_cannon",
         "localized": "88mm_kwk43_for_tutorial_user_cannon"
       }
@@ -23083,6 +23020,33 @@
     ]
   },
   {
+    "name": "88mm_pzrg_39_43",
+    "localized": "PzGr 39/43",
+    "parent_guns": [
+      {
+        "name": "88mm_kwk43_for_panther_ii_user_cannon",
+        "localized": "88mm_kwk43_for_panther_ii_user_cannon"
+      },
+      {
+        "name": "88mm_kwk43_user_cannon",
+        "localized": "88mm_kwk43_user_cannon"
+      },
+      {
+        "name": "88mm_pak43_user_cannon",
+        "localized": "88mm_pak43_user_cannon"
+      }
+    ],
+    "shell_type": "ApHe",
+    "caliber": 88,
+    "true_caliber": 88,
+    "velocity": 1000,
+    "penetration": [],
+    "explosive": [
+      "h10",
+      64
+    ]
+  },
+  {
     "name": "88mm_pzrg_40",
     "localized": "PzGr 40",
     "parent_guns": [
@@ -23106,14 +23070,22 @@
     "localized": "PzGr 40/43",
     "parent_guns": [
       {
-        "name": "88mm_flak41_user_cannon",
-        "localized": "88mm_flak41_user_cannon"
+        "name": "88mm_kwk43_for_panther_ii_user_cannon",
+        "localized": "88mm_kwk43_for_panther_ii_user_cannon"
+      },
+      {
+        "name": "88mm_kwk43_user_cannon",
+        "localized": "88mm_kwk43_user_cannon"
+      },
+      {
+        "name": "88mm_pak43_user_cannon",
+        "localized": "88mm_pak43_user_cannon"
       }
     ],
     "shell_type": "ApCr",
     "caliber": 88,
     "true_caliber": 35,
-    "velocity": 1125,
+    "velocity": 1130,
     "penetration": [],
     "explosive": [
       "",
@@ -23161,22 +23133,14 @@
     "localized": "PzGr 40/43",
     "parent_guns": [
       {
-        "name": "88mm_kwk43_for_panther_ii_user_cannon",
-        "localized": "88mm_kwk43_for_panther_ii_user_cannon"
-      },
-      {
-        "name": "88mm_kwk43_user_cannon",
-        "localized": "88mm_kwk43_user_cannon"
-      },
-      {
-        "name": "88mm_pak43_user_cannon",
-        "localized": "88mm_pak43_user_cannon"
+        "name": "88mm_flak41_user_cannon",
+        "localized": "88mm_flak41_user_cannon"
       }
     ],
     "shell_type": "ApCr",
     "caliber": 88,
     "true_caliber": 35,
-    "velocity": 1130,
+    "velocity": 1125,
     "penetration": [],
     "explosive": [
       "",
@@ -23299,7 +23263,7 @@
     "penetration": [
       [
         0,
-        8
+        102
       ]
     ],
     "explosive": [
@@ -23674,7 +23638,7 @@
     "penetration": [
       [
         0,
-        5
+        305
       ]
     ],
     "explosive": [
@@ -23722,7 +23686,7 @@
     "penetration": [
       [
         0,
-        5
+        320
       ]
     ],
     "explosive": [
@@ -23765,7 +23729,7 @@
     "penetration": [
       [
         0,
-        5
+        250
       ]
     ],
     "explosive": [
@@ -23789,7 +23753,7 @@
     "penetration": [
       [
         0,
-        8
+        102
       ]
     ],
     "explosive": [
@@ -24000,29 +23964,6 @@
     "localized": "M82 shot",
     "parent_guns": [
       {
-        "name": "90mm_m3_user_cannon",
-        "localized": "90mm_m3_user_cannon"
-      },
-      {
-        "name": "90mm_m3_without_mb_user_cannon",
-        "localized": "90mm_m3_without_mb_user_cannon"
-      }
-    ],
-    "shell_type": "ApHe",
-    "caliber": 90,
-    "true_caliber": 90,
-    "velocity": 813,
-    "penetration": [],
-    "explosive": [
-      "exp_d",
-      140
-    ]
-  },
-  {
-    "name": "90mm_m82",
-    "localized": "M82 shot",
-    "parent_guns": [
-      {
         "name": "90mm_char_25t_user_cannon",
         "localized": "90mm_char_25t_user_cannon"
       }
@@ -24077,6 +24018,29 @@
     ]
   },
   {
+    "name": "90mm_m82",
+    "localized": "M82 shot",
+    "parent_guns": [
+      {
+        "name": "90mm_m3_user_cannon",
+        "localized": "90mm_m3_user_cannon"
+      },
+      {
+        "name": "90mm_m3_without_mb_user_cannon",
+        "localized": "90mm_m3_without_mb_user_cannon"
+      }
+    ],
+    "shell_type": "ApHe",
+    "caliber": 90,
+    "true_caliber": 90,
+    "velocity": 813,
+    "penetration": [],
+    "explosive": [
+      "exp_d",
+      140
+    ]
+  },
+  {
     "name": "90mm_m82_da90_50",
     "localized": "M82 da 90/50",
     "parent_guns": [
@@ -24111,7 +24075,7 @@
     "penetration": [
       [
         0,
-        5
+        320
       ]
     ],
     "explosive": [
@@ -24143,7 +24107,7 @@
     "penetration": [
       [
         0,
-        5
+        320
       ]
     ],
     "explosive": [
@@ -24167,35 +24131,12 @@
     "penetration": [
       [
         0,
-        5
+        320
       ]
     ],
     "explosive": [
       "comp_b",
       670
-    ]
-  },
-  {
-    "name": "90mm_oe_90_f1",
-    "localized": "OE 90 F1",
-    "parent_guns": [
-      {
-        "name": "90mm_cn_90_f3_user_cannon",
-        "localized": "90mm_cn_90_f3_user_cannon"
-      },
-      {
-        "name": "90mm_cn_90_f4_user_cannon",
-        "localized": "90mm_cn_90_f4_user_cannon"
-      }
-    ],
-    "shell_type": "He",
-    "caliber": 90,
-    "true_caliber": 90,
-    "velocity": 750,
-    "penetration": [],
-    "explosive": [
-      "tnt",
-      945
     ]
   },
   {
@@ -24219,6 +24160,29 @@
     "caliber": 90,
     "true_caliber": 90,
     "velocity": 640,
+    "penetration": [],
+    "explosive": [
+      "tnt",
+      945
+    ]
+  },
+  {
+    "name": "90mm_oe_90_f1",
+    "localized": "OE 90 F1",
+    "parent_guns": [
+      {
+        "name": "90mm_cn_90_f3_user_cannon",
+        "localized": "90mm_cn_90_f3_user_cannon"
+      },
+      {
+        "name": "90mm_cn_90_f4_user_cannon",
+        "localized": "90mm_cn_90_f4_user_cannon"
+      }
+    ],
+    "shell_type": "He",
+    "caliber": 90,
+    "true_caliber": 90,
+    "velocity": 750,
     "penetration": [],
     "explosive": [
       "tnt",
@@ -24408,7 +24372,7 @@
     "penetration": [
       [
         0,
-        5
+        400
       ]
     ],
     "explosive": [
@@ -24451,7 +24415,7 @@
     "penetration": [
       [
         0,
-        5
+        305
       ]
     ],
     "explosive": [
@@ -24479,7 +24443,7 @@
     "penetration": [
       [
         0,
-        8
+        102
       ]
     ],
     "explosive": [
@@ -24837,25 +24801,6 @@
     "localized": "ap_ball_M2",
     "parent_guns": [
       {
-        "name": "12_7mm_m85_user_machinegun",
-        "localized": "12_7mm_m85_user_machinegun"
-      }
-    ],
-    "shell_type": "ApSolid",
-    "caliber": 13,
-    "true_caliber": 13,
-    "velocity": 856,
-    "penetration": [],
-    "explosive": [
-      "",
-      0
-    ]
-  },
-  {
-    "name": "ap_ball_M2",
-    "localized": "ap_ball_M2",
-    "parent_guns": [
-      {
         "name": "12_7mm_ksp_m88_user_machinegun",
         "localized": "12_7mm_ksp_m88_user_machinegun"
       },
@@ -24876,6 +24821,25 @@
     "caliber": 13,
     "true_caliber": 13,
     "velocity": 894,
+    "penetration": [],
+    "explosive": [
+      "",
+      0
+    ]
+  },
+  {
+    "name": "ap_ball_M2",
+    "localized": "ap_ball_M2",
+    "parent_guns": [
+      {
+        "name": "12_7mm_m85_user_machinegun",
+        "localized": "12_7mm_m85_user_machinegun"
+      }
+    ],
+    "shell_type": "ApSolid",
+    "caliber": 13,
+    "true_caliber": 13,
+    "velocity": 856,
     "penetration": [],
     "explosive": [
       "",
@@ -25686,7 +25650,7 @@
     "penetration": [
       [
         0,
-        5
+        700
       ]
     ],
     "explosive": [
