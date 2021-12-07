@@ -1,5 +1,7 @@
 #[cfg(test)]
 mod tests {
+	use std::collections::{HashSet};
+
 	use lazy_static::lazy_static;
 
 	use crate::shell::known_shells::KnownShells;
@@ -200,6 +202,17 @@ mod tests {
 		for shell in SHELLS.iter() {
 			// println!("{}", shell.name);
 			assert_ne!(shell.parent_guns.len(), 0);
+		}
+	}
+
+	#[test]
+	fn no_duplicate_shell_hash() {
+		let mut map = HashSet::new();
+		for shell in SHELLS.iter() {
+			if map.get(&shell.hash).is_some() {
+				panic!("Duplicate shell {}", shell.name);
+			};
+			map.insert(&shell.hash);
 		}
 	}
 }

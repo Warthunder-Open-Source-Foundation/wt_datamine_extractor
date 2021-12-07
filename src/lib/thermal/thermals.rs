@@ -57,6 +57,7 @@ impl Thermal {
 				});
 			}
 		}
+		generated.sort_by_key(|x|x.name.clone());
 		generated
 	}
 

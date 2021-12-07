@@ -93,7 +93,7 @@ impl Shell {
 	}
 
 	pub fn write_all(mut values: Vec<Self>) -> Vec<Self> {
-		values.sort_by_key(|d| d.name.clone());
+		values.sort_by_key(|d| d.hash.clone());
 		fs::write("shell_index/all.json", serde_json::to_string_pretty(&values).unwrap()).unwrap();
 		values
 	}
@@ -162,8 +162,6 @@ impl Shell {
 			new_shell.parent_guns = item.1;
 			new_generated.push(new_shell);
 		}
-
-		new_generated.sort_by_key(|x| x.name.clone());
 
 		new_generated = {
 			let mut hashed_shells = vec![];

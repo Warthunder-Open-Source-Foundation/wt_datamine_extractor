@@ -243,6 +243,7 @@ impl Missile {
 				generated.push(missile);
 			}
 		}
+		generated.sort_by_key(|x|x.name.clone());
 		generated
 	}
 
