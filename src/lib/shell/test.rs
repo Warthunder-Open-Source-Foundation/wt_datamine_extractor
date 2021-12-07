@@ -10,7 +10,7 @@ mod tests {
 	#[cfg(test)]
 	lazy_static! {
     static ref SHELLS: Vec<Shell> = {
-        let shells = Shell::generate_from_index(&KnownShells::generate_index());
+        let shells = Shell::generate_from_index(&KnownShells::from_file());
 			shells
 		};
 	}

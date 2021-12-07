@@ -50,4 +50,8 @@ impl KnownShells {
 		}
 		self
 	}
+
+	pub fn from_file() -> Self {
+		return serde_json::from_str(&fs::read_to_string("shell_index/known.json").unwrap()).unwrap()
+	}
 }
