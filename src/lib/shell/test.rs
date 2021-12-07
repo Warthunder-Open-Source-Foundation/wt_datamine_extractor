@@ -21,18 +21,18 @@ mod tests {
 			if shell.shell_type == ShellType::HeatFs {
 				// println!("{}", shell.name);
 				assert_ne!(shell.explosive.0, "");
-				assert_ne!(shell.explosive.1, 0.0);
+				assert_ne!(shell.explosive.1, 0);
 			}
 		}
 	}
 
 	#[test]
-	fn he_fs_has_tnt_and_type() {
+	fn he_has_tnt_and_type() {
 		for shell in SHELLS.iter() {
 			if shell.shell_type == ShellType::He {
 				// println!("{}", shell.name);
 				assert_ne!(shell.explosive.0, "");
-				assert_ne!(shell.explosive.1, 0.0);
+				assert_ne!(shell.explosive.1, 0);
 			}
 		}
 	}
@@ -43,7 +43,7 @@ mod tests {
 			if shell.shell_type == ShellType::ApHe {
 				// println!("{}", shell.name);
 				assert_ne!(shell.explosive.0, "");
-				assert_ne!(shell.explosive.1, 0.0);
+				assert_ne!(shell.explosive.1, 0);
 			}
 		}
 	}
@@ -67,7 +67,7 @@ mod tests {
 			if shell.shell_type == ShellType::Hesh {
 				// println!("{}", shell.name);
 				assert_ne!(shell.explosive.0, "");
-				assert_ne!(shell.explosive.1, 0.0);
+				assert_ne!(shell.explosive.1, 0);
 			}
 		}
 	}
@@ -78,7 +78,7 @@ mod tests {
 			if shell.shell_type == ShellType::Heat {
 				// println!("{}", shell.name);
 				assert_ne!(shell.explosive.0, "");
-				assert_ne!(shell.explosive.1, 0.0);
+				assert_ne!(shell.explosive.1, 0);
 			}
 		}
 	}
@@ -89,7 +89,7 @@ mod tests {
 			if shell.shell_type == ShellType::SapHei {
 				// println!("{}", shell.name);
 				assert_ne!(shell.explosive.0, "");
-				assert_ne!(shell.explosive.1, 0.0);
+				assert_ne!(shell.explosive.1, 0);
 			}
 		}
 	}
@@ -100,7 +100,7 @@ mod tests {
 			if shell.shell_type == ShellType::Sam {
 				// println!("{}", shell.name);
 				assert_ne!(shell.explosive.0, "");
-				assert_ne!(shell.explosive.1, 0.0);
+				assert_ne!(shell.explosive.1, 0);
 			}
 		}
 	}
@@ -111,7 +111,7 @@ mod tests {
 			if shell.shell_type == ShellType::AtgmHe {
 				// println!("{}", shell.name);
 				assert_ne!(shell.explosive.0, "");
-				assert_ne!(shell.explosive.1, 0.0);
+				assert_ne!(shell.explosive.1, 0);
 			}
 		}
 	}
@@ -122,7 +122,7 @@ mod tests {
 			if shell.shell_type == ShellType::Shrapnel {
 				// println!("{}", shell.name);
 				assert_ne!(shell.explosive.0, "");
-				assert_ne!(shell.explosive.1, 0.0);
+				assert_ne!(shell.explosive.1, 0);
 			}
 		}
 	}
@@ -133,7 +133,7 @@ mod tests {
 			if shell.shell_type == ShellType::Aam {
 				// println!("{}", shell.name);
 				assert_ne!(shell.explosive.0, "");
-				assert_ne!(shell.explosive.1, 0.0);
+				assert_ne!(shell.explosive.1, 0);
 			}
 		}
 	}
@@ -146,7 +146,7 @@ mod tests {
 			if shell.shell_type == ShellType::ApFsDs {
 				// println!("{}", shell.name);
 				assert_eq!(shell.explosive.0, "");
-				assert_eq!(shell.explosive.1, 0.0);
+				assert_eq!(shell.explosive.1, 0);
 			}
 		}
 	}
@@ -157,7 +157,7 @@ mod tests {
 			if shell.shell_type == ShellType::Practice {
 				// println!("{}", shell.name);
 				assert_eq!(shell.explosive.0, "");
-				assert_eq!(shell.explosive.1, 0.0);
+				assert_eq!(shell.explosive.1, 0);
 			}
 		}
 	}
@@ -168,7 +168,7 @@ mod tests {
 			if shell.shell_type == ShellType::ApCr {
 				// println!("{}", shell.name);
 				assert_eq!(shell.explosive.0, "");
-				assert_eq!(shell.explosive.1, 0.0);
+				assert_eq!(shell.explosive.1, 0);
 			}
 		}
 	}
@@ -179,7 +179,7 @@ mod tests {
 			if shell.shell_type == ShellType::ApSolid {
 				// println!("{}", shell.name);
 				assert_eq!(shell.explosive.0, "");
-				assert_eq!(shell.explosive.1, 0.0);
+				assert_eq!(shell.explosive.1, 0);
 			}
 		}
 	}
@@ -199,7 +199,7 @@ mod tests {
 	fn shell_has_parent_gun() {
 		for shell in SHELLS.iter() {
 			// println!("{}", shell.name);
-			assert_ne!(shell.parent_guns, "");
+			assert_ne!(shell.parent_guns.len(), 0);
 		}
 	}
 }

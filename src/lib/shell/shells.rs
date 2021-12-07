@@ -46,21 +46,30 @@ impl Shell {
 				continue;
 			};
 
-			let shell_type = ShellType::from_str(&parameter_to_data(bullet, "bulletType").unwrap()).unwrap();
-
 			let caliber = (f64::from_str(&parameter_to_data(bullet, "caliber").unwrap()).unwrap() * 1000.0).round() as u32;
 
 			let true_caliber = parameter_to_data(bullet, "damageCaliber").map_or(caliber, |true_caliber| (f64::from_str(&true_caliber).unwrap() * 1000.0).round() as u32);
 
 			let velocity = f64::from_str(&parameter_to_data(bullet, "speed").unwrap_or_else(|| "0".to_owned())).expect(&name).round() as u32;
 
-			let penetration: Vec<(u32, u32)> = shell_to_penetration(bullet, &shell_type);
-
 			let explosive: (String, u32) =
 				(
 					parameter_to_data(bullet, "explosiveType").map_or_else(|| "".to_owned(), |value| value.trim().replace("\\", "").replace("\"", "")),
 					parameter_to_data(bullet, "explosiveMass").as_ref().map_or(0, |mass| (f64::from_str(mass).unwrap() * 1000.0).round() as u32)
 				);
+
+			// Shells can sometimes fail to resolve and therefore require manual checking
+			let shell_type= if let Ok(result) = ShellType::from_str(&parameter_to_data(bullet, "bulletType").unwrap()) {
+				result
+			} else {
+				if explosive.0 == "" {
+					ShellType::ApSolid
+				} else {
+					ShellType::ApHe
+				}
+			};
+
+			let penetration: Vec<(u32, u32)> = shell_to_penetration(bullet, &shell_type);
 
 			let parent_guns = [ParentGun { name: parent_gun.to_owned(), localized: unit_to_local(parent_gun, &Lang::Weapon) }].to_vec();
 
@@ -197,7 +206,7 @@ impl ToString for ShellType {
 }
 
 impl FromStr for ShellType {
-	type Err = ();
+	type Err = (String);
 
 	#[allow(clippy::too_many_lines)]
 	fn from_str(s: &str) -> Result<Self, Self::Err> {
@@ -268,7 +277,6 @@ impl FromStr for ShellType {
 			}
 			r#""apcbc_solid_medium_caliber_tank""# |
 			r#""apbc_tank""# |
-			r#""apbc_usa_tank""# |
 			r#""ap_i_t_ball""# |
 			r#""he_i_ball""# |
 			r#""apcr_i_ball""# |
@@ -278,15 +286,11 @@ impl FromStr for ShellType {
 			r#""i_ball_M1""# |
 			r#""ap_ball_M2""# |
 			r#""ap_i_ball_M8""# |
-			r#""ap_i_t""# |
 			r#""ap_t""# |
 			r#""ap_i""# |
 			r#""ap_tank""# |
 			r#""apc_solid_medium_caliber_tank""# |
-			r#""apc_tank""# |
 			r#""apc_t""# |
-			r#""apcbc_tank""# |
-			r#""he_frag_i_t""# |
 			r#""cannon_ball""# => {
 				Ok(Self::ApSolid)
 			}
@@ -309,6 +313,16 @@ impl FromStr for ShellType {
 			}
 			r#""aam""# => {
 				Ok(Self::Aam)
+			}
+			// This is an edge-case, apcbc can both resolve to APHE or solid AP
+			r#""apbc_usa_tank""# |
+			r#""apc_tank""# |
+			r#""apcbc_tank""# |
+			// Seems HE frag has such a funny definition that the HE part sometimes is forgotten *oops*
+			r#""he_frag_i_t""# |
+			// Same with API-T
+			r#""ap_i_t""# => {
+				Err("Failed to resolve shell type from direct parameter".to_owned())
 			}
 			_ => { panic!("Cannot determine shell type {}", s) }
 		}
