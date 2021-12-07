@@ -56,35 +56,17 @@ impl Shell {
 
 			let penetration: Vec<(u32, u32)> = shell_to_penetration(bullet, &shell_type);
 
-			let explosive: (String, u32) = match shell_type {
-				ShellType::ApFsDs | ShellType::Apds | ShellType::Smoke | ShellType::Practice | ShellType::ApCr | ShellType::ApSolid | ShellType::Football => {
-					(
-						"".to_owned(),
-						0
-					)
-				}
-				ShellType::He |
-				ShellType::HeatFs |
-				ShellType::ApHe |
-				ShellType::Atgm |
-				ShellType::Hesh |
-				ShellType::Heat |
-				ShellType::SapHei |
-				ShellType::Sam |
-				ShellType::Rocket |
-				ShellType::AtgmHe |
-				ShellType::Shrapnel |
-				ShellType::Aam => {
-					(
-						parameter_to_data(bullet, "explosiveType").map_or_else(|| "".to_owned(), |value| value.trim().replace("\\", "").replace("\"", "")),
-						parameter_to_data(bullet, "explosiveMass").as_ref().map_or(0, |mass| (f64::from_str(mass).unwrap() * 1000.0).round() as u32)
-					)
-				}
-			};
+			let explosive: (String, u32) =
+				(
+					parameter_to_data(bullet, "explosiveType").map_or_else(|| "".to_owned(), |value| value.trim().replace("\\", "").replace("\"", "")),
+					parameter_to_data(bullet, "explosiveMass").as_ref().map_or(0, |mass| (f64::from_str(mass).unwrap() * 1000.0).round() as u32)
+				);
+
+			let parent_guns = [ParentGun { name: parent_gun.to_owned(), localized: unit_to_local(parent_gun, &Lang::Weapon) }].to_vec();
 
 			shells.push(
 				Self {
-					parent_guns: [ParentGun { name: parent_gun.to_owned(), localized: unit_to_local(parent_gun, &Lang::Weapon) }].to_vec(),
+					parent_guns,
 					localized: unit_to_local(&name, &Lang::Weapon),
 					name,
 					shell_type,
@@ -149,10 +131,11 @@ impl Shell {
 			if let Some(hit) = map.get(&new_shell) {
 
 				// When a shell is found, it will be added to the new parents
-				let mut new_parents = hit.clone();
+				let mut new_parents: Vec<ParentGun> = hit.clone();
 				for parent in parents {
 					new_parents.push(parent.clone());
 				}
+				new_parents.sort_by_key(|x|x.name.clone());
 				map.insert(new_shell.clone(), new_parents.clone());
 			} else {
 				map.insert(new_shell.clone(), parents.clone());
@@ -168,6 +151,8 @@ impl Shell {
 			new_shell.parent_guns = item.1;
 			new_generated.push(new_shell);
 		}
+
+		new_generated.sort_by_key(|x|x.name.clone());
 
 		new_generated
 	}
