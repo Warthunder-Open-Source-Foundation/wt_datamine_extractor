@@ -1,0 +1,20 @@
+name: Rust
+
+on:
+  push:
+    branches: [ master, nightly ]
+  pull_request:
+    branches: [ master, nightly ]
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Run tests
+        run: cargo test --release --verbose
