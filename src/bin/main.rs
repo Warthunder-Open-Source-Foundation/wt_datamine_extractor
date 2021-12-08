@@ -3,6 +3,7 @@ use std::time::Instant;
 use wt_datamine_extractor_lib::lang::extract_csv;
 use wt_datamine_extractor_lib::missile::extract_missiles::KnownMissiles;
 use wt_datamine_extractor_lib::missile::missile::Missile;
+use wt_datamine_extractor_lib::shell::demarre::{DemarreMod, shell_to_demarre};
 
 use wt_datamine_extractor_lib::shell::known_shells::KnownShells;
 use wt_datamine_extractor_lib::shell::shells::{Shell};
@@ -33,6 +34,15 @@ fn main() {
 	} else {
 		panic!("Local mined cache is invalid or could not be read");
 	}
+
+	println!("{}", shell_to_demarre(1000.0, 88.0, 10.16, {
+		DemarreMod {
+			penetration_k: 1.0,
+			speed_pow: 1.43,
+			mass_pow: 0.71,
+			caliber_pow: 1.07
+		}
+	}));
 
 	println!("{:?}", start.elapsed());
 }
