@@ -39,7 +39,7 @@ impl DemarreMod {
 
 pub fn shell_to_demarre(velocity: f64, caliber: f64, mass: f64, modifiers: DemarreMod) -> u32 {
 	// Source: http://www.tankarchives.ca/2014/10/penetration-equations.html
-	(REFERENCE.penetration * (velocity / REFERENCE.velocity).powf(modifiers.speed_pow) *
+	(REFERENCE.penetration * modifiers.penetration_k * (velocity / REFERENCE.velocity).powf(modifiers.speed_pow) *
 		(caliber / REFERENCE.caliber).powf(modifiers.caliber_pow) *
 		(mass / caliber.powi(3)).powf(modifiers.mass_pow) /
 		(REFERENCE.mass / REFERENCE.caliber.powi(3)).powf(modifiers.mass_pow)).round() as u32

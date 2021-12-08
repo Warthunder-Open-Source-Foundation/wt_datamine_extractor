@@ -35,9 +35,9 @@ fn main() {
 		panic!("Local mined cache is invalid or could not be read");
 	}
 
-	println!("{}", shell_to_demarre(1000.0, 88.0, 10.16, {
+	println!("{}", shell_to_demarre(1450.0, 44.0, 4.5, {
 		DemarreMod {
-			penetration_k: 1.0,
+			penetration_k: 0.65,
 			speed_pow: 1.43,
 			mass_pow: 0.71,
 			caliber_pow: 1.07
