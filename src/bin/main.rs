@@ -3,6 +3,7 @@ use std::time::Instant;
 use wt_datamine_extractor_lib::lang::extract_csv;
 use wt_datamine_extractor_lib::missile::extract_missiles::KnownMissiles;
 use wt_datamine_extractor_lib::missile::missile::Missile;
+use wt_datamine_extractor_lib::shell::demarre::{DemarreMod, shell_to_demarre};
 
 use wt_datamine_extractor_lib::shell::known_shells::KnownShells;
 use wt_datamine_extractor_lib::shell::shells::{Shell};
@@ -14,6 +15,9 @@ fn main() {
 	let start = Instant::now();
 
 	if fs::read_dir("resources/cache").is_ok() {
+		fs::write("meta_index/version.txt", &fs::read_to_string("resources/cache/aces.vromfs.bin_u/version").unwrap()).unwrap();
+
+
 		extract_csv();
 
 		let known_missiles = KnownMissiles::generate_index().write_index().copy_index_to_folder();
@@ -30,6 +34,15 @@ fn main() {
 	} else {
 		panic!("Local mined cache is invalid or could not be read");
 	}
+
+	// println!("{}", shell_to_demarre(1450.0, 44.0, 4.5, {
+	// 	DemarreMod {
+	// 		penetration_k: 0.65,
+	// 		speed_pow: 1.43,
+	// 		mass_pow: 0.71,
+	// 		caliber_pow: 1.07
+	// 	}
+	// }));
 
 	println!("{:?}", start.elapsed());
 }

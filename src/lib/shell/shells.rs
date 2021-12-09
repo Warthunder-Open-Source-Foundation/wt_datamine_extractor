@@ -1,5 +1,7 @@
 use std::collections::{HashMap, HashSet};
+use std::collections::hash_map::DefaultHasher;
 use std::fs;
+use std::hash::{Hash, Hasher};
 use std::str::FromStr;
 
 use strum_macros::EnumIter;
@@ -16,6 +18,7 @@ pub struct Shell {
 	pub name: String,
 	pub localized: String,
 	pub parent_guns: Vec<ParentGun>,
+	pub hash: u64,
 
 	pub shell_type: ShellType,
 
@@ -46,45 +49,34 @@ impl Shell {
 				continue;
 			};
 
-			let shell_type = ShellType::from_str(&parameter_to_data(bullet, "bulletType").unwrap()).unwrap();
-
 			let caliber = (f64::from_str(&parameter_to_data(bullet, "caliber").unwrap()).unwrap() * 1000.0).round() as u32;
 
 			let true_caliber = parameter_to_data(bullet, "damageCaliber").map_or(caliber, |true_caliber| (f64::from_str(&true_caliber).unwrap() * 1000.0).round() as u32);
 
 			let velocity = f64::from_str(&parameter_to_data(bullet, "speed").unwrap_or_else(|| "0".to_owned())).expect(&name).round() as u32;
 
+			let explosive: (String, u32) =
+				(
+					parameter_to_data(bullet, "explosiveType").map_or_else(|| "".to_owned(), |value| value.trim().replace("\\", "").replace("\"", "")),
+					parameter_to_data(bullet, "explosiveMass").as_ref().map_or(0, |mass| (f64::from_str(mass).unwrap() * 1000.0).round() as u32)
+				);
+
+			// Shells can sometimes fail to resolve and therefore require manual checking
+			let shell_type = if let Ok(result) = ShellType::from_str(&parameter_to_data(bullet, "bulletType").unwrap()) {
+				result
+			} else if explosive.0.is_empty() {
+				ShellType::ApSolid
+			} else {
+				ShellType::ApHe
+			};
+
 			let penetration: Vec<(u32, u32)> = shell_to_penetration(bullet, &shell_type);
 
-			let explosive: (String, u32) = match shell_type {
-				ShellType::ApFsDs | ShellType::Apds | ShellType::Smoke | ShellType::Practice | ShellType::ApCr | ShellType::ApSolid | ShellType::Football => {
-					(
-						"".to_owned(),
-						0
-					)
-				}
-				ShellType::He |
-				ShellType::HeatFs |
-				ShellType::ApHe |
-				ShellType::Atgm |
-				ShellType::Hesh |
-				ShellType::Heat |
-				ShellType::SapHei |
-				ShellType::Sam |
-				ShellType::Rocket |
-				ShellType::AtgmHe |
-				ShellType::Shrapnel |
-				ShellType::Aam => {
-					(
-						parameter_to_data(bullet, "explosiveType").map_or_else(|| "".to_owned(), |value| value.trim().replace("\\", "").replace("\"", "")),
-						parameter_to_data(bullet, "explosiveMass").as_ref().map_or(0, |mass| (f64::from_str(mass).unwrap() * 1000.0).round() as u32)
-					)
-				}
-			};
+			let parent_guns = [ParentGun { name: parent_gun.to_owned(), localized: unit_to_local(parent_gun, &Lang::Weapon) }].to_vec();
 
 			shells.push(
 				Self {
-					parent_guns: [ParentGun { name: parent_gun.to_owned(), localized: unit_to_local(parent_gun, &Lang::Weapon) }].to_vec(),
+					parent_guns,
 					localized: unit_to_local(&name, &Lang::Weapon),
 					name,
 					shell_type,
@@ -93,6 +85,7 @@ impl Shell {
 					velocity,
 					penetration,
 					explosive,
+					hash: 0 // Remains 0 until write-instancing
 				}
 			);
 		}
@@ -100,7 +93,7 @@ impl Shell {
 	}
 
 	pub fn write_all(mut values: Vec<Self>) -> Vec<Self> {
-		values.sort_by_key(|d| d.name.clone());
+		values.sort_by_key(|d| d.hash.clone());
 		fs::write("shell_index/all.json", serde_json::to_string_pretty(&values).unwrap()).unwrap();
 		values
 	}
@@ -149,10 +142,11 @@ impl Shell {
 			if let Some(hit) = map.get(&new_shell) {
 
 				// When a shell is found, it will be added to the new parents
-				let mut new_parents = hit.clone();
+				let mut new_parents: Vec<ParentGun> = hit.clone();
 				for parent in parents {
 					new_parents.push(parent.clone());
 				}
+				new_parents.sort_by_key(|x| x.name.clone());
 				map.insert(new_shell.clone(), new_parents.clone());
 			} else {
 				map.insert(new_shell.clone(), parents.clone());
@@ -168,6 +162,20 @@ impl Shell {
 			new_shell.parent_guns = item.1;
 			new_generated.push(new_shell);
 		}
+
+		new_generated = {
+			let mut hashed_shells = vec![];
+			for shell in new_generated {
+				let mut hasher = DefaultHasher::new();
+				shell.hash(&mut hasher);
+				let hashed = hasher.finish();
+
+				let mut new_shell = shell.clone();
+				new_shell.hash = hashed;
+				hashed_shells.push(new_shell);
+			}
+			hashed_shells
+		};
 
 		new_generated
 	}
@@ -212,7 +220,7 @@ impl ToString for ShellType {
 }
 
 impl FromStr for ShellType {
-	type Err = ();
+	type Err = String;
 
 	#[allow(clippy::too_many_lines)]
 	fn from_str(s: &str) -> Result<Self, Self::Err> {
@@ -283,7 +291,6 @@ impl FromStr for ShellType {
 			}
 			r#""apcbc_solid_medium_caliber_tank""# |
 			r#""apbc_tank""# |
-			r#""apbc_usa_tank""# |
 			r#""ap_i_t_ball""# |
 			r#""he_i_ball""# |
 			r#""apcr_i_ball""# |
@@ -293,15 +300,11 @@ impl FromStr for ShellType {
 			r#""i_ball_M1""# |
 			r#""ap_ball_M2""# |
 			r#""ap_i_ball_M8""# |
-			r#""ap_i_t""# |
 			r#""ap_t""# |
 			r#""ap_i""# |
 			r#""ap_tank""# |
 			r#""apc_solid_medium_caliber_tank""# |
-			r#""apc_tank""# |
 			r#""apc_t""# |
-			r#""apcbc_tank""# |
-			r#""he_frag_i_t""# |
 			r#""cannon_ball""# => {
 				Ok(Self::ApSolid)
 			}
@@ -324,6 +327,16 @@ impl FromStr for ShellType {
 			}
 			r#""aam""# => {
 				Ok(Self::Aam)
+			}
+			// This is an edge-case, apcbc can both resolve to APHE or solid AP
+			r#""apbc_usa_tank""# |
+			r#""apc_tank""# |
+			r#""apcbc_tank""# |
+			// Seems HE frag has such a funny definition that the HE part sometimes is forgotten *oops*
+			r#""he_frag_i_t""# |
+			// Same with API-T
+			r#""ap_i_t""# => {
+				Err("Failed to resolve shell type from direct parameter".to_owned())
 			}
 			_ => { panic!("Cannot determine shell type {}", s) }
 		}
