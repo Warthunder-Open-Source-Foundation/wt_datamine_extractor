@@ -206,13 +206,13 @@ mod tests {
 	}
 
 	#[test]
-	fn no_duplicate_shell_hash() {
+	fn no_duplicate_shell() {
 		let mut map = HashSet::new();
 		for shell in SHELLS.iter() {
-			if map.get(&shell.hash).is_some() {
+			if map.get(shell).is_some() {
 				panic!("Duplicate shell {}", shell.name);
 			};
-			map.insert(&shell.hash);
+			map.insert(shell.clone());
 		}
 	}
 }
