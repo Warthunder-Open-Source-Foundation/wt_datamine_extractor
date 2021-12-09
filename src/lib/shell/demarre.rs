@@ -1,3 +1,6 @@
+use std::str::FromStr;
+use crate::util::parameter_to_data;
+
 struct Reference {
 	// in mm
 	caliber: f64,
@@ -35,9 +38,18 @@ impl DemarreMod {
 			caliber_pow: 1.0714,
 		}
 	}
+	pub fn from_file(file: &str) -> Self {
+		Self {
+			penetration_k: f64::from_str(&parameter_to_data(file, "demarrePenetrationK").unwrap()).unwrap(),
+			speed_pow: f64::from_str(&parameter_to_data(file, "demarreSpeedPow").unwrap()).unwrap(),
+			mass_pow: f64::from_str(&parameter_to_data(file, "demarreMassPow").unwrap()).unwrap(),
+			caliber_pow: f64::from_str(&parameter_to_data(file, "demarreCaliberPow").unwrap()).unwrap(),
+		}
+	}
 }
 
-pub fn shell_to_demarre(velocity: f64, caliber: f64, mass: f64, modifiers: DemarreMod) -> u32 {
+pub fn penetration_from_demarre(velocity: f64, caliber: f64, mass: f64, modifiers: DemarreMod) -> u32 {
+	let caliber = caliber * 1000.0;
 	// Source: http://www.tankarchives.ca/2014/10/penetration-equations.html
 	(REFERENCE.penetration * modifiers.penetration_k * (velocity / REFERENCE.velocity).powf(modifiers.speed_pow) *
 		(caliber / REFERENCE.caliber).powf(modifiers.caliber_pow) *

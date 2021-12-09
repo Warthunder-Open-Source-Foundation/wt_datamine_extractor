@@ -1,9 +1,9 @@
 use std::str::FromStr;
+use crate::shell::demarre::{DemarreMod, penetration_from_demarre};
 
-use crate::shell::shells::ShellType;
 use crate::util::parameter_to_data;
 
-pub fn shell_to_penetration(shell: &str, _shell_type: &ShellType) -> Vec<(u32, u32)> {
+pub fn shell_to_penetration(shell: &str) -> Vec<(u32, u32)> {
 	// X axis represents ranges from 0, 100, 500, 1000, 1500, 2000, 3000, 10000 and 20000
 	let mut penetration: Vec<(u32, u32)> = vec![];
 	if shell.contains("cumulativeDamage") {
@@ -18,7 +18,19 @@ pub fn shell_to_penetration(shell: &str, _shell_type: &ShellType) -> Vec<(u32, u
 			}
 		}
 	} else if shell.contains("demarre") {
-		// TODO
+		let speed = f64::from_str(&parameter_to_data(shell, "speed").unwrap()).unwrap();
+
+		let caliber = f64::from_str(
+			&if let Some(calib) = parameter_to_data(shell, "damageCaliber") {
+				calib
+			} else {
+				parameter_to_data(shell, "caliber").unwrap()
+			}
+		).unwrap();
+
+		let mass = f64::from_str(&parameter_to_data(shell, "mass").unwrap()).unwrap();
+
+		penetration.push((0, penetration_from_demarre(speed, caliber, mass, DemarreMod::from_file(shell))))
 	}
 	penetration
 }

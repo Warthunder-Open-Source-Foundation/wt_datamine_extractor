@@ -70,9 +70,12 @@ impl Shell {
 				ShellType::ApHe
 			};
 
-			let penetration: Vec<(u32, u32)> = shell_to_penetration(bullet, &shell_type);
+			let penetration: Vec<(u32, u32)> = shell_to_penetration(bullet);
 
 			let parent_guns = [ParentGun { name: parent_gun.to_owned(), localized: unit_to_local(parent_gun, &Lang::Weapon) }].to_vec();
+
+			let mut hasher = DefaultHasher::new();
+			bullet.hash(&mut hasher);
 
 			shells.push(
 				Self {
@@ -85,7 +88,7 @@ impl Shell {
 					velocity,
 					penetration,
 					explosive,
-					hash: 0 // Remains 0 until write-instancing
+					hash: hasher.finish() // Remains 0 until write-instancing
 				}
 			);
 		}
@@ -162,20 +165,6 @@ impl Shell {
 			new_shell.parent_guns = item.1;
 			new_generated.push(new_shell);
 		}
-
-		new_generated = {
-			let mut hashed_shells = vec![];
-			for shell in new_generated {
-				let mut hasher = DefaultHasher::new();
-				shell.hash(&mut hasher);
-				let hashed = hasher.finish();
-
-				let mut new_shell = shell.clone();
-				new_shell.hash = hashed;
-				hashed_shells.push(new_shell);
-			}
-			hashed_shells
-		};
 
 		new_generated
 	}
