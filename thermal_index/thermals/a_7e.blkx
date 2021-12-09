@@ -15,7 +15,7 @@
   "ilsHaveAVQ7CCIP": true,
   "ilsHaveAVQ7CCRP": true,
   "gyroscopicSightOverSensors": true,
-  "viewDistKInSight": 2.0,
+  "viewDistKInSight": 4.0,
   "type": "typeBomber",
   "paratrooper": "raf_para",
   "overheatBlk": "gameData/FlightModels/DM/overheat.blk",

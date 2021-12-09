@@ -13,6 +13,7 @@
   "JetNozzlesAnim1": [0.3,0.5],
   "JetNozzlesAnim2": [0.5,1.0],
   "JetNozzlesAnim3": [1.0,0.0],
+  "viewDistKInSight": 4.0,
   "radarCScope": true,
   "gyroscopicSightOverSensors": true,
   "type": "typeFighter",
@@ -1994,7 +1995,7 @@
     "Range": 882.0
   },
   "Sound": {
-    "Engine": "engine23",
+    "Engine": "engine05_TF40_N1_WEP",
     "gun": "gun_default"
   },
   "cockpit": [

@@ -1,7 +1,7 @@
 {
   "model": "tiger_uht",
   "fmFile": "fm/tiger_uht.blk",
-  "viewDistKInSight": 2.0,
+  "viewDistKInSight": 4.0,
   "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/hellicopters_metaparts.blk",
   "harmonizationSuffix": "_tomoe",
   "haveCCIPForRocket": true,

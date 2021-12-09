@@ -1,7 +1,7 @@
 {
   "model": "tiger_had_france",
   "fmFile": "fm/tiger_had_france.blk",
-  "viewDistKInSight": 2.0,
+  "viewDistKInSight": 4.0,
   "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/hellicopters_metaparts.blk",
   "haveCCIPForRocket": true,
   "haveCCIPForGun": true,

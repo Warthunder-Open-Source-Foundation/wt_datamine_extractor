@@ -280,7 +280,7 @@
           "armorThickness": 80.0
         },
         "turret_09_front_dm": {
-          "armorThickness": 25.4,
+          "armorThickness": 6.35,
           "armorClass": "tank_structural_steel"
         },
         "turret_10_front_dm": {
@@ -360,9 +360,6 @@
         "turret_03_top_dm": {
           "armorThickness": 25.0
         },
-        "turret_05_bottom_dm": {
-          "armorThickness": 25.0
-        },
         "turret_04_bottom_dm": {
           "armorThickness": 10.0
         },
@@ -417,28 +414,24 @@
         "ex_armor_body_04_dm": {
           "armorThickness": 20.0
         },
-        "ex_armor_l_04_dm": {
-          "armorThickness": 8.0,
-          "variableThickness": true
-        },
-        "ex_armor_r_04_dm": {
-          "armorThickness": 8.0,
-          "variableThickness": true
-        },
         "turret_02_front_dm": {
           "armorThickness": 50.0
         },
         "ex_armor_03_dm": {
-          "armorThickness": 25.4,
-          "armorClass": "tank_structural_steel",
-          "variableThickness": true
+          "armorThickness": 200.0,
+          "genericArmorQuality": 0.3,
+          "cumulativeArmorQuality": 2.0,
+          "armorClass": "leopard_2a5_turret_nera",
+          "variableThickness": true,
+          "genericEffectiveThicknessMax": 50.0,
+          "cumulativeEffectiveThicknessMax": 450.0
         },
         "ex_armor_l_02_dm": {
-          "armorThickness": 25.4,
+          "armorThickness": 6.35,
           "armorClass": "tank_structural_steel"
         },
         "ex_armor_r_02_dm": {
-          "armorThickness": 25.4,
+          "armorThickness": 6.35,
           "armorClass": "tank_structural_steel"
         },
         "turret_09_side_dm": {
@@ -469,8 +462,19 @@
         "createSecondaryShatters": false,
         "hidableInViewer": true,
         "variableThickness": true,
-        "ex_armor_l_01_dm": [],
-        "ex_armor_r_01_dm": []
+        "turret_05_bottom_dm": [],
+        "ex_armor_l_05_dm": {
+          "variableThickness": true
+        },
+        "ex_armor_r_05_dm": {
+          "variableThickness": true
+        },
+        "ex_armor_l_04_dm": {
+          "variableThickness": true
+        },
+        "ex_armor_r_04_dm": {
+          "variableThickness": true
+        }
       },
       "body_shields": {
         "armorClass": "tank_structural_steel",
@@ -485,12 +489,6 @@
         "ex_armor_r_08_dm": [],
         "ex_armor_r_07_dm": [],
         "ex_armor_r_06_dm": [],
-        "ex_armor_l_05_dm": {
-          "variableThickness": true
-        },
-        "ex_armor_r_05_dm": {
-          "variableThickness": true
-        },
         "ex_armor_l_09_dm": [],
         "ex_armor_r_09_dm": [],
         "turret_08_back_dm": [],
@@ -536,7 +534,20 @@
         "stopChanceOnDeadPart": 0.0,
         "hidableInViewer": true,
         "hidableInXrayViewer": true,
-        "variableThickness": true,
+        "variableThickness": true
+      },
+      "era_front_hull_shields": {
+        "armorClass": "uk_era_romor_a",
+        "hp": 250.0,
+        "armorThickness": 30.0,
+        "genericArmorQuality": 0.3,
+        "cumulativeArmorQuality": 4.8,
+        "genericEffectiveThicknessMax": 30.0,
+        "cumulativeEffectiveThicknessMax": 350.0,
+        "genericDamageMult": 3.0,
+        "stopChanceOnDeadPart": 0.0,
+        "hidableInViewer": true,
+        "hidableInXrayViewer": true,
         "ex_era_hull_01_dm": [],
         "ex_era_hull_02_dm": [],
         "ex_era_hull_03_dm": [],
@@ -564,32 +575,13 @@
         "ex_era_hull_25_dm": [],
         "ex_era_hull_26_dm": [],
         "ex_era_hull_27_dm": [],
-        "ex_era_hull_29_dm": []
-      },
-      "era_front_hull_shields": {
-        "armorClass": "uk_era_romor_a",
-        "hp": 250.0,
-        "armorThickness": 30.0,
-        "genericArmorQuality": 0.3,
-        "cumulativeArmorQuality": 4.8,
-        "genericEffectiveThicknessMax": 30.0,
-        "cumulativeEffectiveThicknessMax": 350.0,
-        "genericDamageMult": 3.0,
-        "stopChanceOnDeadPart": 0.0,
-        "hidableInViewer": true,
-        "hidableInXrayViewer": true,
         "ex_era_hull_28_dm": [],
+        "ex_era_hull_29_dm": [],
         "ex_era_hull_30_dm": [],
         "ex_era_hull_31_dm": [],
         "ex_era_hull_32_dm": [],
         "ex_era_hull_33_dm": [],
-        "ex_era_hull_34_dm": [],
-        "ex_era_hull_35_dm": [],
-        "ex_era_hull_36_dm": [],
-        "ex_era_hull_37_dm": [],
-        "ex_era_hull_38_dm": [],
-        "ex_era_hull_39_dm": [],
-        "ex_era_hull_40_dm": []
+        "ex_era_hull_34_dm": []
       },
       "optics": {
         "armorClass": "optics_tank",
@@ -3117,7 +3109,7 @@
           "parkInDeadzone": false,
           "speedYaw": 90.0,
           "speedPitch": 90.0,
-          "bullets": 3600,
+          "bullets": 1700,
           "isBulletBelt": true,
           "fireConeAngle": 5.0,
           "ChainfireTime": 0.5,
@@ -3203,9 +3195,9 @@
   {
     "VehiclePhys": {
       "Mass": {
-        "Empty": 61000.0,
+        "Empty": 73300.0,
         "Fuel": 1500.0,
-        "TakeOff": 62500.0,
+        "TakeOff": 74800.0,
         "momentOfInertia": [4.0,5.0,6.0],
         "CenterOfGravity": [0.0,0.5,0.0],
         "AdvancedMass": false,
@@ -4113,7 +4105,7 @@
                 "parkInDeadzone": false,
                 "speedYaw": 90.0,
                 "speedPitch": 90.0,
-                "bullets": 3600,
+                "bullets": 1700,
                 "isBulletBelt": true,
                 "fireConeAngle": 5.0,
                 "ChainfireTime": 0.5,

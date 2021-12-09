@@ -169,7 +169,7 @@
   },
   {
     "name": "cn_m_41d",
-    "localized": "cn_m_41d",
+    "localized": "M41D",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -424,6 +424,11 @@
     "sights": [
       {
         "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Commander",
         "x": 800.0,
         "y": 600.0
       }

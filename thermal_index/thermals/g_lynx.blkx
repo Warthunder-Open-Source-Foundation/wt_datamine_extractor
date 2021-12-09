@@ -1,7 +1,7 @@
 {
   "model": "g_lynx",
   "fmFile": "fm/g_lynx.blk",
-  "viewDistKInSight": 2.0,
+  "viewDistKInSight": 4.0,
   "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/hellicopters_metaparts.blk",
   "gearSinkRangeLR": 0.001,
   "gearSinkRangeC": 0.001,
