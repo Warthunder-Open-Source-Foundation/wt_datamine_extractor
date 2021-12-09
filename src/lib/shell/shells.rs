@@ -168,7 +168,7 @@ impl Shell {
 			for shell in new_generated {
 				let mut hasher = DefaultHasher::new();
 				shell.name.hash(&mut hasher);
-				shell.localized.hash(&mut hasher);
+				shell.velocity.hash(&mut hasher);
 				let hashed = hasher.finish();
 
 				let mut new_shell = shell.clone();

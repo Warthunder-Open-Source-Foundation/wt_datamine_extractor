@@ -35,14 +35,14 @@ fn main() {
 		panic!("Local mined cache is invalid or could not be read");
 	}
 
-	println!("{}", penetration_from_demarre(1450.0, 44.0, 4.5, {
-		DemarreMod {
-			penetration_k: 0.65,
-			speed_pow: 1.43,
-			mass_pow: 0.71,
-			caliber_pow: 1.07
-		}
-	}));
+	// println!("{}", penetration_from_demarre(1450.0, 44.0, 4.5, {
+	// 	DemarreMod {
+	// 		penetration_k: 0.65,
+	// 		speed_pow: 1.43,
+	// 		mass_pow: 0.71,
+	// 		caliber_pow: 1.07
+	// 	}
+	// }));
 
 	println!("{:?}", start.elapsed());
 }
