@@ -111,15 +111,6 @@
     "canReloadNonGuns": true
   },
   {
-    "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg"
-  },
-  {
-    "customImage": "!#ui/unitskin#image_in_progress"
-  },
-  {
-    "customTooltipImage": "ui/aircrafts/image_in_progress"
-  },
-  {
     "DamageParts": {
       "formatVersion": 2,
       "armorClass": "aluminum_armor_7039",
@@ -203,14 +194,15 @@
         "composite_armor_hull_03_dm": {
           "armorThickness": 5.0,
           "hidableInXrayViewer": true
+        },
+        "turret_01_front_dm": {
+          "armorThickness": 12.7,
+          "hidableInViewer": true
         }
       },
       "turret": {
         "armorClass": "RHA_tank",
         "turret_02_front_dm": {
-          "armorThickness": 10.0
-        },
-        "turret_01_bottom_dm": {
           "armorThickness": 10.0
         },
         "turret_02_top_dm": {
@@ -232,16 +224,21 @@
       "heavy_scirts": {
         "armorClass": "hull_side_special_armor",
         "hp": 400.0,
-        "armorThickness": 50.0,
+        "armorThickness": 25.0,
         "explosionDamageMult": 10.0,
         "genericArmorQuality": 0.25,
         "explosionArmorQuality": 0.15,
         "cumulativeArmorQuality": 1.9,
-        "turret_01_front_dm": [],
         "ex_armor_r_01_dm": [],
-        "ex_armor_r_02_dm": [],
-        "ex_armor_r_03_dm": [],
-        "ex_armor_r_04_dm": [],
+        "ex_armor_r_02_dm": {
+          "armorThickness": 100.0
+        },
+        "ex_armor_r_03_dm": {
+          "armorThickness": 100.0
+        },
+        "ex_armor_r_04_dm": {
+          "armorThickness": 100.0
+        },
         "ex_armor_r_05_dm": [],
         "ex_armor_r_06_dm": [],
         "ex_armor_r_07_dm": [],
@@ -249,9 +246,15 @@
         "ex_armor_r_09_dm": [],
         "ex_armor_r_10_dm": [],
         "ex_armor_l_01_dm": [],
-        "ex_armor_l_02_dm": [],
-        "ex_armor_l_03_dm": [],
-        "ex_armor_l_04_dm": [],
+        "ex_armor_l_02_dm": {
+          "armorThickness": 100.0
+        },
+        "ex_armor_l_03_dm": {
+          "armorThickness": 100.0
+        },
+        "ex_armor_l_04_dm": {
+          "armorThickness": 100.0
+        },
         "ex_armor_l_05_dm": [],
         "ex_armor_l_06_dm": [],
         "ex_armor_l_07_dm": [],
@@ -314,7 +317,10 @@
         "wheel_r_top_03_dm": [],
         "wheel_l_top_01_dm": [],
         "wheel_l_top_02_dm": [],
-        "wheel_l_top_03_dm": []
+        "wheel_l_top_03_dm": [],
+        "turret_01_bottom_dm": {
+          "armorThickness": 10.0
+        }
       },
       "gun": {
         "armorClass": "tank_barrel",
@@ -754,6 +760,28 @@
           "armorArrayText": {
             "layer": {
               "dmPart": "composite_armor_hull_03_dm"
+            }
+          }
+        }
+      },
+      {
+        "armorArrayHull": {
+          "xrayDmPart": "composite_armor_hull_04_dm",
+          "titleLoc": "RHA_tank_modern",
+          "armorArrayText": {
+            "layer": {
+              "dmPart": "composite_armor_hull_04_dm"
+            }
+          }
+        }
+      },
+      {
+        "armorArrayHull": {
+          "xrayDmPart": "composite_armor_hull_05_dm",
+          "titleLoc": "RHA_tank_modern",
+          "armorArrayText": {
+            "layer": {
+              "dmPart": "composite_armor_hull_05_dm"
             }
           }
         }

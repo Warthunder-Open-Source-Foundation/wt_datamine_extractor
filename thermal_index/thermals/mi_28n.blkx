@@ -1,7 +1,7 @@
 {
   "model": "mi_28n",
   "fmFile": "fm/mi_28n.blk",
-  "viewDistKInSight": 2.0,
+  "viewDistKInSight": 4.0,
   "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/hellicopters_metaparts.blk",
   "haveCCIPForRocket": true,
   "haveCCIPForGun": true,

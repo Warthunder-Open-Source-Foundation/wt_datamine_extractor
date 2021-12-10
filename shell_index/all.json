@@ -6309,6 +6309,26 @@
     ]
   },
   {
+    "name": "155mm_zonar_m65",
+    "localized": "zonar m/65",
+    "parent_guns": [
+      {
+        "name": "155mm_bkan_user_cannon",
+        "localized": "155mm_bkan_user_cannon"
+      }
+    ],
+    "hash": 4391080726462080517,
+    "shell_type": "He",
+    "caliber": 155,
+    "true_caliber": 155,
+    "velocity": 850,
+    "penetration": [],
+    "explosive": [
+      "tnt",
+      7500
+    ]
+  },
+  {
     "name": "90mm_m304_da90_50",
     "localized": "M304 da 90/50",
     "parent_guns": [
@@ -12632,6 +12652,26 @@
     "explosive": [
       "",
       0
+    ]
+  },
+  {
+    "name": "152mm_3of25_vt",
+    "localized": "3OF25 (PF)",
+    "parent_guns": [
+      {
+        "name": "152mm_2a33_user_cannon",
+        "localized": "152mm_2a33_user_cannon"
+      }
+    ],
+    "hash": 8456860312367816429,
+    "shell_type": "He",
+    "caliber": 152,
+    "true_caliber": 152,
+    "velocity": 655,
+    "penetration": [],
+    "explosive": [
+      "a_ix_2",
+      6570
     ]
   },
   {
@@ -19862,26 +19902,6 @@
     ]
   },
   {
-    "name": "152mm_3of25_vt",
-    "localized": "152mm_3of25_vt",
-    "parent_guns": [
-      {
-        "name": "152mm_2a33_user_cannon",
-        "localized": "152mm_2a33_user_cannon"
-      }
-    ],
-    "hash": 13977008270657707087,
-    "shell_type": "He",
-    "caliber": 152,
-    "true_caliber": 152,
-    "velocity": 655,
-    "penetration": [],
-    "explosive": [
-      "a_ix_2",
-      6570
-    ]
-  },
-  {
     "name": "70mm_fim_92k",
     "localized": "FIM-92K",
     "parent_guns": [
@@ -20592,26 +20612,6 @@
     "explosive": [
       "",
       0
-    ]
-  },
-  {
-    "name": "60mm_oto_he_vt",
-    "localized": "60mm_oto_he_vt",
-    "parent_guns": [
-      {
-        "name": "60mm_oto_hvg_hitfist_user_cannon",
-        "localized": "60mm_oto_hvg_hitfist_user_cannon"
-      }
-    ],
-    "hash": 14358863276038120099,
-    "shell_type": "He",
-    "caliber": 60,
-    "true_caliber": 60,
-    "velocity": 1000,
-    "penetration": [],
-    "explosive": [
-      "hexal",
-      450
     ]
   },
   {
@@ -21375,6 +21375,26 @@
     "explosive": [
       "",
       0
+    ]
+  },
+  {
+    "name": "60mm_oto_he_vt",
+    "localized": "OTO HE-VT",
+    "parent_guns": [
+      {
+        "name": "60mm_oto_hvg_hitfist_user_cannon",
+        "localized": "60mm_oto_hvg_hitfist_user_cannon"
+      }
+    ],
+    "hash": 14827173535836022895,
+    "shell_type": "He",
+    "caliber": 60,
+    "true_caliber": 60,
+    "velocity": 1000,
+    "penetration": [],
+    "explosive": [
+      "hexal",
+      450
     ]
   },
   {
