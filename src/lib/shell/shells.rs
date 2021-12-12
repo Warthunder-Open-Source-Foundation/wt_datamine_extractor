@@ -6,6 +6,7 @@ use std::str::FromStr;
 
 use strum_macros::EnumIter;
 
+use crate::explosive::explosive::explosive_type_to_tnt;
 use crate::lang::{Lang, unit_to_local};
 use crate::shell::known_shells::KnownShells;
 use crate::shell::parent_gun::ParentGun;
@@ -32,8 +33,8 @@ pub struct Shell {
 	// in mm
 	pub penetration: Vec<(u32, u32)>,
 
-	// left is range, right is value in grams
-	pub explosive: (String, u32),
+	// 1st is type, 2nd is raw mass, 3rd is TNT equivalent mass
+	pub explosive: (String, u32, u32),
 }
 
 impl Shell {
@@ -55,11 +56,15 @@ impl Shell {
 
 			let velocity = f64::from_str(&parameter_to_data(bullet, "speed").unwrap_or_else(|| "0".to_owned())).expect(&name).round() as u32;
 
-			let explosive: (String, u32) =
+			let explosive: (String, u32, u32) = {
+				let explosive_type = parameter_to_data(bullet, "explosiveType").map_or_else(|| "".to_owned(), |value| value.trim().replace("\\", "").replace("\"", ""));
+				let raw_mass = parameter_to_data(bullet, "explosiveMass").as_ref().map_or(0, |mass| (f64::from_str(mass).unwrap() * 1000.0).round() as u32);
 				(
-					parameter_to_data(bullet, "explosiveType").map_or_else(|| "".to_owned(), |value| value.trim().replace("\\", "").replace("\"", "")),
-					parameter_to_data(bullet, "explosiveMass").as_ref().map_or(0, |mass| (f64::from_str(mass).unwrap() * 1000.0).round() as u32)
-				);
+					explosive_type.clone(),
+					raw_mass,
+					explosive_type_to_tnt(&explosive_type, raw_mass)
+				)
+			};
 
 			// Shells can sometimes fail to resolve and therefore require manual checking
 			let shell_type = if let Ok(result) = ShellType::from_str(&parameter_to_data(bullet, "bulletType").unwrap()) {
@@ -88,7 +93,7 @@ impl Shell {
 					velocity,
 					penetration,
 					explosive,
-					hash: hasher.finish() // Remains 0 until write-instancing
+					hash: hasher.finish(), // Remains 0 until write-instancing
 				}
 			);
 		}
@@ -96,7 +101,7 @@ impl Shell {
 	}
 
 	pub fn write_all(mut values: Vec<Self>) -> Vec<Self> {
-		values.sort_by_key(|d| d.hash.clone());
+		values.sort_by_key(|d| d.hash);
 		fs::write("shell_index/all.json", serde_json::to_string_pretty(&values).unwrap()).unwrap();
 		values
 	}

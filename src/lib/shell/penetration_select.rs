@@ -21,6 +21,7 @@ pub fn shell_to_penetration(shell: &str) -> Vec<(u32, u32)> {
 		let speed = f64::from_str(&parameter_to_data(shell, "speed").unwrap()).unwrap();
 
 		let caliber = f64::from_str(
+			#[allow(clippy::option_if_let_else)]
 			&if let Some(calib) = parameter_to_data(shell, "damageCaliber") {
 				calib
 			} else {
@@ -30,7 +31,7 @@ pub fn shell_to_penetration(shell: &str) -> Vec<(u32, u32)> {
 
 		let mass = f64::from_str(&parameter_to_data(shell, "mass").unwrap()).unwrap();
 
-		penetration.push((0, penetration_from_demarre(speed, caliber, mass, DemarreMod::from_file(shell))))
+		penetration.push((0, penetration_from_demarre(speed, caliber, mass, &DemarreMod::from_file(shell))));
 	}
 	penetration
 }
