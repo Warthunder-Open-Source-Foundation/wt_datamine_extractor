@@ -1,4 +1,5 @@
 use std::fs;
+use crate::explosive::explosive::explosive_type_to_tnt;
 
 use crate::lang::{Lang, unit_to_local};
 use crate::missile::extract_missiles::KnownMissiles;
@@ -53,8 +54,8 @@ pub struct Missile {
 	/// hard cap for velocity in m/s
 	pub endspeed: f64,
 
-	/// amount of raw explosive material in kg
-	pub exp_mass: f64,
+	/// amount of raw explosive material in g
+	pub exp_mass: u32,
 
 	/// proximity fuse
 	pub pfuse: bool,
@@ -145,7 +146,7 @@ impl Missile {
 
 		let endspeed = parameter_to_data(&file, "endSpeed").unwrap().parse().unwrap();
 
-		let exp_mass = parameter_to_data(&file, "explosiveMass").unwrap().parse().unwrap();
+		let exp_mass = explosive_type_to_tnt(&parameter_to_data(&file, "explosiveType").unwrap().replace("\"", ""), (parameter_to_data(&file, "explosiveMass").unwrap().parse::<f64>().unwrap() * 1000.0).round() as u32);
 
 		let pfuse = parameter_to_data(&file, "hasProximityFuse").map_or(false, |value| value.parse().unwrap());
 
