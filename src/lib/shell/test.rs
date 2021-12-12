@@ -24,6 +24,7 @@ mod tests {
 				// println!("{}", shell.name);
 				assert_ne!(shell.explosive.0, "");
 				assert_ne!(shell.explosive.1, 0);
+				assert_ne!(shell.explosive.2, 0);
 			}
 		}
 	}
@@ -35,6 +36,7 @@ mod tests {
 				// println!("{}", shell.name);
 				assert_ne!(shell.explosive.0, "");
 				assert_ne!(shell.explosive.1, 0);
+				assert_ne!(shell.explosive.2, 0);
 			}
 		}
 	}
@@ -46,6 +48,7 @@ mod tests {
 				// println!("{}", shell.name);
 				assert_ne!(shell.explosive.0, "");
 				assert_ne!(shell.explosive.1, 0);
+				assert_ne!(shell.explosive.2, 0);
 			}
 		}
 	}
@@ -70,6 +73,7 @@ mod tests {
 				// println!("{}", shell.name);
 				assert_ne!(shell.explosive.0, "");
 				assert_ne!(shell.explosive.1, 0);
+				assert_ne!(shell.explosive.2, 0);
 			}
 		}
 	}
@@ -81,6 +85,7 @@ mod tests {
 				// println!("{}", shell.name);
 				assert_ne!(shell.explosive.0, "");
 				assert_ne!(shell.explosive.1, 0);
+				assert_ne!(shell.explosive.2, 0);
 			}
 		}
 	}
@@ -92,6 +97,7 @@ mod tests {
 				// println!("{}", shell.name);
 				assert_ne!(shell.explosive.0, "");
 				assert_ne!(shell.explosive.1, 0);
+				assert_ne!(shell.explosive.2, 0);
 			}
 		}
 	}
@@ -103,6 +109,7 @@ mod tests {
 				// println!("{}", shell.name);
 				assert_ne!(shell.explosive.0, "");
 				assert_ne!(shell.explosive.1, 0);
+				assert_ne!(shell.explosive.2, 0);
 			}
 		}
 	}
@@ -114,6 +121,7 @@ mod tests {
 				// println!("{}", shell.name);
 				assert_ne!(shell.explosive.0, "");
 				assert_ne!(shell.explosive.1, 0);
+				assert_ne!(shell.explosive.2, 0);
 			}
 		}
 	}
@@ -125,6 +133,7 @@ mod tests {
 				// println!("{}", shell.name);
 				assert_ne!(shell.explosive.0, "");
 				assert_ne!(shell.explosive.1, 0);
+				assert_ne!(shell.explosive.2, 0);
 			}
 		}
 	}
@@ -136,6 +145,7 @@ mod tests {
 				// println!("{}", shell.name);
 				assert_ne!(shell.explosive.0, "");
 				assert_ne!(shell.explosive.1, 0);
+				assert_ne!(shell.explosive.2, 0);
 			}
 		}
 	}
@@ -149,6 +159,7 @@ mod tests {
 				// println!("{}", shell.name);
 				assert_eq!(shell.explosive.0, "");
 				assert_eq!(shell.explosive.1, 0);
+				assert_eq!(shell.explosive.2, 0);
 			}
 		}
 	}
@@ -160,6 +171,7 @@ mod tests {
 				// println!("{}", shell.name);
 				assert_eq!(shell.explosive.0, "");
 				assert_eq!(shell.explosive.1, 0);
+				assert_eq!(shell.explosive.2, 0);
 			}
 		}
 	}
@@ -171,6 +183,7 @@ mod tests {
 				// println!("{}", shell.name);
 				assert_eq!(shell.explosive.0, "");
 				assert_eq!(shell.explosive.1, 0);
+				assert_eq!(shell.explosive.2, 0);
 			}
 		}
 	}
@@ -182,6 +195,7 @@ mod tests {
 				// println!("{}", shell.name);
 				assert_eq!(shell.explosive.0, "");
 				assert_eq!(shell.explosive.1, 0);
+				assert_eq!(shell.explosive.2, 0);
 			}
 		}
 	}

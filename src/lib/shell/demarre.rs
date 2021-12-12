@@ -48,7 +48,7 @@ impl DemarreMod {
 	}
 }
 
-pub fn penetration_from_demarre(velocity: f64, caliber: f64, mass: f64, modifiers: DemarreMod) -> u32 {
+pub fn penetration_from_demarre(velocity: f64, caliber: f64, mass: f64, modifiers: &DemarreMod) -> u32 {
 	let caliber = caliber * 1000.0;
 	// Source: http://www.tankarchives.ca/2014/10/penetration-equations.html
 	(REFERENCE.penetration * modifiers.penetration_k * (velocity / REFERENCE.velocity).powf(modifiers.speed_pow) *
