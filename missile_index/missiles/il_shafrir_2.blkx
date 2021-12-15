@@ -36,10 +36,10 @@
       "bulletName": "us_aim9b_sidewinder"
     },
     {
-      "caliber": 0.15
+      "caliber": 0.14
     },
     {
-      "mass": 93.0
+      "mass": 65.0
     },
     {
       "explosiveType": "hbx"
@@ -48,7 +48,7 @@
       "explosiveMass": 4.76
     },
     {
-      "massEnd": 63.0
+      "massEnd": 45.0
     },
     {
       "maxDeltaAngle": 0.0
@@ -57,7 +57,7 @@
       "dragCx": 0.018
     },
     {
-      "length": 2.8
+      "length": 2.5
     },
     {
       "distFromCmToStab": 0.1
@@ -78,10 +78,10 @@
       "finsAoaVer": 0.16
     },
     {
-      "force": 11400.0
+      "force": 17263.0
     },
     {
-      "timeFire": 5.0
+      "timeFire": 2.2
     },
     {
       "fireDelay": 0.0
@@ -91,9 +91,6 @@
     },
     {
       "spawnExplosionWreckage": false
-    },
-    {
-      "selfDestructionFx": "explosion_air_selfexplosion_big"
     },
     {
       "explosionEffect": "explosion_midair_medium"
@@ -195,16 +192,16 @@
       "endSpeed": 1000.0
     },
     {
-      "timeLife": 30.0
+      "timeLife": 20.0
     },
     {
-      "machMax": 2.1
+      "machMax": 1.7
     },
     {
       "loadFactorMax": 10.0
     },
     {
-      "rangeMax": 20000.0
+      "rangeMax": 10000.0
     },
     {
       "price": 3000.0
