@@ -19,6 +19,7 @@
   "bullets": -1,
   "bulletsCluster": 1,
   "useSingleIconForBullet": true,
+  "fxType": "muzzle_ground_100mm_recoilless_noflash",
   "fxGroundDust": "",
   "fxSandDust": "",
   "fxSnowDust": "",
@@ -121,10 +122,10 @@
           "normalizationPreset": "heat"
         },
         {
-          "ricochetPreset": "atgm"
+          "ricochetPreset": "he"
         },
         {
-          "secondaryShattersPreset": "ap"
+          "secondaryShattersPreset": "ap_rocket"
         },
         {
           "stabilityThreshold": 0.5
@@ -139,16 +140,16 @@
           "stabilityReductionAfterPenetration": 0.15
         },
         {
-          "bulletType": "atgm_tank"
+          "bulletType": "sam_tank"
         },
         {
-          "cumulativeSecondaryShattersPreset": "atgm"
-        },
-        {
-          "explodeOnRendinst": true
+          "slopeEffectPreset": "ap"
         },
         {
           "fresnel": [0.23,0.1,2.0]
+        },
+        {
+          "explodeOnRendinst": true
         },
         {
           "shellAnimation": "video/shells_animations/sam_heat.ivf"
@@ -248,6 +249,12 @@
         },
         {
           "maxLateralAcceleration": 20.0
+        },
+        {
+          "loadFactorMax": 20.0
+        },
+        {
+          "selfDestructionFx": "explosion_air_selfexplosion_big"
         },
         {
           "explosionEffect": "hit_133_160mm_metal_he"
