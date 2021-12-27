@@ -32,6 +32,8 @@
     "warmuptime": 5.0,
     "worktime": 60.0,
     "cageable": false,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 973.0
   },
   {
@@ -67,6 +69,8 @@
     "warmuptime": 4.0,
     "worktime": 15.0,
     "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 616.0
   },
   {
@@ -102,6 +106,8 @@
     "warmuptime": 2.0,
     "worktime": 15.0,
     "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 616.0
   },
   {
@@ -137,6 +143,8 @@
     "warmuptime": 5.0,
     "worktime": 10.0,
     "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 607.0
   },
   {
@@ -172,6 +180,8 @@
     "warmuptime": 4.0,
     "worktime": 15.0,
     "cageable": false,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 584.0
   },
   {
@@ -207,6 +217,8 @@
     "warmuptime": 4.0,
     "worktime": 15.0,
     "cageable": false,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 613.0
   },
   {
@@ -242,6 +254,8 @@
     "warmuptime": 5.0,
     "worktime": 60.0,
     "cageable": false,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 868.0
   },
   {
@@ -277,6 +291,8 @@
     "warmuptime": 5.0,
     "worktime": 60.0,
     "cageable": false,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 868.0
   },
   {
@@ -312,6 +328,8 @@
     "warmuptime": 6.0,
     "worktime": 15.0,
     "cageable": false,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 506.0
   },
   {
@@ -347,6 +365,8 @@
     "warmuptime": 4.0,
     "worktime": 15.0,
     "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 857.0
   },
   {
@@ -382,6 +402,8 @@
     "warmuptime": 4.0,
     "worktime": 15.0,
     "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 593.0
   },
   {
@@ -417,6 +439,8 @@
     "warmuptime": 4.0,
     "worktime": 15.0,
     "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 574.0
   },
   {
@@ -452,6 +476,8 @@
     "warmuptime": 1.0,
     "worktime": 100.0,
     "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 498.0
   },
   {
@@ -487,6 +513,8 @@
     "warmuptime": 4.0,
     "worktime": 30.0,
     "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 516.0
   },
   {
@@ -522,6 +550,8 @@
     "warmuptime": 1.0,
     "worktime": 100.0,
     "cageable": true,
+    "inertial_navigation": true,
+    "use_target_vel": true,
     "deltav": 615.0
   },
   {
@@ -557,6 +587,8 @@
     "warmuptime": 4.0,
     "worktime": 30.0,
     "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 633.0
   },
   {
@@ -592,6 +624,8 @@
     "warmuptime": 2.0,
     "worktime": 15.0,
     "cageable": false,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 506.0
   },
   {
@@ -627,6 +661,8 @@
     "warmuptime": 6.0,
     "worktime": 15.0,
     "cageable": false,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 506.0
   },
   {
@@ -662,6 +698,8 @@
     "warmuptime": 6.0,
     "worktime": 15.0,
     "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 648.0
   },
   {
@@ -697,6 +735,8 @@
     "warmuptime": 6.0,
     "worktime": 15.0,
     "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 648.0
   },
   {
@@ -732,6 +772,8 @@
     "warmuptime": 6.0,
     "worktime": 15.0,
     "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 648.0
   },
   {
@@ -767,6 +809,8 @@
     "warmuptime": 4.0,
     "worktime": 15.0,
     "cageable": false,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 523.0
   },
   {
@@ -802,6 +846,8 @@
     "warmuptime": 5.0,
     "worktime": 10.0,
     "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 518.0
   },
   {
@@ -837,6 +883,8 @@
     "warmuptime": 1.4,
     "worktime": 100.0,
     "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 508.0
   },
   {
@@ -872,6 +920,8 @@
     "warmuptime": 5.0,
     "worktime": 20.0,
     "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 531.0
   },
   {
@@ -907,6 +957,8 @@
     "warmuptime": 5.0,
     "worktime": 20.0,
     "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 539.0
   },
   {
@@ -942,6 +994,8 @@
     "warmuptime": 1.4,
     "worktime": 100.0,
     "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 508.0
   },
   {
@@ -977,6 +1031,8 @@
     "warmuptime": 1.4,
     "worktime": 100.0,
     "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 508.0
   },
   {
@@ -1012,6 +1068,8 @@
     "warmuptime": 3.0,
     "worktime": 20.0,
     "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 699.0
   },
   {
@@ -1047,6 +1105,8 @@
     "warmuptime": 1.0,
     "worktime": 60.0,
     "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 382.0
   },
   {
@@ -1082,6 +1142,8 @@
     "warmuptime": 1.4,
     "worktime": 100.0,
     "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 437.0
   },
   {
@@ -1117,6 +1179,8 @@
     "warmuptime": 1.4,
     "worktime": 100.0,
     "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 506.0
   },
   {
@@ -1152,6 +1216,8 @@
     "warmuptime": 1.4,
     "worktime": 100.0,
     "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 478.0
   },
   {
@@ -1187,6 +1253,8 @@
     "warmuptime": 1.4,
     "worktime": 100.0,
     "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 826.0
   },
   {
@@ -1222,6 +1290,8 @@
     "warmuptime": 4.0,
     "worktime": 60.0,
     "cageable": false,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 1089.0
   },
   {
@@ -1257,6 +1327,8 @@
     "warmuptime": 4.0,
     "worktime": 15.0,
     "cageable": false,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 523.0
   },
   {
@@ -1292,6 +1364,8 @@
     "warmuptime": 4.0,
     "worktime": 15.0,
     "cageable": false,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 523.0
   },
   {
@@ -1327,6 +1401,8 @@
     "warmuptime": 2.0,
     "worktime": 15.0,
     "cageable": false,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 739.0
   },
   {
@@ -1362,6 +1438,8 @@
     "warmuptime": 5.0,
     "worktime": 10.0,
     "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 739.0
   },
   {
@@ -1397,6 +1475,8 @@
     "warmuptime": 5.0,
     "worktime": 10.0,
     "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 521.0
   },
   {
@@ -1432,6 +1512,8 @@
     "warmuptime": 5.0,
     "worktime": 10.0,
     "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 739.0
   },
   {
@@ -1467,6 +1549,8 @@
     "warmuptime": 5.0,
     "worktime": 10.0,
     "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 518.0
   },
   {
@@ -1502,6 +1586,8 @@
     "warmuptime": 5.0,
     "worktime": 10.0,
     "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 753.0
   },
   {
@@ -1537,6 +1623,8 @@
     "warmuptime": 5.0,
     "worktime": 10.0,
     "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 518.0
   },
   {
@@ -1572,6 +1660,8 @@
     "warmuptime": 4.0,
     "worktime": 60.0,
     "cageable": false,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 1089.0
   }
 ]

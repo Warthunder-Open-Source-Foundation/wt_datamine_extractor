@@ -97,6 +97,11 @@ pub struct Missile {
 	/// if the seeker is on a gimbal or not
 	pub cageable: bool,
 
+	/// if the missile applies proportional navigation after losing lock (dead behaviour)
+	pub inertial_navigation: bool,
+
+	/// if the missile influences the inertial navigation with target velocity
+	pub use_target_vel: bool,
 
 	// Calculated (dynamically created and not in files)
 
@@ -193,6 +198,10 @@ impl Missile {
 
 		let cageable = parameter_to_data(&file, "uncageBeforeLaunch").unwrap().parse().unwrap();
 
+		let inertial_navigation = parameter_to_data(&file, "inertialNavigation").unwrap_or("false".to_owned()).parse().unwrap();
+
+		let use_target_vel= parameter_to_data(&file, "useTargetVel").unwrap_or("false".to_owned()).parse().unwrap();
+
 		Self {
 			// localized first as the borrow consumes name otherwise
 			localized: unit_to_local(&name, &Lang::Weapon),
@@ -222,6 +231,8 @@ impl Missile {
 			warmuptime,
 			worktime,
 			cageable,
+			inertial_navigation,
+			use_target_vel,
 			deltav: ((force0 / mass * timefire0) + (force1 / mass * timefire1)).round(),
 		}
 	}
