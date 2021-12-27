@@ -7,7 +7,7 @@ mod tests {
 	#[cfg(test)]
 	lazy_static! {
     static ref MISSILES: Vec<Missile> = {
-			let file = std::fs::read_to_string("missile_index/known.json").unwrap();
+			let file = std::fs::read_to_string("missile_index/all.json").unwrap();
 			let missiles: Vec<Missile> = serde_json::from_str(&file).unwrap();
 			missiles
 		};
