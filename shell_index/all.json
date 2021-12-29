@@ -510,6 +510,27 @@
     ]
   },
   {
+    "name": "40mm_kulsgr_m90",
+    "localized": "kulsgr m/90",
+    "parent_guns": [
+      {
+        "name": "40mm_kan_strf_user_cannon",
+        "localized": "40mm_kan_strf_user_cannon"
+      }
+    ],
+    "hash": 286606811561466703,
+    "shell_type": "He",
+    "caliber": 40,
+    "true_caliber": 40,
+    "velocity": 1015,
+    "penetration": [],
+    "explosive": [
+      "octol",
+      120,
+      191
+    ]
+  },
+  {
     "name": "90mm_m313",
     "localized": "M313",
     "parent_guns": [
@@ -8633,40 +8654,6 @@
     ]
   },
   {
-    "name": "127mm_tow_2b",
-    "localized": "TOW-2B",
-    "parent_guns": [
-      {
-        "name": "127mm_bgm_71_tow_launcher_user_cannon",
-        "localized": "127mm_bgm_71_tow_launcher_user_cannon"
-      },
-      {
-        "name": "127mm_bgm_71_tow_m3a3_launcher_user_cannon",
-        "localized": "127mm_bgm_71_tow_m3a3_launcher_user_cannon"
-      },
-      {
-        "name": "127mm_bgm_71_tow_wiesel_launcher_user_cannon",
-        "localized": "127mm_bgm_71_tow_wiesel_launcher_user_cannon"
-      }
-    ],
-    "hash": 3769642377868977275,
-    "shell_type": "Atgm",
-    "caliber": 127,
-    "true_caliber": 127,
-    "velocity": 0,
-    "penetration": [
-      [
-        0,
-        100
-      ]
-    ],
-    "explosive": [
-      "comp_b",
-      2400,
-      3144
-    ]
-  },
-  {
     "name": "70mm_type95_ap",
     "localized": "Type 95 APHE",
     "parent_guns": [
@@ -9886,32 +9873,6 @@
     ]
   },
   {
-    "name": "47mm_mle1936",
-    "localized": "Mle1936",
-    "parent_guns": [
-      {
-        "name": "47mm_sa_37_user_cannon",
-        "localized": "47mm_sa_37_user_cannon"
-      }
-    ],
-    "hash": 4205874087642241306,
-    "shell_type": "ApSolid",
-    "caliber": 47,
-    "true_caliber": 47,
-    "velocity": 855,
-    "penetration": [
-      [
-        0,
-        105
-      ]
-    ],
-    "explosive": [
-      "",
-      0,
-      0
-    ]
-  },
-  {
     "name": "105mm_m728",
     "localized": "M728",
     "parent_guns": [
@@ -10297,6 +10258,27 @@
       "hexal",
       120,
       204
+    ]
+  },
+  {
+    "name": "50mm_sprgr_38",
+    "localized": "Sprgr. 38",
+    "parent_guns": [
+      {
+        "name": "50mm_kwk38_user_cannon",
+        "localized": "50mm_kwk38_user_cannon"
+      }
+    ],
+    "hash": 4348056830373518878,
+    "shell_type": "He",
+    "caliber": 50,
+    "true_caliber": 50,
+    "velocity": 870,
+    "penetration": [],
+    "explosive": [
+      "fp02_np10",
+      170,
+      170
     ]
   },
   {
@@ -11783,6 +11765,35 @@
     ]
   },
   {
+    "name": "50mm_sprgr_38",
+    "localized": "Sprgr. 38",
+    "parent_guns": [
+      {
+        "name": "50mm_kwk39_1_user_cannon",
+        "localized": "50mm_kwk39_1_user_cannon"
+      },
+      {
+        "name": "50mm_kwk39_user_cannon",
+        "localized": "50mm_kwk39_user_cannon"
+      },
+      {
+        "name": "50mm_pak38_user_cannon",
+        "localized": "50mm_pak38_user_cannon"
+      }
+    ],
+    "hash": 4933543236785231256,
+    "shell_type": "He",
+    "caliber": 50,
+    "true_caliber": 50,
+    "velocity": 870,
+    "penetration": [],
+    "explosive": [
+      "fp02_np10",
+      170,
+      170
+    ]
+  },
+  {
     "name": "75mm_slpgr_m43",
     "localized": "slpgr m/43",
     "parent_guns": [
@@ -12665,6 +12676,32 @@
       [
         2500,
         3
+      ]
+    ],
+    "explosive": [
+      "",
+      0,
+      0
+    ]
+  },
+  {
+    "name": "47mm_mle1936",
+    "localized": "Mle1936",
+    "parent_guns": [
+      {
+        "name": "47mm_sa_37_user_cannon",
+        "localized": "47mm_sa_37_user_cannon"
+      }
+    ],
+    "hash": 5337267174263829950,
+    "shell_type": "ApSolid",
+    "caliber": 47,
+    "true_caliber": 47,
+    "velocity": 855,
+    "penetration": [
+      [
+        0,
+        105
       ]
     ],
     "explosive": [
@@ -14959,6 +14996,32 @@
       [
         2500,
         3
+      ]
+    ],
+    "explosive": [
+      "",
+      0,
+      0
+    ]
+  },
+  {
+    "name": "47mm_mle1936",
+    "localized": "Mle1936",
+    "parent_guns": [
+      {
+        "name": "47mm_sa_37_user_cannon",
+        "localized": "47mm_sa_37_user_cannon"
+      }
+    ],
+    "hash": 6275649527393572725,
+    "shell_type": "ApSolid",
+    "caliber": 47,
+    "true_caliber": 47,
+    "velocity": 855,
+    "penetration": [
+      [
+        0,
+        105
       ]
     ],
     "explosive": [
@@ -21038,35 +21101,6 @@
       "",
       0,
       0
-    ]
-  },
-  {
-    "name": "50mm_sprgr_38",
-    "localized": "Sprgr. 38",
-    "parent_guns": [
-      {
-        "name": "50mm_kwk39_1_user_cannon",
-        "localized": "50mm_kwk39_1_user_cannon"
-      },
-      {
-        "name": "50mm_kwk39_user_cannon",
-        "localized": "50mm_kwk39_user_cannon"
-      },
-      {
-        "name": "50mm_pak38_user_cannon",
-        "localized": "50mm_pak38_user_cannon"
-      }
-    ],
-    "hash": 9017271507249179159,
-    "shell_type": "He",
-    "caliber": 50,
-    "true_caliber": 50,
-    "velocity": 550,
-    "penetration": [],
-    "explosive": [
-      "fp02_np10",
-      170,
-      170
     ]
   },
   {
@@ -27656,27 +27690,6 @@
       "",
       0,
       0
-    ]
-  },
-  {
-    "name": "50mm_sprgr_38",
-    "localized": "Sprgr. 38",
-    "parent_guns": [
-      {
-        "name": "50mm_kwk38_user_cannon",
-        "localized": "50mm_kwk38_user_cannon"
-      }
-    ],
-    "hash": 12056979323565299818,
-    "shell_type": "He",
-    "caliber": 50,
-    "true_caliber": 50,
-    "velocity": 550,
-    "penetration": [],
-    "explosive": [
-      "fp02_np10",
-      170,
-      170
     ]
   },
   {
@@ -36627,6 +36640,40 @@
     ]
   },
   {
+    "name": "127mm_tow_2b",
+    "localized": "TOW-2B",
+    "parent_guns": [
+      {
+        "name": "127mm_bgm_71_tow_launcher_user_cannon",
+        "localized": "127mm_bgm_71_tow_launcher_user_cannon"
+      },
+      {
+        "name": "127mm_bgm_71_tow_m3a3_launcher_user_cannon",
+        "localized": "127mm_bgm_71_tow_m3a3_launcher_user_cannon"
+      },
+      {
+        "name": "127mm_bgm_71_tow_wiesel_launcher_user_cannon",
+        "localized": "127mm_bgm_71_tow_wiesel_launcher_user_cannon"
+      }
+    ],
+    "hash": 15841826096040180976,
+    "shell_type": "Atgm",
+    "caliber": 127,
+    "true_caliber": 127,
+    "velocity": 0,
+    "penetration": [
+      [
+        0,
+        100
+      ]
+    ],
+    "explosive": [
+      "comp_b",
+      2400,
+      3144
+    ]
+  },
+  {
     "name": "170mm_swingfire_mk_2",
     "localized": "BAe Swingfire Mk.2",
     "parent_guns": [
@@ -37356,32 +37403,6 @@
       "tnt",
       6,
       6
-    ]
-  },
-  {
-    "name": "47mm_mle1936",
-    "localized": "Mle1936",
-    "parent_guns": [
-      {
-        "name": "47mm_sa_37_user_cannon",
-        "localized": "47mm_sa_37_user_cannon"
-      }
-    ],
-    "hash": 16102660446697600835,
-    "shell_type": "ApSolid",
-    "caliber": 47,
-    "true_caliber": 47,
-    "velocity": 855,
-    "penetration": [
-      [
-        0,
-        105
-      ]
-    ],
-    "explosive": [
-      "",
-      0,
-      0
     ]
   },
   {
@@ -39858,27 +39879,6 @@
       "",
       0,
       0
-    ]
-  },
-  {
-    "name": "40mm_kulsgr_m90",
-    "localized": "kulsgr m/90",
-    "parent_guns": [
-      {
-        "name": "40mm_kan_strf_user_cannon",
-        "localized": "40mm_kan_strf_user_cannon"
-      }
-    ],
-    "hash": 17235780243370530545,
-    "shell_type": "He",
-    "caliber": 40,
-    "true_caliber": 40,
-    "velocity": 1015,
-    "penetration": [],
-    "explosive": [
-      "octol",
-      120,
-      191
     ]
   },
   {
