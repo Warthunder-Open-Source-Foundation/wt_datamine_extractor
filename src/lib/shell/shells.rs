@@ -90,7 +90,8 @@ impl Shell {
 		shells
 	}
 
-	pub fn write_all(values: Vec<Self>) -> Vec<Self> {
+	pub fn write_all(mut values: Vec<Self>) -> Vec<Self> {
+		values.sort_by_key(|x|x.name.clone());
 		fs::write("shell_index/all.json", serde_json::to_string_pretty(&values).unwrap()).unwrap();
 		values
 	}
