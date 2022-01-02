@@ -18,8 +18,6 @@ pub struct Shell {
 	/// Metadata
 	pub name: String,
 	pub localized: String,
-	pub parent_guns: Vec<ParentGun>,
-	pub hash: u64,
 
 	pub shell_type: ShellType,
 
@@ -38,7 +36,7 @@ pub struct Shell {
 }
 
 impl Shell {
-	pub fn new_from_file(file: &[u8], parent_gun: &str) -> Vec<Self> {
+	pub fn new_from_file(file: &[u8]) -> Vec<Self> {
 		let file = String::from_utf8(file.to_vec()).unwrap();
 		let mut shells: Vec<Self> = vec![];
 
@@ -77,14 +75,8 @@ impl Shell {
 
 			let penetration: Vec<(u32, u32)> = shell_to_penetration(bullet);
 
-			let parent_guns = [ParentGun { name: parent_gun.to_owned(), localized: unit_to_local(parent_gun, &Lang::Weapon) }].to_vec();
-
-			let mut hasher = DefaultHasher::new();
-			bullet.hash(&mut hasher);
-
 			shells.push(
 				Self {
-					parent_guns,
 					localized: unit_to_local(&name, &Lang::Weapon),
 					name,
 					shell_type,
@@ -93,15 +85,13 @@ impl Shell {
 					velocity,
 					penetration,
 					explosive,
-					hash: hasher.finish(), // Remains 0 until write-instancing
 				}
 			);
 		}
 		shells
 	}
 
-	pub fn write_all(mut values: Vec<Self>) -> Vec<Self> {
-		values.sort_by_key(|d| d.hash);
+	pub fn write_all(values: Vec<Self>) -> Vec<Self> {
 		fs::write("shell_index/all.json", serde_json::to_string_pretty(&values).unwrap()).unwrap();
 		values
 	}
@@ -110,9 +100,7 @@ impl Shell {
 		let mut generated: Vec<Self> = vec![];
 		for i in &index.path {
 			if let Ok(file) = fs::read(format!("shell_index/shells/{}", i)) {
-				let name = i.split('.').collect::<Vec<&str>>()[0].to_owned();
-
-				let shells = Shell::new_from_file(&file, &name);
+				let shells = Shell::new_from_file(&file);
 
 				for shell in shells {
 					generated.push(shell);
@@ -127,51 +115,7 @@ impl Shell {
 		}
 		generated = set.into_iter().collect();
 
-
-		// We will separate all parent guns from the shell
-		// Then we will get the shell before inserting it, weather or not if that fails, we will choose to push the gun on the identical shell
-		// Alternatively we will keep the entry and insert it anyways
-
-		let mut map: HashMap<Shell, Vec<ParentGun>> = HashMap::new();
-
-		// This needs checking for every shell
-		for shell in &generated {
-
-			// The seperated parent shell is needed to compare the new shells
-			let parents = &shell.parent_guns;
-
-			// New shells for mutation
-			let mut new_shell = shell.clone();
-
-			// Remove parent to equalize shells
-			new_shell.parent_guns.clear();
-
-			// Attempt to get shell
-			if let Some(hit) = map.get(&new_shell) {
-
-				// When a shell is found, it will be added to the new parents
-				let mut new_parents: Vec<ParentGun> = hit.clone();
-				for parent in parents {
-					new_parents.push(parent.clone());
-				}
-				new_parents.sort_by_key(|x| x.name.clone());
-				map.insert(new_shell.clone(), new_parents.clone());
-			} else {
-				map.insert(new_shell.clone(), parents.clone());
-			}
-		}
-
-		let gen_map = map.into_iter().collect::<Vec<(Shell, Vec<ParentGun>)>>();
-
-		let mut new_generated = vec![];
-
-		for item in gen_map {
-			let mut new_shell = item.0.clone();
-			new_shell.parent_guns = item.1;
-			new_generated.push(new_shell);
-		}
-
-		new_generated
+		generated
 	}
 
 	pub fn select_by_name(shells: &[Self], name: &str) -> Option<Self> {
