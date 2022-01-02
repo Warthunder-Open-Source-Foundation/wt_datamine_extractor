@@ -1,7 +1,6 @@
-use std::collections::{HashMap, HashSet};
-use std::collections::hash_map::DefaultHasher;
+use std::collections::{HashSet};
+
 use std::fs;
-use std::hash::{Hash, Hasher};
 use std::str::FromStr;
 
 use strum_macros::EnumIter;
@@ -9,7 +8,7 @@ use strum_macros::EnumIter;
 use crate::explosive::explosive::explosive_type_to_tnt;
 use crate::lang::{Lang, unit_to_local};
 use crate::shell::known_shells::KnownShells;
-use crate::shell::parent_gun::ParentGun;
+
 use crate::shell::penetration_select::shell_to_penetration;
 use crate::util::parameter_to_data;
 
