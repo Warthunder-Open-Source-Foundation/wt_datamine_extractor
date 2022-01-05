@@ -28,7 +28,9 @@ fn main() {
 		let missiles = Missile::generate_from_index(&known_missiles);
 		let thermals = Thermal::generate_from_index(&known_thermals);
 		let shells = Shell::generate_from_index(&known_shells);
-		let compressed_shells = CompressedShells::compress(shells.clone());
+
+
+		let compressed_shells = CompressedShells::compress(&shells);
 		fs::write("shell_index/compressed.json",serde_json::to_string(&compressed_shells).unwrap()).unwrap();
 
 		Missile::write_all(missiles);

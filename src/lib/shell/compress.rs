@@ -26,8 +26,8 @@ pub struct CompressedShells {
 }
 
 impl CompressedShells {
-	pub fn compress(shells: Vec<Shell>) -> Self {
-		let mut compressed: Self = CompressedShells {
+	pub fn new() ->  Self {
+		Self {
 			name: vec![],
 			localized: vec![],
 			parent_guns: vec![],
@@ -38,20 +38,22 @@ impl CompressedShells {
 			velocity: vec![],
 			penetration: vec![],
 			explosive: vec![]
-		};
-
-		for shell in shells.clone() {
-			compressed.name.push(shell.name);
-			compressed.localized.push(shell.localized);
-			compressed.parent_guns.push(shell.parent_guns);
-			compressed.hash.push(shell.hash);
-			compressed.shell_type.push(shell.shell_type);
-			compressed.caliber.push(shell.caliber);
-			compressed.true_caliber.push(shell.true_caliber);
-			compressed.velocity.push(shell.velocity);
-			compressed.penetration.push(shell.penetration);
-			compressed.explosive.push(shell.explosive);
 		}
-		compressed
+	}
+	pub fn compress(shells: &Vec<Shell>) -> Self {
+		let aggregated = shells.into_iter().fold(CompressedShells::new(), |mut acc, v| {
+			acc.name.push(v.name.clone());
+			acc.localized.push(v.localized.clone());
+			acc.parent_guns.push(v.parent_guns.clone());
+			acc.hash.push(v.hash);
+			acc.shell_type.push(v.shell_type.clone());
+			acc.caliber.push(v.caliber);
+			acc.true_caliber.push(v.true_caliber);
+			acc.velocity.push(v.velocity);
+			acc.penetration.push(v.penetration.clone());
+			acc.explosive.push(v.explosive.clone());
+			acc
+		});
+		aggregated
 	}
 }
