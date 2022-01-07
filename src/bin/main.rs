@@ -3,6 +3,7 @@ use std::time::Instant;
 use wt_datamine_extractor_lib::lang::extract_csv;
 use wt_datamine_extractor_lib::missile::extract_missiles::KnownMissiles;
 use wt_datamine_extractor_lib::missile::missile::Missile;
+use wt_datamine_extractor_lib::shell::compress::CompressedShells;
 
 use wt_datamine_extractor_lib::shell::known_shells::KnownShells;
 use wt_datamine_extractor_lib::shell::shells::{Shell};
@@ -27,6 +28,10 @@ fn main() {
 		let missiles = Missile::generate_from_index(&known_missiles);
 		let thermals = Thermal::generate_from_index(&known_thermals);
 		let shells = Shell::generate_from_index(&known_shells);
+
+
+		let compressed_shells = CompressedShells::compress(&shells);
+		fs::write("shell_index/compressed.json",serde_json::to_string(&compressed_shells).unwrap()).unwrap();
 
 		Missile::write_all(missiles);
 		Thermal::write_all(thermals);
