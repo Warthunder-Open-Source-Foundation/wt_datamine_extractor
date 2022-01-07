@@ -56,4 +56,22 @@ impl CompressedShells {
 		});
 		aggregated
 	}
+	pub fn decompress(&self) -> Vec<Shell> {
+		let mut shells = Vec::new();
+		for i in self.name.iter().enumerate() {
+			shells.push( Shell {
+				name: i.1.clone(),
+				localized: self.localized[i.0].clone(),
+				parent_guns: self.parent_guns[i.0].clone(),
+				hash: self.hash[i.0].clone(),
+				shell_type: self.shell_type[i.0].clone(),
+				caliber: self.caliber[i.0].clone(),
+				true_caliber: self.true_caliber[i.0].clone(),
+				velocity: self.velocity[i.0].clone(),
+				penetration: self.penetration[i.0].clone(),
+				explosive: self.explosive[i.0].clone(),
+			})
+		}
+		shells
+	}
 }
