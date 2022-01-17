@@ -44,8 +44,6 @@ impl CompressedShells {
 		let aggregated = shells.into_iter().fold(CompressedShells::new(), |mut acc, v| {
 			acc.name.push(v.name.clone());
 			acc.localized.push(v.localized.clone());
-			acc.parent_guns.push(v.parent_guns.clone());
-			acc.hash.push(v.hash);
 			acc.shell_type.push(v.shell_type.clone());
 			acc.caliber.push(v.caliber);
 			acc.true_caliber.push(v.true_caliber);
@@ -62,12 +60,10 @@ impl CompressedShells {
 			shells.push( Shell {
 				name: i.1.clone(),
 				localized: self.localized[i.0].clone(),
-				parent_guns: self.parent_guns[i.0].clone(),
-				hash: self.hash[i.0].clone(),
 				shell_type: self.shell_type[i.0].clone(),
-				caliber: self.caliber[i.0].clone(),
-				true_caliber: self.true_caliber[i.0].clone(),
-				velocity: self.velocity[i.0].clone(),
+				caliber: self.caliber[i.0],
+				true_caliber: self.true_caliber[i.0],
+				velocity: self.velocity[i.0],
 				penetration: self.penetration[i.0].clone(),
 				explosive: self.explosive[i.0].clone(),
 			})
