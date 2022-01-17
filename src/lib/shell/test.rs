@@ -212,14 +212,6 @@ mod tests {
 	}
 
 	#[test]
-	fn shell_has_parent_gun() {
-		for shell in SHELLS.iter() {
-			// println!("{}", shell.name);
-			assert_ne!(shell.parent_guns.len(), 0);
-		}
-	}
-
-	#[test]
 	fn no_duplicate_shell() {
 		let mut map = HashSet::new();
 		for shell in SHELLS.iter() {

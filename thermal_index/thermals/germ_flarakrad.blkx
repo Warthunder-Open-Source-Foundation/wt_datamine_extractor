@@ -2329,7 +2329,7 @@
         "AttackMaxDistance": 10000.0,
         "AttackMaxRadius": 10000.0,
         "AttackMaxHeight": 4000.0,
-        "accuracyAir": 1.5,
+        "accuracyAir": 0.5,
         "accuracyGnd": 0.0,
         "errMeasureVel": 0.0,
         "errMeasureVelFast": 0.0,
@@ -3076,7 +3076,7 @@
       "sightName": "roland_sight",
       "openedCockpit": false,
       "headPos": [0.0,4.15,-10.0],
-      "headPosOnShooting": [-0.2,5.0,0.5],
+      "headPosOnShooting": [-0.2,5.5,0.5],
       "detectionHeight": 4.15
     }
   },
@@ -3200,7 +3200,7 @@
                 "AttackMaxDistance": 10000.0,
                 "AttackMaxRadius": 10000.0,
                 "AttackMaxHeight": 4000.0,
-                "accuracyAir": 1.5,
+                "accuracyAir": 0.5,
                 "accuracyGnd": 0.0,
                 "errMeasureVel": 0.0,
                 "errMeasureVelFast": 0.0,
