@@ -1254,7 +1254,7 @@
     "worktime": 100.0,
     "cageable": true,
     "inertial_navigation": false,
-    "use_target_vel": false,
+    "use_target_vel": true,
     "deltav": 826.0
   },
   {
