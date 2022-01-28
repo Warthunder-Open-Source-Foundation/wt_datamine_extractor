@@ -18,7 +18,6 @@ fn main() {
 		fs::write("meta_index/version.txt", &fs::read_to_string("resources/cache/aces.vromfs.bin_u/version").unwrap()).unwrap();
 		fs::write("explosive/explosive.blkx", &fs::read_to_string("resources/cache/aces.vromfs.bin_u/gamedata/damage_model/explosive.blkx").unwrap()).unwrap();
 
-
 		extract_csv();
 
 		let known_missiles = KnownMissiles::generate_index().write_index().copy_index_to_folder();
