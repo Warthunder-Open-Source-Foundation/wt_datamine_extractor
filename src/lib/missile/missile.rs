@@ -5,6 +5,7 @@ use crate::lang::{Lang, unit_to_local};
 use crate::missile::extract_missiles::KnownMissiles;
 use crate::util::parameter_to_data;
 
+#[allow(clippy::struct_excessive_bools)]
 #[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone)]
 pub struct Missile {
 	// metadata that is global or does not exist on files that are generated
@@ -198,9 +199,9 @@ impl Missile {
 
 		let cageable = parameter_to_data(&file, "uncageBeforeLaunch").unwrap().parse().unwrap();
 
-		let inertial_navigation = parameter_to_data(&file, "inertialNavigation").unwrap_or("false".to_owned()).parse().unwrap();
+		let inertial_navigation = parameter_to_data(&file, "inertialNavigation").unwrap_or_else(|| "false".to_owned()).parse().unwrap();
 
-		let use_target_vel= parameter_to_data(&file, "useTargetVel").unwrap_or("false".to_owned()).parse().unwrap();
+		let use_target_vel= parameter_to_data(&file, "useTargetVel").unwrap_or_else(|| "false".to_owned()).parse().unwrap();
 
 		Self {
 			// localized first as the borrow consumes name otherwise
