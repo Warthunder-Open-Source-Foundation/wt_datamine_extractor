@@ -1,6 +1,7 @@
 use std::collections::HashMap;
 use std::fs;
 use any_ascii::any_ascii;
+use fs_extra::dir::CopyOptions;
 use lazy_static::lazy_static;
 
 const EDGE_CASES: [(&str, &str); 10] = [
@@ -59,12 +60,17 @@ pub enum Lang {
 	Weapon,
 }
 
-pub fn extract_csv() {
-	let units = fs::read("resources/cache/lang.vromfs.bin_u/lang/units.csv").unwrap();
-	let weaponry = fs::read("resources/cache/lang.vromfs.bin_u/lang/units_weaponry.csv").unwrap();
+pub fn copy_lang() {
+	let options = CopyOptions {
+		overwrite: true,
+		skip_exist: false,
+		buffer_size: 10_000,
+		copy_inside: false,
+		content_only: true,
+		depth: 0
+	};
 
-	fs::write("lang/units.csv", units).unwrap();
-	fs::write("lang/weaponry.csv", weaponry).unwrap();
+	fs_extra::dir::copy("./resources/cache/lang.vromfs.bin_u/lang/", "./lang/", &options).unwrap();
 }
 
 pub fn unit_to_local(target: &str, lang: &Lang) -> String {
