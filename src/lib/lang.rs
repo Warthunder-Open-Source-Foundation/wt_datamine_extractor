@@ -104,9 +104,16 @@ pub fn unit_to_local(target: &str, lang: &Lang) -> String {
 mod tests {
 	use std::collections::HashSet;
 	use std::fs;
+	use crate::lang::{CSV_UNIT, CSV_WEAPON};
 
 	use crate::missile::missile::Missile;
 	use crate::thermal::thermals::Thermal;
+
+	#[test]
+	fn test_static_csv() {
+		lazy_static::initialize(&CSV_WEAPON);
+		lazy_static::initialize(&CSV_UNIT);
+	}
 
 	#[test]
 	fn test_duplicate_locale_missiles() {
