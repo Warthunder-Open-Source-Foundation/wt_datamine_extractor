@@ -26,7 +26,9 @@ pub struct CompressedShells {
 }
 
 impl CompressedShells {
-	pub fn compress(shells: &[Shell]) -> Self {
+	pub fn compress(shells_old: &[Shell]) -> Self {
+		let mut shells = shells_old.clone().to_vec();
+		shells.sort_by_key(|x|format!("{:?}", x));
 		shells.iter().fold(CompressedShells::default(), |mut acc, v| {
 			acc.name.push(v.name.clone());
 			acc.localized.push(v.localized.clone());

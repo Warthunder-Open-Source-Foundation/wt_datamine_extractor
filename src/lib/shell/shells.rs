@@ -91,7 +91,7 @@ impl Shell {
 	}
 
 	pub fn write_all(mut values: Vec<Self>) -> Vec<Self> {
-		// values.sort_by_key(|x|format!("{:?}", x));
+		values.sort_by_key(|x|format!("{:?}", x));
 		fs::write("shell_index/all.json", serde_json::to_string_pretty(&values).unwrap()).unwrap();
 		values
 	}
