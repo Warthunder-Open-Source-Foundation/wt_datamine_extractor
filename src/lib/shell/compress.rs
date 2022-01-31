@@ -1,7 +1,7 @@
 use crate::shell::parent_gun::ParentGun;
 use crate::shell::shells::{Shell, ShellType};
 
-#[derive(serde::Serialize, Clone, serde::Deserialize, Debug, PartialEq, Hash, Eq)]
+#[derive(serde::Serialize, Clone, serde::Deserialize, Debug, PartialEq, Hash, Eq, Default)]
 pub struct CompressedShells {
 	/// Metadata
 	pub name: Vec<String>,
@@ -26,22 +26,8 @@ pub struct CompressedShells {
 }
 
 impl CompressedShells {
-	pub fn new() ->  Self {
-		Self {
-			name: vec![],
-			localized: vec![],
-			parent_guns: vec![],
-			hash: vec![],
-			shell_type: vec![],
-			caliber: vec![],
-			true_caliber: vec![],
-			velocity: vec![],
-			penetration: vec![],
-			explosive: vec![]
-		}
-	}
-	pub fn compress(shells: &Vec<Shell>) -> Self {
-		let aggregated = shells.into_iter().fold(CompressedShells::new(), |mut acc, v| {
+	pub fn compress(shells: &[Shell]) -> Self {
+		shells.iter().fold(CompressedShells::default(), |mut acc, v| {
 			acc.name.push(v.name.clone());
 			acc.localized.push(v.localized.clone());
 			acc.shell_type.push(v.shell_type.clone());
@@ -51,8 +37,7 @@ impl CompressedShells {
 			acc.penetration.push(v.penetration.clone());
 			acc.explosive.push(v.explosive.clone());
 			acc
-		});
-		aggregated
+		})
 	}
 	pub fn decompress(&self) -> Vec<Shell> {
 		let mut shells = Vec::new();
@@ -66,7 +51,7 @@ impl CompressedShells {
 				velocity: self.velocity[i.0],
 				penetration: self.penetration[i.0].clone(),
 				explosive: self.explosive[i.0].clone(),
-			})
+			});
 		}
 		shells
 	}
