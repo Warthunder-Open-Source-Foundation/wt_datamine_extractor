@@ -140,9 +140,9 @@ checksum = "8ccb82d61f80a663efe1f787a51b16b5a51e3314d6ac365b08639f52387b33f3"
 
 [[package]]
 name = "wt_csv"
-version = "0.5.0"
+version = "0.6.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "511b9717f1658cb3f587d406e532990286450ffe3984c9c0efa3f0e85aededcd"
+checksum = "20efd82e375695a418e7085940c4ecce22f99c77f73c5376a89ac1681548b259"
 
 [[package]]
 name = "wt_datamine_extractor"

@@ -1,5 +1,4 @@
 use std::collections::HashMap;
-use std::fs;
 
 use any_ascii::any_ascii;
 use fs_extra::dir::CopyOptions;
@@ -21,8 +20,7 @@ const EDGE_CASES: [(&str, &str); 10] = [
 
 lazy_static! {
     static ref CSV_UNIT: HashMap<String, String> = {
-        let raw = fs::read_to_string("lang/units.csv").unwrap();
-		let wtcsv = WTCSV::new_from_file(raw).unwrap();
+		let wtcsv = WTCSV::new_from_path("lang/units.csv", "units").unwrap();
 
 		let mut map = HashMap::new();
 
@@ -38,8 +36,7 @@ lazy_static! {
 		};
 
 	static ref CSV_WEAPON: HashMap<String, String> = {
-		let raw = fs::read_to_string("lang/weaponry.csv").unwrap();
-		let wtcsv = WTCSV::new_from_file(raw).unwrap();
+		let wtcsv = WTCSV::new_from_path("lang/weaponry.csv", "units").unwrap();
 
 		let mut map = HashMap::new();
 
