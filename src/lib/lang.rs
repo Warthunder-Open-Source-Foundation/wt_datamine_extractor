@@ -1,5 +1,4 @@
 use std::collections::HashMap;
-use std::fs;
 
 use any_ascii::any_ascii;
 use fs_extra::dir::CopyOptions;
@@ -21,8 +20,7 @@ const EDGE_CASES: [(&str, &str); 10] = [
 
 lazy_static! {
     static ref CSV_UNIT: HashMap<String, String> = {
-        let raw = fs::read_to_string("lang/units.csv").unwrap();
-		let wtcsv = WTCSV::new_from_file(raw).unwrap();
+		let wtcsv = WTCSV::new_from_path("lang/units.csv", "units").unwrap();
 
 		let mut map = HashMap::new();
 
@@ -38,8 +36,7 @@ lazy_static! {
 		};
 
 	static ref CSV_WEAPON: HashMap<String, String> = {
-		let raw = fs::read_to_string("lang/weaponry.csv").unwrap();
-		let wtcsv = WTCSV::new_from_file(raw).unwrap();
+		let wtcsv = WTCSV::new_from_path("lang/weaponry.csv", "weaponry").unwrap();
 
 		let mut map = HashMap::new();
 
@@ -104,9 +101,16 @@ pub fn unit_to_local(target: &str, lang: &Lang) -> String {
 mod tests {
 	use std::collections::HashSet;
 	use std::fs;
+	use crate::lang::{CSV_UNIT, CSV_WEAPON};
 
 	use crate::missile::missile::Missile;
 	use crate::thermal::thermals::Thermal;
+
+	#[test]
+	fn test_static_csv() {
+		lazy_static::initialize(&CSV_WEAPON);
+		lazy_static::initialize(&CSV_UNIT);
+	}
 
 	#[test]
 	fn test_duplicate_locale_missiles() {
