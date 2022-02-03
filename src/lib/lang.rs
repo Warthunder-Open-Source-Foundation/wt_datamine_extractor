@@ -36,7 +36,7 @@ lazy_static! {
 		};
 
 	static ref CSV_WEAPON: HashMap<String, String> = {
-		let wtcsv = WTCSV::new_from_path("lang/weaponry.csv", "units").unwrap();
+		let wtcsv = WTCSV::new_from_path("lang/weaponry.csv", "weaponry").unwrap();
 
 		let mut map = HashMap::new();
 
