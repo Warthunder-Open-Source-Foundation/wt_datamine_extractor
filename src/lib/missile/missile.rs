@@ -25,8 +25,11 @@ pub struct Missile {
 	/// mass in kg
 	pub mass: f64,
 
-	/// mass in kg after engine burn
+	/// mass in kg after 1st stage engine burn
 	pub mass_end: f64,
+
+	/// mass in kg after 2nd stage engine burn
+	pub mass_end1: f64,
 
 	/// diameter in meter
 	pub caliber: f64,
@@ -134,6 +137,8 @@ impl Missile {
 
 		let mass_end = parameter_to_data(&file, "massEnd").unwrap().parse().unwrap();
 
+		let mass_end1 = parameter_to_data(&file, "massEnd1").unwrap_or("0.0".to_owned()).parse().unwrap();
+
 		let caliber = parameter_to_data(&file, "caliber").unwrap().parse().unwrap();
 
 		let force0 = parameter_to_data(&file, "force").map_or_else(|| parameter_to_data(&file, "force0").unwrap().parse().unwrap(), |value| value.parse().unwrap());
@@ -210,6 +215,7 @@ impl Missile {
 			seekertype,
 			mass,
 			mass_end,
+			mass_end1,
 			caliber,
 			force0,
 			force1,
