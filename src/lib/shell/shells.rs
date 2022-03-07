@@ -220,7 +220,8 @@ impl FromStr for ShellType {
 			r#""practice_tank""# => {
 				Ok(Self::Practice)
 			}
-			r#""sap_hei_tank""# => {
+			r#""sap_hei_tank""# |
+			r#""sap_tank""# => {
 				Ok(Self::SapHei)
 			}
 			r#""apcr_tank""# |
