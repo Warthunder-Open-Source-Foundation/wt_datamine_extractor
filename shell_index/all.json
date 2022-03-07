@@ -4926,6 +4926,25 @@
     ]
   },
   {
+    "name": "120mm_obr1911_sap",
+    "localized": "120 mm patt.1911 SAP",
+    "shell_type": "SapHei",
+    "caliber": 120,
+    "true_caliber": 120,
+    "velocity": 793,
+    "penetration": [
+      [
+        0,
+        210
+      ]
+    ],
+    "explosive": [
+      "tnt",
+      3730,
+      3730
+    ]
+  },
+  {
     "name": "120mm_obus_de_rupture",
     "localized": "120 mm Obus de rupture",
     "shell_type": "ApSolid",
@@ -5369,6 +5388,20 @@
       "",
       0,
       0
+    ]
+  },
+  {
+    "name": "122mm_3vdcz3",
+    "localized": "122mm_3vdcz3",
+    "shell_type": "Smoke",
+    "caliber": 122,
+    "true_caliber": 122,
+    "velocity": 515,
+    "penetration": [],
+    "explosive": [
+      "smoke_composition",
+      50,
+      50
     ]
   },
   {
@@ -12319,9 +12352,9 @@
     "velocity": 1000,
     "penetration": [],
     "explosive": [
-      "tnt",
+      "a_ix_2",
       153,
-      153
+      236
     ]
   },
   {
@@ -15611,7 +15644,21 @@
     "shell_type": "He",
     "caliber": 76,
     "true_caliber": 76,
-    "velocity": 800,
+    "velocity": 823,
+    "penetration": [],
+    "explosive": [
+      "tnt",
+      390,
+      390
+    ]
+  },
+  {
+    "name": "76mm_m42a1",
+    "localized": "M42A1 shell",
+    "shell_type": "He",
+    "caliber": 76,
+    "true_caliber": 76,
+    "velocity": 853,
     "penetration": [],
     "explosive": [
       "tnt",
