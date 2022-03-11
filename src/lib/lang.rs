@@ -5,7 +5,7 @@ use fs_extra::dir::CopyOptions;
 use lazy_static::lazy_static;
 use wt_csv::wtcsv::core::wtcsv::WTCSV;
 
-const EDGE_CASES: [(&str, &str); 10] = [
+const EDGE_CASES: [(&str, &str); 12] = [
 	("space_rocket_launcher", "Space rocket launcher"),
 	("us_fim-92b", "Fim-92B"),
 	("su_9m336", "9K333 Werba (hidden)"),
@@ -16,6 +16,8 @@ const EDGE_CASES: [(&str, &str); 10] = [
 	("ussr_t_72b3_2017_race", "T-72B3 race"),
 	("cn_ztz_96a_race", "ZTZ96A race"),
 	("ussr_t_80u_race", "T-80U race"),
+	("ah_64a_peten_iaf", "AH-64A Peten (USA)"),
+	("us_merkava_mk_2b_late", "Merkava Mk.2B (USA)"),
 ];
 
 lazy_static! {
