@@ -380,10 +380,14 @@
           "armorThickness": 80.0
         },
         "ex_armor_turret_10_dm": {
-          "armorThickness": 30.0
+          "armorThickness": 30.0,
+          "hidableInViewer": true,
+          "createSecondaryShatters": false
         },
         "ex_armor_turret_11_dm": {
-          "armorThickness": 30.0
+          "armorThickness": 30.0,
+          "hidableInViewer": true,
+          "createSecondaryShatters": false
         },
         "ex_armor_turret_12_dm": {
           "armorThickness": 30.0
@@ -696,9 +700,10 @@
       "tracks": {
         "armorClass": "tank_traks",
         "allowRicochet": true,
-        "armorThickness": 30.0,
+        "armorThickness": 20.0,
+        "armorEffectiveThicknessMax": 20.0,
         "hp": 300.0,
-        "genericEffectiveThicknessMax": 30.0,
+        "genericEffectiveThicknessMax": 20.0,
         "genericDamageMult": 1.8,
         "cumulativeDamageMult": 1.8,
         "track_r_dm": [],

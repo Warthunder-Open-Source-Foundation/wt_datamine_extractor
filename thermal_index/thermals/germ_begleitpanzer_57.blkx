@@ -3328,8 +3328,8 @@
                 "barrelDP": "gun_barrel_dm",
                 "breechDP": "cannon_breech_dm",
                 "autoLoader": true,
-                "speedYaw": 21.0,
-                "speedPitch": 10.0,
+                "speedYaw": 55.0,
+                "speedPitch": 20.0,
                 "fireConeAngle": 1.0,
                 "bullets": 148,
                 "salvoAmount": 100.0,
@@ -3362,6 +3362,33 @@
                   "lim1": [-180.0,-140.0,-8.0,45.0],
                   "lim2": [-140.0,140.0,-8.0,45.0],
                   "lim3": [140.0,180.0,-8.0,45.0]
+                },
+                "gunStabilizer": {
+                  "hasVerticalGunFreeMode": false,
+                  "hasHorizontal": true,
+                  "horizontalOmegaMult": 1.0,
+                  "horizontalSpeedLimitKPH": 75.0,
+                  "hasVertical": true,
+                  "verticalOmegaMult": 1.0,
+                  "verticalSpeedLimitKPH": 75.0,
+                  "speedFromVehicleVerticalMult": -1.0,
+                  "errorKPHToDegrees": [
+                    {
+                      "row": [5.0,0.0]
+                    },
+                    {
+                      "row": [25.0,0.015]
+                    },
+                    {
+                      "row": [35.0,0.02]
+                    },
+                    {
+                      "row": [45.0,0.1]
+                    },
+                    {
+                      "row": [50.0,0.3]
+                    }
+                  ]
                 }
               }
             },
@@ -3470,6 +3497,7 @@
                 "reloadAnimVar": "begleitpanzer_57_action",
                 "stopForFire": true,
                 "maxSpeedForFire": 5.0,
+                "parkForReload": true,
                 "createGunEffects": true,
                 "defaultYaw": 0.0,
                 "defaultPitch": 0.0,

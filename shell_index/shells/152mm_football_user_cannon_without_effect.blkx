@@ -15,6 +15,7 @@
   "bEnablePause": false,
   "bullets": -1,
   "bulletsCluster": 1,
+  "fxType": "",
   "fxGroundDust": "",
   "fxGrassDust": "",
   "fxSandDust": "",

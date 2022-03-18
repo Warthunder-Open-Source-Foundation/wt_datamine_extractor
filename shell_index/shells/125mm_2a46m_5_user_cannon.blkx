@@ -76,6 +76,21 @@
         }
       ]
     },
+    "DamageParts": {
+      "body": {
+        "hp": 100.0,
+        "armorClass": "tank_structural_steel",
+        "armorThickness": 15.0
+      }
+    },
+    "DamageEffects": {
+      "part": {
+        "name": "body",
+        "onKill": {
+          "destabilization": 1.0
+        }
+      }
+    },
     "tracePattern": {
       "caliber": 10.0,
       "circleCount": 2,
@@ -539,6 +554,21 @@
           }
         ]
       },
+      "DamageParts": {
+        "body": {
+          "hp": 100.0,
+          "armorClass": "tank_structural_steel",
+          "armorThickness": 15.0
+        }
+      },
+      "DamageEffects": {
+        "part": {
+          "name": "body",
+          "onKill": {
+            "destabilization": 1.0
+          }
+        }
+      },
       "tracePattern": {
         "caliber": 10.0,
         "circleCount": 2,
@@ -686,6 +716,24 @@
         "mod1": [0.0,0.5],
         "mod2": [15.0,0.7],
         "mod3": [30.0,0.99]
+      },
+      "DamageParts": {
+        "body": {
+          "hp": 5.0,
+          "armorClass": "tank_structural_steel",
+          "armorThickness": 1.0
+        }
+      },
+      "DamageEffects": {
+        "part": {
+          "name": "body",
+          "onHit": {
+            "break_fuse": 1.0
+          },
+          "onKill": {
+            "destruction": 1.0
+          }
+        }
       },
       "pressureDamage": {
         "damageType": "pressure"
@@ -1092,6 +1140,9 @@
             "name": "body",
             "onHit": {
               "expl": 1.0
+            },
+            "onKill": {
+              "destruction": 1.0
             }
           }
         },
