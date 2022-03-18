@@ -283,6 +283,12 @@
           "armorThickness": 35.0,
           "hidableInXrayViewer": true
         },
+        "ex_armor_body_09_dm": {
+          "armorThickness": 10.0
+        },
+        "turret_09_bottom_dm": {
+          "armorThickness": 5.0
+        },
         "turret_10_back_dm": {
           "armorThickness": 30.0
         }
@@ -393,11 +399,10 @@
           "armorThickness": 25.0
         },
         "turret_09_back_dm": {
-          "armorThickness": 60.0
+          "armorThickness": 5.0
         },
         "turret_09_top_dm": {
-          "armorThickness": 10.0,
-          "armorClass": "RHA_tank"
+          "armorThickness": 5.0
         },
         "composite_armor_turret_03_dm": {
           "armorThickness": 100.0,
@@ -447,10 +452,10 @@
         "ex_armor_04_dm": []
       },
       "hull_side_add_armor": {
-        "armorClass": "hull_side_special_armor",
+        "armorClass": "RHA_tank",
         "hp": 500.0,
         "hidableInViewer": true,
-        "armorThickness": 30.0,
+        "armorThickness": 10.0,
         "stopChanceOnDeadPart": 0.0,
         "createSecondaryShatters": false,
         "variableThickness": true,
@@ -458,12 +463,13 @@
         "ex_armor_body_r_02_dm": [],
         "ex_armor_body_r_03_dm": [],
         "ex_armor_body_r_04_dm": [],
-        "ex_armor_body_r_10_dm": [],
+        "ex_armor_body_r_05_dm": [],
         "ex_armor_body_r_11_dm": [],
         "ex_armor_body_l_01_dm": [],
         "ex_armor_body_l_02_dm": [],
         "ex_armor_body_l_03_dm": [],
         "ex_armor_body_l_04_dm": [],
+        "ex_armor_body_l_05_dm": [],
         "ex_armor_body_l_10_dm": [],
         "ex_armor_body_l_11_dm": []
       },
@@ -519,11 +525,9 @@
         "ex_armor_body_04_dm": [],
         "ex_armor_body_05_dm": [],
         "ex_armor_body_07_dm": [],
-        "ex_armor_body_09_dm": [],
         "ex_armor_body_10_dm": [],
         "ex_armor_body_12_dm": [],
-        "ex_armor_body_13_dm": [],
-        "ex_armor_07_dm": []
+        "ex_armor_body_13_dm": []
       },
       "optics": {
         "armorClass": "optics_tank",
@@ -634,7 +638,10 @@
           "armorThickness": 20.0,
           "hp": 400.0,
           "ex_armor_01_dm": [],
-          "ex_armor_02_dm": []
+          "ex_armor_02_dm": [],
+          "ex_armor_07_dm": [],
+          "ex_armor_body_r_09_dm": [],
+          "ex_armor_body_l_09_dm": []
         }
       },
       "gun": {
@@ -1073,7 +1080,10 @@
       "ex_armor_turret_l_02_dm": true,
       "ex_armor_turret_l_03_dm": true,
       "ex_armor_turret_l_04_dm": true,
-      "ex_armor_turret_l_05_dm": true
+      "ex_armor_turret_l_05_dm": true,
+      "ex_armor_body_r_09_dm": true,
+      "ex_armor_body_l_09_dm": true,
+      "ex_armor_07_dm": true
     }
   },
   {
@@ -3028,8 +3038,8 @@
           "weaponType": "rockets",
           "startFx": "",
           "useEmitter": true,
-          "emitter": "emtr_mortar_flame_12",
-          "emitterGenRange": [1.0,1.0],
+          "emitter": "emtr_mortar_flame_01",
+          "emitterGenRange": [13.0,13.0],
           "emitterGenFmt": "emtr_mortar_flame_%02d",
           "createGunEffects": true,
           "defaultYaw": 0.0,
@@ -3039,7 +3049,7 @@
           "speedYaw": 24.0,
           "speedPitch": 15.0,
           "fireConeAngle": 1.0,
-          "bullets": 30,
+          "bullets": 10,
           "salvoAmount": 100.0,
           "ChainfireTime": 0.0,
           "DelayAfterShoot": 5.0,
@@ -4555,8 +4565,8 @@
                 "weaponType": "rockets",
                 "startFx": "",
                 "useEmitter": true,
-                "emitter": "emtr_mortar_flame_12",
-                "emitterGenRange": [1.0,1.0],
+                "emitter": "emtr_mortar_flame_01",
+                "emitterGenRange": [13.0,13.0],
                 "emitterGenFmt": "emtr_mortar_flame_%02d",
                 "createGunEffects": true,
                 "defaultYaw": 0.0,
@@ -4566,7 +4576,7 @@
                 "speedYaw": 24.0,
                 "speedPitch": 15.0,
                 "fireConeAngle": 1.0,
-                "bullets": 30,
+                "bullets": 10,
                 "salvoAmount": 100.0,
                 "ChainfireTime": 0.0,
                 "DelayAfterShoot": 5.0,

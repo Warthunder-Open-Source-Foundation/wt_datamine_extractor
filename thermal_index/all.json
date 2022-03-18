@@ -801,6 +801,18 @@
     ]
   },
   {
+    "name": "il_merkava_mk_4b",
+    "localized": "Merkava Mk.4B",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "it_b1_centauro",
     "localized": "Centauro I 105",
     "vehicle_type": "Tank",

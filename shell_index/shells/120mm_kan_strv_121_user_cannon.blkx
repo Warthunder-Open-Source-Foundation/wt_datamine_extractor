@@ -78,6 +78,21 @@
         }
       ]
     },
+    "DamageParts": {
+      "body": {
+        "hp": 100.0,
+        "armorClass": "tank_structural_steel",
+        "armorThickness": 15.0
+      }
+    },
+    "DamageEffects": {
+      "part": {
+        "name": "body",
+        "onKill": {
+          "destabilization": 1.0
+        }
+      }
+    },
     "tracePattern": {
       "caliber": 10.0,
       "circleCount": 2,
@@ -249,6 +264,21 @@
           }
         ]
       },
+      "DamageParts": {
+        "body": {
+          "hp": 100.0,
+          "armorClass": "tank_structural_steel",
+          "armorThickness": 15.0
+        }
+      },
+      "DamageEffects": {
+        "part": {
+          "name": "body",
+          "onKill": {
+            "destabilization": 1.0
+          }
+        }
+      },
       "tracePattern": {
         "caliber": 10.0,
         "circleCount": 2,
@@ -418,7 +448,7 @@
         "stabilityReductionAfterPenetration": 0.15
       },
       {
-        "bulletType": "he_frag_dist_fuse"
+        "bulletType": "he_frag_fs_tank"
       },
       {
         "slopeEffectPreset": "ap"
@@ -430,7 +460,7 @@
         "explodeOnRendinst": true
       },
       {
-        "shellAnimation": "video/shells_animations/he_df.ivf"
+        "shellAnimation": "video/shells_animations/he.ivf"
       },
       {
         "bulletName": "120mm_slsgr_m95"
@@ -451,7 +481,7 @@
         "timeFuseDistanceError": 1.0
       },
       {
-        "explosionInAir": true
+        "explosionInAir": false
       },
       {
         "explosionEffect": "hit_106_132mm_metal_he"
@@ -594,7 +624,8 @@
         "visual": {
           "range_percent_of_ammo": [100.0,0.0],
           "traceFreq": 1,
-          "tracer": "noColor"
+          "tracer": "100mmRed",
+          "trail": "black"
         }
       },
       {
@@ -812,6 +843,21 @@
             "pnt": [21.0,0.3]
           }
         ]
+      },
+      "DamageParts": {
+        "body": {
+          "hp": 100.0,
+          "armorClass": "tank_structural_steel",
+          "armorThickness": 15.0
+        }
+      },
+      "DamageEffects": {
+        "part": {
+          "name": "body",
+          "onKill": {
+            "destabilization": 1.0
+          }
+        }
       },
       "tracePattern": {
         "caliber": 10.0,

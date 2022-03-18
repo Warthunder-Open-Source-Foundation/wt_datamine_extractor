@@ -241,7 +241,7 @@
           "explosiveType": "comp_b",
           "explosiveMass": 0.4,
           "massEnd": 0.9,
-          "bulletType": "aphe_tank",
+          "bulletType": "sam_tank",
           "maxDeltaAngle": 0.01,
           "dragCx": 0.01,
           "length": 0.68,
@@ -383,6 +383,9 @@
               "name": "body",
               "onHit": {
                 "expl": 1.0
+              },
+              "onKill": {
+                "destruction": 1.0
               }
             }
           },
@@ -586,6 +589,9 @@
             "name": "body",
             "onHit": {
               "expl": 1.0
+            },
+            "onKill": {
+              "destruction": 1.0
             }
           }
         },

@@ -545,7 +545,10 @@
         "ex_armor_body_10_dm": [],
         "ex_armor_body_12_dm": [],
         "ex_armor_body_13_dm": [],
-        "ex_armor_07_dm": []
+        "ex_armor_07_dm": [],
+        "turret_10_top_dm": {
+          "armorThickness": 15.0
+        }
       },
       "optics": {
         "armorClass": "optics_tank",

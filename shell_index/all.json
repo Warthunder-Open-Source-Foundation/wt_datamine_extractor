@@ -1268,6 +1268,49 @@
     ]
   },
   {
+    "name": "105mm_imi_m426",
+    "localized": "105mm_imi_m426",
+    "shell_type": "ApFsDs",
+    "caliber": 105,
+    "true_caliber": 26,
+    "velocity": 1455,
+    "penetration": [
+      [
+        0,
+        436
+      ],
+      [
+        100,
+        434
+      ],
+      [
+        500,
+        426
+      ],
+      [
+        1000,
+        416
+      ],
+      [
+        1500,
+        406
+      ],
+      [
+        2000,
+        396
+      ],
+      [
+        3000,
+        370
+      ]
+    ],
+    "explosive": [
+      "",
+      0,
+      0
+    ]
+  },
+  {
     "name": "105mm_l28a1",
     "localized": "Shot L28A1",
     "shell_type": "Apds",

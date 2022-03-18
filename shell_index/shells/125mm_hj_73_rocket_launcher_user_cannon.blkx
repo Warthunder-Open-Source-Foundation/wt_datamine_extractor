@@ -328,6 +328,9 @@
             "name": "body",
             "onHit": {
               "expl": 1.0
+            },
+            "onKill": {
+              "destruction": 1.0
             }
           }
         }
@@ -919,6 +922,9 @@
               "name": "body",
               "onHit": {
                 "expl": 1.0
+              },
+              "onKill": {
+                "destruction": 1.0
               }
             }
           }

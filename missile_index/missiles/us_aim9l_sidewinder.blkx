@@ -201,7 +201,7 @@
       "endSpeed": 1000.0
     },
     {
-      "timeLife": 40.0
+      "timeLife": 60.0
     },
     {
       "machMax": 2.5
@@ -423,6 +423,9 @@
           "name": "body",
           "onHit": {
             "expl": 1.0
+          },
+          "onKill": {
+            "destruction": 1.0
           }
         }
       }

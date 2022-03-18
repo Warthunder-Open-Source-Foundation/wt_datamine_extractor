@@ -114,15 +114,6 @@
     "canReloadNonGuns": true
   },
   {
-    "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg"
-  },
-  {
-    "customImage": "!#ui/unitskin#image_in_progress"
-  },
-  {
-    "customTooltipImage": "ui/aircrafts/image_in_progress"
-  },
-  {
     "DamageParts": {
       "formatVersion": 2,
       "armorClass": "RHA_tank",
@@ -2634,8 +2625,9 @@
           "trigger": "gunner2",
           "triggerGroup": "machinegun",
           "blk": "gameData/Weapons/groundModels_weapons/7_62mm_Ksp_39_Strv_user_machinegun.blk",
-          "emitter": "bone_mg_aa_v_01",
+          "emitter": "emtr_mg_flame_01",
           "flash": "emtr_mg_flame_01",
+          "useEmitter": true,
           "defaultYaw": 0.0,
           "defaultPitch": 0.0,
           "barrelDP": "gun_barrel_01_dm",
@@ -3536,8 +3528,9 @@
                 "trigger": "gunner2",
                 "triggerGroup": "machinegun",
                 "blk": "gameData/Weapons/groundModels_weapons/7_62mm_Ksp_39_Strv_user_machinegun.blk",
-                "emitter": "bone_mg_aa_v_01",
+                "emitter": "emtr_mg_flame_01",
                 "flash": "emtr_mg_flame_01",
+                "useEmitter": true,
                 "defaultYaw": 0.0,
                 "defaultPitch": 0.0,
                 "barrelDP": "gun_barrel_01_dm",
