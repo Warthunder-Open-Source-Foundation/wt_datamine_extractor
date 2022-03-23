@@ -120,15 +120,6 @@
     "rearmTimeOnField": 70.0
   },
   {
-    "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg"
-  },
-  {
-    "customImage": "!#ui/unitskin#image_in_progress"
-  },
-  {
-    "customTooltipImage": "ui/aircrafts/image_in_progress"
-  },
-  {
     "DamageParts": {
       "formatVersion": 2,
       "armorClass": "RHA_tank_modern",
@@ -3352,14 +3343,14 @@
       "aimModeAvailable": true,
       "optics": "commander_optics_round",
       "zoomOutFov": 37.5,
-      "zoomInFov": 12.3,
+      "zoomInFov": 5.0,
       "sightSize": [0.8,0.8]
     }
   },
   {
     "cockpit": {
       "zoomOutFov": 37.5,
-      "zoomInFov": 12.3,
+      "zoomInFov": 5.0,
       "sightFov": 17.0,
       "sightName": "peri_z11a1",
       "headPos": [0.0,4.0,-8.5],

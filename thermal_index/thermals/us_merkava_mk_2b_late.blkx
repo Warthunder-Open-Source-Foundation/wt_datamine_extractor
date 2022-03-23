@@ -195,7 +195,7 @@
           "armorThickness": 30.0
         },
         "ex_armor_body_09_dm": {
-          "armorThickness": 5.0
+          "armorThickness": 10.0
         },
         "superstructure_back_dm": {
           "armorThickness": 30.0
@@ -213,9 +213,11 @@
         "turret_01_side_dm": {
           "armorThickness": 10.0
         },
+        "turret_09_bottom_dm": {
+          "armorThickness": 10.0
+        },
         "turret_03_back_dm": {
-          "armorThickness": 10.0,
-          "hidableInViewer": true
+          "armorThickness": 15.0
         },
         "turret_07_back_dm": {
           "armorThickness": 30.0
@@ -459,8 +461,7 @@
         "ex_armor_body_03_dm": [],
         "ex_armor_body_04_dm": [],
         "ex_armor_body_07_dm": [],
-        "ex_armor_body_06_dm": [],
-        "turret_09_bottom_dm": []
+        "ex_armor_body_06_dm": []
       },
       "optics": {
         "armorClass": "optics_tank",

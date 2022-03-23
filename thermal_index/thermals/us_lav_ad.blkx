@@ -33,12 +33,6 @@
     "useSimpleDeathConditionsAndEffects": false
   },
   {
-    "waterBreakerAnimVar": "screw_rotate:CRS"
-  },
-  {
-    "waterBreakerToggleTime": 2.0
-  },
-  {
     "autoSightDistanceCorrection": true
   },
   {
@@ -46,6 +40,12 @@
   },
   {
     "onRadarAs": "tracked"
+  },
+  {
+    "waterBreakerAnimVar": "lav_ad_break_water_action"
+  },
+  {
+    "waterBreakerToggleTime": 4.0
   },
   {
     "moveType": "vehicle"
@@ -495,11 +495,13 @@
           "armorThickness": 15.0
         },
         "composite_armor_hull_01_dm": {
-          "armorThickness": 8.0,
+          "armorThickness": 5.0,
+          "armorClass": "RHA_tank",
           "hidableInXrayViewer": true
         },
         "composite_armor_hull_02_dm": {
-          "armorThickness": 8.0,
+          "armorThickness": 5.0,
+          "armorClass": "RHA_tank",
           "hidableInXrayViewer": true
         }
       },
@@ -1969,17 +1971,30 @@
     }
   },
   {
-    "xray_viewer_data": {
-      "armorArrayHull": {
-        "xrayDmPart": "composite_armor_hull_01_dm",
-        "titleLoc": "RHA_tank_modern",
-        "armorArrayText": {
-          "layer": {
-            "dmPart": "composite_armor_hull_01_dm"
+    "xray_viewer_data": [
+      {
+        "armorArrayHull": {
+          "xrayDmPart": "composite_armor_hull_01_dm",
+          "titleLoc": "RHA_tank",
+          "armorArrayText": {
+            "layer": {
+              "dmPart": "composite_armor_hull_01_dm"
+            }
+          }
+        }
+      },
+      {
+        "armorArrayHull": {
+          "xrayDmPart": "composite_armor_hull_02_dm",
+          "titleLoc": "RHA_tank",
+          "armorArrayText": {
+            "layer": {
+              "dmPart": "composite_armor_hull_02_dm"
+            }
           }
         }
       }
-    }
+    ]
   },
   {
     "MetaParts": {
@@ -2664,7 +2679,7 @@
             "recoilMultiplier": 0.1
           },
           {
-            "barrelDP": "gun_barrel_05_dm"
+            "barrelDP": "gun_barrel_01_dm"
           },
           {
             "createGunEffects": true
@@ -3954,7 +3969,7 @@
                   "triggerGroup": "special"
                 },
                 {
-                  "blk": "gameData/Weapons/groundModels_weapons/70mm_FIM_92E_Stinger_LAV_launcher_user_cannon.blk"
+                  "blk": "gameData/Weapons/groundModels_weapons/70mm_FIM_92E_Stinger_Machbet_launcher_user_cannon.blk"
                 },
                 {
                   "flash": "emtr_gun_flame_05"
@@ -3978,7 +3993,7 @@
                   "recoilMultiplier": 0.1
                 },
                 {
-                  "barrelDP": "gun_barrel_05_dm"
+                  "barrelDP": "gun_barrel_01_dm"
                 },
                 {
                   "createGunEffects": true
@@ -4147,7 +4162,7 @@
                   "defaultPitch": 0.0
                 },
                 {
-                  "barrelDP": "gun_barrel_01_dm"
+                  "barrelDP": "gun_barrel_03_dm"
                 },
                 {
                   "speedYaw": 17.0
@@ -4335,6 +4350,18 @@
             },
             {
               "node": "gun_barrel_02"
+            },
+            {
+              "node": "ammo_turret_05"
+            },
+            {
+              "node": "ammo_turret_06"
+            },
+            {
+              "node": "ammo_turret_07"
+            },
+            {
+              "node": "ammo_turret_08"
             }
           ]
         },
@@ -4348,6 +4375,63 @@
             },
             {
               "node": "cls_gun_03"
+            },
+            {
+              "node": "ammo_turret_09"
+            },
+            {
+              "node": "ammo_turret_10"
+            },
+            {
+              "node": "ammo_turret_11"
+            },
+            {
+              "node": "ammo_turret_12"
+            },
+            {
+              "node": "ammo_turret_13"
+            },
+            {
+              "node": "ammo_turret_14"
+            },
+            {
+              "node": "ammo_turret_15"
+            },
+            {
+              "node": "ammo_turret_16"
+            },
+            {
+              "node": "ammo_turret_17"
+            },
+            {
+              "node": "ammo_turret_18"
+            },
+            {
+              "node": "ammo_turret_19"
+            },
+            {
+              "node": "ammo_turret_20"
+            },
+            {
+              "node": "ammo_turret_21"
+            },
+            {
+              "node": "ammo_turret_22"
+            },
+            {
+              "node": "ammo_turret_23"
+            },
+            {
+              "node": "ammo_turret_24"
+            },
+            {
+              "node": "ammo_turret_25"
+            },
+            {
+              "node": "ammo_turret_26"
+            },
+            {
+              "node": "ammo_turret_27"
             }
           ]
         }

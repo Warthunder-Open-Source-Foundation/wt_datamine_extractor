@@ -1458,7 +1458,7 @@
       "mirrorPos": [2.839,0.362,0.0]
     },
     {
-      "mirrorNorm": [-1.0,0.0,0.0]
+      "mirrorNorm": [0.0,0.0,3.4]
     },
     {
       "mirrorNode": "blister11"
@@ -1659,17 +1659,6 @@
             },
             {
               "page": {
-                "type": "radar",
-                "radarScale": 0.85
-              }
-            },
-            {
-              "page": {
-                "type": "map"
-              }
-            },
-            {
-              "page": {
                 "type": "devices",
                 "speed": {
                   "texture": "su_mfd_speed",
@@ -1762,13 +1751,6 @@
                   }
                 }
               }
-            }
-          ]
-        },
-        {
-          "display": [
-            {
-              "textureArea": [0.25,0.5,0.5,1.0]
             },
             {
               "page": {
@@ -1784,6 +1766,63 @@
             },
             {
               "page": {
+                "type": "map"
+              }
+            }
+          ]
+        },
+        {
+          "display": [
+            {
+              "textureArea": [0.25,0.5,0.5,1.0]
+            },
+            {
+              "page": {
+                "type": "rwr"
+              }
+            },
+            {
+              "page": {
+                "type": "map"
+              }
+            },
+            {
+              "page": {
+                "type": "target_tracking",
+                "turretIdx": 0
+              }
+            },
+            {
+              "page": {
+                "type": "thermal",
+                "turretIdx": 0
+              }
+            }
+          ]
+        },
+        {
+          "display": [
+            {
+              "textureArea": [0.5,0.5,0.75,1.0]
+            },
+            {
+              "page": {
+                "type": "radar",
+                "radarScale": 0.85
+              }
+            },
+            {
+              "page": {
+                "type": "rwr"
+              }
+            },
+            {
+              "page": {
+                "type": "map"
+              }
+            },
+            {
+              "page": {
                 "type": "devices",
                 "speed": {
                   "texture": "su_mfd_speed",
@@ -1882,43 +1921,21 @@
         {
           "display": [
             {
-              "textureArea": [0.5,0.5,0.75,1.0]
+              "textureArea": [0.75,0.5,1.0,1.0]
             },
             {
               "page": {
-                "type": "rwr"
+                "type": "thermal",
+                "turretIdx": 0
               }
             },
             {
               "page": {
-                "type": "map"
+                "type": "target_tracking",
+                "turretIdx": 0
               }
             }
           ]
-        },
-        {
-          "display": {
-            "textureArea": [0.75,0.5,1.0,1.0],
-            "page": {
-              "type": "map"
-            }
-          }
-        },
-        {
-          "display": {
-            "textureArea": [0.0,0.5,0.25,1.0],
-            "page": {
-              "type": "rwr"
-            }
-          }
-        },
-        {
-          "display": {
-            "textureArea": [0.0,0.5,0.25,1.0],
-            "page": {
-              "type": "rwr"
-            }
-          }
         },
         {
           "display": {
