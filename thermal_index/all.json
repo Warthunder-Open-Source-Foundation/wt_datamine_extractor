@@ -753,6 +753,18 @@
     ]
   },
   {
+    "name": "il_machbet",
+    "localized": "Machbet",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "il_magach_6b_gal_batash",
     "localized": "Gal Batash",
     "vehicle_type": "Tank",
@@ -803,6 +815,18 @@
   {
     "name": "il_merkava_mk_4b",
     "localized": "Merkava Mk.4B",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "il_merkava_mk_4m",
+    "localized": "Merkava Mk.4M",
     "vehicle_type": "Tank",
     "sights": [
       {

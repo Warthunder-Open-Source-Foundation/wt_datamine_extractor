@@ -153,13 +153,13 @@
           "armorThickness": 20.0
         },
         "body_side_dm": {
-          "armorThickness": 76.0
+          "armorThickness": 13.0
         },
         "superstructure_back_dm": {
           "armorThickness": 25.0
         },
         "body_bottom_dm": {
-          "armorThickness": 38.0
+          "armorThickness": 19.0
         },
         "ex_armor_body_01_dm": {
           "armorThickness": 114.0

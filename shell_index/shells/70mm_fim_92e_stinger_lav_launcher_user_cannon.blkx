@@ -41,7 +41,7 @@
   "allowRearmOnField": true,
   "mesh": "e_stinger_rocket_deployed",
   "animChar": "e_stinger_rocket_char",
-  "reloadAnimParam": "rocket_hide",
+  "reloadAnimParam": "cap_hide",
   "bullet": {
     "normalizationPreset": "heat",
     "ricochetPreset": "he",

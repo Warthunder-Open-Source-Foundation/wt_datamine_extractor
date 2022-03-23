@@ -551,13 +551,13 @@
           "minAngleToSun": 20.0,
           "lockAngleMax": 5.0,
           "angleMax": 25.0,
-          "rateMax": 11.0,
+          "rateMax": 18.0,
           "prolongationTimeMax": 1.0
         },
         "guidanceAutopilot": {
           "timeOut": 0.5,
           "propNavMult": 4.0,
-          "reqAccelMax": 11.0,
+          "reqAccelMax": 18.0,
           "baseIndSpeed": 1800.0,
           "accelControlProp": 0.01,
           "accelControlIntg": 0.005,

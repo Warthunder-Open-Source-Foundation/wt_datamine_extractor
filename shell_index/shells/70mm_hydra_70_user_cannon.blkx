@@ -128,7 +128,7 @@
       "endSpeed": 0.0,
       "maxSpeed": 739.0,
       "price": 3000.0,
-      "mesh": "us_hydra_70_m247_rocket",
+      "mesh": "hydra_70_rocket",
       "stabilityRicochetModifier": {
         "mod1": [0.0,0.5],
         "mod2": [15.0,0.7],

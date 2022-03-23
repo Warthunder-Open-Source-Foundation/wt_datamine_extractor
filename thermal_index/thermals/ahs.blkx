@@ -33,9 +33,6 @@
   "fireParamsPreset": "300kph",
   "fightAiBehaviour": "helicopter",
   "laserDesignator": true,
-  "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg",
-  "customImage": "!#ui/unitskin#image_in_progress",
-  "customTooltipImage": "ui/aircrafts/image_in_progress",
   "DamageParts": {
     "armor10": {
       "cannon1_dm": {
@@ -1679,7 +1676,6 @@
       "preset": {
         "name": "ahs_rocket_4_hellfire",
         "blk": "gameData/flightModels/weaponPresets/ahs_rocket_4_hellfire.blk",
-        "reqModification": "ah_1_AGM_114_8",
         "weaponConfig": {
           "Weapon": {
             "blk": "gameData/Weapons/rocketGuns/us_hellfire_agm_114_b.blk",
