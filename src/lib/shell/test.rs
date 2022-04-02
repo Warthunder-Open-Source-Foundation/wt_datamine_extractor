@@ -20,8 +20,9 @@ mod tests {
 	#[test]
 	fn heat_fs_has_tnt_and_type() {
 		for shell in SHELLS.iter() {
-			if shell.shell_type == ShellType::HeatFs {
-				// println!("{}", shell.name);
+			// They fucking classified the sonic wave launcher as heat-fs
+			if shell.shell_type == ShellType::HeatFs && shell.name != "sonicWave"{
+				// println!("{} {}", shell.name, shell.shell_type.to_string());
 				assert_ne!(shell.explosive.0, "");
 				assert_ne!(shell.explosive.1, 0);
 				assert_ne!(shell.explosive.2, 0);

@@ -1,5 +1,24 @@
 [
   {
+    "name": "",
+    "localized": "",
+    "shell_type": "SonicWave",
+    "caliber": 1000,
+    "true_caliber": 1000,
+    "velocity": 1,
+    "penetration": [
+      [
+        0,
+        20
+      ]
+    ],
+    "explosive": [
+      "",
+      0,
+      0
+    ]
+  },
+  {
     "name": "100mm_1_71_74",
     "localized": "1-71-74 HE",
     "shell_type": "He",
@@ -4685,6 +4704,49 @@
     ]
   },
   {
+    "name": "120mm_m338",
+    "localized": "120mm_m338",
+    "shell_type": "ApFsDs",
+    "caliber": 120,
+    "true_caliber": 23,
+    "velocity": 1680,
+    "penetration": [
+      [
+        0,
+        611
+      ],
+      [
+        100,
+        608
+      ],
+      [
+        500,
+        597
+      ],
+      [
+        1000,
+        585
+      ],
+      [
+        1500,
+        573
+      ],
+      [
+        2000,
+        560
+      ],
+      [
+        3000,
+        533
+      ]
+    ],
+    "explosive": [
+      "",
+      0,
+      0
+    ]
+  },
+  {
     "name": "120mm_m339",
     "localized": "M339",
     "shell_type": "He",
@@ -7199,6 +7261,25 @@
     "shell_type": "HeatFs",
     "caliber": 140,
     "true_caliber": 140,
+    "velocity": 1400,
+    "penetration": [
+      [
+        0,
+        1500
+      ]
+    ],
+    "explosive": [
+      "comp_b",
+      5500,
+      7205
+    ]
+  },
+  {
+    "name": "140mm_mphe",
+    "localized": "ATW-MP-HE",
+    "shell_type": "HeatFs",
+    "caliber": 140,
+    "true_caliber": 140,
     "velocity": 1410,
     "penetration": [
       [
@@ -8671,6 +8752,49 @@
     ]
   },
   {
+    "name": "180mm_mphe",
+    "localized": "180mm_mphe",
+    "shell_type": "SapHei",
+    "caliber": 180,
+    "true_caliber": 180,
+    "velocity": 1200,
+    "penetration": [
+      [
+        0,
+        1500
+      ],
+      [
+        100,
+        1470
+      ],
+      [
+        500,
+        1400
+      ],
+      [
+        1000,
+        1300
+      ],
+      [
+        1500,
+        1250
+      ],
+      [
+        2000,
+        1050
+      ],
+      [
+        3000,
+        900
+      ]
+    ],
+    "explosive": [
+      "comp_a",
+      20200,
+      29088
+    ]
+  },
+  {
     "name": "183mm_hesh",
     "localized": "Shell L1",
     "shell_type": "Hesh",
@@ -8901,6 +9025,20 @@
       "tnt",
       5,
       5
+    ]
+  },
+  {
+    "name": "20mm_oerlikon_he_t",
+    "localized": "HET",
+    "shell_type": "ApHe",
+    "caliber": 20,
+    "true_caliber": 20,
+    "velocity": 838,
+    "penetration": [],
+    "explosive": [
+      "tnt",
+      100,
+      100
     ]
   },
   {
@@ -11232,6 +11370,25 @@
     ]
   },
   {
+    "name": "40mm_mp_he",
+    "localized": "40mm_mp_he",
+    "shell_type": "SapHei",
+    "caliber": 40,
+    "true_caliber": 40,
+    "velocity": 1200,
+    "penetration": [
+      [
+        0,
+        128
+      ]
+    ],
+    "explosive": [
+      "comp_a",
+      500,
+      720
+    ]
+  },
+  {
     "name": "40mm_shell_mk1_apt",
     "localized": "Shell Mk.1 AP/T",
     "shell_type": "ApHe",
@@ -12883,6 +13040,25 @@
       "",
       0,
       0
+    ]
+  },
+  {
+    "name": "60mm_mphe",
+    "localized": "ADW-MP-HE",
+    "shell_type": "SapHei",
+    "caliber": 60,
+    "true_caliber": 60,
+    "velocity": 1200,
+    "penetration": [
+      [
+        0,
+        1282
+      ]
+    ],
+    "explosive": [
+      "comp_a",
+      30200,
+      43488
     ]
   },
   {
@@ -19101,6 +19277,25 @@
     ]
   },
   {
+    "name": "combat_track_missile",
+    "localized": "combat_track_missile",
+    "shell_type": "Atgm",
+    "caliber": 120,
+    "true_caliber": 120,
+    "velocity": 0,
+    "penetration": [
+      [
+        0,
+        1000
+      ]
+    ],
+    "explosive": [
+      "hbx",
+      2200,
+      3520
+    ]
+  },
+  {
     "name": "football_jump",
     "localized": "football_jump",
     "shell_type": "Football",
@@ -19261,6 +19456,44 @@
       [
         1500,
         0
+      ]
+    ],
+    "explosive": [
+      "",
+      0,
+      0
+    ]
+  },
+  {
+    "name": "mlrs_tank_rocket",
+    "localized": "mlrs_tank_rocket",
+    "shell_type": "Heat",
+    "caliber": 203,
+    "true_caliber": 203,
+    "velocity": 0,
+    "penetration": [
+      [
+        0,
+        1800
+      ]
+    ],
+    "explosive": [
+      "rdx_tnt",
+      25000,
+      32000
+    ]
+  },
+  {
+    "name": "sonicWave",
+    "localized": "sonicWave",
+    "shell_type": "HeatFs",
+    "caliber": 1000,
+    "true_caliber": 1000,
+    "velocity": 1,
+    "penetration": [
+      [
+        0,
+        20
       ]
     ],
     "explosive": [

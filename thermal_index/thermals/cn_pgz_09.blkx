@@ -39,9 +39,6 @@
     "useSimpleDeathConditionsAndEffects": false
   },
   {
-    "radarDeployTime": 3.0
-  },
-  {
     "autoSightDistanceCorrection": true
   },
   {
@@ -2617,7 +2614,7 @@
     "sensors": [
       {
         "sensor": {
-          "blk": "gameData/sensors/su_1rl144_search.blk",
+          "blk": "gameData/sensors/cn_pgz_09_search.blk",
           "turretIndex": 0,
           "designationFromBody": true,
           "designationTurretIndex": 0,
@@ -2626,7 +2623,7 @@
       },
       {
         "sensor": {
-          "blk": "gameData/sensors/su_1rl144_track.blk",
+          "blk": "gameData/sensors/cn_pgz_09_track.blk",
           "turretIndex": 0,
           "dmPart": "antenna_target_tagging_dm"
         }
@@ -3331,7 +3328,7 @@
           "sensors": [
             {
               "sensor": {
-                "blk": "gameData/sensors/su_1rl144_search.blk",
+                "blk": "gameData/sensors/cn_pgz_09_search.blk",
                 "turretIndex": 0,
                 "designationFromBody": true,
                 "designationTurretIndex": 0,
@@ -3340,7 +3337,7 @@
             },
             {
               "sensor": {
-                "blk": "gameData/sensors/su_1rl144_track.blk",
+                "blk": "gameData/sensors/cn_pgz_09_track.blk",
                 "turretIndex": 0,
                 "dmPart": "antenna_target_tagging_dm"
               }

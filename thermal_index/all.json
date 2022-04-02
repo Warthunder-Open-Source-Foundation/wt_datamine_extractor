@@ -1,5 +1,17 @@
 [
   {
+    "name": "a_10a_late",
+    "localized": "A-10A Late",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "a_129_a",
     "localized": "A-129 International (p)",
     "vehicle_type": "Helicopter",
@@ -32,6 +44,23 @@
         "crew": "Global",
         "x": 500.0,
         "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "acoustic_heavy_tank_a",
+    "localized": "S-0NC",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      },
+      {
+        "crew": "Commander",
+        "x": 1200.0,
+        "y": 800.0
       }
     ]
   },
@@ -342,6 +371,105 @@
         "crew": "Commander",
         "x": 800.0,
         "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "combat_tank_a",
+    "localized": "CT-T",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      },
+      {
+        "crew": "Commander",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "combat_tank_h",
+    "localized": "CT-T",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      },
+      {
+        "crew": "Commander",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "combat_track_a",
+    "localized": "Q-AD",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "combat_track_h",
+    "localized": "Q-AD",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "destroyer_heavy_tank_h",
+    "localized": "D-0TR",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      },
+      {
+        "crew": "Commander",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "dragonfly_a",
+    "localized": "TOPTER",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "dragonfly_h",
+    "localized": "TOPTER",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
       }
     ]
   },
@@ -819,8 +947,13 @@
     "sights": [
       {
         "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Commander",
+        "x": 800.0,
+        "y": 600.0
       }
     ]
   },
@@ -831,8 +964,13 @@
     "sights": [
       {
         "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Commander",
+        "x": 800.0,
+        "y": 600.0
       }
     ]
   },
@@ -1146,6 +1284,40 @@
         "crew": "Global",
         "x": 1024.0,
         "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "mlrs_tank_a",
+    "localized": "R-LAU",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      },
+      {
+        "crew": "Commander",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "mlrs_tank_h",
+    "localized": "R-LAU",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      },
+      {
+        "crew": "Commander",
+        "x": 1200.0,
+        "y": 800.0
       }
     ]
   },
