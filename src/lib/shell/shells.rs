@@ -149,6 +149,7 @@ pub enum ShellType {
 	Football = 16,
 	Shrapnel = 17,
 	Aam = 18,
+	SonicWave = 19,
 }
 
 impl ToString for ShellType {
@@ -214,7 +215,10 @@ impl FromStr for ShellType {
 			r#""hesh_tank""# => {
 				Ok(Self::Hesh)
 			}
-			r#""heat_tank""# | r#""heat_grenade_tank""# => {
+			r#""heat_tank""# |
+			r#""heat_grenade_tank""#  |
+			// This from april fools, its basically an RPG but not?!
+			r#""heat_fs_rocket""# => {
 				Ok(Self::Heat)
 			}
 			r#""practice_tank""# => {
@@ -266,6 +270,9 @@ impl FromStr for ShellType {
 			}
 			r#""aam""# => {
 				Ok(Self::Aam)
+			}
+			r#""sonicWave""# => {
+				Ok(Self::SonicWave)
 			}
 			// This is an edge-case, apcbc can both resolve to APHE or solid AP
 			r#""apbc_usa_tank""# |
