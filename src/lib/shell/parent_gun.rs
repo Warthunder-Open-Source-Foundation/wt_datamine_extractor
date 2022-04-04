@@ -1,6 +1,6 @@
 use std::fs;
 
-#[derive(serde::Serialize, Clone, serde::Deserialize, Debug, PartialEq, Hash, Eq)]
+#[derive(serde::Serialize, Clone, serde::Deserialize, Debug, PartialEq, Hash, Eq, const_gen::CompileConst)]
 pub struct ParentGun {
 	pub name: String,
 	pub localized: String,

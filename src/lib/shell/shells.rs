@@ -128,7 +128,7 @@ impl Shell {
 	}
 }
 
-#[derive(serde::Serialize, Clone, serde::Deserialize, Debug, PartialEq, EnumIter, Hash, Eq)]
+#[derive(serde::Serialize, Clone, serde::Deserialize, Debug, PartialEq, EnumIter, Hash, Eq, const_gen::CompileConst)]
 pub enum ShellType {
 	ApFsDs = 0,
 	HeatFs = 1,

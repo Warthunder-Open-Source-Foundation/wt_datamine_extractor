@@ -1,6 +1,6 @@
 use std::fs;
 
-#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq)]
+#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, const_gen::CompileConst)]
 pub struct KnownMissiles {
 	pub path: Vec<String>,
 }
