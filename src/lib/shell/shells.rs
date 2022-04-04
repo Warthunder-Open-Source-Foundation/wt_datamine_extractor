@@ -12,7 +12,7 @@ use crate::shell::known_shells::KnownShells;
 use crate::shell::penetration_select::shell_to_penetration;
 use crate::util::parameter_to_data;
 
-#[derive(serde::Serialize, Clone, serde::Deserialize, Debug, PartialEq, Hash, Eq)]
+#[derive(serde::Serialize, Clone, serde::Deserialize, Debug, PartialEq, Hash, Eq, const_gen::CompileConst)]
 pub struct Shell {
 	/// Metadata
 	pub name: String,
