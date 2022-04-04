@@ -5,7 +5,6 @@ use crate::lang::{Lang, unit_to_local};
 use crate::missile::extract_missiles::KnownMissiles;
 use crate::util::parameter_to_data;
 
-#[allow(clippy::struct_excessive_bools)]
 #[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone, const_gen::CompileConst)]
 pub struct Missile {
 	// metadata that is global or does not exist on files that are generated
