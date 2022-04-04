@@ -112,7 +112,7 @@ pub struct Missile {
 	pub deltav: f64,
 }
 
-#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Eq, Clone, const_gen::CompileConst)]
+#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Eq, Copy, Clone, const_gen::CompileConst)]
 pub enum SeekerType {
 	Ir = 0,
 	Radar = 1,

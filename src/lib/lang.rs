@@ -54,6 +54,7 @@ lazy_static! {
 	};
 }
 
+#[derive(Copy, Clone)]
 pub enum Lang {
 	Unit,
 	Weapon,
