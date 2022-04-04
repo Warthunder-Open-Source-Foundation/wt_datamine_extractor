@@ -19,7 +19,7 @@ lazy_static! {
 	};
 }
 
-#[derive(Debug)]
+#[derive(Debug, const_gen::CompileConst)]
 pub struct Explosive {
 	pub e_type: String,
 	pub k: f64,

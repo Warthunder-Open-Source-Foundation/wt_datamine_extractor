@@ -9,6 +9,26 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "2ff4eacbbe7430f589efd00fde89220646ada6e1a81b0ea220bf88ac62b5d615"
 
 [[package]]
+name = "const-gen"
+version = "1.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3b64bb40149acd2f4fdabe5f5fade7819a5fd80c3ee7bf896ca02515f8d1ffb2"
+dependencies = [
+ "const-gen-derive",
+]
+
+[[package]]
+name = "const-gen-derive"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7ed46321c257fee2e57a6b23b7852c60a3f20e16db9f2b275a7e3c59121862ef"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
 name = "fs_extra"
 version = "1.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -146,9 +166,10 @@ checksum = "00c4d1883527f3cafe5a40c1e4cd63e66c8b9f0c4114f235e1d6f891da7b3aac"
 
 [[package]]
 name = "wt_datamine_extractor"
-version = "0.3.0"
+version = "0.4.0"
 dependencies = [
  "any_ascii",
+ "const-gen",
  "fs_extra",
  "lazy_static",
  "serde",
