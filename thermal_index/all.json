@@ -48,23 +48,6 @@
     ]
   },
   {
-    "name": "acoustic_heavy_tank_a",
-    "localized": "S-0NC",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 1200.0,
-        "y": 800.0
-      },
-      {
-        "crew": "Commander",
-        "x": 1200.0,
-        "y": 800.0
-      }
-    ]
-  },
-  {
     "name": "ah_1f",
     "localized": "AH-1F",
     "vehicle_type": "Helicopter",
@@ -371,81 +354,6 @@
         "crew": "Commander",
         "x": 800.0,
         "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "combat_tank_a",
-    "localized": "CT-T",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 1200.0,
-        "y": 800.0
-      },
-      {
-        "crew": "Commander",
-        "x": 1200.0,
-        "y": 800.0
-      }
-    ]
-  },
-  {
-    "name": "combat_tank_h",
-    "localized": "CT-T",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 1200.0,
-        "y": 800.0
-      },
-      {
-        "crew": "Commander",
-        "x": 1200.0,
-        "y": 800.0
-      }
-    ]
-  },
-  {
-    "name": "combat_track_a",
-    "localized": "Q-AD",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "combat_track_h",
-    "localized": "Q-AD",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "destroyer_heavy_tank_h",
-    "localized": "D-0TR",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 1200.0,
-        "y": 800.0
-      },
-      {
-        "crew": "Commander",
-        "x": 1200.0,
-        "y": 800.0
       }
     ]
   },
@@ -1284,40 +1192,6 @@
         "crew": "Global",
         "x": 1024.0,
         "y": 768.0
-      }
-    ]
-  },
-  {
-    "name": "mlrs_tank_a",
-    "localized": "R-LAU",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 1200.0,
-        "y": 800.0
-      },
-      {
-        "crew": "Commander",
-        "x": 1200.0,
-        "y": 800.0
-      }
-    ]
-  },
-  {
-    "name": "mlrs_tank_h",
-    "localized": "R-LAU",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 1200.0,
-        "y": 800.0
-      },
-      {
-        "crew": "Commander",
-        "x": 1200.0,
-        "y": 800.0
       }
     ]
   },

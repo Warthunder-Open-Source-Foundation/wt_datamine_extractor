@@ -8757,7 +8757,7 @@
     "shell_type": "SapHei",
     "caliber": 180,
     "true_caliber": 180,
-    "velocity": 1200,
+    "velocity": 900,
     "penetration": [
       [
         0,
@@ -8789,9 +8789,9 @@
       ]
     ],
     "explosive": [
-      "comp_a",
+      "tnt",
       20200,
-      29088
+      20200
     ]
   },
   {
@@ -19286,7 +19286,7 @@
     "penetration": [
       [
         0,
-        1000
+        1700
       ]
     ],
     "explosive": [
@@ -19479,8 +19479,8 @@
     ],
     "explosive": [
       "rdx_tnt",
-      25000,
-      32000
+      28000,
+      35840
     ]
   },
   {
