@@ -60,8 +60,8 @@ pub struct Missile {
 	/// amount of raw explosive material in g
 	pub exp_mass: u32,
 
-	/// proximity fuse. u8 because it has to derive CompileConst
-	pub pfuse: u8,
+	/// proximity fuse
+	pub pfuse: bool,
 
 	/// maximum G load at launch (assuming G = 9.81m/s²)
 	pub loadfactormax: f64,
@@ -97,14 +97,14 @@ pub struct Missile {
 	/// time the missile remains in seek mode in s
 	pub worktime: f64,
 
-	/// if the seeker is on a gimbal or not. u8 because it has to derive CompileConst
-	pub cageable: u8,
+	/// if the seeker is on a gimbal or not
+	pub cageable: bool,
 
-	/// if the missile applies proportional navigation after losing lock (dead behaviour). u8 because it has to derive CompileConst
-	pub inertial_navigation: u8,
+	/// if the missile applies proportional navigation after losing lock (dead behaviour)
+	pub inertial_navigation: bool,
 
-	/// if the missile influences the inertial navigation with target velocity. u8 because it has to derive CompileConst
-	pub use_target_vel: u8,
+	/// if the missile influences the inertial navigation with target velocity
+	pub use_target_vel: bool,
 
 	// Calculated (dynamically created and not in files)
 
@@ -158,7 +158,7 @@ impl Missile {
 
 		let exp_mass = explosive_type_to_tnt(&parameter_to_data(&file, "explosiveType").unwrap().replace("\"", ""), (parameter_to_data(&file, "explosiveMass").unwrap().parse::<f64>().unwrap() * 1000.0).round() as u32);
 
-		let pfuse = parameter_to_data(&file, "hasProximityFuse").map_or(false, |value| value.parse().unwrap()) as u8;
+		let pfuse = parameter_to_data(&file, "hasProximityFuse").map_or(false, |value| value.parse().unwrap());
 
 		let loadfactormax = parameter_to_data(&file, "loadFactorMax").unwrap().parse().unwrap();
 
@@ -201,11 +201,11 @@ impl Missile {
 
 		let worktime = parameter_to_data(&file, "workTime").unwrap().parse().unwrap();
 
-		let cageable = parameter_to_data(&file, "uncageBeforeLaunch").unwrap().parse::<bool>().unwrap() as u8;
+		let cageable = parameter_to_data(&file, "uncageBeforeLaunch").unwrap().parse::<bool>().unwrap();
 
-		let inertial_navigation = parameter_to_data(&file, "inertialNavigation").unwrap_or_else(|| "false".to_owned()).parse::<bool>().unwrap() as u8;
+		let inertial_navigation = parameter_to_data(&file, "inertialNavigation").unwrap_or_else(|| "false".to_owned()).parse::<bool>().unwrap();
 
-		let use_target_vel= parameter_to_data(&file, "useTargetVel").unwrap_or_else(|| "false".to_owned()).parse::<bool>().unwrap() as u8;
+		let use_target_vel= parameter_to_data(&file, "useTargetVel").unwrap_or_else(|| "false".to_owned()).parse::<bool>().unwrap();
 
 		Self {
 			// localized first as the borrow consumes name otherwise

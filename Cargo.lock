@@ -10,9 +10,9 @@ checksum = "2ff4eacbbe7430f589efd00fde89220646ada6e1a81b0ea220bf88ac62b5d615"
 
 [[package]]
 name = "const-gen"
-version = "1.0.0"
+version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3b64bb40149acd2f4fdabe5f5fade7819a5fd80c3ee7bf896ca02515f8d1ffb2"
+checksum = "b041ea9283427fb0baeb0d9815a0f6d74094c73fcf23713e87a9d1bc19dbaab6"
 dependencies = [
  "const-gen-derive",
 ]
