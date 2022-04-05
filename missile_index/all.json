@@ -16,7 +16,7 @@
     "timelife": 20.0,
     "endspeed": 1000.0,
     "exp_mass": 1776,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 12.0,
     "reqaccelmax": 0.0,
     "bands": [
@@ -32,9 +32,9 @@
     "minangletosun": 10.0,
     "warmuptime": 5.0,
     "worktime": 60.0,
-    "cageable": 0,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": false,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 973.0
   },
   {
@@ -54,7 +54,7 @@
     "timelife": 45.0,
     "endspeed": 1500.0,
     "exp_mass": 12800,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 35.0,
     "reqaccelmax": 25.0,
     "bands": [
@@ -70,9 +70,9 @@
     "minangletosun": 0.0,
     "warmuptime": 1.4,
     "worktime": 100.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 553.0
   },
   {
@@ -92,7 +92,7 @@
     "timelife": 45.0,
     "endspeed": 0.0,
     "exp_mass": 10368,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 30.0,
     "reqaccelmax": 30.0,
     "bands": [
@@ -108,9 +108,9 @@
     "minangletosun": 0.0,
     "warmuptime": 2.0,
     "worktime": 15.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 718.0
   },
   {
@@ -130,7 +130,7 @@
     "timelife": 100.0,
     "endspeed": 0.0,
     "exp_mass": 10368,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 15.0,
     "reqaccelmax": 15.0,
     "bands": [
@@ -146,9 +146,9 @@
     "minangletosun": 5.0,
     "warmuptime": 4.0,
     "worktime": 15.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 616.0
   },
   {
@@ -168,7 +168,7 @@
     "timelife": 25.0,
     "endspeed": 0.0,
     "exp_mass": 10368,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 15.0,
     "reqaccelmax": 15.0,
     "bands": [
@@ -184,9 +184,9 @@
     "minangletosun": 0.0,
     "warmuptime": 2.0,
     "worktime": 15.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 616.0
   },
   {
@@ -206,7 +206,7 @@
     "timelife": 25.0,
     "endspeed": 0.0,
     "exp_mass": 9600,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 30.0,
     "reqaccelmax": 30.0,
     "bands": [
@@ -222,9 +222,9 @@
     "minangletosun": 10.0,
     "warmuptime": 5.0,
     "worktime": 10.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 607.0
   },
   {
@@ -244,7 +244,7 @@
     "timelife": 20.0,
     "endspeed": 1000.0,
     "exp_mass": 8000,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 40.0,
     "reqaccelmax": 30.0,
     "bands": [
@@ -260,9 +260,9 @@
     "minangletosun": 12.0,
     "warmuptime": 5.0,
     "worktime": 10.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 727.0
   },
   {
@@ -282,7 +282,7 @@
     "timelife": 20.0,
     "endspeed": 1000.0,
     "exp_mass": 7616,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 10.0,
     "reqaccelmax": 11.0,
     "bands": [
@@ -298,9 +298,9 @@
     "minangletosun": 20.0,
     "warmuptime": 4.0,
     "worktime": 15.0,
-    "cageable": 0,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": false,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 584.0
   },
   {
@@ -320,7 +320,7 @@
     "timelife": 30.0,
     "endspeed": 1000.0,
     "exp_mass": 7616,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 18.0,
     "reqaccelmax": 18.0,
     "bands": [
@@ -336,9 +336,9 @@
     "minangletosun": 20.0,
     "warmuptime": 4.0,
     "worktime": 15.0,
-    "cageable": 0,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": false,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 633.0
   },
   {
@@ -358,7 +358,7 @@
     "timelife": 45.0,
     "endspeed": 1500.0,
     "exp_mass": 10240,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 35.0,
     "reqaccelmax": 25.0,
     "bands": [
@@ -374,9 +374,9 @@
     "minangletosun": 0.0,
     "warmuptime": 1.4,
     "worktime": 100.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 571.0
   },
   {
@@ -396,7 +396,7 @@
     "timelife": 14.0,
     "endspeed": 1000.0,
     "exp_mass": 530,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 10.0,
     "reqaccelmax": 10.0,
     "bands": [
@@ -412,9 +412,9 @@
     "minangletosun": 5.0,
     "warmuptime": 5.0,
     "worktime": 60.0,
-    "cageable": 0,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": false,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 868.0
   },
   {
@@ -434,7 +434,7 @@
     "timelife": 14.0,
     "endspeed": 1000.0,
     "exp_mass": 530,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 10.0,
     "reqaccelmax": 10.0,
     "bands": [
@@ -450,9 +450,9 @@
     "minangletosun": 5.0,
     "warmuptime": 5.0,
     "worktime": 60.0,
-    "cageable": 0,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": false,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 868.0
   },
   {
@@ -472,7 +472,7 @@
     "timelife": 21.0,
     "endspeed": 800.0,
     "exp_mass": 8800,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 10.0,
     "reqaccelmax": 11.0,
     "bands": [
@@ -488,9 +488,9 @@
     "minangletosun": 20.0,
     "warmuptime": 6.0,
     "worktime": 15.0,
-    "cageable": 0,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": false,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 506.0
   },
   {
@@ -510,7 +510,7 @@
     "timelife": 40.0,
     "endspeed": 1000.0,
     "exp_mass": 7616,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 20.0,
     "reqaccelmax": 20.0,
     "bands": [
@@ -526,9 +526,9 @@
     "minangletosun": 20.0,
     "warmuptime": 4.0,
     "worktime": 15.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 857.0
   },
   {
@@ -548,7 +548,7 @@
     "timelife": 40.0,
     "endspeed": 1000.0,
     "exp_mass": 7616,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 20.0,
     "reqaccelmax": 20.0,
     "bands": [
@@ -564,9 +564,9 @@
     "minangletosun": 20.0,
     "warmuptime": 4.0,
     "worktime": 15.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 857.0
   },
   {
@@ -586,7 +586,7 @@
     "timelife": 20.0,
     "endspeed": 1000.0,
     "exp_mass": 8000,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 40.0,
     "reqaccelmax": 30.0,
     "bands": [
@@ -602,9 +602,9 @@
     "minangletosun": 12.0,
     "warmuptime": 5.0,
     "worktime": 10.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 727.0
   },
   {
@@ -624,7 +624,7 @@
     "timelife": 54.0,
     "endspeed": 1000.0,
     "exp_mass": 5500,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 15.0,
     "reqaccelmax": 15.0,
     "bands": [
@@ -640,9 +640,9 @@
     "minangletosun": 10.0,
     "warmuptime": 4.0,
     "worktime": 15.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 593.0
   },
   {
@@ -662,7 +662,7 @@
     "timelife": 54.0,
     "endspeed": 1000.0,
     "exp_mass": 5500,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 20.0,
     "reqaccelmax": 20.0,
     "bands": [
@@ -678,9 +678,9 @@
     "minangletosun": 10.0,
     "warmuptime": 4.0,
     "worktime": 15.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 574.0
   },
   {
@@ -700,7 +700,7 @@
     "timelife": 54.0,
     "endspeed": 1000.0,
     "exp_mass": 5500,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 20.0,
     "reqaccelmax": 20.0,
     "bands": [
@@ -716,9 +716,9 @@
     "minangletosun": 10.0,
     "warmuptime": 4.0,
     "worktime": 15.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 574.0
   },
   {
@@ -738,7 +738,7 @@
     "timelife": 35.0,
     "endspeed": 1000.0,
     "exp_mass": 20800,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 20.0,
     "reqaccelmax": 20.0,
     "bands": [
@@ -754,9 +754,9 @@
     "minangletosun": 0.0,
     "warmuptime": 1.0,
     "worktime": 100.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 498.0
   },
   {
@@ -776,7 +776,7 @@
     "timelife": 35.0,
     "endspeed": 1000.0,
     "exp_mass": 20800,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 20.0,
     "reqaccelmax": 20.0,
     "bands": [
@@ -792,9 +792,9 @@
     "minangletosun": 7.0,
     "warmuptime": 4.0,
     "worktime": 30.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 516.0
   },
   {
@@ -814,7 +814,7 @@
     "timelife": 45.0,
     "endspeed": 1500.0,
     "exp_mass": 20800,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 24.0,
     "reqaccelmax": 24.0,
     "bands": [
@@ -830,9 +830,9 @@
     "minangletosun": 0.0,
     "warmuptime": 1.0,
     "worktime": 100.0,
-    "cageable": 1,
-    "inertial_navigation": 1,
-    "use_target_vel": 1,
+    "cageable": true,
+    "inertial_navigation": true,
+    "use_target_vel": true,
     "deltav": 615.0
   },
   {
@@ -852,7 +852,7 @@
     "timelife": 45.0,
     "endspeed": 1500.0,
     "exp_mass": 20800,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 24.0,
     "reqaccelmax": 24.0,
     "bands": [
@@ -868,9 +868,9 @@
     "minangletosun": 7.0,
     "warmuptime": 4.0,
     "worktime": 30.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 633.0
   },
   {
@@ -890,7 +890,7 @@
     "timelife": 21.0,
     "endspeed": 1000.0,
     "exp_mass": 8800,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 10.0,
     "reqaccelmax": 11.0,
     "bands": [
@@ -906,9 +906,9 @@
     "minangletosun": 0.0,
     "warmuptime": 2.0,
     "worktime": 15.0,
-    "cageable": 0,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": false,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 506.0
   },
   {
@@ -928,7 +928,7 @@
     "timelife": 21.0,
     "endspeed": 1000.0,
     "exp_mass": 8800,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 10.0,
     "reqaccelmax": 11.0,
     "bands": [
@@ -944,9 +944,9 @@
     "minangletosun": 20.0,
     "warmuptime": 6.0,
     "worktime": 15.0,
-    "cageable": 0,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": false,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 506.0
   },
   {
@@ -966,7 +966,7 @@
     "timelife": 21.0,
     "endspeed": 0.0,
     "exp_mass": 1150,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 30.0,
     "reqaccelmax": 30.0,
     "bands": [
@@ -982,9 +982,9 @@
     "minangletosun": 10.0,
     "warmuptime": 6.0,
     "worktime": 15.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 648.0
   },
   {
@@ -1004,7 +1004,7 @@
     "timelife": 21.0,
     "endspeed": 0.0,
     "exp_mass": 1150,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 30.0,
     "reqaccelmax": 30.0,
     "bands": [
@@ -1020,9 +1020,9 @@
     "minangletosun": 10.0,
     "warmuptime": 6.0,
     "worktime": 15.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 648.0
   },
   {
@@ -1042,7 +1042,7 @@
     "timelife": 21.0,
     "endspeed": 0.0,
     "exp_mass": 1350,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 30.0,
     "reqaccelmax": 30.0,
     "bands": [
@@ -1058,9 +1058,9 @@
     "minangletosun": 7.0,
     "warmuptime": 6.0,
     "worktime": 15.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 648.0
   },
   {
@@ -1080,7 +1080,7 @@
     "timelife": 21.0,
     "endspeed": 0.0,
     "exp_mass": 1350,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 30.0,
     "reqaccelmax": 30.0,
     "bands": [
@@ -1096,9 +1096,9 @@
     "minangletosun": 7.0,
     "warmuptime": 6.0,
     "worktime": 15.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 648.0
   },
   {
@@ -1118,7 +1118,7 @@
     "timelife": 20.0,
     "endspeed": 1000.0,
     "exp_mass": 7616,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 10.0,
     "reqaccelmax": 11.0,
     "bands": [
@@ -1134,9 +1134,9 @@
     "minangletosun": 20.0,
     "warmuptime": 4.0,
     "worktime": 15.0,
-    "cageable": 0,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": false,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 523.0
   },
   {
@@ -1156,7 +1156,7 @@
     "timelife": 40.0,
     "endspeed": 1000.0,
     "exp_mass": 7616,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 20.0,
     "reqaccelmax": 20.0,
     "bands": [
@@ -1172,9 +1172,9 @@
     "minangletosun": 10.0,
     "warmuptime": 5.0,
     "worktime": 10.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 518.0
   },
   {
@@ -1194,7 +1194,7 @@
     "timelife": 40.0,
     "endspeed": 1500.0,
     "exp_mass": 11520,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 25.0,
     "reqaccelmax": 25.0,
     "bands": [
@@ -1210,9 +1210,9 @@
     "minangletosun": 0.0,
     "warmuptime": 1.4,
     "worktime": 100.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 508.0
   },
   {
@@ -1232,7 +1232,7 @@
     "timelife": 60.0,
     "endspeed": 1000.0,
     "exp_mass": 4064,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 30.0,
     "reqaccelmax": 30.0,
     "bands": [
@@ -1248,9 +1248,9 @@
     "minangletosun": 10.0,
     "warmuptime": 5.0,
     "worktime": 10.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 753.0
   },
   {
@@ -1270,7 +1270,7 @@
     "timelife": 13.0,
     "endspeed": 1000.0,
     "exp_mass": 8750,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 15.0,
     "reqaccelmax": 15.0,
     "bands": [
@@ -1286,9 +1286,9 @@
     "minangletosun": 3.0,
     "warmuptime": 5.0,
     "worktime": 20.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 531.0
   },
   {
@@ -1308,7 +1308,7 @@
     "timelife": 40.0,
     "endspeed": 1300.0,
     "exp_mass": 18100,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 16.0,
     "reqaccelmax": 16.0,
     "bands": [
@@ -1324,9 +1324,9 @@
     "minangletosun": 3.0,
     "warmuptime": 5.0,
     "worktime": 20.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 539.0
   },
   {
@@ -1346,7 +1346,7 @@
     "timelife": 40.0,
     "endspeed": 1500.0,
     "exp_mass": 11520,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 15.0,
     "reqaccelmax": 15.0,
     "bands": [
@@ -1362,9 +1362,9 @@
     "minangletosun": 0.0,
     "warmuptime": 1.4,
     "worktime": 100.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 508.0
   },
   {
@@ -1384,7 +1384,7 @@
     "timelife": 40.0,
     "endspeed": 1500.0,
     "exp_mass": 11520,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 25.0,
     "reqaccelmax": 25.0,
     "bands": [
@@ -1400,9 +1400,9 @@
     "minangletosun": 0.0,
     "warmuptime": 1.4,
     "worktime": 100.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 508.0
   },
   {
@@ -1422,7 +1422,7 @@
     "timelife": 3.7,
     "endspeed": 1000.0,
     "exp_mass": 4000,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 20.0,
     "reqaccelmax": 0.0,
     "bands": [
@@ -1438,9 +1438,9 @@
     "minangletosun": 10.0,
     "warmuptime": 3.0,
     "worktime": 20.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 699.0
   },
   {
@@ -1460,7 +1460,7 @@
     "timelife": 20.0,
     "endspeed": 1500.0,
     "exp_mass": 11520,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 15.0,
     "reqaccelmax": 15.0,
     "bands": [
@@ -1476,9 +1476,9 @@
     "minangletosun": 0.0,
     "warmuptime": 1.0,
     "worktime": 60.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 382.0
   },
   {
@@ -1498,7 +1498,7 @@
     "timelife": 40.0,
     "endspeed": 1500.0,
     "exp_mass": 11520,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 15.0,
     "reqaccelmax": 15.0,
     "bands": [
@@ -1514,9 +1514,9 @@
     "minangletosun": 0.0,
     "warmuptime": 1.4,
     "worktime": 100.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 437.0
   },
   {
@@ -1536,7 +1536,7 @@
     "timelife": 40.0,
     "endspeed": 1500.0,
     "exp_mass": 11520,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 25.0,
     "reqaccelmax": 25.0,
     "bands": [
@@ -1552,9 +1552,9 @@
     "minangletosun": 0.0,
     "warmuptime": 1.4,
     "worktime": 100.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 506.0
   },
   {
@@ -1574,7 +1574,7 @@
     "timelife": 40.0,
     "endspeed": 1500.0,
     "exp_mass": 11520,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 25.0,
     "reqaccelmax": 25.0,
     "bands": [
@@ -1590,9 +1590,9 @@
     "minangletosun": 0.0,
     "warmuptime": 1.4,
     "worktime": 100.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 478.0
   },
   {
@@ -1612,7 +1612,7 @@
     "timelife": 75.0,
     "endspeed": 1500.0,
     "exp_mass": 15091,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 25.0,
     "reqaccelmax": 25.0,
     "bands": [
@@ -1628,9 +1628,9 @@
     "minangletosun": 0.0,
     "warmuptime": 1.4,
     "worktime": 100.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 1,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": true,
     "deltav": 826.0
   },
   {
@@ -1650,7 +1650,7 @@
     "timelife": 17.0,
     "endspeed": 1000.0,
     "exp_mass": 540,
-    "pfuse": 0,
+    "pfuse": false,
     "loadfactormax": 10.0,
     "reqaccelmax": 10.0,
     "bands": [
@@ -1666,9 +1666,9 @@
     "minangletosun": 5.0,
     "warmuptime": 4.0,
     "worktime": 60.0,
-    "cageable": 0,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": false,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 1089.0
   },
   {
@@ -1688,7 +1688,7 @@
     "timelife": 20.0,
     "endspeed": 1000.0,
     "exp_mass": 7616,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 10.0,
     "reqaccelmax": 11.0,
     "bands": [
@@ -1704,9 +1704,9 @@
     "minangletosun": 10.0,
     "warmuptime": 4.0,
     "worktime": 15.0,
-    "cageable": 0,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": false,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 523.0
   },
   {
@@ -1726,7 +1726,7 @@
     "timelife": 20.0,
     "endspeed": 1000.0,
     "exp_mass": 7616,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 10.0,
     "reqaccelmax": 11.0,
     "bands": [
@@ -1742,9 +1742,9 @@
     "minangletosun": 20.0,
     "warmuptime": 4.0,
     "worktime": 15.0,
-    "cageable": 0,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": false,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 523.0
   },
   {
@@ -1764,7 +1764,7 @@
     "timelife": 60.0,
     "endspeed": 1000.0,
     "exp_mass": 4691,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 18.0,
     "reqaccelmax": 18.0,
     "bands": [
@@ -1780,9 +1780,9 @@
     "minangletosun": 0.0,
     "warmuptime": 2.0,
     "worktime": 15.0,
-    "cageable": 0,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": false,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 714.0
   },
   {
@@ -1802,7 +1802,7 @@
     "timelife": 60.0,
     "endspeed": 1000.0,
     "exp_mass": 4691,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 18.0,
     "reqaccelmax": 18.0,
     "bands": [
@@ -1818,9 +1818,9 @@
     "minangletosun": 10.0,
     "warmuptime": 5.0,
     "worktime": 10.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 739.0
   },
   {
@@ -1840,7 +1840,7 @@
     "timelife": 20.0,
     "endspeed": 1000.0,
     "exp_mass": 7616,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 10.0,
     "reqaccelmax": 11.0,
     "bands": [
@@ -1856,9 +1856,9 @@
     "minangletosun": 10.0,
     "warmuptime": 5.0,
     "worktime": 10.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 521.0
   },
   {
@@ -1878,7 +1878,7 @@
     "timelife": 60.0,
     "endspeed": 1000.0,
     "exp_mass": 3533,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 18.0,
     "reqaccelmax": 18.0,
     "bands": [
@@ -1894,9 +1894,9 @@
     "minangletosun": 10.0,
     "warmuptime": 5.0,
     "worktime": 10.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 739.0
   },
   {
@@ -1916,7 +1916,7 @@
     "timelife": 40.0,
     "endspeed": 1000.0,
     "exp_mass": 7616,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 20.0,
     "reqaccelmax": 20.0,
     "bands": [
@@ -1932,9 +1932,9 @@
     "minangletosun": 10.0,
     "warmuptime": 5.0,
     "worktime": 10.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 518.0
   },
   {
@@ -1954,7 +1954,7 @@
     "timelife": 60.0,
     "endspeed": 1000.0,
     "exp_mass": 4064,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 30.0,
     "reqaccelmax": 30.0,
     "bands": [
@@ -1970,9 +1970,9 @@
     "minangletosun": 10.0,
     "warmuptime": 5.0,
     "worktime": 10.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 753.0
   },
   {
@@ -1992,7 +1992,7 @@
     "timelife": 60.0,
     "endspeed": 1000.0,
     "exp_mass": 4064,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 30.0,
     "reqaccelmax": 30.0,
     "bands": [
@@ -2008,9 +2008,9 @@
     "minangletosun": 10.0,
     "warmuptime": 5.0,
     "worktime": 10.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 753.0
   },
   {
@@ -2030,7 +2030,7 @@
     "timelife": 40.0,
     "endspeed": 1000.0,
     "exp_mass": 7616,
-    "pfuse": 1,
+    "pfuse": true,
     "loadfactormax": 20.0,
     "reqaccelmax": 20.0,
     "bands": [
@@ -2046,9 +2046,9 @@
     "minangletosun": 10.0,
     "warmuptime": 5.0,
     "worktime": 10.0,
-    "cageable": 1,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": true,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 518.0
   },
   {
@@ -2068,7 +2068,7 @@
     "timelife": 17.0,
     "endspeed": 1000.0,
     "exp_mass": 3200,
-    "pfuse": 0,
+    "pfuse": false,
     "loadfactormax": 10.0,
     "reqaccelmax": 0.0,
     "bands": [
@@ -2084,9 +2084,9 @@
     "minangletosun": 5.0,
     "warmuptime": 4.0,
     "worktime": 60.0,
-    "cageable": 0,
-    "inertial_navigation": 0,
-    "use_target_vel": 0,
+    "cageable": false,
+    "inertial_navigation": false,
+    "use_target_vel": false,
     "deltav": 1089.0
   }
 ]
