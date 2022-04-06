@@ -398,7 +398,7 @@
     "exp_mass": 10240,
     "pfuse": true,
     "loadfactormax": 35.0,
-    "reqaccelmax": 25.0,
+    "reqaccelmax": 35.0,
     "bands": [
       0.0,
       0.0,

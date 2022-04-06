@@ -358,30 +358,6 @@
     ]
   },
   {
-    "name": "dragonfly_a",
-    "localized": "TOPTER",
-    "vehicle_type": "Helicopter",
-    "sights": [
-      {
-        "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
-      }
-    ]
-  },
-  {
-    "name": "dragonfly_h",
-    "localized": "TOPTER",
-    "vehicle_type": "Helicopter",
-    "sights": [
-      {
-        "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
-      }
-    ]
-  },
-  {
     "name": "fr_amx_10rc",
     "localized": "AMX-10RC",
     "vehicle_type": "Tank",
@@ -2034,6 +2010,18 @@
   {
     "name": "ussr_t_72b3_2017_race",
     "localized": "T-72B3 race",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "ussr_t_72m2_moderna",
+    "localized": "T-72M2 Moderna",
     "vehicle_type": "Tank",
     "sights": [
       {

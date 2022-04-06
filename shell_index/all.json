@@ -6569,6 +6569,49 @@
     ]
   },
   {
+    "name": "125mm_tapna",
+    "localized": "125mm_tapna",
+    "shell_type": "ApFsDs",
+    "caliber": 125,
+    "true_caliber": 22,
+    "velocity": 1690,
+    "penetration": [
+      [
+        0,
+        508
+      ],
+      [
+        100,
+        507
+      ],
+      [
+        500,
+        500
+      ],
+      [
+        1000,
+        490
+      ],
+      [
+        1500,
+        481
+      ],
+      [
+        2000,
+        472
+      ],
+      [
+        3000,
+        453
+      ]
+    ],
+    "explosive": [
+      "",
+      0,
+      0
+    ]
+  },
+  {
     "name": "127_bgm_71_TOW",
     "localized": "TOW",
     "shell_type": "Atgm",
@@ -18925,6 +18968,53 @@
       "",
       0,
       0
+    ]
+  },
+  {
+    "name": "95mm_shell_heat",
+    "localized": "95mm_shell_heat",
+    "shell_type": "Heat",
+    "caliber": 95,
+    "true_caliber": 95,
+    "velocity": 502,
+    "penetration": [
+      [
+        0,
+        110
+      ]
+    ],
+    "explosive": [
+      "pentolite",
+      646,
+      782
+    ]
+  },
+  {
+    "name": "95mm_shell_mk1a_he",
+    "localized": "95mm_shell_mk1a_he",
+    "shell_type": "He",
+    "caliber": 95,
+    "true_caliber": 95,
+    "velocity": 320,
+    "penetration": [],
+    "explosive": [
+      "amatol",
+      666,
+      666
+    ]
+  },
+  {
+    "name": "95mm_shell_se_mk1",
+    "localized": "95mm_shell_se_mk1",
+    "shell_type": "Smoke",
+    "caliber": 95,
+    "true_caliber": 95,
+    "velocity": 320,
+    "penetration": [],
+    "explosive": [
+      "smoke_composition",
+      50,
+      50
     ]
   },
   {
