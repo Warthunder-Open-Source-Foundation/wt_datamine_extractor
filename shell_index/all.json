@@ -6650,6 +6650,25 @@
     ]
   },
   {
+    "name": "127mm_atgm_tow",
+    "localized": "TOW",
+    "shell_type": "Atgm",
+    "caliber": 127,
+    "true_caliber": 127,
+    "velocity": 0,
+    "penetration": [
+      [
+        0,
+        430
+      ]
+    ],
+    "explosive": [
+      "comp_b",
+      2450,
+      3210
+    ]
+  },
+  {
     "name": "127mm_i_tow",
     "localized": "I-TOW",
     "shell_type": "Atgm",
@@ -6742,25 +6761,6 @@
       "rdx_tnt",
       2800,
       3584
-    ]
-  },
-  {
-    "name": "127mm_tow",
-    "localized": "127mm_tow",
-    "shell_type": "Atgm",
-    "caliber": 127,
-    "true_caliber": 127,
-    "velocity": 0,
-    "penetration": [
-      [
-        0,
-        430
-      ]
-    ],
-    "explosive": [
-      "comp_b",
-      2450,
-      3210
     ]
   },
   {
@@ -10087,11 +10087,11 @@
     "shell_type": "SapHei",
     "caliber": 30,
     "true_caliber": 30,
-    "velocity": 800,
+    "velocity": 750,
     "penetration": [
       [
         0,
-        65
+        60
       ]
     ],
     "explosive": [
@@ -19564,7 +19564,7 @@
     "penetration": [
       [
         0,
-        1800
+        1300
       ]
     ],
     "explosive": [
