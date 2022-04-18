@@ -7304,11 +7304,11 @@
     "shell_type": "HeatFs",
     "caliber": 140,
     "true_caliber": 140,
-    "velocity": 1400,
+    "velocity": 1410,
     "penetration": [
       [
         0,
-        1500
+        1000
       ]
     ],
     "explosive": [
@@ -7323,11 +7323,11 @@
     "shell_type": "HeatFs",
     "caliber": 140,
     "true_caliber": 140,
-    "velocity": 1410,
+    "velocity": 1650,
     "penetration": [
       [
         0,
-        1000
+        1500
       ]
     ],
     "explosive": [
