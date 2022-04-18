@@ -12,4 +12,4 @@ if [ "$GIT_OUT"  != "Already up to date." ]; then
   git commit -m "automatically update to ${NEW}" &&
   git push
 fi
-echo "Git is already up to date"
+echo "Git output was up to date or failed otherwise"
