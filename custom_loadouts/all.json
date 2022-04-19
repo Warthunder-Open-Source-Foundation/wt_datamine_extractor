@@ -1,0 +1,2193 @@
+[
+  {
+    "aircraft": "a_10a_early",
+    "pylons": [
+      {
+        "index": 0,
+        "tier": null,
+        "order": null,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "gau_8a_common",
+            "weight": 0.0,
+            "weapon_type": "Cannon"
+          },
+          {
+            "name": "gau_8a_ltc_common",
+            "weight": 0.0,
+            "weapon_type": "Cannon"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "tier": 11,
+        "order": 1,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "us_aim9l_sidewinder_lm_default",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "us_500lb_mk_82_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "tier": 10,
+        "order": 3,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "us_hydra_70_m247",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "us_500lb_mk_82_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "tier": 9,
+        "order": 5,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "us_hydra_70_m247",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "us_hydra_70_m247_x3",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "us_500lb_mk_82_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_500lb_mk_82_x3_ter9a_1",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_2000lb_mk_84_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_2000lb_gbu_8_hobos",
+            "weight": 0.0,
+            "weapon_type": "GBU"
+          },
+          {
+            "name": "us_agm_65a_x_3",
+            "weight": 0.0,
+            "weapon_type": "AGM"
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "tier": 8,
+        "order": 7,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "us_hydra_70_m247",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "us_hydra_70_m247_x3",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "us_500lb_mk_82_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_500lb_mk_82_x3_ter9a_1",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_2000lb_mk_84_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_2000lb_gbu_8_hobos",
+            "weight": 0.0,
+            "weapon_type": "GBU"
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "tier": 7,
+        "order": 9,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "us_500lb_mk_82_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_2000lb_mk_84_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "suu_23a_pod",
+            "weight": 0.0,
+            "weapon_type": "GunPod"
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "tier": 5,
+        "order": 10,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "us_500lb_mk_82_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_2000lb_mk_84_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "suu_23a_pod",
+            "weight": 0.0,
+            "weapon_type": "GunPod"
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "tier": 4,
+        "order": 8,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "us_hydra_70_m247",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "us_hydra_70_m247_x3",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "us_500lb_mk_82_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_500lb_mk_82_x3_ter9a_1",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_2000lb_mk_84_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_2000lb_gbu_8_hobos",
+            "weight": 0.0,
+            "weapon_type": "GBU"
+          }
+        ]
+      },
+      {
+        "index": 9,
+        "tier": 3,
+        "order": 6,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "us_hydra_70_m247",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "us_hydra_70_m247_x3",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "us_500lb_mk_82_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_500lb_mk_82_x3_ter9a_1",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_2000lb_mk_84_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_2000lb_gbu_8_hobos",
+            "weight": 0.0,
+            "weapon_type": "GBU"
+          },
+          {
+            "name": "us_agm_65a_x_3",
+            "weight": 0.0,
+            "weapon_type": "AGM"
+          }
+        ]
+      },
+      {
+        "index": 10,
+        "tier": 2,
+        "order": 4,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "us_hydra_70_m247",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "us_500lb_mk_82_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          }
+        ]
+      },
+      {
+        "index": 11,
+        "tier": 1,
+        "order": 2,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "us_aim9l_sidewinder_rm_default",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "us_500lb_mk_82_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          }
+        ]
+      }
+    ],
+    "max_load": 7257.0,
+    "max_imbalance": 1000.0,
+    "max_wing_load": [
+      4500.0,
+      4500.0
+    ]
+  },
+  {
+    "aircraft": "a_10a_late",
+    "pylons": [
+      {
+        "index": 0,
+        "tier": null,
+        "order": null,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "gau_8a_common",
+            "weight": 0.0,
+            "weapon_type": "Cannon"
+          },
+          {
+            "name": "gau_8a_ltc_common",
+            "weight": 0.0,
+            "weapon_type": "Cannon"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "tier": 11,
+        "order": 1,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "us_aim9l_sidewinder_lm_default",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "us_aim9l_sidewinder",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "us_500lb_mk_82_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "tier": 10,
+        "order": 3,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "us_hydra_70_m247",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "us_500lb_mk_82_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "tier": 9,
+        "order": 5,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "us_hydra_70_m247",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "us_hydra_70_m247_x3",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "us_500lb_mk_82_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_500lb_mk_82_x3_ter9a_1",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_2000lb_mk_84_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_agm_65d_x_3",
+            "weight": 0.0,
+            "weapon_type": "AGM"
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "tier": 8,
+        "order": 7,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "us_hydra_70_m247",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "us_hydra_70_m247_x3",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "us_500lb_mk_82_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_500lb_mk_82_x3_ter9a_1",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_2000lb_mk_84_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "tier": 7,
+        "order": 9,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "us_500lb_mk_82_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_2000lb_mk_84_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "tier": 5,
+        "order": 10,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "us_500lb_mk_82_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_2000lb_mk_84_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "tier": 4,
+        "order": 8,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "us_hydra_70_m247",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "us_hydra_70_m247_x3",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "us_500lb_mk_82_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_500lb_mk_82_x3_ter9a_1",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_2000lb_mk_84_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          }
+        ]
+      },
+      {
+        "index": 9,
+        "tier": 3,
+        "order": 6,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "us_hydra_70_m247",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "us_hydra_70_m247_x3",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "us_500lb_mk_82_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_500lb_mk_82_x3_ter9a_1",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_2000lb_mk_84_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_agm_65d_x_3",
+            "weight": 0.0,
+            "weapon_type": "AGM"
+          }
+        ]
+      },
+      {
+        "index": 10,
+        "tier": 2,
+        "order": 4,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "us_hydra_70_m247",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "us_500lb_mk_82_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          }
+        ]
+      },
+      {
+        "index": 11,
+        "tier": 1,
+        "order": 2,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "us_aim9l_sidewinder_rm_default",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "us_aim9l_sidewinder",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "us_500lb_mk_82_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          }
+        ]
+      }
+    ],
+    "max_load": 7257.0,
+    "max_imbalance": 1000.0,
+    "max_wing_load": [
+      4500.0,
+      4500.0
+    ]
+  },
+  {
+    "aircraft": "f-104s_asa",
+    "pylons": [
+      {
+        "index": 0,
+        "tier": null,
+        "order": null,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "Empty",
+            "weight": 0.0,
+            "weapon_type": "Empty"
+          },
+          {
+            "name": "f_104s_asa_common_ltc",
+            "weight": 0.0,
+            "weapon_type": "Countermeasures"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "tier": 11,
+        "order": 1,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "default_aim9l",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "tier": 10,
+        "order": 3,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "aim9l",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "it_aspide_1a",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "us_500lb_mk_82_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_750lb_m117_cone_45",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "aero_7a_2_75_in_ffar_mighty_mouse",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "lau_10a_zuni_wafar_mk32",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "tier": 9,
+        "order": 5,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "us_500lb_mk_82_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_750lb_m117_cone_45",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_1000lb_mk_83_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "aero_7a_2_75_in_ffar_mighty_mouse",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "tier": 8,
+        "order": 7,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "us_500lb_mk_82_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_750lb_m117_cone_45",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "tier": 7,
+        "order": null,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "cannon_m61",
+            "weight": 0.0,
+            "weapon_type": "Cannon"
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "tier": 6,
+        "order": 10,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "us_2000lb_mk_84_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "tier": 4,
+        "order": 9,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "us_500lb_mk_82_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_750lb_m117_cone_45",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "tier": 3,
+        "order": 6,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "us_500lb_mk_82_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_750lb_m117_cone_45",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_1000lb_mk_83_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "aero_7a_2_75_in_ffar_mighty_mouse",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          }
+        ]
+      },
+      {
+        "index": 9,
+        "tier": 2,
+        "order": 4,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "aim9l",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "it_aspide_1a",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "us_500lb_mk_82_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "us_750lb_m117_cone_45",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "aero_7a_2_75_in_ffar_mighty_mouse",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "lau_10a_zuni_wafar_mk32",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          }
+        ]
+      },
+      {
+        "index": 10,
+        "tier": 1,
+        "order": 2,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "default_aim9l",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          }
+        ]
+      }
+    ],
+    "max_load": 3400.0,
+    "max_imbalance": 500.0,
+    "max_wing_load": [
+      2200.0,
+      2200.0
+    ]
+  },
+  {
+    "aircraft": "j_8b",
+    "pylons": [
+      {
+        "index": 0,
+        "tier": null,
+        "order": null,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "type_23_3_common",
+            "weight": 0.0,
+            "weapon_type": "Cannon"
+          },
+          {
+            "name": "type_23_3_ltc_common",
+            "weight": 0.0,
+            "weapon_type": "Cannon"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "tier": 9,
+        "order": 1,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "default_pl5b",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "hf_6_type90_heat",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "tier": 8,
+        "order": 3,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "pl5b",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "aspide",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "hf_6_type90_heat",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "250kg_mk_82",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "tier": 7,
+        "order": 5,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "pl5b",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "tier": 6,
+        "order": 7,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "250kg_mk_82_x6",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "tier": 5,
+        "order": 6,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "pl5b",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "tier": 4,
+        "order": 4,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "pl5b",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "aspide",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "hf_6_type90_heat",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "250kg_mk_82",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "tier": 3,
+        "order": 2,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "default_pl5b",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "hf_6_type90_heat",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          }
+        ]
+      }
+    ],
+    "max_load": 4500.0,
+    "max_imbalance": 1000.0,
+    "max_wing_load": [
+      1500.0,
+      1500.0
+    ]
+  },
+  {
+    "aircraft": "kfir_c2",
+    "pylons": [
+      {
+        "index": 0,
+        "tier": null,
+        "order": null,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "defa552a_common",
+            "weight": 0.0,
+            "weapon_type": "Cannon"
+          },
+          {
+            "name": "defa552a_ltc_common",
+            "weight": 0.0,
+            "weapon_type": "Cannon"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "tier": 9,
+        "order": 1,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "shafrir_2",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "aim9d",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "aim9g",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "tier": 8,
+        "order": 3,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "lau_3a_ffar_mighty_mouse_x2_left_wing",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "lau_10a_zuni_wafar_mk32_x2_left_wing",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "ter_us_500lb_mk_82_x3",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "ter_us_750lb_m117_cone_45_x2_left_wing",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "ter_us_1000lb_mk_83_x2_left_wing",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "2000lb_mk_84_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "suu_23a",
+            "weight": 0.0,
+            "weapon_type": "GunPod"
+          },
+          {
+            "name": "mdnp_us_500lb_mk_82_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "mdnp_us_750lb_m117_cone_45",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "tier": 7,
+        "order": 5,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "pylon_c2_f5_us_500lb_mk_82_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "pylon_c2_f5_us_750lb_m117_cone_45",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "pylon_c2_f5_us_1000lb_mk_83_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "tier": 6,
+        "order": 7,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "napgach_us_500lb_mk_82_ldgp_x5",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "tier": 5,
+        "order": 6,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "pylon_c2_f5_us_500lb_mk_82_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "pylon_c2_f5_us_750lb_m117_cone_45",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "pylon_c2_f5_us_1000lb_mk_83_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "tier": 4,
+        "order": 4,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "lau_3a_ffar_mighty_mouse_x2_right_wing",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "lau_10a_zuni_wafar_mk32_x2_right_wing",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "ter_us_500lb_mk_82_x3",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "ter_us_750lb_m117_cone_45_x2_right_wing",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "ter_us_1000lb_mk_83_x2_right_wing",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "2000lb_mk_84_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "suu_23a",
+            "weight": 0.0,
+            "weapon_type": "GunPod"
+          },
+          {
+            "name": "mdnp_us_500lb_mk_82_ldgp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "mdnp_us_750lb_m117_cone_45",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "tier": 3,
+        "order": 2,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "shafrir_2",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "aim9d",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "aim9g",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          }
+        ]
+      }
+    ],
+    "max_load": 4295.0,
+    "max_imbalance": 1100.0,
+    "max_wing_load": [
+      1500.0,
+      1500.0
+    ]
+  },
+  {
+    "aircraft": "mig_23mla",
+    "pylons": [
+      {
+        "index": 0,
+        "tier": null,
+        "order": null,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "gsh_23l_common",
+            "weight": 0.0,
+            "weapon_type": "Cannon"
+          },
+          {
+            "name": "gsh_23l_ltc_common",
+            "weight": 0.0,
+            "weapon_type": "Cannon"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "tier": 8,
+        "order": 1,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "default_r_13m1",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "r_60",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "r_23r",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "r_23t",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "r_24r",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "r_24t",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "ofab100_120",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "fab_250m_62",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "fab_500m_62t",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "ub_16_57_s5k",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "ub_32a_24_s5k",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "b8m1_s_8ko",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "s24",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "x23m",
+            "weight": 0.0,
+            "weapon_type": "AGM"
+          },
+          {
+            "name": "upk23_gunpod",
+            "weight": 0.0,
+            "weapon_type": "GunPod"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "tier": 7,
+        "order": 3,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "r_13m1",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "r_60m_x2_l",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "ofab100_120",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "fab_250m_62",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "ub_16_57_s5k",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "s24",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "tier": 5,
+        "order": 4,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "r_13m1",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "r_60m_x2_r",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "ofab100_120",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "fab_250m_62",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "ub_16_57_s5k",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "s24",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "tier": 4,
+        "order": 2,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "default_r_13m1",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "r_60",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "r_23r",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "r_23t",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "r_24r",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "r_24t",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "ofab100_120",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "fab_250m_62",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "fab_500m_62t",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "ub_16_57_s5k",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "ub_32a_24_s5k",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "b8m1_s_8ko",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "s24",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "x23m",
+            "weight": 0.0,
+            "weapon_type": "AGM"
+          },
+          {
+            "name": "upk23_gunpod",
+            "weight": 0.0,
+            "weapon_type": "GunPod"
+          }
+        ]
+      }
+    ],
+    "max_load": 2000.0,
+    "max_imbalance": 500.0,
+    "max_wing_load": [
+      500.0,
+      500.0
+    ]
+  },
+  {
+    "aircraft": "mirage_f1c",
+    "pylons": [
+      {
+        "index": 0,
+        "tier": null,
+        "order": null,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "defa_553_x2",
+            "weight": 0.0,
+            "weapon_type": "Cannon"
+          },
+          {
+            "name": "defa_553_x2_ltc",
+            "weight": 0.0,
+            "weapon_type": "Cannon"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "tier": 9,
+        "order": 1,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "wing_left_rocket_r550_magic_1",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "wing_left_rocket_r550_magic_2",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "tier": 8,
+        "order": 3,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "wing_left_1_bomb_250_samp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "wing_left_1_bomb_400_samp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "wing_left_1_bomb_250kg_samp_mk82",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "wing_left_1_bomb_500kg_samp_mk83",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "containers_matra_lr_f1",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "containers_matra_lr_f4",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "tier": 7,
+        "order": 5,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "wing_left_middle_rocket_r530_matra_ir",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "wing_left_middle_rocket_r530_matra_radar",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "wing_right_2_rocket_matra_super_530f",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "wing_left_middle_bomb_250_samp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "wing_left_middle_bomb_400_samp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "wing_left_middle_bomb_250kg_samp_mk82",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "wing_left_middle_bomb_500kg_samp_mk83",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "wing_left_middle_bomb_1000kg_samp_mk84",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "wing_left_middle_cc420",
+            "weight": 0.0,
+            "weapon_type": "GunPod"
+          },
+          {
+            "name": "containers_matra_lr_f1",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "containers_matra_lr_f4",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "tier": 6,
+        "order": 7,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "fuse_rocket_r530_matra_ir",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "fuse_rocket_r530_matra_radar",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "fuse_bomb_250_samp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "fuse_bomb_400_samp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "fuse_bomb_250kg_samp_mk82",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "fuse_bomb_500kg_samp_mk83",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "fuse_bomb_1000kg_samp_mk84",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "tier": 5,
+        "order": 6,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "wing_right_middle_rocket_r530_matra_ir",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "wing_right_middle_rocket_r530_matra_radar",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "wing_right_2_rocket_matra_super_530f",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "wing_right_middle_bomb_250_samp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "wing_right_middle_bomb_400_samp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "wing_right_middle_bomb_250kg_samp_mk82",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "wing_right_middle_bomb_500kg_samp_mk83",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "wing_right_middle_bomb_1000kg_samp_mk84",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "wing_right_middle_cc420",
+            "weight": 0.0,
+            "weapon_type": "GunPod"
+          },
+          {
+            "name": "containers_matra_lr_f1",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "containers_matra_lr_f4",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "tier": 4,
+        "order": 4,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "wing_right_1_bomb_250_samp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "wing_right_1_bomb_400_samp",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "wing_right_1_bomb_250kg_samp_mk82",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "wing_right_1_bomb_500kg_samp_mk83",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "containers_matra_lr_f1",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "containers_matra_lr_f4",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "tier": 3,
+        "order": 2,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "wing_right_rocket_r550_magic_1",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "wing_right_rocket_r550_magic_2",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          }
+        ]
+      }
+    ],
+    "max_load": 3000.0,
+    "max_imbalance": 500.0,
+    "max_wing_load": [
+      1500.0,
+      1500.0
+    ]
+  },
+  {
+    "aircraft": "su_22um3k",
+    "pylons": [
+      {
+        "index": 0,
+        "tier": null,
+        "order": null,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "nr_30",
+            "weight": 0.0,
+            "weapon_type": "Cannon"
+          },
+          {
+            "name": "nr_30_ltc",
+            "weight": 0.0,
+            "weapon_type": "Cannon"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "tier": 10,
+        "order": 1,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "wing_left_containers_ofab_100_120",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "wing_left_fab_250",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "wing_left_fab_500",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "wing_left_rocket_s24",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "wing_left_rocket_kh25_ml",
+            "weight": 0.0,
+            "weapon_type": "AGM"
+          },
+          {
+            "name": "wing_left_rocket_kh23_m",
+            "weight": 0.0,
+            "weapon_type": "AGM"
+          },
+          {
+            "name": "wing_left_rocket_s25o",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "wing_left_rocket_s25l",
+            "weight": 0.0,
+            "weapon_type": "AGM"
+          },
+          {
+            "name": "container_s3k",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "container_s8ko",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "container_ub_32",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "tier": 9,
+        "order": null,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "wing_left_single_r_60",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "tier": 8,
+        "order": 3,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "wing_left_middle_ofab_100_120_x1",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "wing_left_middle_fab_250_x1",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "wing_left_middle_fab_500_x1",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "wing_middle_left_rocket_s_24",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "wing_middle_left_rocket_r_60_x2",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "container_s8ko",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "container_ub_32",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "wing_middle_left_sppu_22",
+            "weight": 0.0,
+            "weapon_type": "GunPod"
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "tier": 7,
+        "order": 5,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "fuse_containers_left_ofab_100_120_x4",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "fuse_containers_left_fab_250_x3",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "fuse_left_fab_500_x2",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "fuse_left_rocket_s_24",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "fuse_left_rocket_kh25_ml",
+            "weight": 0.0,
+            "weapon_type": "AGM"
+          },
+          {
+            "name": "fuse_left_rocket_kh29_l",
+            "weight": 0.0,
+            "weapon_type": "AGM"
+          },
+          {
+            "name": "container_s3k",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "tier": 5,
+        "order": 6,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "fuse_containers_right_ofab_100_120_x4",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "fuse_containers_right_fab_250_x3",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "fuse_right_fab_500_x2",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "fuse_right_rocket_s_24",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "fuse_right_rocket_kh25_ml",
+            "weight": 0.0,
+            "weapon_type": "AGM"
+          },
+          {
+            "name": "fuse_right_rocket_kh29_l",
+            "weight": 0.0,
+            "weapon_type": "AGM"
+          },
+          {
+            "name": "container_s3k",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "tier": 4,
+        "order": 4,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "wing_right_middle_ofab_100_120_x1",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "wing_right_middle_fab_250_x1",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "wing_right_middle_fab_500_x1",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "wing_middle_right_rocket_s_24",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "wing_middle_right_rocket_r_60_x2",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          },
+          {
+            "name": "container_s8ko",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "container_ub_32",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "wing_middle_right_sppu_22",
+            "weight": 0.0,
+            "weapon_type": "GunPod"
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "tier": 3,
+        "order": null,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "wing_right_single_r_60",
+            "weight": 0.0,
+            "weapon_type": "AAM"
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "tier": 2,
+        "order": 2,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "wing_right_containers_ofab_100_120",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "wing_right_fab_250",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "wing_right_fab_500",
+            "weight": 0.0,
+            "weapon_type": "Bomb"
+          },
+          {
+            "name": "wing_right_rocket_s24",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "wing_right_rocket_kh25_ml",
+            "weight": 0.0,
+            "weapon_type": "AGM"
+          },
+          {
+            "name": "wing_right_rocket_kh23_m",
+            "weight": 0.0,
+            "weapon_type": "AGM"
+          },
+          {
+            "name": "wing_right_rocket_s25o",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "wing_right_rocket_s25l",
+            "weight": 0.0,
+            "weapon_type": "AGM"
+          },
+          {
+            "name": "container_s3k",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "container_s8ko",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          },
+          {
+            "name": "container_ub_32",
+            "weight": 0.0,
+            "weapon_type": "Rocket"
+          }
+        ]
+      }
+    ],
+    "max_load": 3000.0,
+    "max_imbalance": 700.0,
+    "max_wing_load": [
+      1500.0,
+      1500.0
+    ]
+  }
+]

@@ -13,5 +13,6 @@ pub mod util;
 pub mod lang;
 pub mod shell;
 pub mod explosive;
+pub mod custom_loadouts;
 
 pub const MISSILES_PATH: &str = "./missile_index/missiles";

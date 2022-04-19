@@ -1,5 +1,7 @@
 use std::fs;
 use std::time::Instant;
+use wt_datamine_extractor_lib::custom_loadouts::custom_loadouts::CustomLoadout;
+use wt_datamine_extractor_lib::custom_loadouts::known_loadouts::KnownLoadouts;
 use wt_datamine_extractor_lib::lang::copy_lang;
 use wt_datamine_extractor_lib::missile::extract_missiles::KnownMissiles;
 use wt_datamine_extractor_lib::missile::missile::Missile;
@@ -23,10 +25,12 @@ fn main() {
 		let known_missiles = KnownMissiles::generate_index().write_index().copy_index_to_folder();
 		let known_thermals = KnownThermals::generate_index().write_index().copy_index_to_folder();
 		let known_shells = KnownShells::generate_index().write_index().copy_index_to_folder();
+		let known_loadouts = KnownLoadouts::generate_index().write_index().copy_index_to_folder();
 
 		let missiles = Missile::generate_from_index(&known_missiles);
 		let thermals = Thermal::generate_from_index(&known_thermals);
 		let shells = Shell::generate_from_index(&known_shells);
+		let loadouts = CustomLoadout::generate_from_index(&known_loadouts);
 
 
 		let compressed_shells = CompressedShells::compress(&shells);
@@ -35,6 +39,7 @@ fn main() {
 		Missile::write_all(missiles);
 		Thermal::write_all(thermals);
 		Shell::write_all(shells);
+		CustomLoadout::write_all(loadouts);
 	} else {
 		panic!("Local mined cache is invalid or could not be read");
 	}
