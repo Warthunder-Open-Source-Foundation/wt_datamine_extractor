@@ -18,9 +18,9 @@ pub struct CustomLoadout {
 
 #[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone, const_gen::CompileConst)]
 pub struct Pylon {
-	index: u32,
-	tier: Option<u32>,
-	order: Option<u32>,
+	pub index: u32,
+	pub tier: Option<u32>,
+	pub order: Option<u32>,
 	pub exempt_from_imbalance: bool,
 	pub weapons: Vec<Weapon>,
 }
@@ -81,7 +81,7 @@ impl CustomLoadout {
 
 		let mut split = file.split("\"WeaponSlot\"").collect::<Vec<&str>>();
 		split.remove(0);
-		for (at, slot) in split.iter().enumerate() {
+		for slot in split {
 			let exempt_from_imbalance = parameter_to_data(&slot, "notUseforDisbalanceCalculation").unwrap_or("false".to_owned()).parse().unwrap();
 
 			let index = parameter_to_data(&slot, "index").unwrap().parse().unwrap();
@@ -105,6 +105,7 @@ impl CustomLoadout {
 
 			for preset in split {
 				let weapon_type  = WeaponType::from_str(&parameter_to_data(&preset, "trigger").unwrap_or("empty".to_owned()));
+
 				if weapon_type == WeaponType::Empty {
 					weapons.push(Weapon {
 						name: "Empty".to_owned(),
@@ -115,9 +116,17 @@ impl CustomLoadout {
 				}
 				let name = parameter_to_data(&preset, "name").unwrap().replace("\"", "");
 
+				let blk_path = parameter_to_data(&preset, "blk").unwrap();
+
+				//////////////////////////////////////////////
+				let mut mass: f64 = 0.0;
+				let mut count = 0;
+				get_container_weight(&blk_path, &mut mass, &mut count);
+				let weight = mass * count as f64;
+
 				weapons.push(Weapon {
 					name,
-					weight: 0.0,
+					weight,
 					weapon_type
 				})
 			}
@@ -170,4 +179,31 @@ impl CustomLoadout {
 		}
 		None
 	}
+}
+
+pub fn get_container_weight(base_container: &str, mass: &mut f64, count: &mut i32)  {
+	let container = fs::read_to_string(wt_blk_to_actual(base_container)).unwrap();
+
+	if let Some(mass_str) = parameter_to_data(&container, "mass") {
+		if *count == 0 {
+			*count = 1;
+		}
+		*mass = mass_str.parse::<f64>().unwrap();
+	} else {
+		if *count == 0 {
+			*count =  parameter_to_data(&container, "bullets").unwrap().parse::<i32>().unwrap();
+		} else {
+			*count *= parameter_to_data(&container, "bullets").unwrap().parse::<i32>().unwrap();
+		}
+		let blk_path = parameter_to_data(&container, "blk").unwrap();
+
+		get_container_weight(&blk_path, mass, count);
+	};
+}
+
+pub fn wt_blk_to_actual(raw: &str) -> String {
+	let clean_path =  raw.replace("\"", "");
+	let mut split = clean_path.split("/").collect::<Vec<&str>>();
+	split.remove(0);
+	format!("custom_loadouts/{}", split.join("/").to_ascii_lowercase() + "x")
 }

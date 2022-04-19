@@ -10,12 +10,12 @@
         "weapons": [
           {
             "name": "gau_8a_common",
-            "weight": 0.0,
+            "weight": 866.0,
             "weapon_type": "Cannon"
           },
           {
             "name": "gau_8a_ltc_common",
-            "weight": 0.0,
+            "weight": 866.0,
             "weapon_type": "Cannon"
           }
         ]
@@ -28,12 +28,12 @@
         "weapons": [
           {
             "name": "us_aim9l_sidewinder_lm_default",
-            "weight": 0.0,
+            "weight": 84.46,
             "weapon_type": "AAM"
           },
           {
             "name": "us_500lb_mk_82_ldgp",
-            "weight": 0.0,
+            "weight": 240.9,
             "weapon_type": "Bomb"
           }
         ]
@@ -46,12 +46,12 @@
         "weapons": [
           {
             "name": "us_hydra_70_m247",
-            "weight": 0.0,
+            "weight": 71.12,
             "weapon_type": "Rocket"
           },
           {
             "name": "us_500lb_mk_82_ldgp",
-            "weight": 0.0,
+            "weight": 240.9,
             "weapon_type": "Bomb"
           }
         ]
@@ -64,37 +64,37 @@
         "weapons": [
           {
             "name": "us_hydra_70_m247",
-            "weight": 0.0,
+            "weight": 71.12,
             "weapon_type": "Rocket"
           },
           {
             "name": "us_hydra_70_m247_x3",
-            "weight": 0.0,
+            "weight": 213.36,
             "weapon_type": "Rocket"
           },
           {
             "name": "us_500lb_mk_82_ldgp",
-            "weight": 0.0,
+            "weight": 240.9,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_500lb_mk_82_x3_ter9a_1",
-            "weight": 0.0,
+            "weight": 722.7,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_2000lb_mk_84_ldgp",
-            "weight": 0.0,
+            "weight": 893.6,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_2000lb_gbu_8_hobos",
-            "weight": 0.0,
+            "weight": 1027.0,
             "weapon_type": "GBU"
           },
           {
             "name": "us_agm_65a_x_3",
-            "weight": 0.0,
+            "weight": 621.0,
             "weapon_type": "AGM"
           }
         ]
@@ -107,32 +107,32 @@
         "weapons": [
           {
             "name": "us_hydra_70_m247",
-            "weight": 0.0,
+            "weight": 71.12,
             "weapon_type": "Rocket"
           },
           {
             "name": "us_hydra_70_m247_x3",
-            "weight": 0.0,
+            "weight": 213.36,
             "weapon_type": "Rocket"
           },
           {
             "name": "us_500lb_mk_82_ldgp",
-            "weight": 0.0,
+            "weight": 240.9,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_500lb_mk_82_x3_ter9a_1",
-            "weight": 0.0,
+            "weight": 722.7,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_2000lb_mk_84_ldgp",
-            "weight": 0.0,
+            "weight": 893.6,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_2000lb_gbu_8_hobos",
-            "weight": 0.0,
+            "weight": 1027.0,
             "weapon_type": "GBU"
           }
         ]
@@ -145,17 +145,17 @@
         "weapons": [
           {
             "name": "us_500lb_mk_82_ldgp",
-            "weight": 0.0,
+            "weight": 240.9,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_2000lb_mk_84_ldgp",
-            "weight": 0.0,
+            "weight": 893.6,
             "weapon_type": "Bomb"
           },
           {
             "name": "suu_23a_pod",
-            "weight": 0.0,
+            "weight": 650.0,
             "weapon_type": "GunPod"
           }
         ]
@@ -168,17 +168,17 @@
         "weapons": [
           {
             "name": "us_500lb_mk_82_ldgp",
-            "weight": 0.0,
+            "weight": 240.9,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_2000lb_mk_84_ldgp",
-            "weight": 0.0,
+            "weight": 893.6,
             "weapon_type": "Bomb"
           },
           {
             "name": "suu_23a_pod",
-            "weight": 0.0,
+            "weight": 650.0,
             "weapon_type": "GunPod"
           }
         ]
@@ -191,32 +191,32 @@
         "weapons": [
           {
             "name": "us_hydra_70_m247",
-            "weight": 0.0,
+            "weight": 71.12,
             "weapon_type": "Rocket"
           },
           {
             "name": "us_hydra_70_m247_x3",
-            "weight": 0.0,
+            "weight": 213.36,
             "weapon_type": "Rocket"
           },
           {
             "name": "us_500lb_mk_82_ldgp",
-            "weight": 0.0,
+            "weight": 240.9,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_500lb_mk_82_x3_ter9a_1",
-            "weight": 0.0,
+            "weight": 722.7,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_2000lb_mk_84_ldgp",
-            "weight": 0.0,
+            "weight": 893.6,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_2000lb_gbu_8_hobos",
-            "weight": 0.0,
+            "weight": 1027.0,
             "weapon_type": "GBU"
           }
         ]
@@ -229,37 +229,37 @@
         "weapons": [
           {
             "name": "us_hydra_70_m247",
-            "weight": 0.0,
+            "weight": 71.12,
             "weapon_type": "Rocket"
           },
           {
             "name": "us_hydra_70_m247_x3",
-            "weight": 0.0,
+            "weight": 213.36,
             "weapon_type": "Rocket"
           },
           {
             "name": "us_500lb_mk_82_ldgp",
-            "weight": 0.0,
+            "weight": 240.9,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_500lb_mk_82_x3_ter9a_1",
-            "weight": 0.0,
+            "weight": 722.7,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_2000lb_mk_84_ldgp",
-            "weight": 0.0,
+            "weight": 893.6,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_2000lb_gbu_8_hobos",
-            "weight": 0.0,
+            "weight": 1027.0,
             "weapon_type": "GBU"
           },
           {
             "name": "us_agm_65a_x_3",
-            "weight": 0.0,
+            "weight": 621.0,
             "weapon_type": "AGM"
           }
         ]
@@ -272,12 +272,12 @@
         "weapons": [
           {
             "name": "us_hydra_70_m247",
-            "weight": 0.0,
+            "weight": 71.12,
             "weapon_type": "Rocket"
           },
           {
             "name": "us_500lb_mk_82_ldgp",
-            "weight": 0.0,
+            "weight": 240.9,
             "weapon_type": "Bomb"
           }
         ]
@@ -290,12 +290,12 @@
         "weapons": [
           {
             "name": "us_aim9l_sidewinder_rm_default",
-            "weight": 0.0,
+            "weight": 84.46,
             "weapon_type": "AAM"
           },
           {
             "name": "us_500lb_mk_82_ldgp",
-            "weight": 0.0,
+            "weight": 240.9,
             "weapon_type": "Bomb"
           }
         ]
@@ -319,12 +319,12 @@
         "weapons": [
           {
             "name": "gau_8a_common",
-            "weight": 0.0,
+            "weight": 866.0,
             "weapon_type": "Cannon"
           },
           {
             "name": "gau_8a_ltc_common",
-            "weight": 0.0,
+            "weight": 866.0,
             "weapon_type": "Cannon"
           }
         ]
@@ -337,17 +337,17 @@
         "weapons": [
           {
             "name": "us_aim9l_sidewinder_lm_default",
-            "weight": 0.0,
+            "weight": 84.46,
             "weapon_type": "AAM"
           },
           {
             "name": "us_aim9l_sidewinder",
-            "weight": 0.0,
+            "weight": 168.92,
             "weapon_type": "AAM"
           },
           {
             "name": "us_500lb_mk_82_ldgp",
-            "weight": 0.0,
+            "weight": 240.9,
             "weapon_type": "Bomb"
           }
         ]
@@ -360,12 +360,12 @@
         "weapons": [
           {
             "name": "us_hydra_70_m247",
-            "weight": 0.0,
+            "weight": 71.12,
             "weapon_type": "Rocket"
           },
           {
             "name": "us_500lb_mk_82_ldgp",
-            "weight": 0.0,
+            "weight": 240.9,
             "weapon_type": "Bomb"
           }
         ]
@@ -378,32 +378,32 @@
         "weapons": [
           {
             "name": "us_hydra_70_m247",
-            "weight": 0.0,
+            "weight": 71.12,
             "weapon_type": "Rocket"
           },
           {
             "name": "us_hydra_70_m247_x3",
-            "weight": 0.0,
+            "weight": 213.36,
             "weapon_type": "Rocket"
           },
           {
             "name": "us_500lb_mk_82_ldgp",
-            "weight": 0.0,
+            "weight": 240.9,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_500lb_mk_82_x3_ter9a_1",
-            "weight": 0.0,
+            "weight": 722.7,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_2000lb_mk_84_ldgp",
-            "weight": 0.0,
+            "weight": 893.6,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_agm_65d_x_3",
-            "weight": 0.0,
+            "weight": 680.4000000000001,
             "weapon_type": "AGM"
           }
         ]
@@ -416,27 +416,27 @@
         "weapons": [
           {
             "name": "us_hydra_70_m247",
-            "weight": 0.0,
+            "weight": 71.12,
             "weapon_type": "Rocket"
           },
           {
             "name": "us_hydra_70_m247_x3",
-            "weight": 0.0,
+            "weight": 213.36,
             "weapon_type": "Rocket"
           },
           {
             "name": "us_500lb_mk_82_ldgp",
-            "weight": 0.0,
+            "weight": 240.9,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_500lb_mk_82_x3_ter9a_1",
-            "weight": 0.0,
+            "weight": 722.7,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_2000lb_mk_84_ldgp",
-            "weight": 0.0,
+            "weight": 893.6,
             "weapon_type": "Bomb"
           }
         ]
@@ -449,12 +449,12 @@
         "weapons": [
           {
             "name": "us_500lb_mk_82_ldgp",
-            "weight": 0.0,
+            "weight": 240.9,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_2000lb_mk_84_ldgp",
-            "weight": 0.0,
+            "weight": 893.6,
             "weapon_type": "Bomb"
           }
         ]
@@ -467,12 +467,12 @@
         "weapons": [
           {
             "name": "us_500lb_mk_82_ldgp",
-            "weight": 0.0,
+            "weight": 240.9,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_2000lb_mk_84_ldgp",
-            "weight": 0.0,
+            "weight": 893.6,
             "weapon_type": "Bomb"
           }
         ]
@@ -485,27 +485,27 @@
         "weapons": [
           {
             "name": "us_hydra_70_m247",
-            "weight": 0.0,
+            "weight": 71.12,
             "weapon_type": "Rocket"
           },
           {
             "name": "us_hydra_70_m247_x3",
-            "weight": 0.0,
+            "weight": 213.36,
             "weapon_type": "Rocket"
           },
           {
             "name": "us_500lb_mk_82_ldgp",
-            "weight": 0.0,
+            "weight": 240.9,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_500lb_mk_82_x3_ter9a_1",
-            "weight": 0.0,
+            "weight": 722.7,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_2000lb_mk_84_ldgp",
-            "weight": 0.0,
+            "weight": 893.6,
             "weapon_type": "Bomb"
           }
         ]
@@ -518,32 +518,32 @@
         "weapons": [
           {
             "name": "us_hydra_70_m247",
-            "weight": 0.0,
+            "weight": 71.12,
             "weapon_type": "Rocket"
           },
           {
             "name": "us_hydra_70_m247_x3",
-            "weight": 0.0,
+            "weight": 213.36,
             "weapon_type": "Rocket"
           },
           {
             "name": "us_500lb_mk_82_ldgp",
-            "weight": 0.0,
+            "weight": 240.9,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_500lb_mk_82_x3_ter9a_1",
-            "weight": 0.0,
+            "weight": 722.7,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_2000lb_mk_84_ldgp",
-            "weight": 0.0,
+            "weight": 893.6,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_agm_65d_x_3",
-            "weight": 0.0,
+            "weight": 680.4000000000001,
             "weapon_type": "AGM"
           }
         ]
@@ -556,12 +556,12 @@
         "weapons": [
           {
             "name": "us_hydra_70_m247",
-            "weight": 0.0,
+            "weight": 71.12,
             "weapon_type": "Rocket"
           },
           {
             "name": "us_500lb_mk_82_ldgp",
-            "weight": 0.0,
+            "weight": 240.9,
             "weapon_type": "Bomb"
           }
         ]
@@ -574,17 +574,17 @@
         "weapons": [
           {
             "name": "us_aim9l_sidewinder_rm_default",
-            "weight": 0.0,
+            "weight": 84.46,
             "weapon_type": "AAM"
           },
           {
             "name": "us_aim9l_sidewinder",
-            "weight": 0.0,
+            "weight": 168.92,
             "weapon_type": "AAM"
           },
           {
             "name": "us_500lb_mk_82_ldgp",
-            "weight": 0.0,
+            "weight": 240.9,
             "weapon_type": "Bomb"
           }
         ]
@@ -626,7 +626,7 @@
         "weapons": [
           {
             "name": "default_aim9l",
-            "weight": 0.0,
+            "weight": 84.46,
             "weapon_type": "AAM"
           }
         ]
@@ -639,32 +639,32 @@
         "weapons": [
           {
             "name": "aim9l",
-            "weight": 0.0,
+            "weight": 84.46,
             "weapon_type": "AAM"
           },
           {
             "name": "it_aspide_1a",
-            "weight": 0.0,
+            "weight": 230.0,
             "weapon_type": "AAM"
           },
           {
             "name": "us_500lb_mk_82_ldgp",
-            "weight": 0.0,
+            "weight": 240.9,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_750lb_m117_cone_45",
-            "weight": 0.0,
+            "weight": 362.42,
             "weapon_type": "Bomb"
           },
           {
             "name": "aero_7a_2_75_in_ffar_mighty_mouse",
-            "weight": 0.0,
+            "weight": 154.27999999999997,
             "weapon_type": "Rocket"
           },
           {
             "name": "lau_10a_zuni_wafar_mk32",
-            "weight": 0.0,
+            "weight": 227.2,
             "weapon_type": "Rocket"
           }
         ]
@@ -677,22 +677,22 @@
         "weapons": [
           {
             "name": "us_500lb_mk_82_ldgp",
-            "weight": 0.0,
+            "weight": 240.9,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_750lb_m117_cone_45",
-            "weight": 0.0,
+            "weight": 362.42,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_1000lb_mk_83_ldgp",
-            "weight": 0.0,
+            "weight": 446.8,
             "weapon_type": "Bomb"
           },
           {
             "name": "aero_7a_2_75_in_ffar_mighty_mouse",
-            "weight": 0.0,
+            "weight": 154.27999999999997,
             "weapon_type": "Rocket"
           }
         ]
@@ -705,12 +705,12 @@
         "weapons": [
           {
             "name": "us_500lb_mk_82_ldgp",
-            "weight": 0.0,
+            "weight": 240.9,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_750lb_m117_cone_45",
-            "weight": 0.0,
+            "weight": 362.42,
             "weapon_type": "Bomb"
           }
         ]
@@ -723,7 +723,7 @@
         "weapons": [
           {
             "name": "cannon_m61",
-            "weight": 0.0,
+            "weight": 650.0,
             "weapon_type": "Cannon"
           }
         ]
@@ -736,7 +736,7 @@
         "weapons": [
           {
             "name": "us_2000lb_mk_84_ldgp",
-            "weight": 0.0,
+            "weight": 893.6,
             "weapon_type": "Bomb"
           }
         ]
@@ -749,12 +749,12 @@
         "weapons": [
           {
             "name": "us_500lb_mk_82_ldgp",
-            "weight": 0.0,
+            "weight": 240.9,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_750lb_m117_cone_45",
-            "weight": 0.0,
+            "weight": 362.42,
             "weapon_type": "Bomb"
           }
         ]
@@ -767,22 +767,22 @@
         "weapons": [
           {
             "name": "us_500lb_mk_82_ldgp",
-            "weight": 0.0,
+            "weight": 240.9,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_750lb_m117_cone_45",
-            "weight": 0.0,
+            "weight": 362.42,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_1000lb_mk_83_ldgp",
-            "weight": 0.0,
+            "weight": 446.8,
             "weapon_type": "Bomb"
           },
           {
             "name": "aero_7a_2_75_in_ffar_mighty_mouse",
-            "weight": 0.0,
+            "weight": 154.27999999999997,
             "weapon_type": "Rocket"
           }
         ]
@@ -795,32 +795,32 @@
         "weapons": [
           {
             "name": "aim9l",
-            "weight": 0.0,
+            "weight": 84.46,
             "weapon_type": "AAM"
           },
           {
             "name": "it_aspide_1a",
-            "weight": 0.0,
+            "weight": 230.0,
             "weapon_type": "AAM"
           },
           {
             "name": "us_500lb_mk_82_ldgp",
-            "weight": 0.0,
+            "weight": 240.9,
             "weapon_type": "Bomb"
           },
           {
             "name": "us_750lb_m117_cone_45",
-            "weight": 0.0,
+            "weight": 362.42,
             "weapon_type": "Bomb"
           },
           {
             "name": "aero_7a_2_75_in_ffar_mighty_mouse",
-            "weight": 0.0,
+            "weight": 154.27999999999997,
             "weapon_type": "Rocket"
           },
           {
             "name": "lau_10a_zuni_wafar_mk32",
-            "weight": 0.0,
+            "weight": 227.2,
             "weapon_type": "Rocket"
           }
         ]
@@ -833,7 +833,7 @@
         "weapons": [
           {
             "name": "default_aim9l",
-            "weight": 0.0,
+            "weight": 84.46,
             "weapon_type": "AAM"
           }
         ]
@@ -857,12 +857,12 @@
         "weapons": [
           {
             "name": "type_23_3_common",
-            "weight": 0.0,
+            "weight": 155.0,
             "weapon_type": "Cannon"
           },
           {
             "name": "type_23_3_ltc_common",
-            "weight": 0.0,
+            "weight": 155.0,
             "weapon_type": "Cannon"
           }
         ]
@@ -875,12 +875,12 @@
         "weapons": [
           {
             "name": "default_pl5b",
-            "weight": 0.0,
+            "weight": 84.5,
             "weapon_type": "AAM"
           },
           {
             "name": "hf_6_type90_heat",
-            "weight": 0.0,
+            "weight": 102.2,
             "weapon_type": "Rocket"
           }
         ]
@@ -893,22 +893,22 @@
         "weapons": [
           {
             "name": "pl5b",
-            "weight": 0.0,
+            "weight": 84.5,
             "weapon_type": "AAM"
           },
           {
             "name": "aspide",
-            "weight": 0.0,
+            "weight": 230.0,
             "weapon_type": "AAM"
           },
           {
             "name": "hf_6_type90_heat",
-            "weight": 0.0,
+            "weight": 102.2,
             "weapon_type": "Rocket"
           },
           {
             "name": "250kg_mk_82",
-            "weight": 0.0,
+            "weight": 240.9,
             "weapon_type": "Bomb"
           }
         ]
@@ -921,7 +921,7 @@
         "weapons": [
           {
             "name": "pl5b",
-            "weight": 0.0,
+            "weight": 84.5,
             "weapon_type": "AAM"
           }
         ]
@@ -934,7 +934,7 @@
         "weapons": [
           {
             "name": "250kg_mk_82_x6",
-            "weight": 0.0,
+            "weight": 1445.4,
             "weapon_type": "Bomb"
           }
         ]
@@ -947,7 +947,7 @@
         "weapons": [
           {
             "name": "pl5b",
-            "weight": 0.0,
+            "weight": 84.5,
             "weapon_type": "AAM"
           }
         ]
@@ -960,22 +960,22 @@
         "weapons": [
           {
             "name": "pl5b",
-            "weight": 0.0,
+            "weight": 84.5,
             "weapon_type": "AAM"
           },
           {
             "name": "aspide",
-            "weight": 0.0,
+            "weight": 230.0,
             "weapon_type": "AAM"
           },
           {
             "name": "hf_6_type90_heat",
-            "weight": 0.0,
+            "weight": 102.2,
             "weapon_type": "Rocket"
           },
           {
             "name": "250kg_mk_82",
-            "weight": 0.0,
+            "weight": 240.9,
             "weapon_type": "Bomb"
           }
         ]
@@ -988,12 +988,12 @@
         "weapons": [
           {
             "name": "default_pl5b",
-            "weight": 0.0,
+            "weight": 84.5,
             "weapon_type": "AAM"
           },
           {
             "name": "hf_6_type90_heat",
-            "weight": 0.0,
+            "weight": 102.2,
             "weapon_type": "Rocket"
           }
         ]
@@ -1017,12 +1017,12 @@
         "weapons": [
           {
             "name": "defa552a_common",
-            "weight": 0.0,
+            "weight": 80.0,
             "weapon_type": "Cannon"
           },
           {
             "name": "defa552a_ltc_common",
-            "weight": 0.0,
+            "weight": 80.0,
             "weapon_type": "Cannon"
           }
         ]
@@ -1035,17 +1035,17 @@
         "weapons": [
           {
             "name": "shafrir_2",
-            "weight": 0.0,
+            "weight": 90.0,
             "weapon_type": "AAM"
           },
           {
             "name": "aim9d",
-            "weight": 0.0,
+            "weight": 88.45,
             "weapon_type": "AAM"
           },
           {
             "name": "aim9g",
-            "weight": 0.0,
+            "weight": 88.45,
             "weapon_type": "AAM"
           }
         ]
@@ -1058,47 +1058,47 @@
         "weapons": [
           {
             "name": "lau_3a_ffar_mighty_mouse_x2_left_wing",
-            "weight": 0.0,
+            "weight": 308.55999999999995,
             "weapon_type": "Rocket"
           },
           {
             "name": "lau_10a_zuni_wafar_mk32_x2_left_wing",
-            "weight": 0.0,
+            "weight": 454.4,
             "weapon_type": "Rocket"
           },
           {
             "name": "ter_us_500lb_mk_82_x3",
-            "weight": 0.0,
+            "weight": 722.7,
             "weapon_type": "Bomb"
           },
           {
             "name": "ter_us_750lb_m117_cone_45_x2_left_wing",
-            "weight": 0.0,
+            "weight": 724.84,
             "weapon_type": "Bomb"
           },
           {
             "name": "ter_us_1000lb_mk_83_x2_left_wing",
-            "weight": 0.0,
+            "weight": 893.6,
             "weapon_type": "Bomb"
           },
           {
             "name": "2000lb_mk_84_ldgp",
-            "weight": 0.0,
+            "weight": 893.6,
             "weapon_type": "Bomb"
           },
           {
             "name": "suu_23a",
-            "weight": 0.0,
+            "weight": 650.0,
             "weapon_type": "GunPod"
           },
           {
             "name": "mdnp_us_500lb_mk_82_ldgp",
-            "weight": 0.0,
+            "weight": 481.8,
             "weapon_type": "Bomb"
           },
           {
             "name": "mdnp_us_750lb_m117_cone_45",
-            "weight": 0.0,
+            "weight": 724.84,
             "weapon_type": "Bomb"
           }
         ]
@@ -1111,17 +1111,17 @@
         "weapons": [
           {
             "name": "pylon_c2_f5_us_500lb_mk_82_ldgp",
-            "weight": 0.0,
+            "weight": 240.9,
             "weapon_type": "Bomb"
           },
           {
             "name": "pylon_c2_f5_us_750lb_m117_cone_45",
-            "weight": 0.0,
+            "weight": 362.42,
             "weapon_type": "Bomb"
           },
           {
             "name": "pylon_c2_f5_us_1000lb_mk_83_ldgp",
-            "weight": 0.0,
+            "weight": 446.8,
             "weapon_type": "Bomb"
           }
         ]
@@ -1134,7 +1134,7 @@
         "weapons": [
           {
             "name": "napgach_us_500lb_mk_82_ldgp_x5",
-            "weight": 0.0,
+            "weight": 1204.5,
             "weapon_type": "Bomb"
           }
         ]
@@ -1147,17 +1147,17 @@
         "weapons": [
           {
             "name": "pylon_c2_f5_us_500lb_mk_82_ldgp",
-            "weight": 0.0,
+            "weight": 240.9,
             "weapon_type": "Bomb"
           },
           {
             "name": "pylon_c2_f5_us_750lb_m117_cone_45",
-            "weight": 0.0,
+            "weight": 362.42,
             "weapon_type": "Bomb"
           },
           {
             "name": "pylon_c2_f5_us_1000lb_mk_83_ldgp",
-            "weight": 0.0,
+            "weight": 446.8,
             "weapon_type": "Bomb"
           }
         ]
@@ -1170,47 +1170,47 @@
         "weapons": [
           {
             "name": "lau_3a_ffar_mighty_mouse_x2_right_wing",
-            "weight": 0.0,
+            "weight": 308.55999999999995,
             "weapon_type": "Rocket"
           },
           {
             "name": "lau_10a_zuni_wafar_mk32_x2_right_wing",
-            "weight": 0.0,
+            "weight": 454.4,
             "weapon_type": "Rocket"
           },
           {
             "name": "ter_us_500lb_mk_82_x3",
-            "weight": 0.0,
+            "weight": 722.7,
             "weapon_type": "Bomb"
           },
           {
             "name": "ter_us_750lb_m117_cone_45_x2_right_wing",
-            "weight": 0.0,
+            "weight": 724.84,
             "weapon_type": "Bomb"
           },
           {
             "name": "ter_us_1000lb_mk_83_x2_right_wing",
-            "weight": 0.0,
+            "weight": 893.6,
             "weapon_type": "Bomb"
           },
           {
             "name": "2000lb_mk_84_ldgp",
-            "weight": 0.0,
+            "weight": 893.6,
             "weapon_type": "Bomb"
           },
           {
             "name": "suu_23a",
-            "weight": 0.0,
+            "weight": 650.0,
             "weapon_type": "GunPod"
           },
           {
             "name": "mdnp_us_500lb_mk_82_ldgp",
-            "weight": 0.0,
+            "weight": 481.8,
             "weapon_type": "Bomb"
           },
           {
             "name": "mdnp_us_750lb_m117_cone_45",
-            "weight": 0.0,
+            "weight": 724.84,
             "weapon_type": "Bomb"
           }
         ]
@@ -1223,17 +1223,17 @@
         "weapons": [
           {
             "name": "shafrir_2",
-            "weight": 0.0,
+            "weight": 90.0,
             "weapon_type": "AAM"
           },
           {
             "name": "aim9d",
-            "weight": 0.0,
+            "weight": 88.45,
             "weapon_type": "AAM"
           },
           {
             "name": "aim9g",
-            "weight": 0.0,
+            "weight": 88.45,
             "weapon_type": "AAM"
           }
         ]
@@ -1257,12 +1257,12 @@
         "weapons": [
           {
             "name": "gsh_23l_common",
-            "weight": 0.0,
+            "weight": 155.0,
             "weapon_type": "Cannon"
           },
           {
             "name": "gsh_23l_ltc_common",
-            "weight": 0.0,
+            "weight": 155.0,
             "weapon_type": "Cannon"
           }
         ]
@@ -1275,77 +1275,77 @@
         "weapons": [
           {
             "name": "default_r_13m1",
-            "weight": 0.0,
+            "weight": 90.6,
             "weapon_type": "AAM"
           },
           {
             "name": "r_60",
-            "weight": 0.0,
+            "weight": 44.0,
             "weapon_type": "AAM"
           },
           {
             "name": "r_23r",
-            "weight": 0.0,
+            "weight": 223.0,
             "weapon_type": "AAM"
           },
           {
             "name": "r_23t",
-            "weight": 0.0,
+            "weight": 215.0,
             "weapon_type": "AAM"
           },
           {
             "name": "r_24r",
-            "weight": 0.0,
+            "weight": 244.0,
             "weapon_type": "AAM"
           },
           {
             "name": "r_24t",
-            "weight": 0.0,
+            "weight": 237.0,
             "weapon_type": "AAM"
           },
           {
             "name": "ofab100_120",
-            "weight": 0.0,
+            "weight": 456.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "fab_250m_62",
-            "weight": 0.0,
+            "weight": 227.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "fab_500m_62t",
-            "weight": 0.0,
+            "weight": 508.3,
             "weapon_type": "Bomb"
           },
           {
             "name": "ub_16_57_s5k",
-            "weight": 0.0,
+            "weight": 58.24,
             "weapon_type": "Rocket"
           },
           {
             "name": "ub_32a_24_s5k",
-            "weight": 0.0,
+            "weight": 116.48,
             "weapon_type": "Rocket"
           },
           {
             "name": "b8m1_s_8ko",
-            "weight": 0.0,
+            "weight": 226.0,
             "weapon_type": "Rocket"
           },
           {
             "name": "s24",
-            "weight": 0.0,
+            "weight": 235.0,
             "weapon_type": "Rocket"
           },
           {
             "name": "x23m",
-            "weight": 0.0,
+            "weight": 289.0,
             "weapon_type": "AGM"
           },
           {
             "name": "upk23_gunpod",
-            "weight": 0.0,
+            "weight": 155.0,
             "weapon_type": "GunPod"
           }
         ]
@@ -1358,32 +1358,32 @@
         "weapons": [
           {
             "name": "r_13m1",
-            "weight": 0.0,
+            "weight": 90.6,
             "weapon_type": "AAM"
           },
           {
             "name": "r_60m_x2_l",
-            "weight": 0.0,
+            "weight": 88.0,
             "weapon_type": "AAM"
           },
           {
             "name": "ofab100_120",
-            "weight": 0.0,
+            "weight": 456.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "fab_250m_62",
-            "weight": 0.0,
+            "weight": 227.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "ub_16_57_s5k",
-            "weight": 0.0,
+            "weight": 58.24,
             "weapon_type": "Rocket"
           },
           {
             "name": "s24",
-            "weight": 0.0,
+            "weight": 235.0,
             "weapon_type": "Rocket"
           }
         ]
@@ -1396,32 +1396,32 @@
         "weapons": [
           {
             "name": "r_13m1",
-            "weight": 0.0,
+            "weight": 90.6,
             "weapon_type": "AAM"
           },
           {
             "name": "r_60m_x2_r",
-            "weight": 0.0,
+            "weight": 88.0,
             "weapon_type": "AAM"
           },
           {
             "name": "ofab100_120",
-            "weight": 0.0,
+            "weight": 456.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "fab_250m_62",
-            "weight": 0.0,
+            "weight": 227.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "ub_16_57_s5k",
-            "weight": 0.0,
+            "weight": 58.24,
             "weapon_type": "Rocket"
           },
           {
             "name": "s24",
-            "weight": 0.0,
+            "weight": 235.0,
             "weapon_type": "Rocket"
           }
         ]
@@ -1434,77 +1434,77 @@
         "weapons": [
           {
             "name": "default_r_13m1",
-            "weight": 0.0,
+            "weight": 90.6,
             "weapon_type": "AAM"
           },
           {
             "name": "r_60",
-            "weight": 0.0,
+            "weight": 44.0,
             "weapon_type": "AAM"
           },
           {
             "name": "r_23r",
-            "weight": 0.0,
+            "weight": 223.0,
             "weapon_type": "AAM"
           },
           {
             "name": "r_23t",
-            "weight": 0.0,
+            "weight": 215.0,
             "weapon_type": "AAM"
           },
           {
             "name": "r_24r",
-            "weight": 0.0,
+            "weight": 244.0,
             "weapon_type": "AAM"
           },
           {
             "name": "r_24t",
-            "weight": 0.0,
+            "weight": 237.0,
             "weapon_type": "AAM"
           },
           {
             "name": "ofab100_120",
-            "weight": 0.0,
+            "weight": 456.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "fab_250m_62",
-            "weight": 0.0,
+            "weight": 227.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "fab_500m_62t",
-            "weight": 0.0,
+            "weight": 508.3,
             "weapon_type": "Bomb"
           },
           {
             "name": "ub_16_57_s5k",
-            "weight": 0.0,
+            "weight": 58.24,
             "weapon_type": "Rocket"
           },
           {
             "name": "ub_32a_24_s5k",
-            "weight": 0.0,
+            "weight": 116.48,
             "weapon_type": "Rocket"
           },
           {
             "name": "b8m1_s_8ko",
-            "weight": 0.0,
+            "weight": 226.0,
             "weapon_type": "Rocket"
           },
           {
             "name": "s24",
-            "weight": 0.0,
+            "weight": 235.0,
             "weapon_type": "Rocket"
           },
           {
             "name": "x23m",
-            "weight": 0.0,
+            "weight": 289.0,
             "weapon_type": "AGM"
           },
           {
             "name": "upk23_gunpod",
-            "weight": 0.0,
+            "weight": 155.0,
             "weapon_type": "GunPod"
           }
         ]
@@ -1528,12 +1528,12 @@
         "weapons": [
           {
             "name": "defa_553_x2",
-            "weight": 0.0,
+            "weight": 150.0,
             "weapon_type": "Cannon"
           },
           {
             "name": "defa_553_x2_ltc",
-            "weight": 0.0,
+            "weight": 150.0,
             "weapon_type": "Cannon"
           }
         ]
@@ -1546,12 +1546,12 @@
         "weapons": [
           {
             "name": "wing_left_rocket_r550_magic_1",
-            "weight": 0.0,
+            "weight": 89.0,
             "weapon_type": "AAM"
           },
           {
             "name": "wing_left_rocket_r550_magic_2",
-            "weight": 0.0,
+            "weight": 89.0,
             "weapon_type": "AAM"
           }
         ]
@@ -1564,32 +1564,32 @@
         "weapons": [
           {
             "name": "wing_left_1_bomb_250_samp",
-            "weight": 0.0,
+            "weight": 247.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "wing_left_1_bomb_400_samp",
-            "weight": 0.0,
+            "weight": 400.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "wing_left_1_bomb_250kg_samp_mk82",
-            "weight": 0.0,
+            "weight": 250.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "wing_left_1_bomb_500kg_samp_mk83",
-            "weight": 0.0,
+            "weight": 500.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "containers_matra_lr_f1",
-            "weight": 0.0,
+            "weight": 181.79999999999998,
             "weapon_type": "Rocket"
           },
           {
             "name": "containers_matra_lr_f4",
-            "weight": 0.0,
+            "weight": 90.89999999999999,
             "weapon_type": "Rocket"
           }
         ]
@@ -1602,57 +1602,57 @@
         "weapons": [
           {
             "name": "wing_left_middle_rocket_r530_matra_ir",
-            "weight": 0.0,
+            "weight": 193.5,
             "weapon_type": "AAM"
           },
           {
             "name": "wing_left_middle_rocket_r530_matra_radar",
-            "weight": 0.0,
+            "weight": 193.5,
             "weapon_type": "AAM"
           },
           {
             "name": "wing_right_2_rocket_matra_super_530f",
-            "weight": 0.0,
+            "weight": 245.0,
             "weapon_type": "AAM"
           },
           {
             "name": "wing_left_middle_bomb_250_samp",
-            "weight": 0.0,
+            "weight": 247.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "wing_left_middle_bomb_400_samp",
-            "weight": 0.0,
+            "weight": 400.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "wing_left_middle_bomb_250kg_samp_mk82",
-            "weight": 0.0,
+            "weight": 250.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "wing_left_middle_bomb_500kg_samp_mk83",
-            "weight": 0.0,
+            "weight": 500.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "wing_left_middle_bomb_1000kg_samp_mk84",
-            "weight": 0.0,
+            "weight": 1000.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "wing_left_middle_cc420",
-            "weight": 0.0,
+            "weight": 150.0,
             "weapon_type": "GunPod"
           },
           {
             "name": "containers_matra_lr_f1",
-            "weight": 0.0,
+            "weight": 181.79999999999998,
             "weapon_type": "Rocket"
           },
           {
             "name": "containers_matra_lr_f4",
-            "weight": 0.0,
+            "weight": 90.89999999999999,
             "weapon_type": "Rocket"
           }
         ]
@@ -1665,37 +1665,37 @@
         "weapons": [
           {
             "name": "fuse_rocket_r530_matra_ir",
-            "weight": 0.0,
+            "weight": 193.5,
             "weapon_type": "AAM"
           },
           {
             "name": "fuse_rocket_r530_matra_radar",
-            "weight": 0.0,
+            "weight": 193.5,
             "weapon_type": "AAM"
           },
           {
             "name": "fuse_bomb_250_samp",
-            "weight": 0.0,
+            "weight": 247.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "fuse_bomb_400_samp",
-            "weight": 0.0,
+            "weight": 400.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "fuse_bomb_250kg_samp_mk82",
-            "weight": 0.0,
+            "weight": 250.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "fuse_bomb_500kg_samp_mk83",
-            "weight": 0.0,
+            "weight": 500.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "fuse_bomb_1000kg_samp_mk84",
-            "weight": 0.0,
+            "weight": 1000.0,
             "weapon_type": "Bomb"
           }
         ]
@@ -1708,57 +1708,57 @@
         "weapons": [
           {
             "name": "wing_right_middle_rocket_r530_matra_ir",
-            "weight": 0.0,
+            "weight": 193.5,
             "weapon_type": "AAM"
           },
           {
             "name": "wing_right_middle_rocket_r530_matra_radar",
-            "weight": 0.0,
+            "weight": 193.5,
             "weapon_type": "AAM"
           },
           {
             "name": "wing_right_2_rocket_matra_super_530f",
-            "weight": 0.0,
+            "weight": 245.0,
             "weapon_type": "AAM"
           },
           {
             "name": "wing_right_middle_bomb_250_samp",
-            "weight": 0.0,
+            "weight": 247.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "wing_right_middle_bomb_400_samp",
-            "weight": 0.0,
+            "weight": 400.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "wing_right_middle_bomb_250kg_samp_mk82",
-            "weight": 0.0,
+            "weight": 250.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "wing_right_middle_bomb_500kg_samp_mk83",
-            "weight": 0.0,
+            "weight": 500.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "wing_right_middle_bomb_1000kg_samp_mk84",
-            "weight": 0.0,
+            "weight": 1000.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "wing_right_middle_cc420",
-            "weight": 0.0,
+            "weight": 150.0,
             "weapon_type": "GunPod"
           },
           {
             "name": "containers_matra_lr_f1",
-            "weight": 0.0,
+            "weight": 181.79999999999998,
             "weapon_type": "Rocket"
           },
           {
             "name": "containers_matra_lr_f4",
-            "weight": 0.0,
+            "weight": 90.89999999999999,
             "weapon_type": "Rocket"
           }
         ]
@@ -1771,32 +1771,32 @@
         "weapons": [
           {
             "name": "wing_right_1_bomb_250_samp",
-            "weight": 0.0,
+            "weight": 247.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "wing_right_1_bomb_400_samp",
-            "weight": 0.0,
+            "weight": 400.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "wing_right_1_bomb_250kg_samp_mk82",
-            "weight": 0.0,
+            "weight": 250.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "wing_right_1_bomb_500kg_samp_mk83",
-            "weight": 0.0,
+            "weight": 500.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "containers_matra_lr_f1",
-            "weight": 0.0,
+            "weight": 181.79999999999998,
             "weapon_type": "Rocket"
           },
           {
             "name": "containers_matra_lr_f4",
-            "weight": 0.0,
+            "weight": 90.89999999999999,
             "weapon_type": "Rocket"
           }
         ]
@@ -1809,12 +1809,12 @@
         "weapons": [
           {
             "name": "wing_right_rocket_r550_magic_1",
-            "weight": 0.0,
+            "weight": 89.0,
             "weapon_type": "AAM"
           },
           {
             "name": "wing_right_rocket_r550_magic_2",
-            "weight": 0.0,
+            "weight": 89.0,
             "weapon_type": "AAM"
           }
         ]
@@ -1838,12 +1838,12 @@
         "weapons": [
           {
             "name": "nr_30",
-            "weight": 0.0,
+            "weight": 66.5,
             "weapon_type": "Cannon"
           },
           {
             "name": "nr_30_ltc",
-            "weight": 0.0,
+            "weight": 66.5,
             "weapon_type": "Cannon"
           }
         ]
@@ -1856,57 +1856,57 @@
         "weapons": [
           {
             "name": "wing_left_containers_ofab_100_120",
-            "weight": 0.0,
+            "weight": 570.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "wing_left_fab_250",
-            "weight": 0.0,
+            "weight": 250.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "wing_left_fab_500",
-            "weight": 0.0,
+            "weight": 508.3,
             "weapon_type": "Bomb"
           },
           {
             "name": "wing_left_rocket_s24",
-            "weight": 0.0,
+            "weight": 235.0,
             "weapon_type": "Rocket"
           },
           {
             "name": "wing_left_rocket_kh25_ml",
-            "weight": 0.0,
+            "weight": 297.0,
             "weapon_type": "AGM"
           },
           {
             "name": "wing_left_rocket_kh23_m",
-            "weight": 0.0,
+            "weight": 289.0,
             "weapon_type": "AGM"
           },
           {
             "name": "wing_left_rocket_s25o",
-            "weight": 0.0,
+            "weight": 370.0,
             "weapon_type": "Rocket"
           },
           {
             "name": "wing_left_rocket_s25l",
-            "weight": 0.0,
+            "weight": 410.0,
             "weapon_type": "AGM"
           },
           {
             "name": "container_s3k",
-            "weight": 0.0,
+            "weight": 164.5,
             "weapon_type": "Rocket"
           },
           {
             "name": "container_s8ko",
-            "weight": 0.0,
+            "weight": 226.0,
             "weapon_type": "Rocket"
           },
           {
             "name": "container_ub_32",
-            "weight": 0.0,
+            "weight": 116.48,
             "weapon_type": "Rocket"
           }
         ]
@@ -1919,7 +1919,7 @@
         "weapons": [
           {
             "name": "wing_left_single_r_60",
-            "weight": 0.0,
+            "weight": 44.0,
             "weapon_type": "AAM"
           }
         ]
@@ -1932,42 +1932,42 @@
         "weapons": [
           {
             "name": "wing_left_middle_ofab_100_120_x1",
-            "weight": 0.0,
+            "weight": 114.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "wing_left_middle_fab_250_x1",
-            "weight": 0.0,
+            "weight": 250.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "wing_left_middle_fab_500_x1",
-            "weight": 0.0,
+            "weight": 508.3,
             "weapon_type": "Bomb"
           },
           {
             "name": "wing_middle_left_rocket_s_24",
-            "weight": 0.0,
+            "weight": 235.0,
             "weapon_type": "Rocket"
           },
           {
             "name": "wing_middle_left_rocket_r_60_x2",
-            "weight": 0.0,
+            "weight": 88.0,
             "weapon_type": "AAM"
           },
           {
             "name": "container_s8ko",
-            "weight": 0.0,
+            "weight": 226.0,
             "weapon_type": "Rocket"
           },
           {
             "name": "container_ub_32",
-            "weight": 0.0,
+            "weight": 116.48,
             "weapon_type": "Rocket"
           },
           {
             "name": "wing_middle_left_sppu_22",
-            "weight": 0.0,
+            "weight": 155.0,
             "weapon_type": "GunPod"
           }
         ]
@@ -1980,37 +1980,37 @@
         "weapons": [
           {
             "name": "fuse_containers_left_ofab_100_120_x4",
-            "weight": 0.0,
+            "weight": 456.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "fuse_containers_left_fab_250_x3",
-            "weight": 0.0,
+            "weight": 750.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "fuse_left_fab_500_x2",
-            "weight": 0.0,
+            "weight": 508.3,
             "weapon_type": "Bomb"
           },
           {
             "name": "fuse_left_rocket_s_24",
-            "weight": 0.0,
+            "weight": 235.0,
             "weapon_type": "Rocket"
           },
           {
             "name": "fuse_left_rocket_kh25_ml",
-            "weight": 0.0,
+            "weight": 297.0,
             "weapon_type": "AGM"
           },
           {
             "name": "fuse_left_rocket_kh29_l",
-            "weight": 0.0,
+            "weight": 657.0,
             "weapon_type": "AGM"
           },
           {
             "name": "container_s3k",
-            "weight": 0.0,
+            "weight": 164.5,
             "weapon_type": "Rocket"
           }
         ]
@@ -2023,37 +2023,37 @@
         "weapons": [
           {
             "name": "fuse_containers_right_ofab_100_120_x4",
-            "weight": 0.0,
+            "weight": 456.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "fuse_containers_right_fab_250_x3",
-            "weight": 0.0,
+            "weight": 750.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "fuse_right_fab_500_x2",
-            "weight": 0.0,
+            "weight": 508.3,
             "weapon_type": "Bomb"
           },
           {
             "name": "fuse_right_rocket_s_24",
-            "weight": 0.0,
+            "weight": 235.0,
             "weapon_type": "Rocket"
           },
           {
             "name": "fuse_right_rocket_kh25_ml",
-            "weight": 0.0,
+            "weight": 297.0,
             "weapon_type": "AGM"
           },
           {
             "name": "fuse_right_rocket_kh29_l",
-            "weight": 0.0,
+            "weight": 657.0,
             "weapon_type": "AGM"
           },
           {
             "name": "container_s3k",
-            "weight": 0.0,
+            "weight": 164.5,
             "weapon_type": "Rocket"
           }
         ]
@@ -2066,42 +2066,42 @@
         "weapons": [
           {
             "name": "wing_right_middle_ofab_100_120_x1",
-            "weight": 0.0,
+            "weight": 114.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "wing_right_middle_fab_250_x1",
-            "weight": 0.0,
+            "weight": 250.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "wing_right_middle_fab_500_x1",
-            "weight": 0.0,
+            "weight": 508.3,
             "weapon_type": "Bomb"
           },
           {
             "name": "wing_middle_right_rocket_s_24",
-            "weight": 0.0,
+            "weight": 235.0,
             "weapon_type": "Rocket"
           },
           {
             "name": "wing_middle_right_rocket_r_60_x2",
-            "weight": 0.0,
+            "weight": 88.0,
             "weapon_type": "AAM"
           },
           {
             "name": "container_s8ko",
-            "weight": 0.0,
+            "weight": 226.0,
             "weapon_type": "Rocket"
           },
           {
             "name": "container_ub_32",
-            "weight": 0.0,
+            "weight": 116.48,
             "weapon_type": "Rocket"
           },
           {
             "name": "wing_middle_right_sppu_22",
-            "weight": 0.0,
+            "weight": 155.0,
             "weapon_type": "GunPod"
           }
         ]
@@ -2114,7 +2114,7 @@
         "weapons": [
           {
             "name": "wing_right_single_r_60",
-            "weight": 0.0,
+            "weight": 44.0,
             "weapon_type": "AAM"
           }
         ]
@@ -2127,57 +2127,57 @@
         "weapons": [
           {
             "name": "wing_right_containers_ofab_100_120",
-            "weight": 0.0,
+            "weight": 570.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "wing_right_fab_250",
-            "weight": 0.0,
+            "weight": 250.0,
             "weapon_type": "Bomb"
           },
           {
             "name": "wing_right_fab_500",
-            "weight": 0.0,
+            "weight": 508.3,
             "weapon_type": "Bomb"
           },
           {
             "name": "wing_right_rocket_s24",
-            "weight": 0.0,
+            "weight": 235.0,
             "weapon_type": "Rocket"
           },
           {
             "name": "wing_right_rocket_kh25_ml",
-            "weight": 0.0,
+            "weight": 297.0,
             "weapon_type": "AGM"
           },
           {
             "name": "wing_right_rocket_kh23_m",
-            "weight": 0.0,
+            "weight": 289.0,
             "weapon_type": "AGM"
           },
           {
             "name": "wing_right_rocket_s25o",
-            "weight": 0.0,
+            "weight": 370.0,
             "weapon_type": "Rocket"
           },
           {
             "name": "wing_right_rocket_s25l",
-            "weight": 0.0,
+            "weight": 410.0,
             "weapon_type": "AGM"
           },
           {
             "name": "container_s3k",
-            "weight": 0.0,
+            "weight": 164.5,
             "weapon_type": "Rocket"
           },
           {
             "name": "container_s8ko",
-            "weight": 0.0,
+            "weight": 226.0,
             "weapon_type": "Rocket"
           },
           {
             "name": "container_ub_32",
-            "weight": 0.0,
+            "weight": 116.48,
             "weapon_type": "Rocket"
           }
         ]
