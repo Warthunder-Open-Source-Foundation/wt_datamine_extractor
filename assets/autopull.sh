@@ -1,5 +1,6 @@
 #!/bin/bash
 cd .. &&
+git pull &&
 OLD=$(cat meta_index/version.txt) &&
 cd resources/cache &&
 GIT_OUT=$(git pull 2>&1) &&
