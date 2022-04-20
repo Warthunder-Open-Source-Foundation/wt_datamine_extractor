@@ -21,7 +21,7 @@ const EDGE_CASES: [(&str, &str); 12] = [
 ];
 
 lazy_static! {
-    static ref CSV_UNIT: HashMap<String, String> = {
+    pub static ref CSV_UNIT: HashMap<String, String> = {
 		let wtcsv = WTCSV::new_from_path("lang/units.csv", "units").unwrap();
 
 		let mut map = HashMap::new();
@@ -37,7 +37,7 @@ lazy_static! {
 		map
 		};
 
-	static ref CSV_WEAPON: HashMap<String, String> = {
+	pub static ref CSV_WEAPON: HashMap<String, String> = {
 		let wtcsv = WTCSV::new_from_path("lang/weaponry.csv", "weaponry").unwrap();
 
 		let mut map = HashMap::new();
@@ -73,7 +73,7 @@ pub fn copy_lang() {
 	fs_extra::dir::copy("./resources/cache/lang.vromfs.bin_u/lang/", "./lang/", &options).unwrap();
 }
 
-pub fn unit_to_local(target: &str, lang: &Lang) -> String {
+pub fn name_to_local(target: &str, lang: &Lang) -> String {
 	let to_scan = vec![
 		target.to_owned(),
 		format!("weapons/{}/short", target),

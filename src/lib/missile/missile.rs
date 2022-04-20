@@ -1,7 +1,7 @@
 use std::fs;
 use crate::explosive::explosive::explosive_type_to_tnt;
 
-use crate::lang::{Lang, unit_to_local};
+use crate::lang::{Lang, name_to_local};
 use crate::missile::extract_missiles::KnownMissiles;
 use crate::util::parameter_to_data;
 
@@ -209,7 +209,7 @@ impl Missile {
 
 		Self {
 			// localized first as the borrow consumes name otherwise
-			localized: unit_to_local(&name, &Lang::Weapon),
+			localized: name_to_local(&name, &Lang::Weapon),
 			name,
 			seekertype,
 			mass,
