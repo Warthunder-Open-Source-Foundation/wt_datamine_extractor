@@ -1,11 +1,8 @@
 use std::fs;
-use std::ops::Deref;
 use crate::custom_loadouts::custom_loadouts::WeaponType::{AAM, AGM, Bomb, Cannon, Countermeasures, Empty, GBU, GunPod, Rocket};
 use crate::custom_loadouts::known_loadouts::KnownLoadouts;
-use crate::explosive::explosive::explosive_type_to_tnt;
 
-use crate::lang::{CSV_UNIT, CSV_WEAPON, Lang, name_to_local};
-use crate::missile::extract_missiles::KnownMissiles;
+use crate::lang::{Lang, name_to_local};
 use crate::util::parameter_to_data;
 
 #[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone, const_gen::CompileConst)]
