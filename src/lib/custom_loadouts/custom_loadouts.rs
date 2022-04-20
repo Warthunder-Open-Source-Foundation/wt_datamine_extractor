@@ -124,20 +124,29 @@ impl CustomLoadout {
 					});
 					continue;
 				}
-				let name = parameter_to_data(&preset, "name").unwrap().replace("\"", "");
-				let init_local = name_to_local(&name, &Lang::Weapon);
-				let localized = if name == init_local {
-					parameter_to_data(&preset, "reqModification").unwrap_or(name.clone()).replace("\"", "")
-				} else {
-					init_local
-				};
 
 				let blk_path = parameter_to_data(&preset, "blk").unwrap();
 
 				let mut mass: f64 = 0.0;
 				let mut count: u32 = 0;
-				get_container_weight(&blk_path, &mut mass, &mut count);
+				let mut projectile_name = "".to_owned();
+				get_container_weight(&blk_path, &mut mass, &mut count, &mut projectile_name);
 				let weight = mass * count as f64;
+
+				let name = parameter_to_data(&preset, "name").unwrap().replace("\"", "");
+				let direct_local = name_to_local(&name, &Lang::Weapon);
+
+				let localized = match () {
+					_ if !projectile_name.is_empty() => {
+						name_to_local(&projectile_name.replace("\"", ""), &Lang::Weapon)
+					}
+					_ if name != direct_local => {
+						parameter_to_data(&preset, "reqModification").unwrap_or(name.clone()).replace("\"", "")
+					}
+					_ => {
+						name.clone().replace("\"", "")
+					}
+				};
 
 				let icon_type = match weapon_type {
 					WeaponType::Cannon => {
@@ -213,7 +222,7 @@ impl CustomLoadout {
 	}
 }
 
-pub fn get_container_weight(base_container: &str, mass: &mut f64, count: &mut u32) {
+pub fn get_container_weight(base_container: &str, mass: &mut f64, count: &mut u32, projectile_name: &mut String) {
 	let container = fs::read_to_string(wt_blk_to_actual(base_container)).unwrap();
 
 	if let Some(mass_str) = parameter_to_data(&container, "mass") {
@@ -221,6 +230,7 @@ pub fn get_container_weight(base_container: &str, mass: &mut f64, count: &mut u3
 			*count = 1;
 		}
 		*mass = mass_str.parse::<f64>().unwrap();
+		*projectile_name = base_container.split(".").next().unwrap().split("/").last().unwrap().to_owned();
 	} else {
 		let param_bullets = parameter_to_data(&container, "bullets").unwrap().parse::<u32>().unwrap();
 		if *count == 0 {
@@ -230,7 +240,7 @@ pub fn get_container_weight(base_container: &str, mass: &mut f64, count: &mut u3
 		}
 		let blk_path = parameter_to_data(&container, "blk").unwrap();
 
-		get_container_weight(&blk_path, mass, count);
+		get_container_weight(&blk_path, mass, count, projectile_name);
 	};
 }
 

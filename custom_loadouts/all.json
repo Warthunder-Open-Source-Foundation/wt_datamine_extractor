@@ -11,7 +11,7 @@
         "weapons": [
           {
             "name": "gau_8a_common",
-            "localized": "gau_8a_common",
+            "localized": "cannonGAU_8A",
             "icon_type": "cannon",
             "count": 1,
             "individual_mass": 866.0,
@@ -20,7 +20,7 @@
           },
           {
             "name": "gau_8a_ltc_common",
-            "localized": "gau_8a_ltc_common",
+            "localized": "cannonGAU_8A",
             "icon_type": "cannon",
             "count": 1,
             "individual_mass": 866.0,
@@ -37,7 +37,7 @@
         "weapons": [
           {
             "name": "us_aim9l_sidewinder_lm_default",
-            "localized": "us_aim_9l",
+            "localized": "AIM-9L",
             "icon_type": "missile_type_b_air_to_air",
             "count": 1,
             "individual_mass": 84.46,
@@ -98,7 +98,7 @@
           },
           {
             "name": "us_hydra_70_m247_x3",
-            "localized": "us_hydra_70",
+            "localized": "Hydra-70 M247",
             "icon_type": "nar_ap_small_group_x3",
             "count": 21,
             "individual_mass": 10.16,
@@ -116,7 +116,7 @@
           },
           {
             "name": "us_500lb_mk_82_x3_ter9a_1",
-            "localized": "us_500lb_mk82",
+            "localized": "500 lb",
             "icon_type": "bombs_middle_group",
             "count": 3,
             "individual_mass": 240.9,
@@ -143,7 +143,7 @@
           },
           {
             "name": "us_agm_65a_x_3",
-            "localized": "us_agm_65b",
+            "localized": "AGM-65B",
             "icon_type": "missile_air_to_uni_x3",
             "count": 3,
             "individual_mass": 207.0,
@@ -169,7 +169,7 @@
           },
           {
             "name": "us_hydra_70_m247_x3",
-            "localized": "us_hydra_70",
+            "localized": "Hydra-70 M247",
             "icon_type": "nar_ap_small_group_x3",
             "count": 21,
             "individual_mass": 10.16,
@@ -187,7 +187,7 @@
           },
           {
             "name": "us_500lb_mk_82_x3_ter9a_1",
-            "localized": "us_500lb_mk82",
+            "localized": "500 lb",
             "icon_type": "bombs_middle_group",
             "count": 3,
             "individual_mass": 240.9,
@@ -240,7 +240,7 @@
           },
           {
             "name": "suu_23a_pod",
-            "localized": "f4c_suu_23a",
+            "localized": "M61",
             "icon_type": "multibarrel_box",
             "count": 1,
             "individual_mass": 650.0,
@@ -275,7 +275,7 @@
           },
           {
             "name": "suu_23a_pod",
-            "localized": "f4c_suu_23a",
+            "localized": "M61",
             "icon_type": "multibarrel_box",
             "count": 1,
             "individual_mass": 650.0,
@@ -301,7 +301,7 @@
           },
           {
             "name": "us_hydra_70_m247_x3",
-            "localized": "us_hydra_70",
+            "localized": "Hydra-70 M247",
             "icon_type": "nar_ap_small_group_x3",
             "count": 21,
             "individual_mass": 10.16,
@@ -319,7 +319,7 @@
           },
           {
             "name": "us_500lb_mk_82_x3_ter9a_1",
-            "localized": "us_500lb_mk82",
+            "localized": "500 lb",
             "icon_type": "bombs_middle_group",
             "count": 3,
             "individual_mass": 240.9,
@@ -363,7 +363,7 @@
           },
           {
             "name": "us_hydra_70_m247_x3",
-            "localized": "us_hydra_70",
+            "localized": "Hydra-70 M247",
             "icon_type": "nar_ap_small_group_x3",
             "count": 21,
             "individual_mass": 10.16,
@@ -381,7 +381,7 @@
           },
           {
             "name": "us_500lb_mk_82_x3_ter9a_1",
-            "localized": "us_500lb_mk82",
+            "localized": "500 lb",
             "icon_type": "bombs_middle_group",
             "count": 3,
             "individual_mass": 240.9,
@@ -408,7 +408,7 @@
           },
           {
             "name": "us_agm_65a_x_3",
-            "localized": "us_agm_65b",
+            "localized": "AGM-65B",
             "icon_type": "missile_air_to_uni_x3",
             "count": 3,
             "individual_mass": 207.0,
@@ -451,7 +451,7 @@
         "weapons": [
           {
             "name": "us_aim9l_sidewinder_rm_default",
-            "localized": "us_aim_9l",
+            "localized": "AIM-9L",
             "icon_type": "missile_type_b_air_to_air",
             "count": 1,
             "individual_mass": 84.46,
@@ -489,7 +489,7 @@
         "weapons": [
           {
             "name": "gau_8a_common",
-            "localized": "gau_8a_common",
+            "localized": "cannonGAU_8A",
             "icon_type": "cannon",
             "count": 1,
             "individual_mass": 866.0,
@@ -498,7 +498,7 @@
           },
           {
             "name": "gau_8a_ltc_common",
-            "localized": "gau_8a_ltc_common",
+            "localized": "cannonGAU_8A",
             "icon_type": "cannon",
             "count": 1,
             "individual_mass": 866.0,
@@ -515,7 +515,7 @@
         "weapons": [
           {
             "name": "us_aim9l_sidewinder_lm_default",
-            "localized": "us_aim9l_sidewinder_lm_default",
+            "localized": "AIM-9L",
             "icon_type": "missile_type_b_air_to_air",
             "count": 1,
             "individual_mass": 84.46,
@@ -585,7 +585,7 @@
           },
           {
             "name": "us_hydra_70_m247_x3",
-            "localized": "us_hydra_70",
+            "localized": "Hydra-70 M247",
             "icon_type": "nar_ap_small_group_x3",
             "count": 21,
             "individual_mass": 10.16,
@@ -603,7 +603,7 @@
           },
           {
             "name": "us_500lb_mk_82_x3_ter9a_1",
-            "localized": "us_500lb_mk82",
+            "localized": "500 lb",
             "icon_type": "bombs_middle_group",
             "count": 3,
             "individual_mass": 240.9,
@@ -647,7 +647,7 @@
           },
           {
             "name": "us_hydra_70_m247_x3",
-            "localized": "us_hydra_70",
+            "localized": "Hydra-70 M247",
             "icon_type": "nar_ap_small_group_x3",
             "count": 21,
             "individual_mass": 10.16,
@@ -665,7 +665,7 @@
           },
           {
             "name": "us_500lb_mk_82_x3_ter9a_1",
-            "localized": "us_500lb_mk82",
+            "localized": "500 lb",
             "icon_type": "bombs_middle_group",
             "count": 3,
             "individual_mass": 240.9,
@@ -752,7 +752,7 @@
           },
           {
             "name": "us_hydra_70_m247_x3",
-            "localized": "us_hydra_70",
+            "localized": "Hydra-70 M247",
             "icon_type": "nar_ap_small_group_x3",
             "count": 21,
             "individual_mass": 10.16,
@@ -770,7 +770,7 @@
           },
           {
             "name": "us_500lb_mk_82_x3_ter9a_1",
-            "localized": "us_500lb_mk82",
+            "localized": "500 lb",
             "icon_type": "bombs_middle_group",
             "count": 3,
             "individual_mass": 240.9,
@@ -805,7 +805,7 @@
           },
           {
             "name": "us_hydra_70_m247_x3",
-            "localized": "us_hydra_70",
+            "localized": "Hydra-70 M247",
             "icon_type": "nar_ap_small_group_x3",
             "count": 21,
             "individual_mass": 10.16,
@@ -823,7 +823,7 @@
           },
           {
             "name": "us_500lb_mk_82_x3_ter9a_1",
-            "localized": "us_500lb_mk82",
+            "localized": "500 lb",
             "icon_type": "bombs_middle_group",
             "count": 3,
             "individual_mass": 240.9,
@@ -884,7 +884,7 @@
         "weapons": [
           {
             "name": "us_aim9l_sidewinder_rm_default",
-            "localized": "us_aim9l_sidewinder_rm_default",
+            "localized": "AIM-9L",
             "icon_type": "missile_type_b_air_to_air",
             "count": 1,
             "individual_mass": 84.46,
@@ -940,7 +940,7 @@
           },
           {
             "name": "f_104s_asa_common_ltc",
-            "localized": "f_104s_asa_common_ltc",
+            "localized": "Flares/Chaff",
             "icon_type": "heli_false_thermal_targets",
             "count": 1,
             "individual_mass": 0.0,
@@ -957,7 +957,7 @@
         "weapons": [
           {
             "name": "default_aim9l",
-            "localized": "default_aim9l",
+            "localized": "us_aim9l_sidewinder_default",
             "icon_type": "missile_type_b_air_to_air",
             "count": 1,
             "individual_mass": 84.46,
@@ -974,7 +974,7 @@
         "weapons": [
           {
             "name": "aim9l",
-            "localized": "us_aim_9l",
+            "localized": "AIM-9L",
             "icon_type": "missile_type_b_air_to_air",
             "count": 1,
             "individual_mass": 84.46,
@@ -983,7 +983,7 @@
           },
           {
             "name": "it_aspide_1a",
-            "localized": "it_aspide",
+            "localized": "it_aspide_1a",
             "icon_type": "missile_air_to_air_midrange_special",
             "count": 1,
             "individual_mass": 230.0,
@@ -1010,7 +1010,7 @@
           },
           {
             "name": "aero_7a_2_75_in_ffar_mighty_mouse",
-            "localized": "us_2_75_in_ffar_lau_3a",
+            "localized": "FFAR Mighty Mouse",
             "icon_type": "nar_ap_middle",
             "count": 19,
             "individual_mass": 8.12,
@@ -1019,7 +1019,7 @@
           },
           {
             "name": "lau_10a_zuni_wafar_mk32",
-            "localized": "f4c_zuni",
+            "localized": "Zuni Mk32",
             "icon_type": "nar_ap_special",
             "count": 4,
             "individual_mass": 56.8,
@@ -1063,7 +1063,7 @@
           },
           {
             "name": "aero_7a_2_75_in_ffar_mighty_mouse",
-            "localized": "us_2_75_in_ffar_lau_3a",
+            "localized": "FFAR Mighty Mouse",
             "icon_type": "nar_ap_middle",
             "count": 19,
             "individual_mass": 8.12,
@@ -1106,7 +1106,7 @@
         "weapons": [
           {
             "name": "cannon_m61",
-            "localized": "cannon_m61",
+            "localized": "M61",
             "icon_type": "cannon",
             "count": 1,
             "individual_mass": 650.0,
@@ -1193,7 +1193,7 @@
           },
           {
             "name": "aero_7a_2_75_in_ffar_mighty_mouse",
-            "localized": "us_2_75_in_ffar_lau_3a",
+            "localized": "FFAR Mighty Mouse",
             "icon_type": "nar_ap_middle",
             "count": 19,
             "individual_mass": 8.12,
@@ -1210,7 +1210,7 @@
         "weapons": [
           {
             "name": "aim9l",
-            "localized": "us_aim_9l",
+            "localized": "AIM-9L",
             "icon_type": "missile_type_b_air_to_air",
             "count": 1,
             "individual_mass": 84.46,
@@ -1219,7 +1219,7 @@
           },
           {
             "name": "it_aspide_1a",
-            "localized": "it_aspide",
+            "localized": "it_aspide_1a",
             "icon_type": "missile_air_to_air_midrange_special",
             "count": 1,
             "individual_mass": 230.0,
@@ -1246,7 +1246,7 @@
           },
           {
             "name": "aero_7a_2_75_in_ffar_mighty_mouse",
-            "localized": "us_2_75_in_ffar_lau_3a",
+            "localized": "FFAR Mighty Mouse",
             "icon_type": "nar_ap_middle",
             "count": 19,
             "individual_mass": 8.12,
@@ -1255,7 +1255,7 @@
           },
           {
             "name": "lau_10a_zuni_wafar_mk32",
-            "localized": "f4c_zuni",
+            "localized": "Zuni Mk32",
             "icon_type": "nar_ap_special",
             "count": 4,
             "individual_mass": 56.8,
@@ -1272,7 +1272,7 @@
         "weapons": [
           {
             "name": "default_aim9l",
-            "localized": "M60_belt_pack",
+            "localized": "us_aim9l_sidewinder_default",
             "icon_type": "missile_type_b_air_to_air",
             "count": 1,
             "individual_mass": 84.46,
@@ -1301,7 +1301,7 @@
         "weapons": [
           {
             "name": "type_23_3_common",
-            "localized": "type_23_3_common",
+            "localized": "cannonType_23_3",
             "icon_type": "cannon",
             "count": 1,
             "individual_mass": 155.0,
@@ -1310,7 +1310,7 @@
           },
           {
             "name": "type_23_3_ltc_common",
-            "localized": "type_23_3_ltc_common",
+            "localized": "cannonType_23_3",
             "icon_type": "cannon",
             "count": 1,
             "individual_mass": 155.0,
@@ -1327,7 +1327,7 @@
         "weapons": [
           {
             "name": "default_pl5b",
-            "localized": "default_pl5b",
+            "localized": "su_pl5b_default",
             "icon_type": "missile_air_to_air",
             "count": 1,
             "individual_mass": 84.5,
@@ -1336,7 +1336,7 @@
           },
           {
             "name": "hf_6_type90_heat",
-            "localized": "cn_q5_hf6",
+            "localized": "Type 90-1 HEAT",
             "icon_type": "nar_ap_special",
             "count": 7,
             "individual_mass": 14.6,
@@ -1353,7 +1353,7 @@
         "weapons": [
           {
             "name": "pl5b",
-            "localized": "j_7_pl5b",
+            "localized": "PL-5B",
             "icon_type": "missile_air_to_air",
             "count": 1,
             "individual_mass": 84.5,
@@ -1362,7 +1362,7 @@
           },
           {
             "name": "aspide",
-            "localized": "it_aspide",
+            "localized": "it_aspide_1a",
             "icon_type": "missile_air_to_air_midrange_special",
             "count": 1,
             "individual_mass": 230.0,
@@ -1371,7 +1371,7 @@
           },
           {
             "name": "hf_6_type90_heat",
-            "localized": "cn_q5_hf6",
+            "localized": "Type 90-1 HEAT",
             "icon_type": "nar_ap_special",
             "count": 7,
             "individual_mass": 14.6,
@@ -1380,7 +1380,7 @@
           },
           {
             "name": "250kg_mk_82",
-            "localized": "cn_q5_type_250",
+            "localized": "500 lb",
             "icon_type": "bombs_middle",
             "count": 1,
             "individual_mass": 240.9,
@@ -1397,7 +1397,7 @@
         "weapons": [
           {
             "name": "pl5b",
-            "localized": "j_7_pl5b",
+            "localized": "PL-5B",
             "icon_type": "missile_air_to_air",
             "count": 1,
             "individual_mass": 84.5,
@@ -1414,7 +1414,7 @@
         "weapons": [
           {
             "name": "250kg_mk_82_x6",
-            "localized": "cn_q5_type_250",
+            "localized": "500 lb",
             "icon_type": "bombs_middle_group_x6",
             "count": 6,
             "individual_mass": 240.9,
@@ -1431,7 +1431,7 @@
         "weapons": [
           {
             "name": "pl5b",
-            "localized": "j_7_pl5b",
+            "localized": "PL-5B",
             "icon_type": "missile_air_to_air",
             "count": 1,
             "individual_mass": 84.5,
@@ -1448,7 +1448,7 @@
         "weapons": [
           {
             "name": "pl5b",
-            "localized": "j_7_pl5b",
+            "localized": "PL-5B",
             "icon_type": "missile_air_to_air",
             "count": 1,
             "individual_mass": 84.5,
@@ -1457,7 +1457,7 @@
           },
           {
             "name": "aspide",
-            "localized": "it_aspide",
+            "localized": "it_aspide_1a",
             "icon_type": "missile_air_to_air_midrange_special",
             "count": 1,
             "individual_mass": 230.0,
@@ -1466,7 +1466,7 @@
           },
           {
             "name": "hf_6_type90_heat",
-            "localized": "cn_q5_hf6",
+            "localized": "Type 90-1 HEAT",
             "icon_type": "nar_ap_special",
             "count": 7,
             "individual_mass": 14.6,
@@ -1475,7 +1475,7 @@
           },
           {
             "name": "250kg_mk_82",
-            "localized": "cn_q5_type_250",
+            "localized": "500 lb",
             "icon_type": "bombs_middle",
             "count": 1,
             "individual_mass": 240.9,
@@ -1492,7 +1492,7 @@
         "weapons": [
           {
             "name": "default_pl5b",
-            "localized": "default_pl5b",
+            "localized": "su_pl5b_default",
             "icon_type": "missile_air_to_air",
             "count": 1,
             "individual_mass": 84.5,
@@ -1501,7 +1501,7 @@
           },
           {
             "name": "hf_6_type90_heat",
-            "localized": "cn_q5_hf6",
+            "localized": "Type 90-1 HEAT",
             "icon_type": "nar_ap_special",
             "count": 7,
             "individual_mass": 14.6,
@@ -1530,7 +1530,7 @@
         "weapons": [
           {
             "name": "defa552a_common",
-            "localized": "defa552a_common",
+            "localized": "30 mm DEFA 552A cannon",
             "icon_type": "cannon",
             "count": 1,
             "individual_mass": 80.0,
@@ -1539,7 +1539,7 @@
           },
           {
             "name": "defa552a_ltc_common",
-            "localized": "defa552a_ltc_common",
+            "localized": "30 mm DEFA 552A cannon",
             "icon_type": "cannon",
             "count": 1,
             "individual_mass": 80.0,
@@ -1556,7 +1556,7 @@
         "weapons": [
           {
             "name": "shafrir_2",
-            "localized": "shafrir_2",
+            "localized": "Shafrir 2",
             "icon_type": "missile_air_to_air",
             "count": 1,
             "individual_mass": 90.0,
@@ -1565,7 +1565,7 @@
           },
           {
             "name": "aim9d",
-            "localized": "aim9d",
+            "localized": "AIM-9D",
             "icon_type": "missile_type_b_air_to_air",
             "count": 1,
             "individual_mass": 88.45,
@@ -1574,7 +1574,7 @@
           },
           {
             "name": "aim9g",
-            "localized": "us_aim_9g",
+            "localized": "AIM-9G",
             "icon_type": "missile_type_c_air_to_air",
             "count": 1,
             "individual_mass": 88.45,
@@ -1591,7 +1591,7 @@
         "weapons": [
           {
             "name": "lau_3a_ffar_mighty_mouse_x2_left_wing",
-            "localized": "us_2_75_in_ffar_lau_3a",
+            "localized": "FFAR Mighty Mouse",
             "icon_type": "nar_ap_large_group",
             "count": 38,
             "individual_mass": 8.12,
@@ -1600,7 +1600,7 @@
           },
           {
             "name": "lau_10a_zuni_wafar_mk32_x2_left_wing",
-            "localized": "f4c_zuni",
+            "localized": "Zuni Mk32",
             "icon_type": "nar_ap_special_group",
             "count": 8,
             "individual_mass": 56.8,
@@ -1609,7 +1609,7 @@
           },
           {
             "name": "ter_us_500lb_mk_82_x3",
-            "localized": "us_500lb_mk82",
+            "localized": "500 lb",
             "icon_type": "bombs_small_group",
             "count": 3,
             "individual_mass": 240.9,
@@ -1618,7 +1618,7 @@
           },
           {
             "name": "ter_us_750lb_m117_cone_45_x2_left_wing",
-            "localized": "us_750lb_m117a1",
+            "localized": "750 lb M117",
             "icon_type": "bombs_middle_group_x2",
             "count": 2,
             "individual_mass": 362.42,
@@ -1627,7 +1627,7 @@
           },
           {
             "name": "ter_us_1000lb_mk_83_x2_left_wing",
-            "localized": "us_1000lb_mk83",
+            "localized": "1000 lb",
             "icon_type": "bombs_large_group_x2",
             "count": 2,
             "individual_mass": 446.8,
@@ -1636,7 +1636,7 @@
           },
           {
             "name": "2000lb_mk_84_ldgp",
-            "localized": "us_2000lb_mk84",
+            "localized": "2000 lb",
             "icon_type": "bombs_heavy_middle",
             "count": 1,
             "individual_mass": 893.6,
@@ -1645,7 +1645,7 @@
           },
           {
             "name": "suu_23a",
-            "localized": "f4c_suu_23a",
+            "localized": "M61",
             "icon_type": "multibarrel_box",
             "count": 1,
             "individual_mass": 650.0,
@@ -1654,7 +1654,7 @@
           },
           {
             "name": "mdnp_us_500lb_mk_82_ldgp",
-            "localized": "us_500lb_mk82",
+            "localized": "500 lb",
             "icon_type": "ptb_bombs_small_group",
             "count": 2,
             "individual_mass": 240.9,
@@ -1663,7 +1663,7 @@
           },
           {
             "name": "mdnp_us_750lb_m117_cone_45",
-            "localized": "us_750lb_m117a1",
+            "localized": "750 lb M117",
             "icon_type": "ptb_bombs_middle_group",
             "count": 2,
             "individual_mass": 362.42,
@@ -1680,7 +1680,7 @@
         "weapons": [
           {
             "name": "pylon_c2_f5_us_500lb_mk_82_ldgp",
-            "localized": "us_500lb_mk82",
+            "localized": "500 lb",
             "icon_type": "bombs_small_group_x2",
             "count": 1,
             "individual_mass": 240.9,
@@ -1689,7 +1689,7 @@
           },
           {
             "name": "pylon_c2_f5_us_750lb_m117_cone_45",
-            "localized": "us_750lb_m117a1",
+            "localized": "750 lb M117",
             "icon_type": "bombs_middle_group_x2",
             "count": 1,
             "individual_mass": 362.42,
@@ -1698,7 +1698,7 @@
           },
           {
             "name": "pylon_c2_f5_us_1000lb_mk_83_ldgp",
-            "localized": "us_1000lb_mk83",
+            "localized": "1000 lb",
             "icon_type": "bombs_large_group_x2",
             "count": 1,
             "individual_mass": 446.8,
@@ -1715,7 +1715,7 @@
         "weapons": [
           {
             "name": "napgach_us_500lb_mk_82_ldgp_x5",
-            "localized": "us_500lb_mk82",
+            "localized": "500 lb",
             "icon_type": "bombs_small_group_x5",
             "count": 5,
             "individual_mass": 240.9,
@@ -1732,7 +1732,7 @@
         "weapons": [
           {
             "name": "pylon_c2_f5_us_500lb_mk_82_ldgp",
-            "localized": "us_500lb_mk82",
+            "localized": "500 lb",
             "icon_type": "bombs_small_group_x2",
             "count": 1,
             "individual_mass": 240.9,
@@ -1741,7 +1741,7 @@
           },
           {
             "name": "pylon_c2_f5_us_750lb_m117_cone_45",
-            "localized": "us_750lb_m117a1",
+            "localized": "750 lb M117",
             "icon_type": "bombs_middle_group_x2",
             "count": 1,
             "individual_mass": 362.42,
@@ -1750,7 +1750,7 @@
           },
           {
             "name": "pylon_c2_f5_us_1000lb_mk_83_ldgp",
-            "localized": "us_1000lb_mk83",
+            "localized": "1000 lb",
             "icon_type": "bombs_large_group_x2",
             "count": 1,
             "individual_mass": 446.8,
@@ -1767,7 +1767,7 @@
         "weapons": [
           {
             "name": "lau_3a_ffar_mighty_mouse_x2_right_wing",
-            "localized": "us_2_75_in_ffar_lau_3a",
+            "localized": "FFAR Mighty Mouse",
             "icon_type": "nar_ap_large_group",
             "count": 38,
             "individual_mass": 8.12,
@@ -1776,7 +1776,7 @@
           },
           {
             "name": "lau_10a_zuni_wafar_mk32_x2_right_wing",
-            "localized": "f4c_zuni",
+            "localized": "Zuni Mk32",
             "icon_type": "nar_ap_special_group",
             "count": 8,
             "individual_mass": 56.8,
@@ -1785,7 +1785,7 @@
           },
           {
             "name": "ter_us_500lb_mk_82_x3",
-            "localized": "us_500lb_mk82",
+            "localized": "500 lb",
             "icon_type": "bombs_small_group",
             "count": 3,
             "individual_mass": 240.9,
@@ -1794,7 +1794,7 @@
           },
           {
             "name": "ter_us_750lb_m117_cone_45_x2_right_wing",
-            "localized": "us_750lb_m117a1",
+            "localized": "750 lb M117",
             "icon_type": "bombs_middle_group_x2",
             "count": 2,
             "individual_mass": 362.42,
@@ -1803,7 +1803,7 @@
           },
           {
             "name": "ter_us_1000lb_mk_83_x2_right_wing",
-            "localized": "us_1000lb_mk83",
+            "localized": "1000 lb",
             "icon_type": "bombs_large_group_x2",
             "count": 2,
             "individual_mass": 446.8,
@@ -1812,7 +1812,7 @@
           },
           {
             "name": "2000lb_mk_84_ldgp",
-            "localized": "us_2000lb_mk84",
+            "localized": "2000 lb",
             "icon_type": "bombs_heavy_middle",
             "count": 1,
             "individual_mass": 893.6,
@@ -1821,7 +1821,7 @@
           },
           {
             "name": "suu_23a",
-            "localized": "f4c_suu_23a",
+            "localized": "M61",
             "icon_type": "multibarrel_box",
             "count": 1,
             "individual_mass": 650.0,
@@ -1830,7 +1830,7 @@
           },
           {
             "name": "mdnp_us_500lb_mk_82_ldgp",
-            "localized": "us_500lb_mk82",
+            "localized": "500 lb",
             "icon_type": "ptb_bombs_small_group",
             "count": 2,
             "individual_mass": 240.9,
@@ -1839,7 +1839,7 @@
           },
           {
             "name": "mdnp_us_750lb_m117_cone_45",
-            "localized": "us_750lb_m117a1",
+            "localized": "750 lb M117",
             "icon_type": "ptb_bombs_middle_group",
             "count": 2,
             "individual_mass": 362.42,
@@ -1856,7 +1856,7 @@
         "weapons": [
           {
             "name": "shafrir_2",
-            "localized": "shafrir_2",
+            "localized": "Shafrir 2",
             "icon_type": "missile_air_to_air",
             "count": 1,
             "individual_mass": 90.0,
@@ -1865,7 +1865,7 @@
           },
           {
             "name": "aim9d",
-            "localized": "aim9d",
+            "localized": "AIM-9D",
             "icon_type": "missile_type_b_air_to_air",
             "count": 1,
             "individual_mass": 88.45,
@@ -1874,7 +1874,7 @@
           },
           {
             "name": "aim9g",
-            "localized": "us_aim_9g",
+            "localized": "AIM-9G",
             "icon_type": "missile_type_c_air_to_air",
             "count": 1,
             "individual_mass": 88.45,
@@ -1903,7 +1903,7 @@
         "weapons": [
           {
             "name": "gsh_23l_common",
-            "localized": "gsh_23l_common",
+            "localized": "23 mm GSh-23L cannon",
             "icon_type": "cannon",
             "count": 1,
             "individual_mass": 155.0,
@@ -1912,7 +1912,7 @@
           },
           {
             "name": "gsh_23l_ltc_common",
-            "localized": "gsh_23l_ltc_common",
+            "localized": "23 mm GSh-23L cannon",
             "icon_type": "cannon",
             "count": 1,
             "individual_mass": 155.0,
@@ -1929,7 +1929,7 @@
         "weapons": [
           {
             "name": "default_r_13m1",
-            "localized": "default_r_13m1",
+            "localized": "su_r_13m1_default",
             "icon_type": "missile_air_to_air",
             "count": 1,
             "individual_mass": 90.6,
@@ -1938,7 +1938,7 @@
           },
           {
             "name": "r_60",
-            "localized": "mi_24_r_60",
+            "localized": "R-60",
             "icon_type": "missile_type_b_air_to_air",
             "count": 1,
             "individual_mass": 44.0,
@@ -1947,7 +1947,7 @@
           },
           {
             "name": "r_23r",
-            "localized": "mig_23_r_23",
+            "localized": "R-23R",
             "icon_type": "missile_air_to_air_midrange",
             "count": 1,
             "individual_mass": 223.0,
@@ -1956,7 +1956,7 @@
           },
           {
             "name": "r_23t",
-            "localized": "mig_23_r_23",
+            "localized": "R-23T",
             "icon_type": "missile_air_to_air_ir_large",
             "count": 1,
             "individual_mass": 215.0,
@@ -1965,7 +1965,7 @@
           },
           {
             "name": "r_24r",
-            "localized": "mig_23_r_24",
+            "localized": "R-24R",
             "icon_type": "missile_air_to_air_midrange_special",
             "count": 1,
             "individual_mass": 244.0,
@@ -1974,7 +1974,7 @@
           },
           {
             "name": "r_24t",
-            "localized": "mig_23_r_24",
+            "localized": "R-24T",
             "icon_type": "missile_air_to_air_ir_large_special",
             "count": 1,
             "individual_mass": 237.0,
@@ -1983,7 +1983,7 @@
           },
           {
             "name": "ofab100_120",
-            "localized": "su_17_ofab_100",
+            "localized": "OFAB-100",
             "icon_type": "bombs_small_group_x4",
             "count": 4,
             "individual_mass": 114.0,
@@ -1992,7 +1992,7 @@
           },
           {
             "name": "fab_250m_62",
-            "localized": "mi_24_fab_250",
+            "localized": "FAB-250M-62",
             "icon_type": "bombs_middle",
             "count": 1,
             "individual_mass": 227.0,
@@ -2001,7 +2001,7 @@
           },
           {
             "name": "fab_500m_62t",
-            "localized": "mi_24_fab_500",
+            "localized": "FAB-500M-62",
             "icon_type": "bombs_large",
             "count": 1,
             "individual_mass": 508.3,
@@ -2010,7 +2010,7 @@
           },
           {
             "name": "ub_16_57_s5k",
-            "localized": "mig_21_ub32",
+            "localized": "S-5K",
             "icon_type": "nar_ap_middle",
             "count": 16,
             "individual_mass": 3.64,
@@ -2019,7 +2019,7 @@
           },
           {
             "name": "ub_32a_24_s5k",
-            "localized": "mig_21_ub32",
+            "localized": "S-5K",
             "icon_type": "nar_ap_middle",
             "count": 32,
             "individual_mass": 3.64,
@@ -2028,7 +2028,7 @@
           },
           {
             "name": "b8m1_s_8ko",
-            "localized": "yak_38_b8m1",
+            "localized": "S-8KO",
             "icon_type": "nar_ap_middle",
             "count": 20,
             "individual_mass": 11.3,
@@ -2037,7 +2037,7 @@
           },
           {
             "name": "s24",
-            "localized": "il_28sh_s24",
+            "localized": "S-24B",
             "icon_type": "rockets_he_middle",
             "count": 1,
             "individual_mass": 235.0,
@@ -2046,7 +2046,7 @@
           },
           {
             "name": "x23m",
-            "localized": "yak_38_x23m",
+            "localized": "Kh-23M",
             "icon_type": "missile_air_to_uni",
             "count": 1,
             "individual_mass": 289.0,
@@ -2055,7 +2055,7 @@
           },
           {
             "name": "upk23_gunpod",
-            "localized": "il_28sh_upk23_gunpod",
+            "localized": "23 mm GSh-23L cannon",
             "icon_type": "doublebarreled_box",
             "count": 1,
             "individual_mass": 155.0,
@@ -2072,7 +2072,7 @@
         "weapons": [
           {
             "name": "r_13m1",
-            "localized": "mig_19_r13m",
+            "localized": "R-13M1",
             "icon_type": "missile_air_to_air",
             "count": 1,
             "individual_mass": 90.6,
@@ -2081,7 +2081,7 @@
           },
           {
             "name": "r_60m_x2_l",
-            "localized": "mi_24_r_60",
+            "localized": "R-60",
             "icon_type": "missile_type_b_air_to_air_group",
             "count": 2,
             "individual_mass": 44.0,
@@ -2090,7 +2090,7 @@
           },
           {
             "name": "ofab100_120",
-            "localized": "su_17_ofab_100",
+            "localized": "OFAB-100",
             "icon_type": "bombs_small_group_x4",
             "count": 4,
             "individual_mass": 114.0,
@@ -2099,7 +2099,7 @@
           },
           {
             "name": "fab_250m_62",
-            "localized": "mi_24_fab_250",
+            "localized": "FAB-250M-62",
             "icon_type": "bombs_middle",
             "count": 1,
             "individual_mass": 227.0,
@@ -2108,7 +2108,7 @@
           },
           {
             "name": "ub_16_57_s5k",
-            "localized": "mig_21_ub32",
+            "localized": "S-5K",
             "icon_type": "nar_ap_middle",
             "count": 16,
             "individual_mass": 3.64,
@@ -2117,7 +2117,7 @@
           },
           {
             "name": "s24",
-            "localized": "il_28sh_s24",
+            "localized": "S-24B",
             "icon_type": "rockets_he_middle",
             "count": 1,
             "individual_mass": 235.0,
@@ -2134,7 +2134,7 @@
         "weapons": [
           {
             "name": "r_13m1",
-            "localized": "mig_19_r13m",
+            "localized": "R-13M1",
             "icon_type": "missile_air_to_air",
             "count": 1,
             "individual_mass": 90.6,
@@ -2143,7 +2143,7 @@
           },
           {
             "name": "r_60m_x2_r",
-            "localized": "mi_24_r_60",
+            "localized": "R-60",
             "icon_type": "missile_type_b_air_to_air_group",
             "count": 2,
             "individual_mass": 44.0,
@@ -2152,7 +2152,7 @@
           },
           {
             "name": "ofab100_120",
-            "localized": "su_17_ofab_100",
+            "localized": "OFAB-100",
             "icon_type": "bombs_small_group_x4",
             "count": 4,
             "individual_mass": 114.0,
@@ -2161,7 +2161,7 @@
           },
           {
             "name": "fab_250m_62",
-            "localized": "mi_24_fab_250",
+            "localized": "FAB-250M-62",
             "icon_type": "bombs_middle",
             "count": 1,
             "individual_mass": 227.0,
@@ -2170,7 +2170,7 @@
           },
           {
             "name": "ub_16_57_s5k",
-            "localized": "mig_21_ub32",
+            "localized": "S-5K",
             "icon_type": "nar_ap_middle",
             "count": 16,
             "individual_mass": 3.64,
@@ -2179,7 +2179,7 @@
           },
           {
             "name": "s24",
-            "localized": "il_28sh_s24",
+            "localized": "S-24B",
             "icon_type": "rockets_he_middle",
             "count": 1,
             "individual_mass": 235.0,
@@ -2196,7 +2196,7 @@
         "weapons": [
           {
             "name": "default_r_13m1",
-            "localized": "default_r_13m1",
+            "localized": "su_r_13m1_default",
             "icon_type": "missile_air_to_air",
             "count": 1,
             "individual_mass": 90.6,
@@ -2205,7 +2205,7 @@
           },
           {
             "name": "r_60",
-            "localized": "mi_24_r_60",
+            "localized": "R-60",
             "icon_type": "missile_type_b_air_to_air",
             "count": 1,
             "individual_mass": 44.0,
@@ -2214,7 +2214,7 @@
           },
           {
             "name": "r_23r",
-            "localized": "mig_23_r_23",
+            "localized": "R-23R",
             "icon_type": "missile_air_to_air_midrange",
             "count": 1,
             "individual_mass": 223.0,
@@ -2223,7 +2223,7 @@
           },
           {
             "name": "r_23t",
-            "localized": "mig_23_r_23",
+            "localized": "R-23T",
             "icon_type": "missile_air_to_air_ir_large",
             "count": 1,
             "individual_mass": 215.0,
@@ -2232,7 +2232,7 @@
           },
           {
             "name": "r_24r",
-            "localized": "mig_23_r_24",
+            "localized": "R-24R",
             "icon_type": "missile_air_to_air_midrange_special",
             "count": 1,
             "individual_mass": 244.0,
@@ -2241,7 +2241,7 @@
           },
           {
             "name": "r_24t",
-            "localized": "mig_23_r_24",
+            "localized": "R-24T",
             "icon_type": "missile_air_to_air_ir_large_special",
             "count": 1,
             "individual_mass": 237.0,
@@ -2250,7 +2250,7 @@
           },
           {
             "name": "ofab100_120",
-            "localized": "su_17_ofab_100",
+            "localized": "OFAB-100",
             "icon_type": "bombs_small_group_x4",
             "count": 4,
             "individual_mass": 114.0,
@@ -2259,7 +2259,7 @@
           },
           {
             "name": "fab_250m_62",
-            "localized": "mi_24_fab_250",
+            "localized": "FAB-250M-62",
             "icon_type": "bombs_middle",
             "count": 1,
             "individual_mass": 227.0,
@@ -2268,7 +2268,7 @@
           },
           {
             "name": "fab_500m_62t",
-            "localized": "mi_24_fab_500",
+            "localized": "FAB-500M-62",
             "icon_type": "bombs_large",
             "count": 1,
             "individual_mass": 508.3,
@@ -2277,7 +2277,7 @@
           },
           {
             "name": "ub_16_57_s5k",
-            "localized": "mig_21_ub32",
+            "localized": "S-5K",
             "icon_type": "nar_ap_middle",
             "count": 16,
             "individual_mass": 3.64,
@@ -2286,7 +2286,7 @@
           },
           {
             "name": "ub_32a_24_s5k",
-            "localized": "mig_21_ub32",
+            "localized": "S-5K",
             "icon_type": "nar_ap_middle",
             "count": 32,
             "individual_mass": 3.64,
@@ -2295,7 +2295,7 @@
           },
           {
             "name": "b8m1_s_8ko",
-            "localized": "yak_38_b8m1",
+            "localized": "S-8KO",
             "icon_type": "nar_ap_middle",
             "count": 20,
             "individual_mass": 11.3,
@@ -2304,7 +2304,7 @@
           },
           {
             "name": "s24",
-            "localized": "il_28sh_s24",
+            "localized": "S-24B",
             "icon_type": "rockets_he_middle",
             "count": 1,
             "individual_mass": 235.0,
@@ -2313,7 +2313,7 @@
           },
           {
             "name": "x23m",
-            "localized": "yak_38_x23m",
+            "localized": "Kh-23M",
             "icon_type": "missile_air_to_uni",
             "count": 1,
             "individual_mass": 289.0,
@@ -2322,7 +2322,7 @@
           },
           {
             "name": "upk23_gunpod",
-            "localized": "il_28sh_upk23_gunpod",
+            "localized": "23 mm GSh-23L cannon",
             "icon_type": "doublebarreled_box",
             "count": 1,
             "individual_mass": 155.0,
@@ -2351,7 +2351,7 @@
         "weapons": [
           {
             "name": "defa_553_x2",
-            "localized": "defa_553_x2",
+            "localized": "30 mm DEFA 553 cannon",
             "icon_type": "cannon",
             "count": 1,
             "individual_mass": 150.0,
@@ -2360,7 +2360,7 @@
           },
           {
             "name": "defa_553_x2_ltc",
-            "localized": "defa_553_x2_ltc",
+            "localized": "30 mm DEFA 553 cannon",
             "icon_type": "cannon",
             "count": 1,
             "individual_mass": 150.0,
@@ -2377,7 +2377,7 @@
         "weapons": [
           {
             "name": "wing_left_rocket_r550_magic_1",
-            "localized": "wing_left_rocket_r550_magic_1",
+            "localized": "Matra R550 Magic 1",
             "icon_type": "missile_type_b_air_to_air",
             "count": 1,
             "individual_mass": 89.0,
@@ -2386,7 +2386,7 @@
           },
           {
             "name": "wing_left_rocket_r550_magic_2",
-            "localized": "fr_matra_r_550_magic_2",
+            "localized": "fr_r_550_magic_2",
             "icon_type": "missile_type_c_air_to_air",
             "count": 1,
             "individual_mass": 89.0,
@@ -2403,7 +2403,7 @@
         "weapons": [
           {
             "name": "wing_left_1_bomb_250_samp",
-            "localized": "fr_250kg_type_25c",
+            "localized": "250 Kg Type 25",
             "icon_type": "bombs_middle",
             "count": 1,
             "individual_mass": 247.0,
@@ -2412,7 +2412,7 @@
           },
           {
             "name": "wing_left_1_bomb_400_samp",
-            "localized": "fr_400kg_type_21b",
+            "localized": "SAMP 400 Kg Type 21",
             "icon_type": "bombs_large",
             "count": 1,
             "individual_mass": 400.0,
@@ -2421,7 +2421,7 @@
           },
           {
             "name": "wing_left_1_bomb_250kg_samp_mk82",
-            "localized": "fr_250kg_type_25c",
+            "localized": "fr_250kg_samp_mk82",
             "icon_type": "bombs_middle",
             "count": 1,
             "individual_mass": 250.0,
@@ -2430,7 +2430,7 @@
           },
           {
             "name": "wing_left_1_bomb_500kg_samp_mk83",
-            "localized": "us_1000lb_mk83",
+            "localized": "fr_500kg_samp_mk83",
             "icon_type": "bombs_large",
             "count": 1,
             "individual_mass": 500.0,
@@ -2439,7 +2439,7 @@
           },
           {
             "name": "containers_matra_lr_f1",
-            "localized": "fr_lr_f1",
+            "localized": "SNEB type 23 rocket",
             "icon_type": "nar_ap_large",
             "count": 36,
             "individual_mass": 5.05,
@@ -2448,7 +2448,7 @@
           },
           {
             "name": "containers_matra_lr_f4",
-            "localized": "fr_jl_100r",
+            "localized": "SNEB type 23",
             "icon_type": "nar_ap_small",
             "count": 18,
             "individual_mass": 5.05,
@@ -2465,7 +2465,7 @@
         "weapons": [
           {
             "name": "wing_left_middle_rocket_r530_matra_ir",
-            "localized": "fr_matra_r_530",
+            "localized": "Matra R530E",
             "icon_type": "missile_air_to_air_ir_large",
             "count": 1,
             "individual_mass": 193.5,
@@ -2474,7 +2474,7 @@
           },
           {
             "name": "wing_left_middle_rocket_r530_matra_radar",
-            "localized": "fr_matra_r_530",
+            "localized": "Matra R530",
             "icon_type": "missile_air_to_air_midrange",
             "count": 1,
             "individual_mass": 193.5,
@@ -2483,7 +2483,7 @@
           },
           {
             "name": "wing_right_2_rocket_matra_super_530f",
-            "localized": "fr_matra_r_530_f",
+            "localized": "fr_matra_super_530f",
             "icon_type": "missile_air_to_air_midrange_special",
             "count": 1,
             "individual_mass": 245.0,
@@ -2492,7 +2492,7 @@
           },
           {
             "name": "wing_left_middle_bomb_250_samp",
-            "localized": "fr_250kg_type_25c",
+            "localized": "250 Kg Type 25",
             "icon_type": "bombs_middle",
             "count": 1,
             "individual_mass": 247.0,
@@ -2501,7 +2501,7 @@
           },
           {
             "name": "wing_left_middle_bomb_400_samp",
-            "localized": "fr_400kg_type_21b",
+            "localized": "SAMP 400 Kg Type 21",
             "icon_type": "bombs_large",
             "count": 1,
             "individual_mass": 400.0,
@@ -2510,7 +2510,7 @@
           },
           {
             "name": "wing_left_middle_bomb_250kg_samp_mk82",
-            "localized": "fr_250kg_type_25c",
+            "localized": "fr_250kg_samp_mk82",
             "icon_type": "bombs_middle",
             "count": 1,
             "individual_mass": 250.0,
@@ -2519,7 +2519,7 @@
           },
           {
             "name": "wing_left_middle_bomb_500kg_samp_mk83",
-            "localized": "us_1000lb_mk83",
+            "localized": "fr_500kg_samp_mk83",
             "icon_type": "bombs_large",
             "count": 1,
             "individual_mass": 500.0,
@@ -2528,7 +2528,7 @@
           },
           {
             "name": "wing_left_middle_bomb_1000kg_samp_mk84",
-            "localized": "us_2000lb_mk84",
+            "localized": "fr_1000kg_samp_mk84",
             "icon_type": "bombs_special",
             "count": 1,
             "individual_mass": 1000.0,
@@ -2537,7 +2537,7 @@
           },
           {
             "name": "wing_left_middle_cc420",
-            "localized": "fr_mirage_f1c_cc_420_gunpod",
+            "localized": "cannonDEFA553_gunpod",
             "icon_type": "machine_gun",
             "count": 1,
             "individual_mass": 150.0,
@@ -2546,7 +2546,7 @@
           },
           {
             "name": "containers_matra_lr_f1",
-            "localized": "fr_lr_f1",
+            "localized": "SNEB type 23 rocket",
             "icon_type": "nar_ap_large",
             "count": 36,
             "individual_mass": 5.05,
@@ -2555,7 +2555,7 @@
           },
           {
             "name": "containers_matra_lr_f4",
-            "localized": "fr_jl_100r",
+            "localized": "SNEB type 23",
             "icon_type": "nar_ap_small",
             "count": 18,
             "individual_mass": 5.05,
@@ -2572,7 +2572,7 @@
         "weapons": [
           {
             "name": "fuse_rocket_r530_matra_ir",
-            "localized": "fr_matra_r_530",
+            "localized": "Matra R530E",
             "icon_type": "missile_air_to_air_ir_large",
             "count": 1,
             "individual_mass": 193.5,
@@ -2581,7 +2581,7 @@
           },
           {
             "name": "fuse_rocket_r530_matra_radar",
-            "localized": "fr_matra_r_530",
+            "localized": "Matra R530",
             "icon_type": "missile_air_to_air_midrange",
             "count": 1,
             "individual_mass": 193.5,
@@ -2590,7 +2590,7 @@
           },
           {
             "name": "fuse_bomb_250_samp",
-            "localized": "fr_250kg_type_25c",
+            "localized": "250 Kg Type 25",
             "icon_type": "bombs_middle",
             "count": 1,
             "individual_mass": 247.0,
@@ -2599,7 +2599,7 @@
           },
           {
             "name": "fuse_bomb_400_samp",
-            "localized": "fr_400kg_type_21b",
+            "localized": "SAMP 400 Kg Type 21",
             "icon_type": "bombs_large",
             "count": 1,
             "individual_mass": 400.0,
@@ -2608,7 +2608,7 @@
           },
           {
             "name": "fuse_bomb_250kg_samp_mk82",
-            "localized": "fr_250kg_type_25c",
+            "localized": "fr_250kg_samp_mk82",
             "icon_type": "bombs_middle",
             "count": 1,
             "individual_mass": 250.0,
@@ -2617,7 +2617,7 @@
           },
           {
             "name": "fuse_bomb_500kg_samp_mk83",
-            "localized": "us_1000lb_mk83",
+            "localized": "fr_500kg_samp_mk83",
             "icon_type": "bombs_large",
             "count": 1,
             "individual_mass": 500.0,
@@ -2626,7 +2626,7 @@
           },
           {
             "name": "fuse_bomb_1000kg_samp_mk84",
-            "localized": "us_2000lb_mk84",
+            "localized": "fr_1000kg_samp_mk84",
             "icon_type": "bombs_special",
             "count": 1,
             "individual_mass": 1000.0,
@@ -2643,7 +2643,7 @@
         "weapons": [
           {
             "name": "wing_right_middle_rocket_r530_matra_ir",
-            "localized": "fr_matra_r_530",
+            "localized": "Matra R530E",
             "icon_type": "missile_air_to_air_ir_large",
             "count": 1,
             "individual_mass": 193.5,
@@ -2652,7 +2652,7 @@
           },
           {
             "name": "wing_right_middle_rocket_r530_matra_radar",
-            "localized": "fr_matra_r_530",
+            "localized": "Matra R530",
             "icon_type": "missile_air_to_air_midrange",
             "count": 1,
             "individual_mass": 193.5,
@@ -2661,7 +2661,7 @@
           },
           {
             "name": "wing_right_2_rocket_matra_super_530f",
-            "localized": "fr_matra_r_530_f",
+            "localized": "fr_matra_super_530f",
             "icon_type": "missile_air_to_air_midrange_special",
             "count": 1,
             "individual_mass": 245.0,
@@ -2670,7 +2670,7 @@
           },
           {
             "name": "wing_right_middle_bomb_250_samp",
-            "localized": "fr_250kg_type_25c",
+            "localized": "250 Kg Type 25",
             "icon_type": "bombs_middle",
             "count": 1,
             "individual_mass": 247.0,
@@ -2679,7 +2679,7 @@
           },
           {
             "name": "wing_right_middle_bomb_400_samp",
-            "localized": "fr_400kg_type_21b",
+            "localized": "SAMP 400 Kg Type 21",
             "icon_type": "bombs_large",
             "count": 1,
             "individual_mass": 400.0,
@@ -2688,7 +2688,7 @@
           },
           {
             "name": "wing_right_middle_bomb_250kg_samp_mk82",
-            "localized": "fr_250kg_type_25c",
+            "localized": "fr_250kg_samp_mk82",
             "icon_type": "bombs_middle",
             "count": 1,
             "individual_mass": 250.0,
@@ -2697,7 +2697,7 @@
           },
           {
             "name": "wing_right_middle_bomb_500kg_samp_mk83",
-            "localized": "us_1000lb_mk83",
+            "localized": "fr_500kg_samp_mk83",
             "icon_type": "bombs_large",
             "count": 1,
             "individual_mass": 500.0,
@@ -2706,7 +2706,7 @@
           },
           {
             "name": "wing_right_middle_bomb_1000kg_samp_mk84",
-            "localized": "us_2000lb_mk84",
+            "localized": "fr_1000kg_samp_mk84",
             "icon_type": "bombs_special",
             "count": 1,
             "individual_mass": 1000.0,
@@ -2715,7 +2715,7 @@
           },
           {
             "name": "wing_right_middle_cc420",
-            "localized": "fr_mirage_f1c_cc_420_gunpod",
+            "localized": "cannonDEFA553_gunpod",
             "icon_type": "machine_gun",
             "count": 1,
             "individual_mass": 150.0,
@@ -2724,7 +2724,7 @@
           },
           {
             "name": "containers_matra_lr_f1",
-            "localized": "fr_lr_f1",
+            "localized": "SNEB type 23 rocket",
             "icon_type": "nar_ap_large",
             "count": 36,
             "individual_mass": 5.05,
@@ -2733,7 +2733,7 @@
           },
           {
             "name": "containers_matra_lr_f4",
-            "localized": "fr_jl_100r",
+            "localized": "SNEB type 23",
             "icon_type": "nar_ap_small",
             "count": 18,
             "individual_mass": 5.05,
@@ -2750,7 +2750,7 @@
         "weapons": [
           {
             "name": "wing_right_1_bomb_250_samp",
-            "localized": "fr_250kg_type_25c",
+            "localized": "250 Kg Type 25",
             "icon_type": "bombs_middle",
             "count": 1,
             "individual_mass": 247.0,
@@ -2759,7 +2759,7 @@
           },
           {
             "name": "wing_right_1_bomb_400_samp",
-            "localized": "fr_400kg_type_21b",
+            "localized": "SAMP 400 Kg Type 21",
             "icon_type": "bombs_large",
             "count": 1,
             "individual_mass": 400.0,
@@ -2768,7 +2768,7 @@
           },
           {
             "name": "wing_right_1_bomb_250kg_samp_mk82",
-            "localized": "fr_250kg_type_25c",
+            "localized": "fr_250kg_samp_mk82",
             "icon_type": "bombs_middle",
             "count": 1,
             "individual_mass": 250.0,
@@ -2777,7 +2777,7 @@
           },
           {
             "name": "wing_right_1_bomb_500kg_samp_mk83",
-            "localized": "us_1000lb_mk83",
+            "localized": "fr_500kg_samp_mk83",
             "icon_type": "bombs_large",
             "count": 1,
             "individual_mass": 500.0,
@@ -2786,7 +2786,7 @@
           },
           {
             "name": "containers_matra_lr_f1",
-            "localized": "fr_lr_f1",
+            "localized": "SNEB type 23 rocket",
             "icon_type": "nar_ap_large",
             "count": 36,
             "individual_mass": 5.05,
@@ -2795,7 +2795,7 @@
           },
           {
             "name": "containers_matra_lr_f4",
-            "localized": "fr_jl_100r",
+            "localized": "SNEB type 23",
             "icon_type": "nar_ap_small",
             "count": 18,
             "individual_mass": 5.05,
@@ -2812,7 +2812,7 @@
         "weapons": [
           {
             "name": "wing_right_rocket_r550_magic_1",
-            "localized": "wing_right_rocket_r550_magic_1",
+            "localized": "Matra R550 Magic 1",
             "icon_type": "missile_type_b_air_to_air",
             "count": 1,
             "individual_mass": 89.0,
@@ -2821,7 +2821,7 @@
           },
           {
             "name": "wing_right_rocket_r550_magic_2",
-            "localized": "fr_matra_r_550_magic_2",
+            "localized": "fr_r_550_magic_2",
             "icon_type": "missile_type_c_air_to_air",
             "count": 1,
             "individual_mass": 89.0,
@@ -2850,7 +2850,7 @@
         "weapons": [
           {
             "name": "nr_30",
-            "localized": "nr_30",
+            "localized": "30 mm NR-30 cannon",
             "icon_type": "cannon",
             "count": 1,
             "individual_mass": 66.5,
@@ -2859,7 +2859,7 @@
           },
           {
             "name": "nr_30_ltc",
-            "localized": "nr_30_ltc",
+            "localized": "30 mm NR-30 cannon",
             "icon_type": "cannon",
             "count": 1,
             "individual_mass": 66.5,
@@ -2876,7 +2876,7 @@
         "weapons": [
           {
             "name": "wing_left_containers_ofab_100_120",
-            "localized": "su_17_ofab_100",
+            "localized": "OFAB-100",
             "icon_type": "bombs_small_group_x5",
             "count": 5,
             "individual_mass": 114.0,
@@ -2885,7 +2885,7 @@
           },
           {
             "name": "wing_left_fab_250",
-            "localized": "mi_24_fab_250",
+            "localized": "OFAB-250",
             "icon_type": "bombs_middle",
             "count": 1,
             "individual_mass": 250.0,
@@ -2894,7 +2894,7 @@
           },
           {
             "name": "wing_left_fab_500",
-            "localized": "mi_24_fab_500",
+            "localized": "FAB-500M-62",
             "icon_type": "bombs_large",
             "count": 1,
             "individual_mass": 508.3,
@@ -2903,7 +2903,7 @@
           },
           {
             "name": "wing_left_rocket_s24",
-            "localized": "il_28sh_s24",
+            "localized": "S-24B",
             "icon_type": "rockets_he_large",
             "count": 1,
             "individual_mass": 235.0,
@@ -2912,7 +2912,7 @@
           },
           {
             "name": "wing_left_rocket_kh25_ml",
-            "localized": "su_17_x25",
+            "localized": "Kh-25ML",
             "icon_type": "missile_air_to_uni_middle",
             "count": 1,
             "individual_mass": 297.0,
@@ -2921,7 +2921,7 @@
           },
           {
             "name": "wing_left_rocket_kh23_m",
-            "localized": "yak_38_x23m",
+            "localized": "Kh-23M",
             "icon_type": "missile_air_to_uni",
             "count": 1,
             "individual_mass": 289.0,
@@ -2930,7 +2930,7 @@
           },
           {
             "name": "wing_left_rocket_s25o",
-            "localized": "su_17_s25",
+            "localized": "S-25O",
             "icon_type": "rockets_he_large_special",
             "count": 1,
             "individual_mass": 370.0,
@@ -2939,7 +2939,7 @@
           },
           {
             "name": "wing_left_rocket_s25l",
-            "localized": "su_17_s25",
+            "localized": "S-25L",
             "icon_type": "rockets_he_large_special_laser",
             "count": 1,
             "individual_mass": 410.0,
@@ -2948,7 +2948,7 @@
           },
           {
             "name": "container_s3k",
-            "localized": "su_7b_s3",
+            "localized": "S-3K",
             "icon_type": "rockets_ap_small_group",
             "count": 7,
             "individual_mass": 23.5,
@@ -2957,7 +2957,7 @@
           },
           {
             "name": "container_s8ko",
-            "localized": "su_s5_s8",
+            "localized": "S-8KO",
             "icon_type": "nar_ap_large",
             "count": 20,
             "individual_mass": 11.3,
@@ -2966,7 +2966,7 @@
           },
           {
             "name": "container_ub_32",
-            "localized": "su_s5_s8",
+            "localized": "S-5K",
             "icon_type": "nar_ap_large",
             "count": 32,
             "individual_mass": 3.64,
@@ -2983,7 +2983,7 @@
         "weapons": [
           {
             "name": "wing_left_single_r_60",
-            "localized": "wing_left_single_r_60",
+            "localized": "su_r_60_default",
             "icon_type": "missile_type_b_air_to_air",
             "count": 1,
             "individual_mass": 44.0,
@@ -3000,7 +3000,7 @@
         "weapons": [
           {
             "name": "wing_left_middle_ofab_100_120_x1",
-            "localized": "su_17_ofab_100",
+            "localized": "OFAB-100",
             "icon_type": "bombs_small",
             "count": 1,
             "individual_mass": 114.0,
@@ -3009,7 +3009,7 @@
           },
           {
             "name": "wing_left_middle_fab_250_x1",
-            "localized": "mi_24_fab_250",
+            "localized": "OFAB-250",
             "icon_type": "bombs_middle",
             "count": 1,
             "individual_mass": 250.0,
@@ -3018,7 +3018,7 @@
           },
           {
             "name": "wing_left_middle_fab_500_x1",
-            "localized": "mi_24_fab_500",
+            "localized": "FAB-500M-62",
             "icon_type": "bombs_large",
             "count": 1,
             "individual_mass": 508.3,
@@ -3027,7 +3027,7 @@
           },
           {
             "name": "wing_middle_left_rocket_s_24",
-            "localized": "il_28sh_s24",
+            "localized": "S-24B",
             "icon_type": "rockets_he_large",
             "count": 1,
             "individual_mass": 235.0,
@@ -3036,7 +3036,7 @@
           },
           {
             "name": "wing_middle_left_rocket_r_60_x2",
-            "localized": "mi_24_r_60",
+            "localized": "R-60",
             "icon_type": "missile_type_b_air_to_air_group",
             "count": 2,
             "individual_mass": 44.0,
@@ -3045,7 +3045,7 @@
           },
           {
             "name": "container_s8ko",
-            "localized": "su_s5_s8",
+            "localized": "S-8KO",
             "icon_type": "nar_ap_large",
             "count": 20,
             "individual_mass": 11.3,
@@ -3054,7 +3054,7 @@
           },
           {
             "name": "container_ub_32",
-            "localized": "su_s5_s8",
+            "localized": "S-5K",
             "icon_type": "nar_ap_large",
             "count": 32,
             "individual_mass": 3.64,
@@ -3063,7 +3063,7 @@
           },
           {
             "name": "wing_middle_left_sppu_22",
-            "localized": "su_17_sppu_22_gunpod",
+            "localized": "23 mm GSh-23L cannon",
             "icon_type": "doublebarreled_box",
             "count": 1,
             "individual_mass": 155.0,
@@ -3080,7 +3080,7 @@
         "weapons": [
           {
             "name": "fuse_containers_left_ofab_100_120_x4",
-            "localized": "su_17_ofab_100",
+            "localized": "OFAB-100",
             "icon_type": "bombs_small_group",
             "count": 4,
             "individual_mass": 114.0,
@@ -3089,7 +3089,7 @@
           },
           {
             "name": "fuse_containers_left_fab_250_x3",
-            "localized": "mi_24_fab_250",
+            "localized": "OFAB-250",
             "icon_type": "bombs_middle_group",
             "count": 3,
             "individual_mass": 250.0,
@@ -3098,7 +3098,7 @@
           },
           {
             "name": "fuse_left_fab_500_x2",
-            "localized": "mi_24_fab_500",
+            "localized": "FAB-500M-62",
             "icon_type": "bombs_large_group_x2",
             "count": 1,
             "individual_mass": 508.3,
@@ -3107,7 +3107,7 @@
           },
           {
             "name": "fuse_left_rocket_s_24",
-            "localized": "il_28sh_s24",
+            "localized": "S-24B",
             "icon_type": "rockets_he_large",
             "count": 1,
             "individual_mass": 235.0,
@@ -3116,7 +3116,7 @@
           },
           {
             "name": "fuse_left_rocket_kh25_ml",
-            "localized": "su_17_x25",
+            "localized": "Kh-25ML",
             "icon_type": "missile_air_to_uni_middle",
             "count": 1,
             "individual_mass": 297.0,
@@ -3125,7 +3125,7 @@
           },
           {
             "name": "fuse_left_rocket_kh29_l",
-            "localized": "su_17_x29l",
+            "localized": "Kh-29L",
             "icon_type": "missile_air_to_uni_large",
             "count": 1,
             "individual_mass": 657.0,
@@ -3134,7 +3134,7 @@
           },
           {
             "name": "container_s3k",
-            "localized": "su_7b_s3",
+            "localized": "S-3K",
             "icon_type": "rockets_ap_small_group",
             "count": 7,
             "individual_mass": 23.5,
@@ -3151,7 +3151,7 @@
         "weapons": [
           {
             "name": "fuse_containers_right_ofab_100_120_x4",
-            "localized": "su_17_ofab_100",
+            "localized": "OFAB-100",
             "icon_type": "bombs_small_group",
             "count": 4,
             "individual_mass": 114.0,
@@ -3160,7 +3160,7 @@
           },
           {
             "name": "fuse_containers_right_fab_250_x3",
-            "localized": "mi_24_fab_250",
+            "localized": "OFAB-250",
             "icon_type": "bombs_middle_group",
             "count": 3,
             "individual_mass": 250.0,
@@ -3169,7 +3169,7 @@
           },
           {
             "name": "fuse_right_fab_500_x2",
-            "localized": "mi_24_fab_500",
+            "localized": "FAB-500M-62",
             "icon_type": "bombs_large_group_x2",
             "count": 1,
             "individual_mass": 508.3,
@@ -3178,7 +3178,7 @@
           },
           {
             "name": "fuse_right_rocket_s_24",
-            "localized": "il_28sh_s24",
+            "localized": "S-24B",
             "icon_type": "rockets_he_large",
             "count": 1,
             "individual_mass": 235.0,
@@ -3187,7 +3187,7 @@
           },
           {
             "name": "fuse_right_rocket_kh25_ml",
-            "localized": "su_17_x25",
+            "localized": "Kh-25ML",
             "icon_type": "missile_air_to_uni_middle",
             "count": 1,
             "individual_mass": 297.0,
@@ -3196,7 +3196,7 @@
           },
           {
             "name": "fuse_right_rocket_kh29_l",
-            "localized": "su_17_x29l",
+            "localized": "Kh-29L",
             "icon_type": "missile_air_to_uni_large",
             "count": 1,
             "individual_mass": 657.0,
@@ -3205,7 +3205,7 @@
           },
           {
             "name": "container_s3k",
-            "localized": "su_7b_s3",
+            "localized": "S-3K",
             "icon_type": "rockets_ap_small_group",
             "count": 7,
             "individual_mass": 23.5,
@@ -3222,7 +3222,7 @@
         "weapons": [
           {
             "name": "wing_right_middle_ofab_100_120_x1",
-            "localized": "su_17_ofab_100",
+            "localized": "OFAB-100",
             "icon_type": "bombs_small",
             "count": 1,
             "individual_mass": 114.0,
@@ -3231,7 +3231,7 @@
           },
           {
             "name": "wing_right_middle_fab_250_x1",
-            "localized": "mi_24_fab_250",
+            "localized": "OFAB-250",
             "icon_type": "bombs_middle",
             "count": 1,
             "individual_mass": 250.0,
@@ -3240,7 +3240,7 @@
           },
           {
             "name": "wing_right_middle_fab_500_x1",
-            "localized": "mi_24_fab_500",
+            "localized": "FAB-500M-62",
             "icon_type": "bombs_large",
             "count": 1,
             "individual_mass": 508.3,
@@ -3249,7 +3249,7 @@
           },
           {
             "name": "wing_middle_right_rocket_s_24",
-            "localized": "il_28sh_s24",
+            "localized": "S-24B",
             "icon_type": "rockets_he_large",
             "count": 1,
             "individual_mass": 235.0,
@@ -3258,7 +3258,7 @@
           },
           {
             "name": "wing_middle_right_rocket_r_60_x2",
-            "localized": "mi_24_r_60",
+            "localized": "R-60",
             "icon_type": "missile_type_b_air_to_air_group",
             "count": 2,
             "individual_mass": 44.0,
@@ -3267,7 +3267,7 @@
           },
           {
             "name": "container_s8ko",
-            "localized": "su_s5_s8",
+            "localized": "S-8KO",
             "icon_type": "nar_ap_large",
             "count": 20,
             "individual_mass": 11.3,
@@ -3276,7 +3276,7 @@
           },
           {
             "name": "container_ub_32",
-            "localized": "su_s5_s8",
+            "localized": "S-5K",
             "icon_type": "nar_ap_large",
             "count": 32,
             "individual_mass": 3.64,
@@ -3285,7 +3285,7 @@
           },
           {
             "name": "wing_middle_right_sppu_22",
-            "localized": "su_17_sppu_22_gunpod",
+            "localized": "23 mm GSh-23L cannon",
             "icon_type": "doublebarreled_box",
             "count": 1,
             "individual_mass": 155.0,
@@ -3302,7 +3302,7 @@
         "weapons": [
           {
             "name": "wing_right_single_r_60",
-            "localized": "wing_right_single_r_60",
+            "localized": "su_r_60_default",
             "icon_type": "missile_type_b_air_to_air",
             "count": 1,
             "individual_mass": 44.0,
@@ -3319,7 +3319,7 @@
         "weapons": [
           {
             "name": "wing_right_containers_ofab_100_120",
-            "localized": "su_17_ofab_100",
+            "localized": "OFAB-100",
             "icon_type": "bombs_small_group_x5",
             "count": 5,
             "individual_mass": 114.0,
@@ -3328,7 +3328,7 @@
           },
           {
             "name": "wing_right_fab_250",
-            "localized": "mi_24_fab_250",
+            "localized": "OFAB-250",
             "icon_type": "bombs_middle",
             "count": 1,
             "individual_mass": 250.0,
@@ -3337,7 +3337,7 @@
           },
           {
             "name": "wing_right_fab_500",
-            "localized": "mi_24_fab_500",
+            "localized": "FAB-500M-62",
             "icon_type": "bombs_large",
             "count": 1,
             "individual_mass": 508.3,
@@ -3346,7 +3346,7 @@
           },
           {
             "name": "wing_right_rocket_s24",
-            "localized": "il_28sh_s24",
+            "localized": "S-24B",
             "icon_type": "rockets_he_large",
             "count": 1,
             "individual_mass": 235.0,
@@ -3355,7 +3355,7 @@
           },
           {
             "name": "wing_right_rocket_kh25_ml",
-            "localized": "su_17_x25",
+            "localized": "Kh-25ML",
             "icon_type": "missile_air_to_uni_middle",
             "count": 1,
             "individual_mass": 297.0,
@@ -3364,7 +3364,7 @@
           },
           {
             "name": "wing_right_rocket_kh23_m",
-            "localized": "yak_38_x23m",
+            "localized": "Kh-23M",
             "icon_type": "missile_air_to_uni",
             "count": 1,
             "individual_mass": 289.0,
@@ -3373,7 +3373,7 @@
           },
           {
             "name": "wing_right_rocket_s25o",
-            "localized": "su_17_s25",
+            "localized": "S-25O",
             "icon_type": "rockets_he_large_special",
             "count": 1,
             "individual_mass": 370.0,
@@ -3382,7 +3382,7 @@
           },
           {
             "name": "wing_right_rocket_s25l",
-            "localized": "su_17_s25",
+            "localized": "S-25L",
             "icon_type": "rockets_he_large_special_laser",
             "count": 1,
             "individual_mass": 410.0,
@@ -3391,7 +3391,7 @@
           },
           {
             "name": "container_s3k",
-            "localized": "su_7b_s3",
+            "localized": "S-3K",
             "icon_type": "rockets_ap_small_group",
             "count": 7,
             "individual_mass": 23.5,
@@ -3400,7 +3400,7 @@
           },
           {
             "name": "container_s8ko",
-            "localized": "su_s5_s8",
+            "localized": "S-8KO",
             "icon_type": "nar_ap_large",
             "count": 20,
             "individual_mass": 11.3,
@@ -3409,7 +3409,7 @@
           },
           {
             "name": "container_ub_32",
-            "localized": "su_s5_s8",
+            "localized": "S-5K",
             "icon_type": "nar_ap_large",
             "count": 32,
             "individual_mass": 3.64,
