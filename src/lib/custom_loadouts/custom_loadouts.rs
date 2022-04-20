@@ -123,6 +123,12 @@ impl CustomLoadout {
 					continue
 				}
 				let name = parameter_to_data(&preset, "name").unwrap().replace("\"", "");
+				let init_local = name_to_local(&name, &Lang::Weapon);
+				let localized =  if name == init_local {
+					parameter_to_data(&preset, "reqModification").unwrap_or(name.clone()).replace("\"", "")
+				} else {
+					init_local
+				};
 
 				let blk_path = parameter_to_data(&preset, "blk").unwrap();
 
@@ -132,7 +138,7 @@ impl CustomLoadout {
 				let weight = mass * count as f64;
 
 				weapons.push(Weapon {
-					localized: name_to_local(&name, &Lang::Weapon),
+					localized,
 					count,
 					individual_mass: mass,
 					name,
