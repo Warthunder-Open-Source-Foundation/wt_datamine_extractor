@@ -31,13 +31,14 @@ pub struct Pylon {
 pub struct Weapon {
 	pub name: String,
 	pub localized: String,
+	pub icon_type: String,
 	pub count: u32,
 	pub individual_mass: f64,
 	pub total_mass: f64,
 	pub weapon_type: WeaponType,
 }
 
-#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone, const_gen::CompileConst)]
+#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone, Copy, const_gen::CompileConst)]
 pub enum WeaponType {
 	Cannon,
 	Rocket,
@@ -65,7 +66,7 @@ impl WeaponType {
 			_ => {
 				panic!("Cannot get Weapon from {input}");
 			}
-		}
+		};
 	}
 }
 
@@ -109,7 +110,7 @@ impl CustomLoadout {
 			split.remove(0);
 
 			for preset in split {
-				let weapon_type  = WeaponType::from_str(&parameter_to_data(&preset, "trigger").unwrap_or("empty".to_owned()));
+				let weapon_type = WeaponType::from_str(&parameter_to_data(&preset, "trigger").unwrap_or("empty".to_owned()));
 
 				if weapon_type == WeaponType::Empty {
 					weapons.push(Weapon {
@@ -119,12 +120,13 @@ impl CustomLoadout {
 						total_mass: 0.0,
 						weapon_type,
 						localized: "Empty".to_owned(),
+						icon_type: "".to_owned(),
 					});
-					continue
+					continue;
 				}
 				let name = parameter_to_data(&preset, "name").unwrap().replace("\"", "");
 				let init_local = name_to_local(&name, &Lang::Weapon);
-				let localized =  if name == init_local {
+				let localized = if name == init_local {
 					parameter_to_data(&preset, "reqModification").unwrap_or(name.clone()).replace("\"", "")
 				} else {
 					init_local
@@ -137,8 +139,21 @@ impl CustomLoadout {
 				get_container_weight(&blk_path, &mut mass, &mut count);
 				let weight = mass * count as f64;
 
+				let icon_type = match weapon_type {
+					WeaponType::Cannon => {
+						"cannon".to_owned()
+					}
+					WeaponType::Countermeasures => {
+						"heli_false_thermal_targets".to_owned()
+					}
+					_ => {
+						parameter_to_data(&preset, "iconType").unwrap().replace("\"", "")
+					}
+				};
+
 				weapons.push(Weapon {
 					localized,
+					icon_type,
 					count,
 					individual_mass: mass,
 					name,
@@ -198,7 +213,7 @@ impl CustomLoadout {
 	}
 }
 
-pub fn get_container_weight(base_container: &str, mass: &mut f64, count: &mut u32)  {
+pub fn get_container_weight(base_container: &str, mass: &mut f64, count: &mut u32) {
 	let container = fs::read_to_string(wt_blk_to_actual(base_container)).unwrap();
 
 	if let Some(mass_str) = parameter_to_data(&container, "mass") {
@@ -209,7 +224,7 @@ pub fn get_container_weight(base_container: &str, mass: &mut f64, count: &mut u3
 	} else {
 		let param_bullets = parameter_to_data(&container, "bullets").unwrap().parse::<u32>().unwrap();
 		if *count == 0 {
-			*count =  param_bullets;
+			*count = param_bullets;
 		} else {
 			*count *= param_bullets;
 		}
@@ -220,7 +235,7 @@ pub fn get_container_weight(base_container: &str, mass: &mut f64, count: &mut u3
 }
 
 pub fn wt_blk_to_actual(raw: &str) -> String {
-	let clean_path =  raw.replace("\"", "");
+	let clean_path = raw.replace("\"", "");
 	let mut split = clean_path.split("/").collect::<Vec<&str>>();
 	split.remove(0);
 	format!("custom_loadouts/{}", split.join("/").to_ascii_lowercase() + "x")
