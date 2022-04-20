@@ -1,15 +1,17 @@
 use std::fs;
+use std::ops::Deref;
 use crate::custom_loadouts::custom_loadouts::WeaponType::{AAM, AGM, Bomb, Cannon, Countermeasures, Empty, GBU, GunPod, Rocket};
 use crate::custom_loadouts::known_loadouts::KnownLoadouts;
 use crate::explosive::explosive::explosive_type_to_tnt;
 
-use crate::lang::{Lang, unit_to_local};
+use crate::lang::{CSV_UNIT, CSV_WEAPON, Lang, name_to_local};
 use crate::missile::extract_missiles::KnownMissiles;
 use crate::util::parameter_to_data;
 
 #[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone, const_gen::CompileConst)]
 pub struct CustomLoadout {
 	pub aircraft: String,
+	pub localized: String,
 	pub pylons: Vec<Pylon>,
 	pub max_load: f64,
 	pub max_imbalance: f64,
@@ -28,7 +30,10 @@ pub struct Pylon {
 #[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone, const_gen::CompileConst)]
 pub struct Weapon {
 	pub name: String,
-	pub weight: f64,
+	pub localized: String,
+	pub count: u32,
+	pub individual_mass: f64,
+	pub total_mass: f64,
 	pub weapon_type: WeaponType,
 }
 
@@ -108,9 +113,12 @@ impl CustomLoadout {
 
 				if weapon_type == WeaponType::Empty {
 					weapons.push(Weapon {
+						count: 0,
+						individual_mass: 0.0,
 						name: "Empty".to_owned(),
-						weight: 0.0,
-						weapon_type
+						total_mass: 0.0,
+						weapon_type,
+						localized: "Empty".to_owned(),
 					});
 					continue
 				}
@@ -118,16 +126,18 @@ impl CustomLoadout {
 
 				let blk_path = parameter_to_data(&preset, "blk").unwrap();
 
-				//////////////////////////////////////////////
 				let mut mass: f64 = 0.0;
-				let mut count = 0;
+				let mut count: u32 = 0;
 				get_container_weight(&blk_path, &mut mass, &mut count);
 				let weight = mass * count as f64;
 
 				weapons.push(Weapon {
+					localized: name_to_local(&name, &Lang::Weapon),
+					count,
+					individual_mass: mass,
 					name,
-					weight,
-					weapon_type
+					total_mass: weight,
+					weapon_type,
 				})
 			}
 
@@ -142,6 +152,7 @@ impl CustomLoadout {
 
 
 		Self {
+			localized: name_to_local(&name, &Lang::Unit),
 			aircraft: name,
 			pylons,
 			max_load,
@@ -181,7 +192,7 @@ impl CustomLoadout {
 	}
 }
 
-pub fn get_container_weight(base_container: &str, mass: &mut f64, count: &mut i32)  {
+pub fn get_container_weight(base_container: &str, mass: &mut f64, count: &mut u32)  {
 	let container = fs::read_to_string(wt_blk_to_actual(base_container)).unwrap();
 
 	if let Some(mass_str) = parameter_to_data(&container, "mass") {
@@ -190,10 +201,11 @@ pub fn get_container_weight(base_container: &str, mass: &mut f64, count: &mut i3
 		}
 		*mass = mass_str.parse::<f64>().unwrap();
 	} else {
+		let param_bullets = parameter_to_data(&container, "bullets").unwrap().parse::<u32>().unwrap();
 		if *count == 0 {
-			*count =  parameter_to_data(&container, "bullets").unwrap().parse::<i32>().unwrap();
+			*count =  param_bullets;
 		} else {
-			*count *= parameter_to_data(&container, "bullets").unwrap().parse::<i32>().unwrap();
+			*count *= param_bullets;
 		}
 		let blk_path = parameter_to_data(&container, "blk").unwrap();
 

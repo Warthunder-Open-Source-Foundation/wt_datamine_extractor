@@ -1,5 +1,5 @@
 use std::fs;
-use crate::lang::{Lang, unit_to_local};
+use crate::lang::{Lang, name_to_local};
 
 use crate::thermal::extract_thermals::KnownThermals;
 
@@ -50,7 +50,7 @@ impl Thermal {
 					panic!("Missing sight on {}", name)
 				}
 				generated.push(Self {
-					localized: unit_to_local(&name, &Lang::Unit).clone(),
+					localized: name_to_local(&name, &Lang::Unit).clone(),
 					name,
 					vehicle_type,
 					sights,

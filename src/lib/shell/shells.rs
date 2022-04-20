@@ -6,7 +6,7 @@ use std::str::FromStr;
 use strum_macros::EnumIter;
 
 use crate::explosive::explosive::explosive_type_to_tnt;
-use crate::lang::{Lang, unit_to_local};
+use crate::lang::{Lang, name_to_local};
 use crate::shell::known_shells::KnownShells;
 
 use crate::shell::penetration_select::shell_to_penetration;
@@ -76,7 +76,7 @@ impl Shell {
 
 			shells.push(
 				Self {
-					localized: unit_to_local(&name, &Lang::Weapon),
+					localized: name_to_local(&name, &Lang::Weapon),
 					name,
 					shell_type,
 					caliber,
