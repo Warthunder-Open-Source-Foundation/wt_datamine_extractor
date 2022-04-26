@@ -1855,7 +1855,7 @@
   },
   {
     "name": "us_merkava_mk_3d",
-    "localized": "Merkava Mk.3D",
+    "localized": "#Merkava Mk.3D",
     "vehicle_type": "Tank",
     "sights": [
       {
