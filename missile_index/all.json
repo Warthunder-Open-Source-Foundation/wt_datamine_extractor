@@ -30,12 +30,14 @@
     "lockanglemax": 38.0,
     "anglemax": 38.0,
     "minangletosun": 10.0,
+    "timeout": 0.5,
     "warmuptime": 5.0,
     "worktime": 60.0,
     "cageable": false,
     "rate_max": 20.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": false,
     "deltav": 973.0
   },
   {
@@ -69,12 +71,14 @@
     "lockanglemax": 15.0,
     "anglemax": 45.0,
     "minangletosun": 0.0,
+    "timeout": 1.8,
     "warmuptime": 1.4,
     "worktime": 100.0,
     "cageable": true,
     "rate_max": 12.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 553.0
   },
   {
@@ -108,12 +112,14 @@
     "lockanglemax": 40.0,
     "anglemax": 50.0,
     "minangletosun": 0.0,
+    "timeout": 2.2,
     "warmuptime": 2.0,
     "worktime": 15.0,
     "cageable": true,
     "rate_max": 12.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 718.0
   },
   {
@@ -147,12 +153,14 @@
     "lockanglemax": 20.0,
     "anglemax": 45.0,
     "minangletosun": 5.0,
+    "timeout": 1.5,
     "warmuptime": 4.0,
     "worktime": 15.0,
     "cageable": true,
     "rate_max": 10.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 616.0
   },
   {
@@ -186,12 +194,14 @@
     "lockanglemax": 40.0,
     "anglemax": 45.0,
     "minangletosun": 0.0,
+    "timeout": 4.0,
     "warmuptime": 2.0,
     "worktime": 15.0,
     "cageable": true,
     "rate_max": 12.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 616.0
   },
   {
@@ -225,12 +235,14 @@
     "lockanglemax": 17.0,
     "anglemax": 40.0,
     "minangletosun": 10.0,
+    "timeout": 0.5,
     "warmuptime": 5.0,
     "worktime": 10.0,
     "cageable": true,
     "rate_max": 35.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 607.0
   },
   {
@@ -264,12 +276,14 @@
     "lockanglemax": 17.0,
     "anglemax": 40.0,
     "minangletosun": 10.0,
+    "timeout": 0.5,
     "warmuptime": 5.0,
     "worktime": 10.0,
     "cageable": true,
     "rate_max": 35.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 607.0
   },
   {
@@ -303,12 +317,14 @@
     "lockanglemax": 30.0,
     "anglemax": 40.0,
     "minangletosun": 12.0,
+    "timeout": 0.5,
     "warmuptime": 5.0,
     "worktime": 10.0,
     "cageable": true,
     "rate_max": 20.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 727.0
   },
   {
@@ -342,12 +358,14 @@
     "lockanglemax": 5.0,
     "anglemax": 25.0,
     "minangletosun": 20.0,
+    "timeout": 0.5,
     "warmuptime": 4.0,
     "worktime": 15.0,
     "cageable": false,
     "rate_max": 11.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": false,
     "deltav": 584.0
   },
   {
@@ -381,12 +399,14 @@
     "lockanglemax": 5.0,
     "anglemax": 25.0,
     "minangletosun": 20.0,
+    "timeout": 0.5,
     "warmuptime": 4.0,
     "worktime": 15.0,
     "cageable": false,
     "rate_max": 18.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": false,
     "deltav": 633.0
   },
   {
@@ -420,12 +440,14 @@
     "lockanglemax": 15.0,
     "anglemax": 50.0,
     "minangletosun": 0.0,
+    "timeout": 0.5,
     "warmuptime": 1.4,
     "worktime": 100.0,
     "cageable": true,
     "rate_max": 12.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 571.0
   },
   {
@@ -459,12 +481,14 @@
     "lockanglemax": 38.0,
     "anglemax": 38.0,
     "minangletosun": 5.0,
+    "timeout": 0.5,
     "warmuptime": 5.0,
     "worktime": 60.0,
     "cageable": false,
     "rate_max": 12.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": false,
     "deltav": 868.0
   },
   {
@@ -498,12 +522,14 @@
     "lockanglemax": 38.0,
     "anglemax": 38.0,
     "minangletosun": 5.0,
+    "timeout": 0.5,
     "warmuptime": 5.0,
     "worktime": 60.0,
     "cageable": false,
     "rate_max": 12.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": false,
     "deltav": 868.0
   },
   {
@@ -537,12 +563,14 @@
     "lockanglemax": 5.0,
     "anglemax": 28.0,
     "minangletosun": 20.0,
+    "timeout": 0.5,
     "warmuptime": 6.0,
     "worktime": 15.0,
     "cageable": false,
     "rate_max": 11.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": false,
     "deltav": 506.0
   },
   {
@@ -576,12 +604,14 @@
     "lockanglemax": 25.0,
     "anglemax": 40.0,
     "minangletosun": 17.0,
+    "timeout": 0.5,
     "warmuptime": 4.0,
     "worktime": 15.0,
     "cageable": true,
     "rate_max": 20.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 660.0
   },
   {
@@ -615,12 +645,14 @@
     "lockanglemax": 25.0,
     "anglemax": 40.0,
     "minangletosun": 17.0,
+    "timeout": 0.5,
     "warmuptime": 4.0,
     "worktime": 15.0,
     "cageable": true,
     "rate_max": 20.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 660.0
   },
   {
@@ -654,12 +686,14 @@
     "lockanglemax": 30.0,
     "anglemax": 40.0,
     "minangletosun": 12.0,
+    "timeout": 0.5,
     "warmuptime": 5.0,
     "worktime": 10.0,
     "cageable": true,
     "rate_max": 20.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 727.0
   },
   {
@@ -693,12 +727,14 @@
     "lockanglemax": 10.0,
     "anglemax": 40.0,
     "minangletosun": 10.0,
+    "timeout": 0.5,
     "warmuptime": 4.0,
     "worktime": 15.0,
     "cageable": true,
     "rate_max": 12.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": false,
     "deltav": 593.0
   },
   {
@@ -732,12 +768,14 @@
     "lockanglemax": 10.0,
     "anglemax": 40.0,
     "minangletosun": 10.0,
+    "timeout": 0.5,
     "warmuptime": 4.0,
     "worktime": 15.0,
     "cageable": true,
     "rate_max": 16.5,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": false,
     "deltav": 574.0
   },
   {
@@ -771,12 +809,14 @@
     "lockanglemax": 10.0,
     "anglemax": 40.0,
     "minangletosun": 10.0,
+    "timeout": 0.5,
     "warmuptime": 4.0,
     "worktime": 15.0,
     "cageable": true,
     "rate_max": 16.5,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": false,
     "deltav": 574.0
   },
   {
@@ -810,12 +850,14 @@
     "lockanglemax": 50.0,
     "anglemax": 50.0,
     "minangletosun": 0.0,
+    "timeout": 1.7,
     "warmuptime": 1.0,
     "worktime": 100.0,
     "cageable": true,
     "rate_max": 12.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 498.0
   },
   {
@@ -849,12 +891,14 @@
     "lockanglemax": 60.0,
     "anglemax": 60.0,
     "minangletosun": 7.0,
+    "timeout": 1.0,
     "warmuptime": 4.0,
     "worktime": 30.0,
     "cageable": true,
     "rate_max": 12.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 516.0
   },
   {
@@ -888,12 +932,14 @@
     "lockanglemax": 50.0,
     "anglemax": 50.0,
     "minangletosun": 0.0,
+    "timeout": 1.7,
     "warmuptime": 1.0,
     "worktime": 100.0,
     "cageable": true,
     "rate_max": 20.0,
     "inertial_navigation": true,
     "use_target_vel": true,
+    "allow_radar_slave": true,
     "deltav": 615.0
   },
   {
@@ -927,12 +973,14 @@
     "lockanglemax": 55.0,
     "anglemax": 55.0,
     "minangletosun": 7.0,
+    "timeout": 1.0,
     "warmuptime": 4.0,
     "worktime": 30.0,
     "cageable": true,
     "rate_max": 20.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 633.0
   },
   {
@@ -966,12 +1014,14 @@
     "lockanglemax": 30.0,
     "anglemax": 30.0,
     "minangletosun": 0.0,
+    "timeout": 0.5,
     "warmuptime": 2.0,
     "worktime": 15.0,
     "cageable": false,
     "rate_max": 12.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 506.0
   },
   {
@@ -1005,12 +1055,14 @@
     "lockanglemax": 5.0,
     "anglemax": 28.0,
     "minangletosun": 20.0,
+    "timeout": 0.5,
     "warmuptime": 6.0,
     "worktime": 15.0,
     "cageable": false,
     "rate_max": 6.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": false,
     "deltav": 506.0
   },
   {
@@ -1044,12 +1096,14 @@
     "lockanglemax": 12.0,
     "anglemax": 45.0,
     "minangletosun": 10.0,
+    "timeout": 0.35,
     "warmuptime": 6.0,
     "worktime": 15.0,
     "cageable": true,
     "rate_max": 35.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 648.0
   },
   {
@@ -1083,12 +1137,14 @@
     "lockanglemax": 12.0,
     "anglemax": 45.0,
     "minangletosun": 10.0,
+    "timeout": 0.35,
     "warmuptime": 6.0,
     "worktime": 15.0,
     "cageable": true,
     "rate_max": 35.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 648.0
   },
   {
@@ -1122,12 +1178,14 @@
     "lockanglemax": 17.0,
     "anglemax": 45.0,
     "minangletosun": 7.0,
+    "timeout": 0.35,
     "warmuptime": 6.0,
     "worktime": 15.0,
     "cageable": true,
     "rate_max": 35.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 648.0
   },
   {
@@ -1161,12 +1219,14 @@
     "lockanglemax": 17.0,
     "anglemax": 45.0,
     "minangletosun": 7.0,
+    "timeout": 0.35,
     "warmuptime": 6.0,
     "worktime": 15.0,
     "cageable": true,
     "rate_max": 35.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 648.0
   },
   {
@@ -1200,12 +1260,14 @@
     "lockanglemax": 5.0,
     "anglemax": 25.0,
     "minangletosun": 20.0,
+    "timeout": 0.5,
     "warmuptime": 4.0,
     "worktime": 15.0,
     "cageable": false,
     "rate_max": 11.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": false,
     "deltav": 523.0
   },
   {
@@ -1239,12 +1301,14 @@
     "lockanglemax": 10.0,
     "anglemax": 40.0,
     "minangletosun": 10.0,
+    "timeout": 0.5,
     "warmuptime": 5.0,
     "worktime": 10.0,
     "cageable": true,
     "rate_max": 16.5,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 518.0
   },
   {
@@ -1278,12 +1342,14 @@
     "lockanglemax": 15.0,
     "anglemax": 45.0,
     "minangletosun": 0.0,
+    "timeout": 0.8,
     "warmuptime": 1.4,
     "worktime": 100.0,
     "cageable": true,
     "rate_max": 12.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 508.0
   },
   {
@@ -1317,12 +1383,14 @@
     "lockanglemax": 17.0,
     "anglemax": 45.0,
     "minangletosun": 10.0,
+    "timeout": 0.5,
     "warmuptime": 5.0,
     "worktime": 10.0,
     "cageable": true,
     "rate_max": 35.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 753.0
   },
   {
@@ -1356,12 +1424,14 @@
     "lockanglemax": 20.0,
     "anglemax": 30.0,
     "minangletosun": 3.0,
+    "timeout": 0.8,
     "warmuptime": 5.0,
     "worktime": 20.0,
     "cageable": true,
     "rate_max": 12.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 531.0
   },
   {
@@ -1395,12 +1465,14 @@
     "lockanglemax": 20.0,
     "anglemax": 60.0,
     "minangletosun": 3.0,
+    "timeout": 0.6,
     "warmuptime": 5.0,
     "worktime": 20.0,
     "cageable": true,
     "rate_max": 12.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 539.0
   },
   {
@@ -1434,12 +1506,14 @@
     "lockanglemax": 15.0,
     "anglemax": 45.0,
     "minangletosun": 0.0,
+    "timeout": 1.8,
     "warmuptime": 1.4,
     "worktime": 100.0,
     "cageable": true,
     "rate_max": 12.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 508.0
   },
   {
@@ -1473,12 +1547,14 @@
     "lockanglemax": 15.0,
     "anglemax": 45.0,
     "minangletosun": 0.0,
+    "timeout": 0.8,
     "warmuptime": 1.4,
     "worktime": 100.0,
     "cageable": true,
     "rate_max": 12.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 508.0
   },
   {
@@ -1512,12 +1588,14 @@
     "lockanglemax": 40.0,
     "anglemax": 50.0,
     "minangletosun": 10.0,
+    "timeout": 0.0,
     "warmuptime": 3.0,
     "worktime": 20.0,
     "cageable": true,
     "rate_max": 100.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": false,
     "deltav": 699.0
   },
   {
@@ -1551,12 +1629,14 @@
     "lockanglemax": 15.0,
     "anglemax": 25.0,
     "minangletosun": 0.0,
+    "timeout": 2.0,
     "warmuptime": 1.0,
     "worktime": 60.0,
     "cageable": true,
     "rate_max": 12.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 382.0
   },
   {
@@ -1590,12 +1670,14 @@
     "lockanglemax": 15.0,
     "anglemax": 45.0,
     "minangletosun": 0.0,
+    "timeout": 1.8,
     "warmuptime": 1.4,
     "worktime": 100.0,
     "cageable": true,
     "rate_max": 12.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 437.0
   },
   {
@@ -1629,12 +1711,14 @@
     "lockanglemax": 15.0,
     "anglemax": 45.0,
     "minangletosun": 0.0,
+    "timeout": 0.8,
     "warmuptime": 1.4,
     "worktime": 100.0,
     "cageable": true,
     "rate_max": 12.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 506.0
   },
   {
@@ -1668,12 +1752,14 @@
     "lockanglemax": 15.0,
     "anglemax": 45.0,
     "minangletosun": 0.0,
+    "timeout": 1.8,
     "warmuptime": 1.4,
     "worktime": 100.0,
     "cageable": true,
     "rate_max": 12.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 478.0
   },
   {
@@ -1707,12 +1793,14 @@
     "lockanglemax": 15.0,
     "anglemax": 45.0,
     "minangletosun": 0.0,
+    "timeout": 1.8,
     "warmuptime": 1.4,
     "worktime": 100.0,
     "cageable": true,
     "rate_max": 20.0,
     "inertial_navigation": false,
     "use_target_vel": true,
+    "allow_radar_slave": true,
     "deltav": 826.0
   },
   {
@@ -1746,12 +1834,14 @@
     "lockanglemax": 40.0,
     "anglemax": 40.0,
     "minangletosun": 5.0,
+    "timeout": 0.5,
     "warmuptime": 4.0,
     "worktime": 60.0,
     "cageable": false,
     "rate_max": 12.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": false,
     "deltav": 1089.0
   },
   {
@@ -1785,12 +1875,14 @@
     "lockanglemax": 5.0,
     "anglemax": 25.0,
     "minangletosun": 10.0,
+    "timeout": 0.5,
     "warmuptime": 4.0,
     "worktime": 15.0,
     "cageable": false,
     "rate_max": 11.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": false,
     "deltav": 523.0
   },
   {
@@ -1824,12 +1916,14 @@
     "lockanglemax": 5.0,
     "anglemax": 25.0,
     "minangletosun": 20.0,
+    "timeout": 0.5,
     "warmuptime": 4.0,
     "worktime": 15.0,
     "cageable": false,
     "rate_max": 11.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": false,
     "deltav": 523.0
   },
   {
@@ -1863,12 +1957,14 @@
     "lockanglemax": 30.0,
     "anglemax": 30.0,
     "minangletosun": 0.0,
+    "timeout": 0.5,
     "warmuptime": 2.0,
     "worktime": 15.0,
     "cageable": false,
     "rate_max": 12.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 714.0
   },
   {
@@ -1902,12 +1998,14 @@
     "lockanglemax": 10.0,
     "anglemax": 40.0,
     "minangletosun": 10.0,
+    "timeout": 0.5,
     "warmuptime": 5.0,
     "worktime": 10.0,
     "cageable": true,
     "rate_max": 12.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": false,
     "deltav": 739.0
   },
   {
@@ -1941,12 +2039,14 @@
     "lockanglemax": 10.0,
     "anglemax": 40.0,
     "minangletosun": 10.0,
+    "timeout": 0.5,
     "warmuptime": 5.0,
     "worktime": 10.0,
     "cageable": true,
     "rate_max": 12.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": false,
     "deltav": 521.0
   },
   {
@@ -1980,12 +2080,14 @@
     "lockanglemax": 40.0,
     "anglemax": 40.0,
     "minangletosun": 10.0,
+    "timeout": 0.5,
     "warmuptime": 5.0,
     "worktime": 10.0,
     "cageable": true,
     "rate_max": 12.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 739.0
   },
   {
@@ -2019,12 +2121,14 @@
     "lockanglemax": 10.0,
     "anglemax": 40.0,
     "minangletosun": 10.0,
+    "timeout": 0.5,
     "warmuptime": 5.0,
     "worktime": 10.0,
     "cageable": true,
     "rate_max": 16.5,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 518.0
   },
   {
@@ -2058,12 +2162,14 @@
     "lockanglemax": 17.0,
     "anglemax": 45.0,
     "minangletosun": 10.0,
+    "timeout": 0.5,
     "warmuptime": 5.0,
     "worktime": 10.0,
     "cageable": true,
     "rate_max": 35.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 753.0
   },
   {
@@ -2097,12 +2203,14 @@
     "lockanglemax": 17.0,
     "anglemax": 45.0,
     "minangletosun": 10.0,
+    "timeout": 0.5,
     "warmuptime": 5.0,
     "worktime": 10.0,
     "cageable": true,
     "rate_max": 35.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 753.0
   },
   {
@@ -2136,12 +2244,14 @@
     "lockanglemax": 10.0,
     "anglemax": 40.0,
     "minangletosun": 10.0,
+    "timeout": 0.5,
     "warmuptime": 5.0,
     "worktime": 10.0,
     "cageable": true,
     "rate_max": 16.5,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": true,
     "deltav": 518.0
   },
   {
@@ -2175,12 +2285,14 @@
     "lockanglemax": 40.0,
     "anglemax": 40.0,
     "minangletosun": 5.0,
+    "timeout": 0.5,
     "warmuptime": 4.0,
     "worktime": 60.0,
     "cageable": false,
     "rate_max": 12.0,
     "inertial_navigation": false,
     "use_target_vel": false,
+    "allow_radar_slave": false,
     "deltav": 1089.0
   }
 ]

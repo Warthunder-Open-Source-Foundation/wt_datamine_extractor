@@ -91,6 +91,9 @@ pub struct Missile {
 	/// distance from sun to be distracted in degrees
 	pub minangletosun: f64,
 
+	/// time missile does not manuever after launch
+	pub timeout: f64,
+
 	/// time to switch missile into seek mode in s
 	pub warmuptime: f64,
 
@@ -108,6 +111,9 @@ pub struct Missile {
 
 	/// if the missile influences the inertial navigation with target velocity
 	pub use_target_vel: bool,
+
+	/// permits the missile to slave after the radar
+	pub allow_radar_slave: bool,
 
 	// Calculated (dynamically created and not in files)
 
@@ -200,6 +206,8 @@ impl Missile {
 			0.0
 		};
 
+		let timeout = parameter_to_data(&file, "timeOut").unwrap().parse().unwrap();
+
 		let warmuptime = parameter_to_data(&file, "warmUpTime").unwrap().parse().unwrap();
 
 		let worktime = parameter_to_data(&file, "workTime").unwrap().parse().unwrap();
@@ -211,6 +219,8 @@ impl Missile {
 		let inertial_navigation = parameter_to_data(&file, "inertialNavigation").unwrap_or_else(|| "false".to_owned()).parse::<bool>().unwrap();
 
 		let use_target_vel= parameter_to_data(&file, "useTargetVel").unwrap_or_else(|| "false".to_owned()).parse::<bool>().unwrap();
+
+		let allow_radar_slave = file.contains("designationSourceTypeMask");
 
 		Self {
 			// localized first as the borrow consumes name otherwise
@@ -239,12 +249,14 @@ impl Missile {
 			lockanglemax,
 			anglemax,
 			minangletosun,
+			timeout,
 			warmuptime,
 			worktime,
 			cageable,
 			rate_max,
 			inertial_navigation,
 			use_target_vel,
+			allow_radar_slave,
 			deltav: ((force0 / mass * timefire0) + (force1 / mass * timefire1)).round(),
 		}
 	}
