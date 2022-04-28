@@ -13214,7 +13214,7 @@
   {
     "name": "70mm_m247",
     "localized": "70mm_m247",
-    "shell_type": "Rocket",
+    "shell_type": "Heat",
     "caliber": 70,
     "true_caliber": 70,
     "velocity": 0,
