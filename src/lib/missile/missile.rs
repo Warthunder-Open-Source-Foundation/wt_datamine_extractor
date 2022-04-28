@@ -100,6 +100,9 @@ pub struct Missile {
 	/// if the seeker is on a gimbal or not
 	pub cageable: bool,
 
+	/// angular velocity the seeker moves at
+	pub rate_max: f64,
+
 	/// if the missile applies proportional navigation after losing lock (dead behaviour)
 	pub inertial_navigation: bool,
 
@@ -203,6 +206,8 @@ impl Missile {
 
 		let cageable = parameter_to_data(&file, "uncageBeforeLaunch").unwrap().parse::<bool>().unwrap();
 
+		let rate_max = parameter_to_data(&file, "rateMax").unwrap().parse::<f64>().unwrap();
+
 		let inertial_navigation = parameter_to_data(&file, "inertialNavigation").unwrap_or_else(|| "false".to_owned()).parse::<bool>().unwrap();
 
 		let use_target_vel= parameter_to_data(&file, "useTargetVel").unwrap_or_else(|| "false".to_owned()).parse::<bool>().unwrap();
@@ -237,6 +242,7 @@ impl Missile {
 			warmuptime,
 			worktime,
 			cageable,
+			rate_max,
 			inertial_navigation,
 			use_target_vel,
 			deltav: ((force0 / mass * timefire0) + (force1 / mass * timefire1)).round(),
