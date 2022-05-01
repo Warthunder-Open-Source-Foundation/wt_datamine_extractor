@@ -24,6 +24,8 @@ pub enum CLError {
 
 	// Bad pylon selection (out of bounds or the like)
 	BadSelection(usize),
+
+	NoExemptCenter,
 }
 
 #[derive(Eq, PartialEq)]
@@ -94,6 +96,10 @@ impl CustomLoadout {
 					compute_pylon(pylon, &mut totals.2);
 				}
 			}
+
+			if i == self.pylons.len() - 1 && wing_state != WingState::RightWing {
+				errs.push(CLError::NoExemptCenter);
+			}
 		}
 
 		let delta_total = totals.0 + totals.1 + totals.2 + misc;
@@ -110,7 +116,15 @@ impl CustomLoadout {
 		}
 
 		if (totals.0 - totals.2).abs() > self.max_imbalance {
-			errs.push(CLError::TooHighImbalance(-(totals.0 - totals.2 - self.max_imbalance)));
+			// This might be way too much code for such a simple thing but eh, go make a pull request if you bother to do so
+			let offset = (totals.0 - totals.2).abs() - self.max_imbalance;
+			let sign = ( totals.0 - totals.2).is_sign_positive();
+			let bad = if sign {
+				-offset
+			} else {
+				offset
+			};
+			errs.push(CLError::TooHighImbalance(bad));
 		}
 
 
@@ -132,11 +146,52 @@ mod tests {
 	use crate::custom_loadouts::custom_loadouts::CustomLoadout;
 
 	#[test]
-	fn test() {
+	fn test_clean() {
 		let reader = fs::read("custom_loadouts/aircraft/a_10a_early.blkx").unwrap();
 		let loadouts = CustomLoadout::new_from_file(&reader, "a_10a_early".to_owned());
 
-		let compose = loadouts.compose_loadout(&[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]).unwrap();
-		eprintln!("{:#?}", compose);
+		if loadouts.compose_loadout(&[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]).is_err() {
+			panic!("uh oh")
+		}
+	}
+
+	#[test]
+	fn test_max_total() {
+		let reader = fs::read("custom_loadouts/aircraft/a_10a_early.blkx").unwrap();
+		let loadouts = CustomLoadout::new_from_file(&reader, "a_10a_early".to_owned());
+
+		if loadouts.compose_loadout(&[0, 2, 2, 6, 6, 2, 2, 6, 6, 2, 2]).is_ok() {
+			panic!("uh oh")
+		}
+	}
+
+	#[test]
+	fn test_imbalance_right_wing() {
+		let reader = fs::read("custom_loadouts/aircraft/a_10a_early.blkx").unwrap();
+		let loadouts = CustomLoadout::new_from_file(&reader, "a_10a_early".to_owned());
+
+		if loadouts.compose_loadout(&[0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0]).is_ok() {
+			panic!("uh oh")
+		}
+	}
+
+	#[test]
+	fn test_imbalance_left_wing() {
+		let reader = fs::read("custom_loadouts/aircraft/a_10a_early.blkx").unwrap();
+		let loadouts = CustomLoadout::new_from_file(&reader, "a_10a_early".to_owned());
+
+		if loadouts.compose_loadout(&[0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0]).is_ok() {
+			panic!("uh oh")
+		}
+	}
+
+	#[test]
+	fn test_exempt_bad() {
+		let reader = fs::read("custom_loadouts/aircraft/kfir_c2.blkx").unwrap();
+		let loadouts = CustomLoadout::new_from_file(&reader, "kfir_c2".to_owned());
+
+		if loadouts.compose_loadout(&[0, 0, 0, 0, 0, 0, 0, 0]).is_ok() {
+			panic!("uh oh")
+		}
 	}
 }
