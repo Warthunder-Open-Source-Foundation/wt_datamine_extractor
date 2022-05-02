@@ -7,6 +7,8 @@ clippy::cast_possible_truncation,
 clippy::module_name_repetitions
 )]
 
+extern crate core;
+
 pub mod missile;
 pub mod thermal;
 pub mod util;
