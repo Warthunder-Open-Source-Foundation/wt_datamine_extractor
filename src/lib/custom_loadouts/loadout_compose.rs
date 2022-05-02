@@ -1,7 +1,7 @@
 use crate::custom_loadouts::custom_loadouts::{CustomLoadout, Pylon};
 use crate::custom_loadouts::loadout_compose::CLError::BadSelection;
 
-#[derive(Debug, PartialEq)]
+#[derive(Debug, PartialEq, Clone)]
 pub struct CLComposition {
 	pub total_mass: f64,
 	pub max_imbalance: f64,
@@ -11,7 +11,7 @@ pub struct CLComposition {
 
 type ExcessMass = f64;
 
-#[derive(Debug, PartialEq)]
+#[derive(Debug, PartialEq, Copy, Clone)]
 pub enum CLError {
 	// Total weight of the aircraft's carry capacity exceeded
 	TooHighTotalMass(ExcessMass),
@@ -28,7 +28,7 @@ pub enum CLError {
 	NoExemptCenter,
 }
 
-#[derive(Eq, PartialEq)]
+#[derive(Eq, PartialEq, Copy, Clone, Debug)]
 enum WingState {
 	LeftWing,
 	Center,
