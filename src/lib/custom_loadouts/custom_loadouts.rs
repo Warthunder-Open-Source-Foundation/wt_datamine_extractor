@@ -9,10 +9,11 @@ use crate::util::parameter_to_data;
 pub struct CustomLoadout {
 	pub aircraft: String,
 	pub localized: String,
-	pub pylons: Vec<Pylon>,
 	pub max_load: f64,
 	pub max_imbalance: f64,
 	pub max_wing_load: (f64, f64),
+	pub pylons: Vec<Pylon>,
+	pub misc_pylons: Vec<Pylon>,
 }
 
 #[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone, const_gen::CompileConst)]
@@ -81,6 +82,7 @@ impl CustomLoadout {
 		);
 
 		let mut pylons: Vec<Pylon> = vec![];
+		let mut misc_pylons: Vec<Pylon> = vec![];
 
 		let mut split = file.split("\"WeaponSlot\"").collect::<Vec<&str>>();
 		split.remove(0);
@@ -157,24 +159,31 @@ impl CustomLoadout {
 					}
 				};
 
-				weapons.push(Weapon {
-					localized,
-					icon_type,
-					count,
-					individual_mass: mass,
-					name,
-					total_mass: weight,
-					weapon_type,
-				})
+
+					weapons.push(Weapon {
+						localized,
+						icon_type,
+						count,
+						individual_mass: mass,
+						name,
+						total_mass: weight,
+						weapon_type,
+					});
 			}
 
-			pylons.push(Pylon {
+			let pylon = Pylon {
 				exempt_from_imbalance,
 				weapons,
 				index,
 				tier,
 				order,
-			})
+			};
+
+			if order.is_none() {
+				misc_pylons.push(pylon);
+			} else {
+				pylons.push(pylon);
+			}
 		}
 
 
@@ -182,6 +191,7 @@ impl CustomLoadout {
 			localized: name_to_local(&name, &Lang::Unit),
 			aircraft: name,
 			pylons,
+			misc_pylons,
 			max_load,
 			max_imbalance,
 			max_wing_load,

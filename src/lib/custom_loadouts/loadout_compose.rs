@@ -150,7 +150,7 @@ mod tests {
 		let reader = fs::read("custom_loadouts/aircraft/a_10a_early.blkx").unwrap();
 		let loadouts = CustomLoadout::new_from_file(&reader, "a_10a_early".to_owned());
 
-		if loadouts.compose_loadout(&[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]).is_err() {
+		if loadouts.compose_loadout(&[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]).is_err() {
 			panic!("uh oh")
 		}
 	}
@@ -160,7 +160,7 @@ mod tests {
 		let reader = fs::read("custom_loadouts/aircraft/a_10a_early.blkx").unwrap();
 		let loadouts = CustomLoadout::new_from_file(&reader, "a_10a_early".to_owned());
 
-		if loadouts.compose_loadout(&[0, 2, 2, 6, 6, 2, 2, 6, 6, 2, 2]).is_ok() {
+		if loadouts.compose_loadout(&[2, 2, 6, 6, 2, 2, 6, 6, 2, 2]).is_ok() {
 			panic!("uh oh")
 		}
 	}
@@ -170,7 +170,7 @@ mod tests {
 		let reader = fs::read("custom_loadouts/aircraft/a_10a_early.blkx").unwrap();
 		let loadouts = CustomLoadout::new_from_file(&reader, "a_10a_early".to_owned());
 
-		if loadouts.compose_loadout(&[0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0]).is_ok() {
+		if loadouts.compose_loadout(&[0, 0, 0, 0, 0, 0, 0, 6, 0, 0]).is_ok() {
 			panic!("uh oh")
 		}
 	}
@@ -180,7 +180,7 @@ mod tests {
 		let reader = fs::read("custom_loadouts/aircraft/a_10a_early.blkx").unwrap();
 		let loadouts = CustomLoadout::new_from_file(&reader, "a_10a_early".to_owned());
 
-		if loadouts.compose_loadout(&[0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0]).is_ok() {
+		if loadouts.compose_loadout(&[0, 0, 6, 0, 0, 0, 0, 0, 0, 0]).is_ok() {
 			panic!("uh oh")
 		}
 	}
@@ -190,7 +190,7 @@ mod tests {
 		let reader = fs::read("custom_loadouts/aircraft/kfir_c2.blkx").unwrap();
 		let loadouts = CustomLoadout::new_from_file(&reader, "kfir_c2".to_owned());
 
-		if loadouts.compose_loadout(&[0, 0, 0, 0, 0, 0, 0, 0]).is_ok() {
+		if loadouts.compose_loadout(&[0, 0, 0, 0, 0, 0, 0]).is_ok() {
 			panic!("uh oh")
 		}
 	}
