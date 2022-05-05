@@ -2,33 +2,13 @@
   {
     "aircraft": "a_10a_early",
     "localized": "A-10A",
+    "max_load": 7257.0,
+    "max_imbalance": 1000.0,
+    "max_wing_load": [
+      4500.0,
+      4500.0
+    ],
     "pylons": [
-      {
-        "index": 0,
-        "tier": null,
-        "order": null,
-        "exempt_from_imbalance": true,
-        "weapons": [
-          {
-            "name": "gau_8a_common",
-            "localized": "cannonGAU_8A",
-            "icon_type": "cannon",
-            "count": 1,
-            "individual_mass": 866.0,
-            "total_mass": 866.0,
-            "weapon_type": "Cannon"
-          },
-          {
-            "name": "gau_8a_ltc_common",
-            "localized": "cannonGAU_8A",
-            "icon_type": "cannon",
-            "count": 1,
-            "individual_mass": 866.0,
-            "total_mass": 866.0,
-            "weapon_type": "Cannon"
-          }
-        ]
-      },
       {
         "index": 1,
         "tier": 11,
@@ -470,43 +450,45 @@
         ]
       }
     ],
-    "max_load": 7257.0,
-    "max_imbalance": 1000.0,
-    "max_wing_load": [
-      4500.0,
-      4500.0
+    "misc_pylons": [
+      {
+        "index": 0,
+        "tier": null,
+        "order": null,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "gau_8a_common",
+            "localized": "cannonGAU_8A",
+            "icon_type": "cannon",
+            "count": 1,
+            "individual_mass": 866.0,
+            "total_mass": 866.0,
+            "weapon_type": "Cannon"
+          },
+          {
+            "name": "gau_8a_ltc_common",
+            "localized": "cannonGAU_8A",
+            "icon_type": "cannon",
+            "count": 1,
+            "individual_mass": 866.0,
+            "total_mass": 866.0,
+            "weapon_type": "Cannon"
+          }
+        ]
+      }
     ]
   },
   {
     "aircraft": "a_10a_late",
     "localized": "A-10A Late",
+    "max_load": 7257.0,
+    "max_imbalance": 1000.0,
+    "max_wing_load": [
+      4500.0,
+      4500.0
+    ],
     "pylons": [
-      {
-        "index": 0,
-        "tier": null,
-        "order": null,
-        "exempt_from_imbalance": true,
-        "weapons": [
-          {
-            "name": "gau_8a_common",
-            "localized": "cannonGAU_8A",
-            "icon_type": "cannon",
-            "count": 1,
-            "individual_mass": 866.0,
-            "total_mass": 866.0,
-            "weapon_type": "Cannon"
-          },
-          {
-            "name": "gau_8a_ltc_common",
-            "localized": "cannonGAU_8A",
-            "icon_type": "cannon",
-            "count": 1,
-            "individual_mass": 866.0,
-            "total_mass": 866.0,
-            "weapon_type": "Cannon"
-          }
-        ]
-      },
       {
         "index": 1,
         "tier": 11,
@@ -912,17 +894,7 @@
         ]
       }
     ],
-    "max_load": 7257.0,
-    "max_imbalance": 1000.0,
-    "max_wing_load": [
-      4500.0,
-      4500.0
-    ]
-  },
-  {
-    "aircraft": "f-104s_asa",
-    "localized": "F-104S.ASA",
-    "pylons": [
+    "misc_pylons": [
       {
         "index": 0,
         "tier": null,
@@ -930,25 +902,37 @@
         "exempt_from_imbalance": true,
         "weapons": [
           {
-            "name": "Empty",
-            "localized": "Empty",
-            "icon_type": "",
-            "count": 0,
-            "individual_mass": 0.0,
-            "total_mass": 0.0,
-            "weapon_type": "Empty"
+            "name": "gau_8a_common",
+            "localized": "cannonGAU_8A",
+            "icon_type": "cannon",
+            "count": 1,
+            "individual_mass": 866.0,
+            "total_mass": 866.0,
+            "weapon_type": "Cannon"
           },
           {
-            "name": "f_104s_asa_common_ltc",
-            "localized": "Flares/Chaff",
-            "icon_type": "heli_false_thermal_targets",
+            "name": "gau_8a_ltc_common",
+            "localized": "cannonGAU_8A",
+            "icon_type": "cannon",
             "count": 1,
-            "individual_mass": 0.0,
-            "total_mass": 0.0,
-            "weapon_type": "Countermeasures"
+            "individual_mass": 866.0,
+            "total_mass": 866.0,
+            "weapon_type": "Cannon"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "aircraft": "f-104s_asa",
+    "localized": "F-104S.ASA",
+    "max_load": 3400.0,
+    "max_imbalance": 500.0,
+    "max_wing_load": [
+      2200.0,
+      2200.0
+    ],
+    "pylons": [
       {
         "index": 1,
         "tier": 11,
@@ -1095,23 +1079,6 @@
             "individual_mass": 362.42,
             "total_mass": 362.42,
             "weapon_type": "Bomb"
-          }
-        ]
-      },
-      {
-        "index": 5,
-        "tier": 7,
-        "order": null,
-        "exempt_from_imbalance": true,
-        "weapons": [
-          {
-            "name": "cannon_m61",
-            "localized": "M61",
-            "icon_type": "cannon",
-            "count": 1,
-            "individual_mass": 650.0,
-            "total_mass": 650.0,
-            "weapon_type": "Cannon"
           }
         ]
       },
@@ -1282,17 +1249,7 @@
         ]
       }
     ],
-    "max_load": 3400.0,
-    "max_imbalance": 500.0,
-    "max_wing_load": [
-      2200.0,
-      2200.0
-    ]
-  },
-  {
-    "aircraft": "j_8b",
-    "localized": "J-8B",
-    "pylons": [
+    "misc_pylons": [
       {
         "index": 0,
         "tier": null,
@@ -1300,25 +1257,54 @@
         "exempt_from_imbalance": true,
         "weapons": [
           {
-            "name": "type_23_3_common",
-            "localized": "cannonType_23_3",
-            "icon_type": "cannon",
-            "count": 1,
-            "individual_mass": 155.0,
-            "total_mass": 155.0,
-            "weapon_type": "Cannon"
+            "name": "Empty",
+            "localized": "Empty",
+            "icon_type": "",
+            "count": 0,
+            "individual_mass": 0.0,
+            "total_mass": 0.0,
+            "weapon_type": "Empty"
           },
           {
-            "name": "type_23_3_ltc_common",
-            "localized": "cannonType_23_3",
-            "icon_type": "cannon",
+            "name": "f_104s_asa_common_ltc",
+            "localized": "Flares/Chaff",
+            "icon_type": "heli_false_thermal_targets",
             "count": 1,
-            "individual_mass": 155.0,
-            "total_mass": 155.0,
-            "weapon_type": "Cannon"
+            "individual_mass": 0.0,
+            "total_mass": 0.0,
+            "weapon_type": "Countermeasures"
           }
         ]
       },
+      {
+        "index": 5,
+        "tier": 7,
+        "order": null,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "cannon_m61",
+            "localized": "M61",
+            "icon_type": "cannon",
+            "count": 1,
+            "individual_mass": 650.0,
+            "total_mass": 650.0,
+            "weapon_type": "Cannon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "aircraft": "j_8b",
+    "localized": "J-8B",
+    "max_load": 4500.0,
+    "max_imbalance": 1000.0,
+    "max_wing_load": [
+      1500.0,
+      1500.0
+    ],
+    "pylons": [
       {
         "index": 1,
         "tier": 9,
@@ -1511,17 +1497,7 @@
         ]
       }
     ],
-    "max_load": 4500.0,
-    "max_imbalance": 1000.0,
-    "max_wing_load": [
-      1500.0,
-      1500.0
-    ]
-  },
-  {
-    "aircraft": "kfir_c2",
-    "localized": "Kfir C.2",
-    "pylons": [
+    "misc_pylons": [
       {
         "index": 0,
         "tier": null,
@@ -1529,25 +1505,37 @@
         "exempt_from_imbalance": true,
         "weapons": [
           {
-            "name": "defa552a_common",
-            "localized": "30 mm DEFA 552A cannon",
+            "name": "type_23_3_common",
+            "localized": "cannonType_23_3",
             "icon_type": "cannon",
             "count": 1,
-            "individual_mass": 80.0,
-            "total_mass": 80.0,
+            "individual_mass": 155.0,
+            "total_mass": 155.0,
             "weapon_type": "Cannon"
           },
           {
-            "name": "defa552a_ltc_common",
-            "localized": "30 mm DEFA 552A cannon",
+            "name": "type_23_3_ltc_common",
+            "localized": "cannonType_23_3",
             "icon_type": "cannon",
             "count": 1,
-            "individual_mass": 80.0,
-            "total_mass": 80.0,
+            "individual_mass": 155.0,
+            "total_mass": 155.0,
             "weapon_type": "Cannon"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "aircraft": "kfir_c2",
+    "localized": "Kfir C.2",
+    "max_load": 4295.0,
+    "max_imbalance": 1100.0,
+    "max_wing_load": [
+      1500.0,
+      1500.0
+    ],
+    "pylons": [
       {
         "index": 1,
         "tier": 9,
@@ -1884,17 +1872,7 @@
         ]
       }
     ],
-    "max_load": 4295.0,
-    "max_imbalance": 1100.0,
-    "max_wing_load": [
-      1500.0,
-      1500.0
-    ]
-  },
-  {
-    "aircraft": "mig_23mla",
-    "localized": "#MiG-23MLA",
-    "pylons": [
+    "misc_pylons": [
       {
         "index": 0,
         "tier": null,
@@ -1902,25 +1880,37 @@
         "exempt_from_imbalance": true,
         "weapons": [
           {
-            "name": "gsh_23l_common",
-            "localized": "23 mm GSh-23L cannon",
+            "name": "defa552a_common",
+            "localized": "30 mm DEFA 552A cannon",
             "icon_type": "cannon",
             "count": 1,
-            "individual_mass": 155.0,
-            "total_mass": 155.0,
+            "individual_mass": 80.0,
+            "total_mass": 80.0,
             "weapon_type": "Cannon"
           },
           {
-            "name": "gsh_23l_ltc_common",
-            "localized": "23 mm GSh-23L cannon",
+            "name": "defa552a_ltc_common",
+            "localized": "30 mm DEFA 552A cannon",
             "icon_type": "cannon",
             "count": 1,
-            "individual_mass": 155.0,
-            "total_mass": 155.0,
+            "individual_mass": 80.0,
+            "total_mass": 80.0,
             "weapon_type": "Cannon"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "aircraft": "mig_23mla",
+    "localized": "#MiG-23MLA",
+    "max_load": 2000.0,
+    "max_imbalance": 500.0,
+    "max_wing_load": [
+      500.0,
+      500.0
+    ],
+    "pylons": [
       {
         "index": 1,
         "tier": 8,
@@ -2332,17 +2322,7 @@
         ]
       }
     ],
-    "max_load": 2000.0,
-    "max_imbalance": 500.0,
-    "max_wing_load": [
-      500.0,
-      500.0
-    ]
-  },
-  {
-    "aircraft": "mirage_f1c",
-    "localized": "Mirage F1C",
-    "pylons": [
+    "misc_pylons": [
       {
         "index": 0,
         "tier": null,
@@ -2350,25 +2330,37 @@
         "exempt_from_imbalance": true,
         "weapons": [
           {
-            "name": "defa_553_x2",
-            "localized": "30 mm DEFA 553 cannon",
+            "name": "gsh_23l_common",
+            "localized": "23 mm GSh-23L cannon",
             "icon_type": "cannon",
             "count": 1,
-            "individual_mass": 150.0,
-            "total_mass": 150.0,
+            "individual_mass": 155.0,
+            "total_mass": 155.0,
             "weapon_type": "Cannon"
           },
           {
-            "name": "defa_553_x2_ltc",
-            "localized": "30 mm DEFA 553 cannon",
+            "name": "gsh_23l_ltc_common",
+            "localized": "23 mm GSh-23L cannon",
             "icon_type": "cannon",
             "count": 1,
-            "individual_mass": 150.0,
-            "total_mass": 150.0,
+            "individual_mass": 155.0,
+            "total_mass": 155.0,
             "weapon_type": "Cannon"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "aircraft": "mirage_f1c",
+    "localized": "Mirage F1C",
+    "max_load": 3000.0,
+    "max_imbalance": 500.0,
+    "max_wing_load": [
+      1500.0,
+      1500.0
+    ],
+    "pylons": [
       {
         "index": 1,
         "tier": 9,
@@ -2831,17 +2823,7 @@
         ]
       }
     ],
-    "max_load": 3000.0,
-    "max_imbalance": 500.0,
-    "max_wing_load": [
-      1500.0,
-      1500.0
-    ]
-  },
-  {
-    "aircraft": "su_22um3k",
-    "localized": "#Su-22UM3K",
-    "pylons": [
+    "misc_pylons": [
       {
         "index": 0,
         "tier": null,
@@ -2849,25 +2831,37 @@
         "exempt_from_imbalance": true,
         "weapons": [
           {
-            "name": "nr_30",
-            "localized": "30 mm NR-30 cannon",
+            "name": "defa_553_x2",
+            "localized": "30 mm DEFA 553 cannon",
             "icon_type": "cannon",
             "count": 1,
-            "individual_mass": 66.5,
-            "total_mass": 66.5,
+            "individual_mass": 150.0,
+            "total_mass": 150.0,
             "weapon_type": "Cannon"
           },
           {
-            "name": "nr_30_ltc",
-            "localized": "30 mm NR-30 cannon",
+            "name": "defa_553_x2_ltc",
+            "localized": "30 mm DEFA 553 cannon",
             "icon_type": "cannon",
             "count": 1,
-            "individual_mass": 66.5,
-            "total_mass": 66.5,
+            "individual_mass": 150.0,
+            "total_mass": 150.0,
             "weapon_type": "Cannon"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "aircraft": "su_22um3k",
+    "localized": "#Su-22UM3K",
+    "max_load": 3000.0,
+    "max_imbalance": 700.0,
+    "max_wing_load": [
+      1500.0,
+      1500.0
+    ],
+    "pylons": [
       {
         "index": 1,
         "tier": 10,
@@ -2972,23 +2966,6 @@
             "individual_mass": 3.64,
             "total_mass": 116.48,
             "weapon_type": "Rocket"
-          }
-        ]
-      },
-      {
-        "index": 2,
-        "tier": 9,
-        "order": null,
-        "exempt_from_imbalance": false,
-        "weapons": [
-          {
-            "name": "wing_left_single_r_60",
-            "localized": "su_r_60_default",
-            "icon_type": "missile_type_b_air_to_air",
-            "count": 1,
-            "individual_mass": 44.0,
-            "total_mass": 44.0,
-            "weapon_type": "AAM"
           }
         ]
       },
@@ -3295,23 +3272,6 @@
         ]
       },
       {
-        "index": 7,
-        "tier": 3,
-        "order": null,
-        "exempt_from_imbalance": false,
-        "weapons": [
-          {
-            "name": "wing_right_single_r_60",
-            "localized": "su_r_60_default",
-            "icon_type": "missile_type_b_air_to_air",
-            "count": 1,
-            "individual_mass": 44.0,
-            "total_mass": 44.0,
-            "weapon_type": "AAM"
-          }
-        ]
-      },
-      {
         "index": 8,
         "tier": 2,
         "order": 2,
@@ -3419,11 +3379,67 @@
         ]
       }
     ],
-    "max_load": 3000.0,
-    "max_imbalance": 700.0,
-    "max_wing_load": [
-      1500.0,
-      1500.0
+    "misc_pylons": [
+      {
+        "index": 0,
+        "tier": null,
+        "order": null,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "nr_30",
+            "localized": "30 mm NR-30 cannon",
+            "icon_type": "cannon",
+            "count": 1,
+            "individual_mass": 66.5,
+            "total_mass": 66.5,
+            "weapon_type": "Cannon"
+          },
+          {
+            "name": "nr_30_ltc",
+            "localized": "30 mm NR-30 cannon",
+            "icon_type": "cannon",
+            "count": 1,
+            "individual_mass": 66.5,
+            "total_mass": 66.5,
+            "weapon_type": "Cannon"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "tier": 9,
+        "order": null,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "wing_left_single_r_60",
+            "localized": "su_r_60_default",
+            "icon_type": "missile_type_b_air_to_air",
+            "count": 1,
+            "individual_mass": 44.0,
+            "total_mass": 44.0,
+            "weapon_type": "AAM"
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "tier": 3,
+        "order": null,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "wing_right_single_r_60",
+            "localized": "su_r_60_default",
+            "icon_type": "missile_type_b_air_to_air",
+            "count": 1,
+            "individual_mass": 44.0,
+            "total_mass": 44.0,
+            "weapon_type": "AAM"
+          }
+        ]
+      }
     ]
   }
 ]
