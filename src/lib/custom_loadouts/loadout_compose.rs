@@ -40,10 +40,6 @@ impl CustomLoadout {
 		// errors in multiple places will first be collected and returned at the very end
 		let mut errs: Vec<CLError> = Vec::new();
 
-
-		// should never mutate but is marked as such for compilers sake
-		let mut misc = 0.0;
-
 		let mut totals: (f64, f64, f64) = (0.0, 0.0, 0.0);
 
 		// states are
@@ -54,15 +50,6 @@ impl CustomLoadout {
 
 		// This loop only begins adding up masses, error checking comes after
 		for (i, pylon) in self.pylons.iter().enumerate() {
-			if i == 0 {
-				misc = if let Some(item) = pylon.weapons.get(selection[i]) {
-					item.total_mass
-				} else {
-					// Abort right away as this **has** to work
-					errs.push(BadSelection(0));
-					return Err(errs);
-				}
-			}
 
 			let mut compute_pylon = |pylon: &Pylon, totals: &mut f64| {
 				// A selection of 0 means empty pylon, not adding any value, this means the array access needs to be subtracted by that extra
@@ -102,7 +89,7 @@ impl CustomLoadout {
 			}
 		}
 
-		let delta_total = totals.0 + totals.1 + totals.2 + misc;
+		let delta_total = totals.0 + totals.1 + totals.2;
 		if delta_total > self.max_load {
 			errs.push(CLError::TooHighTotalMass(delta_total - self.max_load));
 		}
@@ -160,7 +147,8 @@ mod tests {
 		let reader = fs::read("custom_loadouts/aircraft/a_10a_early.blkx").unwrap();
 		let loadouts = CustomLoadout::new_from_file(&reader, "a_10a_early".to_owned());
 
-		if loadouts.compose_loadout(&[2, 2, 6, 6, 2, 2, 6, 6, 2, 2]).is_ok() {
+		if let Err(e) = loadouts.compose_loadout(&[2, 2, 6, 6, 2, 2, 6, 6, 2, 2]) {
+			eprintln!("e = {:?}", e);
 			panic!("uh oh")
 		}
 	}
