@@ -193,7 +193,7 @@
   },
   {
     "name": "cn_m60a3_tts",
-    "localized": "ETBM60A3 TTS",
+    "localized": "␗M60A3 TTS",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -431,7 +431,7 @@
   },
   {
     "name": "fr_crotale_ng",
-    "localized": "#ItO 90M",
+    "localized": "⦿ItO 90M",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -959,7 +959,7 @@
   },
   {
     "name": "it_leopard_1a5",
-    "localized": "#Leopard 1A5",
+    "localized": "⦿Leopard 1A5",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1855,7 +1855,7 @@
   },
   {
     "name": "us_merkava_mk_3d",
-    "localized": "#Merkava Mk.3D",
+    "localized": "✪Merkava Mk.3D",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -2098,7 +2098,7 @@
   },
   {
     "name": "ussr_t_90a",
-    "localized": "T-90A",
+    "localized": "Т-90А",
     "vehicle_type": "Tank",
     "sights": [
       {

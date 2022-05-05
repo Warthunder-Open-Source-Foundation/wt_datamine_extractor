@@ -2304,7 +2304,7 @@
   },
   {
     "name": "105mm_rokgr_m49",
-    "localized": "rokgr m/49",
+    "localized": "rökgr m/49",
     "shell_type": "Smoke",
     "caliber": 105,
     "true_caliber": 105,
@@ -2318,7 +2318,7 @@
   },
   {
     "name": "105mm_rokgr_m61",
-    "localized": "rokgr m/61",
+    "localized": "rökgr m/61",
     "shell_type": "Smoke",
     "caliber": 105,
     "true_caliber": 105,
@@ -2332,7 +2332,7 @@
   },
   {
     "name": "105mm_rokgr_m61",
-    "localized": "rokgr m/61",
+    "localized": "rökgr m/61",
     "shell_type": "Smoke",
     "caliber": 105,
     "true_caliber": 105,
@@ -6304,7 +6304,7 @@
   },
   {
     "name": "125mm_9M113",
-    "localized": "9M113",
+    "localized": "9М113",
     "shell_type": "Atgm",
     "caliber": 135,
     "true_caliber": 135,
@@ -6323,7 +6323,7 @@
   },
   {
     "name": "125mm_9M14",
-    "localized": "9M14",
+    "localized": "9М14",
     "shell_type": "Atgm",
     "caliber": 125,
     "true_caliber": 125,
@@ -9778,7 +9778,7 @@
   },
   {
     "name": "30_170mm_apds_t",
-    "localized": "30kh170 APDS-T",
+    "localized": "30х170 APDS-T",
     "shell_type": "Apds",
     "caliber": 30,
     "true_caliber": 30,
@@ -12296,7 +12296,7 @@
   },
   {
     "name": "57_438mm_ap",
-    "localized": "57kh438 AP-T",
+    "localized": "57х438 AP-T",
     "shell_type": "ApSolid",
     "caliber": 57,
     "true_caliber": 57,
@@ -12315,7 +12315,7 @@
   },
   {
     "name": "57_438mm_he",
-    "localized": "57kh438 HE-T",
+    "localized": "57х438 HE-T",
     "shell_type": "He",
     "caliber": 57,
     "true_caliber": 57,
@@ -12329,7 +12329,7 @@
   },
   {
     "name": "57_438mm_he_vt",
-    "localized": "57kh438 HE-VT",
+    "localized": "57х438 HE-VT",
     "shell_type": "He",
     "caliber": 57,
     "true_caliber": 57,
@@ -12364,7 +12364,7 @@
   },
   {
     "name": "57_438mm_sap",
-    "localized": "57kh438 SAP-T",
+    "localized": "57х438 SAP-T",
     "shell_type": "SapHei",
     "caliber": 57,
     "true_caliber": 57,
@@ -12402,7 +12402,7 @@
   },
   {
     "name": "57mm_br_271k",
-    "localized": "BR-271K",
+    "localized": "BR-271К",
     "shell_type": "ApHe",
     "caliber": 57,
     "true_caliber": 57,
@@ -14543,7 +14543,7 @@
   },
   {
     "name": "75mm_rokgr_m22",
-    "localized": "rokgr m/22",
+    "localized": "rökgr m/22",
     "shell_type": "Smoke",
     "caliber": 75,
     "true_caliber": 75,
@@ -17143,7 +17143,7 @@
   },
   {
     "name": "83mm_rokgr_m53",
-    "localized": "rokgr m/53",
+    "localized": "rökgr m/53",
     "shell_type": "Smoke",
     "caliber": 83,
     "true_caliber": 83,

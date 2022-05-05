@@ -1,6 +1,5 @@
 use std::collections::HashMap;
 
-use any_ascii::any_ascii;
 use fs_extra::dir::CopyOptions;
 use lazy_static::lazy_static;
 use wt_csv::wtcsv::core::wtcsv::WTCSV;
@@ -18,6 +17,25 @@ const EDGE_CASES: [(&str, &str); 12] = [
 	("ussr_t_80u_race", "T-80U race"),
 	("ah_64a_peten_iaf", "AH-64A Peten (USA)"),
 	("us_merkava_mk_2b_late", "Merkava Mk.2B (USA)")
+];
+
+const REPLACE_CHAR: [(char, char); 5] = [
+	// US star
+	('▃', '✪'),
+	// German iron cross
+	('▀', '✠'),
+	// Soviet black star
+	('▂', '★'),
+	// UK, Italian and French roundel
+	('▄', '⦿'),
+	// Japanese rising sun
+	// ('▅', ' '),
+	// Chinese flag thingy
+	// ('␗', ' '),
+	// Sweden would go here, but they dont have one it seems
+	// (' ', ' '),
+	// Israeli david star
+	('', '✡'),
 ];
 
 lazy_static! {
@@ -81,18 +99,26 @@ pub fn name_to_local(target: &str, lang: &Lang) -> String {
 		format!("{}_shop", target),
 	];
 
+	let replace_match_unicode = |input: &String| {
+		let mut new: String = input.to_string();
+		for set in REPLACE_CHAR {
+			new = new.replace(set.0, &set.1.to_string());
+		}
+		new
+	};
+
 	match lang {
 		Lang::Weapon => {
 			for i in to_scan {
 				if let Some(value) = CSV_WEAPON.get(&i) {
-					return any_ascii(value);
+					return replace_match_unicode(value);
 				}
 			}
 		}
 		Lang::Unit => {
 			for i in to_scan {
 				if let Some(value) = CSV_UNIT.get(&i) {
-					return any_ascii(value);
+					return replace_match_unicode(value);
 				}
 			}
 		}

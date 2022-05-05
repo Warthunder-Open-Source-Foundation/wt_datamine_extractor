@@ -1903,7 +1903,7 @@
   },
   {
     "aircraft": "mig_23mla",
-    "localized": "#MiG-23MLA",
+    "localized": "✠MiG-23MLA",
     "max_load": 2000.0,
     "max_imbalance": 500.0,
     "max_wing_load": [
@@ -2854,7 +2854,7 @@
   },
   {
     "aircraft": "su_22um3k",
-    "localized": "#Su-22UM3K",
+    "localized": "✠Su-22UM3K",
     "max_load": 3000.0,
     "max_imbalance": 700.0,
     "max_wing_load": [
