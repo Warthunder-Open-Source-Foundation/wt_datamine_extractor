@@ -2175,6 +2175,15 @@
             "individual_mass": 235.0,
             "total_mass": 235.0,
             "weapon_type": "Rocket"
+          },
+          {
+            "name": "delta_ng",
+            "localized": "su_delta_ng_station",
+            "icon_type": "rls",
+            "count": 1,
+            "individual_mass": 20.0,
+            "total_mass": 20.0,
+            "weapon_type": "TargetingPod"
           }
         ]
       },
@@ -3268,6 +3277,15 @@
             "individual_mass": 155.0,
             "total_mass": 155.0,
             "weapon_type": "GunPod"
+          },
+          {
+            "name": "delta_ng",
+            "localized": "su_delta_ng_station",
+            "icon_type": "rls",
+            "count": 1,
+            "individual_mass": 20.0,
+            "total_mass": 20.0,
+            "weapon_type": "TargetingPod"
           }
         ]
       },

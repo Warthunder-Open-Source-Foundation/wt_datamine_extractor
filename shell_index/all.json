@@ -1809,8 +1809,8 @@
     "name": "105mm_m84",
     "localized": "M84",
     "shell_type": "Smoke",
-    "caliber": 76,
-    "true_caliber": 76,
+    "caliber": 105,
+    "true_caliber": 105,
     "velocity": 457,
     "penetration": [],
     "explosive": [

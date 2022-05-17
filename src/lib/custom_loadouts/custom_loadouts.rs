@@ -1,11 +1,13 @@
 use std::fs;
-use crate::custom_loadouts::custom_loadouts::WeaponType::{AAM, AGM, Bomb, Cannon, Countermeasures, Empty, GBU, GunPod, Rocket};
+use get_size::GetSize;
+
+use crate::custom_loadouts::custom_loadouts::WeaponType::{AAM, AGM, Bomb, Cannon, Countermeasures, Empty, GBU, GunPod, Rocket, TargetingPod};
 use crate::custom_loadouts::known_loadouts::KnownLoadouts;
 
 use crate::lang::{Lang, name_to_local};
 use crate::util::parameter_to_data;
 
-#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone, const_gen::CompileConst)]
+#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone, const_gen::CompileConst, get_size::GetSize)]
 pub struct CustomLoadout {
 	pub aircraft: String,
 	pub localized: String,
@@ -16,7 +18,7 @@ pub struct CustomLoadout {
 	pub misc_pylons: Vec<Pylon>,
 }
 
-#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone, const_gen::CompileConst)]
+#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone, const_gen::CompileConst, get_size::GetSize)]
 pub struct Pylon {
 	pub index: u32,
 	pub tier: Option<u32>,
@@ -25,7 +27,7 @@ pub struct Pylon {
 	pub weapons: Vec<Weapon>,
 }
 
-#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone, const_gen::CompileConst)]
+#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone, const_gen::CompileConst, get_size::GetSize)]
 pub struct Weapon {
 	pub name: String,
 	pub localized: String,
@@ -36,7 +38,7 @@ pub struct Weapon {
 	pub weapon_type: WeaponType,
 }
 
-#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone, Copy, const_gen::CompileConst)]
+#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone, Copy, const_gen::CompileConst, get_size::GetSize)]
 pub enum WeaponType {
 	Cannon,
 	Rocket,
@@ -46,6 +48,7 @@ pub enum WeaponType {
 	AAM,
 	Countermeasures,
 	GunPod,
+	TargetingPod,
 	Empty,
 }
 
@@ -60,6 +63,7 @@ impl WeaponType {
 			r#""countermeasures""# => Countermeasures,
 			r#""atgm""# => AGM,
 			r#""additional gun""# => GunPod,
+			r#""targetingPod""# => TargetingPod,
 			r#"empty"# => Empty,
 			_ => {
 				panic!("Cannot get Weapon from {input}");

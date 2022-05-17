@@ -1,7 +1,9 @@
+use get_size::GetSize;
+
 use crate::shell::parent_gun::ParentGun;
 use crate::shell::shells::{Shell, ShellType};
 
-#[derive(serde::Serialize, Clone, serde::Deserialize, Debug, PartialEq, Hash, Eq, Default, const_gen::CompileConst)]
+#[derive(serde::Serialize, Clone, serde::Deserialize, Debug, PartialEq, Hash, Eq, Default, const_gen::CompileConst, get_size::GetSize)]
 pub struct CompressedShells {
 	/// Metadata
 	pub name: Vec<String>,

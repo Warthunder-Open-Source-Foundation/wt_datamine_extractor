@@ -3,6 +3,8 @@ use std::collections::{HashSet};
 use std::fs;
 use std::str::FromStr;
 
+use get_size::GetSize;
+
 use strum_macros::EnumIter;
 
 use crate::explosive::explosive::explosive_type_to_tnt;
@@ -12,7 +14,7 @@ use crate::shell::known_shells::KnownShells;
 use crate::shell::penetration_select::shell_to_penetration;
 use crate::util::parameter_to_data;
 
-#[derive(serde::Serialize, Clone, serde::Deserialize, Debug, PartialEq, Hash, Eq, const_gen::CompileConst)]
+#[derive(serde::Serialize, Clone, serde::Deserialize, Debug, PartialEq, Hash, Eq, const_gen::CompileConst, get_size::GetSize)]
 pub struct Shell {
 	/// Metadata
 	pub name: String,
@@ -128,7 +130,7 @@ impl Shell {
 	}
 }
 
-#[derive(serde::Serialize, Copy, Clone, serde::Deserialize, Debug, PartialEq, EnumIter, Hash, Eq, const_gen::CompileConst)]
+#[derive(serde::Serialize, Copy, Clone, serde::Deserialize, Debug, PartialEq, EnumIter, Hash, Eq, const_gen::CompileConst, get_size::GetSize)]
 pub enum ShellType {
 	ApFsDs = 0,
 	HeatFs = 1,
