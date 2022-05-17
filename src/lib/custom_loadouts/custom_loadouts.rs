@@ -1,5 +1,5 @@
 use std::fs;
-use crate::custom_loadouts::custom_loadouts::WeaponType::{AAM, AGM, Bomb, Cannon, Countermeasures, Empty, GBU, GunPod, Rocket};
+use crate::custom_loadouts::custom_loadouts::WeaponType::{AAM, AGM, Bomb, Cannon, Countermeasures, Empty, GBU, GunPod, Rocket, TargetingPod};
 use crate::custom_loadouts::known_loadouts::KnownLoadouts;
 
 use crate::lang::{Lang, name_to_local};
@@ -46,6 +46,7 @@ pub enum WeaponType {
 	AAM,
 	Countermeasures,
 	GunPod,
+	TargetingPod,
 	Empty,
 }
 
@@ -60,6 +61,7 @@ impl WeaponType {
 			r#""countermeasures""# => Countermeasures,
 			r#""atgm""# => AGM,
 			r#""additional gun""# => GunPod,
+			r#""targetingPod""# => TargetingPod,
 			r#"empty"# => Empty,
 			_ => {
 				panic!("Cannot get Weapon from {input}");
