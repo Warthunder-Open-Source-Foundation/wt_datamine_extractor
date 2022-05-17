@@ -1,11 +1,13 @@
 use std::fs;
+use get_size::GetSize;
+
 use crate::explosive::explosive::explosive_type_to_tnt;
 
 use crate::lang::{Lang, name_to_local};
 use crate::missile::extract_missiles::KnownMissiles;
 use crate::util::parameter_to_data;
 
-#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone, const_gen::CompileConst)]
+#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone, const_gen::CompileConst, get_size::GetSize)]
 pub struct Missile {
 	// metadata that is global or does not exist on files that are generated
 
@@ -121,7 +123,7 @@ pub struct Missile {
 	pub deltav: f64,
 }
 
-#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Eq, Copy, Clone, const_gen::CompileConst)]
+#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Eq, Copy, Clone, const_gen::CompileConst, get_size::GetSize)]
 pub enum SeekerType {
 	Ir = 0,
 	Radar = 1,

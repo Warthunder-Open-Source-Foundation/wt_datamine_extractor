@@ -1,9 +1,11 @@
 use std::fs;
+use get_size::GetSize;
+
 use crate::lang::{Lang, name_to_local};
 
 use crate::thermal::extract_thermals::KnownThermals;
 
-#[derive(Clone, serde::Serialize, serde::Deserialize, Debug, PartialEq, const_gen::CompileConst)]
+#[derive(Clone, serde::Serialize, serde::Deserialize, Debug, PartialEq, const_gen::CompileConst, get_size::GetSize)]
 pub struct Thermal {
 	pub name: String,
 	pub localized: String,
@@ -90,14 +92,14 @@ impl Sight {
 	}
 }
 
-#[derive(Clone, Copy, serde::Serialize, serde::Deserialize, Debug, PartialEq, const_gen::CompileConst)]
+#[derive(Clone, Copy, serde::Serialize, serde::Deserialize, Debug, PartialEq, const_gen::CompileConst, get_size::GetSize)]
 pub struct Sight {
 	pub crew: Crew,
 	pub x: f64,
 	pub y: f64,
 }
 
-#[derive(Clone, Copy, serde::Serialize, serde::Deserialize, Debug, PartialEq, const_gen::CompileConst)]
+#[derive(Clone, Copy, serde::Serialize, serde::Deserialize, Debug, PartialEq, const_gen::CompileConst, get_size::GetSize)]
 pub enum Crew {
 	Global = 0,
 	Gunner = 1,
@@ -105,7 +107,7 @@ pub enum Crew {
 	Driver = 3,
 }
 
-#[derive(Clone, Copy, serde::Serialize, serde::Deserialize, Debug, PartialEq, const_gen::CompileConst)]
+#[derive(Clone, Copy, serde::Serialize, serde::Deserialize, Debug, PartialEq, const_gen::CompileConst, get_size::GetSize)]
 pub enum VehicleType {
 	Tank = 0,
 	Helicopter = 1,

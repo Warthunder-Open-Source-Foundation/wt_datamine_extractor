@@ -1,9 +1,10 @@
 use std::fs;
 use std::time::Instant;
 use fs_extra::dir::CopyOptions;
+use get_size::GetSize;
 use wt_datamine_extractor_lib::custom_loadouts::custom_loadouts::CustomLoadout;
 use wt_datamine_extractor_lib::custom_loadouts::known_loadouts::KnownLoadouts;
-use wt_datamine_extractor_lib::lang::{ copy_lang};
+use wt_datamine_extractor_lib::lang::{copy_lang};
 use wt_datamine_extractor_lib::missile::extract_missiles::KnownMissiles;
 use wt_datamine_extractor_lib::missile::missile::Missile;
 use wt_datamine_extractor_lib::shell::compress::CompressedShells;
@@ -34,9 +35,18 @@ fn main() {
 		let shells = Shell::generate_from_index(&known_shells);
 		let loadouts = CustomLoadout::generate_from_index(&known_loadouts);
 
-
 		let compressed_shells = CompressedShells::compress(&shells);
-		fs::write("shell_index/compressed.json",serde_json::to_string(&compressed_shells).unwrap()).unwrap();
+
+		println!("Missiles: {}kb\nThermals: {}kb\nShells(compressed): {}kb({}kb)\nLoadouts: {}kb",
+				 missiles.get_heap_size() / 1024,
+				 thermals.get_heap_size() / 1024,
+				 shells.get_heap_size() / 1024,
+				 compressed_shells.get_heap_size() / 1024,
+				 loadouts.get_heap_size() / 1024,
+		);
+
+
+		fs::write("shell_index/compressed.json", serde_json::to_string(&compressed_shells).unwrap()).unwrap();
 
 		Missile::write_all(missiles);
 		Thermal::write_all(thermals);
@@ -46,7 +56,7 @@ fn main() {
 		panic!("Local mined cache is invalid or could not be read");
 	}
 
-	println!("{:?}", start.elapsed());
+	println!("Process took {:?}", start.elapsed());
 }
 
 pub fn copy_loadouts() {
