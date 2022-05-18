@@ -22,7 +22,8 @@
             "count": 1,
             "individual_mass": 84.46,
             "total_mass": 84.46,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "us_500lb_mk_82_ldgp",
@@ -31,7 +32,8 @@
             "count": 1,
             "individual_mass": 240.9,
             "total_mass": 240.9,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           }
         ]
       },
@@ -48,7 +50,8 @@
             "count": 7,
             "individual_mass": 10.16,
             "total_mass": 71.12,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "us_500lb_mk_82_ldgp",
@@ -57,7 +60,8 @@
             "count": 1,
             "individual_mass": 240.9,
             "total_mass": 240.9,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           }
         ]
       },
@@ -74,7 +78,8 @@
             "count": 7,
             "individual_mass": 10.16,
             "total_mass": 71.12,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "us_hydra_70_m247_x3",
@@ -83,7 +88,8 @@
             "count": 21,
             "individual_mass": 10.16,
             "total_mass": 213.36,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "us_500lb_mk_82_ldgp",
@@ -92,7 +98,8 @@
             "count": 1,
             "individual_mass": 240.9,
             "total_mass": 240.9,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_500lb_mk_82_x3_ter9a_1",
@@ -101,7 +108,8 @@
             "count": 3,
             "individual_mass": 240.9,
             "total_mass": 722.7,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_2000lb_mk_84_ldgp",
@@ -110,7 +118,8 @@
             "count": 1,
             "individual_mass": 893.6,
             "total_mass": 893.6,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_2000lb_gbu_8_hobos",
@@ -119,7 +128,8 @@
             "count": 1,
             "individual_mass": 1027.0,
             "total_mass": 1027.0,
-            "weapon_type": "GBU"
+            "weapon_type": "GBU",
+            "depend_on": null
           },
           {
             "name": "us_agm_65a_x_3",
@@ -128,7 +138,8 @@
             "count": 3,
             "individual_mass": 207.0,
             "total_mass": 621.0,
-            "weapon_type": "AGM"
+            "weapon_type": "AGM",
+            "depend_on": null
           }
         ]
       },
@@ -145,7 +156,8 @@
             "count": 7,
             "individual_mass": 10.16,
             "total_mass": 71.12,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "us_hydra_70_m247_x3",
@@ -154,7 +166,8 @@
             "count": 21,
             "individual_mass": 10.16,
             "total_mass": 213.36,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "us_500lb_mk_82_ldgp",
@@ -163,7 +176,8 @@
             "count": 1,
             "individual_mass": 240.9,
             "total_mass": 240.9,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_500lb_mk_82_x3_ter9a_1",
@@ -172,7 +186,8 @@
             "count": 3,
             "individual_mass": 240.9,
             "total_mass": 722.7,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_2000lb_mk_84_ldgp",
@@ -181,7 +196,8 @@
             "count": 1,
             "individual_mass": 893.6,
             "total_mass": 893.6,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_2000lb_gbu_8_hobos",
@@ -190,7 +206,8 @@
             "count": 1,
             "individual_mass": 1027.0,
             "total_mass": 1027.0,
-            "weapon_type": "GBU"
+            "weapon_type": "GBU",
+            "depend_on": null
           }
         ]
       },
@@ -207,7 +224,8 @@
             "count": 1,
             "individual_mass": 240.9,
             "total_mass": 240.9,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_2000lb_mk_84_ldgp",
@@ -216,7 +234,8 @@
             "count": 1,
             "individual_mass": 893.6,
             "total_mass": 893.6,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "suu_23a_pod",
@@ -225,7 +244,8 @@
             "count": 1,
             "individual_mass": 650.0,
             "total_mass": 650.0,
-            "weapon_type": "GunPod"
+            "weapon_type": "GunPod",
+            "depend_on": null
           }
         ]
       },
@@ -242,7 +262,8 @@
             "count": 1,
             "individual_mass": 240.9,
             "total_mass": 240.9,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_2000lb_mk_84_ldgp",
@@ -251,7 +272,8 @@
             "count": 1,
             "individual_mass": 893.6,
             "total_mass": 893.6,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "suu_23a_pod",
@@ -260,7 +282,8 @@
             "count": 1,
             "individual_mass": 650.0,
             "total_mass": 650.0,
-            "weapon_type": "GunPod"
+            "weapon_type": "GunPod",
+            "depend_on": null
           }
         ]
       },
@@ -277,7 +300,8 @@
             "count": 7,
             "individual_mass": 10.16,
             "total_mass": 71.12,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "us_hydra_70_m247_x3",
@@ -286,7 +310,8 @@
             "count": 21,
             "individual_mass": 10.16,
             "total_mass": 213.36,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "us_500lb_mk_82_ldgp",
@@ -295,7 +320,8 @@
             "count": 1,
             "individual_mass": 240.9,
             "total_mass": 240.9,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_500lb_mk_82_x3_ter9a_1",
@@ -304,7 +330,8 @@
             "count": 3,
             "individual_mass": 240.9,
             "total_mass": 722.7,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_2000lb_mk_84_ldgp",
@@ -313,7 +340,8 @@
             "count": 1,
             "individual_mass": 893.6,
             "total_mass": 893.6,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_2000lb_gbu_8_hobos",
@@ -322,7 +350,8 @@
             "count": 1,
             "individual_mass": 1027.0,
             "total_mass": 1027.0,
-            "weapon_type": "GBU"
+            "weapon_type": "GBU",
+            "depend_on": null
           }
         ]
       },
@@ -339,7 +368,8 @@
             "count": 7,
             "individual_mass": 10.16,
             "total_mass": 71.12,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "us_hydra_70_m247_x3",
@@ -348,7 +378,8 @@
             "count": 21,
             "individual_mass": 10.16,
             "total_mass": 213.36,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "us_500lb_mk_82_ldgp",
@@ -357,7 +388,8 @@
             "count": 1,
             "individual_mass": 240.9,
             "total_mass": 240.9,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_500lb_mk_82_x3_ter9a_1",
@@ -366,7 +398,8 @@
             "count": 3,
             "individual_mass": 240.9,
             "total_mass": 722.7,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_2000lb_mk_84_ldgp",
@@ -375,7 +408,8 @@
             "count": 1,
             "individual_mass": 893.6,
             "total_mass": 893.6,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_2000lb_gbu_8_hobos",
@@ -384,7 +418,8 @@
             "count": 1,
             "individual_mass": 1027.0,
             "total_mass": 1027.0,
-            "weapon_type": "GBU"
+            "weapon_type": "GBU",
+            "depend_on": null
           },
           {
             "name": "us_agm_65a_x_3",
@@ -393,7 +428,8 @@
             "count": 3,
             "individual_mass": 207.0,
             "total_mass": 621.0,
-            "weapon_type": "AGM"
+            "weapon_type": "AGM",
+            "depend_on": null
           }
         ]
       },
@@ -410,7 +446,8 @@
             "count": 7,
             "individual_mass": 10.16,
             "total_mass": 71.12,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "us_500lb_mk_82_ldgp",
@@ -419,7 +456,8 @@
             "count": 1,
             "individual_mass": 240.9,
             "total_mass": 240.9,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           }
         ]
       },
@@ -436,7 +474,8 @@
             "count": 1,
             "individual_mass": 84.46,
             "total_mass": 84.46,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "us_500lb_mk_82_ldgp",
@@ -445,7 +484,8 @@
             "count": 1,
             "individual_mass": 240.9,
             "total_mass": 240.9,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           }
         ]
       }
@@ -464,7 +504,8 @@
             "count": 1,
             "individual_mass": 866.0,
             "total_mass": 866.0,
-            "weapon_type": "Cannon"
+            "weapon_type": "Cannon",
+            "depend_on": null
           },
           {
             "name": "gau_8a_ltc_common",
@@ -473,7 +514,8 @@
             "count": 1,
             "individual_mass": 866.0,
             "total_mass": 866.0,
-            "weapon_type": "Cannon"
+            "weapon_type": "Cannon",
+            "depend_on": null
           }
         ]
       }
@@ -502,7 +544,8 @@
             "count": 1,
             "individual_mass": 84.46,
             "total_mass": 84.46,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "us_aim9l_sidewinder",
@@ -511,7 +554,8 @@
             "count": 2,
             "individual_mass": 84.46,
             "total_mass": 168.92,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "us_500lb_mk_82_ldgp",
@@ -520,7 +564,8 @@
             "count": 1,
             "individual_mass": 240.9,
             "total_mass": 240.9,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           }
         ]
       },
@@ -537,7 +582,8 @@
             "count": 7,
             "individual_mass": 10.16,
             "total_mass": 71.12,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "us_500lb_mk_82_ldgp",
@@ -546,7 +592,8 @@
             "count": 1,
             "individual_mass": 240.9,
             "total_mass": 240.9,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           }
         ]
       },
@@ -563,7 +610,8 @@
             "count": 7,
             "individual_mass": 10.16,
             "total_mass": 71.12,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "us_hydra_70_m247_x3",
@@ -572,7 +620,8 @@
             "count": 21,
             "individual_mass": 10.16,
             "total_mass": 213.36,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "us_500lb_mk_82_ldgp",
@@ -581,7 +630,8 @@
             "count": 1,
             "individual_mass": 240.9,
             "total_mass": 240.9,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_500lb_mk_82_x3_ter9a_1",
@@ -590,7 +640,8 @@
             "count": 3,
             "individual_mass": 240.9,
             "total_mass": 722.7,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_2000lb_mk_84_ldgp",
@@ -599,7 +650,8 @@
             "count": 1,
             "individual_mass": 893.6,
             "total_mass": 893.6,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_agm_65d_x_3",
@@ -608,7 +660,8 @@
             "count": 3,
             "individual_mass": 226.8,
             "total_mass": 680.4000000000001,
-            "weapon_type": "AGM"
+            "weapon_type": "AGM",
+            "depend_on": null
           }
         ]
       },
@@ -625,7 +678,8 @@
             "count": 7,
             "individual_mass": 10.16,
             "total_mass": 71.12,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "us_hydra_70_m247_x3",
@@ -634,7 +688,8 @@
             "count": 21,
             "individual_mass": 10.16,
             "total_mass": 213.36,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "us_500lb_mk_82_ldgp",
@@ -643,7 +698,8 @@
             "count": 1,
             "individual_mass": 240.9,
             "total_mass": 240.9,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_500lb_mk_82_x3_ter9a_1",
@@ -652,7 +708,8 @@
             "count": 3,
             "individual_mass": 240.9,
             "total_mass": 722.7,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_2000lb_mk_84_ldgp",
@@ -661,7 +718,8 @@
             "count": 1,
             "individual_mass": 893.6,
             "total_mass": 893.6,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           }
         ]
       },
@@ -678,7 +736,8 @@
             "count": 1,
             "individual_mass": 240.9,
             "total_mass": 240.9,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_2000lb_mk_84_ldgp",
@@ -687,7 +746,8 @@
             "count": 1,
             "individual_mass": 893.6,
             "total_mass": 893.6,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           }
         ]
       },
@@ -704,7 +764,8 @@
             "count": 1,
             "individual_mass": 240.9,
             "total_mass": 240.9,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_2000lb_mk_84_ldgp",
@@ -713,7 +774,8 @@
             "count": 1,
             "individual_mass": 893.6,
             "total_mass": 893.6,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           }
         ]
       },
@@ -730,7 +792,8 @@
             "count": 7,
             "individual_mass": 10.16,
             "total_mass": 71.12,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "us_hydra_70_m247_x3",
@@ -739,7 +802,8 @@
             "count": 21,
             "individual_mass": 10.16,
             "total_mass": 213.36,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "us_500lb_mk_82_ldgp",
@@ -748,7 +812,8 @@
             "count": 1,
             "individual_mass": 240.9,
             "total_mass": 240.9,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_500lb_mk_82_x3_ter9a_1",
@@ -757,7 +822,8 @@
             "count": 3,
             "individual_mass": 240.9,
             "total_mass": 722.7,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_2000lb_mk_84_ldgp",
@@ -766,7 +832,8 @@
             "count": 1,
             "individual_mass": 893.6,
             "total_mass": 893.6,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           }
         ]
       },
@@ -783,7 +850,8 @@
             "count": 7,
             "individual_mass": 10.16,
             "total_mass": 71.12,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "us_hydra_70_m247_x3",
@@ -792,7 +860,8 @@
             "count": 21,
             "individual_mass": 10.16,
             "total_mass": 213.36,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "us_500lb_mk_82_ldgp",
@@ -801,7 +870,8 @@
             "count": 1,
             "individual_mass": 240.9,
             "total_mass": 240.9,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_500lb_mk_82_x3_ter9a_1",
@@ -810,7 +880,8 @@
             "count": 3,
             "individual_mass": 240.9,
             "total_mass": 722.7,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_2000lb_mk_84_ldgp",
@@ -819,7 +890,8 @@
             "count": 1,
             "individual_mass": 893.6,
             "total_mass": 893.6,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_agm_65d_x_3",
@@ -828,7 +900,8 @@
             "count": 3,
             "individual_mass": 226.8,
             "total_mass": 680.4000000000001,
-            "weapon_type": "AGM"
+            "weapon_type": "AGM",
+            "depend_on": null
           }
         ]
       },
@@ -845,7 +918,8 @@
             "count": 7,
             "individual_mass": 10.16,
             "total_mass": 71.12,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "us_500lb_mk_82_ldgp",
@@ -854,7 +928,8 @@
             "count": 1,
             "individual_mass": 240.9,
             "total_mass": 240.9,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           }
         ]
       },
@@ -871,7 +946,8 @@
             "count": 1,
             "individual_mass": 84.46,
             "total_mass": 84.46,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "us_aim9l_sidewinder",
@@ -880,7 +956,8 @@
             "count": 2,
             "individual_mass": 84.46,
             "total_mass": 168.92,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "us_500lb_mk_82_ldgp",
@@ -889,7 +966,8 @@
             "count": 1,
             "individual_mass": 240.9,
             "total_mass": 240.9,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           }
         ]
       }
@@ -908,7 +986,8 @@
             "count": 1,
             "individual_mass": 866.0,
             "total_mass": 866.0,
-            "weapon_type": "Cannon"
+            "weapon_type": "Cannon",
+            "depend_on": null
           },
           {
             "name": "gau_8a_ltc_common",
@@ -917,7 +996,8 @@
             "count": 1,
             "individual_mass": 866.0,
             "total_mass": 866.0,
-            "weapon_type": "Cannon"
+            "weapon_type": "Cannon",
+            "depend_on": null
           }
         ]
       }
@@ -946,7 +1026,8 @@
             "count": 1,
             "individual_mass": 84.46,
             "total_mass": 84.46,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           }
         ]
       },
@@ -963,7 +1044,8 @@
             "count": 1,
             "individual_mass": 84.46,
             "total_mass": 84.46,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "it_aspide_1a",
@@ -972,7 +1054,8 @@
             "count": 1,
             "individual_mass": 230.0,
             "total_mass": 230.0,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "us_500lb_mk_82_ldgp",
@@ -981,7 +1064,8 @@
             "count": 1,
             "individual_mass": 240.9,
             "total_mass": 240.9,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_750lb_m117_cone_45",
@@ -990,7 +1074,8 @@
             "count": 1,
             "individual_mass": 362.42,
             "total_mass": 362.42,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "aero_7a_2_75_in_ffar_mighty_mouse",
@@ -999,7 +1084,8 @@
             "count": 19,
             "individual_mass": 8.12,
             "total_mass": 154.27999999999997,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "lau_10a_zuni_wafar_mk32",
@@ -1008,7 +1094,8 @@
             "count": 4,
             "individual_mass": 56.8,
             "total_mass": 227.2,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           }
         ]
       },
@@ -1025,7 +1112,8 @@
             "count": 1,
             "individual_mass": 240.9,
             "total_mass": 240.9,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_750lb_m117_cone_45",
@@ -1034,7 +1122,8 @@
             "count": 1,
             "individual_mass": 362.42,
             "total_mass": 362.42,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_1000lb_mk_83_ldgp",
@@ -1043,7 +1132,8 @@
             "count": 1,
             "individual_mass": 446.8,
             "total_mass": 446.8,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "aero_7a_2_75_in_ffar_mighty_mouse",
@@ -1052,7 +1142,8 @@
             "count": 19,
             "individual_mass": 8.12,
             "total_mass": 154.27999999999997,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           }
         ]
       },
@@ -1069,7 +1160,8 @@
             "count": 1,
             "individual_mass": 240.9,
             "total_mass": 240.9,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_750lb_m117_cone_45",
@@ -1078,7 +1170,8 @@
             "count": 1,
             "individual_mass": 362.42,
             "total_mass": 362.42,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           }
         ]
       },
@@ -1095,7 +1188,8 @@
             "count": 1,
             "individual_mass": 893.6,
             "total_mass": 893.6,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           }
         ]
       },
@@ -1112,7 +1206,8 @@
             "count": 1,
             "individual_mass": 240.9,
             "total_mass": 240.9,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_750lb_m117_cone_45",
@@ -1121,7 +1216,8 @@
             "count": 1,
             "individual_mass": 362.42,
             "total_mass": 362.42,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           }
         ]
       },
@@ -1138,7 +1234,8 @@
             "count": 1,
             "individual_mass": 240.9,
             "total_mass": 240.9,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_750lb_m117_cone_45",
@@ -1147,7 +1244,8 @@
             "count": 1,
             "individual_mass": 362.42,
             "total_mass": 362.42,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_1000lb_mk_83_ldgp",
@@ -1156,7 +1254,8 @@
             "count": 1,
             "individual_mass": 446.8,
             "total_mass": 446.8,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "aero_7a_2_75_in_ffar_mighty_mouse",
@@ -1165,7 +1264,8 @@
             "count": 19,
             "individual_mass": 8.12,
             "total_mass": 154.27999999999997,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           }
         ]
       },
@@ -1182,7 +1282,8 @@
             "count": 1,
             "individual_mass": 84.46,
             "total_mass": 84.46,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "it_aspide_1a",
@@ -1191,7 +1292,8 @@
             "count": 1,
             "individual_mass": 230.0,
             "total_mass": 230.0,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "us_500lb_mk_82_ldgp",
@@ -1200,7 +1302,8 @@
             "count": 1,
             "individual_mass": 240.9,
             "total_mass": 240.9,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "us_750lb_m117_cone_45",
@@ -1209,7 +1312,8 @@
             "count": 1,
             "individual_mass": 362.42,
             "total_mass": 362.42,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "aero_7a_2_75_in_ffar_mighty_mouse",
@@ -1218,7 +1322,8 @@
             "count": 19,
             "individual_mass": 8.12,
             "total_mass": 154.27999999999997,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "lau_10a_zuni_wafar_mk32",
@@ -1227,7 +1332,8 @@
             "count": 4,
             "individual_mass": 56.8,
             "total_mass": 227.2,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           }
         ]
       },
@@ -1244,7 +1350,8 @@
             "count": 1,
             "individual_mass": 84.46,
             "total_mass": 84.46,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           }
         ]
       }
@@ -1263,7 +1370,8 @@
             "count": 0,
             "individual_mass": 0.0,
             "total_mass": 0.0,
-            "weapon_type": "Empty"
+            "weapon_type": "Empty",
+            "depend_on": null
           },
           {
             "name": "f_104s_asa_common_ltc",
@@ -1272,7 +1380,8 @@
             "count": 1,
             "individual_mass": 0.0,
             "total_mass": 0.0,
-            "weapon_type": "Countermeasures"
+            "weapon_type": "Countermeasures",
+            "depend_on": null
           }
         ]
       },
@@ -1289,7 +1398,8 @@
             "count": 1,
             "individual_mass": 650.0,
             "total_mass": 650.0,
-            "weapon_type": "Cannon"
+            "weapon_type": "Cannon",
+            "depend_on": null
           }
         ]
       }
@@ -1318,7 +1428,8 @@
             "count": 1,
             "individual_mass": 84.5,
             "total_mass": 84.5,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "hf_6_type90_heat",
@@ -1327,7 +1438,8 @@
             "count": 7,
             "individual_mass": 14.6,
             "total_mass": 102.2,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           }
         ]
       },
@@ -1344,7 +1456,8 @@
             "count": 1,
             "individual_mass": 84.5,
             "total_mass": 84.5,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "aspide",
@@ -1353,7 +1466,8 @@
             "count": 1,
             "individual_mass": 230.0,
             "total_mass": 230.0,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "hf_6_type90_heat",
@@ -1362,7 +1476,8 @@
             "count": 7,
             "individual_mass": 14.6,
             "total_mass": 102.2,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "250kg_mk_82",
@@ -1371,7 +1486,8 @@
             "count": 1,
             "individual_mass": 240.9,
             "total_mass": 240.9,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           }
         ]
       },
@@ -1388,7 +1504,8 @@
             "count": 1,
             "individual_mass": 84.5,
             "total_mass": 84.5,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           }
         ]
       },
@@ -1405,7 +1522,8 @@
             "count": 6,
             "individual_mass": 240.9,
             "total_mass": 1445.4,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           }
         ]
       },
@@ -1422,7 +1540,8 @@
             "count": 1,
             "individual_mass": 84.5,
             "total_mass": 84.5,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           }
         ]
       },
@@ -1439,7 +1558,8 @@
             "count": 1,
             "individual_mass": 84.5,
             "total_mass": 84.5,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "aspide",
@@ -1448,7 +1568,8 @@
             "count": 1,
             "individual_mass": 230.0,
             "total_mass": 230.0,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "hf_6_type90_heat",
@@ -1457,7 +1578,8 @@
             "count": 7,
             "individual_mass": 14.6,
             "total_mass": 102.2,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "250kg_mk_82",
@@ -1466,7 +1588,8 @@
             "count": 1,
             "individual_mass": 240.9,
             "total_mass": 240.9,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           }
         ]
       },
@@ -1483,7 +1606,8 @@
             "count": 1,
             "individual_mass": 84.5,
             "total_mass": 84.5,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "hf_6_type90_heat",
@@ -1492,7 +1616,8 @@
             "count": 7,
             "individual_mass": 14.6,
             "total_mass": 102.2,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           }
         ]
       }
@@ -1511,7 +1636,8 @@
             "count": 1,
             "individual_mass": 155.0,
             "total_mass": 155.0,
-            "weapon_type": "Cannon"
+            "weapon_type": "Cannon",
+            "depend_on": null
           },
           {
             "name": "type_23_3_ltc_common",
@@ -1520,7 +1646,8 @@
             "count": 1,
             "individual_mass": 155.0,
             "total_mass": 155.0,
-            "weapon_type": "Cannon"
+            "weapon_type": "Cannon",
+            "depend_on": null
           }
         ]
       }
@@ -1549,7 +1676,8 @@
             "count": 1,
             "individual_mass": 90.0,
             "total_mass": 90.0,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "aim9d",
@@ -1558,7 +1686,8 @@
             "count": 1,
             "individual_mass": 88.45,
             "total_mass": 88.45,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "aim9g",
@@ -1567,7 +1696,8 @@
             "count": 1,
             "individual_mass": 88.45,
             "total_mass": 88.45,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           }
         ]
       },
@@ -1584,7 +1714,8 @@
             "count": 38,
             "individual_mass": 8.12,
             "total_mass": 308.55999999999995,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "lau_10a_zuni_wafar_mk32_x2_left_wing",
@@ -1593,7 +1724,8 @@
             "count": 8,
             "individual_mass": 56.8,
             "total_mass": 454.4,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "ter_us_500lb_mk_82_x3",
@@ -1602,7 +1734,8 @@
             "count": 3,
             "individual_mass": 240.9,
             "total_mass": 722.7,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "ter_us_750lb_m117_cone_45_x2_left_wing",
@@ -1611,7 +1744,8 @@
             "count": 2,
             "individual_mass": 362.42,
             "total_mass": 724.84,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "ter_us_1000lb_mk_83_x2_left_wing",
@@ -1620,7 +1754,8 @@
             "count": 2,
             "individual_mass": 446.8,
             "total_mass": 893.6,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "2000lb_mk_84_ldgp",
@@ -1629,7 +1764,8 @@
             "count": 1,
             "individual_mass": 893.6,
             "total_mass": 893.6,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "suu_23a",
@@ -1638,7 +1774,8 @@
             "count": 1,
             "individual_mass": 650.0,
             "total_mass": 650.0,
-            "weapon_type": "GunPod"
+            "weapon_type": "GunPod",
+            "depend_on": null
           },
           {
             "name": "mdnp_us_500lb_mk_82_ldgp",
@@ -1647,7 +1784,8 @@
             "count": 2,
             "individual_mass": 240.9,
             "total_mass": 481.8,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "mdnp_us_750lb_m117_cone_45",
@@ -1656,7 +1794,8 @@
             "count": 2,
             "individual_mass": 362.42,
             "total_mass": 724.84,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           }
         ]
       },
@@ -1673,7 +1812,8 @@
             "count": 1,
             "individual_mass": 240.9,
             "total_mass": 240.9,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "pylon_c2_f5_us_750lb_m117_cone_45",
@@ -1682,7 +1822,8 @@
             "count": 1,
             "individual_mass": 362.42,
             "total_mass": 362.42,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "pylon_c2_f5_us_1000lb_mk_83_ldgp",
@@ -1691,7 +1832,8 @@
             "count": 1,
             "individual_mass": 446.8,
             "total_mass": 446.8,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           }
         ]
       },
@@ -1708,7 +1850,8 @@
             "count": 5,
             "individual_mass": 240.9,
             "total_mass": 1204.5,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           }
         ]
       },
@@ -1725,7 +1868,8 @@
             "count": 1,
             "individual_mass": 240.9,
             "total_mass": 240.9,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "pylon_c2_f5_us_750lb_m117_cone_45",
@@ -1734,7 +1878,8 @@
             "count": 1,
             "individual_mass": 362.42,
             "total_mass": 362.42,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "pylon_c2_f5_us_1000lb_mk_83_ldgp",
@@ -1743,7 +1888,8 @@
             "count": 1,
             "individual_mass": 446.8,
             "total_mass": 446.8,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           }
         ]
       },
@@ -1760,7 +1906,8 @@
             "count": 38,
             "individual_mass": 8.12,
             "total_mass": 308.55999999999995,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "lau_10a_zuni_wafar_mk32_x2_right_wing",
@@ -1769,7 +1916,8 @@
             "count": 8,
             "individual_mass": 56.8,
             "total_mass": 454.4,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "ter_us_500lb_mk_82_x3",
@@ -1778,7 +1926,8 @@
             "count": 3,
             "individual_mass": 240.9,
             "total_mass": 722.7,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "ter_us_750lb_m117_cone_45_x2_right_wing",
@@ -1787,7 +1936,8 @@
             "count": 2,
             "individual_mass": 362.42,
             "total_mass": 724.84,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "ter_us_1000lb_mk_83_x2_right_wing",
@@ -1796,7 +1946,8 @@
             "count": 2,
             "individual_mass": 446.8,
             "total_mass": 893.6,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "2000lb_mk_84_ldgp",
@@ -1805,7 +1956,8 @@
             "count": 1,
             "individual_mass": 893.6,
             "total_mass": 893.6,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "suu_23a",
@@ -1814,7 +1966,8 @@
             "count": 1,
             "individual_mass": 650.0,
             "total_mass": 650.0,
-            "weapon_type": "GunPod"
+            "weapon_type": "GunPod",
+            "depend_on": null
           },
           {
             "name": "mdnp_us_500lb_mk_82_ldgp",
@@ -1823,7 +1976,8 @@
             "count": 2,
             "individual_mass": 240.9,
             "total_mass": 481.8,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "mdnp_us_750lb_m117_cone_45",
@@ -1832,7 +1986,8 @@
             "count": 2,
             "individual_mass": 362.42,
             "total_mass": 724.84,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           }
         ]
       },
@@ -1849,7 +2004,8 @@
             "count": 1,
             "individual_mass": 90.0,
             "total_mass": 90.0,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "aim9d",
@@ -1858,7 +2014,8 @@
             "count": 1,
             "individual_mass": 88.45,
             "total_mass": 88.45,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "aim9g",
@@ -1867,7 +2024,8 @@
             "count": 1,
             "individual_mass": 88.45,
             "total_mass": 88.45,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           }
         ]
       }
@@ -1886,7 +2044,8 @@
             "count": 1,
             "individual_mass": 80.0,
             "total_mass": 80.0,
-            "weapon_type": "Cannon"
+            "weapon_type": "Cannon",
+            "depend_on": null
           },
           {
             "name": "defa552a_ltc_common",
@@ -1895,7 +2054,8 @@
             "count": 1,
             "individual_mass": 80.0,
             "total_mass": 80.0,
-            "weapon_type": "Cannon"
+            "weapon_type": "Cannon",
+            "depend_on": null
           }
         ]
       }
@@ -1924,7 +2084,8 @@
             "count": 1,
             "individual_mass": 90.6,
             "total_mass": 90.6,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "r_60",
@@ -1933,7 +2094,8 @@
             "count": 1,
             "individual_mass": 44.0,
             "total_mass": 44.0,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "r_23r",
@@ -1942,7 +2104,8 @@
             "count": 1,
             "individual_mass": 223.0,
             "total_mass": 223.0,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "r_23t",
@@ -1951,7 +2114,8 @@
             "count": 1,
             "individual_mass": 215.0,
             "total_mass": 215.0,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "r_24r",
@@ -1960,7 +2124,8 @@
             "count": 1,
             "individual_mass": 244.0,
             "total_mass": 244.0,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "r_24t",
@@ -1969,7 +2134,8 @@
             "count": 1,
             "individual_mass": 237.0,
             "total_mass": 237.0,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "ofab100_120",
@@ -1978,7 +2144,8 @@
             "count": 4,
             "individual_mass": 114.0,
             "total_mass": 456.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "fab_250m_62",
@@ -1987,7 +2154,8 @@
             "count": 1,
             "individual_mass": 227.0,
             "total_mass": 227.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "fab_500m_62t",
@@ -1996,7 +2164,8 @@
             "count": 1,
             "individual_mass": 508.3,
             "total_mass": 508.3,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "ub_16_57_s5k",
@@ -2005,7 +2174,8 @@
             "count": 16,
             "individual_mass": 3.64,
             "total_mass": 58.24,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "ub_32a_24_s5k",
@@ -2014,7 +2184,8 @@
             "count": 32,
             "individual_mass": 3.64,
             "total_mass": 116.48,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "b8m1_s_8ko",
@@ -2023,7 +2194,8 @@
             "count": 20,
             "individual_mass": 11.3,
             "total_mass": 226.0,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "s24",
@@ -2032,7 +2204,8 @@
             "count": 1,
             "individual_mass": 235.0,
             "total_mass": 235.0,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "x23m",
@@ -2041,7 +2214,11 @@
             "count": 1,
             "individual_mass": 289.0,
             "total_mass": 289.0,
-            "weapon_type": "AGM"
+            "weapon_type": "AGM",
+            "depend_on": {
+              "name": "delta_ng",
+              "slot": 3
+            }
           },
           {
             "name": "upk23_gunpod",
@@ -2050,7 +2227,8 @@
             "count": 1,
             "individual_mass": 155.0,
             "total_mass": 155.0,
-            "weapon_type": "GunPod"
+            "weapon_type": "GunPod",
+            "depend_on": null
           }
         ]
       },
@@ -2067,7 +2245,8 @@
             "count": 1,
             "individual_mass": 90.6,
             "total_mass": 90.6,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "r_60m_x2_l",
@@ -2076,7 +2255,8 @@
             "count": 2,
             "individual_mass": 44.0,
             "total_mass": 88.0,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "ofab100_120",
@@ -2085,7 +2265,8 @@
             "count": 4,
             "individual_mass": 114.0,
             "total_mass": 456.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "fab_250m_62",
@@ -2094,7 +2275,8 @@
             "count": 1,
             "individual_mass": 227.0,
             "total_mass": 227.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "ub_16_57_s5k",
@@ -2103,7 +2285,8 @@
             "count": 16,
             "individual_mass": 3.64,
             "total_mass": 58.24,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "s24",
@@ -2112,7 +2295,8 @@
             "count": 1,
             "individual_mass": 235.0,
             "total_mass": 235.0,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           }
         ]
       },
@@ -2129,7 +2313,8 @@
             "count": 1,
             "individual_mass": 90.6,
             "total_mass": 90.6,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "r_60m_x2_r",
@@ -2138,7 +2323,8 @@
             "count": 2,
             "individual_mass": 44.0,
             "total_mass": 88.0,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "ofab100_120",
@@ -2147,7 +2333,8 @@
             "count": 4,
             "individual_mass": 114.0,
             "total_mass": 456.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "fab_250m_62",
@@ -2156,7 +2343,8 @@
             "count": 1,
             "individual_mass": 227.0,
             "total_mass": 227.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "ub_16_57_s5k",
@@ -2165,7 +2353,8 @@
             "count": 16,
             "individual_mass": 3.64,
             "total_mass": 58.24,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "s24",
@@ -2174,7 +2363,8 @@
             "count": 1,
             "individual_mass": 235.0,
             "total_mass": 235.0,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "delta_ng",
@@ -2183,7 +2373,8 @@
             "count": 1,
             "individual_mass": 20.0,
             "total_mass": 20.0,
-            "weapon_type": "TargetingPod"
+            "weapon_type": "TargetingPod",
+            "depend_on": null
           }
         ]
       },
@@ -2200,7 +2391,8 @@
             "count": 1,
             "individual_mass": 90.6,
             "total_mass": 90.6,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "r_60",
@@ -2209,7 +2401,8 @@
             "count": 1,
             "individual_mass": 44.0,
             "total_mass": 44.0,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "r_23r",
@@ -2218,7 +2411,8 @@
             "count": 1,
             "individual_mass": 223.0,
             "total_mass": 223.0,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "r_23t",
@@ -2227,7 +2421,8 @@
             "count": 1,
             "individual_mass": 215.0,
             "total_mass": 215.0,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "r_24r",
@@ -2236,7 +2431,8 @@
             "count": 1,
             "individual_mass": 244.0,
             "total_mass": 244.0,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "r_24t",
@@ -2245,7 +2441,8 @@
             "count": 1,
             "individual_mass": 237.0,
             "total_mass": 237.0,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "ofab100_120",
@@ -2254,7 +2451,8 @@
             "count": 4,
             "individual_mass": 114.0,
             "total_mass": 456.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "fab_250m_62",
@@ -2263,7 +2461,8 @@
             "count": 1,
             "individual_mass": 227.0,
             "total_mass": 227.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "fab_500m_62t",
@@ -2272,7 +2471,8 @@
             "count": 1,
             "individual_mass": 508.3,
             "total_mass": 508.3,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "ub_16_57_s5k",
@@ -2281,7 +2481,8 @@
             "count": 16,
             "individual_mass": 3.64,
             "total_mass": 58.24,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "ub_32a_24_s5k",
@@ -2290,7 +2491,8 @@
             "count": 32,
             "individual_mass": 3.64,
             "total_mass": 116.48,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "b8m1_s_8ko",
@@ -2299,7 +2501,8 @@
             "count": 20,
             "individual_mass": 11.3,
             "total_mass": 226.0,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "s24",
@@ -2308,7 +2511,8 @@
             "count": 1,
             "individual_mass": 235.0,
             "total_mass": 235.0,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "x23m",
@@ -2317,7 +2521,11 @@
             "count": 1,
             "individual_mass": 289.0,
             "total_mass": 289.0,
-            "weapon_type": "AGM"
+            "weapon_type": "AGM",
+            "depend_on": {
+              "name": "delta_ng",
+              "slot": 3
+            }
           },
           {
             "name": "upk23_gunpod",
@@ -2326,7 +2534,8 @@
             "count": 1,
             "individual_mass": 155.0,
             "total_mass": 155.0,
-            "weapon_type": "GunPod"
+            "weapon_type": "GunPod",
+            "depend_on": null
           }
         ]
       }
@@ -2345,7 +2554,8 @@
             "count": 1,
             "individual_mass": 155.0,
             "total_mass": 155.0,
-            "weapon_type": "Cannon"
+            "weapon_type": "Cannon",
+            "depend_on": null
           },
           {
             "name": "gsh_23l_ltc_common",
@@ -2354,7 +2564,8 @@
             "count": 1,
             "individual_mass": 155.0,
             "total_mass": 155.0,
-            "weapon_type": "Cannon"
+            "weapon_type": "Cannon",
+            "depend_on": null
           }
         ]
       }
@@ -2383,7 +2594,8 @@
             "count": 1,
             "individual_mass": 89.0,
             "total_mass": 89.0,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "wing_left_rocket_r550_magic_2",
@@ -2392,7 +2604,8 @@
             "count": 1,
             "individual_mass": 89.0,
             "total_mass": 89.0,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           }
         ]
       },
@@ -2409,7 +2622,8 @@
             "count": 1,
             "individual_mass": 247.0,
             "total_mass": 247.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "wing_left_1_bomb_400_samp",
@@ -2418,7 +2632,8 @@
             "count": 1,
             "individual_mass": 400.0,
             "total_mass": 400.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "wing_left_1_bomb_250kg_samp_mk82",
@@ -2427,7 +2642,8 @@
             "count": 1,
             "individual_mass": 250.0,
             "total_mass": 250.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "wing_left_1_bomb_500kg_samp_mk83",
@@ -2436,7 +2652,8 @@
             "count": 1,
             "individual_mass": 500.0,
             "total_mass": 500.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "containers_matra_lr_f1",
@@ -2445,7 +2662,8 @@
             "count": 36,
             "individual_mass": 5.05,
             "total_mass": 181.79999999999998,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "containers_matra_lr_f4",
@@ -2454,7 +2672,8 @@
             "count": 18,
             "individual_mass": 5.05,
             "total_mass": 90.89999999999999,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           }
         ]
       },
@@ -2471,7 +2690,8 @@
             "count": 1,
             "individual_mass": 193.5,
             "total_mass": 193.5,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "wing_left_middle_rocket_r530_matra_radar",
@@ -2480,7 +2700,8 @@
             "count": 1,
             "individual_mass": 193.5,
             "total_mass": 193.5,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "wing_right_2_rocket_matra_super_530f",
@@ -2489,7 +2710,8 @@
             "count": 1,
             "individual_mass": 245.0,
             "total_mass": 245.0,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "wing_left_middle_bomb_250_samp",
@@ -2498,7 +2720,8 @@
             "count": 1,
             "individual_mass": 247.0,
             "total_mass": 247.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "wing_left_middle_bomb_400_samp",
@@ -2507,7 +2730,8 @@
             "count": 1,
             "individual_mass": 400.0,
             "total_mass": 400.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "wing_left_middle_bomb_250kg_samp_mk82",
@@ -2516,7 +2740,8 @@
             "count": 1,
             "individual_mass": 250.0,
             "total_mass": 250.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "wing_left_middle_bomb_500kg_samp_mk83",
@@ -2525,7 +2750,8 @@
             "count": 1,
             "individual_mass": 500.0,
             "total_mass": 500.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "wing_left_middle_bomb_1000kg_samp_mk84",
@@ -2534,7 +2760,8 @@
             "count": 1,
             "individual_mass": 1000.0,
             "total_mass": 1000.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "wing_left_middle_cc420",
@@ -2543,7 +2770,8 @@
             "count": 1,
             "individual_mass": 150.0,
             "total_mass": 150.0,
-            "weapon_type": "GunPod"
+            "weapon_type": "GunPod",
+            "depend_on": null
           },
           {
             "name": "containers_matra_lr_f1",
@@ -2552,7 +2780,8 @@
             "count": 36,
             "individual_mass": 5.05,
             "total_mass": 181.79999999999998,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "containers_matra_lr_f4",
@@ -2561,7 +2790,8 @@
             "count": 18,
             "individual_mass": 5.05,
             "total_mass": 90.89999999999999,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           }
         ]
       },
@@ -2578,7 +2808,8 @@
             "count": 1,
             "individual_mass": 193.5,
             "total_mass": 193.5,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "fuse_rocket_r530_matra_radar",
@@ -2587,7 +2818,8 @@
             "count": 1,
             "individual_mass": 193.5,
             "total_mass": 193.5,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "fuse_bomb_250_samp",
@@ -2596,7 +2828,8 @@
             "count": 1,
             "individual_mass": 247.0,
             "total_mass": 247.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "fuse_bomb_400_samp",
@@ -2605,7 +2838,8 @@
             "count": 1,
             "individual_mass": 400.0,
             "total_mass": 400.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "fuse_bomb_250kg_samp_mk82",
@@ -2614,7 +2848,8 @@
             "count": 1,
             "individual_mass": 250.0,
             "total_mass": 250.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "fuse_bomb_500kg_samp_mk83",
@@ -2623,7 +2858,8 @@
             "count": 1,
             "individual_mass": 500.0,
             "total_mass": 500.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "fuse_bomb_1000kg_samp_mk84",
@@ -2632,7 +2868,8 @@
             "count": 1,
             "individual_mass": 1000.0,
             "total_mass": 1000.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           }
         ]
       },
@@ -2649,7 +2886,8 @@
             "count": 1,
             "individual_mass": 193.5,
             "total_mass": 193.5,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "wing_right_middle_rocket_r530_matra_radar",
@@ -2658,7 +2896,8 @@
             "count": 1,
             "individual_mass": 193.5,
             "total_mass": 193.5,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "wing_right_2_rocket_matra_super_530f",
@@ -2667,7 +2906,8 @@
             "count": 1,
             "individual_mass": 245.0,
             "total_mass": 245.0,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "wing_right_middle_bomb_250_samp",
@@ -2676,7 +2916,8 @@
             "count": 1,
             "individual_mass": 247.0,
             "total_mass": 247.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "wing_right_middle_bomb_400_samp",
@@ -2685,7 +2926,8 @@
             "count": 1,
             "individual_mass": 400.0,
             "total_mass": 400.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "wing_right_middle_bomb_250kg_samp_mk82",
@@ -2694,7 +2936,8 @@
             "count": 1,
             "individual_mass": 250.0,
             "total_mass": 250.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "wing_right_middle_bomb_500kg_samp_mk83",
@@ -2703,7 +2946,8 @@
             "count": 1,
             "individual_mass": 500.0,
             "total_mass": 500.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "wing_right_middle_bomb_1000kg_samp_mk84",
@@ -2712,7 +2956,8 @@
             "count": 1,
             "individual_mass": 1000.0,
             "total_mass": 1000.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "wing_right_middle_cc420",
@@ -2721,7 +2966,8 @@
             "count": 1,
             "individual_mass": 150.0,
             "total_mass": 150.0,
-            "weapon_type": "GunPod"
+            "weapon_type": "GunPod",
+            "depend_on": null
           },
           {
             "name": "containers_matra_lr_f1",
@@ -2730,7 +2976,8 @@
             "count": 36,
             "individual_mass": 5.05,
             "total_mass": 181.79999999999998,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "containers_matra_lr_f4",
@@ -2739,7 +2986,8 @@
             "count": 18,
             "individual_mass": 5.05,
             "total_mass": 90.89999999999999,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           }
         ]
       },
@@ -2756,7 +3004,8 @@
             "count": 1,
             "individual_mass": 247.0,
             "total_mass": 247.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "wing_right_1_bomb_400_samp",
@@ -2765,7 +3014,8 @@
             "count": 1,
             "individual_mass": 400.0,
             "total_mass": 400.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "wing_right_1_bomb_250kg_samp_mk82",
@@ -2774,7 +3024,8 @@
             "count": 1,
             "individual_mass": 250.0,
             "total_mass": 250.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "wing_right_1_bomb_500kg_samp_mk83",
@@ -2783,7 +3034,8 @@
             "count": 1,
             "individual_mass": 500.0,
             "total_mass": 500.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "containers_matra_lr_f1",
@@ -2792,7 +3044,8 @@
             "count": 36,
             "individual_mass": 5.05,
             "total_mass": 181.79999999999998,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "containers_matra_lr_f4",
@@ -2801,7 +3054,8 @@
             "count": 18,
             "individual_mass": 5.05,
             "total_mass": 90.89999999999999,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           }
         ]
       },
@@ -2818,7 +3072,8 @@
             "count": 1,
             "individual_mass": 89.0,
             "total_mass": 89.0,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "wing_right_rocket_r550_magic_2",
@@ -2827,7 +3082,8 @@
             "count": 1,
             "individual_mass": 89.0,
             "total_mass": 89.0,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           }
         ]
       }
@@ -2846,7 +3102,8 @@
             "count": 1,
             "individual_mass": 150.0,
             "total_mass": 150.0,
-            "weapon_type": "Cannon"
+            "weapon_type": "Cannon",
+            "depend_on": null
           },
           {
             "name": "defa_553_x2_ltc",
@@ -2855,7 +3112,8 @@
             "count": 1,
             "individual_mass": 150.0,
             "total_mass": 150.0,
-            "weapon_type": "Cannon"
+            "weapon_type": "Cannon",
+            "depend_on": null
           }
         ]
       }
@@ -2884,7 +3142,8 @@
             "count": 5,
             "individual_mass": 114.0,
             "total_mass": 570.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "wing_left_fab_250",
@@ -2893,7 +3152,8 @@
             "count": 1,
             "individual_mass": 250.0,
             "total_mass": 250.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "wing_left_fab_500",
@@ -2902,7 +3162,8 @@
             "count": 1,
             "individual_mass": 508.3,
             "total_mass": 508.3,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "wing_left_rocket_s24",
@@ -2911,7 +3172,8 @@
             "count": 1,
             "individual_mass": 235.0,
             "total_mass": 235.0,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "wing_left_rocket_kh25_ml",
@@ -2920,7 +3182,8 @@
             "count": 1,
             "individual_mass": 297.0,
             "total_mass": 297.0,
-            "weapon_type": "AGM"
+            "weapon_type": "AGM",
+            "depend_on": null
           },
           {
             "name": "wing_left_rocket_kh23_m",
@@ -2929,7 +3192,11 @@
             "count": 1,
             "individual_mass": 289.0,
             "total_mass": 289.0,
-            "weapon_type": "AGM"
+            "weapon_type": "AGM",
+            "depend_on": {
+              "name": "delta_ng",
+              "slot": 6
+            }
           },
           {
             "name": "wing_left_rocket_s25o",
@@ -2938,7 +3205,8 @@
             "count": 1,
             "individual_mass": 370.0,
             "total_mass": 370.0,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "wing_left_rocket_s25l",
@@ -2947,7 +3215,8 @@
             "count": 1,
             "individual_mass": 410.0,
             "total_mass": 410.0,
-            "weapon_type": "AGM"
+            "weapon_type": "AGM",
+            "depend_on": null
           },
           {
             "name": "container_s3k",
@@ -2956,7 +3225,8 @@
             "count": 7,
             "individual_mass": 23.5,
             "total_mass": 164.5,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "container_s8ko",
@@ -2965,7 +3235,8 @@
             "count": 20,
             "individual_mass": 11.3,
             "total_mass": 226.0,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "container_ub_32",
@@ -2974,7 +3245,8 @@
             "count": 32,
             "individual_mass": 3.64,
             "total_mass": 116.48,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           }
         ]
       },
@@ -2991,7 +3263,8 @@
             "count": 1,
             "individual_mass": 114.0,
             "total_mass": 114.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "wing_left_middle_fab_250_x1",
@@ -3000,7 +3273,8 @@
             "count": 1,
             "individual_mass": 250.0,
             "total_mass": 250.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "wing_left_middle_fab_500_x1",
@@ -3009,7 +3283,8 @@
             "count": 1,
             "individual_mass": 508.3,
             "total_mass": 508.3,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "wing_middle_left_rocket_s_24",
@@ -3018,7 +3293,8 @@
             "count": 1,
             "individual_mass": 235.0,
             "total_mass": 235.0,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "wing_middle_left_rocket_r_60_x2",
@@ -3027,7 +3303,8 @@
             "count": 2,
             "individual_mass": 44.0,
             "total_mass": 88.0,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "container_s8ko",
@@ -3036,7 +3313,8 @@
             "count": 20,
             "individual_mass": 11.3,
             "total_mass": 226.0,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "container_ub_32",
@@ -3045,7 +3323,8 @@
             "count": 32,
             "individual_mass": 3.64,
             "total_mass": 116.48,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "wing_middle_left_sppu_22",
@@ -3054,7 +3333,8 @@
             "count": 1,
             "individual_mass": 155.0,
             "total_mass": 155.0,
-            "weapon_type": "GunPod"
+            "weapon_type": "GunPod",
+            "depend_on": null
           }
         ]
       },
@@ -3071,7 +3351,8 @@
             "count": 4,
             "individual_mass": 114.0,
             "total_mass": 456.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "fuse_containers_left_fab_250_x3",
@@ -3080,7 +3361,8 @@
             "count": 3,
             "individual_mass": 250.0,
             "total_mass": 750.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "fuse_left_fab_500_x2",
@@ -3089,7 +3371,8 @@
             "count": 1,
             "individual_mass": 508.3,
             "total_mass": 508.3,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "fuse_left_rocket_s_24",
@@ -3098,7 +3381,8 @@
             "count": 1,
             "individual_mass": 235.0,
             "total_mass": 235.0,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "fuse_left_rocket_kh25_ml",
@@ -3107,7 +3391,8 @@
             "count": 1,
             "individual_mass": 297.0,
             "total_mass": 297.0,
-            "weapon_type": "AGM"
+            "weapon_type": "AGM",
+            "depend_on": null
           },
           {
             "name": "fuse_left_rocket_kh29_l",
@@ -3116,7 +3401,8 @@
             "count": 1,
             "individual_mass": 657.0,
             "total_mass": 657.0,
-            "weapon_type": "AGM"
+            "weapon_type": "AGM",
+            "depend_on": null
           },
           {
             "name": "container_s3k",
@@ -3125,7 +3411,8 @@
             "count": 7,
             "individual_mass": 23.5,
             "total_mass": 164.5,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           }
         ]
       },
@@ -3142,7 +3429,8 @@
             "count": 4,
             "individual_mass": 114.0,
             "total_mass": 456.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "fuse_containers_right_fab_250_x3",
@@ -3151,7 +3439,8 @@
             "count": 3,
             "individual_mass": 250.0,
             "total_mass": 750.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "fuse_right_fab_500_x2",
@@ -3160,7 +3449,8 @@
             "count": 1,
             "individual_mass": 508.3,
             "total_mass": 508.3,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "fuse_right_rocket_s_24",
@@ -3169,7 +3459,8 @@
             "count": 1,
             "individual_mass": 235.0,
             "total_mass": 235.0,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "fuse_right_rocket_kh25_ml",
@@ -3178,7 +3469,8 @@
             "count": 1,
             "individual_mass": 297.0,
             "total_mass": 297.0,
-            "weapon_type": "AGM"
+            "weapon_type": "AGM",
+            "depend_on": null
           },
           {
             "name": "fuse_right_rocket_kh29_l",
@@ -3187,7 +3479,8 @@
             "count": 1,
             "individual_mass": 657.0,
             "total_mass": 657.0,
-            "weapon_type": "AGM"
+            "weapon_type": "AGM",
+            "depend_on": null
           },
           {
             "name": "container_s3k",
@@ -3196,7 +3489,8 @@
             "count": 7,
             "individual_mass": 23.5,
             "total_mass": 164.5,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           }
         ]
       },
@@ -3213,7 +3507,8 @@
             "count": 1,
             "individual_mass": 114.0,
             "total_mass": 114.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "wing_right_middle_fab_250_x1",
@@ -3222,7 +3517,8 @@
             "count": 1,
             "individual_mass": 250.0,
             "total_mass": 250.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "wing_right_middle_fab_500_x1",
@@ -3231,7 +3527,8 @@
             "count": 1,
             "individual_mass": 508.3,
             "total_mass": 508.3,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "wing_middle_right_rocket_s_24",
@@ -3240,7 +3537,8 @@
             "count": 1,
             "individual_mass": 235.0,
             "total_mass": 235.0,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "wing_middle_right_rocket_r_60_x2",
@@ -3249,7 +3547,8 @@
             "count": 2,
             "individual_mass": 44.0,
             "total_mass": 88.0,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           },
           {
             "name": "container_s8ko",
@@ -3258,7 +3557,8 @@
             "count": 20,
             "individual_mass": 11.3,
             "total_mass": 226.0,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "container_ub_32",
@@ -3267,7 +3567,8 @@
             "count": 32,
             "individual_mass": 3.64,
             "total_mass": 116.48,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "wing_middle_right_sppu_22",
@@ -3276,7 +3577,8 @@
             "count": 1,
             "individual_mass": 155.0,
             "total_mass": 155.0,
-            "weapon_type": "GunPod"
+            "weapon_type": "GunPod",
+            "depend_on": null
           },
           {
             "name": "delta_ng",
@@ -3285,7 +3587,8 @@
             "count": 1,
             "individual_mass": 20.0,
             "total_mass": 20.0,
-            "weapon_type": "TargetingPod"
+            "weapon_type": "TargetingPod",
+            "depend_on": null
           }
         ]
       },
@@ -3302,7 +3605,8 @@
             "count": 5,
             "individual_mass": 114.0,
             "total_mass": 570.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "wing_right_fab_250",
@@ -3311,7 +3615,8 @@
             "count": 1,
             "individual_mass": 250.0,
             "total_mass": 250.0,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "wing_right_fab_500",
@@ -3320,7 +3625,8 @@
             "count": 1,
             "individual_mass": 508.3,
             "total_mass": 508.3,
-            "weapon_type": "Bomb"
+            "weapon_type": "Bomb",
+            "depend_on": null
           },
           {
             "name": "wing_right_rocket_s24",
@@ -3329,7 +3635,8 @@
             "count": 1,
             "individual_mass": 235.0,
             "total_mass": 235.0,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "wing_right_rocket_kh25_ml",
@@ -3338,7 +3645,8 @@
             "count": 1,
             "individual_mass": 297.0,
             "total_mass": 297.0,
-            "weapon_type": "AGM"
+            "weapon_type": "AGM",
+            "depend_on": null
           },
           {
             "name": "wing_right_rocket_kh23_m",
@@ -3347,7 +3655,11 @@
             "count": 1,
             "individual_mass": 289.0,
             "total_mass": 289.0,
-            "weapon_type": "AGM"
+            "weapon_type": "AGM",
+            "depend_on": {
+              "name": "delta_ng",
+              "slot": 6
+            }
           },
           {
             "name": "wing_right_rocket_s25o",
@@ -3356,7 +3668,8 @@
             "count": 1,
             "individual_mass": 370.0,
             "total_mass": 370.0,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "wing_right_rocket_s25l",
@@ -3365,7 +3678,8 @@
             "count": 1,
             "individual_mass": 410.0,
             "total_mass": 410.0,
-            "weapon_type": "AGM"
+            "weapon_type": "AGM",
+            "depend_on": null
           },
           {
             "name": "container_s3k",
@@ -3374,7 +3688,8 @@
             "count": 7,
             "individual_mass": 23.5,
             "total_mass": 164.5,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "container_s8ko",
@@ -3383,7 +3698,8 @@
             "count": 20,
             "individual_mass": 11.3,
             "total_mass": 226.0,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           },
           {
             "name": "container_ub_32",
@@ -3392,7 +3708,8 @@
             "count": 32,
             "individual_mass": 3.64,
             "total_mass": 116.48,
-            "weapon_type": "Rocket"
+            "weapon_type": "Rocket",
+            "depend_on": null
           }
         ]
       }
@@ -3411,7 +3728,8 @@
             "count": 1,
             "individual_mass": 66.5,
             "total_mass": 66.5,
-            "weapon_type": "Cannon"
+            "weapon_type": "Cannon",
+            "depend_on": null
           },
           {
             "name": "nr_30_ltc",
@@ -3420,7 +3738,8 @@
             "count": 1,
             "individual_mass": 66.5,
             "total_mass": 66.5,
-            "weapon_type": "Cannon"
+            "weapon_type": "Cannon",
+            "depend_on": null
           }
         ]
       },
@@ -3437,7 +3756,8 @@
             "count": 1,
             "individual_mass": 44.0,
             "total_mass": 44.0,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           }
         ]
       },
@@ -3454,7 +3774,8 @@
             "count": 1,
             "individual_mass": 44.0,
             "total_mass": 44.0,
-            "weapon_type": "AAM"
+            "weapon_type": "AAM",
+            "depend_on": null
           }
         ]
       }

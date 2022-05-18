@@ -7,6 +7,13 @@ use crate::custom_loadouts::known_loadouts::KnownLoadouts;
 use crate::lang::{Lang, name_to_local};
 use crate::util::parameter_to_data;
 
+/*
+Steps todo:
+DONE 1. Save pylon weapon to use TGP
+DONE 2. Validate current setups to properly use TGP if not selected (new error)
+3. Make partial fn for interactive web view to display automatic requirement
+ */
+
 #[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone, const_gen::CompileConst, get_size::GetSize)]
 pub struct CustomLoadout {
 	pub aircraft: String,
@@ -36,6 +43,13 @@ pub struct Weapon {
 	pub individual_mass: f64,
 	pub total_mass: f64,
 	pub weapon_type: WeaponType,
+	pub depend_on: Option<Dependent>,
+}
+
+#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone, const_gen::CompileConst, get_size::GetSize)]
+pub struct Dependent {
+	pub name: String,
+	pub slot: u32,
 }
 
 #[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone, Copy, const_gen::CompileConst, get_size::GetSize)]
@@ -124,6 +138,7 @@ impl CustomLoadout {
 						weapon_type,
 						localized: "Empty".to_owned(),
 						icon_type: "".to_owned(),
+						depend_on: None
 					});
 					continue;
 				}
@@ -163,6 +178,17 @@ impl CustomLoadout {
 					}
 				};
 
+				let split_on_depend = preset.split("DependentWeaponPreset").to_owned().collect::<Vec<&str>>();
+				let depend_on = if split_on_depend.len() > 1 {
+
+					let target = split_on_depend[1];
+					Some(Dependent {
+						name: parameter_to_data(target, "preset").unwrap().replace("\"", ""),
+						slot: parameter_to_data(target, "slot").unwrap().parse().unwrap(),
+					})
+				} else {
+					None
+				};
 
 					weapons.push(Weapon {
 						localized,
@@ -172,6 +198,7 @@ impl CustomLoadout {
 						name,
 						total_mass: weight,
 						weapon_type,
+						depend_on,
 					});
 			}
 
@@ -223,10 +250,10 @@ impl CustomLoadout {
 		generated
 	}
 
-	pub fn select_by_name(missiles: &[Self], name: &str) -> Option<Self> {
-		for (i, missile) in missiles.iter().enumerate() {
-			if missile.aircraft.contains(&name.replace("-", "_")) {
-				return Some(missiles[i].clone());
+	pub fn select_by_name(loadouts: &[Self], name: &str) -> Option<Self> {
+		for (i, loadout) in loadouts.iter().enumerate() {
+			if loadout.aircraft.contains(&name.replace("-", "_")) {
+				return Some(loadouts[i].clone());
 			}
 		}
 		None
