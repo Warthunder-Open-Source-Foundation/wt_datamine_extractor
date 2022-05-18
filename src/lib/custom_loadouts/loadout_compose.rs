@@ -1,5 +1,5 @@
 use crate::custom_loadouts::custom_loadouts::{CustomLoadout, Pylon};
-use crate::custom_loadouts::loadout_compose::CLError::BadSelection;
+use crate::custom_loadouts::loadout_compose::CLError::{BadSelection, TgpNotSatisfied};
 
 #[derive(Debug, PartialEq, Clone)]
 pub struct CLComposition {
@@ -25,6 +25,10 @@ pub enum CLError {
 	// Bad pylon selection (out of bounds or the like)
 	BadSelection(usize),
 
+	// Targeting pod not provided, with failing slot left, required slot right
+	TgpNotSatisfied((usize, usize)),
+
+	// Current exception with the Kfir C.2
 	NoExemptCenter,
 }
 
@@ -50,7 +54,6 @@ impl CustomLoadout {
 
 		// This loop only begins adding up masses, error checking comes after
 		for (i, pylon) in self.pylons.iter().enumerate() {
-
 			let mut compute_pylon = |pylon: &Pylon, totals: &mut f64| {
 				// A selection of 0 means empty pylon, not adding any value, this means the array access needs to be subtracted by that extra
 				if selection[i] == 0 {
@@ -58,6 +61,21 @@ impl CustomLoadout {
 				}
 				if let Some(item) = pylon.weapons.get(selection[i] - 1) {
 					*totals += item.total_mass;
+
+					if let Some(depend) = &item.depend_on {
+						// Slot which requires named item
+						let required_slot = depend.slot as usize - 1;
+
+						// The slot that the user has chosen
+						let user_selected_slot = selection[required_slot].checked_sub(1).unwrap_or(0);
+
+						// The slot the pylon actually needs
+						let user_named_selection = &self.pylons[required_slot].weapons[user_selected_slot].name;
+
+						if &depend.name != user_named_selection {
+							errs.push(TgpNotSatisfied((0,0)));
+						}
+					};
 				} else {
 					errs.push(BadSelection(i));
 				}
@@ -84,6 +102,7 @@ impl CustomLoadout {
 				}
 			}
 
+			// Check if any exempt center was detected
 			if i == self.pylons.len() - 1 && wing_state != WingState::RightWing {
 				errs.push(CLError::NoExemptCenter);
 			}
@@ -105,7 +124,7 @@ impl CustomLoadout {
 		if (totals.0 - totals.2).abs() > self.max_imbalance {
 			// This might be way too much code for such a simple thing but eh, go make a pull request if you bother to do so
 			let offset = (totals.0 - totals.2).abs() - self.max_imbalance;
-			let sign = ( totals.0 - totals.2).is_sign_positive();
+			let sign = (totals.0 - totals.2).is_sign_positive();
 			let bad = if sign {
 				-offset
 			} else {
@@ -179,6 +198,26 @@ mod tests {
 		let loadouts = CustomLoadout::new_from_file(&reader, "kfir_c2".to_owned());
 
 		if loadouts.compose_loadout(&[0, 0, 0, 0, 0, 0, 0]).is_ok() {
+			panic!("uh oh")
+		}
+	}
+
+	#[test]
+	fn test_tgp_satisfied() {
+		let reader = fs::read("custom_loadouts/aircraft/mig_23mla.blkx").unwrap();
+		let loadouts = CustomLoadout::new_from_file(&reader, "mig_23mla".to_owned());
+
+		if loadouts.compose_loadout(&[14, 0, 7, 0]).is_err() {
+			panic!("uh oh")
+		}
+	}
+
+	#[test]
+	fn test_tgp_not_satisfied() {
+		let reader = fs::read("custom_loadouts/aircraft/mig_23mla.blkx").unwrap();
+		let loadouts = CustomLoadout::new_from_file(&reader, "mig_23mla".to_owned());
+
+		if loadouts.compose_loadout(&[14, 0, 0, 0]).is_ok() {
 			panic!("uh oh")
 		}
 	}

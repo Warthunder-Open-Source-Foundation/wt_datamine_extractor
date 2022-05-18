@@ -10,7 +10,7 @@ use crate::util::parameter_to_data;
 /*
 Steps todo:
 DONE 1. Save pylon weapon to use TGP
-2. Validate current setups to properly use TGP if not selected (new error)
+DONE 2. Validate current setups to properly use TGP if not selected (new error)
 3. Make partial fn for interactive web view to display automatic requirement
  */
 
