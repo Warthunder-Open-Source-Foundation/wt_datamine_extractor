@@ -1055,7 +1055,10 @@
             "individual_mass": 230.0,
             "total_mass": 230.0,
             "weapon_type": "AAM",
-            "depend_on": null
+            "depend_on": {
+              "name": "aspide_control_station",
+              "slot": 5
+            }
           },
           {
             "name": "us_500lb_mk_82_ldgp",
@@ -1293,7 +1296,10 @@
             "individual_mass": 230.0,
             "total_mass": 230.0,
             "weapon_type": "AAM",
-            "depend_on": null
+            "depend_on": {
+              "name": "aspide_control_station",
+              "slot": 5
+            }
           },
           {
             "name": "us_500lb_mk_82_ldgp",
@@ -1393,12 +1399,22 @@
         "weapons": [
           {
             "name": "cannon_m61",
-            "localized": "M61",
+            "localized": "M61A1",
             "icon_type": "cannon",
             "count": 1,
-            "individual_mass": 650.0,
-            "total_mass": 650.0,
+            "individual_mass": 647.0,
+            "total_mass": 647.0,
             "weapon_type": "Cannon",
+            "depend_on": null
+          },
+          {
+            "name": "aspide_control_station",
+            "localized": "it_aspide_control_station",
+            "icon_type": "rls",
+            "count": 1,
+            "individual_mass": 20.0,
+            "total_mass": 20.0,
+            "weapon_type": "TargetingPod",
             "depend_on": null
           }
         ]
@@ -1492,24 +1508,6 @@
         ]
       },
       {
-        "index": 3,
-        "tier": 7,
-        "order": 5,
-        "exempt_from_imbalance": false,
-        "weapons": [
-          {
-            "name": "pl5b",
-            "localized": "PL-5B",
-            "icon_type": "missile_air_to_air",
-            "count": 1,
-            "individual_mass": 84.5,
-            "total_mass": 84.5,
-            "weapon_type": "AAM",
-            "depend_on": null
-          }
-        ]
-      },
-      {
         "index": 4,
         "tier": 6,
         "order": 7,
@@ -1523,24 +1521,6 @@
             "individual_mass": 240.9,
             "total_mass": 1445.4,
             "weapon_type": "Bomb",
-            "depend_on": null
-          }
-        ]
-      },
-      {
-        "index": 5,
-        "tier": 5,
-        "order": 6,
-        "exempt_from_imbalance": false,
-        "weapons": [
-          {
-            "name": "pl5b",
-            "localized": "PL-5B",
-            "icon_type": "missile_air_to_air",
-            "count": 1,
-            "individual_mass": 84.5,
-            "total_mass": 84.5,
-            "weapon_type": "AAM",
             "depend_on": null
           }
         ]
@@ -3277,16 +3257,6 @@
             "depend_on": null
           },
           {
-            "name": "wing_left_middle_fab_500_x1",
-            "localized": "FAB-500M-62",
-            "icon_type": "bombs_large",
-            "count": 1,
-            "individual_mass": 508.3,
-            "total_mass": 508.3,
-            "weapon_type": "Bomb",
-            "depend_on": null
-          },
-          {
             "name": "wing_middle_left_rocket_s_24",
             "localized": "S-24B",
             "icon_type": "rockets_he_large",
@@ -3517,16 +3487,6 @@
             "count": 1,
             "individual_mass": 250.0,
             "total_mass": 250.0,
-            "weapon_type": "Bomb",
-            "depend_on": null
-          },
-          {
-            "name": "wing_right_middle_fab_500_x1",
-            "localized": "FAB-500M-62",
-            "icon_type": "bombs_large",
-            "count": 1,
-            "individual_mass": 508.3,
-            "total_mass": 508.3,
             "weapon_type": "Bomb",
             "depend_on": null
           },
