@@ -102,9 +102,9 @@ impl CustomLoadout {
 		let mut pylons: Vec<Pylon> = vec![];
 		let mut misc_pylons: Vec<Pylon> = vec![];
 
-		let mut split = file.split("\"WeaponSlot\"").collect::<Vec<&str>>();
-		split.remove(0);
-		for slot in split {
+		let mut split_pylons = file.split("\"WeaponSlot\"").collect::<Vec<&str>>();
+		split_pylons.remove(0);
+		for slot in split_pylons {
 			let exempt_from_imbalance = parameter_to_data(&slot, "notUseforDisbalanceCalculation").unwrap_or("false".to_owned()).parse().unwrap();
 
 			let index = parameter_to_data(&slot, "index").unwrap().parse().unwrap();
@@ -123,10 +123,10 @@ impl CustomLoadout {
 
 			let mut weapons: Vec<Weapon> = vec![];
 
-			let mut split = slot.split("\"WeaponPreset\"").collect::<Vec<&str>>();
-			split.remove(0);
+			let mut split_weapons = slot.split("\"WeaponPreset\"").collect::<Vec<&str>>();
+			split_weapons.remove(0);
 
-			for preset in split {
+			for preset in split_weapons {
 				let weapon_type = WeaponType::from_str(&parameter_to_data(&preset, "trigger").unwrap_or("empty".to_owned()));
 
 				if weapon_type == WeaponType::Empty {
@@ -210,7 +210,7 @@ impl CustomLoadout {
 				order,
 			};
 
-			if order.is_none() {
+			if tier.is_none() {
 				misc_pylons.push(pylon);
 			} else {
 				pylons.push(pylon);
