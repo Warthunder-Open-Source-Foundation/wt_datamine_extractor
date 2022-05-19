@@ -1179,6 +1179,34 @@
         ]
       },
       {
+        "index": 5,
+        "tier": 7,
+        "order": null,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "cannon_m61",
+            "localized": "M61A1",
+            "icon_type": "cannon",
+            "count": 1,
+            "individual_mass": 647.0,
+            "total_mass": 647.0,
+            "weapon_type": "Cannon",
+            "depend_on": null
+          },
+          {
+            "name": "aspide_control_station",
+            "localized": "it_aspide_control_station",
+            "icon_type": "rls",
+            "count": 1,
+            "individual_mass": 20.0,
+            "total_mass": 20.0,
+            "weapon_type": "TargetingPod",
+            "depend_on": null
+          }
+        ]
+      },
+      {
         "index": 6,
         "tier": 6,
         "order": 10,
@@ -1387,34 +1415,6 @@
             "individual_mass": 0.0,
             "total_mass": 0.0,
             "weapon_type": "Countermeasures",
-            "depend_on": null
-          }
-        ]
-      },
-      {
-        "index": 5,
-        "tier": 7,
-        "order": null,
-        "exempt_from_imbalance": true,
-        "weapons": [
-          {
-            "name": "cannon_m61",
-            "localized": "M61A1",
-            "icon_type": "cannon",
-            "count": 1,
-            "individual_mass": 647.0,
-            "total_mass": 647.0,
-            "weapon_type": "Cannon",
-            "depend_on": null
-          },
-          {
-            "name": "aspide_control_station",
-            "localized": "it_aspide_control_station",
-            "icon_type": "rls",
-            "count": 1,
-            "individual_mass": 20.0,
-            "total_mass": 20.0,
-            "weapon_type": "TargetingPod",
             "depend_on": null
           }
         ]
@@ -3231,6 +3231,24 @@
         ]
       },
       {
+        "index": 2,
+        "tier": 9,
+        "order": null,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "wing_left_single_r_60",
+            "localized": "su_r_60_default",
+            "icon_type": "missile_type_b_air_to_air",
+            "count": 1,
+            "individual_mass": 44.0,
+            "total_mass": 44.0,
+            "weapon_type": "AAM",
+            "depend_on": null
+          }
+        ]
+      },
+      {
         "index": 3,
         "tier": 8,
         "order": 3,
@@ -3553,6 +3571,24 @@
         ]
       },
       {
+        "index": 7,
+        "tier": 3,
+        "order": null,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "wing_right_single_r_60",
+            "localized": "su_r_60_default",
+            "icon_type": "missile_type_b_air_to_air",
+            "count": 1,
+            "individual_mass": 44.0,
+            "total_mass": 44.0,
+            "weapon_type": "AAM",
+            "depend_on": null
+          }
+        ]
+      },
+      {
         "index": 8,
         "tier": 2,
         "order": 2,
@@ -3699,42 +3735,6 @@
             "individual_mass": 66.5,
             "total_mass": 66.5,
             "weapon_type": "Cannon",
-            "depend_on": null
-          }
-        ]
-      },
-      {
-        "index": 2,
-        "tier": 9,
-        "order": null,
-        "exempt_from_imbalance": false,
-        "weapons": [
-          {
-            "name": "wing_left_single_r_60",
-            "localized": "su_r_60_default",
-            "icon_type": "missile_type_b_air_to_air",
-            "count": 1,
-            "individual_mass": 44.0,
-            "total_mass": 44.0,
-            "weapon_type": "AAM",
-            "depend_on": null
-          }
-        ]
-      },
-      {
-        "index": 7,
-        "tier": 3,
-        "order": null,
-        "exempt_from_imbalance": false,
-        "weapons": [
-          {
-            "name": "wing_right_single_r_60",
-            "localized": "su_r_60_default",
-            "icon_type": "missile_type_b_air_to_air",
-            "count": 1,
-            "individual_mass": 44.0,
-            "total_mass": 44.0,
-            "weapon_type": "AAM",
             "depend_on": null
           }
         ]
