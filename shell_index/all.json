@@ -9886,6 +9886,49 @@
     ]
   },
   {
+    "name": "30mm_3ubr_11",
+    "localized": "30mm_3ubr_11",
+    "shell_type": "ApFsDs",
+    "caliber": 30,
+    "true_caliber": 10,
+    "velocity": 1260,
+    "penetration": [
+      [
+        0,
+        101
+      ],
+      [
+        100,
+        99
+      ],
+      [
+        500,
+        94
+      ],
+      [
+        1000,
+        88
+      ],
+      [
+        1500,
+        81
+      ],
+      [
+        2000,
+        75
+      ],
+      [
+        3000,
+        62
+      ]
+    ],
+    "explosive": [
+      "",
+      0,
+      0
+    ]
+  },
+  {
     "name": "30mm_MGr",
     "localized": "M.Gr.",
     "shell_type": "He",
@@ -14929,35 +14972,7 @@
     "penetration": [
       [
         0,
-        127
-      ],
-      [
-        100,
-        124
-      ],
-      [
-        500,
-        112
-      ],
-      [
-        1000,
-        95
-      ],
-      [
-        1500,
-        83
-      ],
-      [
-        2000,
-        73
-      ],
-      [
-        2500,
-        63
-      ],
-      [
-        3000,
-        57
+        142
       ]
     ],
     "explosive": [
@@ -15052,6 +15067,25 @@
       [
         3000,
         61
+      ]
+    ],
+    "explosive": [
+      "rdx",
+      53,
+      85
+    ]
+  },
+  {
+    "name": "75mm_type1_ap",
+    "localized": "Type 1 APHE",
+    "shell_type": "ApHe",
+    "caliber": 75,
+    "true_caliber": 75,
+    "velocity": 865,
+    "penetration": [
+      [
+        0,
+        151
       ]
     ],
     "explosive": [
