@@ -2,6 +2,8 @@ use std::fs;
 use std::time::Instant;
 use fs_extra::dir::CopyOptions;
 use get_size::GetSize;
+use wt_datamine_extractor_lib::bombs::bombs::Bomb;
+use wt_datamine_extractor_lib::bombs::known_bombs::KnownBombs;
 use wt_datamine_extractor_lib::custom_loadouts::custom_loadouts::CustomLoadout;
 use wt_datamine_extractor_lib::custom_loadouts::known_loadouts::KnownLoadouts;
 use wt_datamine_extractor_lib::lang::{copy_lang};
@@ -29,20 +31,23 @@ fn main() {
 		let known_thermals = KnownThermals::generate_index().write_index().copy_index_to_folder();
 		let known_shells = KnownShells::generate_index().write_index().copy_index_to_folder();
 		let known_loadouts = KnownLoadouts::generate_index().write_index().copy_index_to_folder();
+		let known_bombs = KnownBombs::generate_index().write_index().copy_index_to_folder();
 
 		let missiles = Missile::generate_from_index(&known_missiles);
 		let thermals = Thermal::generate_from_index(&known_thermals);
 		let shells = Shell::generate_from_index(&known_shells);
 		let loadouts = CustomLoadout::generate_from_index(&known_loadouts);
+		let bombs = Bomb::generate_from_index(&known_bombs);
 
 		let compressed_shells = CompressedShells::compress(&shells);
 
-		println!("Missiles: {}kb\nThermals: {}kb\nShells(compressed): {}kb({}kb)\nLoadouts: {}kb",
+		println!("Missiles: {}kb\nThermals: {}kb\nShells(compressed): {}kb({}kb)\nLoadouts: {}kb\nBombs: {}kb",
 				 missiles.get_heap_size() / 1024,
 				 thermals.get_heap_size() / 1024,
 				 shells.get_heap_size() / 1024,
 				 compressed_shells.get_heap_size() / 1024,
 				 loadouts.get_heap_size() / 1024,
+				bombs.get_heap_size() / 1024,
 		);
 
 
@@ -52,6 +57,7 @@ fn main() {
 		Thermal::write_all(thermals);
 		Shell::write_all(shells);
 		CustomLoadout::write_all(loadouts);
+		Bomb::write_all(bombs);
 	} else {
 		panic!("Local mined cache is invalid or could not be read");
 	}
