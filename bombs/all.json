@@ -4,7 +4,7 @@
     "weight": 250.0,
     "explosive_mass": 107.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 107.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -22,7 +22,7 @@
     "weight": 9.08,
     "explosive_mass": 2.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 2.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -31,7 +31,7 @@
     "weight": 29.5,
     "explosive_mass": 15.9,
     "explosive_type": "torpex",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 25.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -40,7 +40,7 @@
     "weight": 177.0,
     "explosive_mass": 94.0,
     "explosive_type": "minol",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 108.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -49,7 +49,7 @@
     "weight": 160.0,
     "explosive_mass": 70.8,
     "explosive_type": "amatol",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 71.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -58,7 +58,7 @@
     "weight": 29.5,
     "explosive_mass": 15.9,
     "explosive_type": "torpex",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 25.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -76,7 +76,7 @@
     "weight": 29.5,
     "explosive_mass": 14.4,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 14.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -85,7 +85,7 @@
     "weight": 160.0,
     "explosive_mass": 70.8,
     "explosive_type": "amatol",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 71.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -94,7 +94,7 @@
     "weight": 71.5,
     "explosive_mass": 32.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 32.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -103,7 +103,7 @@
     "weight": 84.0,
     "explosive_mass": 25.8,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 26.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -112,7 +112,7 @@
     "weight": 113.5,
     "explosive_mass": 25.5,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 26.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -121,7 +121,7 @@
     "weight": 240.9,
     "explosive_mass": 87.1,
     "explosive_type": "comp_h6",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 118.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -130,7 +130,7 @@
     "weight": 252.2,
     "explosive_mass": 122.25,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 122.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -139,7 +139,7 @@
     "weight": 508.3,
     "explosive_mass": 325.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 325.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -148,7 +148,7 @@
     "weight": 223.0,
     "explosive_mass": 118.8,
     "explosive_type": "amatol",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 119.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -157,7 +157,7 @@
     "weight": 1570.0,
     "explosive_mass": 320.0,
     "explosive_type": "amatol",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 320.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -166,7 +166,7 @@
     "weight": 1000.0,
     "explosive_mass": 600.0,
     "explosive_type": "fp60_40",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 600.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -175,7 +175,7 @@
     "weight": 1832.0,
     "explosive_mass": 1000.0,
     "explosive_type": "amatol",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 1000.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -184,7 +184,7 @@
     "weight": 250.0,
     "explosive_mass": 125.0,
     "explosive_type": "fp60_40",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 125.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -193,7 +193,7 @@
     "weight": 2400.0,
     "explosive_mass": 1700.0,
     "explosive_type": "trialen_105",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 2720.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -202,7 +202,7 @@
     "weight": 250.0,
     "explosive_mass": 125.0,
     "explosive_type": "fp60_40",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 125.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -211,7 +211,7 @@
     "weight": 50.0,
     "explosive_mass": 25.0,
     "explosive_type": "fp60_40",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 25.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -220,7 +220,7 @@
     "weight": 500.0,
     "explosive_mass": 260.0,
     "explosive_type": "fp60_40",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 260.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -229,7 +229,7 @@
     "weight": 500.0,
     "explosive_mass": 260.0,
     "explosive_type": "fp60_40",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 260.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -238,7 +238,7 @@
     "weight": 10.0,
     "explosive_mass": 0.75,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 1.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -247,7 +247,7 @@
     "weight": 50.0,
     "explosive_mass": 25.0,
     "explosive_type": "fp60_40",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 25.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -256,7 +256,7 @@
     "weight": 70.0,
     "explosive_mass": 25.0,
     "explosive_type": "fp60_40",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 25.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -265,7 +265,7 @@
     "weight": 10.0,
     "explosive_mass": 0.75,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 1.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -274,7 +274,7 @@
     "weight": 196.0,
     "explosive_mass": 130.0,
     "explosive_type": "amatol",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 130.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -283,7 +283,7 @@
     "weight": 139.0,
     "explosive_mass": 60.0,
     "explosive_type": "amatol",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 60.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -292,7 +292,7 @@
     "weight": 180.0,
     "explosive_mass": 60.0,
     "explosive_type": "amatol",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 60.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -301,7 +301,7 @@
     "weight": 160.0,
     "explosive_mass": 100.0,
     "explosive_type": "amatol",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 100.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -310,7 +310,7 @@
     "weight": 63.0,
     "explosive_mass": 50.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 50.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -319,7 +319,7 @@
     "weight": 126.0,
     "explosive_mass": 100.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 100.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -328,7 +328,7 @@
     "weight": 50.0,
     "explosive_mass": 20.0,
     "explosive_type": "tp_88",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 26.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -337,7 +337,7 @@
     "weight": 160.0,
     "explosive_mass": 100.0,
     "explosive_type": "amatol",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 100.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -346,7 +346,7 @@
     "weight": 160.0,
     "explosive_mass": 100.0,
     "explosive_type": "amatol",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 100.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -355,7 +355,7 @@
     "weight": 190.0,
     "explosive_mass": 136.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 136.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -364,7 +364,7 @@
     "weight": 190.0,
     "explosive_mass": 136.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 136.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -373,7 +373,7 @@
     "weight": 190.0,
     "explosive_mass": 136.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 136.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -382,7 +382,7 @@
     "weight": 190.0,
     "explosive_mass": 136.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 136.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -391,7 +391,7 @@
     "weight": 196.0,
     "explosive_mass": 130.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 130.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -400,7 +400,7 @@
     "weight": 196.0,
     "explosive_mass": 130.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 130.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -409,7 +409,7 @@
     "weight": 160.0,
     "explosive_mass": 100.0,
     "explosive_type": "amatol",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 100.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -418,7 +418,7 @@
     "weight": 165.0,
     "explosive_mass": 130.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 130.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -427,7 +427,7 @@
     "weight": 45.0,
     "explosive_mass": 25.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 25.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -436,7 +436,7 @@
     "weight": 165.0,
     "explosive_mass": 130.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 130.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -445,7 +445,7 @@
     "weight": 56.0,
     "explosive_mass": 25.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 25.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -454,7 +454,7 @@
     "weight": 103.5,
     "explosive_mass": 36.02,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 36.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": false
   },
@@ -463,7 +463,7 @@
     "weight": 252.2,
     "explosive_mass": 122.25,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 122.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -472,7 +472,7 @@
     "weight": 49.76,
     "explosive_mass": 26.35,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 26.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -481,7 +481,7 @@
     "weight": 1000.0,
     "explosive_mass": 550.0,
     "explosive_type": "tritonal",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 649.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -490,7 +490,7 @@
     "weight": 118.0,
     "explosive_mass": 50.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 50.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -499,7 +499,7 @@
     "weight": 130.0,
     "explosive_mass": 45.0,
     "explosive_type": "tritonal",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 53.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": false
   },
@@ -508,7 +508,7 @@
     "weight": 225.0,
     "explosive_mass": 105.0,
     "explosive_type": "dd",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 99.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -517,7 +517,7 @@
     "weight": 247.0,
     "explosive_mass": 123.5,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 124.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -526,7 +526,7 @@
     "weight": 250.0,
     "explosive_mass": 90.0,
     "explosive_type": "tritonal",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 106.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -535,7 +535,7 @@
     "weight": 400.0,
     "explosive_mass": 167.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 167.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -544,7 +544,7 @@
     "weight": 508.0,
     "explosive_mass": 220.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 220.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -553,7 +553,7 @@
     "weight": 542.0,
     "explosive_mass": 272.0,
     "explosive_type": "dd",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 256.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -562,7 +562,7 @@
     "weight": 542.0,
     "explosive_mass": 272.0,
     "explosive_type": "dd",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 256.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -571,7 +571,7 @@
     "weight": 542.0,
     "explosive_mass": 272.0,
     "explosive_type": "dd",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 256.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -580,7 +580,7 @@
     "weight": 500.0,
     "explosive_mass": 203.0,
     "explosive_type": "tritonal",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 240.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -589,7 +589,7 @@
     "weight": 39.0,
     "explosive_mass": 10.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 10.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -598,7 +598,7 @@
     "weight": 55.7,
     "explosive_mass": 19.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 19.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -607,7 +607,7 @@
     "weight": 53.0,
     "explosive_mass": 29.0,
     "explosive_type": "mmn",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 27.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -616,7 +616,7 @@
     "weight": 45.8,
     "explosive_mass": 24.5,
     "explosive_type": "amatol",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 25.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -625,7 +625,7 @@
     "weight": 362.42,
     "explosive_mass": 175.1,
     "explosive_type": "tritonal",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 207.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -634,7 +634,7 @@
     "weight": 362.42,
     "explosive_mass": 175.1,
     "explosive_type": "tritonal",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 207.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -652,7 +652,7 @@
     "weight": 970.0,
     "explosive_mass": 500.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 500.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -661,7 +661,7 @@
     "weight": 400.0,
     "explosive_mass": 167.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 167.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -670,7 +670,7 @@
     "weight": 546.5,
     "explosive_mass": 180.0,
     "explosive_type": "rdx",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 288.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -679,7 +679,7 @@
     "weight": 546.5,
     "explosive_mass": 184.0,
     "explosive_type": "torpex",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 294.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -688,7 +688,7 @@
     "weight": 134.0,
     "explosive_mass": 61.7,
     "explosive_type": "tritonal",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 73.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": false
   },
@@ -697,7 +697,7 @@
     "weight": 265.7,
     "explosive_mass": 128.4,
     "explosive_type": "tritonal",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 152.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -706,7 +706,7 @@
     "weight": 362.42,
     "explosive_mass": 175.1,
     "explosive_type": "tritonal",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 207.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -715,7 +715,7 @@
     "weight": 453.6,
     "explosive_mass": 260.0,
     "explosive_type": "comp_b",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 341.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -724,7 +724,7 @@
     "weight": 109.0,
     "explosive_mass": 27.3,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 27.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -733,7 +733,7 @@
     "weight": 109.0,
     "explosive_mass": 27.3,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 27.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -742,7 +742,7 @@
     "weight": 100.0,
     "explosive_mass": 50.6,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 51.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -751,7 +751,7 @@
     "weight": 100.0,
     "explosive_mass": 50.6,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 51.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -760,7 +760,7 @@
     "weight": 151.1,
     "explosive_mass": 60.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 60.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -769,7 +769,7 @@
     "weight": 151.1,
     "explosive_mass": 60.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 60.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -778,7 +778,7 @@
     "weight": 259.0,
     "explosive_mass": 125.7,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 126.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -787,7 +787,7 @@
     "weight": 259.0,
     "explosive_mass": 125.7,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 126.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -796,7 +796,7 @@
     "weight": 508.0,
     "explosive_mass": 216.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 216.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -805,7 +805,7 @@
     "weight": 508.0,
     "explosive_mass": 216.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 216.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -814,7 +814,7 @@
     "weight": 58.0,
     "explosive_mass": 25.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 25.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -823,7 +823,7 @@
     "weight": 58.0,
     "explosive_mass": 25.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 25.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -832,7 +832,7 @@
     "weight": 821.6,
     "explosive_mass": 357.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 357.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -841,7 +841,7 @@
     "weight": 283.0,
     "explosive_mass": 87.1,
     "explosive_type": "comp_h6",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 118.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -850,7 +850,7 @@
     "weight": 410.0,
     "explosive_mass": 175.1,
     "explosive_type": "tritonal",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 207.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -859,7 +859,7 @@
     "weight": 253.0,
     "explosive_mass": 104.0,
     "explosive_type": "shimose",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 114.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -868,7 +868,7 @@
     "weight": 500.0,
     "explosive_mass": 67.13,
     "explosive_type": "tp_97",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 86.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -877,7 +877,7 @@
     "weight": 507.0,
     "explosive_mass": 207.0,
     "explosive_type": "shimose",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 228.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -886,7 +886,7 @@
     "weight": 800.0,
     "explosive_mass": 390.0,
     "explosive_type": "shimose",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 429.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -895,7 +895,7 @@
     "weight": 60.0,
     "explosive_mass": 23.0,
     "explosive_type": "shimose",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 25.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -904,7 +904,7 @@
     "weight": 242.0,
     "explosive_mass": 95.0,
     "explosive_type": "shimose",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 105.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -913,7 +913,7 @@
     "weight": 251.0,
     "explosive_mass": 60.3,
     "explosive_type": "shimose",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 66.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -922,7 +922,7 @@
     "weight": 800.0,
     "explosive_mass": 30.1,
     "explosive_type": "tp_91",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 32.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -931,7 +931,7 @@
     "weight": 250.0,
     "explosive_mass": 104.0,
     "explosive_type": "shimose",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 114.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -940,7 +940,7 @@
     "weight": 500.0,
     "explosive_mass": 223.0,
     "explosive_type": "shimose",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 245.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -949,7 +949,7 @@
     "weight": 100.0,
     "explosive_mass": 46.0,
     "explosive_type": "tp_97",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 59.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": false
   },
@@ -958,7 +958,7 @@
     "weight": 50.0,
     "explosive_mass": 19.6,
     "explosive_type": "tp_97",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 25.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -967,7 +967,7 @@
     "weight": 508.3,
     "explosive_mass": 325.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 325.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -976,7 +976,7 @@
     "weight": 25.5,
     "explosive_mass": 3.7,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 4.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -985,7 +985,7 @@
     "weight": 103.5,
     "explosive_mass": 36.02,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 36.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": false
   },
@@ -994,7 +994,7 @@
     "weight": 1080.0,
     "explosive_mass": 485.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 485.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1003,7 +1003,7 @@
     "weight": 1080.0,
     "explosive_mass": 485.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 485.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1012,7 +1012,7 @@
     "weight": 103.5,
     "explosive_mass": 36.02,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 36.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": false
   },
@@ -1021,7 +1021,7 @@
     "weight": 252.2,
     "explosive_mass": 122.25,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 122.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1030,7 +1030,7 @@
     "weight": 252.2,
     "explosive_mass": 122.25,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 122.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1039,7 +1039,7 @@
     "weight": 49.76,
     "explosive_mass": 26.35,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 26.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -1048,7 +1048,7 @@
     "weight": 508.3,
     "explosive_mass": 325.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 325.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1057,7 +1057,7 @@
     "weight": 5080.0,
     "explosive_mass": 3361.0,
     "explosive_type": "tga_16",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 5042.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1066,7 +1066,7 @@
     "weight": 478.0,
     "explosive_mass": 201.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 201.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1075,7 +1075,7 @@
     "weight": 478.0,
     "explosive_mass": 201.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 201.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1084,7 +1084,7 @@
     "weight": 508.3,
     "explosive_mass": 325.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 325.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1093,7 +1093,7 @@
     "weight": 49.76,
     "explosive_mass": 26.35,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 26.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -1102,7 +1102,7 @@
     "weight": 890.69,
     "explosive_mass": 396.48,
     "explosive_type": "amatol_tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 396.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1111,7 +1111,7 @@
     "weight": 103.5,
     "explosive_mass": 36.02,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 36.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": false
   },
@@ -1120,7 +1120,7 @@
     "weight": 1400.0,
     "explosive_mass": 675.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 675.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1129,7 +1129,7 @@
     "weight": 250.0,
     "explosive_mass": 122.4,
     "explosive_type": "amatol_tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 122.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1138,7 +1138,7 @@
     "weight": 252.2,
     "explosive_mass": 122.25,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 122.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1147,7 +1147,7 @@
     "weight": 227.0,
     "explosive_mass": 100.0,
     "explosive_type": "tgaf_5",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 160.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1156,7 +1156,7 @@
     "weight": 252.2,
     "explosive_mass": 122.25,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 122.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1165,7 +1165,7 @@
     "weight": 2983.0,
     "explosive_mass": 1400.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 1400.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1174,7 +1174,7 @@
     "weight": 477.1,
     "explosive_mass": 222.15,
     "explosive_type": "amatol_tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 222.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1183,7 +1183,7 @@
     "weight": 508.3,
     "explosive_mass": 325.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 325.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1192,7 +1192,7 @@
     "weight": 508.3,
     "explosive_mass": 213.0,
     "explosive_type": "tgaf_5",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 341.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1201,7 +1201,7 @@
     "weight": 508.3,
     "explosive_mass": 325.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 325.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1210,7 +1210,7 @@
     "weight": 520.0,
     "explosive_mass": 100.0,
     "explosive_type": "tgaf_5",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 160.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -1219,7 +1219,7 @@
     "weight": 560.0,
     "explosive_mass": 195.0,
     "explosive_type": "tgaf_5",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 312.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -1228,7 +1228,7 @@
     "weight": 114.0,
     "explosive_mass": 38.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 38.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": false
   },
@@ -1237,7 +1237,7 @@
     "weight": 250.0,
     "explosive_mass": 97.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 97.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1246,7 +1246,7 @@
     "weight": 250.0,
     "explosive_mass": 97.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 97.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1264,7 +1264,7 @@
     "weight": 120.0,
     "explosive_mass": 30.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 30.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1273,7 +1273,7 @@
     "weight": 120.0,
     "explosive_mass": 30.0,
     "explosive_type": "comp_b",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 39.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1282,7 +1282,7 @@
     "weight": 252.0,
     "explosive_mass": 128.5,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 129.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1291,7 +1291,7 @@
     "weight": 230.0,
     "explosive_mass": 105.0,
     "explosive_type": "nitrolit",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 106.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1300,7 +1300,7 @@
     "weight": 272.4,
     "explosive_mass": 140.0,
     "explosive_type": "torpex",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 224.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1309,7 +1309,7 @@
     "weight": 513.0,
     "explosive_mass": 225.0,
     "explosive_type": "nitrolit",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 227.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1318,7 +1318,7 @@
     "weight": 500.0,
     "explosive_mass": 185.0,
     "explosive_type": "rdx",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 296.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1327,7 +1327,7 @@
     "weight": 59.0,
     "explosive_mass": 26.0,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 26.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -1336,7 +1336,7 @@
     "weight": 50.0,
     "explosive_mass": 9.5,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 10.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -1345,7 +1345,7 @@
     "weight": 50.0,
     "explosive_mass": 11.4,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 11.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -1354,7 +1354,7 @@
     "weight": 614.4,
     "explosive_mass": 300.0,
     "explosive_type": "torpex",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 480.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1363,7 +1363,7 @@
     "weight": 453.6,
     "explosive_mass": 201.8,
     "explosive_type": "torpex",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 323.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1372,7 +1372,7 @@
     "weight": 486.0,
     "explosive_mass": 185.3,
     "explosive_type": "rdx",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 296.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1381,7 +1381,7 @@
     "weight": 495.7,
     "explosive_mass": 171.4,
     "explosive_type": "rdx_tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 219.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1390,7 +1390,7 @@
     "weight": 474.4,
     "explosive_mass": 226.7,
     "explosive_type": "rdx_tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 290.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1399,7 +1399,7 @@
     "weight": 104.3,
     "explosive_mass": 30.7,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 31.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": false
   },
@@ -1408,7 +1408,7 @@
     "weight": 104.3,
     "explosive_mass": 30.7,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 31.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": false
   },
@@ -1417,7 +1417,7 @@
     "weight": 104.3,
     "explosive_mass": 30.7,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 31.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": false
   },
@@ -1426,7 +1426,7 @@
     "weight": 213.1,
     "explosive_mass": 65.5,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 66.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1435,7 +1435,7 @@
     "weight": 213.1,
     "explosive_mass": 65.5,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 66.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1444,7 +1444,7 @@
     "weight": 213.1,
     "explosive_mass": 65.5,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 66.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1453,7 +1453,7 @@
     "weight": 213.1,
     "explosive_mass": 105.23,
     "explosive_type": "torpex",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 168.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1462,7 +1462,7 @@
     "weight": 1782.61,
     "explosive_mass": 1339.0,
     "explosive_type": "amatol",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 1339.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -1471,7 +1471,7 @@
     "weight": 500.76,
     "explosive_mass": 269.9,
     "explosive_type": "tritonal",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 318.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1480,7 +1480,7 @@
     "weight": 500.76,
     "explosive_mass": 269.9,
     "explosive_type": "tritonal",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 318.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1489,7 +1489,7 @@
     "weight": 439.6,
     "explosive_mass": 269.9,
     "explosive_type": "tritonal",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 318.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1498,7 +1498,7 @@
     "weight": 438.17,
     "explosive_mass": 244.03,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 244.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1507,7 +1507,7 @@
     "weight": 446.8,
     "explosive_mass": 201.8,
     "explosive_type": "comp_h6",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 272.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1516,7 +1516,7 @@
     "weight": 453.6,
     "explosive_mass": 240.4,
     "explosive_type": "amatol",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 240.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1525,7 +1525,7 @@
     "weight": 49.9,
     "explosive_mass": 24.5,
     "explosive_type": "amatol",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 25.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -1534,7 +1534,7 @@
     "weight": 45.8,
     "explosive_mass": 24.5,
     "explosive_type": "amatol",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 25.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -1543,7 +1543,7 @@
     "weight": 721.2,
     "explosive_mass": 97.5,
     "explosive_type": "explosive_d",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 96.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1552,7 +1552,7 @@
     "weight": 1140.8,
     "explosive_mass": 428.6,
     "explosive_type": "tritonal",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 506.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -1561,7 +1561,7 @@
     "weight": 1027.0,
     "explosive_mass": 428.6,
     "explosive_type": "tritonal",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 506.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -1570,7 +1570,7 @@
     "weight": 893.6,
     "explosive_mass": 428.6,
     "explosive_type": "comp_h6",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 579.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1579,7 +1579,7 @@
     "weight": 907.2,
     "explosive_mass": 535.6,
     "explosive_type": "amatol",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 536.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1588,7 +1588,7 @@
     "weight": 901.3,
     "explosive_mass": 488.5,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 489.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1597,7 +1597,7 @@
     "weight": 996.3,
     "explosive_mass": 535.6,
     "explosive_type": "tritonal",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 632.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1606,7 +1606,7 @@
     "weight": 907.2,
     "explosive_mass": 535.6,
     "explosive_type": "tritonal",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 632.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1615,7 +1615,7 @@
     "weight": 117.9,
     "explosive_mass": 58.5,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 59.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": false
   },
@@ -1624,7 +1624,7 @@
     "weight": 117.9,
     "explosive_mass": 45.4,
     "explosive_type": "comp_h6",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 61.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": false
   },
@@ -1633,7 +1633,7 @@
     "weight": 1369.8,
     "explosive_mass": 856.4,
     "explosive_type": "tritonal",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 1011.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1642,7 +1642,7 @@
     "weight": 1369.8,
     "explosive_mass": 898.8,
     "explosive_type": "tritonal",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 1061.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1651,7 +1651,7 @@
     "weight": 124.2,
     "explosive_mass": 62.14,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 62.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": false
   },
@@ -1660,7 +1660,7 @@
     "weight": 242.6,
     "explosive_mass": 124.28,
     "explosive_type": "comp_b",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 163.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1669,7 +1669,7 @@
     "weight": 247.5,
     "explosive_mass": 119.7,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 120.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1678,7 +1678,7 @@
     "weight": 240.9,
     "explosive_mass": 87.1,
     "explosive_type": "comp_h6",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 118.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -1687,7 +1687,7 @@
     "weight": 240.9,
     "explosive_mass": 87.1,
     "explosive_type": "comp_h6",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 118.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -1696,7 +1696,7 @@
     "weight": 240.9,
     "explosive_mass": 87.1,
     "explosive_type": "comp_h6",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 118.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1705,7 +1705,7 @@
     "weight": 223.0,
     "explosive_mass": 118.8,
     "explosive_type": "amatol",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 119.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1714,7 +1714,7 @@
     "weight": 281.7,
     "explosive_mass": 152.4,
     "explosive_type": "tnt",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 152.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1723,7 +1723,7 @@
     "weight": 362.42,
     "explosive_mass": 175.1,
     "explosive_type": "tritonal",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 207.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1732,7 +1732,7 @@
     "weight": 362.42,
     "explosive_mass": 175.1,
     "explosive_type": "tritonal",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 207.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1741,7 +1741,7 @@
     "weight": 362.42,
     "explosive_mass": 175.1,
     "explosive_type": "tritonal",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 207.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1750,7 +1750,7 @@
     "weight": 505.53,
     "explosive_mass": 201.8,
     "explosive_type": "comp_b",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 264.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -1759,7 +1759,7 @@
     "weight": 510.3,
     "explosive_mass": 201.8,
     "explosive_type": "comp_b",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 264.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -1768,7 +1768,7 @@
     "weight": 295.0,
     "explosive_mass": 87.1,
     "explosive_type": "comp_h6",
-    "explosive_equiv": 0.0,
+    "explosive_equiv": 118.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },

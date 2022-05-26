@@ -167,7 +167,7 @@ impl Missile {
 
 		let endspeed = parameter_to_data(&file, "endSpeed").unwrap().parse().unwrap();
 
-		let exp_mass = explosive_type_to_tnt(&parameter_to_data(&file, "explosiveType").unwrap().replace("\"", ""), (parameter_to_data(&file, "explosiveMass").unwrap().parse::<f64>().unwrap() * 1000.0).round() as u32);
+		let exp_mass = explosive_type_to_tnt(&parameter_to_data(&file, "explosiveType").unwrap().replace("\"", ""), (parameter_to_data(&file, "explosiveMass").unwrap().parse::<f64>().unwrap() * 1000.0).round());
 
 		let pfuse = parameter_to_data(&file, "hasProximityFuse").map_or(false, |value| value.parse().unwrap());
 
@@ -241,7 +241,8 @@ impl Missile {
 			dragcx,
 			timelife,
 			endspeed,
-			exp_mass,
+			// Temporary workaround. TODO refactor to f64
+			exp_mass: exp_mass.round() as u32,
 			pfuse,
 			loadfactormax,
 			reqaccelmax,

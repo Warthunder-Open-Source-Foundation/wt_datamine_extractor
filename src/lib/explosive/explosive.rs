@@ -53,12 +53,12 @@ impl Explosive {
 	}
 }
 
-pub fn explosive_type_to_tnt(e_type: &str, raw_mass: u32) -> u32 {
-	if raw_mass == 0 || e_type.is_empty() {
-		return 0;
+pub fn explosive_type_to_tnt(e_type: &str, raw_mass: f64) -> f64 {
+	if raw_mass == 0.0 || e_type.is_empty() {
+		return 0.0;
 	}
 	if let Some(k) = EXPLOSIVE_MAP.get(e_type) {
-		return (k * f64::from(raw_mass)).round() as u32;
+		return (k * f64::from(raw_mass)).round();
 	};
 	panic!("Cannot resolve {} {}", e_type, raw_mass)
 }
