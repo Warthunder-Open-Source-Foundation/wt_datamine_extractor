@@ -11,9 +11,7 @@ impl KnownBombs {
 		let folder = fs::read_dir("resources/cache/aces.vromfs.bin_u/gamedata/weapons/bombguns").unwrap();
 		for i in folder.enumerate() {
 			if let Ok(file) = &i.1 {
-				if let Ok(contents) = fs::read_to_string(file.path()) {
-					index.push(file.file_name().to_str().unwrap().to_owned())
-				}
+				index.push(file.file_name().to_str().unwrap().to_owned())
 			}
 		}
 		index.sort();

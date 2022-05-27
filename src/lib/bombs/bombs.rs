@@ -4,7 +4,6 @@ use get_size::GetSize;
 use crate::bombs::known_bombs::KnownBombs;
 use crate::explosive::explosive::explosive_type_to_tnt;
 
-use crate::lang::{Lang, name_to_local};
 use crate::util::parameter_to_data;
 
 
