@@ -77,8 +77,10 @@ impl WeaponType {
 			r#""countermeasures""# => Countermeasures,
 			r#""atgm""# => AGM,
 			r#""additional gun""# => GunPod,
-			r#""targetingPod""# => TargetingPod,
-			r#"empty"# => Empty,
+			// Dummies are used as targeting pods
+			r#""targetingPod""# | r#""gunner0""# => TargetingPod,
+			// Yep, we got both in and out of quotes
+			r#""empty""# | "empty" => Empty,
 			_ => {
 				panic!("Cannot get Weapon from {input}");
 			}
@@ -174,7 +176,10 @@ impl CustomLoadout {
 						"heli_false_thermal_targets".to_owned()
 					}
 					_ => {
-						parameter_to_data(&preset, "iconType").unwrap().replace("\"", "")
+						parameter_to_data(&preset, "iconType").unwrap_or_else(|| {
+							println!("{}", name);
+							"".to_owned()
+						}).replace("\"", "")
 					}
 				};
 
@@ -270,7 +275,11 @@ pub fn get_container_weight(base_container: &str, mass: &mut f64, count: &mut u3
 		*mass = mass_str.parse::<f64>().unwrap();
 		*projectile_name = base_container.split(".").next().unwrap().split("/").last().unwrap().to_owned();
 	} else {
-		let param_bullets = parameter_to_data(&container, "bullets").unwrap().parse::<u32>().unwrap();
+		// Dummies are marked as containers yet they dont contain anything
+		if base_container.contains("dummy_weapon") {
+			return;
+		}
+		let param_bullets = parameter_to_data(&container, "bullets").expect(&container).parse::<u32>().unwrap();
 		if *count == 0 {
 			*count = param_bullets;
 		} else {

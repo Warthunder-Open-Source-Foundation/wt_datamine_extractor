@@ -369,6 +369,58 @@
     ]
   },
   {
+    "name": "100mm_ep",
+    "localized": "100mm_ep",
+    "shell_type": "Hesh",
+    "caliber": 100,
+    "true_caliber": 100,
+    "velocity": 399,
+    "penetration": [
+      [
+        0,
+        70
+      ]
+    ],
+    "explosive": [
+      "rdx_tnt",
+      1650,
+      2112
+    ]
+  },
+  {
+    "name": "100mm_gr_mod32",
+    "localized": "100mm_gr_mod32",
+    "shell_type": "He",
+    "caliber": 100,
+    "true_caliber": 100,
+    "velocity": 399,
+    "penetration": [],
+    "explosive": [
+      "tnt",
+      2218,
+      2218
+    ]
+  },
+  {
+    "name": "100mm_gr_mod914",
+    "localized": "100mm_gr_mod914",
+    "shell_type": "ApHe",
+    "caliber": 100,
+    "true_caliber": 100,
+    "velocity": 370,
+    "penetration": [
+      [
+        0,
+        62
+      ]
+    ],
+    "explosive": [
+      "tnt",
+      1550,
+      1550
+    ]
+  },
+  {
     "name": "100mm_of_412",
     "localized": "OF-412",
     "shell_type": "He",
@@ -1886,7 +1938,7 @@
     "penetration": [
       [
         0,
-        400
+        360
       ]
     ],
     "explosive": [
@@ -1905,7 +1957,7 @@
     "penetration": [
       [
         0,
-        400
+        360
       ]
     ],
     "explosive": [
@@ -8293,6 +8345,34 @@
     ]
   },
   {
+    "name": "155mm_g6_smoke",
+    "localized": "155mm_g6_smoke",
+    "shell_type": "Smoke",
+    "caliber": 155,
+    "true_caliber": 155,
+    "velocity": 897,
+    "penetration": [],
+    "explosive": [
+      "smoke_composition",
+      50,
+      50
+    ]
+  },
+  {
+    "name": "155mm_m1",
+    "localized": "155mm_m1",
+    "shell_type": "He",
+    "caliber": 155,
+    "true_caliber": 155,
+    "velocity": 897,
+    "penetration": [],
+    "explosive": [
+      "rdx_tnt",
+      8700,
+      11136
+    ]
+  },
+  {
     "name": "155mm_m107",
     "localized": "M107",
     "shell_type": "He",
@@ -8393,6 +8473,20 @@
       "exp_d",
       653,
       640
+    ]
+  },
+  {
+    "name": "155mm_m1_pf",
+    "localized": "155mm_m1_pf",
+    "shell_type": "He",
+    "caliber": 155,
+    "true_caliber": 155,
+    "velocity": 897,
+    "penetration": [],
+    "explosive": [
+      "rdx_tnt",
+      8700,
+      11136
     ]
   },
   {
@@ -9384,7 +9478,7 @@
     "shell_type": "ApHe",
     "caliber": 23,
     "true_caliber": 23,
-    "velocity": 980,
+    "velocity": 970,
     "penetration": [],
     "explosive": [
       "a_ix_2",
@@ -10189,7 +10283,7 @@
   {
     "name": "30mm_pmc308",
     "localized": "30mm_pmc308",
-    "shell_type": "He",
+    "shell_type": "Ahead",
     "caliber": 30,
     "true_caliber": 30,
     "velocity": 1100,
@@ -12690,6 +12784,20 @@
     ]
   },
   {
+    "name": "57mm_sgr_m43",
+    "localized": "57mm_sgr_m43",
+    "shell_type": "He",
+    "caliber": 57,
+    "true_caliber": 57,
+    "velocity": 600,
+    "penetration": [],
+    "explosive": [
+      "tnt",
+      500,
+      500
+    ]
+  },
+  {
     "name": "57mm_shell_mk10t",
     "localized": "Shell Mk.10",
     "shell_type": "He",
@@ -12959,6 +13067,44 @@
       [
         0,
         131
+      ]
+    ],
+    "explosive": [
+      "",
+      0,
+      0
+    ]
+  },
+  {
+    "name": "57mm_slpgr_m43",
+    "localized": "57mm_slpgr_m43",
+    "shell_type": "ApHe",
+    "caliber": 57,
+    "true_caliber": 57,
+    "velocity": 850,
+    "penetration": [
+      [
+        0,
+        99
+      ]
+    ],
+    "explosive": [
+      "tnt",
+      60,
+      60
+    ]
+  },
+  {
+    "name": "57mm_slpprj_m43",
+    "localized": "57mm_slpprj_m43",
+    "shell_type": "ApSolid",
+    "caliber": 57,
+    "true_caliber": 57,
+    "velocity": 830,
+    "penetration": [
+      [
+        0,
+        101
       ]
     ],
     "explosive": [
@@ -18024,7 +18170,7 @@
     "penetration": [
       [
         0,
-        192
+        193
       ]
     ],
     "explosive": [
@@ -18039,11 +18185,11 @@
     "shell_type": "ApSolid",
     "caliber": 90,
     "true_caliber": 90,
-    "velocity": 912,
+    "velocity": 914,
     "penetration": [
       [
         0,
-        193
+        194
       ]
     ],
     "explosive": [
