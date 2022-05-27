@@ -1260,6 +1260,15 @@
     "can_kill_npc_ship": true
   },
   {
+    "name": "su_zab500_test",
+    "weight": 250.0,
+    "explosive_mass": 120.0,
+    "explosive_type": "napalm",
+    "explosive_equiv": 0.0,
+    "can_kill_npc_tank": false,
+    "can_kill_npc_ship": false
+  },
+  {
     "name": "swd_120kg_sb_m61",
     "weight": 120.0,
     "explosive_mass": 30.0,
@@ -1424,9 +1433,9 @@
   {
     "name": "uk_500lb_he_mc_mk2",
     "weight": 213.1,
-    "explosive_mass": 65.5,
-    "explosive_type": "tnt",
-    "explosive_equiv": 66.0,
+    "explosive_mass": 100.7,
+    "explosive_type": "rdx_tnt",
+    "explosive_equiv": 129.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1451,9 +1460,9 @@
   {
     "name": "uk_540lbs",
     "weight": 213.1,
-    "explosive_mass": 105.23,
+    "explosive_mass": 94.0,
     "explosive_type": "torpex",
-    "explosive_equiv": 168.0,
+    "explosive_equiv": 150.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1760,6 +1769,15 @@
     "explosive_mass": 201.8,
     "explosive_type": "comp_b",
     "explosive_equiv": 264.0,
+    "can_kill_npc_tank": false,
+    "can_kill_npc_ship": false
+  },
+  {
+    "name": "us_blu27b",
+    "weight": 401.4,
+    "explosive_mass": 358.3,
+    "explosive_type": "napalm",
+    "explosive_equiv": 1.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },

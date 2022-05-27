@@ -358,6 +358,23 @@
     ]
   },
   {
+    "name": "cn_ztz_99a",
+    "localized": "ZTZ99A",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Commander",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
     "name": "fr_amx_10rc",
     "localized": "AMX-10RC",
     "vehicle_type": "Tank",
@@ -495,6 +512,18 @@
     ]
   },
   {
+    "name": "fr_vcac_mephisto",
+    "localized": "MEPHISTO",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "g_lynx",
     "localized": "G-LYNX",
     "vehicle_type": "Helicopter",
@@ -545,6 +574,18 @@
   {
     "name": "germ_leopard_2a4",
     "localized": "Leopard 2A4",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "germ_leopard_2a4_pzbtl_123",
+    "localized": "Leopard 2 (PzBtl 123)",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -825,6 +866,18 @@
     ]
   },
   {
+    "name": "il_merkava_mk_3b",
+    "localized": "Merkava Mk.3B",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "il_merkava_mk_4b",
     "localized": "Merkava Mk.4B",
     "vehicle_type": "Tank",
@@ -982,8 +1035,20 @@
     ]
   },
   {
+    "name": "it_vbc_pt2",
+    "localized": "VBC (PT2)",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "it_vcc_80_hitfist_30",
-    "localized": "VCC-80/30 ",
+    "localized": "VCC-80/30",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -995,7 +1060,7 @@
   },
   {
     "name": "it_vcc_80_hitfist_60",
-    "localized": "VCC-80/60 ",
+    "localized": "VCC-80/60",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1318,8 +1383,8 @@
     "sights": [
       {
         "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
+        "x": 500.0,
+        "y": 300.0
       }
     ]
   },
@@ -1420,6 +1485,18 @@
   {
     "name": "uk_challenger_1",
     "localized": "Challenger Mk.2",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "uk_challenger_1_mk_3_gulf",
+    "localized": "Challenger «ØC»",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1720,7 +1797,7 @@
   },
   {
     "name": "us_m1a1_abrams",
-    "localized": "M1A1 Abrams",
+    "localized": "M1A1",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1739,6 +1816,18 @@
         "crew": "Gunner",
         "x": 500.0,
         "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "us_m1a1_aim_abrams",
+    "localized": "M1A1 AIM",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
       }
     ]
   },
