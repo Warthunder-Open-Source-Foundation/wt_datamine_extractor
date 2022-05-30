@@ -7,7 +7,7 @@ use get_size::GetSize;
 use wt_datamine_extractor_lib::bombs::bombs::Bomb;
 use wt_datamine_extractor_lib::bombs::known_bombs::{KNOWN_BOMBS_LOC, KnownBombs};
 use wt_datamine_extractor_lib::custom_loadouts::custom_loadouts::CustomLoadout;
-use wt_datamine_extractor_lib::custom_loadouts::known_loadouts::KnownLoadouts;
+use wt_datamine_extractor_lib::custom_loadouts::known_loadouts::{KNOWN_LOADOUTS_LOC, KnownLoadouts};
 use wt_datamine_extractor_lib::extraction_traits::known::KnownItem;
 use wt_datamine_extractor_lib::lang::copy_lang;
 use wt_datamine_extractor_lib::missile::extract_missiles::KnownMissiles;
@@ -31,7 +31,7 @@ fn main() {
 		let known_missiles = KnownMissiles::generate_index().write_index().copy_index_to_folder();
 		let known_thermals = KnownThermals::generate_index().write_index().copy_index_to_folder();
 		let known_shells = KnownShells::generate_index().write_index().copy_index_to_folder();
-		let known_loadouts = KnownLoadouts::generate_index().write_index().copy_index_to_folder();
+		let known_loadouts = KnownLoadouts::generate_index(KNOWN_LOADOUTS_LOC).write_index("custom_loadouts/known.json").copy_index_to_folder(KNOWN_LOADOUTS_LOC, "custom_loadouts/aircraft/");
 
 		let known_bombs = KnownBombs::generate_index(KNOWN_BOMBS_LOC).write_index("bombs/known.json").copy_index_to_folder(KNOWN_BOMBS_LOC, "bombs/index/");
 
