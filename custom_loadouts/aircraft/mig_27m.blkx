@@ -3215,6 +3215,10 @@
               "external": true,
               "separate": true,
               "loadFactorLimit": 7.0
+            },
+            "BannedWeaponPreset": {
+              "slot": 7,
+              "preset": "kh29_t"
             }
           }
         },
@@ -3257,6 +3261,10 @@
               "external": true,
               "separate": true,
               "loadFactorLimit": 7.0
+            },
+            "BannedWeaponPreset": {
+              "slot": 7,
+              "preset": "kh29_l"
             }
           }
         },
@@ -4332,6 +4340,10 @@
               "external": true,
               "separate": true,
               "loadFactorLimit": 7.0
+            },
+            "BannedWeaponPreset": {
+              "slot": 1,
+              "preset": "kh29_t"
             }
           }
         },
@@ -4374,6 +4386,10 @@
               "external": true,
               "separate": true,
               "loadFactorLimit": 7.0
+            },
+            "BannedWeaponPreset": {
+              "slot": 1,
+              "preset": "kh29_l"
             }
           }
         },

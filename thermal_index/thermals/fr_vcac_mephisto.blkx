@@ -3532,9 +3532,11 @@
         }
       },
       "136mm_HOT_ATGM": [],
+      "150mm_HOT_2_ATGM": [],
+      "150mm_HOT_2_ATGM_ammo_pack": [],
       "tank_smoke_screen_system_mod": {
         "modClass": "protection",
-        "tier": 3,
+        "tier": 4,
         "effects": {
           "commonWeapons": [
             {

@@ -550,8 +550,13 @@
         "lockAfterLaunch": true,
         "useTargetVel": true,
         "lockTimeOut": 0.75,
+        "lockDistance": 16000.0,
         "afterLaunchSpeedUp": 170.0,
         "breakLockMaxTime": 5.0,
+        "inertialGuidance": {
+          "inertialNavigationDriftSpeed": 10.0,
+          "datalink": true
+        },
         "radarSeeker": {
           "band": 8,
           "sideLobesAttenuation": -16.0,
@@ -569,8 +574,8 @@
           },
           "receiver": {
             "rcs": 2.0,
-            "range": 40000.0,
-            "rangeMax": 45000.0,
+            "range": 16000.0,
+            "rangeMax": 25000.0,
             "timeGainControl": false,
             "antenna": {
               "angleHalfSens": 10.0,

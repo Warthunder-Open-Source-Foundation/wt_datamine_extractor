@@ -596,7 +596,13 @@
         "ex_decor_l_01_dm": [],
         "ex_decor_r_01_dm": [],
         "ex_decor_l_03_dm": [],
-        "ex_decor_r_03_dm": []
+        "ex_decor_r_03_dm": [],
+        "ex_decor_04_dm": [],
+        "ex_decor_02_dm": [],
+        "ex_decor_r_02_dm": [],
+        "ex_decor_r_04_dm": [],
+        "ex_decor_l_02_dm": [],
+        "ex_decor_l_04_dm": []
       },
       "body_side_screens": {
         "armorClass": "t_90_rubber_fabric_screens",
@@ -1049,7 +1055,6 @@
   },
   {
     "attachables": {
-      "superstructure_back_dm": false,
       "turret_back_dm": false,
       "turret_08_top_dm": true,
       "ex_armor_01_dm": true,

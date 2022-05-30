@@ -12,6 +12,7 @@
   "haveCCRPForBombs": true,
   "havePointOfInterestDesignator": true,
   "ilsASP17": true,
+  "isBwOpticSight": true,
   "type": "typeFighter",
   "paratrooper": "ally",
   "advancedInstructor": true,
@@ -2379,6 +2380,7 @@
           "display": {
             "textureArea": [0.0,0.0,1.0,1.0],
             "monoDisplayColor": [0.95,0.9,0.7],
+            "cameraFromShell": true,
             "page": {
               "type": "target_tracking",
               "turretIdx": 0

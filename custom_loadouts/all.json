@@ -2258,9 +2258,9 @@
             "name": "aim_9e_default_left_wing",
             "localized": "AIM-9E",
             "icon_type": "missile_air_to_air",
-            "count": 2,
+            "count": 1,
             "individual_mass": 76.43,
-            "total_mass": 152.86,
+            "total_mass": 76.43,
             "weapon_type": "AAM",
             "depend_on": null
           },
@@ -2496,9 +2496,9 @@
             "name": "aim_9e_default_right_wing",
             "localized": "AIM-9E",
             "icon_type": "missile_air_to_air",
-            "count": 2,
+            "count": 1,
             "individual_mass": 76.43,
-            "total_mass": 152.86,
+            "total_mass": 76.43,
             "weapon_type": "AAM",
             "depend_on": null
           },
@@ -2908,9 +2908,9 @@
             "name": "aim_9e_default_left_wing",
             "localized": "AIM-9E",
             "icon_type": "missile_air_to_air",
-            "count": 2,
+            "count": 1,
             "individual_mass": 76.43,
-            "total_mass": 152.86,
+            "total_mass": 76.43,
             "weapon_type": "AAM",
             "depend_on": null
           },
@@ -3116,9 +3116,9 @@
             "name": "aim_9e_default_right_wing",
             "localized": "AIM-9E",
             "icon_type": "missile_air_to_air",
-            "count": 2,
+            "count": 1,
             "individual_mass": 76.43,
-            "total_mass": 152.86,
+            "total_mass": 76.43,
             "weapon_type": "AAM",
             "depend_on": null
           },
@@ -3829,12 +3829,12 @@
             "depend_on": null
           },
           {
-            "name": "mer_mk83_x2",
+            "name": "mer_mk83_x3",
             "localized": "1000 lb",
-            "icon_type": "bombs_special_group",
-            "count": 2,
+            "icon_type": "bombs_special_group_x3",
+            "count": 3,
             "individual_mass": 446.8,
-            "total_mass": 893.6,
+            "total_mass": 1340.4,
             "weapon_type": "Bomb",
             "depend_on": null
           },
@@ -3948,9 +3948,9 @@
             "name": "aim_9e_default_left_wing",
             "localized": "AIM-9E",
             "icon_type": "missile_type_b_air_to_air",
-            "count": 2,
+            "count": 1,
             "individual_mass": 76.43,
-            "total_mass": 152.86,
+            "total_mass": 76.43,
             "weapon_type": "AAM",
             "depend_on": null
           },
@@ -4074,9 +4074,9 @@
             "name": "aim_9e_default_right_wing",
             "localized": "AIM-9E",
             "icon_type": "missile_type_b_air_to_air",
-            "count": 2,
+            "count": 1,
             "individual_mass": 76.43,
-            "total_mass": 152.86,
+            "total_mass": 76.43,
             "weapon_type": "AAM",
             "depend_on": null
           },
@@ -4506,9 +4506,9 @@
             "name": "aim_9e_default_left_wing",
             "localized": "AIM-9E",
             "icon_type": "missile_type_b_air_to_air",
-            "count": 2,
+            "count": 1,
             "individual_mass": 76.43,
-            "total_mass": 152.86,
+            "total_mass": 76.43,
             "weapon_type": "AAM",
             "depend_on": null
           },
@@ -4632,9 +4632,9 @@
             "name": "aim_9e_default_right_wing",
             "localized": "AIM-9E",
             "icon_type": "missile_type_b_air_to_air",
-            "count": 2,
+            "count": 1,
             "individual_mass": 76.43,
-            "total_mass": 152.86,
+            "total_mass": 76.43,
             "weapon_type": "AAM",
             "depend_on": null
           },
@@ -6206,7 +6206,7 @@
         "weapons": [
           {
             "name": "aim_9d_deafult",
-            "localized": "AIM-9D",
+            "localized": "us_aim9d_sidewinder_default",
             "icon_type": "missile_air_to_air",
             "count": 1,
             "individual_mass": 88.45,
@@ -6576,7 +6576,7 @@
         "weapons": [
           {
             "name": "aim_9d_deafult",
-            "localized": "AIM-9D",
+            "localized": "us_aim9d_sidewinder_default",
             "icon_type": "missile_air_to_air",
             "count": 1,
             "individual_mass": 88.45,

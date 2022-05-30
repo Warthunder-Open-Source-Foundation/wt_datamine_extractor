@@ -6483,6 +6483,49 @@
     ]
   },
   {
+    "name": "125mm_dtc10_125",
+    "localized": "125mm_dtc10_125",
+    "shell_type": "ApFsDs",
+    "caliber": 125,
+    "true_caliber": 23,
+    "velocity": 1740,
+    "penetration": [
+      [
+        0,
+        552
+      ],
+      [
+        100,
+        550
+      ],
+      [
+        500,
+        542
+      ],
+      [
+        1000,
+        532
+      ],
+      [
+        1500,
+        521
+      ],
+      [
+        2000,
+        511
+      ],
+      [
+        3000,
+        490
+      ]
+    ],
+    "explosive": [
+      "",
+      0,
+      0
+    ]
+  },
+  {
     "name": "125mm_dtp_125",
     "localized": "DTP-125",
     "shell_type": "HeatFs",
@@ -7549,6 +7592,25 @@
       "rdx_tnt",
       4160,
       5325
+    ]
+  },
+  {
+    "name": "150mm_k3s_hot_2",
+    "localized": "150mm_k3s_hot_2",
+    "shell_type": "Atgm",
+    "caliber": 150,
+    "true_caliber": 150,
+    "velocity": 0,
+    "penetration": [
+      [
+        0,
+        900
+      ]
+    ],
+    "explosive": [
+      "hta",
+      4060,
+      4872
     ]
   },
   {

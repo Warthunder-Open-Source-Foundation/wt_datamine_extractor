@@ -219,6 +219,9 @@
         "turret_05_top_dm": {
           "armorThickness": 20.0
         },
+        "turret_05_side_dm": {
+          "armorThickness": 20.0
+        },
         "turret_03_front_dm": {
           "armorThickness": 10.0,
           "hidableInViewer": true
@@ -288,6 +291,21 @@
         },
         "ex_armor_01_dm": {
           "armorThickness": 10.0
+        },
+        "ex_armor_turret_05_dm": {
+          "armorThickness": 5.0
+        },
+        "ex_armor_turret_07_dm": {
+          "armorThickness": 5.0
+        },
+        "ex_armor_turret_08_dm": {
+          "armorThickness": 25.0
+        },
+        "ex_armor_03_dm": {
+          "armorThickness": 20.0
+        },
+        "gun_barrel_armor_dm": {
+          "armorThickness": 5.0
         }
       },
       "composite_armor": {
@@ -421,9 +439,11 @@
         "ex_armor_l_01_dm": [],
         "ex_armor_l_02_dm": [],
         "ex_armor_l_03_dm": [],
+        "ex_armor_l_05_dm": [],
         "ex_armor_r_01_dm": [],
         "ex_armor_r_02_dm": [],
         "ex_armor_r_03_dm": [],
+        "ex_armor_r_05_dm": [],
         "turret_07_side_dm": {
           "armorThickness": 15.0
         },
@@ -467,21 +487,21 @@
         "armorClass": "hull_side_special_armor",
         "hidableInXrayViewer": true,
         "turret_09_side_dm": {
-          "armorThickness": 25.0,
+          "armorThickness": 50.0,
           "hidableInViewer": true
         },
         "turret_top_dm": {
           "armorThickness": 25.0,
           "hidableInViewer": true
         },
-        "turret_05_side_dm": {
-          "armorThickness": 25.0
-        },
         "turret_06_top_dm": {
           "armorThickness": 25.0
         },
         "turret_06_front_dm": {
           "armorThickness": 50.0
+        },
+        "turret_08_bottom_dm": {
+          "armorThickness": 25.0
         }
       },
       "fireproof_ammo_containers": {

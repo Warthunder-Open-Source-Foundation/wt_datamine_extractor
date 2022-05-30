@@ -428,6 +428,9 @@
         "ex_era_hull_21_dm": [],
         "ex_era_hull_22_dm": [],
         "ex_era_hull_23_dm": [],
+        "ex_era_hull_24_dm": [],
+        "ex_era_hull_25_dm": [],
+        "ex_era_hull_26_dm": [],
         "ex_era_turret_07_dm": [],
         "ex_era_turret_08_dm": [],
         "ex_era_turret_09_dm": [],
@@ -4072,7 +4075,11 @@
         "tier": 1
       },
       "125mm_china_DTW_APDS_FS": [],
-      "125mm_china_DTW_APDS_FS_ammo_pack": [],
+      "125mm_china_DTW_APDS_FS_ammo_pack": {
+        "tier": 3
+      },
+      "125mm_china_DTC10_APDS_FS": [],
+      "125mm_china_DTC10_APDS_FS_ammo_pack": [],
       "tank_smoke_screen_system_mod": {
         "modClass": "protection",
         "tier": 4,

@@ -3425,7 +3425,7 @@
             "WeaponPreset": {
               "iconType": "bombs_middle_group_x6",
               "name": "mer_mk82_x6",
-              "reqModification": "us_750lb_m117a1",
+              "reqModification": "us_500lb_mk82",
               "ShowNodes": {
                 "node": "pylon_l_out"
               },
@@ -3457,15 +3457,15 @@
           },
           {
             "WeaponPreset": {
-              "iconType": "bombs_special_group",
-              "name": "mer_mk83_x2",
+              "iconType": "bombs_special_group_x3",
+              "name": "mer_mk83_x3",
               "reqModification": "us_1000lb_mk83",
               "ShowNodes": {
                 "node": "pylon_l_out"
               },
               "Weapon": {
                 "trigger": "bombs",
-                "blk": "gameData/Weapons/containers/mer_us_1000lb_mk_83_x2.blk",
+                "blk": "gameData/Weapons/containers/mer_us_1000lb_mk_83_x3.blk",
                 "emitter": "mer_001",
                 "external": true,
                 "machLimit": 1.01
@@ -3619,7 +3619,7 @@
             "WeaponPreset": {
               "iconType": "bombs_middle_group",
               "name": "ter_mk82",
-              "reqModification": "us_750lb_m117a1",
+              "reqModification": "us_500lb_mk82",
               "ShowNodes": [
                 {
                   "node": "pylon_l_in"
@@ -3860,7 +3860,7 @@
             "WeaponPreset": {
               "iconType": "bombs_middle_group_x6",
               "name": "mer_mk82_x6",
-              "reqModification": "us_750lb_m117a1",
+              "reqModification": "us_500lb_mk82",
               "ShowNodes": {
                 "node": "pylon_centr"
               },
@@ -4093,7 +4093,7 @@
             "WeaponPreset": {
               "iconType": "bombs_middle_group",
               "name": "ter_mk82",
-              "reqModification": "us_750lb_m117a1",
+              "reqModification": "us_500lb_mk82",
               "ShowNodes": [
                 {
                   "node": "pylon_r_in"
@@ -4247,7 +4247,7 @@
             "WeaponPreset": {
               "iconType": "bombs_middle_group_x6",
               "name": "mer_mk82_x6",
-              "reqModification": "us_750lb_m117a1",
+              "reqModification": "us_500lb_mk82",
               "ShowNodes": {
                 "node": "pylon_r_out"
               },

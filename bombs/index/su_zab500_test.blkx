@@ -68,7 +68,10 @@
         "radius": 20.0,
         "fxType": "explosion_napalm_wrackages",
         "burnFxType": "explosion_napalm_firespot",
-        "burnFxSize": 4.0
+        "burnFxSize": 4.0,
+        "scorchAddSize": 1.0,
+        "scorchStrength": 1.0,
+        "scorchDuration": 10.0
       }
     }
   ]
