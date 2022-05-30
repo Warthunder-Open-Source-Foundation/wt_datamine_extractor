@@ -11,7 +11,7 @@ pub trait KnownItem {
 		let folder = fs::read_dir(path).unwrap();
 		for i in folder.enumerate() {
 			if let Ok(file) = &i.1 {
-				index.push(file.file_name().to_str().unwrap().to_owned())
+				index.push(file.file_name().to_str().unwrap().to_owned());
 			}
 		}
 		index.sort();
@@ -19,11 +19,13 @@ pub trait KnownItem {
 		known
 	}
 	/// Stores index to usual known file
+	#[must_use]
 	fn write_index(self, path: &str) -> Self where Self: serde::Serialize + Sized {
 		fs::write(path, serde_json::to_string_pretty(&self).unwrap()).unwrap();
 		self
 	}
 	/// Copies index from cache folder into designated one
+	#[must_use]
 	fn copy_index_to_folder(self, format_path: &str, destination_path: &str) -> Self where Self: Sized {
 		for i in self.get_index() {
 			let file_path = format!("{format_path}{i}");

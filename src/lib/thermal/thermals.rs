@@ -49,7 +49,7 @@ impl Thermal {
 				let name: String = i.split('.').collect::<Vec<&str>>()[0].to_owned();
 
 				if sights.is_empty() {
-					panic!("Missing sight on {}", name)
+					assert!(!sights.is_empty(), "Missing sight on {}", name);
 				}
 				generated.push(Self {
 					localized: name_to_local(&name, &Lang::Unit).clone(),

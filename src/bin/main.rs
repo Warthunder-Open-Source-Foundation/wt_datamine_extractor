@@ -68,7 +68,7 @@ fn main() {
 	println!("Process took {:?}", start.elapsed());
 }
 
-pub fn copy_loadouts() {
+fn copy_loadouts() {
 	let options = CopyOptions {
 		overwrite: true,
 		skip_exist: false,

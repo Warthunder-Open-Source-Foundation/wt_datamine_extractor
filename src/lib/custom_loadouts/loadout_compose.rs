@@ -67,6 +67,7 @@ impl CustomLoadout {
 						let required_slot = depend.slot as usize - 1;
 
 						// The slot that the user has chosen
+						#[allow(clippy::manual_saturating_arithmetic)]
 						let user_selected_slot = selection[required_slot].checked_sub(1).unwrap_or(0);
 
 						// The slot the pylon actually needs

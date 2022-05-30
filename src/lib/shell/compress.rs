@@ -29,12 +29,12 @@ pub struct CompressedShells {
 
 impl CompressedShells {
 	pub fn compress(shells_old: &[Shell]) -> Self {
-		let mut shells = shells_old.clone().to_vec();
+		let mut shells = shells_old.to_vec();
 		shells.sort_by_key(|x|format!("{:?}", x));
 		shells.iter().fold(CompressedShells::default(), |mut acc, v| {
 			acc.name.push(v.name.clone());
 			acc.localized.push(v.localized.clone());
-			acc.shell_type.push(v.shell_type.clone());
+			acc.shell_type.push(v.shell_type);
 			acc.caliber.push(v.caliber);
 			acc.true_caliber.push(v.true_caliber);
 			acc.velocity.push(v.velocity);
@@ -49,7 +49,7 @@ impl CompressedShells {
 			shells.push( Shell {
 				name: i.1.clone(),
 				localized: self.localized[i.0].clone(),
-				shell_type: self.shell_type[i.0].clone(),
+				shell_type: self.shell_type[i.0],
 				caliber: self.caliber[i.0],
 				true_caliber: self.true_caliber[i.0],
 				velocity: self.velocity[i.0],

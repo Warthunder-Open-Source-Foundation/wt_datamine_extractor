@@ -7,6 +7,7 @@ use crate::lang::{Lang, name_to_local};
 use crate::missile::known_missiles::KnownMissiles;
 use crate::util::parameter_to_data;
 
+#[allow(clippy::struct_excessive_bools)]
 #[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone, const_gen::CompileConst, get_size::GetSize)]
 pub struct Missile {
 	// metadata that is global or does not exist on files that are generated
@@ -167,7 +168,7 @@ impl Missile {
 
 		let endspeed = parameter_to_data(&file, "endSpeed").unwrap().parse().unwrap();
 
-		let exp_mass = explosive_type_to_tnt(&parameter_to_data(&file, "explosiveType").unwrap().replace("\"", ""), (parameter_to_data(&file, "explosiveMass").unwrap().parse::<f64>().unwrap() * 1000.0).round());
+		let exp_mass = explosive_type_to_tnt(&parameter_to_data(&file, "explosiveType").unwrap().replace('\"', ""), (parameter_to_data(&file, "explosiveMass").unwrap().parse::<f64>().unwrap() * 1000.0).round());
 
 		let pfuse = parameter_to_data(&file, "hasProximityFuse").map_or(false, |value| value.parse().unwrap());
 
@@ -288,7 +289,7 @@ impl Missile {
 
 	pub fn select_by_name(missiles: &[Self], name: &str) -> Option<Self> {
 		for (i, missile) in missiles.iter().enumerate() {
-			if missile.name.contains(&name.replace("-", "_")) {
+			if missile.name.contains(&name.replace('-', "_")) {
 				return Some(missiles[i].clone());
 			}
 		}

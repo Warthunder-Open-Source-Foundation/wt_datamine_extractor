@@ -26,7 +26,7 @@ impl Bomb {
 
 		let explosive_mass: f64 = parameter_to_data(&file, "explosiveMass").unwrap_or("0.0".to_owned()).parse().unwrap();
 
-		let explosive_type = parameter_to_data(&file, "explosiveType").unwrap_or("tnt".to_owned()).parse::<String>().unwrap().replace("\"", "");
+		let explosive_type = parameter_to_data(&file, "explosiveType").unwrap_or("tnt".to_owned()).parse::<String>().unwrap().replace('\"', "");
 
 		let explosive_equiv = explosive_type_to_tnt(&explosive_type, explosive_mass);
 

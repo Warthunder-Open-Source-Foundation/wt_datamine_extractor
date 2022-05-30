@@ -13,7 +13,7 @@ pub fn shell_to_penetration(shell: &str) -> Vec<(u32, u32)> {
 	} else if shell.contains("ArmorPower0m") {
 		for range in 0..5000 / 100 {
 			if let Some(param) = &parameter_to_data(shell, &format!("ArmorPower{}m", range * 100)) {
-				let param_64 = f64::from_str(&param.split('.').collect::<Vec<&str>>()[0].replace("[", "")).unwrap();
+				let param_64 = f64::from_str(&param.split('.').collect::<Vec<&str>>()[0].replace('[', "")).unwrap();
 				penetration.push((range * 100, param_64.round() as u32));
 			}
 		}

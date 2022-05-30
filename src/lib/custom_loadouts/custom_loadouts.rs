@@ -1,9 +1,9 @@
 use std::fs;
+
 use get_size::GetSize;
 
 use crate::custom_loadouts::custom_loadouts::WeaponType::{AAM, AGM, Bomb, Cannon, Countermeasures, Empty, GBU, GunPod, Rocket, TargetingPod};
 use crate::custom_loadouts::known_loadouts::KnownLoadouts;
-
 use crate::lang::{Lang, name_to_local};
 use crate::util::parameter_to_data;
 
@@ -89,6 +89,7 @@ impl WeaponType {
 }
 
 impl CustomLoadout {
+	#[allow(clippy::too_many_lines)]
 	pub fn new_from_file(file: &[u8], name: String) -> Self {
 		let file = String::from_utf8(file.to_vec()).unwrap();
 
@@ -107,21 +108,13 @@ impl CustomLoadout {
 		let mut split_pylons = file.split("\"WeaponSlot\"").collect::<Vec<&str>>();
 		split_pylons.remove(0);
 		for slot in split_pylons {
-			let exempt_from_imbalance = parameter_to_data(&slot, "notUseforDisbalanceCalculation").unwrap_or("false".to_owned()).parse().unwrap();
+			let exempt_from_imbalance = parameter_to_data(slot, "notUseforDisbalanceCalculation").unwrap_or("false".to_owned()).parse().unwrap();
 
-			let index = parameter_to_data(&slot, "index").unwrap().parse().unwrap();
+			let index = parameter_to_data(slot, "index").unwrap().parse().unwrap();
 
-			let tier = if let Some(param) = parameter_to_data(&slot, "tier") {
-				Some(param.parse::<u32>().unwrap())
-			} else {
-				None
-			};
+			let tier = parameter_to_data(slot, "tier").map(|param| param.parse::<u32>().unwrap());
 
-			let order = if let Some(param) = parameter_to_data(&slot, "order") {
-				Some(param.parse::<u32>().unwrap())
-			} else {
-				None
-			};
+			let order = parameter_to_data(slot, "order").map(|param| param.parse::<u32>().unwrap());
 
 			let mut weapons: Vec<Weapon> = vec![];
 
@@ -129,7 +122,7 @@ impl CustomLoadout {
 			split_weapons.remove(0);
 
 			for preset in split_weapons {
-				let weapon_type = WeaponType::from_str(&parameter_to_data(&preset, "trigger").unwrap_or("empty".to_owned()));
+				let weapon_type = WeaponType::from_str(&parameter_to_data(preset, "trigger").unwrap_or("empty".to_owned()));
 
 				if weapon_type == WeaponType::Empty {
 					weapons.push(Weapon {
@@ -140,31 +133,31 @@ impl CustomLoadout {
 						weapon_type,
 						localized: "Empty".to_owned(),
 						icon_type: "".to_owned(),
-						depend_on: None
+						depend_on: None,
 					});
 					continue;
 				}
 
-				let blk_path = parameter_to_data(&preset, "blk").unwrap();
+				let blk_path = parameter_to_data(preset, "blk").unwrap();
 
 				let mut mass: f64 = 0.0;
 				let mut count: u32 = 0;
 				let mut projectile_name = "".to_owned();
 				get_container_weight(&blk_path, &mut mass, &mut count, &mut projectile_name);
-				let weight = mass * count as f64;
+				let weight = mass * f64::from(count);
 
-				let name = parameter_to_data(&preset, "name").unwrap().replace("\"", "");
+				let name = parameter_to_data(preset, "name").unwrap().replace('\"', "");
 				let direct_local = name_to_local(&name, &Lang::Weapon);
 
 				let localized = match () {
 					_ if !projectile_name.is_empty() => {
-						name_to_local(&projectile_name.replace("\"", ""), &Lang::Weapon)
+						name_to_local(&projectile_name.replace('\"', ""), &Lang::Weapon)
 					}
 					_ if name != direct_local => {
-						parameter_to_data(&preset, "reqModification").unwrap_or(name.clone()).replace("\"", "")
+						parameter_to_data(preset, "reqModification").unwrap_or(name.clone()).replace('\"', "")
 					}
 					_ => {
-						name.clone().replace("\"", "")
+						name.clone().replace('\"', "")
 					}
 				};
 
@@ -176,44 +169,37 @@ impl CustomLoadout {
 						"heli_false_thermal_targets".to_owned()
 					}
 					_ => {
-						parameter_to_data(&preset, "iconType").unwrap_or_else(|| {
+						parameter_to_data(preset, "iconType").unwrap_or_else(|| {
 							println!("{}", name);
 							"".to_owned()
-						}).replace("\"", "")
+						}).replace('\"', "")
 					}
 				};
 
-				let split_on_depend = preset.split("DependentWeaponPreset").to_owned().collect::<Vec<&str>>();
+				let split_on_depend = preset.split("DependentWeaponPreset").collect::<Vec<&str>>();
 				let depend_on = if split_on_depend.len() > 1 {
-
 					let target = split_on_depend[1];
 					Some(Dependent {
-						name: parameter_to_data(target, "preset").unwrap().replace("\"", ""),
+						name: parameter_to_data(target, "preset").unwrap().replace('\"', ""),
 						slot: parameter_to_data(target, "slot").unwrap().parse().unwrap(),
 					})
 				} else {
 					None
 				};
 
-					weapons.push(Weapon {
-						localized,
-						icon_type,
-						count,
-						individual_mass: mass,
-						name,
-						total_mass: weight,
-						weapon_type,
-						depend_on,
-					});
+				weapons.push(Weapon {
+					localized,
+					icon_type,
+					count,
+					individual_mass: mass,
+					name,
+					total_mass: weight,
+					weapon_type,
+					depend_on,
+				});
 			}
 
-			let pylon = Pylon {
-				exempt_from_imbalance,
-				weapons,
-				index,
-				tier,
-				order,
-			};
+			let pylon = Pylon { index, tier, order, exempt_from_imbalance, weapons };
 
 			if tier.is_none() {
 				misc_pylons.push(pylon);
@@ -257,7 +243,7 @@ impl CustomLoadout {
 
 	pub fn select_by_name(loadouts: &[Self], name: &str) -> Option<Self> {
 		for (i, loadout) in loadouts.iter().enumerate() {
-			if loadout.aircraft.contains(&name.replace("-", "_")) {
+			if loadout.aircraft.contains(&name.replace('-', "_")) {
 				return Some(loadouts[i].clone());
 			}
 		}
@@ -273,7 +259,7 @@ pub fn get_container_weight(base_container: &str, mass: &mut f64, count: &mut u3
 			*count = 1;
 		}
 		*mass = mass_str.parse::<f64>().unwrap();
-		*projectile_name = base_container.split(".").next().unwrap().split("/").last().unwrap().to_owned();
+		*projectile_name = base_container.split('.').next().unwrap().split('/').last().unwrap().to_owned();
 	} else {
 		// Dummies are marked as containers yet they dont contain anything
 		if base_container.contains("dummy_weapon") {
@@ -292,8 +278,8 @@ pub fn get_container_weight(base_container: &str, mass: &mut f64, count: &mut u3
 }
 
 pub fn wt_blk_to_actual(raw: &str) -> String {
-	let clean_path = raw.replace("\"", "");
-	let mut split = clean_path.split("/").collect::<Vec<&str>>();
+	let clean_path = raw.replace('\"', "");
+	let mut split = clean_path.split('/').collect::<Vec<&str>>();
 	split.remove(0);
 	format!("custom_loadouts/{}", split.join("/").to_ascii_lowercase() + "x")
 }
