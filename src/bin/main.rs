@@ -1,21 +1,22 @@
 use std::fs;
 use std::time::Instant;
+
 use fs_extra::dir::CopyOptions;
 use get_size::GetSize;
+
 use wt_datamine_extractor_lib::bombs::bombs::Bomb;
-use wt_datamine_extractor_lib::bombs::known_bombs::KnownBombs;
+use wt_datamine_extractor_lib::bombs::known_bombs::{KNOWN_BOMBS_LOC, KnownBombs};
 use wt_datamine_extractor_lib::custom_loadouts::custom_loadouts::CustomLoadout;
 use wt_datamine_extractor_lib::custom_loadouts::known_loadouts::KnownLoadouts;
-use wt_datamine_extractor_lib::lang::{copy_lang};
+use wt_datamine_extractor_lib::extraction_traits::known::KnownItem;
+use wt_datamine_extractor_lib::lang::copy_lang;
 use wt_datamine_extractor_lib::missile::extract_missiles::KnownMissiles;
 use wt_datamine_extractor_lib::missile::missile::Missile;
 use wt_datamine_extractor_lib::shell::compress::CompressedShells;
-
 use wt_datamine_extractor_lib::shell::known_shells::KnownShells;
-use wt_datamine_extractor_lib::shell::shells::{Shell};
+use wt_datamine_extractor_lib::shell::shells::Shell;
 use wt_datamine_extractor_lib::thermal::extract_thermals::KnownThermals;
 use wt_datamine_extractor_lib::thermal::thermals::Thermal;
-
 
 fn main() {
 	let start = Instant::now();
@@ -31,7 +32,8 @@ fn main() {
 		let known_thermals = KnownThermals::generate_index().write_index().copy_index_to_folder();
 		let known_shells = KnownShells::generate_index().write_index().copy_index_to_folder();
 		let known_loadouts = KnownLoadouts::generate_index().write_index().copy_index_to_folder();
-		let known_bombs = KnownBombs::generate_index().write_index().copy_index_to_folder();
+
+		let known_bombs = KnownBombs::generate_index(KNOWN_BOMBS_LOC).write_index("bombs/known.json").copy_index_to_folder(KNOWN_BOMBS_LOC, "bombs/index/");
 
 		let missiles = Missile::generate_from_index(&known_missiles);
 		let thermals = Thermal::generate_from_index(&known_thermals);
@@ -47,7 +49,7 @@ fn main() {
 				 shells.get_heap_size() / 1024,
 				 compressed_shells.get_heap_size() / 1024,
 				 loadouts.get_heap_size() / 1024,
-				bombs.get_heap_size() / 1024,
+				 bombs.get_heap_size() / 1024,
 		);
 
 
