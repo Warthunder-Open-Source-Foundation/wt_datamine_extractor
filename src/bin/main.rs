@@ -10,7 +10,7 @@ use wt_datamine_extractor_lib::custom_loadouts::custom_loadouts::CustomLoadout;
 use wt_datamine_extractor_lib::custom_loadouts::known_loadouts::{KNOWN_LOADOUTS_LOC, KnownLoadouts};
 use wt_datamine_extractor_lib::extraction_traits::known::KnownItem;
 use wt_datamine_extractor_lib::lang::copy_lang;
-use wt_datamine_extractor_lib::missile::extract_missiles::KnownMissiles;
+use wt_datamine_extractor_lib::missile::known_missiles::KnownMissiles;
 use wt_datamine_extractor_lib::missile::missile::Missile;
 use wt_datamine_extractor_lib::shell::compress::CompressedShells;
 use wt_datamine_extractor_lib::shell::known_shells::KnownShells;

@@ -4,7 +4,7 @@ use get_size::GetSize;
 use crate::explosive::explosive::explosive_type_to_tnt;
 
 use crate::lang::{Lang, name_to_local};
-use crate::missile::extract_missiles::KnownMissiles;
+use crate::missile::known_missiles::KnownMissiles;
 use crate::util::parameter_to_data;
 
 #[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone, const_gen::CompileConst, get_size::GetSize)]
