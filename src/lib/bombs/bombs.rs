@@ -1,12 +1,10 @@
 use std::fs;
+
 use get_size::GetSize;
 
 use crate::bombs::known_bombs::KnownBombs;
 use crate::explosive::explosive::explosive_type_to_tnt;
-
 use crate::util::parameter_to_data;
-
-
 
 #[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone, const_gen::CompileConst, get_size::GetSize)]
 pub struct Bomb {
@@ -41,7 +39,7 @@ impl Bomb {
 			explosive_type,
 			explosive_equiv,
 			can_kill_npc_tank,
-			can_kill_npc_ship
+			can_kill_npc_ship,
 		}
 	}
 

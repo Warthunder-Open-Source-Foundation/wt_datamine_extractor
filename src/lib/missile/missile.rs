@@ -1,8 +1,8 @@
 use std::fs;
+
 use get_size::GetSize;
 
 use crate::explosive::explosive::explosive_type_to_tnt;
-
 use crate::lang::{Lang, name_to_local};
 use crate::missile::known_missiles::KnownMissiles;
 use crate::util::parameter_to_data;
@@ -221,7 +221,7 @@ impl Missile {
 
 		let inertial_navigation = parameter_to_data(&file, "inertialNavigation").unwrap_or_else(|| "false".to_owned()).parse::<bool>().unwrap();
 
-		let use_target_vel= parameter_to_data(&file, "useTargetVel").unwrap_or_else(|| "false".to_owned()).parse::<bool>().unwrap();
+		let use_target_vel = parameter_to_data(&file, "useTargetVel").unwrap_or_else(|| "false".to_owned()).parse::<bool>().unwrap();
 
 		let allow_radar_slave = file.contains("designationSourceTypeMask");
 
@@ -266,7 +266,7 @@ impl Missile {
 	}
 
 	pub fn write_all(mut values: Vec<Self>) -> Vec<Self> {
-		values.sort_by_key(|d|d.name.clone());
+		values.sort_by_key(|d| d.name.clone());
 		fs::write("missile_index/all.json", serde_json::to_string_pretty(&values).unwrap()).unwrap();
 		values
 	}
@@ -275,7 +275,6 @@ impl Missile {
 		let mut generated: Vec<Self> = vec![];
 		for i in &index.path {
 			if let Ok(file) = fs::read(format!("missile_index/missiles/{}", i)) {
-
 				let name = i.split('.').collect::<Vec<&str>>()[0].to_owned();
 
 				let missile = Missile::new_from_file(&file, name);
@@ -283,7 +282,7 @@ impl Missile {
 				generated.push(missile);
 			}
 		}
-		generated.sort_by_key(|x|x.name.clone());
+		generated.sort_by_key(|x| x.name.clone());
 		generated
 	}
 

@@ -1,8 +1,8 @@
 use std::fs;
+
 use get_size::GetSize;
 
 use crate::lang::{Lang, name_to_local};
-
 use crate::thermal::known_thermals::KnownThermals;
 
 #[derive(Clone, serde::Serialize, serde::Deserialize, Debug, PartialEq, const_gen::CompileConst, get_size::GetSize)]
@@ -59,12 +59,12 @@ impl Thermal {
 				});
 			}
 		}
-		generated.sort_by_key(|x|x.name.clone());
+		generated.sort_by_key(|x| x.name.clone());
 		generated
 	}
 
 	pub fn write_all(mut values: Vec<Self>) -> Vec<Self> {
-		values.sort_by_key(|d|d.name.clone());
+		values.sort_by_key(|d| d.name.clone());
 		fs::write("thermal_index/all.json", serde_json::to_string_pretty(&values).unwrap()).unwrap();
 		values
 	}

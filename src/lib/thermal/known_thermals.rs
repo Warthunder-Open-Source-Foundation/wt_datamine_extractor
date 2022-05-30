@@ -1,4 +1,5 @@
 use std::fs;
+
 use crate::extraction_traits::known::{Index, KnownItem, OwnedIndex};
 
 pub const KNOWN_THERMALS_LOC_TANK: &str = "resources/cache/aces.vromfs.bin_u/gamedata/units/tankmodels/";
@@ -28,7 +29,7 @@ impl KnownItem for KnownThermals {
 		for i in folder_planes.enumerate() {
 			if let Ok(file) = &i.1 {
 				if let Ok(contents) = fs::read_to_string(file.path()) {
-					if contents.contains("sightTPodThermal") || contents.contains("sightThermal"){
+					if contents.contains("sightTPodThermal") || contents.contains("sightThermal") {
 						index.push(file.file_name().into_string().unwrap());
 					}
 				}

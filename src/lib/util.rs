@@ -8,6 +8,4 @@ pub fn parameter_to_data(file: &str, parameter: &str) -> Option<String> {
 }
 
 #[cfg(test)]
-mod tests {
-
-}
+mod tests {}

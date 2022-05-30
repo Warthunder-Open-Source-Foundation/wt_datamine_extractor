@@ -10,6 +10,7 @@ use wt_datamine_extractor_lib::custom_loadouts::custom_loadouts::CustomLoadout;
 use wt_datamine_extractor_lib::custom_loadouts::known_loadouts::{KNOWN_LOADOUTS_LOC, KnownLoadouts};
 use wt_datamine_extractor_lib::extraction_traits::known::KnownItem;
 use wt_datamine_extractor_lib::lang::copy_lang;
+use wt_datamine_extractor_lib::missile::known_missiles::KNOWN_MISSILES_LOC;
 use wt_datamine_extractor_lib::missile::known_missiles::KnownMissiles;
 use wt_datamine_extractor_lib::missile::missile::Missile;
 use wt_datamine_extractor_lib::shell::compress::CompressedShells;
@@ -17,7 +18,6 @@ use wt_datamine_extractor_lib::shell::known_shells::{KNOWN_SHELLS_LOC, KnownShel
 use wt_datamine_extractor_lib::shell::shells::Shell;
 use wt_datamine_extractor_lib::thermal::known_thermals::KnownThermals;
 use wt_datamine_extractor_lib::thermal::thermals::Thermal;
-use wt_datamine_extractor_lib::missile::known_missiles::KNOWN_MISSILES_LOC;
 
 fn main() {
 	let start = Instant::now();
@@ -30,7 +30,7 @@ fn main() {
 		copy_loadouts();
 
 		let known_missiles = KnownMissiles::generate_index(KNOWN_MISSILES_LOC).write_index("missile_index/known.json").copy_index_to_folder(KNOWN_MISSILES_LOC, "missile_index/missiles/");
-		let known_thermals = KnownThermals::generate_index("").write_index("thermal_index/known.json").copy_index_to_folder("","thermal_index/thermals/");
+		let known_thermals = KnownThermals::generate_index("").write_index("thermal_index/known.json").copy_index_to_folder("", "thermal_index/thermals/");
 		let known_shells = KnownShells::generate_index(KNOWN_SHELLS_LOC).write_index("shell_index/known.json").copy_index_to_folder(KNOWN_SHELLS_LOC, "shell_index/shells/");
 		let known_loadouts = KnownLoadouts::generate_index(KNOWN_LOADOUTS_LOC).write_index("custom_loadouts/known.json").copy_index_to_folder(KNOWN_LOADOUTS_LOC, "custom_loadouts/aircraft/");
 

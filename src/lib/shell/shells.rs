@@ -1,16 +1,13 @@
-use std::collections::{HashSet};
-
+use std::collections::HashSet;
 use std::fs;
 use std::str::FromStr;
 
 use get_size::GetSize;
-
 use strum_macros::EnumIter;
 
 use crate::explosive::explosive::explosive_type_to_tnt;
 use crate::lang::{Lang, name_to_local};
 use crate::shell::known_shells::KnownShells;
-
 use crate::shell::penetration_select::shell_to_penetration;
 use crate::util::parameter_to_data;
 
@@ -93,7 +90,7 @@ impl Shell {
 	}
 
 	pub fn write_all(mut values: Vec<Self>) -> Vec<Self> {
-		values.sort_by_key(|x|format!("{:?}", x));
+		values.sort_by_key(|x| format!("{:?}", x));
 		fs::write("shell_index/all.json", serde_json::to_string_pretty(&values).unwrap()).unwrap();
 		values
 	}
@@ -219,7 +216,7 @@ impl FromStr for ShellType {
 				Ok(Self::Hesh)
 			}
 			r#""heat_tank""# |
-			r#""heat_grenade_tank""#  |
+			r#""heat_grenade_tank""# |
 			// This from april fools, its basically an RPG but not?!
 			r#""heat_fs_rocket""# => {
 				Ok(Self::Heat)

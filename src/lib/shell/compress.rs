@@ -30,7 +30,7 @@ pub struct CompressedShells {
 impl CompressedShells {
 	pub fn compress(shells_old: &[Shell]) -> Self {
 		let mut shells = shells_old.to_vec();
-		shells.sort_by_key(|x|format!("{:?}", x));
+		shells.sort_by_key(|x| format!("{:?}", x));
 		shells.iter().fold(CompressedShells::default(), |mut acc, v| {
 			acc.name.push(v.name.clone());
 			acc.localized.push(v.localized.clone());
@@ -46,7 +46,7 @@ impl CompressedShells {
 	pub fn decompress(&self) -> Vec<Shell> {
 		let mut shells = Vec::new();
 		for i in self.name.iter().enumerate() {
-			shells.push( Shell {
+			shells.push(Shell {
 				name: i.1.clone(),
 				localized: self.localized[i.0].clone(),
 				shell_type: self.shell_type[i.0],
