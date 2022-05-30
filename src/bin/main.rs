@@ -15,7 +15,7 @@ use wt_datamine_extractor_lib::missile::missile::Missile;
 use wt_datamine_extractor_lib::shell::compress::CompressedShells;
 use wt_datamine_extractor_lib::shell::known_shells::{KNOWN_SHELLS_LOC, KnownShells};
 use wt_datamine_extractor_lib::shell::shells::Shell;
-use wt_datamine_extractor_lib::thermal::extract_thermals::KnownThermals;
+use wt_datamine_extractor_lib::thermal::known_thermals::KnownThermals;
 use wt_datamine_extractor_lib::thermal::thermals::Thermal;
 use wt_datamine_extractor_lib::missile::known_missiles::KNOWN_MISSILES_LOC;
 

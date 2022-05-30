@@ -3,7 +3,7 @@ use get_size::GetSize;
 
 use crate::lang::{Lang, name_to_local};
 
-use crate::thermal::extract_thermals::KnownThermals;
+use crate::thermal::known_thermals::KnownThermals;
 
 #[derive(Clone, serde::Serialize, serde::Deserialize, Debug, PartialEq, const_gen::CompileConst, get_size::GetSize)]
 pub struct Thermal {
