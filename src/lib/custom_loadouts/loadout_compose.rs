@@ -67,13 +67,14 @@ impl CustomLoadout {
 						let required_slot = depend.slot as usize - 1;
 
 						// The slot that the user has chosen
-						let user_selected_slot = selection[required_slot].checked_sub(1).unwrap_or(0);
+						#[allow(clippy::manual_saturating_arithmetic)]
+							let user_selected_slot = selection[required_slot].checked_sub(1).unwrap_or(0);
 
 						// The slot the pylon actually needs
 						let user_named_selection = &self.pylons[required_slot].weapons[user_selected_slot].name;
 
 						if &depend.name != user_named_selection {
-							errs.push(TgpNotSatisfied((0,0)));
+							errs.push(TgpNotSatisfied((0, 0)));
 						}
 					};
 				} else {
@@ -149,6 +150,7 @@ impl CustomLoadout {
 #[cfg(test)]
 mod tests {
 	use std::fs;
+
 	use crate::custom_loadouts::custom_loadouts::CustomLoadout;
 
 	#[test]

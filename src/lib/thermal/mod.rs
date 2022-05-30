@@ -1,2 +1,2 @@
 pub mod thermals;
-pub mod extract_thermals;
+pub mod known_thermals;

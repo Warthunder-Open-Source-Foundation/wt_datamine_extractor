@@ -1,19 +1,29 @@
 use std::fs;
 
-#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq)]
+use crate::extraction_traits::known::{Index, KnownItem, OwnedIndex};
+
+pub const KNOWN_SHELLS_LOC: &str = "resources/cache/aces.vromfs.bin_u/gamedata/weapons/groundmodels_weapons/";
+
+#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Default)]
 pub struct KnownShells {
 	pub path: Vec<String>,
 }
 
-#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq)]
+#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Default)]
 pub struct BlackList {
 	pub path: Vec<String>,
 }
 
 impl KnownShells {
-	pub fn generate_index() -> Self {
+	pub fn from_file() -> Self {
+		serde_json::from_str(&fs::read_to_string("shell_index/known.json").unwrap()).unwrap()
+	}
+}
+
+impl KnownItem for KnownShells {
+	fn generate_index(path: &str) -> Self where Self: Default {
 		let mut index: Vec<String> = vec![];
-		let folder = fs::read_dir("resources/cache/aces.vromfs.bin_u/gamedata/weapons/groundmodels_weapons").unwrap();
+		let folder = fs::read_dir(path).unwrap();
 		let blacklist: BlackList = serde_json::from_str(&fs::read_to_string("shell_index/blacklist.json").unwrap()).unwrap();
 		let blackset = blacklist.path.join(" ");
 		for i in folder.enumerate() {
@@ -36,22 +46,11 @@ impl KnownShells {
 		}
 	}
 
-	pub fn write_index(self) -> Self {
-		fs::write("shell_index/known.json", serde_json::to_string_pretty(&self).unwrap()).unwrap();
-		self
+	fn push_index(&mut self, index: OwnedIndex) {
+		self.path = index;
 	}
 
-	pub fn copy_index_to_folder(self) -> Self {
-		for i in &self.path {
-			let path = format!("resources/cache/aces.vromfs.bin_u/gamedata/weapons/groundmodels_weapons/{}", i);
-			if let Ok(file) = fs::read(&path) {
-				fs::write(format!("shell_index/shells/{}", i), &file).unwrap();
-			}
-		}
-		self
-	}
-
-	pub fn from_file() -> Self {
-		serde_json::from_str(&fs::read_to_string("shell_index/known.json").unwrap()).unwrap()
+	fn get_index(&self) -> Index {
+		&self.path
 	}
 }

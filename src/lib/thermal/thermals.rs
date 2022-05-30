@@ -1,9 +1,9 @@
 use std::fs;
+
 use get_size::GetSize;
 
 use crate::lang::{Lang, name_to_local};
-
-use crate::thermal::extract_thermals::KnownThermals;
+use crate::thermal::known_thermals::KnownThermals;
 
 #[derive(Clone, serde::Serialize, serde::Deserialize, Debug, PartialEq, const_gen::CompileConst, get_size::GetSize)]
 pub struct Thermal {
@@ -49,7 +49,7 @@ impl Thermal {
 				let name: String = i.split('.').collect::<Vec<&str>>()[0].to_owned();
 
 				if sights.is_empty() {
-					panic!("Missing sight on {}", name)
+					assert!(!sights.is_empty(), "Missing sight on {}", name);
 				}
 				generated.push(Self {
 					localized: name_to_local(&name, &Lang::Unit).clone(),
@@ -59,12 +59,12 @@ impl Thermal {
 				});
 			}
 		}
-		generated.sort_by_key(|x|x.name.clone());
+		generated.sort_by_key(|x| x.name.clone());
 		generated
 	}
 
 	pub fn write_all(mut values: Vec<Self>) -> Vec<Self> {
-		values.sort_by_key(|d|d.name.clone());
+		values.sort_by_key(|d| d.name.clone());
 		fs::write("thermal_index/all.json", serde_json::to_string_pretty(&values).unwrap()).unwrap();
 		values
 	}
