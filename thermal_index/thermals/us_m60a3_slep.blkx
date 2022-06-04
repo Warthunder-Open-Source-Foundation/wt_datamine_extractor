@@ -3865,10 +3865,10 @@
       "new_tank_vertical_aiming": [],
       "tank_new_gun": [],
       "tank_medical_kit": {
-        "image": "#ui/gameuiskin#tank_reinforcement_us"
+        "image": "#ui/gameuiskin#tank_reinforcement_us.png"
       },
       "tank_medical_kit_expendable": {
-        "image": "#ui/gameuiskin#tank_reinforcement_us"
+        "image": "#ui/gameuiskin#tank_reinforcement_us.png"
       },
       "art_support": [],
       "120mm_NATO_APDS_FS": [],
@@ -4274,7 +4274,7 @@
         }
       },
       "night_vision_system": {
-        "image": "#ui/gameuiskin#thermal_sight",
+        "image": "#ui/gameuiskin#thermal_sight.png",
         "effects": {
           "nightVision": {
             "gunnerThermal": {

@@ -3414,10 +3414,10 @@
       "airstrike": [],
       "improved_optics": [],
       "tank_medical_kit": {
-        "image": "#ui/gameuiskin#tank_reinforcement_us"
+        "image": "#ui/gameuiskin#tank_reinforcement_us.png"
       },
       "tank_medical_kit_expendable": {
-        "image": "#ui/gameuiskin#tank_reinforcement_us"
+        "image": "#ui/gameuiskin#tank_reinforcement_us.png"
       },
       "modern_tank_laser_rangefinder": {
         "tier": 1,
@@ -3820,7 +3820,7 @@
         "tier": 3
       },
       "night_vision_system": {
-        "image": "#ui/gameuiskin#thermal_sight",
+        "image": "#ui/gameuiskin#thermal_sight.png",
         "tier": 2,
         "effects": {
           "nightVision": {

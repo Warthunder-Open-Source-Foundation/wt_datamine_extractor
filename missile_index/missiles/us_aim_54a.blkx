@@ -72,10 +72,10 @@
       "WdK": [0.1,0.1,0.1]
     },
     {
-      "finsAoaHor": 0.16
+      "finsAoaHor": 0.12
     },
     {
-      "finsAoaVer": 0.16
+      "finsAoaVer": 0.12
     },
     {
       "force": 17000.0
@@ -84,7 +84,7 @@
       "timeFire": 30.0
     },
     {
-      "fireDelay": 0.25
+      "fireDelay": 0.5
     },
     {
       "spawnExplosionFx": false
@@ -204,7 +204,7 @@
       "endSpeed": 1800.0
     },
     {
-      "timeLife": 300.0
+      "timeLife": 100.0
     },
     {
       "machMax": 4.3
@@ -555,17 +555,17 @@
         "radarSeeker": {
           "band": 8,
           "active": true,
-          "sideLobesAttenuation": -16.0,
+          "sideLobesAttenuation": -18.0,
           "lockAngleMax": 15.0,
           "angleMax": 45.0,
           "rateMax": 20.0,
           "prolongationTimeMax": 1.0,
           "designationSourceTypeMask": 2,
           "transmitter": {
-            "power": 200.0,
+            "power": 100.0,
             "antenna": {
-              "angleHalfSens": 10.0,
-              "sideLobesSensitivity": -30.0
+              "angleHalfSens": 8.0,
+              "sideLobesSensitivity": -19.0
             }
           },
           "receiver": {
@@ -574,15 +574,15 @@
             "rangeMax": 25000.0,
             "timeGainControl": false,
             "antenna": {
-              "angleHalfSens": 10.0,
-              "sideLobesSensitivity": -16.0
+              "angleHalfSens": 8.0,
+              "sideLobesSensitivity": -19.0
             }
           },
           "dopplerSpeed": {
             "presents": true,
             "minValue": -3000.0,
             "maxValue": 3000.0,
-            "width": 125.0,
+            "width": 120.0,
             "signalWidthMin": 5.0
           },
           "dopplerSpeedGate": {
@@ -592,15 +592,47 @@
           }
         },
         "guidanceAutopilot": {
+          "loftEnabled": true,
+          "loftElevation": 7.5,
+          "loftTargetElevation": -0.75,
+          "loftAngleToAccelMult": 2.0,
+          "loftTargetOmegaMax": 1.5,
           "timeToGain0": [0.0,0.0],
-          "timeToGain1": [1.0,1.0],
+          "timeToGain1": [3.5,1.0],
           "propNavMult": 4.0,
-          "reqAccelMax": 25.0,
+          "reqAccelMax": 16.0,
           "baseIndSpeed": 1600.0,
           "accelControlProp": 0.04,
           "accelControlIntg": 0.02,
           "accelControlIntgLim": 0.8,
           "accelControlDiff": 0.002
+        },
+        "table0": {
+          "altitude": 0.0,
+          "fighterMach": [0.9,1.2],
+          "targetMach": [-0.9,-0.9],
+          "targetMach2Mult": -1.0,
+          "rangeMin": [5000.0,3700.0,5000.0,3700.0],
+          "rangeMax": [31500.0,7500.0,53000.0,13000.0],
+          "altDiff": [500.0,1200.0]
+        },
+        "table1": {
+          "altitude": 7600.0,
+          "fighterMach": [0.9,1.2],
+          "targetMach": [-0.9,-0.9],
+          "targetMach2Mult": -1.0,
+          "rangeMin": [5000.0,3700.0,5000.0,3700.0],
+          "rangeMax": [68000.0,18500.0,72000.0,20000.0],
+          "altDiff": [500.0,1200.0]
+        },
+        "table2": {
+          "altitude": 12000.0,
+          "fighterMach": [2.0,2.5],
+          "targetMach": [-2.2,-2.0],
+          "targetMach2Mult": -1.0,
+          "rangeMin": [5000.0,3700.0,5000.0,3700.0],
+          "rangeMax": [105000.0,32000.0,110000.0,35000.0],
+          "altDiff": [500.0,1000.0]
         }
       }
     },
@@ -612,7 +644,7 @@
     },
     {
       "proximityFuse": {
-        "timeOut": 1.8,
+        "timeOut": 3.0,
         "radius": 8.0,
         "detectShells": true,
         "shellCaliberRange": [0.08,0.2]

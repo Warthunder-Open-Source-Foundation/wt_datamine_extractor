@@ -2397,6 +2397,12 @@
     },
     {
       "preset": {
+        "name": "mig_27k_fire_bomb_zb_500",
+        "blk": "gameData/FlightModels/weaponPresets/mig_27k_fire_bomb_zb_500.blk"
+      }
+    },
+    {
+      "preset": {
         "name": "mig_27k_kab500kr",
         "blk": "gameData/FlightModels/weaponPresets/mig_27k_kab500kr.blk"
       }
@@ -3062,6 +3068,24 @@
         },
         {
           "WeaponPreset": {
+            "iconType": "ptb",
+            "name": "zb_500",
+            "reqModification": "mi_24_fab_500",
+            "ShowNodes": {
+              "node": "pylon_3"
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/su_zb_500.blk",
+              "emitter": "fab_500m_62_001",
+              "bullets": 1,
+              "external": true,
+              "separate": true
+            }
+          }
+        },
+        {
+          "WeaponPreset": {
             "iconType": "guided_bomb_yellow",
             "name": "kab_500kr",
             "reqModification": "mig_27_kab_500",
@@ -3305,6 +3329,7 @@
               "blk": "gameData/Weapons/cannonGSh_23L.blk",
               "emitter": "flare2",
               "flash": "flare2",
+              "dm": "cannon2_dm",
               "bullets": 250,
               "spread": 1.5,
               "traceOffset": 1,
@@ -3549,6 +3574,32 @@
               "external": true,
               "separate": true,
               "machLimit": 1.01
+            }
+          }
+        },
+        {
+          "WeaponPreset": {
+            "iconType": "ptb",
+            "name": "zb_500",
+            "reqModification": "mi_24_fab_500",
+            "ShowNodes": [
+              {
+                "node": "pylon_1"
+              },
+              {
+                "node": "pylon_1_bomb_ub32"
+              },
+              {
+                "node": "pylon_1_holder"
+              }
+            ],
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/su_zb_500.blk",
+              "emitter": "fab_500m_62_002",
+              "bullets": 1,
+              "external": true,
+              "separate": true
             }
           }
         },
@@ -3868,6 +3919,32 @@
               "external": true,
               "separate": true,
               "machLimit": 1.01
+            }
+          }
+        },
+        {
+          "WeaponPreset": {
+            "iconType": "ptb",
+            "name": "zb_500",
+            "reqModification": "mi_24_fab_500",
+            "ShowNodes": [
+              {
+                "node": "pylon_2"
+              },
+              {
+                "node": "pylon_2_bomb_ub32"
+              },
+              {
+                "node": "pylon_2_holder"
+              }
+            ],
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/su_zb_500.blk",
+              "emitter": "fab_500m_62_004",
+              "bullets": 1,
+              "external": true,
+              "separate": true
             }
           }
         },
@@ -4279,6 +4356,24 @@
         },
         {
           "WeaponPreset": {
+            "iconType": "ptb",
+            "name": "zb_500",
+            "reqModification": "mi_24_fab_500",
+            "ShowNodes": {
+              "node": "pylon_4"
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/su_zb_500.blk",
+              "emitter": "fab_500m_62_005",
+              "bullets": 1,
+              "external": true,
+              "separate": true
+            }
+          }
+        },
+        {
+          "WeaponPreset": {
             "iconType": "guided_bomb_yellow",
             "name": "kab_500kr",
             "reqModification": "mig_27_kab_500",
@@ -4522,6 +4617,7 @@
               "blk": "gameData/Weapons/cannonGSh_23L.blk",
               "emitter": "flare3",
               "flash": "flare3",
+              "dm": "cannon3_dm",
               "bullets": 250,
               "spread": 1.5,
               "traceOffset": 1,

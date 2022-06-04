@@ -3529,10 +3529,10 @@
       "art_support": [],
       "tank_new_gun": [],
       "tank_medical_kit": {
-        "image": "#ui/gameuiskin#tank_reinforcement_uk"
+        "image": "#ui/gameuiskin#tank_reinforcement_uk.png"
       },
       "tank_medical_kit_expendable": {
-        "image": "#ui/gameuiskin#tank_reinforcement_uk"
+        "image": "#ui/gameuiskin#tank_reinforcement_uk.png"
       },
       "120mm_britain_L37A7_HESH": [],
       "120mm_britain_L23A1_APDSFS": [],
@@ -3803,7 +3803,7 @@
         }
       },
       "night_vision_system": {
-        "image": "#ui/gameuiskin#thermal_sight",
+        "image": "#ui/gameuiskin#thermal_sight.png",
         "tier": 2,
         "effects": {
           "nightVision": {

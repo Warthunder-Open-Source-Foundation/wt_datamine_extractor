@@ -1042,12 +1042,12 @@
   },
   "125mm_china_DTC10_APDS_FS": {
     "bullet": {
-      "mass": 4.83,
+      "mass": 4.85,
       "caliber": 0.125,
-      "damageCaliber": 0.023,
-      "ballisticCaliber": 0.023,
+      "damageCaliber": 0.0235,
+      "ballisticCaliber": 0.0235,
       "Cx": 0.71,
-      "speed": 1740.0,
+      "speed": 1770.0,
       "maxDistance": 20000.0,
       "normalizationPreset": "default",
       "ricochetPreset": "apds_fs_long",
@@ -1113,13 +1113,13 @@
         "HitPower10000m": [0.8,10000.0]
       },
       "armorpower": {
-        "ArmorPower0m": [552.0,10.0],
-        "ArmorPower100m": [550.0,100.0],
-        "ArmorPower500m": [542.0,500.0],
-        "ArmorPower1000m": [532.0,1000.0],
-        "ArmorPower1500m": [521.0,1500.0],
-        "ArmorPower2000m": [511.0,2000.0],
-        "ArmorPower3000m": [490.0,3000.0],
+        "ArmorPower0m": [576.8,10.0],
+        "ArmorPower100m": [574.7,100.0],
+        "ArmorPower500m": [565.9,500.0],
+        "ArmorPower1000m": [555.1,1000.0],
+        "ArmorPower1500m": [544.3,1500.0],
+        "ArmorPower2000m": [533.3,2000.0],
+        "ArmorPower3000m": [511.7,3000.0],
         "ArmorPower10000m": [5.0,10000.0],
         "ArmorPower20000m": [0.0,20000.0]
       },

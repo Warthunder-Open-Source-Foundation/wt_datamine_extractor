@@ -3435,10 +3435,10 @@
         "tier": 3
       },
       "tank_medical_kit": {
-        "image": "#ui/gameuiskin#tank_reinforcement_it"
+        "image": "#ui/gameuiskin#tank_reinforcement_it.png"
       },
       "tank_medical_kit_expendable": {
-        "image": "#ui/gameuiskin#tank_reinforcement_it"
+        "image": "#ui/gameuiskin#tank_reinforcement_it.png"
       },
       "airstrike": [],
       "improved_optics": [],
@@ -3756,7 +3756,7 @@
         "tier": 3
       },
       "night_vision_system": {
-        "image": "#ui/gameuiskin#thermal_sight",
+        "image": "#ui/gameuiskin#thermal_sight.png",
         "tier": 2,
         "effects": {
           "nightVision": {

@@ -1498,6 +1498,16 @@
             "depend_on": null
           },
           {
+            "name": "us_mk84",
+            "localized": "2000 lb",
+            "icon_type": "bombs_heavy_middle",
+            "count": 1,
+            "individual_mass": 893.6,
+            "total_mass": 893.6,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
             "name": "agm_12b",
             "localized": "AGM-12B Bullpup",
             "icon_type": "missile_air_to_uni",
@@ -1617,9 +1627,9 @@
             "name": "aim_9b_default_left_wing",
             "localized": "AIM-9B",
             "icon_type": "missile_air_to_air",
-            "count": 2,
+            "count": 1,
             "individual_mass": 72.57,
-            "total_mass": 145.14,
+            "total_mass": 72.57,
             "weapon_type": "AAM",
             "depend_on": null
           },
@@ -1748,6 +1758,16 @@
             "depend_on": null
           },
           {
+            "name": "us_mk84",
+            "localized": "2000 lb",
+            "icon_type": "bombs_heavy_middle",
+            "count": 1,
+            "individual_mass": 893.6,
+            "total_mass": 893.6,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
             "name": "suu_23a_gunpod",
             "localized": "cannonGAU4",
             "icon_type": "multibarrel_box",
@@ -1805,9 +1825,9 @@
             "name": "aim_9b_default_right_wing",
             "localized": "AIM-9B",
             "icon_type": "missile_air_to_air",
-            "count": 2,
+            "count": 1,
             "individual_mass": 72.57,
-            "total_mass": 145.14,
+            "total_mass": 72.57,
             "weapon_type": "AAM",
             "depend_on": null
           },
@@ -1983,6 +2003,16 @@
             "icon_type": "bombs_special_group",
             "count": 2,
             "individual_mass": 446.8,
+            "total_mass": 893.6,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "us_mk84",
+            "localized": "2000 lb",
+            "icon_type": "bombs_heavy_middle",
+            "count": 1,
+            "individual_mass": 893.6,
             "total_mass": 893.6,
             "weapon_type": "Bomb",
             "depend_on": null
@@ -2618,6 +2648,756 @@
             "individual_mass": 810.0,
             "total_mass": 810.0,
             "weapon_type": "AGM",
+            "depend_on": null
+          },
+          {
+            "name": "agm_62a",
+            "localized": "AGM-62A",
+            "icon_type": "guided_bomb_red",
+            "count": 1,
+            "individual_mass": 505.53,
+            "total_mass": 505.53,
+            "weapon_type": "GBU",
+            "depend_on": null
+          },
+          {
+            "name": "agm_65b_x3",
+            "localized": "AGM-65B",
+            "icon_type": "missile_air_to_uni_x3",
+            "count": 3,
+            "individual_mass": 207.0,
+            "total_mass": 621.0,
+            "weapon_type": "AGM",
+            "depend_on": null
+          }
+        ]
+      },
+      {
+        "index": 11,
+        "tier": 1,
+        "order": 2,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "mer_lau_3a",
+            "localized": "lau_3a_ffar_mighty_mouse",
+            "icon_type": "nar_ap_large_group_x3",
+            "count": 3,
+            "individual_mass": 59.0,
+            "total_mass": 177.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "mer_lau_10a",
+            "localized": "lau_10a_zuni_wafar_mk32",
+            "icon_type": "nar_ap_special_group_x3",
+            "count": 3,
+            "individual_mass": 51.25,
+            "total_mass": 153.75,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "mer_mk81_x6",
+            "localized": "250 lb",
+            "icon_type": "bombs_small_group_x6",
+            "count": 6,
+            "individual_mass": 117.9,
+            "total_mass": 707.4000000000001,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "mer_mk82_x6",
+            "localized": "500 lb",
+            "icon_type": "bombs_middle_group_x6",
+            "count": 6,
+            "individual_mass": 240.9,
+            "total_mass": 1445.4,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "mer_m117_x4",
+            "localized": "750 lb M117",
+            "icon_type": "bombs_large_group_x4",
+            "count": 4,
+            "individual_mass": 362.42,
+            "total_mass": 1449.68,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "mer_mk83_x2",
+            "localized": "1000 lb",
+            "icon_type": "bombs_special_group",
+            "count": 2,
+            "individual_mass": 446.8,
+            "total_mass": 893.6,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "us_mk84",
+            "localized": "2000 lb",
+            "icon_type": "bombs_heavy_middle",
+            "count": 1,
+            "individual_mass": 893.6,
+            "total_mass": 893.6,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "us_2000lb_gbu_8",
+            "localized": "GBU-8",
+            "icon_type": "guided_bomb_green",
+            "count": 1,
+            "individual_mass": 1027.0,
+            "total_mass": 1027.0,
+            "weapon_type": "GBU",
+            "depend_on": null
+          },
+          {
+            "name": "agm_62a",
+            "localized": "AGM-62A",
+            "icon_type": "guided_bomb_red",
+            "count": 1,
+            "individual_mass": 505.53,
+            "total_mass": 505.53,
+            "weapon_type": "GBU",
+            "depend_on": null
+          },
+          {
+            "name": "suu_23a_gunpod_wing",
+            "localized": "cannonGAU4",
+            "icon_type": "multibarrel_box",
+            "count": 1,
+            "individual_mass": 780.0,
+            "total_mass": 780.0,
+            "weapon_type": "GunPod",
+            "depend_on": null
+          }
+        ]
+      }
+    ],
+    "misc_pylons": [
+      {
+        "index": 0,
+        "tier": null,
+        "order": null,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "m61a1_common",
+            "localized": "M61A1",
+            "icon_type": "cannon",
+            "count": 1,
+            "individual_mass": 500.0,
+            "total_mass": 500.0,
+            "weapon_type": "Cannon",
+            "depend_on": null
+          },
+          {
+            "name": "m61a1_ltc_common",
+            "localized": "M61A1",
+            "icon_type": "cannon",
+            "count": 1,
+            "individual_mass": 500.0,
+            "total_mass": 500.0,
+            "weapon_type": "Cannon",
+            "depend_on": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "aircraft": "f-4e_iaf",
+    "localized": "✡F-4E Phantom II",
+    "max_load": 7257.0,
+    "max_imbalance": 1500.0,
+    "max_wing_load": [
+      3000.0,
+      3000.0
+    ],
+    "pylons": [
+      {
+        "index": 1,
+        "tier": 11,
+        "order": 1,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "mer_lau_3a",
+            "localized": "lau_3a_ffar_mighty_mouse",
+            "icon_type": "nar_ap_large_group_x3",
+            "count": 3,
+            "individual_mass": 59.0,
+            "total_mass": 177.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "mer_lau_10a",
+            "localized": "lau_10a_zuni_wafar_mk32",
+            "icon_type": "nar_ap_special_group_x3",
+            "count": 3,
+            "individual_mass": 51.25,
+            "total_mass": 153.75,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "mer_mk81_x6",
+            "localized": "250 lb",
+            "icon_type": "bombs_small_group_x6",
+            "count": 6,
+            "individual_mass": 117.9,
+            "total_mass": 707.4000000000001,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "mer_mk82_x6",
+            "localized": "500 lb",
+            "icon_type": "bombs_middle_group_x6",
+            "count": 6,
+            "individual_mass": 240.9,
+            "total_mass": 1445.4,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "mer_m117_x4",
+            "localized": "750 lb M117",
+            "icon_type": "bombs_large_group_x4",
+            "count": 4,
+            "individual_mass": 362.42,
+            "total_mass": 1449.68,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "mer_mk83_x2",
+            "localized": "1000 lb",
+            "icon_type": "bombs_special_group",
+            "count": 2,
+            "individual_mass": 446.8,
+            "total_mass": 893.6,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "us_mk84",
+            "localized": "2000 lb",
+            "icon_type": "bombs_heavy_middle",
+            "count": 1,
+            "individual_mass": 893.6,
+            "total_mass": 893.6,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "us_2000lb_gbu_8",
+            "localized": "GBU-8",
+            "icon_type": "guided_bomb_green",
+            "count": 1,
+            "individual_mass": 1027.0,
+            "total_mass": 1027.0,
+            "weapon_type": "GBU",
+            "depend_on": null
+          },
+          {
+            "name": "agm_62a",
+            "localized": "AGM-62A",
+            "icon_type": "guided_bomb_red",
+            "count": 1,
+            "individual_mass": 505.53,
+            "total_mass": 505.53,
+            "weapon_type": "GBU",
+            "depend_on": null
+          },
+          {
+            "name": "suu_23a_gunpod_wing",
+            "localized": "cannonGAU4",
+            "icon_type": "multibarrel_box",
+            "count": 1,
+            "individual_mass": 780.0,
+            "total_mass": 780.0,
+            "weapon_type": "GunPod",
+            "depend_on": null
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "tier": 10,
+        "order": 3,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "ter_lau_3a",
+            "localized": "lau_3a_ffar_mighty_mouse",
+            "icon_type": "nar_ap_large_group_x3",
+            "count": 3,
+            "individual_mass": 59.0,
+            "total_mass": 177.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ter_lau_10a",
+            "localized": "lau_10a_zuni_wafar_mk32",
+            "icon_type": "nar_ap_special_group_x3",
+            "count": 3,
+            "individual_mass": 51.25,
+            "total_mass": 153.75,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ter_mk81",
+            "localized": "250 lb",
+            "icon_type": "bombs_small_group",
+            "count": 3,
+            "individual_mass": 117.9,
+            "total_mass": 353.70000000000005,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "ter_mk82",
+            "localized": "500 lb",
+            "icon_type": "bombs_middle_group",
+            "count": 3,
+            "individual_mass": 240.9,
+            "total_mass": 722.7,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "ter_m117",
+            "localized": "750 lb M117",
+            "icon_type": "bombs_large_group",
+            "count": 3,
+            "individual_mass": 362.42,
+            "total_mass": 1087.26,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "ter_mk83",
+            "localized": "1000 lb",
+            "icon_type": "bombs_special_group_x3",
+            "count": 3,
+            "individual_mass": 446.8,
+            "total_mass": 1340.4,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "us_2000lb_gbu_8",
+            "localized": "GBU-8",
+            "icon_type": "guided_bomb_green",
+            "count": 1,
+            "individual_mass": 1027.0,
+            "total_mass": 1027.0,
+            "weapon_type": "GBU",
+            "depend_on": null
+          },
+          {
+            "name": "agm_62a",
+            "localized": "AGM-62A",
+            "icon_type": "guided_bomb_red",
+            "count": 1,
+            "individual_mass": 505.53,
+            "total_mass": 505.53,
+            "weapon_type": "GBU",
+            "depend_on": null
+          },
+          {
+            "name": "agm_65b_x3",
+            "localized": "AGM-65B",
+            "icon_type": "missile_air_to_uni_x3",
+            "count": 3,
+            "individual_mass": 207.0,
+            "total_mass": 621.0,
+            "weapon_type": "AGM",
+            "depend_on": null
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "tier": 9,
+        "order": 5,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "aim_9d",
+            "localized": "AIM-9D",
+            "icon_type": "missile_air_to_air_group",
+            "count": 2,
+            "individual_mass": 88.45,
+            "total_mass": 176.9,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "aim_9g",
+            "localized": "AIM-9G",
+            "icon_type": "missile_type_b_air_to_air_group",
+            "count": 2,
+            "individual_mass": 88.45,
+            "total_mass": 176.9,
+            "weapon_type": "AAM",
+            "depend_on": null
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "tier": 8,
+        "order": 7,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "aim_7e",
+            "localized": "AIM-7E",
+            "icon_type": "missile_air_to_air_special",
+            "count": 1,
+            "individual_mass": 205.0,
+            "total_mass": 205.0,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "aim_7e2",
+            "localized": "AIM-7E-2 (DF)",
+            "icon_type": "missile_air_to_air_midrange_special",
+            "count": 1,
+            "individual_mass": 193.7,
+            "total_mass": 193.7,
+            "weapon_type": "AAM",
+            "depend_on": null
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "tier": 7,
+        "order": 9,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "aim_7e",
+            "localized": "AIM-7E",
+            "icon_type": "missile_air_to_air_special",
+            "count": 1,
+            "individual_mass": 205.0,
+            "total_mass": 205.0,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "aim_7e2",
+            "localized": "AIM-7E-2 (DF)",
+            "icon_type": "missile_air_to_air_midrange_special",
+            "count": 1,
+            "individual_mass": 193.7,
+            "total_mass": 193.7,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "aim_9d_default",
+            "localized": "AIM-9D",
+            "icon_type": "missile_air_to_air",
+            "count": 1,
+            "individual_mass": 88.45,
+            "total_mass": 88.45,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "aim_9g_fuse",
+            "localized": "AIM-9G",
+            "icon_type": "missile_type_b_air_to_air",
+            "count": 1,
+            "individual_mass": 88.45,
+            "total_mass": 88.45,
+            "weapon_type": "AAM",
+            "depend_on": null
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "tier": 6,
+        "order": 11,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "mer_lau_3a",
+            "localized": "lau_3a_ffar_mighty_mouse",
+            "icon_type": "nar_ap_large_group_x3",
+            "count": 3,
+            "individual_mass": 59.0,
+            "total_mass": 177.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "mer_lau_10a",
+            "localized": "lau_10a_zuni_wafar_mk32",
+            "icon_type": "nar_ap_special_group_x3",
+            "count": 3,
+            "individual_mass": 51.25,
+            "total_mass": 153.75,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "mer_mk81_x6",
+            "localized": "250 lb",
+            "icon_type": "bombs_small_group_x6",
+            "count": 6,
+            "individual_mass": 117.9,
+            "total_mass": 707.4000000000001,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "mer_mk82_x6",
+            "localized": "500 lb",
+            "icon_type": "bombs_middle_group_x6",
+            "count": 6,
+            "individual_mass": 240.9,
+            "total_mass": 1445.4,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "mer_m117_x5",
+            "localized": "750 lb M117",
+            "icon_type": "bombs_large_group_alternatively_x5",
+            "count": 5,
+            "individual_mass": 362.42,
+            "total_mass": 1812.1000000000001,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "mer_mk83_x3",
+            "localized": "1000 lb",
+            "icon_type": "bombs_special_group_x3",
+            "count": 3,
+            "individual_mass": 446.8,
+            "total_mass": 1340.4,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "us_mk84",
+            "localized": "2000 lb",
+            "icon_type": "bombs_heavy_middle",
+            "count": 1,
+            "individual_mass": 893.6,
+            "total_mass": 893.6,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "suu_23a_gunpod",
+            "localized": "cannonGAU4",
+            "icon_type": "multibarrel_box",
+            "count": 1,
+            "individual_mass": 780.0,
+            "total_mass": 780.0,
+            "weapon_type": "GunPod",
+            "depend_on": null
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "tier": 5,
+        "order": 10,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "aim_7e",
+            "localized": "AIM-7E",
+            "icon_type": "missile_air_to_air_special",
+            "count": 1,
+            "individual_mass": 205.0,
+            "total_mass": 205.0,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "aim_7e2",
+            "localized": "AIM-7E-2 (DF)",
+            "icon_type": "missile_air_to_air_midrange_special",
+            "count": 1,
+            "individual_mass": 193.7,
+            "total_mass": 193.7,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "aim_9d_default",
+            "localized": "AIM-9D",
+            "icon_type": "missile_air_to_air",
+            "count": 1,
+            "individual_mass": 88.45,
+            "total_mass": 88.45,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "aim_9g_fuse",
+            "localized": "AIM-9G",
+            "icon_type": "missile_type_b_air_to_air",
+            "count": 1,
+            "individual_mass": 88.45,
+            "total_mass": 88.45,
+            "weapon_type": "AAM",
+            "depend_on": null
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "tier": 4,
+        "order": 8,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "aim_7e",
+            "localized": "AIM-7E",
+            "icon_type": "missile_air_to_air_special",
+            "count": 1,
+            "individual_mass": 205.0,
+            "total_mass": 205.0,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "aim_7e2",
+            "localized": "AIM-7E-2 (DF)",
+            "icon_type": "missile_air_to_air_midrange_special",
+            "count": 1,
+            "individual_mass": 193.7,
+            "total_mass": 193.7,
+            "weapon_type": "AAM",
+            "depend_on": null
+          }
+        ]
+      },
+      {
+        "index": 9,
+        "tier": 3,
+        "order": 6,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "aim_9d",
+            "localized": "AIM-9D",
+            "icon_type": "missile_air_to_air_group",
+            "count": 2,
+            "individual_mass": 88.45,
+            "total_mass": 176.9,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "aim_9g",
+            "localized": "AIM-9G",
+            "icon_type": "missile_type_b_air_to_air_group",
+            "count": 2,
+            "individual_mass": 88.45,
+            "total_mass": 176.9,
+            "weapon_type": "AAM",
+            "depend_on": null
+          }
+        ]
+      },
+      {
+        "index": 10,
+        "tier": 2,
+        "order": 4,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "ter_lau_3a",
+            "localized": "lau_3a_ffar_mighty_mouse",
+            "icon_type": "nar_ap_large_group_x3",
+            "count": 3,
+            "individual_mass": 59.0,
+            "total_mass": 177.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ter_lau_10a",
+            "localized": "lau_10a_zuni_wafar_mk32",
+            "icon_type": "nar_ap_special_group_x3",
+            "count": 3,
+            "individual_mass": 51.25,
+            "total_mass": 153.75,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ter_mk81",
+            "localized": "250 lb",
+            "icon_type": "bombs_small_group",
+            "count": 3,
+            "individual_mass": 117.9,
+            "total_mass": 353.70000000000005,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "ter_mk82",
+            "localized": "500 lb",
+            "icon_type": "bombs_middle_group",
+            "count": 3,
+            "individual_mass": 240.9,
+            "total_mass": 722.7,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "ter_m117",
+            "localized": "750 lb M117",
+            "icon_type": "bombs_large_group",
+            "count": 3,
+            "individual_mass": 362.42,
+            "total_mass": 1087.26,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "ter_mk83",
+            "localized": "1000 lb",
+            "icon_type": "bombs_special_group_x3",
+            "count": 3,
+            "individual_mass": 446.8,
+            "total_mass": 1340.4,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "us_2000lb_gbu_8",
+            "localized": "GBU-8",
+            "icon_type": "guided_bomb_green",
+            "count": 1,
+            "individual_mass": 1027.0,
+            "total_mass": 1027.0,
+            "weapon_type": "GBU",
             "depend_on": null
           },
           {
@@ -3829,12 +4609,12 @@
             "depend_on": null
           },
           {
-            "name": "mer_mk83_x3",
+            "name": "mer_mk83_x2",
             "localized": "1000 lb",
-            "icon_type": "bombs_special_group_x3",
-            "count": 3,
+            "icon_type": "bombs_special_group",
+            "count": 2,
             "individual_mass": 446.8,
-            "total_mass": 1340.4,
+            "total_mass": 893.6,
             "weapon_type": "Bomb",
             "depend_on": null
           },
@@ -3919,20 +4699,10 @@
           {
             "name": "ter_mk83",
             "localized": "1000 lb",
-            "icon_type": "bombs_special_group",
+            "icon_type": "bombs_special_group_x3",
             "count": 3,
             "individual_mass": 446.8,
             "total_mass": 1340.4,
-            "weapon_type": "Bomb",
-            "depend_on": null
-          },
-          {
-            "name": "us_mk84",
-            "localized": "2000 lb",
-            "icon_type": "bombs_heavy_middle",
-            "count": 1,
-            "individual_mass": 893.6,
-            "total_mass": 893.6,
             "weapon_type": "Bomb",
             "depend_on": null
           }
@@ -4043,11 +4813,21 @@
             "depend_on": null
           },
           {
-            "name": "mer_mk83_x2",
+            "name": "mer_mk83_x3",
             "localized": "1000 lb",
-            "icon_type": "bombs_special_group",
-            "count": 2,
+            "icon_type": "bombs_special_group_x3",
+            "count": 3,
             "individual_mass": 446.8,
+            "total_mass": 1340.4,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "us_mk84",
+            "localized": "2000 lb",
+            "icon_type": "bombs_heavy_middle",
+            "count": 1,
+            "individual_mass": 893.6,
             "total_mass": 893.6,
             "weapon_type": "Bomb",
             "depend_on": null
@@ -4171,20 +4951,10 @@
           {
             "name": "ter_mk83",
             "localized": "1000 lb",
-            "icon_type": "bombs_special_group",
+            "icon_type": "bombs_special_group_x3",
             "count": 3,
             "individual_mass": 446.8,
             "total_mass": 1340.4,
-            "weapon_type": "Bomb",
-            "depend_on": null
-          },
-          {
-            "name": "us_mk84",
-            "localized": "2000 lb",
-            "icon_type": "bombs_heavy_middle",
-            "count": 1,
-            "individual_mass": 893.6,
-            "total_mass": 893.6,
             "weapon_type": "Bomb",
             "depend_on": null
           }
@@ -4377,12 +5147,12 @@
             "depend_on": null
           },
           {
-            "name": "mer_mk83_x3",
+            "name": "mer_mk83_x2",
             "localized": "1000 lb",
-            "icon_type": "bombs_special_group_x3",
-            "count": 3,
+            "icon_type": "bombs_special_group",
+            "count": 2,
             "individual_mass": 446.8,
-            "total_mass": 1340.4,
+            "total_mass": 893.6,
             "weapon_type": "Bomb",
             "depend_on": null
           },
@@ -4467,20 +5237,10 @@
           {
             "name": "ter_mk83",
             "localized": "1000 lb",
-            "icon_type": "bombs_special_group",
+            "icon_type": "bombs_special_group_x3",
             "count": 3,
             "individual_mass": 446.8,
             "total_mass": 1340.4,
-            "weapon_type": "Bomb",
-            "depend_on": null
-          },
-          {
-            "name": "us_mk84",
-            "localized": "2000 lb",
-            "icon_type": "bombs_heavy_middle",
-            "count": 1,
-            "individual_mass": 893.6,
-            "total_mass": 893.6,
             "weapon_type": "Bomb",
             "depend_on": null
           },
@@ -4601,11 +5361,21 @@
             "depend_on": null
           },
           {
-            "name": "mer_mk83_x2",
+            "name": "mer_mk83_x3",
             "localized": "1000 lb",
-            "icon_type": "bombs_special_group",
-            "count": 2,
+            "icon_type": "bombs_special_group_x3",
+            "count": 3,
             "individual_mass": 446.8,
+            "total_mass": 1340.4,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "us_mk84",
+            "localized": "2000 lb",
+            "icon_type": "bombs_heavy_middle",
+            "count": 1,
+            "individual_mass": 893.6,
             "total_mass": 893.6,
             "weapon_type": "Bomb",
             "depend_on": null
@@ -4729,20 +5499,10 @@
           {
             "name": "ter_mk83",
             "localized": "1000 lb",
-            "icon_type": "bombs_special_group",
+            "icon_type": "bombs_special_group_x3",
             "count": 3,
             "individual_mass": 446.8,
             "total_mass": 1340.4,
-            "weapon_type": "Bomb",
-            "depend_on": null
-          },
-          {
-            "name": "us_mk84",
-            "localized": "2000 lb",
-            "icon_type": "bombs_heavy_middle",
-            "count": 1,
-            "individual_mass": 893.6,
-            "total_mass": 893.6,
             "weapon_type": "Bomb",
             "depend_on": null
           },
@@ -4895,17 +5655,17 @@
         "exempt_from_imbalance": false,
         "weapons": [
           {
-            "name": "mer_lau_3a",
-            "localized": "lau_3a_ffar_mighty_mouse",
-            "icon_type": "nar_ap_large_group_x3",
-            "count": 3,
-            "individual_mass": 59.0,
-            "total_mass": 177.0,
+            "name": "ter_lau_3a_left_wing",
+            "localized": "lau_3a_ffar_mighty_mouse_x2_left_wing",
+            "icon_type": "nar_ap_large_group",
+            "count": 1,
+            "individual_mass": 120.0,
+            "total_mass": 120.0,
             "weapon_type": "Rocket",
             "depend_on": null
           },
           {
-            "name": "mer_lau_10a",
+            "name": "ter_lau_10a",
             "localized": "lau_10a_zuni_wafar_mk32",
             "icon_type": "nar_ap_special_group_x3",
             "count": 3,
@@ -4935,17 +5695,17 @@
             "depend_on": null
           },
           {
-            "name": "mer_m117_x4",
+            "name": "mer_m117_x3_left_wing",
             "localized": "750 lb M117",
-            "icon_type": "bombs_large_group_x4",
-            "count": 4,
+            "icon_type": "bombs_large_group",
+            "count": 3,
             "individual_mass": 362.42,
-            "total_mass": 1449.68,
+            "total_mass": 1087.26,
             "weapon_type": "Bomb",
             "depend_on": null
           },
           {
-            "name": "mer_mk83_x2",
+            "name": "ter_mk83_x2_left_wing",
             "localized": "1000 lb",
             "icon_type": "bombs_special_group",
             "count": 2,
@@ -5033,12 +5793,12 @@
             "depend_on": null
           },
           {
-            "name": "ter_mk83",
+            "name": "ter_mk83_x2_left_wing",
             "localized": "1000 lb",
             "icon_type": "bombs_special_group",
-            "count": 3,
+            "count": 2,
             "individual_mass": 446.8,
-            "total_mass": 1340.4,
+            "total_mass": 893.6,
             "weapon_type": "Bomb",
             "depend_on": null
           }
@@ -5145,7 +5905,7 @@
         "exempt_from_imbalance": false,
         "weapons": [
           {
-            "name": "mer_lau_3a",
+            "name": "ter_lau_3a",
             "localized": "lau_3a_ffar_mighty_mouse",
             "icon_type": "nar_ap_large_group_x3",
             "count": 3,
@@ -5155,7 +5915,7 @@
             "depend_on": null
           },
           {
-            "name": "mer_lau_10a",
+            "name": "ter_lau_10a",
             "localized": "lau_10a_zuni_wafar_mk32",
             "icon_type": "nar_ap_special_group_x3",
             "count": 3,
@@ -5185,17 +5945,17 @@
             "depend_on": null
           },
           {
-            "name": "mer_m117_x5",
+            "name": "mer_m117_x3_centr",
             "localized": "750 lb M117",
-            "icon_type": "bombs_large_group_alternatively_x5",
-            "count": 5,
+            "icon_type": "bombs_large_group",
+            "count": 3,
             "individual_mass": 362.42,
-            "total_mass": 1812.1000000000001,
+            "total_mass": 1087.26,
             "weapon_type": "Bomb",
             "depend_on": null
           },
           {
-            "name": "mer_mk83_x3",
+            "name": "ter_mk83",
             "localized": "1000 lb",
             "icon_type": "bombs_special_group_x3",
             "count": 3,
@@ -5387,12 +6147,12 @@
             "depend_on": null
           },
           {
-            "name": "ter_mk83",
+            "name": "ter_mk83_x2_right_wing",
             "localized": "1000 lb",
             "icon_type": "bombs_special_group",
-            "count": 3,
+            "count": 2,
             "individual_mass": 446.8,
-            "total_mass": 1340.4,
+            "total_mass": 893.6,
             "weapon_type": "Bomb",
             "depend_on": null
           }
@@ -5405,17 +6165,17 @@
         "exempt_from_imbalance": false,
         "weapons": [
           {
-            "name": "mer_lau_3a",
-            "localized": "lau_3a_ffar_mighty_mouse",
-            "icon_type": "nar_ap_large_group_x3",
-            "count": 3,
-            "individual_mass": 59.0,
-            "total_mass": 177.0,
+            "name": "ter_lau_3a_right_wing",
+            "localized": "lau_3a_ffar_mighty_mouse_x2_right_wing",
+            "icon_type": "nar_ap_large_group",
+            "count": 1,
+            "individual_mass": 120.0,
+            "total_mass": 120.0,
             "weapon_type": "Rocket",
             "depend_on": null
           },
           {
-            "name": "mer_lau_10a",
+            "name": "ter_lau_10a",
             "localized": "lau_10a_zuni_wafar_mk32",
             "icon_type": "nar_ap_special_group_x3",
             "count": 3,
@@ -5445,17 +6205,17 @@
             "depend_on": null
           },
           {
-            "name": "mer_m117_x4",
+            "name": "mer_m117_x3_right_wing",
             "localized": "750 lb M117",
-            "icon_type": "bombs_large_group_x4",
-            "count": 4,
+            "icon_type": "bombs_large_group",
+            "count": 3,
             "individual_mass": 362.42,
-            "total_mass": 1449.68,
+            "total_mass": 1087.26,
             "weapon_type": "Bomb",
             "depend_on": null
           },
           {
-            "name": "mer_mk83_x2",
+            "name": "ter_mk83_x2_right_wing",
             "localized": "1000 lb",
             "icon_type": "bombs_special_group",
             "count": 2,
@@ -6363,7 +7123,7 @@
           {
             "name": "aim_54a_x2_fuse",
             "localized": "us_aim_54a",
-            "icon_type": "missile_air_to_air_midrange_special_group",
+            "icon_type": "missile_air_to_air_large_special_group",
             "count": 1,
             "individual_mass": 447.7,
             "total_mass": 447.7,
@@ -6441,7 +7201,7 @@
           {
             "name": "aim_54a_x2",
             "localized": "us_aim_54a",
-            "icon_type": "missile_air_to_air_midrange_special_group",
+            "icon_type": "missile_air_to_air_large_special_group",
             "count": 1,
             "individual_mass": 447.7,
             "total_mass": 447.7,
@@ -6631,6 +7391,408 @@
             "count": 1,
             "individual_mass": 500.0,
             "total_mass": 500.0,
+            "weapon_type": "Cannon",
+            "depend_on": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "aircraft": "j_7_mk2",
+    "localized": "J-7II",
+    "max_load": 2000.0,
+    "max_imbalance": 510.0,
+    "max_wing_load": [
+      510.0,
+      510.0
+    ],
+    "pylons": [
+      {
+        "index": 1,
+        "tier": 5,
+        "order": 1,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "pl2",
+            "localized": "PL-2",
+            "icon_type": "missile_air_to_air",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "hf5",
+            "localized": "ub_32a_24_cn_hf5",
+            "icon_type": "nar_ap_middle",
+            "count": 1,
+            "individual_mass": 109.0,
+            "total_mass": 109.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "fab500",
+            "localized": "FAB-500M-54",
+            "icon_type": "bombs_large",
+            "count": 1,
+            "individual_mass": 478.0,
+            "total_mass": 478.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "tier": 7,
+        "order": 2,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "pl2",
+            "localized": "PL-2",
+            "icon_type": "missile_air_to_air",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "hf5",
+            "localized": "ub_32a_24_cn_hf5",
+            "icon_type": "nar_ap_middle",
+            "count": 1,
+            "individual_mass": 109.0,
+            "total_mass": 109.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "fab500",
+            "localized": "FAB-500M-54",
+            "icon_type": "bombs_large",
+            "count": 1,
+            "individual_mass": 478.0,
+            "total_mass": 478.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          }
+        ]
+      }
+    ],
+    "misc_pylons": [
+      {
+        "index": 0,
+        "tier": null,
+        "order": null,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "type130_common",
+            "localized": "Type 30-1",
+            "icon_type": "cannon",
+            "count": 1,
+            "individual_mass": 66.5,
+            "total_mass": 66.5,
+            "weapon_type": "Cannon",
+            "depend_on": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "aircraft": "j_7e",
+    "localized": "J-7E",
+    "max_load": 2000.0,
+    "max_imbalance": 510.0,
+    "max_wing_load": [
+      510.0,
+      510.0
+    ],
+    "pylons": [
+      {
+        "index": 1,
+        "tier": 8,
+        "order": 1,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "pl2_default",
+            "localized": "su_pl2_default",
+            "icon_type": "missile_air_to_air",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "pl5",
+            "localized": "PL-5B",
+            "icon_type": "missile_type_b_air_to_air",
+            "count": 1,
+            "individual_mass": 84.5,
+            "total_mass": 84.5,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "hf9",
+            "localized": "Type 90-1 HEAT",
+            "icon_type": "nar_ap_middle",
+            "count": 7,
+            "individual_mass": 14.6,
+            "total_mass": 102.2,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "type130",
+            "localized": "type_130_cn_hf14",
+            "icon_type": "nar_special",
+            "count": 1,
+            "individual_mass": 51.25,
+            "total_mass": 51.25,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "gp250",
+            "localized": "250-3",
+            "icon_type": "bombs_middle",
+            "count": 1,
+            "individual_mass": 252.2,
+            "total_mass": 252.2,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "tier": 7,
+        "order": 3,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "pl2",
+            "localized": "PL-2",
+            "icon_type": "missile_air_to_air",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "pl5",
+            "localized": "PL-5B",
+            "icon_type": "missile_type_b_air_to_air",
+            "count": 1,
+            "individual_mass": 84.5,
+            "total_mass": 84.5,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "hf9",
+            "localized": "Type 90-1 HEAT",
+            "icon_type": "nar_ap_middle",
+            "count": 7,
+            "individual_mass": 14.6,
+            "total_mass": 102.2,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "type130",
+            "localized": "type_130_cn_hf14",
+            "icon_type": "nar_special",
+            "count": 1,
+            "individual_mass": 51.25,
+            "total_mass": 51.25,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "gp250",
+            "localized": "250-3",
+            "icon_type": "bombs_middle",
+            "count": 1,
+            "individual_mass": 252.2,
+            "total_mass": 252.2,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "gp500",
+            "localized": "500-3",
+            "icon_type": "bombs_special",
+            "count": 1,
+            "individual_mass": 508.3,
+            "total_mass": 508.3,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "tier": 5,
+        "order": 4,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "pl2",
+            "localized": "PL-2",
+            "icon_type": "missile_air_to_air",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "pl5",
+            "localized": "PL-5B",
+            "icon_type": "missile_type_b_air_to_air",
+            "count": 1,
+            "individual_mass": 84.5,
+            "total_mass": 84.5,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "hf9",
+            "localized": "Type 90-1 HEAT",
+            "icon_type": "nar_ap_middle",
+            "count": 7,
+            "individual_mass": 14.6,
+            "total_mass": 102.2,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "type130",
+            "localized": "type_130_cn_hf14",
+            "icon_type": "nar_special",
+            "count": 1,
+            "individual_mass": 51.25,
+            "total_mass": 51.25,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "gp250",
+            "localized": "250-3",
+            "icon_type": "bombs_middle",
+            "count": 1,
+            "individual_mass": 252.2,
+            "total_mass": 252.2,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "gp500",
+            "localized": "500-3",
+            "icon_type": "bombs_special",
+            "count": 1,
+            "individual_mass": 508.3,
+            "total_mass": 508.3,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "tier": 4,
+        "order": 2,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "pl2_default",
+            "localized": "su_pl2_default",
+            "icon_type": "missile_air_to_air",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "pl5",
+            "localized": "PL-5B",
+            "icon_type": "missile_type_b_air_to_air",
+            "count": 1,
+            "individual_mass": 84.5,
+            "total_mass": 84.5,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "hf9",
+            "localized": "Type 90-1 HEAT",
+            "icon_type": "nar_ap_middle",
+            "count": 7,
+            "individual_mass": 14.6,
+            "total_mass": 102.2,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "type130",
+            "localized": "type_130_cn_hf14",
+            "icon_type": "nar_special",
+            "count": 1,
+            "individual_mass": 51.25,
+            "total_mass": 51.25,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "gp250",
+            "localized": "250-3",
+            "icon_type": "bombs_middle",
+            "count": 1,
+            "individual_mass": 252.2,
+            "total_mass": 252.2,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          }
+        ]
+      }
+    ],
+    "misc_pylons": [
+      {
+        "index": 0,
+        "tier": null,
+        "order": null,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "type130_common",
+            "localized": "Type 30-1",
+            "icon_type": "cannon",
+            "count": 1,
+            "individual_mass": 66.5,
+            "total_mass": 66.5,
+            "weapon_type": "Cannon",
+            "depend_on": null
+          },
+          {
+            "name": "type130_ltc_common",
+            "localized": "Type 30-1",
+            "icon_type": "cannon",
+            "count": 1,
+            "individual_mass": 66.5,
+            "total_mass": 66.5,
             "weapon_type": "Cannon",
             "depend_on": null
           }
@@ -7275,6 +8437,1876 @@
     ]
   },
   {
+    "aircraft": "md_500_tow_late",
+    "localized": "MD500-TOW",
+    "max_load": 465.0,
+    "max_imbalance": 400.0,
+    "max_wing_load": [
+      465.0,
+      465.0
+    ],
+    "pylons": [
+      {
+        "index": 1,
+        "tier": 7,
+        "order": 1,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "us_hydra_70_m247",
+            "localized": "lau_131a_hydra_70_m247",
+            "icon_type": "nar_ap_small",
+            "count": 1,
+            "individual_mass": 30.0,
+            "total_mass": 30.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "tow_default",
+            "localized": "BGM-71C ITOW",
+            "icon_type": "missile_air_to_uni",
+            "count": 1,
+            "individual_mass": 19.05,
+            "total_mass": 19.05,
+            "weapon_type": "AGM",
+            "depend_on": null
+          },
+          {
+            "name": "tow",
+            "localized": "BGM-71C ITOW",
+            "icon_type": "missile_air_to_uni_group",
+            "count": 1,
+            "individual_mass": 19.05,
+            "total_mass": 19.05,
+            "weapon_type": "AGM",
+            "depend_on": null
+          },
+          {
+            "name": "tow2",
+            "localized": "BGM-71D TOW-2",
+            "icon_type": "missile_air_to_uni_large_group",
+            "count": 1,
+            "individual_mass": 21.45,
+            "total_mass": 21.45,
+            "weapon_type": "AGM",
+            "depend_on": null
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "tier": 5,
+        "order": 2,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "us_hydra_70_m247",
+            "localized": "lau_131a_hydra_70_m247",
+            "icon_type": "nar_ap_small",
+            "count": 1,
+            "individual_mass": 30.0,
+            "total_mass": 30.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "tow_default",
+            "localized": "BGM-71C ITOW",
+            "icon_type": "missile_air_to_uni",
+            "count": 1,
+            "individual_mass": 19.05,
+            "total_mass": 19.05,
+            "weapon_type": "AGM",
+            "depend_on": null
+          },
+          {
+            "name": "tow",
+            "localized": "BGM-71C ITOW",
+            "icon_type": "missile_air_to_uni_group",
+            "count": 1,
+            "individual_mass": 19.05,
+            "total_mass": 19.05,
+            "weapon_type": "AGM",
+            "depend_on": null
+          },
+          {
+            "name": "tow2",
+            "localized": "BGM-71D TOW-2",
+            "icon_type": "missile_air_to_uni_large_group",
+            "count": 1,
+            "individual_mass": 21.45,
+            "total_mass": 21.45,
+            "weapon_type": "AGM",
+            "depend_on": null
+          }
+        ]
+      }
+    ],
+    "misc_pylons": [
+      {
+        "index": 0,
+        "tier": null,
+        "order": null,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "default_common",
+            "localized": "default_common",
+            "icon_type": "",
+            "count": 0,
+            "individual_mass": 0.0,
+            "total_mass": 0.0,
+            "weapon_type": "TargetingPod",
+            "depend_on": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "aircraft": "mig-21_bis",
+    "localized": "MiG-21bis",
+    "max_load": 2000.0,
+    "max_imbalance": 510.0,
+    "max_wing_load": [
+      510.0,
+      510.0
+    ],
+    "pylons": [
+      {
+        "index": 1,
+        "tier": 8,
+        "order": 1,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "r3s",
+            "localized": "R-3S",
+            "icon_type": "missile_air_to_air",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r3r",
+            "localized": "R-3R",
+            "icon_type": "missile_air_to_air_special",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r13m1_default",
+            "localized": "su_r_13m1_default",
+            "icon_type": "missile_type_c_air_to_air",
+            "count": 1,
+            "individual_mass": 90.6,
+            "total_mass": 90.6,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r60",
+            "localized": "R-60",
+            "icon_type": "missile_type_b_air_to_air",
+            "count": 1,
+            "individual_mass": 44.0,
+            "total_mass": 44.0,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r60_x2",
+            "localized": "R-60",
+            "icon_type": "missile_type_b_air_to_air_group",
+            "count": 2,
+            "individual_mass": 44.0,
+            "total_mass": 88.0,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "s24",
+            "localized": "S-24",
+            "icon_type": "rockets_he_large",
+            "count": 1,
+            "individual_mass": 235.0,
+            "total_mass": 235.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ub16",
+            "localized": "ub_16_57_su_s5k",
+            "icon_type": "nar_ap_middle",
+            "count": 1,
+            "individual_mass": 52.0,
+            "total_mass": 52.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "tier": 7,
+        "order": 3,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "r3s_default",
+            "localized": "su_r_3s_default",
+            "icon_type": "missile_air_to_air",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r3r_default",
+            "localized": "su_r_3r_default",
+            "icon_type": "missile_air_to_air_special",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r13m1",
+            "localized": "R-13M1",
+            "icon_type": "missile_type_c_air_to_air",
+            "count": 1,
+            "individual_mass": 90.6,
+            "total_mass": 90.6,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r60",
+            "localized": "R-60",
+            "icon_type": "missile_type_b_air_to_air",
+            "count": 1,
+            "individual_mass": 44.0,
+            "total_mass": 44.0,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "s24",
+            "localized": "S-24",
+            "icon_type": "rockets_he_large",
+            "count": 1,
+            "individual_mass": 235.0,
+            "total_mass": 235.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ub16",
+            "localized": "ub_16_57_su_s5k",
+            "icon_type": "nar_ap_middle",
+            "count": 1,
+            "individual_mass": 52.0,
+            "total_mass": 52.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ub32",
+            "localized": "ub_32a_24_su_s5k",
+            "icon_type": "nar_ap_large",
+            "count": 1,
+            "individual_mass": 109.0,
+            "total_mass": 109.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "fab100_x4",
+            "localized": "OFAB-100",
+            "icon_type": "bombs_small_group_x4",
+            "count": 4,
+            "individual_mass": 114.0,
+            "total_mass": 456.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "fab250",
+            "localized": "FAB-250M-62",
+            "icon_type": "bombs_middle",
+            "count": 1,
+            "individual_mass": 227.0,
+            "total_mass": 227.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "fab500",
+            "localized": "FAB-500M-62",
+            "icon_type": "bombs_middle",
+            "count": 1,
+            "individual_mass": 508.3,
+            "total_mass": 508.3,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "tier": 5,
+        "order": 4,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "r3s_default",
+            "localized": "su_r_3s_default",
+            "icon_type": "missile_air_to_air",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r3r_default",
+            "localized": "su_r_3r_default",
+            "icon_type": "missile_air_to_air_special",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r13m1",
+            "localized": "R-13M1",
+            "icon_type": "missile_type_c_air_to_air",
+            "count": 1,
+            "individual_mass": 90.6,
+            "total_mass": 90.6,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r60",
+            "localized": "R-60",
+            "icon_type": "missile_type_b_air_to_air",
+            "count": 1,
+            "individual_mass": 44.0,
+            "total_mass": 44.0,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "s24",
+            "localized": "S-24",
+            "icon_type": "rockets_he_large",
+            "count": 1,
+            "individual_mass": 235.0,
+            "total_mass": 235.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ub16",
+            "localized": "ub_16_57_su_s5k",
+            "icon_type": "nar_ap_middle",
+            "count": 1,
+            "individual_mass": 52.0,
+            "total_mass": 52.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ub32",
+            "localized": "ub_32a_24_su_s5k",
+            "icon_type": "nar_ap_large",
+            "count": 1,
+            "individual_mass": 109.0,
+            "total_mass": 109.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "fab100_x4",
+            "localized": "OFAB-100",
+            "icon_type": "bombs_small_group_x4",
+            "count": 4,
+            "individual_mass": 114.0,
+            "total_mass": 456.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "fab250",
+            "localized": "FAB-250M-62",
+            "icon_type": "bombs_middle",
+            "count": 1,
+            "individual_mass": 227.0,
+            "total_mass": 227.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "fab500",
+            "localized": "FAB-500M-62",
+            "icon_type": "bombs_middle",
+            "count": 1,
+            "individual_mass": 508.3,
+            "total_mass": 508.3,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "tier": 4,
+        "order": 2,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "r3s",
+            "localized": "R-3S",
+            "icon_type": "missile_air_to_air",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r3r",
+            "localized": "R-3R",
+            "icon_type": "missile_air_to_air_special",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r13m1_default",
+            "localized": "su_r_13m1_default",
+            "icon_type": "missile_type_c_air_to_air",
+            "count": 1,
+            "individual_mass": 90.6,
+            "total_mass": 90.6,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r60",
+            "localized": "R-60",
+            "icon_type": "missile_type_b_air_to_air",
+            "count": 1,
+            "individual_mass": 44.0,
+            "total_mass": 44.0,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r60_x2",
+            "localized": "R-60",
+            "icon_type": "missile_type_b_air_to_air_group",
+            "count": 2,
+            "individual_mass": 44.0,
+            "total_mass": 88.0,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "s24",
+            "localized": "S-24",
+            "icon_type": "rockets_he_large",
+            "count": 1,
+            "individual_mass": 235.0,
+            "total_mass": 235.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ub16",
+            "localized": "ub_16_57_su_s5k",
+            "icon_type": "nar_ap_middle",
+            "count": 1,
+            "individual_mass": 52.0,
+            "total_mass": 52.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          }
+        ]
+      }
+    ],
+    "misc_pylons": [
+      {
+        "index": 0,
+        "tier": null,
+        "order": null,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "gsh_23l_common",
+            "localized": "23 mm GSh-23L cannon",
+            "icon_type": "cannon",
+            "count": 1,
+            "individual_mass": 155.0,
+            "total_mass": 155.0,
+            "weapon_type": "Cannon",
+            "depend_on": null
+          },
+          {
+            "name": "gsh_23l_ltc_common",
+            "localized": "23 mm GSh-23L cannon",
+            "icon_type": "cannon",
+            "count": 1,
+            "individual_mass": 155.0,
+            "total_mass": 155.0,
+            "weapon_type": "Cannon",
+            "depend_on": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "aircraft": "mig-21_f13",
+    "localized": "MiG-21F-13",
+    "max_load": 2000.0,
+    "max_imbalance": 510.0,
+    "max_wing_load": [
+      510.0,
+      510.0
+    ],
+    "pylons": [
+      {
+        "index": 2,
+        "tier": 7,
+        "order": 2,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "r3s",
+            "localized": "R-3S",
+            "icon_type": "missile_air_to_air",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "s24",
+            "localized": "S-24",
+            "icon_type": "rockets_he_large",
+            "count": 1,
+            "individual_mass": 235.0,
+            "total_mass": 235.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ub16",
+            "localized": "ub_16_57_su_s5k",
+            "icon_type": "nar_ap_middle",
+            "count": 1,
+            "individual_mass": 52.0,
+            "total_mass": 52.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "fab250",
+            "localized": "OFAB-250",
+            "icon_type": "bombs_middle",
+            "count": 1,
+            "individual_mass": 250.0,
+            "total_mass": 250.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "fab500",
+            "localized": "FAB-500M-54",
+            "icon_type": "bombs_large",
+            "count": 1,
+            "individual_mass": 478.0,
+            "total_mass": 478.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "tier": 5,
+        "order": 1,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "r3s",
+            "localized": "R-3S",
+            "icon_type": "missile_air_to_air",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "s24",
+            "localized": "S-24",
+            "icon_type": "rockets_he_large",
+            "count": 1,
+            "individual_mass": 235.0,
+            "total_mass": 235.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ub16",
+            "localized": "ub_16_57_su_s5k",
+            "icon_type": "nar_ap_middle",
+            "count": 1,
+            "individual_mass": 52.0,
+            "total_mass": 52.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "fab250",
+            "localized": "OFAB-250",
+            "icon_type": "bombs_middle",
+            "count": 1,
+            "individual_mass": 250.0,
+            "total_mass": 250.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "fab500",
+            "localized": "FAB-500M-54",
+            "icon_type": "bombs_large",
+            "count": 1,
+            "individual_mass": 478.0,
+            "total_mass": 478.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          }
+        ]
+      }
+    ],
+    "misc_pylons": [
+      {
+        "index": 0,
+        "tier": null,
+        "order": null,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "nr_30_common",
+            "localized": "30 mm NR-30 cannon",
+            "icon_type": "cannon",
+            "count": 1,
+            "individual_mass": 66.5,
+            "total_mass": 66.5,
+            "weapon_type": "Cannon",
+            "depend_on": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "aircraft": "mig-21_mf",
+    "localized": "✠MiG-21MF",
+    "max_load": 2000.0,
+    "max_imbalance": 510.0,
+    "max_wing_load": [
+      510.0,
+      510.0
+    ],
+    "pylons": [
+      {
+        "index": 1,
+        "tier": 8,
+        "order": 1,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "r3s",
+            "localized": "R-3S",
+            "icon_type": "missile_air_to_air",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r3r",
+            "localized": "R-3R",
+            "icon_type": "missile_air_to_air_special",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r60",
+            "localized": "R-60",
+            "icon_type": "missile_type_b_air_to_air",
+            "count": 1,
+            "individual_mass": 44.0,
+            "total_mass": 44.0,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "s24",
+            "localized": "S-24",
+            "icon_type": "rockets_he_large",
+            "count": 1,
+            "individual_mass": 235.0,
+            "total_mass": 235.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ub16",
+            "localized": "ub_16_57_su_s5k",
+            "icon_type": "nar_ap_middle",
+            "count": 1,
+            "individual_mass": 52.0,
+            "total_mass": 52.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "fab250",
+            "localized": "OFAB-250",
+            "icon_type": "bombs_middle",
+            "count": 1,
+            "individual_mass": 250.0,
+            "total_mass": 250.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "tier": 7,
+        "order": 3,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "r3s_default",
+            "localized": "su_r_3s_default",
+            "icon_type": "missile_air_to_air",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r3r_default",
+            "localized": "su_r_3r_default",
+            "icon_type": "missile_air_to_air_special",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r60",
+            "localized": "R-60",
+            "icon_type": "missile_type_b_air_to_air",
+            "count": 1,
+            "individual_mass": 44.0,
+            "total_mass": 44.0,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "s24",
+            "localized": "S-24",
+            "icon_type": "rockets_he_large",
+            "count": 1,
+            "individual_mass": 235.0,
+            "total_mass": 235.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ub16",
+            "localized": "ub_16_57_su_s5k",
+            "icon_type": "nar_ap_middle",
+            "count": 1,
+            "individual_mass": 52.0,
+            "total_mass": 52.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ub32",
+            "localized": "ub_32a_24_su_s5k",
+            "icon_type": "nar_ap_large",
+            "count": 1,
+            "individual_mass": 109.0,
+            "total_mass": 109.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "fab250",
+            "localized": "OFAB-250",
+            "icon_type": "bombs_middle",
+            "count": 1,
+            "individual_mass": 250.0,
+            "total_mass": 250.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "tier": 5,
+        "order": 4,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "r3s_default",
+            "localized": "su_r_3s_default",
+            "icon_type": "missile_air_to_air",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r3r_default",
+            "localized": "su_r_3r_default",
+            "icon_type": "missile_air_to_air_special",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r60",
+            "localized": "R-60",
+            "icon_type": "missile_type_b_air_to_air",
+            "count": 1,
+            "individual_mass": 44.0,
+            "total_mass": 44.0,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "s24",
+            "localized": "S-24",
+            "icon_type": "rockets_he_large",
+            "count": 1,
+            "individual_mass": 235.0,
+            "total_mass": 235.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ub16",
+            "localized": "ub_16_57_su_s5k",
+            "icon_type": "nar_ap_middle",
+            "count": 1,
+            "individual_mass": 52.0,
+            "total_mass": 52.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ub32",
+            "localized": "ub_32a_24_su_s5k",
+            "icon_type": "nar_ap_large",
+            "count": 1,
+            "individual_mass": 109.0,
+            "total_mass": 109.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "fab250",
+            "localized": "OFAB-250",
+            "icon_type": "bombs_middle",
+            "count": 1,
+            "individual_mass": 250.0,
+            "total_mass": 250.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "tier": 4,
+        "order": 2,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "r3s",
+            "localized": "R-3S",
+            "icon_type": "missile_air_to_air",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r3r",
+            "localized": "R-3R",
+            "icon_type": "missile_air_to_air_special",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r60",
+            "localized": "R-60",
+            "icon_type": "missile_type_b_air_to_air",
+            "count": 1,
+            "individual_mass": 44.0,
+            "total_mass": 44.0,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "s24",
+            "localized": "S-24",
+            "icon_type": "rockets_he_large",
+            "count": 1,
+            "individual_mass": 235.0,
+            "total_mass": 235.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ub16",
+            "localized": "ub_16_57_su_s5k",
+            "icon_type": "nar_ap_middle",
+            "count": 1,
+            "individual_mass": 52.0,
+            "total_mass": 52.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "fab250",
+            "localized": "OFAB-250",
+            "icon_type": "bombs_middle",
+            "count": 1,
+            "individual_mass": 250.0,
+            "total_mass": 250.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          }
+        ]
+      }
+    ],
+    "misc_pylons": [
+      {
+        "index": 0,
+        "tier": null,
+        "order": null,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "gsh_23l_common",
+            "localized": "23 mm GSh-23L cannon",
+            "icon_type": "cannon",
+            "count": 1,
+            "individual_mass": 155.0,
+            "total_mass": 155.0,
+            "weapon_type": "Cannon",
+            "depend_on": null
+          },
+          {
+            "name": "gsh_23l_ltc_common",
+            "localized": "23 mm GSh-23L cannon",
+            "icon_type": "cannon",
+            "count": 1,
+            "individual_mass": 155.0,
+            "total_mass": 155.0,
+            "weapon_type": "Cannon",
+            "depend_on": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "aircraft": "mig-21_pfm",
+    "localized": "MiG-21PFM",
+    "max_load": 2000.0,
+    "max_imbalance": 510.0,
+    "max_wing_load": [
+      510.0,
+      510.0
+    ],
+    "pylons": [
+      {
+        "index": 2,
+        "tier": 7,
+        "order": 2,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "r3s",
+            "localized": "R-3S",
+            "icon_type": "missile_air_to_air",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "kh66",
+            "localized": "Kh-66",
+            "icon_type": "missile_air_to_uni",
+            "count": 1,
+            "individual_mass": 278.0,
+            "total_mass": 278.0,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "s24",
+            "localized": "S-24",
+            "icon_type": "rockets_he_large",
+            "count": 1,
+            "individual_mass": 235.0,
+            "total_mass": 235.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ub16",
+            "localized": "ub_16_57_su_s5k",
+            "icon_type": "nar_ap_middle",
+            "count": 1,
+            "individual_mass": 52.0,
+            "total_mass": 52.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ub32",
+            "localized": "ub_32a_24_su_s5k",
+            "icon_type": "nar_ap_large",
+            "count": 1,
+            "individual_mass": 109.0,
+            "total_mass": 109.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "fab250",
+            "localized": "OFAB-250",
+            "icon_type": "bombs_middle",
+            "count": 1,
+            "individual_mass": 250.0,
+            "total_mass": 250.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "fab500",
+            "localized": "FAB-500M-54",
+            "icon_type": "bombs_large",
+            "count": 1,
+            "individual_mass": 478.0,
+            "total_mass": 478.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "tier": 5,
+        "order": 1,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "r3s",
+            "localized": "R-3S",
+            "icon_type": "missile_air_to_air",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "kh66",
+            "localized": "Kh-66",
+            "icon_type": "missile_air_to_uni",
+            "count": 1,
+            "individual_mass": 278.0,
+            "total_mass": 278.0,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "s24",
+            "localized": "S-24",
+            "icon_type": "rockets_he_large",
+            "count": 1,
+            "individual_mass": 235.0,
+            "total_mass": 235.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ub16",
+            "localized": "ub_16_57_su_s5k",
+            "icon_type": "nar_ap_middle",
+            "count": 1,
+            "individual_mass": 52.0,
+            "total_mass": 52.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ub32",
+            "localized": "ub_32a_24_su_s5k",
+            "icon_type": "nar_ap_large",
+            "count": 1,
+            "individual_mass": 109.0,
+            "total_mass": 109.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "fab250",
+            "localized": "OFAB-250",
+            "icon_type": "bombs_middle",
+            "count": 1,
+            "individual_mass": 250.0,
+            "total_mass": 250.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "fab500",
+            "localized": "FAB-500M-54",
+            "icon_type": "bombs_large",
+            "count": 1,
+            "individual_mass": 478.0,
+            "total_mass": 478.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          }
+        ]
+      }
+    ],
+    "misc_pylons": [
+      {
+        "index": 0,
+        "tier": null,
+        "order": null,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "gsh_23l_common",
+            "localized": "23 mm GSh-23L cannon",
+            "icon_type": "cannon",
+            "count": 1,
+            "individual_mass": 155.0,
+            "total_mass": 155.0,
+            "weapon_type": "Cannon",
+            "depend_on": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "aircraft": "mig-21_s",
+    "localized": "MiG-21S (R-13-300)",
+    "max_load": 2000.0,
+    "max_imbalance": 510.0,
+    "max_wing_load": [
+      510.0,
+      510.0
+    ],
+    "pylons": [
+      {
+        "index": 1,
+        "tier": 8,
+        "order": 1,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "r3s",
+            "localized": "R-3S",
+            "icon_type": "missile_air_to_air",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r3r",
+            "localized": "R-3R",
+            "icon_type": "missile_air_to_air_special",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "s24",
+            "localized": "S-24",
+            "icon_type": "rockets_he_large",
+            "count": 1,
+            "individual_mass": 235.0,
+            "total_mass": 235.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ub16",
+            "localized": "ub_16_57_su_s5k",
+            "icon_type": "nar_ap_middle",
+            "count": 1,
+            "individual_mass": 52.0,
+            "total_mass": 52.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "fab250",
+            "localized": "OFAB-250",
+            "icon_type": "bombs_middle",
+            "count": 1,
+            "individual_mass": 250.0,
+            "total_mass": 250.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "tier": 7,
+        "order": 3,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "r3s_default",
+            "localized": "su_r_3s_default",
+            "icon_type": "missile_air_to_air",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r3r",
+            "localized": "R-3R",
+            "icon_type": "missile_air_to_air_special",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "s24",
+            "localized": "S-24",
+            "icon_type": "rockets_he_large",
+            "count": 1,
+            "individual_mass": 235.0,
+            "total_mass": 235.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ub16",
+            "localized": "ub_16_57_su_s5k",
+            "icon_type": "nar_ap_middle",
+            "count": 1,
+            "individual_mass": 52.0,
+            "total_mass": 52.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ub32",
+            "localized": "ub_32a_24_su_s5k",
+            "icon_type": "nar_ap_large",
+            "count": 1,
+            "individual_mass": 109.0,
+            "total_mass": 109.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "fab250",
+            "localized": "OFAB-250",
+            "icon_type": "bombs_middle",
+            "count": 1,
+            "individual_mass": 250.0,
+            "total_mass": 250.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "fab500",
+            "localized": "FAB-500M-54",
+            "icon_type": "bombs_large",
+            "count": 1,
+            "individual_mass": 478.0,
+            "total_mass": 478.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "tier": 5,
+        "order": 4,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "r3s_default",
+            "localized": "su_r_3s_default",
+            "icon_type": "missile_air_to_air",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r3r",
+            "localized": "R-3R",
+            "icon_type": "missile_air_to_air_special",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "s24",
+            "localized": "S-24",
+            "icon_type": "rockets_he_large",
+            "count": 1,
+            "individual_mass": 235.0,
+            "total_mass": 235.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ub16",
+            "localized": "ub_16_57_su_s5k",
+            "icon_type": "nar_ap_middle",
+            "count": 1,
+            "individual_mass": 52.0,
+            "total_mass": 52.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ub32",
+            "localized": "ub_32a_24_su_s5k",
+            "icon_type": "nar_ap_large",
+            "count": 1,
+            "individual_mass": 109.0,
+            "total_mass": 109.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "fab250",
+            "localized": "OFAB-250",
+            "icon_type": "bombs_middle",
+            "count": 1,
+            "individual_mass": 250.0,
+            "total_mass": 250.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "fab500",
+            "localized": "FAB-500M-54",
+            "icon_type": "bombs_large",
+            "count": 1,
+            "individual_mass": 478.0,
+            "total_mass": 478.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "tier": 4,
+        "order": 2,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "r3s",
+            "localized": "R-3S",
+            "icon_type": "missile_air_to_air",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r3r",
+            "localized": "R-3R",
+            "icon_type": "missile_air_to_air_special",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "s24",
+            "localized": "S-24",
+            "icon_type": "rockets_he_large",
+            "count": 1,
+            "individual_mass": 235.0,
+            "total_mass": 235.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ub16",
+            "localized": "ub_16_57_su_s5k",
+            "icon_type": "nar_ap_middle",
+            "count": 1,
+            "individual_mass": 52.0,
+            "total_mass": 52.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "fab250",
+            "localized": "OFAB-250",
+            "icon_type": "bombs_middle",
+            "count": 1,
+            "individual_mass": 250.0,
+            "total_mass": 250.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          }
+        ]
+      }
+    ],
+    "misc_pylons": [
+      {
+        "index": 0,
+        "tier": null,
+        "order": null,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "gsh_23l_common",
+            "localized": "gsh_23l_common",
+            "icon_type": "",
+            "count": 0,
+            "individual_mass": 0.0,
+            "total_mass": 0.0,
+            "weapon_type": "TargetingPod",
+            "depend_on": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "aircraft": "mig-21_smt",
+    "localized": "MiG-21SMT",
+    "max_load": 2000.0,
+    "max_imbalance": 510.0,
+    "max_wing_load": [
+      510.0,
+      510.0
+    ],
+    "pylons": [
+      {
+        "index": 1,
+        "tier": 8,
+        "order": 1,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "r3s",
+            "localized": "R-3S",
+            "icon_type": "missile_air_to_air",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r3r",
+            "localized": "R-3R",
+            "icon_type": "missile_air_to_air_special",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r60",
+            "localized": "R-60",
+            "icon_type": "missile_type_b_air_to_air",
+            "count": 1,
+            "individual_mass": 44.0,
+            "total_mass": 44.0,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "s24",
+            "localized": "S-24",
+            "icon_type": "rockets_he_large",
+            "count": 1,
+            "individual_mass": 235.0,
+            "total_mass": 235.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ub16",
+            "localized": "ub_16_57_su_s5k",
+            "icon_type": "nar_ap_middle",
+            "count": 1,
+            "individual_mass": 52.0,
+            "total_mass": 52.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "fab250",
+            "localized": "OFAB-250",
+            "icon_type": "bombs_middle",
+            "count": 1,
+            "individual_mass": 250.0,
+            "total_mass": 250.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "tier": 7,
+        "order": 3,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "r3s_default",
+            "localized": "su_r_3s_default",
+            "icon_type": "missile_air_to_air",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r3r_default",
+            "localized": "su_r_3r_default",
+            "icon_type": "missile_air_to_air_special",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r60",
+            "localized": "R-60",
+            "icon_type": "missile_type_b_air_to_air",
+            "count": 1,
+            "individual_mass": 44.0,
+            "total_mass": 44.0,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "s24",
+            "localized": "S-24",
+            "icon_type": "rockets_he_large",
+            "count": 1,
+            "individual_mass": 235.0,
+            "total_mass": 235.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ub16",
+            "localized": "ub_16_57_su_s5k",
+            "icon_type": "nar_ap_middle",
+            "count": 1,
+            "individual_mass": 52.0,
+            "total_mass": 52.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ub32",
+            "localized": "ub_32a_24_su_s5k",
+            "icon_type": "nar_ap_large",
+            "count": 1,
+            "individual_mass": 109.0,
+            "total_mass": 109.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "fab250",
+            "localized": "OFAB-250",
+            "icon_type": "bombs_middle",
+            "count": 1,
+            "individual_mass": 250.0,
+            "total_mass": 250.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "fab500",
+            "localized": "FAB-500M-54",
+            "icon_type": "bombs_large",
+            "count": 1,
+            "individual_mass": 478.0,
+            "total_mass": 478.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "tier": 5,
+        "order": 4,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "r3s_default",
+            "localized": "su_r_3s_default",
+            "icon_type": "missile_air_to_air",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r3r_default",
+            "localized": "su_r_3r_default",
+            "icon_type": "missile_air_to_air_special",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r60",
+            "localized": "R-60",
+            "icon_type": "missile_type_b_air_to_air",
+            "count": 1,
+            "individual_mass": 44.0,
+            "total_mass": 44.0,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "s24",
+            "localized": "S-24",
+            "icon_type": "rockets_he_large",
+            "count": 1,
+            "individual_mass": 235.0,
+            "total_mass": 235.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ub16",
+            "localized": "ub_16_57_su_s5k",
+            "icon_type": "nar_ap_middle",
+            "count": 1,
+            "individual_mass": 52.0,
+            "total_mass": 52.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ub32",
+            "localized": "ub_32a_24_su_s5k",
+            "icon_type": "nar_ap_large",
+            "count": 1,
+            "individual_mass": 109.0,
+            "total_mass": 109.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "fab250",
+            "localized": "OFAB-250",
+            "icon_type": "bombs_middle",
+            "count": 1,
+            "individual_mass": 250.0,
+            "total_mass": 250.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "fab500",
+            "localized": "FAB-500M-54",
+            "icon_type": "bombs_large",
+            "count": 1,
+            "individual_mass": 478.0,
+            "total_mass": 478.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "tier": 4,
+        "order": 2,
+        "exempt_from_imbalance": false,
+        "weapons": [
+          {
+            "name": "r3s",
+            "localized": "R-3S",
+            "icon_type": "missile_air_to_air",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r3r",
+            "localized": "R-3R",
+            "icon_type": "missile_air_to_air_special",
+            "count": 1,
+            "individual_mass": 75.3,
+            "total_mass": 75.3,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "r60",
+            "localized": "R-60",
+            "icon_type": "missile_type_b_air_to_air",
+            "count": 1,
+            "individual_mass": 44.0,
+            "total_mass": 44.0,
+            "weapon_type": "AAM",
+            "depend_on": null
+          },
+          {
+            "name": "s24",
+            "localized": "S-24",
+            "icon_type": "rockets_he_large",
+            "count": 1,
+            "individual_mass": 235.0,
+            "total_mass": 235.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "ub16",
+            "localized": "ub_16_57_su_s5k",
+            "icon_type": "nar_ap_middle",
+            "count": 1,
+            "individual_mass": 52.0,
+            "total_mass": 52.0,
+            "weapon_type": "Rocket",
+            "depend_on": null
+          },
+          {
+            "name": "fab250",
+            "localized": "OFAB-250",
+            "icon_type": "bombs_middle",
+            "count": 1,
+            "individual_mass": 250.0,
+            "total_mass": 250.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          }
+        ]
+      }
+    ],
+    "misc_pylons": [
+      {
+        "index": 0,
+        "tier": null,
+        "order": null,
+        "exempt_from_imbalance": true,
+        "weapons": [
+          {
+            "name": "gsh_23l_common",
+            "localized": "23 mm GSh-23L cannon",
+            "icon_type": "cannon",
+            "count": 1,
+            "individual_mass": 155.0,
+            "total_mass": 155.0,
+            "weapon_type": "Cannon",
+            "depend_on": null
+          },
+          {
+            "name": "gsh_23l_ltc_common",
+            "localized": "23 mm GSh-23L cannon",
+            "icon_type": "cannon",
+            "count": 1,
+            "individual_mass": 155.0,
+            "total_mass": 155.0,
+            "weapon_type": "Cannon",
+            "depend_on": null
+          }
+        ]
+      }
+    ]
+  },
+  {
     "aircraft": "mig_23m",
     "localized": "MiG-23M",
     "max_load": 2000.0,
@@ -7410,6 +10442,16 @@
             "count": 1,
             "individual_mass": 508.3,
             "total_mass": 508.3,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "zb_500",
+            "localized": "su_zb_500",
+            "icon_type": "ptb",
+            "count": 1,
+            "individual_mass": 374.0,
+            "total_mass": 374.0,
             "weapon_type": "Bomb",
             "depend_on": null
           }
@@ -7707,6 +10749,16 @@
             "count": 1,
             "individual_mass": 508.3,
             "total_mass": 508.3,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "zb_500",
+            "localized": "su_zb_500",
+            "icon_type": "ptb",
+            "count": 1,
+            "individual_mass": 374.0,
+            "total_mass": 374.0,
             "weapon_type": "Bomb",
             "depend_on": null
           }
@@ -7882,6 +10934,16 @@
             "total_mass": 508.3,
             "weapon_type": "Bomb",
             "depend_on": null
+          },
+          {
+            "name": "zb_500",
+            "localized": "su_zb_500",
+            "icon_type": "ptb",
+            "count": 1,
+            "individual_mass": 374.0,
+            "total_mass": 374.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
           }
         ]
       },
@@ -8179,6 +11241,16 @@
             "total_mass": 508.3,
             "weapon_type": "Bomb",
             "depend_on": null
+          },
+          {
+            "name": "zb_500",
+            "localized": "su_zb_500",
+            "icon_type": "ptb",
+            "count": 1,
+            "individual_mass": 374.0,
+            "total_mass": 374.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
           }
         ]
       }
@@ -8317,6 +11389,16 @@
             "count": 1,
             "individual_mass": 508.3,
             "total_mass": 508.3,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "zb_500",
+            "localized": "su_zb_500",
+            "icon_type": "ptb",
+            "count": 1,
+            "individual_mass": 374.0,
+            "total_mass": 374.0,
             "weapon_type": "Bomb",
             "depend_on": null
           },
@@ -8624,6 +11706,16 @@
             "count": 1,
             "individual_mass": 508.3,
             "total_mass": 508.3,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "zb_500",
+            "localized": "su_zb_500",
+            "icon_type": "ptb",
+            "count": 1,
+            "individual_mass": 374.0,
+            "total_mass": 374.0,
             "weapon_type": "Bomb",
             "depend_on": null
           },
@@ -8831,6 +11923,16 @@
             "depend_on": null
           },
           {
+            "name": "zb_500",
+            "localized": "su_zb_500",
+            "icon_type": "ptb",
+            "count": 1,
+            "individual_mass": 374.0,
+            "total_mass": 374.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
             "name": "ub_16_57_s5k",
             "localized": "ub_16_57_su_s5k",
             "icon_type": "nar_ap_middle",
@@ -9138,6 +12240,16 @@
             "depend_on": null
           },
           {
+            "name": "zb_500",
+            "localized": "su_zb_500",
+            "icon_type": "ptb",
+            "count": 1,
+            "individual_mass": 374.0,
+            "total_mass": 374.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
             "name": "ub_16_57_s5k",
             "localized": "ub_16_57_su_s5k",
             "icon_type": "nar_ap_middle",
@@ -9331,6 +12443,16 @@
             "depend_on": null
           },
           {
+            "name": "zb_500",
+            "localized": "su_zb_500",
+            "icon_type": "ptb",
+            "count": 1,
+            "individual_mass": 374.0,
+            "total_mass": 374.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
             "name": "kab_500kr",
             "localized": "KAB-500",
             "icon_type": "guided_bomb_yellow",
@@ -9510,6 +12632,16 @@
             "depend_on": null
           },
           {
+            "name": "zb_500",
+            "localized": "su_zb_500",
+            "icon_type": "ptb",
+            "count": 1,
+            "individual_mass": 374.0,
+            "total_mass": 374.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
             "name": "kab_500kr",
             "localized": "KAB-500",
             "icon_type": "guided_bomb_yellow",
@@ -9642,6 +12774,16 @@
             "count": 1,
             "individual_mass": 508.3,
             "total_mass": 508.3,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "zb_500",
+            "localized": "su_zb_500",
+            "icon_type": "ptb",
+            "count": 1,
+            "individual_mass": 374.0,
+            "total_mass": 374.0,
             "weapon_type": "Bomb",
             "depend_on": null
           },
@@ -9808,6 +12950,16 @@
             "count": 1,
             "individual_mass": 508.3,
             "total_mass": 508.3,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "zb_500",
+            "localized": "su_zb_500",
+            "icon_type": "ptb",
+            "count": 1,
+            "individual_mass": 374.0,
+            "total_mass": 374.0,
             "weapon_type": "Bomb",
             "depend_on": null
           },
@@ -10025,6 +13177,16 @@
             "depend_on": null
           },
           {
+            "name": "zb_500",
+            "localized": "su_zb_500",
+            "icon_type": "ptb",
+            "count": 1,
+            "individual_mass": 374.0,
+            "total_mass": 374.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
             "name": "x23m",
             "localized": "Kh-23M",
             "icon_type": "missile_air_to_uni",
@@ -10184,6 +13346,16 @@
             "depend_on": null
           },
           {
+            "name": "zb_500",
+            "localized": "su_zb_500",
+            "icon_type": "ptb",
+            "count": 1,
+            "individual_mass": 374.0,
+            "total_mass": 374.0,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
             "name": "kab_500kr",
             "localized": "KAB-500",
             "icon_type": "guided_bomb_yellow",
@@ -10306,6 +13478,16 @@
             "count": 1,
             "individual_mass": 508.3,
             "total_mass": 508.3,
+            "weapon_type": "Bomb",
+            "depend_on": null
+          },
+          {
+            "name": "zb_500",
+            "localized": "su_zb_500",
+            "icon_type": "ptb",
+            "count": 1,
+            "individual_mass": 374.0,
+            "total_mass": 374.0,
             "weapon_type": "Bomb",
             "depend_on": null
           },
@@ -10473,6 +13655,16 @@
             "individual_mass": 520.0,
             "total_mass": 520.0,
             "weapon_type": "GBU",
+            "depend_on": null
+          },
+          {
+            "name": "zb_500",
+            "localized": "su_zb_500",
+            "icon_type": "ptb",
+            "count": 1,
+            "individual_mass": 374.0,
+            "total_mass": 374.0,
+            "weapon_type": "Bomb",
             "depend_on": null
           },
           {
@@ -11531,7 +14723,7 @@
         "weapons": [
           {
             "name": "wing_left_single_r_60",
-            "localized": "su_r_60_default",
+            "localized": "su_r_60m_default",
             "icon_type": "missile_type_b_air_to_air",
             "count": 1,
             "individual_mass": 44.0,
@@ -11579,7 +14771,7 @@
           },
           {
             "name": "wing_middle_left_rocket_r_60_x2",
-            "localized": "R-60",
+            "localized": "R-60M",
             "icon_type": "missile_type_b_air_to_air_group",
             "count": 2,
             "individual_mass": 44.0,
@@ -11853,7 +15045,7 @@
           },
           {
             "name": "wing_middle_right_rocket_r_60_x2",
-            "localized": "R-60",
+            "localized": "R-60M",
             "icon_type": "missile_type_b_air_to_air_group",
             "count": 2,
             "individual_mass": 44.0,
@@ -11931,7 +15123,7 @@
         "weapons": [
           {
             "name": "wing_right_single_r_60",
-            "localized": "su_r_60_default",
+            "localized": "su_r_60m_default",
             "icon_type": "missile_type_b_air_to_air",
             "count": 1,
             "individual_mass": 44.0,

@@ -1993,7 +1993,7 @@
           "sleeveImpulse": [0.0,0.1,-3.0],
           "sleevesImpulseOffset": 0.01,
           "linkSleeveToGun": true,
-          "recoilOffset": 0.01,
+          "recoilOffset": 0.02,
           "maxAdditionalPitch": 0.0,
           "defaultYaw": 0.0,
           "defaultPitch": 0.0,
@@ -3006,10 +3006,10 @@
       "tank_new_gun": [],
       "art_support": [],
       "tank_medical_kit": {
-        "image": "#ui/gameuiskin#tank_reinforcement_ger"
+        "image": "#ui/gameuiskin#tank_reinforcement_ger.png"
       },
       "tank_medical_kit_expendable": {
-        "image": "#ui/gameuiskin#tank_reinforcement_ger"
+        "image": "#ui/gameuiskin#tank_reinforcement_ger.png"
       },
       "airstrike": [],
       "improved_optics": [],
@@ -3043,7 +3043,7 @@
                 "sleeveImpulse": [0.0,0.1,-3.0],
                 "sleevesImpulseOffset": 0.01,
                 "linkSleeveToGun": true,
-                "recoilOffset": 0.01,
+                "recoilOffset": 0.02,
                 "maxAdditionalPitch": 0.0,
                 "defaultYaw": 0.0,
                 "defaultPitch": 0.0,
@@ -3335,7 +3335,7 @@
         }
       },
       "night_vision_system": {
-        "image": "#ui/gameuiskin#thermal_sight",
+        "image": "#ui/gameuiskin#thermal_sight.png",
         "tier": 1,
         "effects": {
           "nightVision": {

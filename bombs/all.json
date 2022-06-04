@@ -1269,6 +1269,15 @@
     "can_kill_npc_ship": false
   },
   {
+    "name": "su_zb_500",
+    "weight": 374.0,
+    "explosive_mass": 250.0,
+    "explosive_type": "sks",
+    "explosive_equiv": 1.0,
+    "can_kill_npc_tank": false,
+    "can_kill_npc_ship": false
+  },
+  {
     "name": "swd_120kg_sb_m61",
     "weight": 120.0,
     "explosive_mass": 30.0,
@@ -1697,6 +1706,24 @@
     "explosive_mass": 87.1,
     "explosive_type": "comp_h6",
     "explosive_equiv": 118.0,
+    "can_kill_npc_tank": false,
+    "can_kill_npc_ship": false
+  },
+  {
+    "name": "us_500lb_mk77_mod2",
+    "weight": 235.9,
+    "explosive_mass": 207.3,
+    "explosive_type": "napalm",
+    "explosive_equiv": 0.0,
+    "can_kill_npc_tank": false,
+    "can_kill_npc_ship": false
+  },
+  {
+    "name": "us_500lb_mk77_mod4",
+    "weight": 235.9,
+    "explosive_mass": 207.3,
+    "explosive_type": "napalm",
+    "explosive_equiv": 0.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },

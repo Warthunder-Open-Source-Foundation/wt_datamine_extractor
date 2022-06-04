@@ -3046,10 +3046,10 @@
             "node": "us_lau_117a_002"
           },
           {
-            "node": "aero_3b_001"
+            "node": "lau_7a_2_1"
           },
           {
-            "node": "aero_3b_002"
+            "node": "lau_7a_2_2"
           },
           {
             "node": "pylon_l_in_upor"
@@ -3332,8 +3332,8 @@
               },
               "Weapon": {
                 "trigger": "aam",
-                "blk": "gameData/Weapons/containers/aero_3b_aim9d_left_wing.blk",
-                "emitter": "aero_3b_001",
+                "blk": "gameData/Weapons/containers/lau_7a_aim9d_left_wing.blk",
+                "emitter": "lau_7a_2_1",
                 "external": true,
                 "separate": true,
                 "loadFactorLimit": 4.0
@@ -3350,8 +3350,8 @@
               },
               "Weapon": {
                 "trigger": "aam",
-                "blk": "gameData/Weapons/containers/aero_3b_aim9d.blk",
-                "emitter": "aero_3b_001",
+                "blk": "gameData/Weapons/containers/lau_7a_aim9d.blk",
+                "emitter": "lau_7a_2_1",
                 "external": true,
                 "separate": true,
                 "loadFactorLimit": 4.0
@@ -3368,8 +3368,8 @@
               },
               "Weapon": {
                 "trigger": "aam",
-                "blk": "gameData/Weapons/containers/aero_3b_aim9g.blk",
-                "emitter": "aero_3b_001",
+                "blk": "gameData/Weapons/containers/lau_7a_aim9g.blk",
+                "emitter": "lau_7a_2_1",
                 "external": true,
                 "separate": true,
                 "loadFactorLimit": 7.0
@@ -3680,8 +3680,8 @@
               },
               "Weapon": {
                 "trigger": "aam",
-                "blk": "gameData/Weapons/containers/aero_3b_aim9d_right_wing.blk",
-                "emitter": "aero_3b_002",
+                "blk": "gameData/Weapons/containers/lau_7a_aim9d_right_wing.blk",
+                "emitter": "lau_7a_2_2",
                 "external": true,
                 "separate": true,
                 "loadFactorLimit": 4.0
@@ -3698,8 +3698,8 @@
               },
               "Weapon": {
                 "trigger": "aam",
-                "blk": "gameData/Weapons/containers/aero_3b_aim9d.blk",
-                "emitter": "aero_3b_002",
+                "blk": "gameData/Weapons/containers/lau_7a_aim9d.blk",
+                "emitter": "lau_7a_2_2",
                 "external": true,
                 "separate": true,
                 "loadFactorLimit": 4.0
@@ -3716,8 +3716,8 @@
               },
               "Weapon": {
                 "trigger": "aam",
-                "blk": "gameData/Weapons/containers/aero_3b_aim9g.blk",
-                "emitter": "aero_3b_002",
+                "blk": "gameData/Weapons/containers/lau_7a_aim9g.blk",
+                "emitter": "lau_7a_2_2",
                 "external": true,
                 "separate": true,
                 "loadFactorLimit": 7.0

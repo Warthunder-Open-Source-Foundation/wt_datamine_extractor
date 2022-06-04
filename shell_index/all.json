@@ -378,7 +378,7 @@
     "penetration": [
       [
         0,
-        70
+        75
       ]
     ],
     "explosive": [
@@ -1147,6 +1147,25 @@
       "",
       0,
       0
+    ]
+  },
+  {
+    "name": "105mm_ep_m43",
+    "localized": "Effetto Pronto mod.43",
+    "shell_type": "Heat",
+    "caliber": 100,
+    "true_caliber": 100,
+    "velocity": 431,
+    "penetration": [
+      [
+        0,
+        110
+      ]
+    ],
+    "explosive": [
+      "rdx_tnt",
+      1200,
+      1536
     ]
   },
   {
@@ -1938,7 +1957,7 @@
     "penetration": [
       [
         0,
-        360
+        400
       ]
     ],
     "explosive": [
@@ -1957,7 +1976,7 @@
     "penetration": [
       [
         0,
-        360
+        400
       ]
     ],
     "explosive": [
@@ -6487,36 +6506,36 @@
     "localized": "125mm_dtc10_125",
     "shell_type": "ApFsDs",
     "caliber": 125,
-    "true_caliber": 23,
-    "velocity": 1740,
+    "true_caliber": 24,
+    "velocity": 1770,
     "penetration": [
       [
         0,
-        552
+        576
       ],
       [
         100,
-        550
+        574
       ],
       [
         500,
-        542
+        565
       ],
       [
         1000,
-        532
+        555
       ],
       [
         1500,
-        521
+        544
       ],
       [
         2000,
-        511
+        533
       ],
       [
         3000,
-        490
+        511
       ]
     ],
     "explosive": [

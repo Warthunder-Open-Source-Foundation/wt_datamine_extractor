@@ -2862,7 +2862,8 @@
       "turret_08_back_dm": true,
       "ex_armor_01_dm": true,
       "ex_decor_03_dm": true,
-      "ex_decor_04_dm": true
+      "ex_decor_04_dm": true,
+      "composite_armor_hull_05_dm": true
     }
   },
   {
@@ -4097,10 +4098,10 @@
         }
       },
       "tank_medical_kit": {
-        "image": "#ui/gameuiskin#tank_reinforcement_sw"
+        "image": "#ui/gameuiskin#tank_reinforcement_sw.png"
       },
       "tank_medical_kit_expendable": {
-        "image": "#ui/gameuiskin#tank_reinforcement_sw"
+        "image": "#ui/gameuiskin#tank_reinforcement_sw.png"
       },
       "120mm_sw_kan_APDS_FS": [],
       "120mm_DM_HE_FS": [],
@@ -4453,7 +4454,7 @@
         }
       },
       "night_vision_system": {
-        "image": "#ui/gameuiskin#thermal_sight",
+        "image": "#ui/gameuiskin#thermal_sight.png",
         "tier": 3,
         "effects": {
           "nightVision": {

@@ -215,13 +215,13 @@
         },
         "composite_armor_turret_02_dm": {
           "armorThickness": 800.0,
-          "cumulativeArmorQuality": 1.357,
-          "genericArmorQuality": 0.487
+          "cumulativeArmorQuality": 1.6,
+          "genericArmorQuality": 0.885
         },
         "composite_armor_turret_03_dm": {
           "armorThickness": 800.0,
-          "cumulativeArmorQuality": 1.357,
-          "genericArmorQuality": 0.487
+          "cumulativeArmorQuality": 1.6,
+          "genericArmorQuality": 0.885
         },
         "composite_armor_turret_05_dm": {
           "armorThickness": 300.0,
@@ -500,7 +500,8 @@
           "createSecondaryShatters": false
         },
         "turret_01_side_dm": {
-          "armorThickness": 101.0
+          "armorThickness": 6.35,
+          "hidableInViewer": true
         },
         "ex_armor_turret_01_dm": {
           "armorThickness": 25.0
@@ -2276,7 +2277,7 @@
             },
             {
               "layer": {
-                "dmPart": "turret_01_side_dm"
+                "dmPart": "turret_02_top_dm"
               }
             }
           ]
@@ -2298,7 +2299,7 @@
             },
             {
               "layer": {
-                "dmPart": "turret_01_side_dm"
+                "dmPart": "turret_02_top_dm"
               }
             }
           ]
@@ -3392,10 +3393,10 @@
       "art_support": [],
       "tank_engine_smoke_screen_system": [],
       "tank_medical_kit": {
-        "image": "#ui/gameuiskin#tank_reinforcement_us"
+        "image": "#ui/gameuiskin#tank_reinforcement_us.png"
       },
       "tank_medical_kit_expendable": {
-        "image": "#ui/gameuiskin#tank_reinforcement_us"
+        "image": "#ui/gameuiskin#tank_reinforcement_us.png"
       },
       "modern_tank_laser_rangefinder": [],
       "120mm_NATO_APDS_FS": [],
@@ -3666,7 +3667,7 @@
         }
       },
       "night_vision_system": {
-        "image": "#ui/gameuiskin#thermal_sight",
+        "image": "#ui/gameuiskin#thermal_sight.png",
         "effects": {
           "nightVision": {
             "gunnerThermal": {

@@ -1291,10 +1291,10 @@
           "node": "us_lau_117a_002"
         },
         {
-          "node": "aero_3b_001"
+          "node": "lau_7a_001"
         },
         {
-          "node": "aero_3b_002"
+          "node": "lau_7a_002"
         },
         {
           "node": "pylon_l_in_upor"
@@ -1437,15 +1437,15 @@
         },
         {
           "WeaponPreset": {
-            "iconType": "nar_ap_large_group_x3",
-            "name": "mer_lau_3a",
+            "iconType": "nar_ap_large_group",
+            "name": "ter_lau_3a_left_wing",
             "reqModification": "us_2_75_in_ffar_lau_3a",
             "ShowNodes": {
               "node": "pylon_l_out"
             },
             "Weapon": {
               "trigger": "rockets",
-              "blk": "gameData/Weapons/containers/mer_lau_3a_ffar_mighty_mouse.blk",
+              "blk": "gameData/Weapons/containers/lau_3a_ffar_mighty_mouse_x2_left_wing.blk",
               "emitter": "mer_001",
               "external": true,
               "machLimit": 1.01
@@ -1455,14 +1455,14 @@
         {
           "WeaponPreset": {
             "iconType": "nar_ap_special_group_x3",
-            "name": "mer_lau_10a",
+            "name": "ter_lau_10a",
             "reqModification": "f4c_zuni",
             "ShowNodes": {
               "node": "pylon_l_out"
             },
             "Weapon": {
               "trigger": "rockets",
-              "blk": "gameData/Weapons/containers/mer_lau_10a_ffar_mighty_mouse.blk",
+              "blk": "gameData/Weapons/containers/ter_lau_10a_ffar_mighty_mouse.blk",
               "emitter": "mer_001",
               "external": true,
               "machLimit": 1.01
@@ -1505,15 +1505,15 @@
         },
         {
           "WeaponPreset": {
-            "iconType": "bombs_large_group_x4",
-            "name": "mer_m117_x4",
+            "iconType": "bombs_large_group",
+            "name": "mer_m117_x3_left_wing",
             "reqModification": "us_750lb_m117a1",
             "ShowNodes": {
               "node": "pylon_l_out"
             },
             "Weapon": {
               "trigger": "bombs",
-              "blk": "gameData/Weapons/containers/mer_us_750lb_m117_x4.blk",
+              "blk": "gameData/Weapons/containers/mer_us_750lb_m117_x3_left_wing.blk",
               "emitter": "mer_001",
               "external": true,
               "machLimit": 1.01
@@ -1523,14 +1523,14 @@
         {
           "WeaponPreset": {
             "iconType": "bombs_special_group",
-            "name": "mer_mk83_x2",
+            "name": "ter_mk83_x2_left_wing",
             "reqModification": "us_1000lb_mk83",
             "ShowNodes": {
               "node": "pylon_l_out"
             },
             "Weapon": {
               "trigger": "bombs",
-              "blk": "gameData/Weapons/containers/mer_us_1000lb_mk_83_x2.blk",
+              "blk": "gameData/Weapons/containers/ter_us_1000lb_mk_83_x2_left_wing.blk",
               "emitter": "mer_001",
               "external": true,
               "machLimit": 1.01
@@ -1551,42 +1551,122 @@
           "order": 3
         },
         {
-          "WeaponPreset": {
-            "iconType": "missile_air_to_air_special",
-            "name": "aim_7e2_wing",
-            "reqModification": "us_aim_7e2",
-            "ShowNodes": {
-              "node": "pylon_l_in"
+          "WeaponPreset": [
+            {
+              "iconType": "missile_air_to_air_special"
             },
-            "Weapon": {
-              "trigger": "aam",
-              "blk": "gameData/Weapons/rocketGuns/us_aim7e2_dogfight_sparrow.blk",
-              "emitter": "aim_7e_005",
-              "bullets": 1,
-              "external": true,
-              "separate": true,
-              "loadFactorLimit": 4.0
+            {
+              "name": "aim_7e2_wing"
+            },
+            {
+              "reqModification": "us_aim_7e2"
+            },
+            {
+              "ShowNodes": {
+                "node": "pylon_l_in"
+              }
+            },
+            {
+              "Weapon": {
+                "trigger": "aam",
+                "blk": "gameData/Weapons/rocketGuns/us_aim7e2_dogfight_sparrow.blk",
+                "emitter": "aim_7e_005",
+                "bullets": 1,
+                "external": true,
+                "separate": true,
+                "loadFactorLimit": 4.0
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 4,
+                "preset": "aim_7f"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 5,
+                "preset": "aim_7f"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 7,
+                "preset": "aim_7f"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 8,
+                "preset": "aim_7f"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 10,
+                "preset": "aim_7f_wing"
+              }
             }
-          }
+          ]
         },
         {
-          "WeaponPreset": {
-            "iconType": "missile_air_to_air_midrange_special",
-            "name": "aim_7f_wing",
-            "reqModification": "us_aim_7f",
-            "ShowNodes": {
-              "node": "pylon_l_in"
+          "WeaponPreset": [
+            {
+              "iconType": "missile_air_to_air_midrange_special"
             },
-            "Weapon": {
-              "trigger": "aam",
-              "blk": "gameData/Weapons/rocketGuns/us_aim7f_sparrow.blk",
-              "emitter": "aim_7e_005",
-              "bullets": 1,
-              "external": true,
-              "separate": true,
-              "loadFactorLimit": 4.0
+            {
+              "name": "aim_7f_wing"
+            },
+            {
+              "reqModification": "us_aim_7f"
+            },
+            {
+              "ShowNodes": {
+                "node": "pylon_l_in"
+              }
+            },
+            {
+              "Weapon": {
+                "trigger": "aam",
+                "blk": "gameData/Weapons/rocketGuns/us_aim7f_sparrow.blk",
+                "emitter": "aim_7e_005",
+                "bullets": 1,
+                "external": true,
+                "separate": true,
+                "loadFactorLimit": 4.0
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 4,
+                "preset": "aim_7e2"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 5,
+                "preset": "aim_7e2"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 7,
+                "preset": "aim_7e2"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 8,
+                "preset": "aim_7e2"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 10,
+                "preset": "aim_7e2_wing"
+              }
             }
-          }
+          ]
         },
         {
           "WeaponPreset": {
@@ -1701,7 +1781,7 @@
         {
           "WeaponPreset": {
             "iconType": "bombs_special_group",
-            "name": "ter_mk83",
+            "name": "ter_mk83_x2_left_wing",
             "reqModification": "us_1000lb_mk83",
             "ShowNodes": [
               {
@@ -1713,7 +1793,7 @@
             ],
             "Weapon": {
               "trigger": "bombs",
-              "blk": "gameData/Weapons/containers/ter_us_1000lb_mk_83.blk",
+              "blk": "gameData/Weapons/containers/ter_us_1000lb_mk_83_x2_left_wing.blk",
               "emitter": "ter_001",
               "external": true,
               "machLimit": 1.01
@@ -1734,54 +1814,118 @@
           "order": 5
         },
         {
-          "WeaponPreset": {
-            "iconType": "missile_air_to_air",
-            "name": "aim_9d_default_left_wing",
-            "ShowNodes": {
-              "node": "pylon_l_in"
+          "WeaponPreset": [
+            {
+              "iconType": "missile_air_to_air"
             },
-            "Weapon": {
-              "trigger": "aam",
-              "blk": "gameData/Weapons/containers/aero_3b_aim9d_left_wing.blk",
-              "emitter": "lau_7a_2_1",
-              "external": true,
-              "separate": true
+            {
+              "name": "aim_9d_default_left_wing"
+            },
+            {
+              "ShowNodes": {
+                "node": "pylon_l_in"
+              }
+            },
+            {
+              "Weapon": {
+                "trigger": "aam",
+                "blk": "gameData/Weapons/containers/lau_7a_aim9d_left_wing.blk",
+                "emitter": "lau_7a_2_1",
+                "external": true,
+                "separate": true
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 2,
+                "preset": "aim_7e2_wing"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 2,
+                "preset": "aim_7f_wing"
+              }
             }
-          }
+          ]
         },
         {
-          "WeaponPreset": {
-            "iconType": "missile_air_to_air_group",
-            "name": "aim_9d",
-            "reqModification": "us_aim_9d",
-            "ShowNodes": {
-              "node": "pylon_l_in"
+          "WeaponPreset": [
+            {
+              "iconType": "missile_air_to_air_group"
             },
-            "Weapon": {
-              "trigger": "aam",
-              "blk": "gameData/Weapons/containers/aero_3b_aim9d.blk",
-              "emitter": "lau_7a_2_1",
-              "external": true,
-              "separate": true
+            {
+              "name": "aim_9d"
+            },
+            {
+              "reqModification": "us_aim_9d"
+            },
+            {
+              "ShowNodes": {
+                "node": "pylon_l_in"
+              }
+            },
+            {
+              "Weapon": {
+                "trigger": "aam",
+                "blk": "gameData/Weapons/containers/lau_7a_aim9d.blk",
+                "emitter": "lau_7a_2_1",
+                "external": true,
+                "separate": true
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 2,
+                "preset": "aim_7e2_wing"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 2,
+                "preset": "aim_7f_wing"
+              }
             }
-          }
+          ]
         },
         {
-          "WeaponPreset": {
-            "iconType": "missile_type_b_air_to_air_group",
-            "name": "aim_9g",
-            "reqModification": "us_aim_9g",
-            "ShowNodes": {
-              "node": "pylon_l_in"
+          "WeaponPreset": [
+            {
+              "iconType": "missile_type_b_air_to_air_group"
             },
-            "Weapon": {
-              "trigger": "aam",
-              "blk": "gameData/Weapons/containers/aero_3b_aim9g.blk",
-              "emitter": "lau_7a_2_1",
-              "external": true,
-              "separate": true
+            {
+              "name": "aim_9g"
+            },
+            {
+              "reqModification": "us_aim_9g"
+            },
+            {
+              "ShowNodes": {
+                "node": "pylon_l_in"
+              }
+            },
+            {
+              "Weapon": {
+                "trigger": "aam",
+                "blk": "gameData/Weapons/containers/lau_7a_aim9g.blk",
+                "emitter": "lau_7a_2_1",
+                "external": true,
+                "separate": true
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 2,
+                "preset": "aim_7e2_wing"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 2,
+                "preset": "aim_7f_wing"
+              }
             }
-          }
+          ]
         }
       ]
     },
@@ -1800,36 +1944,112 @@
           "notUseforDisbalanceCalculation": true
         },
         {
-          "WeaponPreset": {
-            "iconType": "missile_air_to_air_special",
-            "name": "aim_7e2",
-            "reqModification": "us_aim_7e2",
-            "Weapon": {
-              "trigger": "aam",
-              "blk": "gameData/Weapons/rocketGuns/us_aim7e2_dogfight_sparrow.blk",
-              "emitter": "aim_7e_003",
-              "bullets": 1,
-              "external": true,
-              "separate": true,
-              "loadFactorLimit": 4.0
+          "WeaponPreset": [
+            {
+              "iconType": "missile_air_to_air_special"
+            },
+            {
+              "name": "aim_7e2"
+            },
+            {
+              "reqModification": "us_aim_7e2"
+            },
+            {
+              "Weapon": {
+                "trigger": "aam",
+                "blk": "gameData/Weapons/rocketGuns/us_aim7e2_dogfight_sparrow.blk",
+                "emitter": "aim_7e_003",
+                "bullets": 1,
+                "external": true,
+                "separate": true,
+                "loadFactorLimit": 4.0
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 2,
+                "preset": "aim_7f_wing"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 5,
+                "preset": "aim_7f"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 7,
+                "preset": "aim_7f"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 8,
+                "preset": "aim_7f"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 10,
+                "preset": "aim_7f_wing"
+              }
             }
-          }
+          ]
         },
         {
-          "WeaponPreset": {
-            "iconType": "missile_air_to_air_midrange_special",
-            "name": "aim_7f",
-            "reqModification": "us_aim_7f",
-            "Weapon": {
-              "trigger": "aam",
-              "blk": "gameData/Weapons/rocketGuns/us_aim7f_sparrow.blk",
-              "emitter": "aim_7e_003",
-              "bullets": 1,
-              "external": true,
-              "separate": true,
-              "loadFactorLimit": 4.0
+          "WeaponPreset": [
+            {
+              "iconType": "missile_air_to_air_midrange_special"
+            },
+            {
+              "name": "aim_7f"
+            },
+            {
+              "reqModification": "us_aim_7f"
+            },
+            {
+              "Weapon": {
+                "trigger": "aam",
+                "blk": "gameData/Weapons/rocketGuns/us_aim7f_sparrow.blk",
+                "emitter": "aim_7e_003",
+                "bullets": 1,
+                "external": true,
+                "separate": true,
+                "loadFactorLimit": 4.0
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 2,
+                "preset": "aim_7e2_wing"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 5,
+                "preset": "aim_7e2"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 7,
+                "preset": "aim_7e2"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 8,
+                "preset": "aim_7e2"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 10,
+                "preset": "aim_7e2_wing"
+              }
             }
-          }
+          ]
         }
       ]
     },
@@ -1848,36 +2068,112 @@
           "notUseforDisbalanceCalculation": true
         },
         {
-          "WeaponPreset": {
-            "iconType": "missile_air_to_air_special",
-            "name": "aim_7e2",
-            "reqModification": "us_aim_7e2",
-            "Weapon": {
-              "trigger": "aam",
-              "blk": "gameData/Weapons/rocketGuns/us_aim7e2_dogfight_sparrow.blk",
-              "emitter": "aim_7e_001",
-              "bullets": 1,
-              "external": true,
-              "separate": true,
-              "loadFactorLimit": 4.0
+          "WeaponPreset": [
+            {
+              "iconType": "missile_air_to_air_special"
+            },
+            {
+              "name": "aim_7e2"
+            },
+            {
+              "reqModification": "us_aim_7e2"
+            },
+            {
+              "Weapon": {
+                "trigger": "aam",
+                "blk": "gameData/Weapons/rocketGuns/us_aim7e2_dogfight_sparrow.blk",
+                "emitter": "aim_7e_001",
+                "bullets": 1,
+                "external": true,
+                "separate": true,
+                "loadFactorLimit": 4.0
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 2,
+                "preset": "aim_7f_wing"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 4,
+                "preset": "aim_7f"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 7,
+                "preset": "aim_7f"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 8,
+                "preset": "aim_7f"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 10,
+                "preset": "aim_7f_wing"
+              }
             }
-          }
+          ]
         },
         {
-          "WeaponPreset": {
-            "iconType": "missile_air_to_air_midrange_special",
-            "name": "aim_7f",
-            "reqModification": "us_aim_7f",
-            "Weapon": {
-              "trigger": "aam",
-              "blk": "gameData/Weapons/rocketGuns/us_aim7f_sparrow.blk",
-              "emitter": "aim_7e_001",
-              "bullets": 1,
-              "external": true,
-              "separate": true,
-              "loadFactorLimit": 4.0
+          "WeaponPreset": [
+            {
+              "iconType": "missile_air_to_air_midrange_special"
+            },
+            {
+              "name": "aim_7f"
+            },
+            {
+              "reqModification": "us_aim_7f"
+            },
+            {
+              "Weapon": {
+                "trigger": "aam",
+                "blk": "gameData/Weapons/rocketGuns/us_aim7f_sparrow.blk",
+                "emitter": "aim_7e_001",
+                "bullets": 1,
+                "external": true,
+                "separate": true,
+                "loadFactorLimit": 4.0
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 2,
+                "preset": "aim_7e2_wing"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 4,
+                "preset": "aim_7e2"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 7,
+                "preset": "aim_7e2"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 8,
+                "preset": "aim_7e2"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 10,
+                "preset": "aim_7e2_wing"
+              }
             }
-          }
+          ]
         }
       ]
     },
@@ -1895,14 +2191,14 @@
         {
           "WeaponPreset": {
             "iconType": "nar_ap_large_group_x3",
-            "name": "mer_lau_3a",
+            "name": "ter_lau_3a",
             "reqModification": "us_2_75_in_ffar_lau_3a",
             "ShowNodes": {
               "node": "pylon_centr"
             },
             "Weapon": {
               "trigger": "rockets",
-              "blk": "gameData/Weapons/containers/mer_lau_3a_ffar_mighty_mouse.blk",
+              "blk": "gameData/Weapons/containers/ter_lau_3a_ffar_mighty_mouse.blk",
               "emitter": "mer_002",
               "external": true,
               "machLimit": 1.01
@@ -1912,14 +2208,14 @@
         {
           "WeaponPreset": {
             "iconType": "nar_ap_special_group_x3",
-            "name": "mer_lau_10a",
+            "name": "ter_lau_10a",
             "reqModification": "f4c_zuni",
             "ShowNodes": {
               "node": "pylon_centr"
             },
             "Weapon": {
               "trigger": "rockets",
-              "blk": "gameData/Weapons/containers/mer_lau_10a_ffar_mighty_mouse.blk",
+              "blk": "gameData/Weapons/containers/ter_lau_10a_ffar_mighty_mouse.blk",
               "emitter": "mer_002",
               "external": true,
               "machLimit": 1.01
@@ -1962,15 +2258,15 @@
         },
         {
           "WeaponPreset": {
-            "iconType": "bombs_large_group_alternatively_x5",
-            "name": "mer_m117_x5",
+            "iconType": "bombs_large_group",
+            "name": "mer_m117_x3_centr",
             "reqModification": "us_750lb_m117a1",
             "ShowNodes": {
               "node": "pylon_centr"
             },
             "Weapon": {
               "trigger": "bombs",
-              "blk": "gameData/Weapons/containers/mer_us_750lb_m117_x5.blk",
+              "blk": "gameData/Weapons/containers/mer_us_750lb_m117_x3_centr.blk",
               "emitter": "mer_002",
               "external": true,
               "machLimit": 1.01
@@ -1980,14 +2276,14 @@
         {
           "WeaponPreset": {
             "iconType": "bombs_special_group_x3",
-            "name": "mer_mk83_x3",
+            "name": "ter_mk83",
             "reqModification": "us_1000lb_mk83",
             "ShowNodes": {
               "node": "pylon_centr"
             },
             "Weapon": {
               "trigger": "bombs",
-              "blk": "gameData/Weapons/containers/mer_us_1000lb_mk_83_x3.blk",
+              "blk": "gameData/Weapons/containers/ter_us_1000lb_mk_83.blk",
               "emitter": "mer_002",
               "external": true,
               "machLimit": 1.01
@@ -2053,36 +2349,112 @@
           "notUseforDisbalanceCalculation": true
         },
         {
-          "WeaponPreset": {
-            "iconType": "missile_air_to_air_special",
-            "name": "aim_7e2",
-            "reqModification": "us_aim_7e2",
-            "Weapon": {
-              "trigger": "aam",
-              "blk": "gameData/Weapons/rocketGuns/us_aim7e2_dogfight_sparrow.blk",
-              "emitter": "aim_7e_002",
-              "bullets": 1,
-              "external": true,
-              "separate": true,
-              "loadFactorLimit": 4.0
+          "WeaponPreset": [
+            {
+              "iconType": "missile_air_to_air_special"
+            },
+            {
+              "name": "aim_7e2"
+            },
+            {
+              "reqModification": "us_aim_7e2"
+            },
+            {
+              "Weapon": {
+                "trigger": "aam",
+                "blk": "gameData/Weapons/rocketGuns/us_aim7e2_dogfight_sparrow.blk",
+                "emitter": "aim_7e_002",
+                "bullets": 1,
+                "external": true,
+                "separate": true,
+                "loadFactorLimit": 4.0
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 2,
+                "preset": "aim_7f_wing"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 4,
+                "preset": "aim_7f"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 5,
+                "preset": "aim_7f"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 8,
+                "preset": "aim_7f"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 10,
+                "preset": "aim_7f_wing"
+              }
             }
-          }
+          ]
         },
         {
-          "WeaponPreset": {
-            "iconType": "missile_air_to_air_midrange_special",
-            "name": "aim_7f",
-            "reqModification": "us_aim_7f",
-            "Weapon": {
-              "trigger": "aam",
-              "blk": "gameData/Weapons/rocketGuns/us_aim7f_sparrow.blk",
-              "emitter": "aim_7e_002",
-              "bullets": 1,
-              "external": true,
-              "separate": true,
-              "loadFactorLimit": 4.0
+          "WeaponPreset": [
+            {
+              "iconType": "missile_air_to_air_midrange_special"
+            },
+            {
+              "name": "aim_7f"
+            },
+            {
+              "reqModification": "us_aim_7f"
+            },
+            {
+              "Weapon": {
+                "trigger": "aam",
+                "blk": "gameData/Weapons/rocketGuns/us_aim7f_sparrow.blk",
+                "emitter": "aim_7e_002",
+                "bullets": 1,
+                "external": true,
+                "separate": true,
+                "loadFactorLimit": 4.0
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 2,
+                "preset": "aim_7e2_wing"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 4,
+                "preset": "aim_7e2"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 5,
+                "preset": "aim_7e2"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 8,
+                "preset": "aim_7e2"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 10,
+                "preset": "aim_7e2_wing"
+              }
             }
-          }
+          ]
         }
       ]
     },
@@ -2101,36 +2473,112 @@
           "notUseforDisbalanceCalculation": true
         },
         {
-          "WeaponPreset": {
-            "iconType": "missile_air_to_air_special",
-            "name": "aim_7e2",
-            "reqModification": "us_aim_7e2",
-            "Weapon": {
-              "trigger": "aam",
-              "blk": "gameData/Weapons/rocketGuns/us_aim7e2_dogfight_sparrow.blk",
-              "emitter": "aim_7e_004",
-              "bullets": 1,
-              "external": true,
-              "separate": true,
-              "loadFactorLimit": 4.0
+          "WeaponPreset": [
+            {
+              "iconType": "missile_air_to_air_special"
+            },
+            {
+              "name": "aim_7e2"
+            },
+            {
+              "reqModification": "us_aim_7e2"
+            },
+            {
+              "Weapon": {
+                "trigger": "aam",
+                "blk": "gameData/Weapons/rocketGuns/us_aim7e2_dogfight_sparrow.blk",
+                "emitter": "aim_7e_004",
+                "bullets": 1,
+                "external": true,
+                "separate": true,
+                "loadFactorLimit": 4.0
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 2,
+                "preset": "aim_7f_wing"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 4,
+                "preset": "aim_7f"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 5,
+                "preset": "aim_7f"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 7,
+                "preset": "aim_7f"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 10,
+                "preset": "aim_7f_wing"
+              }
             }
-          }
+          ]
         },
         {
-          "WeaponPreset": {
-            "iconType": "missile_air_to_air_midrange_special",
-            "name": "aim_7f",
-            "reqModification": "us_aim_7f",
-            "Weapon": {
-              "trigger": "aam",
-              "blk": "gameData/Weapons/rocketGuns/us_aim7f_sparrow.blk",
-              "emitter": "aim_7e_004",
-              "bullets": 1,
-              "external": true,
-              "separate": true,
-              "loadFactorLimit": 4.0
+          "WeaponPreset": [
+            {
+              "iconType": "missile_air_to_air_midrange_special"
+            },
+            {
+              "name": "aim_7f"
+            },
+            {
+              "reqModification": "us_aim_7f"
+            },
+            {
+              "Weapon": {
+                "trigger": "aam",
+                "blk": "gameData/Weapons/rocketGuns/us_aim7f_sparrow.blk",
+                "emitter": "aim_7e_004",
+                "bullets": 1,
+                "external": true,
+                "separate": true,
+                "loadFactorLimit": 4.0
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 2,
+                "preset": "aim_7e2_wing"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 4,
+                "preset": "aim_7e2"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 5,
+                "preset": "aim_7e2"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 7,
+                "preset": "aim_7e2"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 10,
+                "preset": "aim_7e2_wing"
+              }
             }
-          }
+          ]
         }
       ]
     },
@@ -2146,54 +2594,118 @@
           "order": 6
         },
         {
-          "WeaponPreset": {
-            "iconType": "missile_air_to_air",
-            "name": "aim_9d_default_right_wing",
-            "ShowNodes": {
-              "node": "pylon_r_in"
+          "WeaponPreset": [
+            {
+              "iconType": "missile_air_to_air"
             },
-            "Weapon": {
-              "trigger": "aam",
-              "blk": "gameData/Weapons/containers/aero_3b_aim9d_right_wing.blk",
-              "emitter": "lau_7a_2_2",
-              "external": true,
-              "separate": true
+            {
+              "name": "aim_9d_default_right_wing"
+            },
+            {
+              "ShowNodes": {
+                "node": "pylon_r_in"
+              }
+            },
+            {
+              "Weapon": {
+                "trigger": "aam",
+                "blk": "gameData/Weapons/containers/lau_7a_aim9d_right_wing.blk",
+                "emitter": "lau_7a_2_2",
+                "external": true,
+                "separate": true
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 10,
+                "preset": "aim_7e2_wing"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 10,
+                "preset": "aim_7f_wing"
+              }
             }
-          }
+          ]
         },
         {
-          "WeaponPreset": {
-            "iconType": "missile_air_to_air_group",
-            "name": "aim_9d",
-            "reqModification": "us_aim_9d",
-            "ShowNodes": {
-              "node": "pylon_r_in"
+          "WeaponPreset": [
+            {
+              "iconType": "missile_air_to_air_group"
             },
-            "Weapon": {
-              "trigger": "aam",
-              "blk": "gameData/Weapons/containers/aero_3b_aim9d.blk",
-              "emitter": "lau_7a_2_2",
-              "external": true,
-              "separate": true
+            {
+              "name": "aim_9d"
+            },
+            {
+              "reqModification": "us_aim_9d"
+            },
+            {
+              "ShowNodes": {
+                "node": "pylon_r_in"
+              }
+            },
+            {
+              "Weapon": {
+                "trigger": "aam",
+                "blk": "gameData/Weapons/containers/lau_7a_aim9d.blk",
+                "emitter": "lau_7a_2_2",
+                "external": true,
+                "separate": true
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 10,
+                "preset": "aim_7e2_wing"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 10,
+                "preset": "aim_7f_wing"
+              }
             }
-          }
+          ]
         },
         {
-          "WeaponPreset": {
-            "iconType": "missile_type_b_air_to_air_group",
-            "name": "aim_9g",
-            "reqModification": "us_aim_9g",
-            "ShowNodes": {
-              "node": "pylon_r_in"
+          "WeaponPreset": [
+            {
+              "iconType": "missile_type_b_air_to_air_group"
             },
-            "Weapon": {
-              "trigger": "aam",
-              "blk": "gameData/Weapons/containers/aero_3b_aim9g.blk",
-              "emitter": "lau_7a_2_2",
-              "external": true,
-              "separate": true
+            {
+              "name": "aim_9g"
+            },
+            {
+              "reqModification": "us_aim_9g"
+            },
+            {
+              "ShowNodes": {
+                "node": "pylon_r_in"
+              }
+            },
+            {
+              "Weapon": {
+                "trigger": "aam",
+                "blk": "gameData/Weapons/containers/lau_7a_aim9g.blk",
+                "emitter": "lau_7a_2_2",
+                "external": true,
+                "separate": true
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 10,
+                "preset": "aim_7e2_wing"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 10,
+                "preset": "aim_7f_wing"
+              }
             }
-          }
+          ]
         }
       ]
     },
@@ -2209,42 +2721,122 @@
           "order": 4
         },
         {
-          "WeaponPreset": {
-            "iconType": "missile_air_to_air_special",
-            "name": "aim_7e2_wing",
-            "reqModification": "us_aim_7e2",
-            "ShowNodes": {
-              "node": "pylon_r_in"
+          "WeaponPreset": [
+            {
+              "iconType": "missile_air_to_air_special"
             },
-            "Weapon": {
-              "trigger": "aam",
-              "blk": "gameData/Weapons/rocketGuns/us_aim7e2_dogfight_sparrow.blk",
-              "emitter": "aim_7e_006",
-              "bullets": 1,
-              "external": true,
-              "separate": true,
-              "loadFactorLimit": 4.0
+            {
+              "name": "aim_7e2_wing"
+            },
+            {
+              "reqModification": "us_aim_7e2"
+            },
+            {
+              "ShowNodes": {
+                "node": "pylon_r_in"
+              }
+            },
+            {
+              "Weapon": {
+                "trigger": "aam",
+                "blk": "gameData/Weapons/rocketGuns/us_aim7e2_dogfight_sparrow.blk",
+                "emitter": "aim_7e_006",
+                "bullets": 1,
+                "external": true,
+                "separate": true,
+                "loadFactorLimit": 4.0
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 2,
+                "preset": "aim_7f_wing"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 4,
+                "preset": "aim_7f"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 5,
+                "preset": "aim_7f"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 7,
+                "preset": "aim_7f"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 8,
+                "preset": "aim_7f"
+              }
             }
-          }
+          ]
         },
         {
-          "WeaponPreset": {
-            "iconType": "missile_air_to_air_midrange_special",
-            "name": "aim_7f_wing",
-            "reqModification": "us_aim_7f",
-            "ShowNodes": {
-              "node": "pylon_r_in"
+          "WeaponPreset": [
+            {
+              "iconType": "missile_air_to_air_midrange_special"
             },
-            "Weapon": {
-              "trigger": "aam",
-              "blk": "gameData/Weapons/rocketGuns/us_aim7f_sparrow.blk",
-              "emitter": "aim_7e_006",
-              "bullets": 1,
-              "external": true,
-              "separate": true,
-              "loadFactorLimit": 4.0
+            {
+              "name": "aim_7f_wing"
+            },
+            {
+              "reqModification": "us_aim_7f"
+            },
+            {
+              "ShowNodes": {
+                "node": "pylon_r_in"
+              }
+            },
+            {
+              "Weapon": {
+                "trigger": "aam",
+                "blk": "gameData/Weapons/rocketGuns/us_aim7f_sparrow.blk",
+                "emitter": "aim_7e_006",
+                "bullets": 1,
+                "external": true,
+                "separate": true,
+                "loadFactorLimit": 4.0
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 2,
+                "preset": "aim_7e2_wing"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 4,
+                "preset": "aim_7e2"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 5,
+                "preset": "aim_7e2"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 7,
+                "preset": "aim_7e2"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 8,
+                "preset": "aim_7e2"
+              }
             }
-          }
+          ]
         },
         {
           "WeaponPreset": {
@@ -2359,7 +2951,7 @@
         {
           "WeaponPreset": {
             "iconType": "bombs_special_group",
-            "name": "ter_mk83",
+            "name": "ter_mk83_x2_right_wing",
             "reqModification": "us_1000lb_mk83",
             "ShowNodes": [
               {
@@ -2371,7 +2963,7 @@
             ],
             "Weapon": {
               "trigger": "bombs",
-              "blk": "gameData/Weapons/containers/ter_us_1000lb_mk_83.blk",
+              "blk": "gameData/Weapons/containers/ter_us_1000lb_mk_83_x2_right_wing.blk",
               "emitter": "ter_002",
               "external": true,
               "machLimit": 1.01
@@ -2393,15 +2985,15 @@
         },
         {
           "WeaponPreset": {
-            "iconType": "nar_ap_large_group_x3",
-            "name": "mer_lau_3a",
+            "iconType": "nar_ap_large_group",
+            "name": "ter_lau_3a_right_wing",
             "reqModification": "us_2_75_in_ffar_lau_3a",
             "ShowNodes": {
               "node": "pylon_r_out"
             },
             "Weapon": {
               "trigger": "rockets",
-              "blk": "gameData/Weapons/containers/mer_lau_3a_ffar_mighty_mouse.blk",
+              "blk": "gameData/Weapons/containers/lau_3a_ffar_mighty_mouse_x2_right_wing.blk",
               "emitter": "mer_003",
               "external": true,
               "machLimit": 1.01
@@ -2411,14 +3003,14 @@
         {
           "WeaponPreset": {
             "iconType": "nar_ap_special_group_x3",
-            "name": "mer_lau_10a",
+            "name": "ter_lau_10a",
             "reqModification": "f4c_zuni",
             "ShowNodes": {
               "node": "pylon_r_out"
             },
             "Weapon": {
               "trigger": "rockets",
-              "blk": "gameData/Weapons/containers/mer_lau_10a_ffar_mighty_mouse.blk",
+              "blk": "gameData/Weapons/containers/ter_lau_10a_ffar_mighty_mouse.blk",
               "emitter": "mer_003",
               "external": true,
               "machLimit": 1.01
@@ -2461,15 +3053,15 @@
         },
         {
           "WeaponPreset": {
-            "iconType": "bombs_large_group_x4",
-            "name": "mer_m117_x4",
+            "iconType": "bombs_large_group",
+            "name": "mer_m117_x3_right_wing",
             "reqModification": "us_750lb_m117a1",
             "ShowNodes": {
               "node": "pylon_r_out"
             },
             "Weapon": {
               "trigger": "bombs",
-              "blk": "gameData/Weapons/containers/mer_us_750lb_m117_x4.blk",
+              "blk": "gameData/Weapons/containers/mer_us_750lb_m117_x3_right_wing.blk",
               "emitter": "mer_003",
               "external": true,
               "machLimit": 1.01
@@ -2479,14 +3071,14 @@
         {
           "WeaponPreset": {
             "iconType": "bombs_special_group",
-            "name": "mer_mk83_x2",
+            "name": "ter_mk83_x2_right_wing",
             "reqModification": "us_1000lb_mk83",
             "ShowNodes": {
               "node": "pylon_r_out"
             },
             "Weapon": {
               "trigger": "bombs",
-              "blk": "gameData/Weapons/containers/mer_us_1000lb_mk_83_x2.blk",
+              "blk": "gameData/Weapons/containers/ter_us_1000lb_mk_83_x2_right_wing.blk",
               "emitter": "mer_003",
               "external": true,
               "machLimit": 1.01

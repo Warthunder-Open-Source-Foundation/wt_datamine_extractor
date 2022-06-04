@@ -3427,7 +3427,14 @@
           "diggingLevel": 0.25,
           "digMaxSpeed": 7.0,
           "digMaxRevSpeed": -12.0,
-          "hideNodes": []
+          "hideNodes": [
+            {
+              "node": "ex_lantern_01"
+            },
+            {
+              "node": "ex_lantern_02"
+            }
+          ]
         },
         "disableModEffects": {
           "hideNodes": [
@@ -3451,15 +3458,21 @@
             },
             {
               "node": "roll_04"
+            },
+            {
+              "node": "ex_lantern_04"
+            },
+            {
+              "node": "ex_lantern_03"
             }
           ]
         }
       },
       "tank_medical_kit": {
-        "image": "#ui/gameuiskin#tank_reinforcement_us"
+        "image": "#ui/gameuiskin#tank_reinforcement_us.png"
       },
       "tank_medical_kit_expendable": {
-        "image": "#ui/gameuiskin#tank_reinforcement_us"
+        "image": "#ui/gameuiskin#tank_reinforcement_us.png"
       },
       "modern_tank_laser_rangefinder": [],
       "120mm_DM_HEAT_FS": [],
@@ -3738,7 +3751,7 @@
         }
       },
       "night_vision_system": {
-        "image": "#ui/gameuiskin#thermal_sight",
+        "image": "#ui/gameuiskin#thermal_sight.png",
         "tier": 3,
         "effects": {
           "nightVision": {

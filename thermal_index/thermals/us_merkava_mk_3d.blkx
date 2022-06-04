@@ -227,7 +227,7 @@
           "hidableInViewer": true
         },
         "turret_07_front_dm": {
-          "armorThickness": 20.0
+          "armorThickness": 10.0
         },
         "turret_07_top_dm": {
           "armorThickness": 20.0
@@ -290,22 +290,23 @@
           "hidableInViewer": true
         },
         "ex_armor_01_dm": {
-          "armorThickness": 10.0
+          "armorThickness": 10.0,
+          "armorClass": "RHA_tank_modern"
         },
         "ex_armor_turret_05_dm": {
-          "armorThickness": 5.0
+          "armorThickness": 5.0,
+          "armorClass": "RHA_tank_modern"
         },
         "ex_armor_turret_07_dm": {
-          "armorThickness": 5.0
+          "armorThickness": 5.0,
+          "armorClass": "RHA_tank_modern"
         },
         "ex_armor_turret_08_dm": {
-          "armorThickness": 25.0
-        },
-        "ex_armor_03_dm": {
-          "armorThickness": 20.0
+          "armorThickness": 25.0,
+          "armorClass": "RHA_tank_modern"
         },
         "gun_barrel_armor_dm": {
-          "armorThickness": 5.0
+          "armorThickness": 20.0
         }
       },
       "composite_armor": {
@@ -378,8 +379,8 @@
           "allowRicochet": true
         },
         "turret_04_bottom_dm": {
-          "armorThickness": 30.0,
-          "armorClass": "hull_side_special_armor",
+          "armorThickness": 20.0,
+          "armorClass": "RHA_tank_modern",
           "hidableInViewer": false
         },
         "turret_01_top_dm": {
@@ -427,8 +428,10 @@
         "stopChanceOnDeadPart": 0.0,
         "createSecondaryShatters": false,
         "hidableInViewer": true,
-        "ex_armor_l_15_dm": [],
-        "ex_armor_r_15_dm": []
+        "ex_armor_body_r_01_dm": [],
+        "ex_armor_body_l_01_dm": [],
+        "ex_armor_body_r_10_dm": [],
+        "ex_armor_body_l_10_dm": []
       },
       "body_add_armor": {
         "armorClass": "RHA_tank_modern",
@@ -462,7 +465,6 @@
         "solidArmorTestDepth": 40.0,
         "genericArmorQuality": 0.5,
         "variableThickness": true,
-        "ex_armor_body_r_01_dm": [],
         "ex_armor_body_r_02_dm": [],
         "ex_armor_body_r_03_dm": [],
         "ex_armor_body_r_04_dm": [],
@@ -471,8 +473,6 @@
         "ex_armor_body_r_07_dm": [],
         "ex_armor_body_r_08_dm": [],
         "ex_armor_body_r_09_dm": [],
-        "ex_armor_body_r_10_dm": [],
-        "ex_armor_body_l_01_dm": [],
         "ex_armor_body_l_02_dm": [],
         "ex_armor_body_l_03_dm": [],
         "ex_armor_body_l_04_dm": [],
@@ -480,8 +480,7 @@
         "ex_armor_body_l_06_dm": [],
         "ex_armor_body_l_07_dm": [],
         "ex_armor_body_l_08_dm": [],
-        "ex_armor_body_l_09_dm": [],
-        "ex_armor_body_l_10_dm": []
+        "ex_armor_body_l_09_dm": []
       },
       "additional_armor": {
         "armorClass": "hull_side_special_armor",
@@ -495,13 +494,14 @@
           "hidableInViewer": true
         },
         "turret_06_top_dm": {
-          "armorThickness": 25.0
+          "armorThickness": 10.0
         },
         "turret_06_front_dm": {
           "armorThickness": 50.0
         },
         "turret_08_bottom_dm": {
-          "armorThickness": 25.0
+          "armorThickness": 10.0,
+          "armorClass": "RHA_tank_modern"
         }
       },
       "fireproof_ammo_containers": {
@@ -659,6 +659,7 @@
           "armorClass": "tank_traks",
           "armorThickness": 20.0,
           "hp": 400.0,
+          "ex_armor_03_dm": [],
           "ex_armor_06_dm": [],
           "ex_armor_09_dm": [],
           "ex_armor_08_dm": [],
@@ -4209,10 +4210,10 @@
       "new_tank_vertical_aiming": [],
       "tank_new_gun": [],
       "tank_medical_kit": {
-        "image": "#ui/gameuiskin#tank_reinforcement_us"
+        "image": "#ui/gameuiskin#tank_reinforcement_us.png"
       },
       "tank_medical_kit_expendable": {
-        "image": "#ui/gameuiskin#tank_reinforcement_us"
+        "image": "#ui/gameuiskin#tank_reinforcement_us.png"
       },
       "art_support": [],
       "tank_engine_smoke_screen_system": [],
@@ -4776,7 +4777,7 @@
         }
       },
       "night_vision_system": {
-        "image": "#ui/gameuiskin#thermal_sight",
+        "image": "#ui/gameuiskin#thermal_sight.png",
         "tier": 4,
         "effects": {
           "nightVision": {

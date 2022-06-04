@@ -3398,10 +3398,10 @@
       },
       "modern_tank_laser_rangefinder": [],
       "tank_medical_kit": {
-        "image": "#ui/gameuiskin#tank_reinforcement_uk"
+        "image": "#ui/gameuiskin#tank_reinforcement_uk.png"
       },
       "tank_medical_kit_expendable": {
-        "image": "#ui/gameuiskin#tank_reinforcement_uk"
+        "image": "#ui/gameuiskin#tank_reinforcement_uk.png"
       },
       "airstrike": [],
       "improved_optics": {
@@ -3412,7 +3412,7 @@
       "105mm_usa_M735_APDS_FS": [],
       "105mm_usa_M735_APDS_FS_ammo_pack": [],
       "night_vision_system": {
-        "image": "#ui/gameuiskin#thermal_sight",
+        "image": "#ui/gameuiskin#thermal_sight.png",
         "tier": 3,
         "effects": {
           "nightVision": {

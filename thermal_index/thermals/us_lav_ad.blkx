@@ -2900,7 +2900,7 @@
   {
     "sensors": {
       "sensor": {
-        "blk": "gameData/sensors/sam_tv_ir_track.blk",
+        "blk": "gameData/sensors/it_tv_tracker_3jb10.blk",
         "turretIndex": 0,
         "dmPart": "optic_gun_dm"
       }
@@ -3760,10 +3760,10 @@
       "art_support": [],
       "tank_new_gun": [],
       "tank_medical_kit": {
-        "image": "#ui/gameuiskin#tank_reinforcement_us"
+        "image": "#ui/gameuiskin#tank_reinforcement_us.png"
       },
       "tank_medical_kit_expendable": {
-        "image": "#ui/gameuiskin#tank_reinforcement_us"
+        "image": "#ui/gameuiskin#tank_reinforcement_us.png"
       },
       "lav_ad_hydra_70": {
         "invertEnableLogic": false,
@@ -4447,7 +4447,7 @@
       "70mm_stinger_block2_aam": [],
       "70mm_stinger_block2_aam_ammo_pack": [],
       "night_vision_system": {
-        "image": "#ui/gameuiskin#thermal_sight",
+        "image": "#ui/gameuiskin#thermal_sight.png",
         "tier": 4,
         "effects": {
           "nightVision": {
@@ -4481,13 +4481,20 @@
           "distanceThresholdMaxRealistic": [1000.0,3000.0,5000.0,9999.0],
           "timeMeasurementRange": [0.5,0.5],
           "rcostAddParam": 0.98,
-          "sensors": {
-            "sensor": {
-              "blk": "gameData/sensors/sam_tv_ir_track.blk",
-              "turretIndex": 0,
-              "dmPart": "optic_gun_dm"
+          "sensors": [
+            {
+              "sensor": {
+                "blk": "gameData/sensors/it_tv_tracker_3jb10.blk",
+                "turretIndex": 0,
+                "dmPart": "optic_gun_dm"
+              }
+            },
+            {
+              "sensor": {
+                "blk": "gameData/sensors/LaserDesignatorSensor.blk"
+              }
             }
-          }
+          ]
         }
       }
     }
