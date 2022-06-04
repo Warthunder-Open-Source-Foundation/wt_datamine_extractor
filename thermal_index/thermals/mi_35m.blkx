@@ -6398,7 +6398,7 @@
       }
     },
     "heli_night_vision_system": {
-      "image": "#ui/gameuiskin#thermal_sight",
+      "image": "#ui/gameuiskin#thermal_sight.png",
       "effects": {
         "nightVision": {
           "gunnerIr": {

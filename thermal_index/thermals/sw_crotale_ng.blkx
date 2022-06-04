@@ -3513,10 +3513,10 @@
       "new_tank_vertical_aiming": [],
       "art_support": [],
       "tank_medical_kit": {
-        "image": "#ui/gameuiskin#tank_reinforcement_sw"
+        "image": "#ui/gameuiskin#tank_reinforcement_sw.png"
       },
       "tank_medical_kit_expendable": {
-        "image": "#ui/gameuiskin#tank_reinforcement_sw"
+        "image": "#ui/gameuiskin#tank_reinforcement_sw.png"
       },
       "163mm_roland_1_aam": [],
       "airstrike": [],
@@ -3524,7 +3524,7 @@
         "tier": 3
       },
       "night_vision_system": {
-        "image": "#ui/gameuiskin#thermal_sight",
+        "image": "#ui/gameuiskin#thermal_sight.png",
         "tier": 1,
         "effects": {
           "nightVision": {

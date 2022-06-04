@@ -1436,7 +1436,7 @@
     },
     {
       "sensor": {
-        "blk": "gameData/sensors/us_an_avs-2.blk"
+        "blk": "gameData/sensors/us_an_avr-2.blk"
       }
     }
   ],
@@ -4340,7 +4340,7 @@
       }
     },
     "heli_night_vision_system": {
-      "image": "#ui/gameuiskin#thermal_sight",
+      "image": "#ui/gameuiskin#thermal_sight.png",
       "effects": {
         "nightVision": {
           "gunnerIr": {

@@ -399,9 +399,9 @@
         "createSecondaryShatters": false,
         "hidableInViewer": true,
         "ex_armor_l_01_dm": [],
-        "ex_armor_l_15_dm": [],
+        "ex_armor_l_12_dm": [],
         "ex_armor_r_01_dm": [],
-        "ex_armor_r_15_dm": []
+        "ex_armor_r_12_dm": []
       },
       "body_special_side_armor": {
         "armorClass": "hull_side_special_armor",
@@ -419,7 +419,6 @@
         "ex_armor_l_09_dm": [],
         "ex_armor_l_10_dm": [],
         "ex_armor_l_11_dm": [],
-        "ex_armor_l_12_dm": [],
         "ex_armor_l_13_dm": [],
         "ex_armor_l_14_dm": [],
         "ex_armor_r_02_dm": [],
@@ -431,7 +430,6 @@
         "ex_armor_r_09_dm": [],
         "ex_armor_r_10_dm": [],
         "ex_armor_r_11_dm": [],
-        "ex_armor_r_12_dm": [],
         "ex_armor_r_13_dm": [],
         "ex_armor_r_14_dm": []
       },
@@ -4037,10 +4035,10 @@
       "new_tank_vertical_aiming": [],
       "tank_new_gun": [],
       "tank_medical_kit": {
-        "image": "#ui/gameuiskin#tank_reinforcement_il"
+        "image": "#ui/gameuiskin#tank_reinforcement_il.png"
       },
       "tank_medical_kit_expendable": {
-        "image": "#ui/gameuiskin#tank_reinforcement_il"
+        "image": "#ui/gameuiskin#tank_reinforcement_il.png"
       },
       "art_support": [],
       "tank_engine_smoke_screen_system": {
@@ -4438,7 +4436,7 @@
         }
       },
       "night_vision_system": {
-        "image": "#ui/gameuiskin#thermal_sight",
+        "image": "#ui/gameuiskin#thermal_sight.png",
         "tier": 2,
         "effects": {
           "nightVision": {

@@ -1,6 +1,6 @@
 use std::str::FromStr;
-use crate::shell::demarre::{DemarreMod, penetration_from_demarre};
 
+use crate::shell::demarre::{DemarreMod, penetration_from_demarre};
 use crate::util::parameter_to_data;
 
 pub fn shell_to_penetration(shell: &str) -> Vec<(u32, u32)> {
@@ -13,7 +13,7 @@ pub fn shell_to_penetration(shell: &str) -> Vec<(u32, u32)> {
 	} else if shell.contains("ArmorPower0m") {
 		for range in 0..5000 / 100 {
 			if let Some(param) = &parameter_to_data(shell, &format!("ArmorPower{}m", range * 100)) {
-				let param_64 = f64::from_str(&param.split('.').collect::<Vec<&str>>()[0].replace("[", "")).unwrap();
+				let param_64 = f64::from_str(&param.split('.').collect::<Vec<&str>>()[0].replace('[', "")).unwrap();
 				penetration.push((range * 100, param_64.round() as u32));
 			}
 		}
@@ -22,7 +22,7 @@ pub fn shell_to_penetration(shell: &str) -> Vec<(u32, u32)> {
 
 		let caliber = f64::from_str(
 			#[allow(clippy::option_if_let_else)]
-			&if let Some(calib) = parameter_to_data(shell, "damageCaliber") {
+				&if let Some(calib) = parameter_to_data(shell, "damageCaliber") {
 				calib
 			} else {
 				parameter_to_data(shell, "caliber").unwrap()

@@ -42,6 +42,9 @@
       "explosionFx": "explosion_napalm_fireball"
     },
     {
+      "explosionPatchRadius": 12.0
+    },
+    {
       "iconType": "ptb"
     },
     {
@@ -57,18 +60,23 @@
     },
     {
       "fireDamage": {
-        "velocityMult": 1.0,
+        "velocityMult": 3.5,
         "maxFlightTime": 10.0,
         "maxFlightDistance": 30.0,
-        "maxRise": 2.0,
-        "lifeTime": 20.0,
+        "maxRise": 10.0,
+        "lifeTime": 30.0,
         "penetration": 10.0,
         "damage": 10.0,
         "damageType": "napalm",
-        "radius": 20.0,
+        "radius": 7.0,
         "fxType": "explosion_napalm_wrackages",
         "burnFxType": "explosion_napalm_firespot",
-        "burnFxSize": 4.0
+        "burnFxSize": 12.0,
+        "scorchMarginSize": 1.0,
+        "scorchStrength": 1.0,
+        "scorchDuration": 10.0,
+        "emitterCount": 3,
+        "emitterDispersion": 0.7
       }
     }
   ]

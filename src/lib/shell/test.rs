@@ -1,6 +1,6 @@
 #[cfg(test)]
 mod tests {
-	use std::collections::{HashSet};
+	use std::collections::HashSet;
 
 	use lazy_static::lazy_static;
 
@@ -21,7 +21,7 @@ mod tests {
 	fn heat_fs_has_tnt_and_type() {
 		for shell in SHELLS.iter() {
 			// They fucking classified the sonic wave launcher as heat-fs
-			if shell.shell_type == ShellType::HeatFs && shell.name != "sonicWave"{
+			if shell.shell_type == ShellType::HeatFs && shell.name != "sonicWave" {
 				// println!("{} {}", shell.name, shell.shell_type.to_string());
 				assert_ne!(shell.explosive.0, "");
 				assert_ne!(shell.explosive.1, 0);

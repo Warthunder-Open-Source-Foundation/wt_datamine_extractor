@@ -4019,17 +4019,17 @@
         }
       },
       "tank_medical_kit": {
-        "image": "#ui/gameuiskin#tank_reinforcement_sw"
+        "image": "#ui/gameuiskin#tank_reinforcement_sw.png"
       },
       "tank_medical_kit_expendable": {
-        "image": "#ui/gameuiskin#tank_reinforcement_sw"
+        "image": "#ui/gameuiskin#tank_reinforcement_sw.png"
       },
       "40mm_sw_kan_90c_HE": [],
       "40mm_sw_kan_HE_VT": [],
       "40mm_sw_kan_HE_VT_ammo_pack": [],
       "night_vision_system": {
         "tier": 3,
-        "image": "#ui/gameuiskin#thermal_sight",
+        "image": "#ui/gameuiskin#thermal_sight.png",
         "effects": {
           "nightVision": {
             "gunnerThermal": {

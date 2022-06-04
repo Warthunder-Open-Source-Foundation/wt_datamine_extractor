@@ -3777,7 +3777,7 @@
       "sightName": "merkava_sight",
       "headPos": [0.0,3.7,-8.8],
       "headPosOnShooting": [-0.7,3.6,-0.4],
-      "detectionHeight": 2.8,
+      "detectionHeight": 2.97,
       "bone_turret": "bone_turret"
     }
   },
@@ -3928,10 +3928,10 @@
       "new_tank_vertical_aiming": [],
       "tank_new_gun": [],
       "tank_medical_kit": {
-        "image": "#ui/gameuiskin#tank_reinforcement_il"
+        "image": "#ui/gameuiskin#tank_reinforcement_il.png"
       },
       "tank_medical_kit_expendable": {
-        "image": "#ui/gameuiskin#tank_reinforcement_il"
+        "image": "#ui/gameuiskin#tank_reinforcement_il.png"
       },
       "art_support": [],
       "tank_engine_smoke_screen_system": [],
@@ -4396,7 +4396,7 @@
         }
       },
       "night_vision_system": {
-        "image": "#ui/gameuiskin#thermal_sight",
+        "image": "#ui/gameuiskin#thermal_sight.png",
         "tier": 3,
         "effects": {
           "nightVision": {

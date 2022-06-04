@@ -262,15 +262,15 @@
           "armorThickness": 15.0
         },
         "composite_armor_hull_01_dm": {
-          "armorThickness": 8.0,
+          "armorThickness": 5.0,
           "hidableInXrayViewer": true
         },
         "composite_armor_hull_02_dm": {
-          "armorThickness": 8.0,
+          "armorThickness": 5.0,
           "hidableInXrayViewer": true
         },
         "composite_armor_hull_03_dm": {
-          "armorThickness": 8.0,
+          "armorThickness": 5.0,
           "hidableInXrayViewer": true
         },
         "turret_01_top_dm": {
@@ -1919,17 +1919,41 @@
     }
   },
   {
-    "xray_viewer_data": {
-      "armorArrayHull": {
-        "xrayDmPart": "composite_armor_hull_01_dm",
-        "titleLoc": "RHA_tank_modern",
-        "armorArrayText": {
-          "layer": {
-            "dmPart": "composite_armor_hull_01_dm"
+    "xray_viewer_data": [
+      {
+        "armorArrayHull": {
+          "xrayDmPart": "composite_armor_hull_01_dm",
+          "titleLoc": "RHA_tank_modern",
+          "armorArrayText": {
+            "layer": {
+              "dmPart": "composite_armor_hull_01_dm"
+            }
+          }
+        }
+      },
+      {
+        "armorArrayHull": {
+          "xrayDmPart": "composite_armor_hull_02_dm",
+          "titleLoc": "RHA_tank_modern",
+          "armorArrayText": {
+            "layer": {
+              "dmPart": "composite_armor_hull_02_dm"
+            }
+          }
+        }
+      },
+      {
+        "armorArrayHull": {
+          "xrayDmPart": "composite_armor_hull_03_dm",
+          "titleLoc": "RHA_tank_modern",
+          "armorArrayText": {
+            "layer": {
+              "dmPart": "composite_armor_hull_03_dm"
+            }
           }
         }
       }
-    }
+    ]
   },
   {
     "MetaParts": {
@@ -3517,10 +3541,10 @@
       "tank_new_gun": [],
       "laser_rangefinder_lws": [],
       "tank_medical_kit": {
-        "image": "#ui/gameuiskin#tank_reinforcement_it"
+        "image": "#ui/gameuiskin#tank_reinforcement_it.png"
       },
       "tank_medical_kit_expendable": {
-        "image": "#ui/gameuiskin#tank_reinforcement_it"
+        "image": "#ui/gameuiskin#tank_reinforcement_it.png"
       },
       "airstrike": [],
       "improved_optics": {
@@ -3939,7 +3963,7 @@
         }
       },
       "night_vision_system": {
-        "image": "#ui/gameuiskin#thermal_sight",
+        "image": "#ui/gameuiskin#thermal_sight.png",
         "tier": 1,
         "effects": {
           "nightVision": {

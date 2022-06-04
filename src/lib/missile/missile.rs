@@ -1,12 +1,13 @@
 use std::fs;
+
 use get_size::GetSize;
 
 use crate::explosive::explosive::explosive_type_to_tnt;
-
 use crate::lang::{Lang, name_to_local};
-use crate::missile::extract_missiles::KnownMissiles;
+use crate::missile::known_missiles::KnownMissiles;
 use crate::util::parameter_to_data;
 
+#[allow(clippy::struct_excessive_bools)]
 #[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone, const_gen::CompileConst, get_size::GetSize)]
 pub struct Missile {
 	// metadata that is global or does not exist on files that are generated
@@ -167,7 +168,7 @@ impl Missile {
 
 		let endspeed = parameter_to_data(&file, "endSpeed").unwrap().parse().unwrap();
 
-		let exp_mass = explosive_type_to_tnt(&parameter_to_data(&file, "explosiveType").unwrap().replace("\"", ""), (parameter_to_data(&file, "explosiveMass").unwrap().parse::<f64>().unwrap() * 1000.0).round());
+		let exp_mass = explosive_type_to_tnt(&parameter_to_data(&file, "explosiveType").unwrap().replace('\"', ""), (parameter_to_data(&file, "explosiveMass").unwrap().parse::<f64>().unwrap() * 1000.0).round());
 
 		let pfuse = parameter_to_data(&file, "hasProximityFuse").map_or(false, |value| value.parse().unwrap());
 
@@ -220,7 +221,7 @@ impl Missile {
 
 		let inertial_navigation = parameter_to_data(&file, "inertialNavigation").unwrap_or_else(|| "false".to_owned()).parse::<bool>().unwrap();
 
-		let use_target_vel= parameter_to_data(&file, "useTargetVel").unwrap_or_else(|| "false".to_owned()).parse::<bool>().unwrap();
+		let use_target_vel = parameter_to_data(&file, "useTargetVel").unwrap_or_else(|| "false".to_owned()).parse::<bool>().unwrap();
 
 		let allow_radar_slave = file.contains("designationSourceTypeMask");
 
@@ -265,7 +266,7 @@ impl Missile {
 	}
 
 	pub fn write_all(mut values: Vec<Self>) -> Vec<Self> {
-		values.sort_by_key(|d|d.name.clone());
+		values.sort_by_key(|d| d.name.clone());
 		fs::write("missile_index/all.json", serde_json::to_string_pretty(&values).unwrap()).unwrap();
 		values
 	}
@@ -274,7 +275,6 @@ impl Missile {
 		let mut generated: Vec<Self> = vec![];
 		for i in &index.path {
 			if let Ok(file) = fs::read(format!("missile_index/missiles/{}", i)) {
-
 				let name = i.split('.').collect::<Vec<&str>>()[0].to_owned();
 
 				let missile = Missile::new_from_file(&file, name);
@@ -282,13 +282,13 @@ impl Missile {
 				generated.push(missile);
 			}
 		}
-		generated.sort_by_key(|x|x.name.clone());
+		generated.sort_by_key(|x| x.name.clone());
 		generated
 	}
 
 	pub fn select_by_name(missiles: &[Self], name: &str) -> Option<Self> {
 		for (i, missile) in missiles.iter().enumerate() {
-			if missile.name.contains(&name.replace("-", "_")) {
+			if missile.name.contains(&name.replace('-', "_")) {
 				return Some(missiles[i].clone());
 			}
 		}

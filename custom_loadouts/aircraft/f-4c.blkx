@@ -3131,6 +3131,12 @@
       },
       {
         "preset": {
+          "name": "f_4c_bomb_mk84",
+          "blk": "gameData/flightModels/weaponPresets/f_4c_bomb_mk84.blk"
+        }
+      },
+      {
+        "preset": {
           "name": "f_4c_rockets_agm12",
           "blk": "gameData/flightModels/weaponPresets/f_4c_rockets_agm12.blk"
         }
@@ -3385,6 +3391,25 @@
                 "blk": "gameData/Weapons/containers/mer_us_1000lb_mk_83_x2.blk",
                 "emitter": "mer_001",
                 "external": true,
+                "machLimit": 1.01
+              }
+            }
+          },
+          {
+            "WeaponPreset": {
+              "iconType": "bombs_heavy_middle",
+              "name": "us_mk84",
+              "reqModification": "us_2000lb_mk84",
+              "ShowNodes": {
+                "node": "pylon_l_out"
+              },
+              "Weapon": {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/BombGuns/us_2000lb_mk_84_ldgp.blk",
+                "emitter": "bomb_2000lb_002",
+                "bullets": 1,
+                "external": true,
+                "separate": true,
                 "machLimit": 1.01
               }
             }
@@ -3678,6 +3703,10 @@
                 "external": true,
                 "separate": true,
                 "loadFactorLimit": 4.0
+              },
+              "BannedWeaponPreset": {
+                "slot": 2,
+                "preset": "agm_12c"
               }
             }
           },
@@ -3696,6 +3725,10 @@
                 "external": true,
                 "separate": true,
                 "loadFactorLimit": 4.0
+              },
+              "BannedWeaponPreset": {
+                "slot": 2,
+                "preset": "agm_12c"
               }
             }
           },
@@ -3714,6 +3747,10 @@
                 "external": true,
                 "separate": true,
                 "loadFactorLimit": 4.0
+              },
+              "BannedWeaponPreset": {
+                "slot": 2,
+                "preset": "agm_12c"
               }
             }
           }
@@ -3878,9 +3915,27 @@
           },
           {
             "WeaponPreset": {
+              "iconType": "bombs_heavy_middle",
+              "name": "us_mk84",
+              "reqModification": "us_2000lb_mk84",
+              "ShowNodes": {
+                "node": "pylon_centr"
+              },
+              "Weapon": {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/BombGuns/us_2000lb_mk_84_ldgp.blk",
+                "emitter": "bomb_2000lb_001",
+                "bullets": 1,
+                "external": true,
+                "separate": true,
+                "machLimit": 1.01
+              }
+            }
+          },
+          {
+            "WeaponPreset": {
               "iconType": "multibarrel_box",
               "name": "suu_23a_gunpod",
-              "reqModification": "f4c_suu_23a",
               "ShowNodes": [
                 {
                   "node": "pylon_centr"
@@ -3994,6 +4049,10 @@
                 "external": true,
                 "separate": true,
                 "loadFactorLimit": 4.0
+              },
+              "BannedWeaponPreset": {
+                "slot": 10,
+                "preset": "agm_12c"
               }
             }
           },
@@ -4012,6 +4071,10 @@
                 "external": true,
                 "separate": true,
                 "loadFactorLimit": 4.0
+              },
+              "BannedWeaponPreset": {
+                "slot": 10,
+                "preset": "agm_12c"
               }
             }
           },
@@ -4030,6 +4093,10 @@
                 "external": true,
                 "separate": true,
                 "loadFactorLimit": 4.0
+              },
+              "BannedWeaponPreset": {
+                "slot": 10,
+                "preset": "agm_12c"
               }
             }
           }
@@ -4343,6 +4410,25 @@
           },
           {
             "WeaponPreset": {
+              "iconType": "bombs_heavy_middle",
+              "name": "us_mk84",
+              "reqModification": "us_2000lb_mk84",
+              "ShowNodes": {
+                "node": "pylon_r_out"
+              },
+              "Weapon": {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/BombGuns/us_2000lb_mk_84_ldgp.blk",
+                "emitter": "bomb_2000lb_003",
+                "bullets": 1,
+                "external": true,
+                "separate": true,
+                "machLimit": 1.01
+              }
+            }
+          },
+          {
+            "WeaponPreset": {
               "iconType": "missile_air_to_uni",
               "name": "agm_12b",
               "reqModification": "fj_4b_agm_12b",
@@ -4579,22 +4665,6 @@
       "new_cover": {
         "tier": 4
       },
-      "M60_air_targets": [],
-      "M60_armor_targets": [],
-      "M60_stealth": [],
-      "M60_belt_pack": {
-        "tier": 1
-      },
-      "M60_new_gun": {
-        "reqModification": "M60_belt_pack",
-        "tier": 2
-      },
-      "f4c_suu_23a": {
-        "prevModification": "M60_new_gun",
-        "deactivationIsAllowed": false,
-        "tier": 3,
-        "modClass": "weapon"
-      },
       "us_250lb_mk81": {
         "modClass": "weapon",
         "tier": 1
@@ -4613,6 +4683,28 @@
         "modClass": "weapon",
         "tier": 4,
         "reqModification": "us_750lb_m117a1"
+      },
+      "us_2000lb_mk84": {
+        "modClass": "weapon",
+        "tier": 4,
+        "reqModification": "us_1000lb_mk83",
+        "prevModification": "f4c_suu_23a"
+      },
+      "M60_air_targets": [],
+      "M60_armor_targets": [],
+      "M60_stealth": [],
+      "M60_belt_pack": {
+        "tier": 1
+      },
+      "M60_new_gun": {
+        "reqModification": "M60_belt_pack",
+        "tier": 2
+      },
+      "f4c_suu_23a": {
+        "prevModification": "M60_new_gun",
+        "deactivationIsAllowed": false,
+        "tier": 3,
+        "modClass": "weapon"
       },
       "fj_4b_agm_12b": {
         "tier": 1,

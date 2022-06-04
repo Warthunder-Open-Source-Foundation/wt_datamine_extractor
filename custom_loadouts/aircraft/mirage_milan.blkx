@@ -32,9 +32,6 @@
   "fireParamsPreset": "2200kph",
   "fightAiBehaviour": "fighter",
   "autopilotImpl": "FBW",
-  "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg",
-  "customImage": "!#ui/unitskin#image_in_progress",
-  "customTooltipImage": "ui/aircrafts/image_in_progress",
   "DamageParts": {
     "armor10": {
       "cannon1_dm": {
@@ -2471,8 +2468,7 @@
             "bullets": 1,
             "external": true,
             "separate": true,
-            "machLimit": 1.01,
-            "loadFactorLimit": 4.0
+            "machLimit": 1.01
           }
         }
       }
@@ -2811,8 +2807,7 @@
             "bullets": 1,
             "external": true,
             "separate": true,
-            "machLimit": 1.01,
-            "loadFactorLimit": 4.0
+            "machLimit": 1.01
           }
         }
       }

@@ -34,8 +34,8 @@ impl Explosive {
 		let mut pos = 0;
 
 		loop {
-			let explosive_name = split[pos].replace('"', "").replace("{", "").replace(":", "");
-			let equiv = split[pos + 1].split(':').collect::<Vec<&str>>()[1].replace(",", "");
+			let explosive_name = split[pos].replace('"', "").replace('{', "").replace(':', "");
+			let equiv = split[pos + 1].split(':').collect::<Vec<&str>>()[1].replace(',', "");
 			if let Ok(equiv) = f64::from_str(equiv.trim()) {
 				types.push(Explosive {
 					e_type: explosive_name.trim().to_owned(),
@@ -45,9 +45,7 @@ impl Explosive {
 			} else {
 				break;
 			}
-			if pos > 1000 {
-				panic!("Explosive analysis overran acceptable buffer")
-			}
+			assert!((pos <= 1000), "Explosive analysis overran acceptable buffer");
 		}
 		types
 	}
@@ -58,7 +56,7 @@ pub fn explosive_type_to_tnt(e_type: &str, raw_mass: f64) -> f64 {
 		return 0.0;
 	}
 	if let Some(k) = EXPLOSIVE_MAP.get(e_type) {
-		return (k * f64::from(raw_mass)).round();
+		return (k * raw_mass).round();
 	};
 	panic!("Cannot resolve {} {}", e_type, raw_mass)
 }

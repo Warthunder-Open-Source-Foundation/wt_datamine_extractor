@@ -1,16 +1,13 @@
-use std::collections::{HashSet};
-
+use std::collections::HashSet;
 use std::fs;
 use std::str::FromStr;
 
 use get_size::GetSize;
-
 use strum_macros::EnumIter;
 
 use crate::explosive::explosive::explosive_type_to_tnt;
 use crate::lang::{Lang, name_to_local};
 use crate::shell::known_shells::KnownShells;
-
 use crate::shell::penetration_select::shell_to_penetration;
 use crate::util::parameter_to_data;
 
@@ -44,7 +41,7 @@ impl Shell {
 		let bullets = file.split("\"bullet\"").clone().collect::<Vec<&str>>();
 		for bullet in bullets {
 			let name: String = if let Some(file_name) = parameter_to_data(bullet, "bulletName") {
-				file_name.trim().replace("\"", "")
+				file_name.trim().replace('\"', "")
 			} else {
 				continue;
 			};
@@ -56,7 +53,7 @@ impl Shell {
 			let velocity = f64::from_str(&parameter_to_data(bullet, "speed").unwrap_or_else(|| "0".to_owned())).expect(&name).round() as u32;
 
 			let explosive: (String, f64, f64) = {
-				let explosive_type = parameter_to_data(bullet, "explosiveType").map_or_else(|| "".to_owned(), |value| value.trim().replace("\\", "").replace("\"", ""));
+				let explosive_type = parameter_to_data(bullet, "explosiveType").map_or_else(|| "".to_owned(), |value| value.trim().replace('\\', "").replace('\"', ""));
 				let raw_mass: f64 = parameter_to_data(bullet, "explosiveMass").as_ref().map_or(0.0, |mass| (f64::from_str(mass).unwrap() * 1000.0).round());
 				(
 					explosive_type.clone(),
@@ -93,7 +90,7 @@ impl Shell {
 	}
 
 	pub fn write_all(mut values: Vec<Self>) -> Vec<Self> {
-		values.sort_by_key(|x|format!("{:?}", x));
+		values.sort_by_key(|x| format!("{:?}", x));
 		fs::write("shell_index/all.json", serde_json::to_string_pretty(&values).unwrap()).unwrap();
 		values
 	}
@@ -122,7 +119,7 @@ impl Shell {
 
 	pub fn select_by_name(shells: &[Self], name: &str) -> Option<Self> {
 		for (i, missile) in shells.iter().enumerate() {
-			if missile.name.contains(&name.replace("-", "_")) {
+			if missile.name.contains(&name.replace('-', "_")) {
 				return Some(shells[i].clone());
 			}
 		}
@@ -219,7 +216,7 @@ impl FromStr for ShellType {
 				Ok(Self::Hesh)
 			}
 			r#""heat_tank""# |
-			r#""heat_grenade_tank""#  |
+			r#""heat_grenade_tank""# |
 			// This from april fools, its basically an RPG but not?!
 			r#""heat_fs_rocket""# => {
 				Ok(Self::Heat)

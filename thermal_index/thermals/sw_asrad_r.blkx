@@ -3129,10 +3129,10 @@
       "airstrike": [],
       "improved_optics": [],
       "tank_medical_kit": {
-        "image": "#ui/gameuiskin#tank_reinforcement_sw"
+        "image": "#ui/gameuiskin#tank_reinforcement_sw.png"
       },
       "tank_medical_kit_expendable": {
-        "image": "#ui/gameuiskin#tank_reinforcement_sw"
+        "image": "#ui/gameuiskin#tank_reinforcement_sw.png"
       },
       "105mm_rb_70_aam": [],
       "105mm_bolide_aam": [],
@@ -3252,7 +3252,7 @@
         }
       },
       "night_vision_system": {
-        "image": "#ui/gameuiskin#thermal_sight",
+        "image": "#ui/gameuiskin#thermal_sight.png",
         "effects": {
           "nightVision": {
             "gunnerThermal": {

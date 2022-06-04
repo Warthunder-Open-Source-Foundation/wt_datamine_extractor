@@ -720,7 +720,7 @@
   },
   {
     "sound": {
-      "EngineName": "engine_type93",
+      "EngineName": "engine_fiat8144",
       "TrackSoundPath": "tanks/engines_tanks",
       "TrackSoundPathStudio": "ground/engines",
       "TrackSoundName": "tracks_lt_modern",
@@ -2683,10 +2683,10 @@
       "new_tank_horizontal_aiming": [],
       "new_tank_vertical_aiming": [],
       "tank_medical_kit": {
-        "image": "#ui/gameuiskin#tank_reinforcement_ger"
+        "image": "#ui/gameuiskin#tank_reinforcement_ger.png"
       },
       "tank_medical_kit_expendable": {
-        "image": "#ui/gameuiskin#tank_reinforcement_ger"
+        "image": "#ui/gameuiskin#tank_reinforcement_ger.png"
       },
       "airstrike": [],
       "improved_optics": [],
@@ -2699,7 +2699,7 @@
       },
       "night_vision_system": {
         "tier": 1,
-        "image": "#ui/gameuiskin#thermal_sight",
+        "image": "#ui/gameuiskin#thermal_sight.png",
         "effects": {
           "nightVision": {
             "gunnerThermal": {

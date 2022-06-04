@@ -3316,10 +3316,10 @@
       "tank_new_gun": [],
       "art_support": [],
       "tank_medical_kit": {
-        "image": "#ui/gameuiskin#tank_reinforcement_ger"
+        "image": "#ui/gameuiskin#tank_reinforcement_ger.png"
       },
       "tank_medical_kit_expendable": {
-        "image": "#ui/gameuiskin#tank_reinforcement_ger"
+        "image": "#ui/gameuiskin#tank_reinforcement_ger.png"
       },
       "airstrike": [],
       "begleitpanzer_57_improvement_TOW": {
@@ -3609,7 +3609,7 @@
       "57mm_germ_Bofors_HE_VT": [],
       "57mm_germ_Bofors_HE_VT_ammo_pack": [],
       "night_vision_system": {
-        "image": "#ui/gameuiskin#thermal_sight",
+        "image": "#ui/gameuiskin#thermal_sight.png",
         "tier": 3,
         "effects": {
           "nightVision": {

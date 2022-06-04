@@ -130,8 +130,8 @@ pub fn name_to_local(target: &str, lang: &Lang) -> String {
 mod tests {
 	use std::collections::HashSet;
 	use std::fs;
-	use crate::lang::{CSV_UNIT, CSV_WEAPON};
 
+	use crate::lang::{CSV_UNIT, CSV_WEAPON};
 	use crate::missile::missile::Missile;
 
 	#[test]

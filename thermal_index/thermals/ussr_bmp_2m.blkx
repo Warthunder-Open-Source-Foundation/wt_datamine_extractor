@@ -2914,13 +2914,13 @@
         }
       },
       "tank_medical_kit": {
-        "image": "#ui/gameuiskin#tank_reinforcement_ussr"
+        "image": "#ui/gameuiskin#tank_reinforcement_ussr.png"
       },
       "tank_medical_kit_expendable": {
-        "image": "#ui/gameuiskin#tank_reinforcement_ussr"
+        "image": "#ui/gameuiskin#tank_reinforcement_ussr.png"
       },
       "night_vision_system": {
-        "image": "#ui/gameuiskin#thermal_sight",
+        "image": "#ui/gameuiskin#thermal_sight.png",
         "tier": 2,
         "modClass": "protection",
         "effects": {

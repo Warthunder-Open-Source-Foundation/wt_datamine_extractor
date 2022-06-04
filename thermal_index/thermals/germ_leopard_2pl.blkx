@@ -3906,10 +3906,10 @@
       "art_support": [],
       "tank_new_gun": [],
       "tank_medical_kit": {
-        "image": "#ui/gameuiskin#tank_reinforcement_ger"
+        "image": "#ui/gameuiskin#tank_reinforcement_ger.png"
       },
       "tank_medical_kit_expendable": {
-        "image": "#ui/gameuiskin#tank_reinforcement_ger"
+        "image": "#ui/gameuiskin#tank_reinforcement_ger.png"
       },
       "120mm_DM_HE_FS": [],
       "120mm_DM_HE_FS_ammo_pack": {
@@ -4248,7 +4248,7 @@
         }
       },
       "night_vision_system": {
-        "image": "#ui/gameuiskin#thermal_sight",
+        "image": "#ui/gameuiskin#thermal_sight.png",
         "tier": 3,
         "effects": {
           "nightVision": {

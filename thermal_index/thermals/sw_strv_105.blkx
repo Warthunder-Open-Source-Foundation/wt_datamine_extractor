@@ -3413,10 +3413,10 @@
       "art_support": [],
       "tank_new_gun": [],
       "tank_medical_kit": {
-        "image": "#ui/gameuiskin#tank_reinforcement_sw"
+        "image": "#ui/gameuiskin#tank_reinforcement_sw.png"
       },
       "tank_medical_kit_expendable": {
-        "image": "#ui/gameuiskin#tank_reinforcement_sw"
+        "image": "#ui/gameuiskin#tank_reinforcement_sw.png"
       },
       "modern_tank_laser_rangefinder": [],
       "105mm_sweden_HE": [],
@@ -3663,7 +3663,7 @@
       },
       "night_vision_system": {
         "tier": 2,
-        "image": "#ui/gameuiskin#thermal_sight",
+        "image": "#ui/gameuiskin#thermal_sight.png",
         "effects": {
           "nightVision": {
             "gunnerThermal": {
