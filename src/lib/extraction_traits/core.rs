@@ -1,8 +1,9 @@
 use std::fs;
+use serde::Serialize;
 use crate::extraction_traits::known::KnownItem;
 
 pub trait ExtractCore {
-	fn generate_from_index(index: impl KnownItem, write_path: &str) -> Vec<Self> where Self: Sized, Self: Ord {
+	fn generate_from_index(index: impl KnownItem, write_path: &str) -> Vec<Self> where Self: Sized {
 		let mut generated: Vec<Self> = vec![];
 		for i in index.get_index() {
 			if let Ok(file) = fs::read(format!("{write_path}{i}")) {
@@ -13,9 +14,13 @@ pub trait ExtractCore {
 				generated.push(missile);
 			}
 		}
-		generated.sort();
+		Self::sort(&mut generated);
 		generated
 	}
-	fn write_all(&self);
+	fn write_all(items: Vec<Self>, path: &str) where Self: Sized, Self: Serialize {
+		fs::write(path, serde_json::to_string_pretty(&items).unwrap()).unwrap();
+	}
 	fn new_from_file(file: &[u8], name: String) -> Self;
+	// Least amount of boilerplate this way
+	fn sort(items: &mut Vec<Self>) where Self: Sized;
 }
