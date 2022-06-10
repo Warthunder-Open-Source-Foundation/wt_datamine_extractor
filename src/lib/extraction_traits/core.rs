@@ -1,5 +1,7 @@
 use std::fs;
+
 use serde::Serialize;
+
 use crate::extraction_traits::known::KnownItem;
 
 pub trait ExtractCore {

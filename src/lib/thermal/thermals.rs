@@ -1,11 +1,7 @@
-use std::cmp::Ordering;
-use std::fs;
-
 use get_size::GetSize;
-use crate::extraction_traits::core::ExtractCore;
 
+use crate::extraction_traits::core::ExtractCore;
 use crate::lang::{Lang, name_to_local};
-use crate::thermal::known_thermals::KnownThermals;
 
 #[derive(Clone, serde::Serialize, serde::Deserialize, Debug, PartialEq, const_gen::CompileConst, get_size::GetSize)]
 pub struct Thermal {
@@ -58,7 +54,7 @@ impl ExtractCore for Thermal {
 	}
 
 	fn sort(items: &mut Vec<Self>) {
-		items.sort_by_key(|x|x.name.clone());
+		items.sort_by_key(|x| x.name.clone());
 	}
 }
 
