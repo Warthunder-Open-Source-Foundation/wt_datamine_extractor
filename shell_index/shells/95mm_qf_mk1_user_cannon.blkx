@@ -185,7 +185,8 @@
         "fx": "hit_81_105mm_snow_he"
       },
       "wood": {
-        "fx": "hit_81_132mm_heat"
+        "fx": "hit_81_132mm_heat",
+        "copyBulletTm": true
       }
     },
     "shatterCollisions": {
@@ -635,6 +636,9 @@
       "shutterArmorPower": 7.5,
       "shutterHit": 11.0,
       "smokeShell": true,
+      "smokeFx": "smokescreen_medium",
+      "smokeExplosionFx": "smoke_shell_explosion",
+      "smokeExplosionFxVolsmoke": "smoke_shell_explosion_old",
       "smokeShellRad": 13.0,
       "smokeActivateTime": 5.0,
       "smokeTime": 20.0,

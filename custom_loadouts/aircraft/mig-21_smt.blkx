@@ -2211,20 +2211,26 @@
         "name": "mig_21_smt_2x_ofab500_bombs",
         "blk": "gameData/FlightModels/weaponPresets/mig_21_smt_2x_ofab500_bombs.blk"
       }
+    },
+    {
+      "preset": {
+        "name": "mig_21_smt_2x_zb_500",
+        "blk": "gameData/FlightModels/weaponPresets/mig_21_smt_2x_zb_500.blk"
+      }
     }
   ],
   "WeaponSlots": [
     {
-      "maxloadMass": 2000.0
+      "maxloadMass": 1300.0
     },
     {
-      "maxloadMassLeftConsoles": 510.0
+      "maxloadMassLeftConsoles": 650.0
     },
     {
-      "maxloadMassRightConsoles": 510.0
+      "maxloadMassRightConsoles": 650.0
     },
     {
-      "maxDisbalance": 510.0
+      "maxDisbalance": 570.0
     },
     {
       "HideNodes": [
@@ -2324,6 +2330,19 @@
           "WeaponPreset": [
             {
               "name": "gsh_23l_ltc_common"
+            },
+            {
+              "ShowNodes": [
+                {
+                  "node": "flare2"
+                },
+                {
+                  "node": "sps_141m_pylon"
+                },
+                {
+                  "node": "aso_sps_141m"
+                }
+              ]
             },
             {
               "Weapon": {
@@ -2522,9 +2541,6 @@
           "order": 3
         },
         {
-          "notUseforDisbalanceCalculation": true
-        },
-        {
           "WeaponPreset": {
             "iconType": "missile_air_to_air",
             "name": "r3s_default",
@@ -2684,6 +2700,24 @@
               "separate": true
             }
           }
+        },
+        {
+          "WeaponPreset": {
+            "iconType": "napalm_large",
+            "name": "zb500",
+            "reqModification": "zb_500",
+            "ShowNodes": {
+              "node": "pylon_l"
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/su_zb_500.blk",
+              "emitter": "su_fab500_m54_l",
+              "bullets": 1,
+              "external": true,
+              "separate": true
+            }
+          }
         }
       ]
     },
@@ -2697,9 +2731,6 @@
         },
         {
           "order": 4
-        },
-        {
-          "notUseforDisbalanceCalculation": true
         },
         {
           "WeaponPreset": {
@@ -2855,6 +2886,24 @@
             "Weapon": {
               "trigger": "bombs",
               "blk": "gameData/Weapons/BombGuns/su_fab500_m54.blk",
+              "emitter": "su_fab500_m54_r",
+              "bullets": 1,
+              "external": true,
+              "separate": true
+            }
+          }
+        },
+        {
+          "WeaponPreset": {
+            "iconType": "napalm_large",
+            "name": "zb500",
+            "reqModification": "zb_500",
+            "ShowNodes": {
+              "node": "pylon_r"
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/su_zb_500.blk",
               "emitter": "su_fab500_m54_r",
               "bullets": 1,
               "external": true,
@@ -3291,7 +3340,12 @@
       "reqModification": "ns23_belt_pack",
       "tier": 3
     },
+    "zb_500": {
+      "modClass": "weapon",
+      "tier": 1
+    },
     "mi_24_fab_250": {
+      "prevModification": "zb_500",
       "modClass": "weapon",
       "tier": 2
     },

@@ -105,6 +105,9 @@
     "type": "typeTankDestroyer"
   },
   {
+    "cruiseVelocity": 5.0
+  },
+  {
     "rearmTimeOnField": 35.0
   },
   {
@@ -112,15 +115,6 @@
   },
   {
     "canReloadNonGuns": true
-  },
-  {
-    "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg"
-  },
-  {
-    "customImage": "!#ui/unitskin#image_in_progress"
-  },
-  {
-    "customTooltipImage": "ui/aircrafts/image_in_progress"
   },
   {
     "ikGunner": [
@@ -2135,17 +2129,37 @@
           "defaultYaw": 0.0,
           "defaultPitch": 0.0,
           "barrelDP": "optic_gun_dm",
-          "speedYaw": 3.0,
-          "speedPitch": 3.0,
+          "speedYaw": 30.0,
+          "speedPitch": 5.0,
           "bullets": 1,
           "turret": {
             "head": "bone_turret_01",
-            "gun": "bone_gun_01",
-            "rotatedTurret": "bone_turret"
+            "gun": "bone_gun_01"
           },
           "limits": {
             "yaw": [-180.0,180.0],
             "pitch": [-10.0,10.0]
+          },
+          "gunStabilizer": {
+            "hasVerticalGunFreeMode": false,
+            "hasHorizontal": true,
+            "horizontalOmegaMult": 1.0,
+            "horizontalSpeedLimitKPH": 75.0,
+            "hasVertical": true,
+            "verticalOmegaMult": 1.0,
+            "verticalSpeedLimitKPH": 75.0,
+            "speedFromVehicleVerticalMult": -1.0,
+            "errorKPHToDegrees": [
+              {
+                "row": [5.0,0.0]
+              },
+              {
+                "row": [45.0,0.015]
+              },
+              {
+                "row": [80.0,0.02]
+              }
+            ]
           }
         }
       },
@@ -2162,8 +2176,9 @@
           "ammoDpGenFmt": "ammo_turret_%02d_dm",
           "recoilMultiplier": 0.1,
           "stopForFire": true,
-          "maxSpeedForFire": 5.0,
+          "maxSpeedForFire": 6.0,
           "lagStopForFireTime": 2.0,
+          "battlePositionSpeed": 16.0,
           "reloadAnimVar": "vcac_mephisto_action",
           "readyToParkTime": [3.0,0.28],
           "canChangeBulletInReload": false,
@@ -2173,8 +2188,8 @@
           "defaultYaw": 0.0,
           "defaultPitch": 0.0,
           "autoLoader": true,
-          "speedYaw": 20.0,
-          "speedPitch": 20.0,
+          "speedYaw": 30.0,
+          "speedPitch": 5.0,
           "bullets": 12,
           "salvoAmount": 100.0,
           "ChainfireTime": 0.0,
@@ -2200,6 +2215,27 @@
           "limits": {
             "yaw": [-180.0,180.0],
             "pitch": [-10.0,10.0]
+          },
+          "gunStabilizer": {
+            "hasVerticalGunFreeMode": false,
+            "hasHorizontal": true,
+            "horizontalOmegaMult": 1.0,
+            "horizontalSpeedLimitKPH": 75.0,
+            "hasVertical": true,
+            "verticalOmegaMult": 1.0,
+            "verticalSpeedLimitKPH": 75.0,
+            "speedFromVehicleVerticalMult": -1.0,
+            "errorKPHToDegrees": [
+              {
+                "row": [5.0,0.0]
+              },
+              {
+                "row": [45.0,0.015]
+              },
+              {
+                "row": [80.0,0.02]
+              }
+            ]
           }
         }
       }
@@ -2478,18 +2514,6 @@
     }
   },
   {
-    "wreckedParts": {
-      "part": {
-        "node": "bone_turret",
-        "mass": 3000.0,
-        "cutDamage": 350.0,
-        "deviation": 0.5,
-        "rotation": 0.5,
-        "collisionNode": "cls_turret"
-      }
-    }
-  },
-  {
     "unitFx": [
       {
         "event": [
@@ -2600,7 +2624,7 @@
           },
           {
             "fx": {
-              "name": "fire_tank_ammo_gun_fire_cmps_fx",
+              "name": "fire_tank_ammo_gun_fire",
               "emitter": "emtr_gun_flame",
               "setOrientation": true
             }
@@ -2962,6 +2986,220 @@
         ]
       },
       {
+        "event": [
+          {
+            "name": "attached_fire"
+          },
+          {
+            "lifetime": 15.0
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_dmg"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_small_dmg_01"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_small_dmg_02"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_small_dmg_03"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_small_dmg_04"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_small_dmg_05"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_small_dmg_06"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_small_dmg_07"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_small_dmg_08"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_small_dmg_09"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_small_dmg_10"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_small_dmg_11"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_small_dmg_12"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_small_dmg_13"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_small_dmg_14"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_small_dmg_15"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_small_dmg_16"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_dmg"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_small_dmg_01"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_small_dmg_02"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_small_dmg_03"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_small_dmg_04"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_small_dmg_05"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_small_dmg_06"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_small_dmg_07"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_small_dmg_08"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_small_dmg_09"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_small_dmg_10"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_small_dmg_11"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_small_dmg_12"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_small_dmg_13"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_small_dmg_14"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_small_dmg_15"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_small_dmg_16"
+            }
+          }
+        ]
+      },
+      {
         "event": {
           "name": "fuel_exterior",
           "fx": {
@@ -3075,17 +3313,37 @@
                 "defaultYaw": 0.0,
                 "defaultPitch": 0.0,
                 "barrelDP": "optic_gun_dm",
-                "speedYaw": 3.0,
-                "speedPitch": 3.0,
+                "speedYaw": 30.0,
+                "speedPitch": 5.0,
                 "bullets": 1,
                 "turret": {
                   "head": "bone_turret_01",
-                  "gun": "bone_gun_01",
-                  "rotatedTurret": "bone_turret"
+                  "gun": "bone_gun_01"
                 },
                 "limits": {
                   "yaw": [-180.0,180.0],
                   "pitch": [-10.0,10.0]
+                },
+                "gunStabilizer": {
+                  "hasVerticalGunFreeMode": false,
+                  "hasHorizontal": true,
+                  "horizontalOmegaMult": 1.0,
+                  "horizontalSpeedLimitKPH": 75.0,
+                  "hasVertical": true,
+                  "verticalOmegaMult": 1.0,
+                  "verticalSpeedLimitKPH": 75.0,
+                  "speedFromVehicleVerticalMult": -1.0,
+                  "errorKPHToDegrees": [
+                    {
+                      "row": [5.0,0.0]
+                    },
+                    {
+                      "row": [45.0,0.015]
+                    },
+                    {
+                      "row": [80.0,0.02]
+                    }
+                  ]
                 }
               }
             },
@@ -3102,8 +3360,9 @@
                 "ammoDpGenFmt": "ammo_turret_%02d_dm",
                 "recoilMultiplier": 0.1,
                 "stopForFire": true,
-                "maxSpeedForFire": 5.0,
+                "maxSpeedForFire": 6.0,
                 "lagStopForFireTime": 2.0,
+                "battlePositionSpeed": 16.0,
                 "reloadAnimVar": "vcac_mephisto_action",
                 "readyToParkTime": [3.0,0.28],
                 "canChangeBulletInReload": false,
@@ -3113,8 +3372,8 @@
                 "defaultYaw": 0.0,
                 "defaultPitch": 0.0,
                 "autoLoader": true,
-                "speedYaw": 20.0,
-                "speedPitch": 20.0,
+                "speedYaw": 30.0,
+                "speedPitch": 5.0,
                 "bullets": 12,
                 "salvoAmount": 100.0,
                 "ChainfireTime": 0.0,
@@ -3140,6 +3399,27 @@
                 "limits": {
                   "yaw": [-180.0,180.0],
                   "pitch": [-10.0,10.0]
+                },
+                "gunStabilizer": {
+                  "hasVerticalGunFreeMode": false,
+                  "hasHorizontal": true,
+                  "horizontalOmegaMult": 1.0,
+                  "horizontalSpeedLimitKPH": 75.0,
+                  "hasVertical": true,
+                  "verticalOmegaMult": 1.0,
+                  "verticalSpeedLimitKPH": 75.0,
+                  "speedFromVehicleVerticalMult": -1.0,
+                  "errorKPHToDegrees": [
+                    {
+                      "row": [5.0,0.0]
+                    },
+                    {
+                      "row": [45.0,0.015]
+                    },
+                    {
+                      "row": [80.0,0.02]
+                    }
+                  ]
                 }
               }
             },

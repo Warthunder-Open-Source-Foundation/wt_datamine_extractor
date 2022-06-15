@@ -132,6 +132,9 @@
     "smokeScreenFxType": "tank_smokescreen"
   },
   {
+    "smokeScreenFx": "smokescreen_no_therm_small"
+  },
+  {
     "DamageParts": {
       "formatVersion": 2,
       "armorClass": "RHA_tank_modern",
@@ -3030,7 +3033,7 @@
       "tracks": {
         "animationMultiplier": -0.62,
         "width": 0.61,
-        "height": 0.08,
+        "height": 0.09,
         "fricFrontal": [1.2,1.0],
         "tracksTensionK": [5.0,9.0,5.0],
         "trackMesh": "uk_challenger_2_phys_track_line",
@@ -3293,7 +3296,7 @@
           },
           {
             "fx": {
-              "name": "fire_tank_ammo_gun_fire_cmps_fx",
+              "name": "fire_tank_ammo_gun_fire",
               "emitter": "emtr_gun_flame",
               "setOrientation": true
             }
@@ -3649,6 +3652,220 @@
           {
             "fx": {
               "name": "tank_fire_small",
+              "emitter": "emtr_fire_small_dmg_16"
+            }
+          }
+        ]
+      },
+      {
+        "event": [
+          {
+            "name": "attached_fire"
+          },
+          {
+            "lifetime": 15.0
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_dmg"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_small_dmg_01"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_small_dmg_02"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_small_dmg_03"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_small_dmg_04"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_small_dmg_05"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_small_dmg_06"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_small_dmg_07"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_small_dmg_08"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_small_dmg_09"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_small_dmg_10"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_small_dmg_11"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_small_dmg_12"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_small_dmg_13"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_small_dmg_14"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_small_dmg_15"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_smoke_small_dmg_16"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_dmg"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_small_dmg_01"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_small_dmg_02"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_small_dmg_03"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_small_dmg_04"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_small_dmg_05"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_small_dmg_06"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_small_dmg_07"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_small_dmg_08"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_small_dmg_09"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_small_dmg_10"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_small_dmg_11"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_small_dmg_12"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_small_dmg_13"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_small_dmg_14"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
+              "emitter": "emtr_fire_small_dmg_15"
+            }
+          },
+          {
+            "fx": {
+              "name": "fire_tank_napalm_smal",
               "emitter": "emtr_fire_small_dmg_16"
             }
           }
@@ -4654,7 +4871,7 @@
         "additionalHeight": 4.0,
         "aiming": true,
         "shotFx": "muzzle_ground_40mm",
-        "explosionFx": "hit_81_105mm_metal_he",
+        "explosionFx": "hit_28_38mm_metal_he",
         "mountNode": "bone_turret",
         "mesh": "grenade_iron_fist",
         "reactionTime": 0.3,
@@ -4801,7 +5018,7 @@
         "additionalHeight": 4.0,
         "aiming": true,
         "shotFx": "muzzle_ground_40mm",
-        "explosionFx": "hit_81_105mm_metal_he",
+        "explosionFx": "hit_28_38mm_metal_he",
         "mountNode": "bone_turret",
         "mesh": "grenade_iron_fist",
         "reactionTime": 0.3,

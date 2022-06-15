@@ -38,6 +38,7 @@
   "allowRearmOnField": true,
   "mesh": "waffensystem_hot_rocket_deployed",
   "animChar": "waffensystem_hot_rocket_char",
+  "reloadAnimParam": "cap_hide",
   "bullet": {
     "normalizationPreset": "heat",
     "ricochetPreset": "atgm",

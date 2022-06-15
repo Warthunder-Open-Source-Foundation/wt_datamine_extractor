@@ -35,9 +35,6 @@
   "fireParamsPreset": "2200kph",
   "fightAiBehaviour": "fighter",
   "autopilotImpl": "FBW",
-  "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg",
-  "customImage": "!#ui/unitskin#image_in_progress",
-  "customTooltipImage": "ui/aircrafts/image_in_progress",
   "DamageParts": {
     "armor10": {
       "cannon1_dm": {
@@ -2192,7 +2189,8 @@
             {
               "page": {
                 "type": "radar",
-                "radarScale": 1.0
+                "radarScale": 1.0,
+                "hideRadarBackground": true
               }
             },
             {
@@ -2372,6 +2370,60 @@
           "node": "pylon_sparrow2"
         },
         {
+          "node": "pylon_mk82_1"
+        },
+        {
+          "node": "pylon_mk82_2"
+        },
+        {
+          "node": "pylon_mk82_3"
+        },
+        {
+          "node": "pylon_mk82_4"
+        },
+        {
+          "node": "pylon_mk82_5"
+        },
+        {
+          "node": "pylon_mk82_6"
+        },
+        {
+          "node": "pylon_mk82_7"
+        },
+        {
+          "node": "pylon_mk82_8"
+        },
+        {
+          "node": "pylon_mk82_9"
+        },
+        {
+          "node": "pylon_mk82_10"
+        },
+        {
+          "node": "pylon_mk82_11"
+        },
+        {
+          "node": "pylon_mk82_12"
+        },
+        {
+          "node": "pylon_mk82_13"
+        },
+        {
+          "node": "pylon_mk82_14"
+        },
+        {
+          "node": "pylon_mk84_1"
+        },
+        {
+          "node": "pylon_mk84_2"
+        },
+        {
+          "node": "pylon_mk84_3"
+        },
+        {
+          "node": "pylon_mk84_4"
+        },
+        {
           "node": "lau7_1"
         },
         {
@@ -2498,7 +2550,7 @@
         },
         {
           "WeaponPreset": {
-            "iconType": "missile_air_to_air",
+            "iconType": "missile_type_b_air_to_air",
             "name": "aim_9h",
             "reqModification": "us_aim_9h",
             "ShowNodes": {
@@ -2575,7 +2627,7 @@
         },
         {
           "WeaponPreset": {
-            "iconType": "missile_air_to_air",
+            "iconType": "missile_type_b_air_to_air",
             "name": "aim_9h",
             "reqModification": "us_aim_9h",
             "ShowNodes": [
@@ -2910,6 +2962,30 @@
                 },
                 {
                   "node": "pylon_phoenix5"
+                },
+                {
+                  "node": "pylon_mk82_1"
+                },
+                {
+                  "node": "pylon_mk82_2"
+                },
+                {
+                  "node": "pylon_mk82_3"
+                },
+                {
+                  "node": "pylon_mk82_4"
+                },
+                {
+                  "node": "pylon_mk82_5"
+                },
+                {
+                  "node": "pylon_mk82_6"
+                },
+                {
+                  "node": "pylon_mk82_7"
+                },
+                {
+                  "node": "pylon_mk82_8"
                 }
               ]
             },
@@ -2993,6 +3069,30 @@
                 },
                 {
                   "node": "pylon_phoenix5"
+                },
+                {
+                  "node": "pylon_mk82_1"
+                },
+                {
+                  "node": "pylon_mk82_2"
+                },
+                {
+                  "node": "pylon_mk82_3"
+                },
+                {
+                  "node": "pylon_mk82_4"
+                },
+                {
+                  "node": "pylon_mk82_5"
+                },
+                {
+                  "node": "pylon_mk82_6"
+                },
+                {
+                  "node": "pylon_mk82_7"
+                },
+                {
+                  "node": "pylon_mk82_8"
                 }
               ]
             },
@@ -3076,6 +3176,12 @@
                 },
                 {
                   "node": "pylon_phoenix5"
+                },
+                {
+                  "node": "pylon_mk84_3"
+                },
+                {
+                  "node": "pylon_mk84_4"
                 }
               ]
             },
@@ -3119,6 +3225,12 @@
                 },
                 {
                   "node": "pylon_phoenix5"
+                },
+                {
+                  "node": "pylon_mk84_3"
+                },
+                {
+                  "node": "pylon_mk84_4"
                 }
               ]
             },
@@ -3272,7 +3384,7 @@
         {
           "WeaponPreset": [
             {
-              "iconType": "bombs_small_group_x6"
+              "iconType": "bombs_small_group_x8"
             },
             {
               "name": "us_mk81_x8"
@@ -3287,6 +3399,24 @@
                 },
                 {
                   "node": "pylon_phoenix4"
+                },
+                {
+                  "node": "pylon_mk82_9"
+                },
+                {
+                  "node": "pylon_mk82_10"
+                },
+                {
+                  "node": "pylon_mk82_11"
+                },
+                {
+                  "node": "pylon_mk82_12"
+                },
+                {
+                  "node": "pylon_mk82_13"
+                },
+                {
+                  "node": "pylon_mk82_14"
                 }
               ]
             },
@@ -3375,7 +3505,7 @@
         {
           "WeaponPreset": [
             {
-              "iconType": "bombs_middle_group_x6"
+              "iconType": "bombs_middle_group_x8"
             },
             {
               "name": "us_mk82_x8"
@@ -3390,6 +3520,24 @@
                 },
                 {
                   "node": "pylon_phoenix4"
+                },
+                {
+                  "node": "pylon_mk82_9"
+                },
+                {
+                  "node": "pylon_mk82_10"
+                },
+                {
+                  "node": "pylon_mk82_11"
+                },
+                {
+                  "node": "pylon_mk82_12"
+                },
+                {
+                  "node": "pylon_mk82_13"
+                },
+                {
+                  "node": "pylon_mk82_14"
                 }
               ]
             },
@@ -3493,6 +3641,12 @@
                 },
                 {
                   "node": "pylon_phoenix4"
+                },
+                {
+                  "node": "pylon_mk84_1"
+                },
+                {
+                  "node": "pylon_mk84_2"
                 }
               ]
             },
@@ -3536,6 +3690,12 @@
                 },
                 {
                   "node": "pylon_phoenix4"
+                },
+                {
+                  "node": "pylon_mk84_1"
+                },
+                {
+                  "node": "pylon_mk84_2"
                 }
               ]
             },
@@ -3622,7 +3782,7 @@
         },
         {
           "WeaponPreset": {
-            "iconType": "missile_air_to_air",
+            "iconType": "missile_type_b_air_to_air",
             "name": "aim_9h",
             "reqModification": "us_aim_9h",
             "ShowNodes": [
@@ -3771,7 +3931,7 @@
         },
         {
           "WeaponPreset": {
-            "iconType": "missile_air_to_air",
+            "iconType": "missile_type_b_air_to_air",
             "name": "aim_9h",
             "reqModification": "us_aim_9h",
             "ShowNodes": {

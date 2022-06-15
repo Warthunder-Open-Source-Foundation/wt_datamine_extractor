@@ -2629,7 +2629,7 @@
         },
         {
           "WeaponPreset": {
-            "iconType": "ptb",
+            "iconType": "napalm_large",
             "name": "zb_500",
             "reqModification": "zb_500",
             "ShowNodes": [
@@ -3335,7 +3335,7 @@
         },
         {
           "WeaponPreset": {
-            "iconType": "ptb",
+            "iconType": "napalm_large",
             "name": "zb_500",
             "reqModification": "zb_500",
             "ShowNodes": [

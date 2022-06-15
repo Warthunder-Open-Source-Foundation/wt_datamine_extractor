@@ -23,6 +23,6 @@ pub trait ExtractCore {
 		fs::write(path, serde_json::to_string_pretty(&items).unwrap()).unwrap();
 	}
 	fn new_from_file(file: &[u8], name: String) -> Self;
-	// Least amount of boilerplate this way
+	// Least amount of boilerplate this way, Ord trait is a b*tch to manually implement
 	fn sort(items: &mut Vec<Self>) where Self: Sized;
 }

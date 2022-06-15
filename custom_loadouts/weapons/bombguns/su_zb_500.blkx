@@ -21,13 +21,25 @@
       "dragCx": 0.07
     },
     {
-      "caliber": 0.7
+      "caliber": 0.5
     },
     {
       "length": 2.86
     },
     {
-      "distFromCmToStab": 0.7
+      "distFromCmToStab": -0.025
+    },
+    {
+      "wingAreaMult": 0.05
+    },
+    {
+      "CxK": 1.0
+    },
+    {
+      "CxAoA": 2.5
+    },
+    {
+      "CyK": 6.8
     },
     {
       "sound": "weapon.bomb_std"
@@ -45,7 +57,7 @@
       "explosionPatchRadius": 12.0
     },
     {
-      "iconType": "ptb"
+      "iconType": "napalm_large"
     },
     {
       "DamageParts": {
@@ -62,7 +74,7 @@
       "fireDamage": {
         "velocityMult": 3.5,
         "maxFlightTime": 10.0,
-        "maxFlightDistance": 30.0,
+        "maxFlightDistance": 50.0,
         "maxRise": 10.0,
         "lifeTime": 30.0,
         "penetration": 10.0,

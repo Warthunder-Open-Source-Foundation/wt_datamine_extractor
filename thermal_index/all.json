@@ -60,6 +60,18 @@
     ]
   },
   {
+    "name": "ah_1f_iaf",
+    "localized": "✡AH-1F",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
     "name": "ah_1s",
     "localized": "AH-1S Kisarazu",
     "vehicle_type": "Helicopter",
@@ -108,6 +120,18 @@
     ]
   },
   {
+    "name": "ah_64a_iaf",
+    "localized": "✡AH-64A Peten",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
     "name": "ah_64a_peten",
     "localized": "AH-64A Peten",
     "vehicle_type": "Helicopter",
@@ -134,6 +158,18 @@
   {
     "name": "ah_64d",
     "localized": "AH-64D",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "ah_64d_i_saraph",
+    "localized": "✡AH-64D-I",
     "vehicle_type": "Helicopter",
     "sights": [
       {
@@ -2212,6 +2248,18 @@
   {
     "name": "yah_64",
     "localized": "YAH-64",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "z_19e",
+    "localized": "Z-19E",
     "vehicle_type": "Helicopter",
     "sights": [
       {

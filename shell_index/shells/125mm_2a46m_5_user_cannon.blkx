@@ -952,7 +952,8 @@
           "fx": "hit_106_132mm_snow_he"
         },
         "wood": {
-          "fx": "hit_81_132mm_heat"
+          "fx": "hit_81_132mm_heat",
+          "copyBulletTm": true
         }
       },
       "shatterCollisions": {
@@ -1244,7 +1245,8 @@
             "fx": "hit_106_132mm_snow_he"
           },
           "wood": {
-            "fx": "hit_81_132mm_heat"
+            "fx": "hit_81_132mm_heat",
+            "copyBulletTm": true
           }
         },
         "shatterCollisions": {

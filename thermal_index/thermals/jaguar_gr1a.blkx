@@ -7,7 +7,6 @@
   "haveCCIPForGun": true,
   "haveCCRPForBombs": true,
   "havePointOfInterestDesignator": true,
-  "haveOpticTurret": true,
   "is410SUM1Ils": true,
   "gearSinkRangeLR": 0.204,
   "gearSinkRangeC": 0.308,
@@ -2106,12 +2105,28 @@
     {
       "multifunctionDisplays": [
         {
-          "display": {
-            "textureArea": [0.0,0.0,1.0,1.0],
-            "page": {
-              "type": "map"
+          "display": [
+            {
+              "textureArea": [0.0,0.0,1.0,1.0]
+            },
+            {
+              "page": {
+                "type": "thermal",
+                "turretIdx": 0
+              }
+            },
+            {
+              "page": {
+                "type": "target_tracking",
+                "turretIdx": 0
+              }
+            },
+            {
+              "page": {
+                "type": "map"
+              }
             }
-          }
+          ]
         },
         {
           "display": {
@@ -2162,6 +2177,16 @@
       ]
     }
   ],
+  "gunnerOpticFps": {
+    "Target": {
+      "pos": [-5.2,-1.0,0.0],
+      "head": "optic1_turret",
+      "crosshairPreset": "test_crosshair",
+      "angularLimits": [-90.0,90.0,-160.0,15.0],
+      "opticType": "tv",
+      "turretNo": 0
+    }
+  },
   "nightVision": {
     "sightTPodThermal": {
       "resolution": [500.0,300.0],
@@ -4005,16 +4030,6 @@
       }
     }
   ],
-  "gunnerOpticFps": {
-    "Target": {
-      "pos": [-5.2,-1.0,0.0],
-      "head": "optic1_turret",
-      "crosshairPreset": "test_crosshair",
-      "angularLimits": [-90.0,90.0,-160.0,15.0],
-      "opticType": "targeting",
-      "turretNo": 0
-    }
-  },
   "turbulence": {
     "segmentlength": 100.0,
     "startSpeed": 28.0,

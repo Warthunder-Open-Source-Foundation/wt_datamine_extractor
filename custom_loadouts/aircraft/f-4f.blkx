@@ -3088,6 +3088,12 @@
       },
       {
         "preset": {
+          "name": "f_4f_blu_27",
+          "blk": "gameData/flightModels/weaponPresets/f_4f_blu_27.blk"
+        }
+      },
+      {
+        "preset": {
           "name": "f_4f_bomb_mk83",
           "blk": "gameData/flightModels/weaponPresets/f_4f_bomb_mk83.blk"
         }
@@ -3449,6 +3455,23 @@
               "Weapon": {
                 "trigger": "bombs",
                 "blk": "gameData/Weapons/containers/mer_us_750lb_m117_x4.blk",
+                "emitter": "mer_001",
+                "external": true,
+                "machLimit": 1.01
+              }
+            }
+          },
+          {
+            "WeaponPreset": {
+              "iconType": "napalm_large",
+              "name": "mer_blu_27_x1",
+              "reqModification": "us_750lb_m117a1",
+              "ShowNodes": {
+                "node": "pylon_l_out"
+              },
+              "Weapon": {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/containers/mer_us_blu_27_x1.blk",
                 "emitter": "mer_001",
                 "external": true,
                 "machLimit": 1.01
@@ -3868,6 +3891,23 @@
           },
           {
             "WeaponPreset": {
+              "iconType": "napalm_large_group_x2",
+              "name": "mer_blu_27_x2",
+              "reqModification": "us_750lb_m117a1",
+              "ShowNodes": {
+                "node": "pylon_centr"
+              },
+              "Weapon": {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/containers/mer_us_blu_27_x2.blk",
+                "emitter": "mer_002",
+                "external": true,
+                "machLimit": 1.01
+              }
+            }
+          },
+          {
+            "WeaponPreset": {
               "iconType": "bombs_special_group_x3",
               "name": "mer_mk83_x3",
               "reqModification": "us_1000lb_mk83",
@@ -4242,6 +4282,23 @@
               "Weapon": {
                 "trigger": "bombs",
                 "blk": "gameData/Weapons/containers/mer_us_750lb_m117_x4.blk",
+                "emitter": "mer_003",
+                "external": true,
+                "machLimit": 1.01
+              }
+            }
+          },
+          {
+            "WeaponPreset": {
+              "iconType": "napalm_large",
+              "name": "mer_blu_27_x1",
+              "reqModification": "us_750lb_m117a1",
+              "ShowNodes": {
+                "node": "pylon_r_out"
+              },
+              "Weapon": {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/containers/mer_us_blu_27_x1.blk",
                 "emitter": "mer_003",
                 "external": true,
                 "machLimit": 1.01
