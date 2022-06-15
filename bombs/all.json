@@ -1260,11 +1260,20 @@
     "can_kill_npc_ship": true
   },
   {
-    "name": "su_zab500_test",
-    "weight": 250.0,
-    "explosive_mass": 120.0,
-    "explosive_type": "napalm",
+    "name": "su_zb_360",
+    "weight": 342.0,
+    "explosive_mass": 213.0,
+    "explosive_type": "sks",
     "explosive_equiv": 0.0,
+    "can_kill_npc_tank": false,
+    "can_kill_npc_ship": false
+  },
+  {
+    "name": "su_zb_500",
+    "weight": 374.0,
+    "explosive_mass": 250.0,
+    "explosive_type": "sks",
+    "explosive_equiv": 1.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -1701,6 +1710,24 @@
     "can_kill_npc_ship": false
   },
   {
+    "name": "us_500lb_mk77_mod2",
+    "weight": 235.9,
+    "explosive_mass": 207.3,
+    "explosive_type": "napalm",
+    "explosive_equiv": 0.0,
+    "can_kill_npc_tank": false,
+    "can_kill_npc_ship": false
+  },
+  {
+    "name": "us_500lb_mk77_mod4",
+    "weight": 235.9,
+    "explosive_mass": 207.3,
+    "explosive_type": "napalm",
+    "explosive_equiv": 0.0,
+    "can_kill_npc_tank": false,
+    "can_kill_npc_ship": false
+  },
+  {
     "name": "us_500lb_mk_82_ldgp",
     "weight": 240.9,
     "explosive_mass": 87.1,
@@ -1774,6 +1801,15 @@
   },
   {
     "name": "us_blu27b",
+    "weight": 401.4,
+    "explosive_mass": 358.3,
+    "explosive_type": "napalm",
+    "explosive_equiv": 1.0,
+    "can_kill_npc_tank": false,
+    "can_kill_npc_ship": false
+  },
+  {
+    "name": "us_blu_1",
     "weight": 401.4,
     "explosive_mass": 358.3,
     "explosive_type": "napalm",

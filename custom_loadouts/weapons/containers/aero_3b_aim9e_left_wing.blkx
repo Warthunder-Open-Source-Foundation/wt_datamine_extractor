@@ -4,6 +4,6 @@
   "useEmitter": true,
   "emitter": "aim_9_1",
   "blk": "gameData/Weapons/rocketGuns/us_aim9e_sidewinder.blk",
-  "bullets": 2,
-  "amountPerTier": 2
+  "bullets": 1,
+  "amountPerTier": 1
 }

@@ -3458,7 +3458,7 @@
             "WeaponPreset": {
               "iconType": "bombs_middle_group_x6",
               "name": "mer_mk82_x6",
-              "reqModification": "us_750lb_m117a1",
+              "reqModification": "us_500lb_mk82",
               "ShowNodes": {
                 "node": "pylon_l_out"
               },
@@ -3490,15 +3490,32 @@
           },
           {
             "WeaponPreset": {
-              "iconType": "bombs_special_group_x3",
-              "name": "mer_mk83_x3",
+              "iconType": "napalm_large",
+              "name": "mer_blu_27_x1",
+              "reqModification": "us_750lb_m117a1",
+              "ShowNodes": {
+                "node": "pylon_l_out"
+              },
+              "Weapon": {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/containers/mer_us_blu_27_x1.blk",
+                "emitter": "mer_001",
+                "external": true,
+                "machLimit": 1.01
+              }
+            }
+          },
+          {
+            "WeaponPreset": {
+              "iconType": "bombs_special_group",
+              "name": "mer_mk83_x2",
               "reqModification": "us_1000lb_mk83",
               "ShowNodes": {
                 "node": "pylon_l_out"
               },
               "Weapon": {
                 "trigger": "bombs",
-                "blk": "gameData/Weapons/containers/mer_us_1000lb_mk_83_x3.blk",
+                "blk": "gameData/Weapons/containers/mer_us_1000lb_mk_83_x2.blk",
                 "emitter": "mer_001",
                 "external": true,
                 "machLimit": 1.01
@@ -3516,7 +3533,7 @@
               "Weapon": {
                 "trigger": "bombs",
                 "blk": "gameData/Weapons/BombGuns/us_2000lb_mk_84_ldgp.blk",
-                "emitter": "us_2000lb_gbu_8_001",
+                "emitter": "bomb_2000lb_002",
                 "bullets": 1,
                 "external": true,
                 "separate": true,
@@ -3652,7 +3669,7 @@
             "WeaponPreset": {
               "iconType": "bombs_middle_group",
               "name": "ter_mk82",
-              "reqModification": "us_750lb_m117a1",
+              "reqModification": "us_500lb_mk82",
               "ShowNodes": [
                 {
                   "node": "pylon_l_in"
@@ -3694,7 +3711,7 @@
           },
           {
             "WeaponPreset": {
-              "iconType": "bombs_special_group",
+              "iconType": "bombs_special_group_x3",
               "name": "ter_mk83",
               "reqModification": "us_1000lb_mk83",
               "ShowNodes": [
@@ -3710,30 +3727,6 @@
                 "blk": "gameData/Weapons/containers/ter_us_1000lb_mk_83.blk",
                 "emitter": "ter_001",
                 "external": true,
-                "machLimit": 1.01
-              }
-            }
-          },
-          {
-            "WeaponPreset": {
-              "iconType": "bombs_heavy_middle",
-              "name": "us_mk84",
-              "reqModification": "us_2000lb_mk84",
-              "ShowNodes": [
-                {
-                  "node": "pylon_l_in"
-                },
-                {
-                  "node": "pylon_l_in_upor"
-                }
-              ],
-              "Weapon": {
-                "trigger": "bombs",
-                "blk": "gameData/Weapons/BombGuns/us_2000lb_mk_84_ldgp.blk",
-                "emitter": "bomb_2000lb_003",
-                "bullets": 1,
-                "external": true,
-                "separate": true,
                 "machLimit": 1.01
               }
             }
@@ -3761,7 +3754,7 @@
                 "bullets": 1,
                 "external": true,
                 "separate": true,
-                "loadFactorLimit": 1.1
+                "loadFactorLimit": 7.0
               }
             }
           }
@@ -3920,7 +3913,7 @@
             "WeaponPreset": {
               "iconType": "bombs_middle_group_x6",
               "name": "mer_mk82_x6",
-              "reqModification": "us_750lb_m117a1",
+              "reqModification": "us_500lb_mk82",
               "ShowNodes": {
                 "node": "pylon_centr"
               },
@@ -3952,17 +3945,53 @@
           },
           {
             "WeaponPreset": {
-              "iconType": "bombs_special_group",
-              "name": "mer_mk83_x2",
+              "iconType": "napalm_large_group_x2",
+              "name": "mer_blu_27_x2",
+              "reqModification": "us_750lb_m117a1",
+              "ShowNodes": {
+                "node": "pylon_centr"
+              },
+              "Weapon": {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/containers/mer_us_blu_27_x2.blk",
+                "emitter": "mer_002",
+                "external": true,
+                "machLimit": 1.01
+              }
+            }
+          },
+          {
+            "WeaponPreset": {
+              "iconType": "bombs_special_group_x3",
+              "name": "mer_mk83_x3",
               "reqModification": "us_1000lb_mk83",
               "ShowNodes": {
                 "node": "pylon_centr"
               },
               "Weapon": {
                 "trigger": "bombs",
-                "blk": "gameData/Weapons/containers/mer_us_1000lb_mk_83_x2.blk",
+                "blk": "gameData/Weapons/containers/mer_us_1000lb_mk_83_x3.blk",
                 "emitter": "mer_002",
                 "external": true,
+                "machLimit": 1.01
+              }
+            }
+          },
+          {
+            "WeaponPreset": {
+              "iconType": "bombs_heavy_middle",
+              "name": "us_mk84",
+              "reqModification": "us_2000lb_mk84",
+              "ShowNodes": {
+                "node": "pylon_centr"
+              },
+              "Weapon": {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/BombGuns/us_2000lb_mk_84_ldgp.blk",
+                "emitter": "bomb_2000lb_001",
+                "bullets": 1,
+                "external": true,
+                "separate": true,
                 "machLimit": 1.01
               }
             }
@@ -4153,7 +4182,7 @@
             "WeaponPreset": {
               "iconType": "bombs_middle_group",
               "name": "ter_mk82",
-              "reqModification": "us_750lb_m117a1",
+              "reqModification": "us_500lb_mk82",
               "ShowNodes": [
                 {
                   "node": "pylon_r_in"
@@ -4195,7 +4224,7 @@
           },
           {
             "WeaponPreset": {
-              "iconType": "bombs_special_group",
+              "iconType": "bombs_special_group_x3",
               "name": "ter_mk83",
               "reqModification": "us_1000lb_mk83",
               "ShowNodes": [
@@ -4211,30 +4240,6 @@
                 "blk": "gameData/Weapons/containers/ter_us_1000lb_mk_83.blk",
                 "emitter": "ter_002",
                 "external": true,
-                "machLimit": 1.01
-              }
-            }
-          },
-          {
-            "WeaponPreset": {
-              "iconType": "bombs_heavy_middle",
-              "name": "us_mk84",
-              "reqModification": "us_2000lb_mk84",
-              "ShowNodes": [
-                {
-                  "node": "pylon_r_in"
-                },
-                {
-                  "node": "pylon_r_in_upor"
-                }
-              ],
-              "Weapon": {
-                "trigger": "bombs",
-                "blk": "gameData/Weapons/BombGuns/us_2000lb_mk_84_ldgp.blk",
-                "emitter": "bomb_2000lb_001",
-                "bullets": 1,
-                "external": true,
-                "separate": true,
                 "machLimit": 1.01
               }
             }
@@ -4262,7 +4267,7 @@
                 "bullets": 1,
                 "external": true,
                 "separate": true,
-                "loadFactorLimit": 1.1
+                "loadFactorLimit": 7.0
               }
             }
           }
@@ -4334,7 +4339,7 @@
             "WeaponPreset": {
               "iconType": "bombs_middle_group_x6",
               "name": "mer_mk82_x6",
-              "reqModification": "us_750lb_m117a1",
+              "reqModification": "us_500lb_mk82",
               "ShowNodes": {
                 "node": "pylon_r_out"
               },
@@ -4358,6 +4363,23 @@
               "Weapon": {
                 "trigger": "bombs",
                 "blk": "gameData/Weapons/containers/mer_us_750lb_m117_x4.blk",
+                "emitter": "mer_003",
+                "external": true,
+                "machLimit": 1.01
+              }
+            }
+          },
+          {
+            "WeaponPreset": {
+              "iconType": "napalm_large",
+              "name": "mer_blu_27_x1",
+              "reqModification": "us_750lb_m117a1",
+              "ShowNodes": {
+                "node": "pylon_r_out"
+              },
+              "Weapon": {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/containers/mer_us_blu_27_x1.blk",
                 "emitter": "mer_003",
                 "external": true,
                 "machLimit": 1.01
@@ -4392,7 +4414,7 @@
               "Weapon": {
                 "trigger": "bombs",
                 "blk": "gameData/Weapons/BombGuns/us_2000lb_mk_84_ldgp.blk",
-                "emitter": "us_2000lb_gbu_8_004",
+                "emitter": "bomb_2000lb_003",
                 "bullets": 1,
                 "external": true,
                 "separate": true,

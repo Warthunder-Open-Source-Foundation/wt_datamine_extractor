@@ -378,7 +378,7 @@
     "penetration": [
       [
         0,
-        70
+        75
       ]
     ],
     "explosive": [
@@ -1147,6 +1147,25 @@
       "",
       0,
       0
+    ]
+  },
+  {
+    "name": "105mm_ep_m43",
+    "localized": "Effetto Pronto mod.43",
+    "shell_type": "Heat",
+    "caliber": 100,
+    "true_caliber": 100,
+    "velocity": 431,
+    "penetration": [
+      [
+        0,
+        110
+      ]
+    ],
+    "explosive": [
+      "rdx_tnt",
+      1200,
+      1536
     ]
   },
   {
@@ -1938,7 +1957,7 @@
     "penetration": [
       [
         0,
-        360
+        400
       ]
     ],
     "explosive": [
@@ -1957,7 +1976,7 @@
     "penetration": [
       [
         0,
-        360
+        400
       ]
     ],
     "explosive": [
@@ -5397,6 +5416,49 @@
     "shell_type": "ApFsDs",
     "caliber": 120,
     "true_caliber": 25,
+    "velocity": 1705,
+    "penetration": [
+      [
+        0,
+        589
+      ],
+      [
+        100,
+        586
+      ],
+      [
+        500,
+        577
+      ],
+      [
+        1000,
+        565
+      ],
+      [
+        1500,
+        553
+      ],
+      [
+        2000,
+        541
+      ],
+      [
+        3000,
+        516
+      ]
+    ],
+    "explosive": [
+      "",
+      0,
+      0
+    ]
+  },
+  {
+    "name": "120mm_slpprj_m95",
+    "localized": "slpprj m/95",
+    "shell_type": "ApFsDs",
+    "caliber": 120,
+    "true_caliber": 25,
     "velocity": 1740,
     "penetration": [
       [
@@ -6469,6 +6531,25 @@
     ]
   },
   {
+    "name": "125mm_GP125",
+    "localized": "125mm_GP125",
+    "shell_type": "Atgm",
+    "caliber": 125,
+    "true_caliber": 125,
+    "velocity": 0,
+    "penetration": [
+      [
+        0,
+        850
+      ]
+    ],
+    "explosive": [
+      "comp_b",
+      3600,
+      4716
+    ]
+  },
+  {
     "name": "125mm_dtb_125",
     "localized": "DTB-125",
     "shell_type": "He",
@@ -6480,6 +6561,63 @@
       "a_ix_2",
       3548,
       5464
+    ]
+  },
+  {
+    "name": "125mm_dtb_12_he",
+    "localized": "125mm_dtb_12_he",
+    "shell_type": "He",
+    "caliber": 125,
+    "true_caliber": 125,
+    "velocity": 850,
+    "penetration": [],
+    "explosive": [
+      "a_ix_2",
+      3440,
+      5298
+    ]
+  },
+  {
+    "name": "125mm_dtc10_125",
+    "localized": "125mm_dtc10_125",
+    "shell_type": "ApFsDs",
+    "caliber": 125,
+    "true_caliber": 24,
+    "velocity": 1770,
+    "penetration": [
+      [
+        0,
+        576
+      ],
+      [
+        100,
+        574
+      ],
+      [
+        500,
+        565
+      ],
+      [
+        1000,
+        555
+      ],
+      [
+        1500,
+        544
+      ],
+      [
+        2000,
+        533
+      ],
+      [
+        3000,
+        511
+      ]
+    ],
+    "explosive": [
+      "",
+      0,
+      0
     ]
   },
   {
@@ -6499,49 +6637,6 @@
       "rdx_tnt",
       1710,
       2189
-    ]
-  },
-  {
-    "name": "125mm_dtw_125",
-    "localized": "DTW-125",
-    "shell_type": "ApFsDs",
-    "caliber": 125,
-    "true_caliber": 23,
-    "velocity": 1740,
-    "penetration": [
-      [
-        0,
-        552
-      ],
-      [
-        100,
-        550
-      ],
-      [
-        500,
-        542
-      ],
-      [
-        1000,
-        532
-      ],
-      [
-        1500,
-        521
-      ],
-      [
-        2000,
-        511
-      ],
-      [
-        3000,
-        490
-      ]
-    ],
-    "explosive": [
-      "",
-      0,
-      0
     ]
   },
   {
@@ -7549,6 +7644,25 @@
       "rdx_tnt",
       4160,
       5325
+    ]
+  },
+  {
+    "name": "150mm_k3s_hot_2",
+    "localized": "150mm_k3s_hot_2",
+    "shell_type": "Atgm",
+    "caliber": 150,
+    "true_caliber": 150,
+    "velocity": 0,
+    "penetration": [
+      [
+        0,
+        900
+      ]
+    ],
+    "explosive": [
+      "hta",
+      4060,
+      4872
     ]
   },
   {
