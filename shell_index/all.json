@@ -5416,6 +5416,49 @@
     "shell_type": "ApFsDs",
     "caliber": 120,
     "true_caliber": 25,
+    "velocity": 1705,
+    "penetration": [
+      [
+        0,
+        589
+      ],
+      [
+        100,
+        586
+      ],
+      [
+        500,
+        577
+      ],
+      [
+        1000,
+        565
+      ],
+      [
+        1500,
+        553
+      ],
+      [
+        2000,
+        541
+      ],
+      [
+        3000,
+        516
+      ]
+    ],
+    "explosive": [
+      "",
+      0,
+      0
+    ]
+  },
+  {
+    "name": "120mm_slpprj_m95",
+    "localized": "slpprj m/95",
+    "shell_type": "ApFsDs",
+    "caliber": 120,
+    "true_caliber": 25,
     "velocity": 1740,
     "penetration": [
       [
@@ -6488,6 +6531,25 @@
     ]
   },
   {
+    "name": "125mm_GP125",
+    "localized": "125mm_GP125",
+    "shell_type": "Atgm",
+    "caliber": 125,
+    "true_caliber": 125,
+    "velocity": 0,
+    "penetration": [
+      [
+        0,
+        850
+      ]
+    ],
+    "explosive": [
+      "comp_b",
+      3600,
+      4716
+    ]
+  },
+  {
     "name": "125mm_dtb_125",
     "localized": "DTB-125",
     "shell_type": "He",
@@ -6499,6 +6561,20 @@
       "a_ix_2",
       3548,
       5464
+    ]
+  },
+  {
+    "name": "125mm_dtb_12_he",
+    "localized": "125mm_dtb_12_he",
+    "shell_type": "He",
+    "caliber": 125,
+    "true_caliber": 125,
+    "velocity": 850,
+    "penetration": [],
+    "explosive": [
+      "a_ix_2",
+      3440,
+      5298
     ]
   },
   {
@@ -6561,49 +6637,6 @@
       "rdx_tnt",
       1710,
       2189
-    ]
-  },
-  {
-    "name": "125mm_dtw_125",
-    "localized": "DTW-125",
-    "shell_type": "ApFsDs",
-    "caliber": 125,
-    "true_caliber": 23,
-    "velocity": 1740,
-    "penetration": [
-      [
-        0,
-        552
-      ],
-      [
-        100,
-        550
-      ],
-      [
-        500,
-        542
-      ],
-      [
-        1000,
-        532
-      ],
-      [
-        1500,
-        521
-      ],
-      [
-        2000,
-        511
-      ],
-      [
-        3000,
-        490
-      ]
-    ],
-    "explosive": [
-      "",
-      0,
-      0
     ]
   },
   {

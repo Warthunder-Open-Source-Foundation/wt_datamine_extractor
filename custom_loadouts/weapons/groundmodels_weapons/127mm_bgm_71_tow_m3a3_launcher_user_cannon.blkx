@@ -246,7 +246,8 @@
           "fx": "hit_133_160mm_snow_he"
         },
         "wood": {
-          "fx": "hit_133_205mm_heat"
+          "fx": "hit_133_205mm_heat",
+          "copyBulletTm": true
         }
       },
       "shatterCollisions": {
@@ -564,7 +565,8 @@
             "fx": "hit_133_160mm_snow_he"
           },
           "wood": {
-            "fx": "hit_133_205mm_heat"
+            "fx": "hit_133_205mm_heat",
+            "copyBulletTm": true
           }
         },
         "shatterCollisions": {
@@ -883,7 +885,8 @@
             "fx": "hit_133_160mm_snow_he"
           },
           "wood": {
-            "fx": "hit_133_205mm_heat"
+            "fx": "hit_133_205mm_heat",
+            "copyBulletTm": true
           }
         },
         "shatterCollisions": {
@@ -1313,7 +1316,8 @@
             "fx": "hit_133_160mm_snow_he"
           },
           "wood": {
-            "fx": "hit_133_205mm_heat"
+            "fx": "hit_133_205mm_heat",
+            "copyBulletTm": true
           }
         },
         "shatterCollisions": {

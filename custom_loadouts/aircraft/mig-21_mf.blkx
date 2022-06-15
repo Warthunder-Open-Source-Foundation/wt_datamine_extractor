@@ -2210,16 +2210,16 @@
   ],
   "WeaponSlots": [
     {
-      "maxloadMass": 2000.0
+      "maxloadMass": 1300.0
     },
     {
-      "maxloadMassLeftConsoles": 510.0
+      "maxloadMassLeftConsoles": 650.0
     },
     {
-      "maxloadMassRightConsoles": 510.0
+      "maxloadMassRightConsoles": 650.0
     },
     {
-      "maxDisbalance": 510.0
+      "maxDisbalance": 570.0
     },
     {
       "HideNodes": [
@@ -2319,6 +2319,16 @@
           "WeaponPreset": [
             {
               "name": "gsh_23l_ltc_common"
+            },
+            {
+              "ShowNodes": [
+                {
+                  "node": "aso_sps_141m"
+                },
+                {
+                  "node": "sps_141m_pylon"
+                }
+              ]
             },
             {
               "Weapon": {
@@ -2517,9 +2527,6 @@
           "order": 3
         },
         {
-          "notUseforDisbalanceCalculation": true
-        },
-        {
           "WeaponPreset": {
             "iconType": "missile_air_to_air",
             "name": "r3s_default",
@@ -2674,9 +2681,6 @@
         },
         {
           "order": 4
-        },
-        {
-          "notUseforDisbalanceCalculation": true
         },
         {
           "WeaponPreset": {

@@ -3,16 +3,16 @@
     "container": true
   },
   {
-    "mesh": "pylon_ter"
+    "mesh": "pylon_ter9a"
   },
   {
     "useEmitter": true
   },
   {
-    "emitter": "pylon_ter_lau_10a_002"
+    "emitter": "aero_7_2"
   },
   {
-    "emitter": "pylon_ter_lau_10a_003"
+    "emitter": "aero_7_3"
   },
   {
     "blk": "gameData/Weapons/containers/lau_10a_zuni_wafar_mk32.blk"

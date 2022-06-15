@@ -21,7 +21,7 @@
     "emitter": "rocket4_b001"
   },
   {
-    "blk": "gameData/Weapons/rocketGuns/cn_type130_he.blk"
+    "blk": "gameData/Weapons/rocketGuns/cn_type130_ap.blk"
   },
   {
     "bullets": 4

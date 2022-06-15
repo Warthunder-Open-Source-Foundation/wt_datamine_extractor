@@ -284,7 +284,8 @@
         "fx": "hit_106_132mm_snow_he"
       },
       "wood": {
-        "fx": "hit_81_132mm_heat"
+        "fx": "hit_81_132mm_heat",
+        "copyBulletTm": true
       }
     },
     "shatterCollisions": {
@@ -1124,7 +1125,8 @@
           "fx": "hit_106_132mm_snow_he"
         },
         "wood": {
-          "fx": "hit_81_132mm_heat"
+          "fx": "hit_81_132mm_heat",
+          "copyBulletTm": true
         }
       },
       "shatterCollisions": {
@@ -1401,8 +1403,8 @@
       "caliber": 0.125,
       "sound_path": "tanks/weapon_tanks/atgm",
       "sound_pathStudio": "ground/weapon/atgm",
-      "sound": "atgm",
-      "sound_inside": "atgm_interior",
+      "sound": "atgm_ussr",
+      "sound_inside": "atgm_ussr_interior",
       "sfxReloadBullet": "grd_cannon_reload_auto",
       "recoilMultiplier": 0.05,
       "shotFxType": "muzzle_ground_40mm_slow",
@@ -1575,7 +1577,8 @@
             "fx": "hit_106_132mm_snow_he"
           },
           "wood": {
-            "fx": "hit_81_132mm_heat"
+            "fx": "hit_81_132mm_heat",
+            "copyBulletTm": true
           }
         },
         "shatterCollisions": {

@@ -5,10 +5,11 @@
   "viewDistKInSight": 4.0,
   "haveCCIPForRocket": true,
   "haveCCRPForRocket": true,
+  "enginesInfraRedBrightnessMult": 0.9,
   "gearSinkRangeLR": 0.001,
   "gearSinkRangeC": 0.001,
   "tpsCameraTargetOffsetAtZoom": [5.0,0.0,0.0],
-  "tpsCameraOffset": [4.8,0.0,0.0],
+  "tpsCameraOffset": [4.8,-1.2,0.0],
   "type": "typeFighter",
   "paratrooper": "usa_para",
   "advancedInstructor": true,
@@ -26,9 +27,6 @@
   "damagePartsToWeaponsMapBlk": "gameData/FlightModels/DM/dm_parts_to_weapons_map.blk",
   "damagePartsToVisualEffectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_visual_effects_map.blk",
   "damagePartsExcludeFromHoleBlk": "gameData/FlightModels/DM/dm_parts_exclude_from_hole.blk",
-  "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg",
-  "customImage": "!#ui/unitskin#image_in_progress",
-  "customTooltipImage": "ui/aircrafts/image_in_progress",
   "DamageParts": {
     "armor_engine": {
       "engine1_dm": {
@@ -899,12 +897,9 @@
     "sightFov": 5.5,
     "headPos": [0.79,0.55,-0.3],
     "headPosOnShooting": [0.79,0.55,-0.3],
-    "lightPos": [1.979847,-0.213676,-0.012096],
+    "lightPos": [1.35,0.25,0.0],
     "lightColor": [0.01,1.5,0.1],
-    "lightRadius": 0.5,
-    "lightPos1": [3.449379,-0.554936,0.005765],
-    "lightColor1": [0.01,1.5,0.1],
-    "lightRadius1": 0.35,
+    "lightRadius": 0.4,
     "devices": {
       "stick_ailerons": [-1.0,1.0],
       "stick_elevator": [-1.0,1.0],
@@ -933,12 +928,6 @@
           },
           {
             "page": {
-              "type": "target_tracking",
-              "turretIdx": 0
-            }
-          },
-          {
-            "page": {
               "type": "devices",
               "speed": {
                 "texture": "us_mfd_speed",
@@ -1052,6 +1041,11 @@
                   "limits": [-180.0,180.0,-1.0,1.0]
                 }
               }
+            }
+          },
+          {
+            "page": {
+              "type": "map"
             }
           }
         ]
@@ -1072,131 +1066,8 @@
           },
           {
             "page": {
-              "type": "thermal",
-              "turretIdx": 0
-            }
-          },
-          {
-            "page": {
               "type": "night_vision",
               "turretIdx": 0
-            }
-          },
-          {
-            "page": {
-              "type": "devices",
-              "speed": {
-                "texture": "us_mfd_speed",
-                "position": [120.0,110.0],
-                "arrowTexCoord": [0.0,0.93,0.4,0.97],
-                "backgroundTexCoord": [0.0,0.0,0.91,0.89],
-                "size": [192.0,192.0],
-                "color": "#ffff00ff",
-                "valueTextSize": 30.0,
-                "valueMul": 0.54,
-                "ranges": [
-                  {
-                    "limits": [50.0,100.0,-0.24,0.3]
-                  },
-                  {
-                    "limits": [100.0,150.0,0.3,0.69]
-                  },
-                  {
-                    "limits": [150.0,200.0,0.69,1.0]
-                  },
-                  {
-                    "limits": [200.0,250.0,1.0,1.32]
-                  }
-                ]
-              },
-              "vario": {
-                "texture": "us_mfd_vario",
-                "position": [552.0,110.0],
-                "arrowTexCoord": [0.0,0.93,0.4,0.97],
-                "backgroundTexCoord": [0.0,0.0,0.89,0.89],
-                "size": [192.0,192.0],
-                "color": "#1e1effff",
-                "valueTextSize": 30.0,
-                "valueMul": 0.1969,
-                "ranges": [
-                  {
-                    "limits": [-6.0,-4.0,0.05,0.22]
-                  },
-                  {
-                    "limits": [-4.0,-2.0,0.22,0.56]
-                  },
-                  {
-                    "limits": [-2.0,-1.0,0.56,0.72]
-                  },
-                  {
-                    "limits": [-1.0,1.0,0.72,1.28]
-                  },
-                  {
-                    "limits": [1.0,2.0,1.28,1.44]
-                  },
-                  {
-                    "limits": [2.0,4.0,1.44,1.78]
-                  },
-                  {
-                    "limits": [4.0,6.0,1.78,1.95]
-                  }
-                ]
-              },
-              "altitude_hour": {
-                "texture": "us_mfd_altitude",
-                "position": [552.0,402.0],
-                "backgroundTexCoord": [0.0,0.0,0.89,0.89],
-                "arrowTexCoord": [0.47,0.92,0.86,1.0],
-                "size": [192.0,192.0],
-                "ranges": {
-                  "limits": [0.0,10.0,-0.5,1.5]
-                }
-              },
-              "altitude_min": {
-                "texture": "us_mfd_altitude",
-                "position": [552.0,402.0],
-                "backgroundTexCoord": [0.0,0.0,0.89,0.89],
-                "arrowTexCoord": [0.0,0.93,0.4,0.97],
-                "size": [192.0,192.0],
-                "color": "#1e1effff",
-                "valueTextSize": 30.0,
-                "notDrawBackground": true,
-                "ranges": {
-                  "limits": [0.0,1000.0,-0.5,1.5]
-                }
-              },
-              "compass": {
-                "texture": "us_mfd_compass",
-                "position": [130.0,402.0],
-                "backgroundTexCoord": [0.0,0.0,0.5,1.0],
-                "arrowTexCoord": [0.5,0.0,1.0,1.0],
-                "size": [192.0,192.0],
-                "arrowSize": [192.0,192.0],
-                "ranges": {
-                  "limits": [0.0,360.0,0.0,-2.0]
-                }
-              },
-              "aviahorizon_pitch": {
-                "texture": "us_mfd_ahorizon",
-                "arrowTex": "us_mfd_ahorizon_scale",
-                "position": [340.0,256.0],
-                "backgroundTexCoord": [0.11,0.0,0.89,0.89],
-                "arrowTexCoord": [0.0,0.4,1.0,0.6],
-                "size": [180.0,180.0],
-                "ranges": {
-                  "limits": [-90.0,90.0,0.35,-0.35]
-                }
-              },
-              "aviahorizon_roll": {
-                "texture": "us_mfd_ahorizon",
-                "position": [340.0,256.0],
-                "arrowTexCoord": [0.2,0.9,0.8,1.0],
-                "size": [180.0,180.0],
-                "notDrawBackground": true,
-                "ranges": {
-                  "limits": [-180.0,180.0,-1.0,1.0]
-                }
-              }
             }
           }
         ]
@@ -1494,7 +1365,7 @@
             "Weapon": {
               "trigger": "rockets",
               "external": true,
-              "blk": "gameData/Weapons/containers/lau_131a_hydra_70_m247.blk",
+              "blk": "gameData/Weapons/containers/lau_131a_desert_hydra_70_m247.blk",
               "emitter": "us_lau_131a_l",
               "mass": 0.01,
               "dragCx": 0.01
@@ -1504,154 +1375,53 @@
         {
           "WeaponPreset": {
             "iconType": "missile_air_to_uni",
-            "name": "tow_default",
+            "name": "tow_default_left_wing",
             "reqModification": "ah_1_TOW",
-            "ShowNodes": [
-              {
-                "node": "pylon_l"
-              },
-              {
-                "node": "bgm_71_tow_l"
-              },
-              {
-                "node": "cap1_l"
-              }
-            ],
+            "ShowNodes": {
+              "node": "pylon_l"
+            },
             "Weapon": {
               "trigger": "atgm",
-              "blk": "gameData/Weapons/rocketGuns/us_127mm_TOW.blk",
-              "emitter": "tow_001",
-              "bullets": 1,
               "external": true,
               "separate": true,
-              "capName": "cap_1_l",
-              "mass": 14.0,
-              "dragCx": 0.001
+              "blk": "gameData/Weapons/containers/bgm_71_itow_x1_left_wing.blk",
+              "emitter": "bgm_71_tow_l"
             }
           }
         },
         {
-          "WeaponPreset": [
-            {
-              "iconType": "missile_air_to_uni_group"
+          "WeaponPreset": {
+            "iconType": "missile_air_to_uni_group",
+            "name": "tow_left_wing",
+            "reqModification": "ah_1_TOW",
+            "ShowNodes": {
+              "node": "pylon_l"
             },
-            {
-              "name": "tow"
-            },
-            {
-              "reqModification": "ah_1_TOW"
-            },
-            {
-              "ShowNodes": [
-                {
-                  "node": "pylon_l"
-                },
-                {
-                  "node": "bgm_71_tow_l"
-                },
-                {
-                  "node": "cap1_l"
-                },
-                {
-                  "node": "cap2_l"
-                }
-              ]
-            },
-            {
-              "Weapon": {
-                "trigger": "atgm",
-                "blk": "gameData/Weapons/rocketGuns/us_127mm_TOW.blk",
-                "emitter": "tow_001",
-                "bullets": 1,
-                "external": true,
-                "separate": true,
-                "capName": "cap_1_l",
-                "mass": 14.0,
-                "dragCx": 0.001
-              }
-            },
-            {
-              "Weapon": {
-                "trigger": "atgm",
-                "blk": "gameData/Weapons/rocketGuns/us_127mm_TOW.blk",
-                "emitter": "tow_002",
-                "bullets": 1,
-                "external": true,
-                "separate": true,
-                "capName": "cap_2_l",
-                "mass": 24.0,
-                "dragCx": 0.001
-              }
-            },
-            {
-              "RocketCap": {
-                "name": "cap_1_l",
-                "part": "tow_001"
-              }
-            },
-            {
-              "RocketCap": {
-                "name": "cap_2_l",
-                "part": "tow_002"
-              }
+            "Weapon": {
+              "trigger": "atgm",
+              "external": true,
+              "separate": true,
+              "blk": "gameData/Weapons/containers/bgm_71_itow_x2_left_wing.blk",
+              "emitter": "bgm_71_tow_l"
             }
-          ]
+          }
         },
         {
-          "WeaponPreset": [
-            {
-              "iconType": "missile_air_to_uni_large_group"
+          "WeaponPreset": {
+            "iconType": "missile_air_to_uni_large_group",
+            "name": "tow2_left_wing",
+            "reqModification": "ah_1_TOW2",
+            "ShowNodes": {
+              "node": "pylon_l"
             },
-            {
-              "name": "tow2"
-            },
-            {
-              "reqModification": "ah_1_TOW2"
-            },
-            {
-              "ShowNodes": {
-                "node": "pylon_l"
-              }
-            },
-            {
-              "Weapon": {
-                "trigger": "atgm",
-                "blk": "gameData/Weapons/rocketGuns/us_127mm_TOW2.blk",
-                "emitter": "tow_001",
-                "bullets": 1,
-                "external": true,
-                "separate": true,
-                "capName": "cap_1_l",
-                "mass": 14.0,
-                "dragCx": 0.001
-              }
-            },
-            {
-              "Weapon": {
-                "trigger": "atgm",
-                "blk": "gameData/Weapons/rocketGuns/us_127mm_TOW2.blk",
-                "emitter": "tow_002",
-                "bullets": 1,
-                "external": true,
-                "separate": true,
-                "capName": "cap_2_l",
-                "mass": 24.0,
-                "dragCx": 0.001
-              }
-            },
-            {
-              "RocketCap": {
-                "name": "cap_1_l",
-                "part": "tow_001"
-              }
-            },
-            {
-              "RocketCap": {
-                "name": "cap_2_l",
-                "part": "tow_002"
-              }
+            "Weapon": {
+              "trigger": "atgm",
+              "external": true,
+              "separate": true,
+              "blk": "gameData/Weapons/containers/bgm_71_tow2_x2_left_wing.blk",
+              "emitter": "bgm_71_tow_l"
             }
-          ]
+          }
         }
       ]
     },
@@ -1679,7 +1449,7 @@
             "Weapon": {
               "trigger": "rockets",
               "external": true,
-              "blk": "gameData/Weapons/containers/lau_131a_hydra_70_m247.blk",
+              "blk": "gameData/Weapons/containers/lau_131a_desert_hydra_70_m247.blk",
               "emitter": "us_lau_131a_r",
               "mass": 0.01,
               "dragCx": 0.01
@@ -1689,165 +1459,53 @@
         {
           "WeaponPreset": {
             "iconType": "missile_air_to_uni",
-            "name": "tow_default",
+            "name": "tow_default_right_wing",
             "reqModification": "ah_1_TOW",
-            "ShowNodes": [
-              {
-                "node": "pylon_r"
-              },
-              {
-                "node": "bgm_71_tow_r"
-              },
-              {
-                "node": "cap1_r"
-              }
-            ],
+            "ShowNodes": {
+              "node": "pylon_r"
+            },
             "Weapon": {
               "trigger": "atgm",
-              "blk": "gameData/Weapons/rocketGuns/us_127mm_TOW.blk",
-              "emitter": "tow_004",
-              "bullets": 1,
               "external": true,
               "separate": true,
-              "capName": "cap_1_r",
-              "mass": 14.0,
-              "dragCx": 0.001
+              "blk": "gameData/Weapons/containers/bgm_71_itow_x1_right_wing.blk",
+              "emitter": "bgm_71_tow_r"
             }
           }
         },
         {
-          "WeaponPreset": [
-            {
-              "iconType": "missile_air_to_uni_group"
+          "WeaponPreset": {
+            "iconType": "missile_air_to_uni_group",
+            "name": "tow_right_wing",
+            "reqModification": "ah_1_TOW",
+            "ShowNodes": {
+              "node": "pylon_r"
             },
-            {
-              "name": "tow"
-            },
-            {
-              "reqModification": "ah_1_TOW"
-            },
-            {
-              "ShowNodes": [
-                {
-                  "node": "pylon_r"
-                },
-                {
-                  "node": "bgm_71_tow_r"
-                },
-                {
-                  "node": "cap1_r"
-                },
-                {
-                  "node": "cap2_r"
-                }
-              ]
-            },
-            {
-              "Weapon": {
-                "trigger": "atgm",
-                "blk": "gameData/Weapons/rocketGuns/us_127mm_TOW.blk",
-                "emitter": "tow_004",
-                "bullets": 1,
-                "external": true,
-                "separate": true,
-                "capName": "cap_1_r",
-                "mass": 14.0,
-                "dragCx": 0.001
-              }
-            },
-            {
-              "Weapon": {
-                "trigger": "atgm",
-                "blk": "gameData/Weapons/rocketGuns/us_127mm_TOW.blk",
-                "emitter": "tow_003",
-                "bullets": 1,
-                "external": true,
-                "separate": true,
-                "capName": "cap_2_r",
-                "mass": 24.0,
-                "dragCx": 0.001
-              }
-            },
-            {
-              "RocketCap": {
-                "name": "cap_1_r",
-                "part": "tow_003"
-              }
-            },
-            {
-              "RocketCap": {
-                "name": "cap_2_r",
-                "part": "tow_004"
-              }
+            "Weapon": {
+              "trigger": "atgm",
+              "external": true,
+              "separate": true,
+              "blk": "gameData/Weapons/containers/bgm_71_itow_x2_right_wing.blk",
+              "emitter": "bgm_71_tow_r"
             }
-          ]
+          }
         },
         {
-          "WeaponPreset": [
-            {
-              "iconType": "missile_air_to_uni_large_group"
+          "WeaponPreset": {
+            "iconType": "missile_air_to_uni_large_group",
+            "name": "tow2_right_wing",
+            "reqModification": "ah_1_TOW2",
+            "ShowNodes": {
+              "node": "pylon_r"
             },
-            {
-              "name": "tow2"
-            },
-            {
-              "reqModification": "ah_1_TOW2"
-            },
-            {
-              "ShowNodes": [
-                {
-                  "node": "pylon_l"
-                },
-                {
-                  "node": "bgm_71_tow_r"
-                },
-                {
-                  "node": "cap1_r"
-                },
-                {
-                  "node": "cap2_r"
-                }
-              ]
-            },
-            {
-              "Weapon": {
-                "trigger": "atgm",
-                "blk": "gameData/Weapons/rocketGuns/us_127mm_TOW2.blk",
-                "emitter": "tow_004",
-                "bullets": 1,
-                "external": true,
-                "separate": true,
-                "capName": "cap_1_r",
-                "mass": 14.0,
-                "dragCx": 0.001
-              }
-            },
-            {
-              "Weapon": {
-                "trigger": "atgm",
-                "blk": "gameData/Weapons/rocketGuns/us_127mm_TOW2.blk",
-                "emitter": "tow_003",
-                "bullets": 1,
-                "external": true,
-                "separate": true,
-                "capName": "cap_2_r",
-                "mass": 24.0,
-                "dragCx": 0.001
-              }
-            },
-            {
-              "RocketCap": {
-                "name": "cap_1_r",
-                "part": "tow_003"
-              }
-            },
-            {
-              "RocketCap": {
-                "name": "cap_2_r",
-                "part": "tow_004"
-              }
+            "Weapon": {
+              "trigger": "atgm",
+              "external": true,
+              "separate": true,
+              "blk": "gameData/Weapons/containers/bgm_71_tow2_x2_right_wing.blk",
+              "emitter": "bgm_71_tow_r"
             }
-          ]
+          }
         }
       ]
     }
@@ -4358,11 +4016,6 @@
       ]
     }
   ],
-  "counterMeasures": {
-    "counterMeasure": {
-      "blk": "gameData/counterMeasures/l_166.blk"
-    }
-  },
   "modifications": {
     "new_compressor_heli": {
       "tier": 1

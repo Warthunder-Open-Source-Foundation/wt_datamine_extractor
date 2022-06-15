@@ -3234,26 +3234,51 @@
         }
       },
       {
-        "WeaponSlot": {
-          "index": 1,
-          "tier": 11,
-          "order": 1,
-          "WeaponPreset": {
-            "iconType": "bombs_heavy_middle_group",
-            "name": "ter_1000lbs_x2_left_wing",
-            "reqModification": "sea_hawk_2x1000lb",
-            "ShowNodes": {
-              "node": "pylon_l_out"
-            },
-            "Weapon": {
-              "trigger": "bombs",
-              "blk": "gameData/Weapons/containers/ter_uk_1000lbs_gp_x2_left_wing.blk",
-              "emitter": "mer_001",
-              "external": true,
-              "machLimit": 1.01
+        "WeaponSlot": [
+          {
+            "index": 1
+          },
+          {
+            "tier": 11
+          },
+          {
+            "order": 1
+          },
+          {
+            "WeaponPreset": {
+              "iconType": "bombs_heavy_middle_group",
+              "name": "ter_1000lbs_x2_left_wing",
+              "reqModification": "sea_hawk_2x1000lb",
+              "ShowNodes": {
+                "node": "pylon_l_out"
+              },
+              "Weapon": {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/containers/ter_uk_1000lbs_gp_x2_left_wing.blk",
+                "emitter": "mer_001",
+                "external": true,
+                "machLimit": 1.01
+              }
+            }
+          },
+          {
+            "WeaponPreset": {
+              "iconType": "nar_ap_large_group",
+              "name": "ter_sneb_x2_left_wing",
+              "reqModification": "fr_matra_sneb",
+              "ShowNodes": {
+                "node": "pylon_l_out"
+              },
+              "Weapon": {
+                "trigger": "rockets",
+                "blk": "gameData/Weapons/containers/ter_fr_matra_sneb_type23_x2_left_wing.blk",
+                "emitter": "mer_001",
+                "external": true,
+                "machLimit": 1.01
+              }
             }
           }
-        }
+        ]
       },
       {
         "WeaponSlot": [
@@ -3487,18 +3512,20 @@
           },
           {
             "WeaponPreset": {
-              "iconType": "nar_ap_large",
-              "name": "sneb",
+              "iconType": "nar_ap_large_group_x3",
+              "name": "ter_sneb_centr",
               "reqModification": "fr_matra_sneb",
               "ShowNodes": {
                 "node": "pylon_gunpod"
               },
               "Weapon": {
                 "trigger": "rockets",
-                "blk": "gameData/Weapons/containers/fr_matra_type_155_sneb_type23.blk",
+                "blk": "gameData/Weapons/containers/ter_fr_matra_sneb_type23_x3.blk",
                 "emitter": "mer_002",
                 "external": true,
-                "machLimit": 1.01
+                "machLimit": 1.01,
+                "gearLimit": [0.0,0.1],
+                "gearName": "gear_c"
               }
             }
           },
@@ -3784,26 +3811,51 @@
         ]
       },
       {
-        "WeaponSlot": {
-          "index": 11,
-          "tier": 1,
-          "order": 2,
-          "WeaponPreset": {
-            "iconType": "bombs_heavy_middle_group",
-            "name": "ter_1000lbs_x2_right_wing",
-            "reqModification": "sea_hawk_2x1000lb",
-            "ShowNodes": {
-              "node": "pylon_r_out"
-            },
-            "Weapon": {
-              "trigger": "bombs",
-              "blk": "gameData/Weapons/containers/ter_uk_1000lbs_gp_x2_right_wing.blk",
-              "emitter": "mer_003",
-              "external": true,
-              "machLimit": 1.01
+        "WeaponSlot": [
+          {
+            "index": 11
+          },
+          {
+            "tier": 1
+          },
+          {
+            "order": 2
+          },
+          {
+            "WeaponPreset": {
+              "iconType": "bombs_heavy_middle_group",
+              "name": "ter_1000lbs_x2_right_wing",
+              "reqModification": "sea_hawk_2x1000lb",
+              "ShowNodes": {
+                "node": "pylon_r_out"
+              },
+              "Weapon": {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/containers/ter_uk_1000lbs_gp_x2_right_wing.blk",
+                "emitter": "mer_003",
+                "external": true,
+                "machLimit": 1.01
+              }
+            }
+          },
+          {
+            "WeaponPreset": {
+              "iconType": "nar_ap_large_group",
+              "name": "ter_sneb_x2_right_wing",
+              "reqModification": "fr_matra_sneb",
+              "ShowNodes": {
+                "node": "pylon_r_out"
+              },
+              "Weapon": {
+                "trigger": "rockets",
+                "blk": "gameData/Weapons/containers/ter_fr_matra_sneb_type23_x2_right_wing.blk",
+                "emitter": "mer_003",
+                "external": true,
+                "machLimit": 1.01
+              }
             }
           }
-        }
+        ]
       }
     ]
   },

@@ -2197,20 +2197,26 @@
         "name": "mig_21_f13_ofab500_bombs",
         "blk": "gameData/FlightModels/weaponPresets/mig_21_f13_ofab500_bombs.blk"
       }
+    },
+    {
+      "preset": {
+        "name": "mig_21_f13_zb_360",
+        "blk": "gameData/FlightModels/weaponPresets/mig_21_f13_zb_360.blk"
+      }
     }
   ],
   "WeaponSlots": [
     {
-      "maxloadMass": 2000.0
+      "maxloadMass": 1300.0
     },
     {
-      "maxloadMassLeftConsoles": 510.0
+      "maxloadMassLeftConsoles": 650.0
     },
     {
-      "maxloadMassRightConsoles": 510.0
+      "maxloadMassRightConsoles": 650.0
     },
     {
-      "maxDisbalance": 510.0
+      "maxDisbalance": 570.0
     },
     {
       "HideNodes": [
@@ -2363,6 +2369,24 @@
               "separate": true
             }
           }
+        },
+        {
+          "WeaponPreset": {
+            "iconType": "napalm_middle",
+            "name": "zb360",
+            "reqModification": "zb_360",
+            "ShowNodes": {
+              "node": "pylon_l"
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/su_zb_360.blk",
+              "emitter": "su_fab500_m54_l",
+              "bullets": 1,
+              "external": true,
+              "separate": true
+            }
+          }
         }
       ]
     },
@@ -2469,6 +2493,24 @@
             "Weapon": {
               "trigger": "bombs",
               "blk": "gameData/Weapons/BombGuns/su_fab500_m54.blk",
+              "emitter": "su_fab500_m54_r",
+              "bullets": 1,
+              "external": true,
+              "separate": true
+            }
+          }
+        },
+        {
+          "WeaponPreset": {
+            "iconType": "napalm_middle",
+            "name": "zb360",
+            "reqModification": "zb_360",
+            "ShowNodes": {
+              "node": "pylon_r"
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/su_zb_360.blk",
               "emitter": "su_fab500_m54_r",
               "bullets": 1,
               "external": true,
@@ -2742,7 +2784,12 @@
       "reqModification": "NR_30_belt_pack",
       "tier": 3
     },
+    "zb_360": {
+      "modClass": "weapon",
+      "tier": 1
+    },
     "mi_24_fab_250": {
+      "prevModification": "zb_360",
       "modClass": "weapon",
       "tier": 2
     },
