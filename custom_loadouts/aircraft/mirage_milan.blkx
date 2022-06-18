@@ -32,9 +32,6 @@
   "fireParamsPreset": "2200kph",
   "fightAiBehaviour": "fighter",
   "autopilotImpl": "FBW",
-  "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg",
-  "customImage": "!#ui/unitskin#image_in_progress",
-  "customTooltipImage": "ui/aircrafts/image_in_progress",
   "DamageParts": {
     "armor10": {
       "cannon1_dm": {
@@ -2339,6 +2336,24 @@
         "name": "mirage_milan_fr_mk83",
         "blk": "gameData/FlightModels/weaponPresets/mirage_milan_sneb_fr_mk83.blk"
       }
+    },
+    {
+      "preset": {
+        "name": "mirage_milan_as_30",
+        "blk": "gameData/FlightModels/weaponPresets/mirage_milan_as_30.blk"
+      }
+    },
+    {
+      "preset": {
+        "name": "mirage_milan_4xmk83_as30_2xaim_9b",
+        "blk": "gameData/FlightModels/weaponPresets/mirage_milan_4xmk83_as30_2xaim_9b.blk"
+      }
+    },
+    {
+      "preset": {
+        "name": "mirage_milan_sneb_fr_250_2x_250kg_aim_9b",
+        "blk": "gameData/FlightModels/weaponPresets/mirage_milan_sneb_fr_250_2x_250kg_aim_9b.blk"
+      }
     }
   ],
   "WeaponSlots": [
@@ -2394,6 +2409,12 @@
         },
         {
           "node": "pylon_lm746_as30"
+        },
+        {
+          "node": "sepr_844_rocket"
+        },
+        {
+          "node": "sepr_841_rocket"
         }
       ]
     },
@@ -2471,8 +2492,7 @@
             "bullets": 1,
             "external": true,
             "separate": true,
-            "machLimit": 1.01,
-            "loadFactorLimit": 4.0
+            "machLimit": 1.01
           }
         }
       }
@@ -2671,7 +2691,7 @@
               "node": "fuse_cap"
             },
             "Weapon": {
-              "trigger": "rockets",
+              "trigger": "atgm",
               "blk": "gameData/Weapons/rocketGuns/fr_as30.blk",
               "emitter": "rocket_as30",
               "bullets": 1,
@@ -2811,8 +2831,7 @@
             "bullets": 1,
             "external": true,
             "separate": true,
-            "machLimit": 1.01,
-            "loadFactorLimit": 4.0
+            "machLimit": 1.01
           }
         }
       }

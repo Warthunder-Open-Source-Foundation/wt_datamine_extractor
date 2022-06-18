@@ -3218,46 +3218,18 @@
             "notUseforDisbalanceCalculation": true
           },
           {
-            "WeaponPreset": [
-              {
-                "name": "m61a1_common"
-              },
-              {
-                "Weapon": {
-                  "trigger": "cannon",
-                  "blk": "gameData/Weapons/cannonJM61A1.blk",
-                  "emitter": "flare4",
-                  "flash": "flare4",
-                  "dm": "cannon4_dm",
-                  "bullets": 640,
-                  "spread": 1.0
-                }
-              },
-              {
-                "Weapon": {
-                  "dummy": true,
-                  "trigger": "gunner0",
-                  "triggerGroup": "primary",
-                  "blk": "gameData/Weapons/dummy_weapon.blk",
-                  "emitter": "optic1_gun",
-                  "defaultYaw": 0.0,
-                  "defaultPitch": 0.0,
-                  "speedYaw": 25.0,
-                  "speedPitch": 25.0,
-                  "parkInDeadzone": false,
-                  "aimForOperatedShell": true,
-                  "turret": {
-                    "head": "optic1_turret",
-                    "gun": "optic1_gun",
-                    "mainTurret": true
-                  },
-                  "limits": {
-                    "yaw": [-20.0,20.0],
-                    "pitch": [-20.0,20.0]
-                  }
-                }
+            "WeaponPreset": {
+              "name": "m61a1_common",
+              "Weapon": {
+                "trigger": "cannon",
+                "blk": "gameData/Weapons/cannonJM61A1.blk",
+                "emitter": "flare4",
+                "flash": "flare4",
+                "dm": "cannon4_dm",
+                "bullets": 640,
+                "spread": 1.0
               }
-            ]
+            }
           },
           {
             "WeaponPreset": [
@@ -3283,30 +3255,6 @@
                   "dm": "cannon4_dm",
                   "bullets": 640,
                   "spread": 1.0
-                }
-              },
-              {
-                "Weapon": {
-                  "dummy": true,
-                  "trigger": "gunner0",
-                  "triggerGroup": "primary",
-                  "blk": "gameData/Weapons/dummy_weapon.blk",
-                  "emitter": "optic1_gun",
-                  "defaultYaw": 0.0,
-                  "defaultPitch": 0.0,
-                  "speedYaw": 25.0,
-                  "speedPitch": 25.0,
-                  "parkInDeadzone": false,
-                  "aimForOperatedShell": true,
-                  "turret": {
-                    "head": "optic1_turret",
-                    "gun": "optic1_gun",
-                    "mainTurret": true
-                  },
-                  "limits": {
-                    "yaw": [-20.0,20.0],
-                    "pitch": [-20.0,20.0]
-                  }
                 }
               },
               {
@@ -3647,36 +3595,88 @@
             "notUseforDisbalanceCalculation": true
           },
           {
-            "WeaponPreset": {
-              "iconType": "missile_air_to_air_special",
-              "name": "aim_7e",
-              "reqModification": "us_aim_7e",
-              "Weapon": {
-                "trigger": "aam",
-                "blk": "gameData/Weapons/rocketGuns/us_aim7e_sparrow.blk",
-                "emitter": "aim_7e_003",
-                "bullets": 1,
-                "external": true,
-                "separate": true,
-                "loadFactorLimit": 4.0
+            "WeaponPreset": [
+              {
+                "iconType": "missile_air_to_air_special"
+              },
+              {
+                "name": "aim_7e"
+              },
+              {
+                "reqModification": "us_aim_7e"
+              },
+              {
+                "Weapon": {
+                  "trigger": "aam",
+                  "blk": "gameData/Weapons/rocketGuns/us_aim7e_sparrow.blk",
+                  "emitter": "aim_7e_003",
+                  "bullets": 1,
+                  "external": true,
+                  "separate": true,
+                  "loadFactorLimit": 4.0
+                }
+              },
+              {
+                "BannedWeaponPreset": {
+                  "slot": 5,
+                  "preset": "aim_7f"
+                }
+              },
+              {
+                "BannedWeaponPreset": {
+                  "slot": 7,
+                  "preset": "aim_7f"
+                }
+              },
+              {
+                "BannedWeaponPreset": {
+                  "slot": 8,
+                  "preset": "aim_7f"
+                }
               }
-            }
+            ]
           },
           {
-            "WeaponPreset": {
-              "iconType": "missile_air_to_air_midrange_special",
-              "name": "aim_7f",
-              "reqModification": "us_aim_7f",
-              "Weapon": {
-                "trigger": "aam",
-                "blk": "gameData/Weapons/rocketGuns/us_aim7f_sparrow.blk",
-                "emitter": "aim_7e_003",
-                "bullets": 1,
-                "external": true,
-                "separate": true,
-                "loadFactorLimit": 4.0
+            "WeaponPreset": [
+              {
+                "iconType": "missile_air_to_air_midrange_special"
+              },
+              {
+                "name": "aim_7f"
+              },
+              {
+                "reqModification": "us_aim_7f"
+              },
+              {
+                "Weapon": {
+                  "trigger": "aam",
+                  "blk": "gameData/Weapons/rocketGuns/us_aim7f_sparrow.blk",
+                  "emitter": "aim_7e_003",
+                  "bullets": 1,
+                  "external": true,
+                  "separate": true,
+                  "loadFactorLimit": 4.0
+                }
+              },
+              {
+                "BannedWeaponPreset": {
+                  "slot": 5,
+                  "preset": "aim_7e"
+                }
+              },
+              {
+                "BannedWeaponPreset": {
+                  "slot": 7,
+                  "preset": "aim_7e"
+                }
+              },
+              {
+                "BannedWeaponPreset": {
+                  "slot": 8,
+                  "preset": "aim_7e"
+                }
               }
-            }
+            ]
           }
         ]
       },
@@ -3695,36 +3695,88 @@
             "notUseforDisbalanceCalculation": true
           },
           {
-            "WeaponPreset": {
-              "iconType": "missile_air_to_air_special",
-              "name": "aim_7e",
-              "reqModification": "us_aim_7e",
-              "Weapon": {
-                "trigger": "aam",
-                "blk": "gameData/Weapons/rocketGuns/us_aim7e_sparrow.blk",
-                "emitter": "aim_7e_001",
-                "bullets": 1,
-                "external": true,
-                "separate": true,
-                "loadFactorLimit": 4.0
+            "WeaponPreset": [
+              {
+                "iconType": "missile_air_to_air_special"
+              },
+              {
+                "name": "aim_7e"
+              },
+              {
+                "reqModification": "us_aim_7e"
+              },
+              {
+                "Weapon": {
+                  "trigger": "aam",
+                  "blk": "gameData/Weapons/rocketGuns/us_aim7e_sparrow.blk",
+                  "emitter": "aim_7e_001",
+                  "bullets": 1,
+                  "external": true,
+                  "separate": true,
+                  "loadFactorLimit": 4.0
+                }
+              },
+              {
+                "BannedWeaponPreset": {
+                  "slot": 4,
+                  "preset": "aim_7f"
+                }
+              },
+              {
+                "BannedWeaponPreset": {
+                  "slot": 7,
+                  "preset": "aim_7f"
+                }
+              },
+              {
+                "BannedWeaponPreset": {
+                  "slot": 8,
+                  "preset": "aim_7f"
+                }
               }
-            }
+            ]
           },
           {
-            "WeaponPreset": {
-              "iconType": "missile_air_to_air_midrange_special",
-              "name": "aim_7f",
-              "reqModification": "us_aim_7f",
-              "Weapon": {
-                "trigger": "aam",
-                "blk": "gameData/Weapons/rocketGuns/us_aim7f_sparrow.blk",
-                "emitter": "aim_7e_001",
-                "bullets": 1,
-                "external": true,
-                "separate": true,
-                "loadFactorLimit": 4.0
+            "WeaponPreset": [
+              {
+                "iconType": "missile_air_to_air_midrange_special"
+              },
+              {
+                "name": "aim_7f"
+              },
+              {
+                "reqModification": "us_aim_7f"
+              },
+              {
+                "Weapon": {
+                  "trigger": "aam",
+                  "blk": "gameData/Weapons/rocketGuns/us_aim7f_sparrow.blk",
+                  "emitter": "aim_7e_001",
+                  "bullets": 1,
+                  "external": true,
+                  "separate": true,
+                  "loadFactorLimit": 4.0
+                }
+              },
+              {
+                "BannedWeaponPreset": {
+                  "slot": 4,
+                  "preset": "aim_7e"
+                }
+              },
+              {
+                "BannedWeaponPreset": {
+                  "slot": 7,
+                  "preset": "aim_7e"
+                }
+              },
+              {
+                "BannedWeaponPreset": {
+                  "slot": 8,
+                  "preset": "aim_7e"
+                }
               }
-            }
+            ]
           }
         ]
       },
@@ -3871,36 +3923,88 @@
             "notUseforDisbalanceCalculation": true
           },
           {
-            "WeaponPreset": {
-              "iconType": "missile_air_to_air_special",
-              "name": "aim_7e",
-              "reqModification": "us_aim_7e",
-              "Weapon": {
-                "trigger": "aam",
-                "blk": "gameData/Weapons/rocketGuns/us_aim7e_sparrow.blk",
-                "emitter": "aim_7e_002",
-                "bullets": 1,
-                "external": true,
-                "separate": true,
-                "loadFactorLimit": 4.0
+            "WeaponPreset": [
+              {
+                "iconType": "missile_air_to_air_special"
+              },
+              {
+                "name": "aim_7e"
+              },
+              {
+                "reqModification": "us_aim_7e"
+              },
+              {
+                "Weapon": {
+                  "trigger": "aam",
+                  "blk": "gameData/Weapons/rocketGuns/us_aim7e_sparrow.blk",
+                  "emitter": "aim_7e_002",
+                  "bullets": 1,
+                  "external": true,
+                  "separate": true,
+                  "loadFactorLimit": 4.0
+                }
+              },
+              {
+                "BannedWeaponPreset": {
+                  "slot": 4,
+                  "preset": "aim_7f"
+                }
+              },
+              {
+                "BannedWeaponPreset": {
+                  "slot": 5,
+                  "preset": "aim_7f"
+                }
+              },
+              {
+                "BannedWeaponPreset": {
+                  "slot": 8,
+                  "preset": "aim_7f"
+                }
               }
-            }
+            ]
           },
           {
-            "WeaponPreset": {
-              "iconType": "missile_air_to_air_midrange_special",
-              "name": "aim_7f",
-              "reqModification": "us_aim_7f",
-              "Weapon": {
-                "trigger": "aam",
-                "blk": "gameData/Weapons/rocketGuns/us_aim7f_sparrow.blk",
-                "emitter": "aim_7e_002",
-                "bullets": 1,
-                "external": true,
-                "separate": true,
-                "loadFactorLimit": 4.0
+            "WeaponPreset": [
+              {
+                "iconType": "missile_air_to_air_midrange_special"
+              },
+              {
+                "name": "aim_7f"
+              },
+              {
+                "reqModification": "us_aim_7f"
+              },
+              {
+                "Weapon": {
+                  "trigger": "aam",
+                  "blk": "gameData/Weapons/rocketGuns/us_aim7f_sparrow.blk",
+                  "emitter": "aim_7e_002",
+                  "bullets": 1,
+                  "external": true,
+                  "separate": true,
+                  "loadFactorLimit": 4.0
+                }
+              },
+              {
+                "BannedWeaponPreset": {
+                  "slot": 4,
+                  "preset": "aim_7e"
+                }
+              },
+              {
+                "BannedWeaponPreset": {
+                  "slot": 5,
+                  "preset": "aim_7e"
+                }
+              },
+              {
+                "BannedWeaponPreset": {
+                  "slot": 8,
+                  "preset": "aim_7e"
+                }
               }
-            }
+            ]
           }
         ]
       },
@@ -3919,36 +4023,88 @@
             "notUseforDisbalanceCalculation": true
           },
           {
-            "WeaponPreset": {
-              "iconType": "missile_air_to_air_special",
-              "name": "aim_7e",
-              "reqModification": "us_aim_7e",
-              "Weapon": {
-                "trigger": "aam",
-                "blk": "gameData/Weapons/rocketGuns/us_aim7e_sparrow.blk",
-                "emitter": "aim_7e_004",
-                "bullets": 1,
-                "external": true,
-                "separate": true,
-                "loadFactorLimit": 4.0
+            "WeaponPreset": [
+              {
+                "iconType": "missile_air_to_air_special"
+              },
+              {
+                "name": "aim_7e"
+              },
+              {
+                "reqModification": "us_aim_7e"
+              },
+              {
+                "Weapon": {
+                  "trigger": "aam",
+                  "blk": "gameData/Weapons/rocketGuns/us_aim7e_sparrow.blk",
+                  "emitter": "aim_7e_004",
+                  "bullets": 1,
+                  "external": true,
+                  "separate": true,
+                  "loadFactorLimit": 4.0
+                }
+              },
+              {
+                "BannedWeaponPreset": {
+                  "slot": 4,
+                  "preset": "aim_7f"
+                }
+              },
+              {
+                "BannedWeaponPreset": {
+                  "slot": 5,
+                  "preset": "aim_7f"
+                }
+              },
+              {
+                "BannedWeaponPreset": {
+                  "slot": 7,
+                  "preset": "aim_7f"
+                }
               }
-            }
+            ]
           },
           {
-            "WeaponPreset": {
-              "iconType": "missile_air_to_air_midrange_special",
-              "name": "aim_7f",
-              "reqModification": "us_aim_7f",
-              "Weapon": {
-                "trigger": "aam",
-                "blk": "gameData/Weapons/rocketGuns/us_aim7f_sparrow.blk",
-                "emitter": "aim_7e_004",
-                "bullets": 1,
-                "external": true,
-                "separate": true,
-                "loadFactorLimit": 4.0
+            "WeaponPreset": [
+              {
+                "iconType": "missile_air_to_air_midrange_special"
+              },
+              {
+                "name": "aim_7f"
+              },
+              {
+                "reqModification": "us_aim_7f"
+              },
+              {
+                "Weapon": {
+                  "trigger": "aam",
+                  "blk": "gameData/Weapons/rocketGuns/us_aim7f_sparrow.blk",
+                  "emitter": "aim_7e_004",
+                  "bullets": 1,
+                  "external": true,
+                  "separate": true,
+                  "loadFactorLimit": 4.0
+                }
+              },
+              {
+                "BannedWeaponPreset": {
+                  "slot": 4,
+                  "preset": "aim_7e"
+                }
+              },
+              {
+                "BannedWeaponPreset": {
+                  "slot": 5,
+                  "preset": "aim_7e"
+                }
+              },
+              {
+                "BannedWeaponPreset": {
+                  "slot": 7,
+                  "preset": "aim_7e"
+                }
               }
-            }
+            ]
           }
         ]
       },

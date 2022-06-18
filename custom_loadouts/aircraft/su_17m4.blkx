@@ -12,6 +12,7 @@
   "haveCCRPForBombs": true,
   "havePointOfInterestDesignator": true,
   "ilsASP17": true,
+  "isBwOpticSight": true,
   "type": "typeFighter",
   "paratrooper": "ally",
   "advancedInstructor": true,
@@ -33,9 +34,6 @@
   "fightAiBehaviour": "assault",
   "laserDesignator": true,
   "autopilotImpl": "FBW",
-  "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg",
-  "customImage": "!#ui/unitskin#image_in_progress",
-  "customTooltipImage": "ui/aircrafts/image_in_progress",
   "DamageParts": {
     "alum_alloy20": {
       "armor2_dm": {
@@ -2379,6 +2377,7 @@
           "display": {
             "textureArea": [0.0,0.0,1.0,1.0],
             "monoDisplayColor": [0.95,0.9,0.7],
+            "cameraFromShell": true,
             "page": {
               "type": "target_tracking",
               "turretIdx": 0
@@ -2512,6 +2511,12 @@
       "preset": {
         "name": "su_17m4_bomb_fab500m_62",
         "blk": "gameData/FlightModels/weaponPresets/su_17m4_bomb_fab500m_62.blk"
+      }
+    },
+    {
+      "preset": {
+        "name": "su_17m4_zb500",
+        "blk": "gameData/FlightModels/weaponPresets/su_17m4_zb500.blk"
       }
     },
     {
@@ -2949,6 +2954,12 @@
                 },
                 {
                   "node": "su_17_flare_aso2i"
+                },
+                {
+                  "node": "su_17_flare_aso2i_1"
+                },
+                {
+                  "node": "su_17_flare_1"
                 }
               ]
             },
@@ -3006,9 +3017,31 @@
               "Weapon": {
                 "trigger": "countermeasures",
                 "startFx": "",
+                "blk": "gameData/Weapons/rocketGuns/countermeasure_large_launcher_jet.blk",
+                "emitter": "emtr_flare1",
+                "bullets": 6,
+                "external": true,
+                "separate": true
+              }
+            },
+            {
+              "Weapon": {
+                "trigger": "countermeasures",
+                "startFx": "",
+                "blk": "gameData/Weapons/rocketGuns/countermeasure_large_launcher_jet.blk",
+                "emitter": "emtr_flare2",
+                "bullets": 6,
+                "external": true,
+                "separate": true
+              }
+            },
+            {
+              "Weapon": {
+                "trigger": "countermeasures",
+                "startFx": "",
                 "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
                 "emitter": "emtr_flare3",
-                "bullets": 32,
+                "bullets": 64,
                 "external": true,
                 "separate": false
               }
@@ -3019,7 +3052,29 @@
                 "startFx": "",
                 "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
                 "emitter": "emtr_flare4",
-                "bullets": 32,
+                "bullets": 64,
+                "external": true,
+                "separate": false
+              }
+            },
+            {
+              "Weapon": {
+                "trigger": "countermeasures",
+                "startFx": "",
+                "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
+                "emitter": "emtr_flare5",
+                "bullets": 64,
+                "external": true,
+                "separate": false
+              }
+            },
+            {
+              "Weapon": {
+                "trigger": "countermeasures",
+                "startFx": "",
+                "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
+                "emitter": "emtr_flare6",
+                "bullets": 64,
                 "external": true,
                 "separate": false
               }
@@ -3101,6 +3156,30 @@
               "external": true,
               "separate": true,
               "machLimit": 1.01
+            }
+          }
+        },
+        {
+          "WeaponPreset": {
+            "iconType": "napalm_large",
+            "name": "zb500",
+            "reqModification": "zb_500",
+            "ShowNodes": [
+              {
+                "node": "pylon_4"
+              },
+              {
+                "node": "pylon_4_holder_500"
+              }
+            ],
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/su_zb_500.blk",
+              "emitter": "fab_500m_62_001",
+              "bullets": 1,
+              "external": true,
+              "separate": true,
+              "machLimit": 1.2
             }
           }
         },
@@ -3214,29 +3293,53 @@
           }
         },
         {
-          "WeaponPreset": {
-            "iconType": "missile_air_to_uni_middle",
-            "name": "wing_left_rocket_kh25_ml",
-            "reqModification": "su_17_x25",
-            "hasTargetingPod": true,
-            "ShowNodes": [
-              {
-                "node": "pylon_4"
-              },
-              {
-                "node": "apu_68_b001"
+          "WeaponPreset": [
+            {
+              "iconType": "missile_air_to_uni_middle"
+            },
+            {
+              "name": "wing_left_rocket_kh25_ml"
+            },
+            {
+              "reqModification": "su_17_x25"
+            },
+            {
+              "hasTargetingPod": true
+            },
+            {
+              "ShowNodes": [
+                {
+                  "node": "pylon_4"
+                },
+                {
+                  "node": "apu_68_b001"
+                }
+              ]
+            },
+            {
+              "Weapon": {
+                "trigger": "atgm",
+                "blk": "gameData/Weapons/rocketGuns/su_kh_25ml.blk",
+                "emitter": "apu_68_kh25_001",
+                "bullets": 1,
+                "external": true,
+                "separate": true,
+                "loadFactorLimit": 7.0
               }
-            ],
-            "Weapon": {
-              "trigger": "atgm",
-              "blk": "gameData/Weapons/rocketGuns/su_kh_25ml.blk",
-              "emitter": "apu_68_kh25_001",
-              "bullets": 1,
-              "external": true,
-              "separate": true,
-              "loadFactorLimit": 7.0
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 5,
+                "preset": "fuse_right_rocket_kh29_t"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 4,
+                "preset": "fuse_left_rocket_kh29_t"
+              }
             }
-          }
+          ]
         },
         {
           "WeaponPreset": {
@@ -3268,28 +3371,52 @@
           }
         },
         {
-          "WeaponPreset": {
-            "iconType": "rockets_he_large_special_laser",
-            "name": "wing_left_rocket_s25l",
-            "reqModification": "su_17_s25",
-            "hasTargetingPod": true,
-            "ShowNodes": [
-              {
-                "node": "pylon_4"
-              },
-              {
-                "node": "su_s_25l_pod_001"
+          "WeaponPreset": [
+            {
+              "iconType": "rockets_he_large_special_laser"
+            },
+            {
+              "name": "wing_left_rocket_s25l"
+            },
+            {
+              "reqModification": "su_17_s25"
+            },
+            {
+              "hasTargetingPod": true
+            },
+            {
+              "ShowNodes": [
+                {
+                  "node": "pylon_4"
+                },
+                {
+                  "node": "su_s_25l_pod_001"
+                }
+              ]
+            },
+            {
+              "Weapon": {
+                "trigger": "atgm",
+                "blk": "gameData/Weapons/rocketGuns/su_s_25l_rocket.blk",
+                "emitter": "su_s_25l_rocket_001",
+                "bullets": 1,
+                "separate": true,
+                "external": true
               }
-            ],
-            "Weapon": {
-              "trigger": "atgm",
-              "blk": "gameData/Weapons/rocketGuns/su_s_25l_rocket.blk",
-              "emitter": "su_s_25l_rocket_001",
-              "bullets": 1,
-              "separate": true,
-              "external": true
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 5,
+                "preset": "fuse_right_rocket_kh29_t"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 4,
+                "preset": "fuse_left_rocket_kh29_t"
+              }
             }
-          }
+          ]
         },
         {
           "WeaponPreset": {
@@ -3352,7 +3479,7 @@
           ],
           "Weapon": {
             "trigger": "aam",
-            "blk": "gameData/Weapons/rocketGuns/su_r_60_default.blk",
+            "blk": "gameData/Weapons/rocketGuns/su_r_60m_default.blk",
             "emitter": "apu_60m_r_60_001",
             "bullets": 1,
             "external": true,
@@ -3449,7 +3576,7 @@
           "WeaponPreset": {
             "iconType": "missile_type_b_air_to_air_group",
             "name": "wing_middle_left_rocket_r_60_x2",
-            "reqModification": "mi_24_r_60",
+            "reqModification": "mi_24_r_60m",
             "ShowNodes": [
               {
                 "node": "pylon_6"
@@ -3460,7 +3587,7 @@
             ],
             "Weapon": {
               "trigger": "aam",
-              "blk": "gameData/Weapons/containers/p_62_2_l_r_60_x2.blk",
+              "blk": "gameData/Weapons/containers/p_62_2_l_r_60m_x2.blk",
               "emitter": "apu_60m_2_l",
               "separate": true,
               "external": true
@@ -3692,6 +3819,30 @@
         },
         {
           "WeaponPreset": {
+            "iconType": "napalm_large",
+            "name": "zb500",
+            "reqModification": "zb_500",
+            "ShowNodes": [
+              {
+                "node": "pylon_2"
+              },
+              {
+                "node": "mbd3_u6_68"
+              }
+            ],
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/su_zb_500.blk",
+              "emitter": "fab_500m_62_003",
+              "bullets": 1,
+              "external": true,
+              "separate": true,
+              "machLimit": 1.2
+            }
+          }
+        },
+        {
+          "WeaponPreset": {
             "iconType": "rockets_ap_small_group",
             "name": "container_s3k",
             "ShowNodes": {
@@ -3750,6 +3901,10 @@
               "external": true,
               "separate": true,
               "loadFactorLimit": 7.0
+            },
+            "BannedWeaponPreset": {
+              "slot": 5,
+              "preset": "fuse_right_rocket_kh29_t"
             }
           }
         },
@@ -3793,51 +3948,103 @@
               "external": true,
               "separate": true,
               "loadFactorLimit": 7.0
+            },
+            "BannedWeaponPreset": {
+              "slot": 5,
+              "preset": "fuse_right_rocket_kh29_t"
             }
           }
         },
         {
-          "WeaponPreset": {
-            "iconType": "missile_air_to_uni_large",
-            "name": "fuse_left_rocket_kh29_t",
-            "reqModification": "mig_27_x29t",
-            "hasTargetingPod": true,
-            "ShowNodes": [
-              {
-                "node": "pylon_2r"
-              },
-              {
-                "node": "aku_58_b001"
-              },
-              {
-                "node": "aku_58_fin1_b001"
-              },
-              {
-                "node": "aku_58_fin2_b001"
-              },
-              {
-                "node": "aku_58_fin3_b001"
-              },
-              {
-                "node": "aku_58_fin4_b001"
-              },
-              {
-                "node": "aku_58_fin5_b001"
-              },
-              {
-                "node": "aku_58_fin6_b001"
+          "WeaponPreset": [
+            {
+              "iconType": "missile_air_to_uni_large"
+            },
+            {
+              "name": "fuse_left_rocket_kh29_t"
+            },
+            {
+              "reqModification": "mig_27_x29t"
+            },
+            {
+              "hasTargetingPod": true
+            },
+            {
+              "ShowNodes": [
+                {
+                  "node": "pylon_2r"
+                },
+                {
+                  "node": "aku_58_b001"
+                },
+                {
+                  "node": "aku_58_fin1_b001"
+                },
+                {
+                  "node": "aku_58_fin2_b001"
+                },
+                {
+                  "node": "aku_58_fin3_b001"
+                },
+                {
+                  "node": "aku_58_fin4_b001"
+                },
+                {
+                  "node": "aku_58_fin5_b001"
+                },
+                {
+                  "node": "aku_58_fin6_b001"
+                }
+              ]
+            },
+            {
+              "Weapon": {
+                "trigger": "atgm",
+                "blk": "gameData/Weapons/rocketGuns/su_kh_29t.blk",
+                "emitter": "aku_58_kh_29l_001",
+                "bullets": 1,
+                "external": true,
+                "separate": true,
+                "loadFactorLimit": 7.0
               }
-            ],
-            "Weapon": {
-              "trigger": "atgm",
-              "blk": "gameData/Weapons/rocketGuns/su_kh_29t.blk",
-              "emitter": "aku_58_kh_29l_001",
-              "bullets": 1,
-              "external": true,
-              "separate": true,
-              "loadFactorLimit": 7.0
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 5,
+                "preset": "fuse_right_rocket_kh29_l"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 1,
+                "preset": "wing_left_rocket_kh25_ml"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 1,
+                "preset": "wing_left_rocket_s25l"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 5,
+                "preset": "fuse_right_rocket_kh25_ml"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 8,
+                "preset": "wing_right_rocket_kh25_ml"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 8,
+                "preset": "wing_right_rocket_s25l"
+              }
             }
-          }
+          ]
         }
       ]
     },
@@ -3952,6 +4159,30 @@
         },
         {
           "WeaponPreset": {
+            "iconType": "napalm_large",
+            "name": "zb500",
+            "reqModification": "zb_500",
+            "ShowNodes": [
+              {
+                "node": "pylon_1"
+              },
+              {
+                "node": "mbd3_u6_68"
+              }
+            ],
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/su_zb_500.blk",
+              "emitter": "fab_500m_62_005",
+              "bullets": 1,
+              "external": true,
+              "separate": true,
+              "machLimit": 1.2
+            }
+          }
+        },
+        {
+          "WeaponPreset": {
             "iconType": "rockets_ap_small_group",
             "name": "container_s3k",
             "ShowNodes": {
@@ -4010,6 +4241,10 @@
               "external": true,
               "separate": true,
               "loadFactorLimit": 7.0
+            },
+            "BannedWeaponPreset": {
+              "slot": 4,
+              "preset": "fuse_left_rocket_kh29_t"
             }
           }
         },
@@ -4053,51 +4288,103 @@
               "external": true,
               "separate": true,
               "loadFactorLimit": 7.0
+            },
+            "BannedWeaponPreset": {
+              "slot": 4,
+              "preset": "fuse_left_rocket_kh29_t"
             }
           }
         },
         {
-          "WeaponPreset": {
-            "iconType": "missile_air_to_uni_large",
-            "name": "fuse_right_rocket_kh29_t",
-            "reqModification": "mig_27_x29t",
-            "hasTargetingPod": true,
-            "ShowNodes": [
-              {
-                "node": "pylon_1r"
-              },
-              {
-                "node": "aku_58_b002"
-              },
-              {
-                "node": "aku_58_fin1_b002"
-              },
-              {
-                "node": "aku_58_fin2_b002"
-              },
-              {
-                "node": "aku_58_fin3_b002"
-              },
-              {
-                "node": "aku_58_fin4_b002"
-              },
-              {
-                "node": "aku_58_fin5_b002"
-              },
-              {
-                "node": "aku_58_fin6_b002"
+          "WeaponPreset": [
+            {
+              "iconType": "missile_air_to_uni_large"
+            },
+            {
+              "name": "fuse_right_rocket_kh29_t"
+            },
+            {
+              "reqModification": "mig_27_x29t"
+            },
+            {
+              "hasTargetingPod": true
+            },
+            {
+              "ShowNodes": [
+                {
+                  "node": "pylon_1r"
+                },
+                {
+                  "node": "aku_58_b002"
+                },
+                {
+                  "node": "aku_58_fin1_b002"
+                },
+                {
+                  "node": "aku_58_fin2_b002"
+                },
+                {
+                  "node": "aku_58_fin3_b002"
+                },
+                {
+                  "node": "aku_58_fin4_b002"
+                },
+                {
+                  "node": "aku_58_fin5_b002"
+                },
+                {
+                  "node": "aku_58_fin6_b002"
+                }
+              ]
+            },
+            {
+              "Weapon": {
+                "trigger": "atgm",
+                "blk": "gameData/Weapons/rocketGuns/su_kh_29t.blk",
+                "emitter": "aku_58_kh_29l_002",
+                "bullets": 1,
+                "external": true,
+                "separate": true,
+                "loadFactorLimit": 7.0
               }
-            ],
-            "Weapon": {
-              "trigger": "atgm",
-              "blk": "gameData/Weapons/rocketGuns/su_kh_29t.blk",
-              "emitter": "aku_58_kh_29l_002",
-              "bullets": 1,
-              "external": true,
-              "separate": true,
-              "loadFactorLimit": 7.0
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 4,
+                "preset": "fuse_left_rocket_kh29_l"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 1,
+                "preset": "wing_left_rocket_kh25_ml"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 1,
+                "preset": "wing_left_rocket_s25l"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 4,
+                "preset": "fuse_left_rocket_kh25_ml"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 8,
+                "preset": "wing_right_rocket_kh25_ml"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 8,
+                "preset": "wing_right_rocket_s25l"
+              }
             }
-          }
+          ]
         }
       ]
     },
@@ -4188,7 +4475,7 @@
           "WeaponPreset": {
             "iconType": "missile_type_b_air_to_air_group",
             "name": "wing_middle_right_rocket_r_60_x2",
-            "reqModification": "mi_24_r_60",
+            "reqModification": "mi_24_r_60m",
             "ShowNodes": [
               {
                 "node": "pylon_5"
@@ -4199,7 +4486,7 @@
             ],
             "Weapon": {
               "trigger": "aam",
-              "blk": "gameData/Weapons/containers/p_62_2_r_r_60_x2.blk",
+              "blk": "gameData/Weapons/containers/p_62_2_r_r_60m_x2.blk",
               "emitter": "apu_60m_2_r",
               "separate": true,
               "external": true
@@ -4358,7 +4645,7 @@
           ],
           "Weapon": {
             "trigger": "aam",
-            "blk": "gameData/Weapons/rocketGuns/su_r_60_default.blk",
+            "blk": "gameData/Weapons/rocketGuns/su_r_60m_default.blk",
             "emitter": "apu_60m_r_60_002",
             "bullets": 1,
             "external": true,
@@ -4441,6 +4728,25 @@
               "external": true,
               "separate": true,
               "machLimit": 1.01
+            }
+          }
+        },
+        {
+          "WeaponPreset": {
+            "iconType": "napalm_large",
+            "name": "zb500",
+            "reqModification": "zb_500",
+            "ShowNodes": {
+              "node": "pylon_3"
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/su_zb_500.blk",
+              "emitter": "fab_500m_62_008",
+              "bullets": 1,
+              "external": true,
+              "separate": true,
+              "machLimit": 1.2
             }
           }
         },
@@ -4553,29 +4859,53 @@
           }
         },
         {
-          "WeaponPreset": {
-            "iconType": "missile_air_to_uni_middle",
-            "name": "wing_right_rocket_kh25_ml",
-            "reqModification": "su_17_x25",
-            "hasTargetingPod": true,
-            "ShowNodes": [
-              {
-                "node": "pylon_3"
-              },
-              {
-                "node": "apu_68_b006"
+          "WeaponPreset": [
+            {
+              "iconType": "missile_air_to_uni_middle"
+            },
+            {
+              "name": "wing_right_rocket_kh25_ml"
+            },
+            {
+              "reqModification": "su_17_x25"
+            },
+            {
+              "hasTargetingPod": true
+            },
+            {
+              "ShowNodes": [
+                {
+                  "node": "pylon_3"
+                },
+                {
+                  "node": "apu_68_b006"
+                }
+              ]
+            },
+            {
+              "Weapon": {
+                "trigger": "atgm",
+                "blk": "gameData/Weapons/rocketGuns/su_kh_25ml.blk",
+                "emitter": "apu_68_kh25_002",
+                "bullets": 1,
+                "external": true,
+                "separate": true,
+                "loadFactorLimit": 7.0
               }
-            ],
-            "Weapon": {
-              "trigger": "atgm",
-              "blk": "gameData/Weapons/rocketGuns/su_kh_25ml.blk",
-              "emitter": "apu_68_kh25_002",
-              "bullets": 1,
-              "external": true,
-              "separate": true,
-              "loadFactorLimit": 7.0
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 5,
+                "preset": "fuse_right_rocket_kh29_t"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 4,
+                "preset": "fuse_left_rocket_kh29_t"
+              }
             }
-          }
+          ]
         },
         {
           "WeaponPreset": {
@@ -4607,28 +4937,52 @@
           }
         },
         {
-          "WeaponPreset": {
-            "iconType": "rockets_he_large_special_laser",
-            "name": "wing_right_rocket_s25l",
-            "reqModification": "su_17_s25",
-            "hasTargetingPod": true,
-            "ShowNodes": [
-              {
-                "node": "pylon_3"
-              },
-              {
-                "node": "su_s_25l_pod_002"
+          "WeaponPreset": [
+            {
+              "iconType": "rockets_he_large_special_laser"
+            },
+            {
+              "name": "wing_right_rocket_s25l"
+            },
+            {
+              "reqModification": "su_17_s25"
+            },
+            {
+              "hasTargetingPod": true
+            },
+            {
+              "ShowNodes": [
+                {
+                  "node": "pylon_3"
+                },
+                {
+                  "node": "su_s_25l_pod_002"
+                }
+              ]
+            },
+            {
+              "Weapon": {
+                "trigger": "atgm",
+                "blk": "gameData/Weapons/rocketGuns/su_s_25l_rocket.blk",
+                "emitter": "su_s_25l_rocket_002",
+                "bullets": 1,
+                "separate": true,
+                "external": true
               }
-            ],
-            "Weapon": {
-              "trigger": "atgm",
-              "blk": "gameData/Weapons/rocketGuns/su_s_25l_rocket.blk",
-              "emitter": "su_s_25l_rocket_002",
-              "bullets": 1,
-              "separate": true,
-              "external": true
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 5,
+                "preset": "fuse_right_rocket_kh29_t"
+              }
+            },
+            {
+              "BannedWeaponPreset": {
+                "slot": 4,
+                "preset": "fuse_left_rocket_kh29_t"
+              }
             }
-          }
+          ]
         },
         {
           "WeaponPreset": {
@@ -4812,14 +5166,19 @@
       "reqModification": "su_17_sppu_22_gunpod",
       "tier": 4
     },
-    "su_17_ofab_100": {
+    "zb_500": {
       "modClass": "weapon",
       "tier": 1
+    },
+    "su_17_ofab_100": {
+      "prevModification": "zb_500",
+      "modClass": "weapon",
+      "tier": 2
     },
     "mi_24_fab_250": {
       "reqModification": "su_17_ofab_100",
       "modClass": "weapon",
-      "tier": 2
+      "tier": 3
     },
     "mi_24_fab_500": {
       "modClass": "weapon",
@@ -4887,7 +5246,7 @@
         }
       }
     },
-    "mi_24_r_60": {
+    "mi_24_r_60m": {
       "modClass": "weapon",
       "prevModification": "countermeasures_belt_pack",
       "tier": 2

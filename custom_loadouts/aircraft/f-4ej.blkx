@@ -3221,46 +3221,18 @@
             "notUseforDisbalanceCalculation": true
           },
           {
-            "WeaponPreset": [
-              {
-                "name": "m61a1_common"
-              },
-              {
-                "Weapon": {
-                  "trigger": "cannon",
-                  "blk": "gameData/Weapons/cannonJM61A1.blk",
-                  "emitter": "flare4",
-                  "flash": "flare4",
-                  "dm": "cannon4_dm",
-                  "bullets": 640,
-                  "spread": 1.0
-                }
-              },
-              {
-                "Weapon": {
-                  "dummy": true,
-                  "trigger": "gunner0",
-                  "triggerGroup": "primary",
-                  "blk": "gameData/Weapons/dummy_weapon.blk",
-                  "emitter": "optic1_gun",
-                  "defaultYaw": 0.0,
-                  "defaultPitch": 0.0,
-                  "speedYaw": 25.0,
-                  "speedPitch": 25.0,
-                  "parkInDeadzone": false,
-                  "aimForOperatedShell": true,
-                  "turret": {
-                    "head": "optic1_turret",
-                    "gun": "optic1_gun",
-                    "mainTurret": true
-                  },
-                  "limits": {
-                    "yaw": [-20.0,20.0],
-                    "pitch": [-20.0,20.0]
-                  }
-                }
+            "WeaponPreset": {
+              "name": "m61a1_common",
+              "Weapon": {
+                "trigger": "cannon",
+                "blk": "gameData/Weapons/cannonJM61A1.blk",
+                "emitter": "flare4",
+                "flash": "flare4",
+                "dm": "cannon4_dm",
+                "bullets": 640,
+                "spread": 1.0
               }
-            ]
+            }
           },
           {
             "WeaponPreset": [
@@ -3286,30 +3258,6 @@
                   "dm": "cannon4_dm",
                   "bullets": 640,
                   "spread": 1.0
-                }
-              },
-              {
-                "Weapon": {
-                  "dummy": true,
-                  "trigger": "gunner0",
-                  "triggerGroup": "primary",
-                  "blk": "gameData/Weapons/dummy_weapon.blk",
-                  "emitter": "optic1_gun",
-                  "defaultYaw": 0.0,
-                  "defaultPitch": 0.0,
-                  "speedYaw": 25.0,
-                  "speedPitch": 25.0,
-                  "parkInDeadzone": false,
-                  "aimForOperatedShell": true,
-                  "turret": {
-                    "head": "optic1_turret",
-                    "gun": "optic1_gun",
-                    "mainTurret": true
-                  },
-                  "limits": {
-                    "yaw": [-20.0,20.0],
-                    "pitch": [-20.0,20.0]
-                  }
                 }
               },
               {

@@ -127,7 +127,8 @@ pub struct Missile {
 #[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Eq, Copy, Clone, const_gen::CompileConst, get_size::GetSize)]
 pub enum SeekerType {
 	Ir = 0,
-	Radar = 1,
+	Sarh = 1,
+	Arh = 2,
 }
 
 impl Missile {
@@ -138,7 +139,11 @@ impl Missile {
 			if file.contains("irSeeker") {
 				SeekerType::Ir
 			} else if file.contains("radarSeeker") {
-				SeekerType::Radar
+				if file.contains("\"active\": true,") {
+					SeekerType::Arh
+				} else {
+					SeekerType::Sarh
+				}
 			} else {
 				panic!("Cant identify seeker type")
 			}

@@ -2697,6 +2697,12 @@
           "name": "su_22um3k_rocket_kh29l_kh25ml_r60",
           "blk": "gameData/FlightModels/weaponPresets/su_22um3k_rocket_kh29l_kh25ml_r60.blk"
         }
+      },
+      {
+        "preset": {
+          "name": "su_22um3k_bomb_zab_500",
+          "blk": "gameData/FlightModels/weaponPresets/su_22um3k_bomb_zab_500.blk"
+        }
       }
     ]
   },
@@ -3183,6 +3189,30 @@
                 "external": true,
                 "separate": true,
                 "machLimit": 1.01
+              }
+            }
+          },
+          {
+            "WeaponPreset": {
+              "iconType": "napalm_large",
+              "name": "zb500",
+              "reqModification": "zb_500",
+              "ShowNodes": [
+                {
+                  "node": "pylon_4"
+                },
+                {
+                  "node": "pylon_4_holder_500"
+                }
+              ],
+              "Weapon": {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/BombGuns/su_zb_500.blk",
+                "emitter": "fab_500m_62_001",
+                "bullets": 1,
+                "external": true,
+                "separate": true,
+                "machLimit": 1.2
               }
             }
           },
@@ -3676,6 +3706,30 @@
           },
           {
             "WeaponPreset": {
+              "iconType": "napalm_large",
+              "name": "zb500",
+              "reqModification": "zb_500",
+              "ShowNodes": [
+                {
+                  "node": "pylon_2"
+                },
+                {
+                  "node": "mbd3_u6_68"
+                }
+              ],
+              "Weapon": {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/BombGuns/su_zb_500.blk",
+                "emitter": "fab_500m_62_003",
+                "bullets": 1,
+                "external": true,
+                "separate": true,
+                "machLimit": 1.2
+              }
+            }
+          },
+          {
+            "WeaponPreset": {
               "iconType": "rockets_he_large",
               "name": "fuse_left_rocket_s_24",
               "reqModification": "il_28sh_s24",
@@ -3889,6 +3943,25 @@
                 }
               }
             ]
+          },
+          {
+            "WeaponPreset": {
+              "iconType": "napalm_large",
+              "name": "zb500",
+              "reqModification": "zb_500",
+              "ShowNodes": {
+                "node": "pylon_1"
+              },
+              "Weapon": {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/BombGuns/su_zb_500.blk",
+                "emitter": "fab_500m_62_005",
+                "bullets": 1,
+                "external": true,
+                "separate": true,
+                "machLimit": 1.2
+              }
+            }
           },
           {
             "WeaponPreset": {
@@ -4303,6 +4376,25 @@
           },
           {
             "WeaponPreset": {
+              "iconType": "napalm_large",
+              "name": "zb500",
+              "reqModification": "zb_500",
+              "ShowNodes": {
+                "node": "pylon_3"
+              },
+              "Weapon": {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/BombGuns/su_zb_500.blk",
+                "emitter": "fab_500m_62_008",
+                "bullets": 1,
+                "external": true,
+                "separate": true,
+                "machLimit": 1.2
+              }
+            }
+          },
+          {
+            "WeaponPreset": {
               "iconType": "rockets_he_large",
               "name": "wing_right_rocket_s24",
               "reqModification": "il_28sh_s24",
@@ -4632,7 +4724,7 @@
       },
       "mi_24_r_60": {
         "modClass": "weapon",
-        "prevModification": "mi_24_fab_500",
+        "prevModification": "countermeasures_belt_pack",
         "tier": 4
       },
       "su_s5_s8": {
@@ -4675,7 +4767,12 @@
           }
         }
       },
+      "zb_500": {
+        "modClass": "weapon",
+        "tier": 1
+      },
       "yak_38_x23m": {
+        "prevModification": "zb_500",
         "modClass": "weapon",
         "tier": 2
       },

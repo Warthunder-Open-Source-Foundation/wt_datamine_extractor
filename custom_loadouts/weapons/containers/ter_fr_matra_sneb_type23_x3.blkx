@@ -3,19 +3,19 @@
     "container": true
   },
   {
-    "mesh": "pylon_ter"
+    "mesh": "pylon_ter9a"
   },
   {
     "useEmitter": true
   },
   {
-    "emitter": "pylon_ter_lau_3a_002"
+    "emitter": "aero_7_2"
   },
   {
-    "emitter": "pylon_ter_lau_3a_001"
+    "emitter": "aero_7_1"
   },
   {
-    "emitter": "pylon_ter_lau_3a_003"
+    "emitter": "aero_7_3"
   },
   {
     "blk": "gameData/Weapons/containers/fr_matra_type_155_sneb_type23.blk"
