@@ -8,6 +8,7 @@ use wt_datamine_extractor_lib::bombs::bombs::Bomb;
 use wt_datamine_extractor_lib::bombs::known_bombs::{KNOWN_BOMBS_LOC, KnownBombs};
 use wt_datamine_extractor_lib::custom_loadouts::custom_loadouts::CustomLoadout;
 use wt_datamine_extractor_lib::custom_loadouts::known_loadouts::{KNOWN_LOADOUTS_LOC, KnownLoadouts};
+use wt_datamine_extractor_lib::extraction_traits::core::ExtractCore;
 use wt_datamine_extractor_lib::extraction_traits::known::KnownItem;
 use wt_datamine_extractor_lib::lang::copy_lang;
 use wt_datamine_extractor_lib::missile::known_missiles::KNOWN_MISSILES_LOC;
@@ -37,7 +38,7 @@ fn main() {
 		let known_bombs = KnownBombs::generate_index(KNOWN_BOMBS_LOC).write_index("bombs/known.json").copy_index_to_folder(KNOWN_BOMBS_LOC, "bombs/index/");
 
 		let missiles = Missile::generate_from_index(&known_missiles);
-		let thermals = Thermal::generate_from_index(&known_thermals);
+		let thermals = Thermal::generate_from_index(known_thermals, "thermal_index/thermals/");
 		let shells = Shell::generate_from_index(&known_shells);
 		let loadouts = CustomLoadout::generate_from_index(&known_loadouts);
 		let bombs = Bomb::generate_from_index(&known_bombs);
@@ -57,7 +58,7 @@ fn main() {
 		fs::write("shell_index/compressed.json", serde_json::to_string(&compressed_shells).unwrap()).unwrap();
 
 		Missile::write_all(missiles);
-		Thermal::write_all(thermals);
+		Thermal::write_all(thermals, "thermal_index/all.json");
 		Shell::write_all(shells);
 		CustomLoadout::write_all(loadouts);
 		Bomb::write_all(bombs);
