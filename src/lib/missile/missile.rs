@@ -118,6 +118,9 @@ pub struct Missile {
 	/// permits the missile to slave after the radar
 	pub allow_radar_slave: bool,
 
+	/// permits the missile to link back data to other aircraft
+	pub has_data_link: bool,
+
 	// Calculated (dynamically created and not in files)
 
 	/// total potential energy in m/s²
@@ -127,7 +130,8 @@ pub struct Missile {
 #[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Eq, Copy, Clone, const_gen::CompileConst, get_size::GetSize)]
 pub enum SeekerType {
 	Ir = 0,
-	Radar = 1,
+	Sarh = 1,
+	Arh = 2,
 }
 
 impl Missile {
@@ -138,7 +142,11 @@ impl Missile {
 			if file.contains("irSeeker") {
 				SeekerType::Ir
 			} else if file.contains("radarSeeker") {
-				SeekerType::Radar
+				if file.contains("\"active\": true,") {
+					SeekerType::Arh
+				} else {
+					SeekerType::Sarh
+				}
 			} else {
 				panic!("Cant identify seeker type")
 			}
@@ -225,6 +233,8 @@ impl Missile {
 
 		let allow_radar_slave = file.contains("designationSourceTypeMask");
 
+		let has_data_link = parameter_to_data(&file, "datalink").unwrap_or("false".to_owned()).parse().unwrap();
+
 		Self {
 			// localized first as the borrow consumes name otherwise
 			localized: name_to_local(&name, &Lang::Weapon),
@@ -261,6 +271,7 @@ impl Missile {
 			inertial_navigation,
 			use_target_vel,
 			allow_radar_slave,
+			has_data_link,
 			deltav: ((force0 / mass * timefire0) + (force1 / mass * timefire1)).round(),
 		}
 	}

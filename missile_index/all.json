@@ -38,12 +38,13 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": false,
+    "has_data_link": false,
     "deltav": 973.0
   },
   {
     "name": "cn_pf10",
     "localized": "cn_pf10",
-    "seekertype": "Radar",
+    "seekertype": "Sarh",
     "mass": 221.35,
     "mass_end": 166.35,
     "mass_end1": 0.0,
@@ -79,6 +80,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 553.0
   },
   {
@@ -120,12 +122,13 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": false,
+    "has_data_link": false,
     "deltav": 840.0
   },
   {
     "name": "fr_matra_super_530f",
     "localized": "fr_matra_super_530f",
-    "seekertype": "Radar",
+    "seekertype": "Sarh",
     "mass": 245.0,
     "mass_end": 210.45,
     "mass_end1": 165.0,
@@ -161,6 +164,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 718.0
   },
   {
@@ -202,12 +206,13 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 616.0
   },
   {
     "name": "fr_r_530_matra_radar",
     "localized": "Matra R530",
-    "seekertype": "Radar",
+    "seekertype": "Sarh",
     "mass": 193.5,
     "mass_end": 160.0,
     "mass_end1": 148.0,
@@ -243,6 +248,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 616.0
   },
   {
@@ -284,6 +290,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 607.0
   },
   {
@@ -325,6 +332,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 607.0
   },
   {
@@ -366,6 +374,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 727.0
   },
   {
@@ -407,6 +416,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": false,
+    "has_data_link": false,
     "deltav": 584.0
   },
   {
@@ -448,12 +458,13 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": false,
+    "has_data_link": false,
     "deltav": 633.0
   },
   {
     "name": "it_aspide_1a",
     "localized": "it_aspide_1a",
-    "seekertype": "Radar",
+    "seekertype": "Sarh",
     "mass": 230.0,
     "mass_end": 173.0,
     "mass_end1": 0.0,
@@ -489,6 +500,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 571.0
   },
   {
@@ -530,6 +542,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": false,
+    "has_data_link": false,
     "deltav": 868.0
   },
   {
@@ -571,6 +584,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": false,
+    "has_data_link": false,
     "deltav": 868.0
   },
   {
@@ -612,6 +626,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": false,
+    "has_data_link": false,
     "deltav": 506.0
   },
   {
@@ -653,6 +668,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": false,
+    "has_data_link": false,
     "deltav": 506.0
   },
   {
@@ -694,6 +710,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 660.0
   },
   {
@@ -735,6 +752,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 660.0
   },
   {
@@ -776,6 +794,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 727.0
   },
   {
@@ -817,6 +836,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": false,
+    "has_data_link": false,
     "deltav": 593.0
   },
   {
@@ -858,6 +878,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": false,
+    "has_data_link": false,
     "deltav": 574.0
   },
   {
@@ -899,12 +920,13 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": false,
+    "has_data_link": false,
     "deltav": 574.0
   },
   {
     "name": "su_r_23r",
     "localized": "R-23R",
-    "seekertype": "Radar",
+    "seekertype": "Sarh",
     "mass": 223.0,
     "mass_end": 190.0,
     "mass_end1": 0.0,
@@ -940,6 +962,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 498.0
   },
   {
@@ -981,12 +1004,13 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 516.0
   },
   {
     "name": "su_r_24r",
     "localized": "R-24R",
-    "seekertype": "Radar",
+    "seekertype": "Sarh",
     "mass": 244.0,
     "mass_end": 169.0,
     "mass_end1": 0.0,
@@ -1022,6 +1046,7 @@
     "inertial_navigation": true,
     "use_target_vel": true,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 615.0
   },
   {
@@ -1063,12 +1088,13 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 633.0
   },
   {
     "name": "su_r_3r",
     "localized": "R-3R",
-    "seekertype": "Radar",
+    "seekertype": "Sarh",
     "mass": 75.3,
     "mass_end": 54.8,
     "mass_end1": 0.0,
@@ -1104,12 +1130,13 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 506.0
   },
   {
     "name": "su_r_3r_default",
     "localized": "su_r_3r_default",
-    "seekertype": "Radar",
+    "seekertype": "Sarh",
     "mass": 75.3,
     "mass_end": 54.8,
     "mass_end1": 0.0,
@@ -1145,6 +1172,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 506.0
   },
   {
@@ -1186,6 +1214,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": false,
+    "has_data_link": false,
     "deltav": 506.0
   },
   {
@@ -1227,6 +1256,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": false,
+    "has_data_link": false,
     "deltav": 506.0
   },
   {
@@ -1268,6 +1298,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 648.0
   },
   {
@@ -1309,6 +1340,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 648.0
   },
   {
@@ -1350,6 +1382,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 648.0
   },
   {
@@ -1391,6 +1424,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 648.0
   },
   {
@@ -1432,6 +1466,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 648.0
   },
   {
@@ -1473,6 +1508,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": false,
+    "has_data_link": false,
     "deltav": 523.0
   },
   {
@@ -1514,12 +1550,13 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 518.0
   },
   {
     "name": "swd_rb71",
     "localized": "RB71 (DF)",
-    "seekertype": "Radar",
+    "seekertype": "Sarh",
     "mass": 193.0,
     "mass_end": 146.0,
     "mass_end1": 0.0,
@@ -1555,6 +1592,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 508.0
   },
   {
@@ -1596,6 +1634,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 753.0
   },
   {
@@ -1637,6 +1676,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 531.0
   },
   {
@@ -1678,12 +1718,13 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 539.0
   },
   {
     "name": "uk_skyflash_aim_7",
     "localized": "Skyflash",
-    "seekertype": "Radar",
+    "seekertype": "Sarh",
     "mass": 193.0,
     "mass_end": 146.0,
     "mass_end1": 0.0,
@@ -1719,12 +1760,13 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 508.0
   },
   {
     "name": "uk_skyflash_aim_7_dogfight",
     "localized": "Skyflash (DF)",
-    "seekertype": "Radar",
+    "seekertype": "Sarh",
     "mass": 193.0,
     "mass_end": 146.0,
     "mass_end1": 0.0,
@@ -1760,6 +1802,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 508.0
   },
   {
@@ -1801,12 +1844,13 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": false,
+    "has_data_link": false,
     "deltav": 699.0
   },
   {
     "name": "us_aim7c_sparrow",
     "localized": "AIM-7C",
-    "seekertype": "Radar",
+    "seekertype": "Sarh",
     "mass": 172.0,
     "mass_end": 144.0,
     "mass_end1": 0.0,
@@ -1842,12 +1886,13 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 382.0
   },
   {
     "name": "us_aim7d_sparrow",
     "localized": "AIM-7D",
-    "seekertype": "Radar",
+    "seekertype": "Sarh",
     "mass": 197.0,
     "mass_end": 144.0,
     "mass_end1": 0.0,
@@ -1883,12 +1928,13 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 437.0
   },
   {
     "name": "us_aim7e2_dogfight_sparrow",
     "localized": "AIM-7E-2 (DF)",
-    "seekertype": "Radar",
+    "seekertype": "Sarh",
     "mass": 193.7,
     "mass_end": 146.0,
     "mass_end1": 0.0,
@@ -1924,12 +1970,13 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 506.0
   },
   {
     "name": "us_aim7e_sparrow",
     "localized": "AIM-7E",
-    "seekertype": "Radar",
+    "seekertype": "Sarh",
     "mass": 205.0,
     "mass_end": 146.0,
     "mass_end1": 0.0,
@@ -1965,12 +2012,13 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 478.0
   },
   {
     "name": "us_aim7f_sparrow",
     "localized": "AIM-7F",
-    "seekertype": "Radar",
+    "seekertype": "Sarh",
     "mass": 231.33,
     "mass_end": 193.68,
     "mass_end1": 170.1,
@@ -2006,6 +2054,7 @@
     "inertial_navigation": false,
     "use_target_vel": true,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 826.0
   },
   {
@@ -2047,6 +2096,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": false,
+    "has_data_link": false,
     "deltav": 1089.0
   },
   {
@@ -2088,6 +2138,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": false,
+    "has_data_link": false,
     "deltav": 490.0
   },
   {
@@ -2129,12 +2180,13 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": false,
+    "has_data_link": false,
     "deltav": 523.0
   },
   {
     "name": "us_aim9c_sidewinder",
     "localized": "AIM-9C",
-    "seekertype": "Radar",
+    "seekertype": "Sarh",
     "mass": 95.25,
     "mass_end": 55.8,
     "mass_end1": 0.0,
@@ -2170,6 +2222,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 714.0
   },
   {
@@ -2211,6 +2264,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": false,
+    "has_data_link": false,
     "deltav": 739.0
   },
   {
@@ -2252,6 +2306,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": false,
+    "has_data_link": false,
     "deltav": 739.0
   },
   {
@@ -2293,6 +2348,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": false,
+    "has_data_link": false,
     "deltav": 521.0
   },
   {
@@ -2334,6 +2390,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 739.0
   },
   {
@@ -2375,6 +2432,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 739.0
   },
   {
@@ -2416,6 +2474,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 518.0
   },
   {
@@ -2457,6 +2516,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 753.0
   },
   {
@@ -2498,6 +2558,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 753.0
   },
   {
@@ -2539,12 +2600,13 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": true,
+    "has_data_link": false,
     "deltav": 518.0
   },
   {
     "name": "us_aim_54a",
     "localized": "us_aim_54a",
-    "seekertype": "Radar",
+    "seekertype": "Arh",
     "mass": 447.7,
     "mass_end": 239.5,
     "mass_end1": 0.0,
@@ -2580,12 +2642,13 @@
     "inertial_navigation": true,
     "use_target_vel": true,
     "allow_radar_slave": true,
+    "has_data_link": true,
     "deltav": 1139.0
   },
   {
     "name": "us_aim_54b",
     "localized": "us_aim_54b",
-    "seekertype": "Radar",
+    "seekertype": "Arh",
     "mass": 447.7,
     "mass_end": 239.5,
     "mass_end1": 0.0,
@@ -2621,6 +2684,7 @@
     "inertial_navigation": true,
     "use_target_vel": true,
     "allow_radar_slave": true,
+    "has_data_link": true,
     "deltav": 1139.0
   },
   {
@@ -2662,6 +2726,7 @@
     "inertial_navigation": false,
     "use_target_vel": false,
     "allow_radar_slave": false,
+    "has_data_link": false,
     "deltav": 1089.0
   }
 ]

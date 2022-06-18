@@ -214,6 +214,8 @@ mod tests {
 		}
 	}
 
+
+	// Test seems too faulty with how the game changes the positions
 	// #[test]
 	// fn test_tgp_not_satisfied() {
 	// 	let reader = fs::read("custom_loadouts/aircraft/mig_23mla.blkx").unwrap();
