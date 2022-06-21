@@ -152,6 +152,7 @@ mod tests {
 	use std::fs;
 
 	use crate::custom_loadouts::custom_loadouts::CustomLoadout;
+	use crate::extraction_traits::core::ExtractCore;
 
 	#[test]
 	fn test_clean() {

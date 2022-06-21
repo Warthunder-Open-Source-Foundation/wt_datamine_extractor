@@ -3,7 +3,7 @@ use std::fs;
 use get_size::GetSize;
 
 use crate::custom_loadouts::custom_loadouts::WeaponType::{AAM, AGM, Bomb, Cannon, Countermeasures, Empty, GBU, GunPod, Rocket, TargetingPod};
-use crate::custom_loadouts::known_loadouts::KnownLoadouts;
+use crate::extraction_traits::core::ExtractCore;
 use crate::lang::{Lang, name_to_local};
 use crate::util::parameter_to_data;
 
@@ -89,8 +89,19 @@ impl WeaponType {
 }
 
 impl CustomLoadout {
+	pub fn select_by_name(loadouts: &[Self], name: &str) -> Option<Self> {
+		for (i, loadout) in loadouts.iter().enumerate() {
+			if loadout.aircraft.contains(&name.replace('-', "_")) {
+				return Some(loadouts[i].clone());
+			}
+		}
+		None
+	}
+}
+
+impl ExtractCore for CustomLoadout {
 	#[allow(clippy::too_many_lines)]
-	pub fn new_from_file(file: &[u8], name: String) -> Self {
+	fn new_from_file(file: &[u8], name: String) -> Self {
 		let file = String::from_utf8(file.to_vec()).unwrap();
 
 		let max_load = parameter_to_data(&file, "maxloadMass").unwrap().parse().unwrap();
@@ -220,34 +231,8 @@ impl CustomLoadout {
 		}
 	}
 
-	pub fn write_all(mut values: Vec<Self>) -> Vec<Self> {
-		values.sort_by_key(|d| d.aircraft.clone());
-		fs::write("custom_loadouts/all.json", serde_json::to_string_pretty(&values).unwrap()).unwrap();
-		values
-	}
-
-	pub fn generate_from_index(index: &KnownLoadouts) -> Vec<Self> {
-		let mut generated: Vec<Self> = vec![];
-		for i in &index.path {
-			if let Ok(file) = fs::read(format!("custom_loadouts/aircraft/{}", i)) {
-				let name = i.split('.').collect::<Vec<&str>>()[0].to_owned();
-
-				let missile = CustomLoadout::new_from_file(&file, name);
-
-				generated.push(missile);
-			}
-		}
-		generated.sort_by_key(|x| x.aircraft.clone());
-		generated
-	}
-
-	pub fn select_by_name(loadouts: &[Self], name: &str) -> Option<Self> {
-		for (i, loadout) in loadouts.iter().enumerate() {
-			if loadout.aircraft.contains(&name.replace('-', "_")) {
-				return Some(loadouts[i].clone());
-			}
-		}
-		None
+	fn sort(items: &mut Vec<Self>) where Self: Sized {
+		items.sort_by_key(|d| d.aircraft.clone());
 	}
 }
 

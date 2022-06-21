@@ -1,10 +1,8 @@
-use std::fs;
-
 use get_size::GetSize;
 
 use crate::explosive::explosive::explosive_type_to_tnt;
+use crate::extraction_traits::core::ExtractCore;
 use crate::lang::{Lang, name_to_local};
-use crate::missile::known_missiles::KnownMissiles;
 use crate::util::parameter_to_data;
 
 #[allow(clippy::struct_excessive_bools)]
@@ -135,7 +133,18 @@ pub enum SeekerType {
 }
 
 impl Missile {
-	pub fn new_from_file(file: &[u8], name: String) -> Self {
+	pub fn select_by_name(missiles: &[Self], name: &str) -> Option<Self> {
+		for (i, missile) in missiles.iter().enumerate() {
+			if missile.name.contains(&name.replace('-', "_")) {
+				return Some(missiles[i].clone());
+			}
+		}
+		None
+	}
+}
+
+impl ExtractCore for Missile {
+	fn new_from_file(file: &[u8], name: String) -> Self {
 		let file = String::from_utf8(file.to_vec()).unwrap();
 
 		let seekertype = {
@@ -276,33 +285,7 @@ impl Missile {
 		}
 	}
 
-	pub fn write_all(mut values: Vec<Self>) -> Vec<Self> {
-		values.sort_by_key(|d| d.name.clone());
-		fs::write("missile_index/all.json", serde_json::to_string_pretty(&values).unwrap()).unwrap();
-		values
-	}
-
-	pub fn generate_from_index(index: &KnownMissiles) -> Vec<Self> {
-		let mut generated: Vec<Self> = vec![];
-		for i in &index.path {
-			if let Ok(file) = fs::read(format!("missile_index/missiles/{}", i)) {
-				let name = i.split('.').collect::<Vec<&str>>()[0].to_owned();
-
-				let missile = Missile::new_from_file(&file, name);
-
-				generated.push(missile);
-			}
-		}
-		generated.sort_by_key(|x| x.name.clone());
-		generated
-	}
-
-	pub fn select_by_name(missiles: &[Self], name: &str) -> Option<Self> {
-		for (i, missile) in missiles.iter().enumerate() {
-			if missile.name.contains(&name.replace('-', "_")) {
-				return Some(missiles[i].clone());
-			}
-		}
-		None
+	fn sort(items: &mut Vec<Self>) where Self: Sized {
+		items.sort_by_key(|x| x.name.clone());
 	}
 }

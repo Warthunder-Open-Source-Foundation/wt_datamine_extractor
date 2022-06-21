@@ -37,11 +37,11 @@ fn main() {
 
 		let known_bombs = KnownBombs::generate_index(KNOWN_BOMBS_LOC).write_index("bombs/known.json").copy_index_to_folder(KNOWN_BOMBS_LOC, "bombs/index/");
 
-		let missiles = Missile::generate_from_index(&known_missiles);
+		let missiles = Missile::generate_from_index(known_missiles, "missile_index/missiles/");
 		let thermals = Thermal::generate_from_index(known_thermals, "thermal_index/thermals/");
 		let shells = Shell::generate_from_index(&known_shells);
-		let loadouts = CustomLoadout::generate_from_index(&known_loadouts);
-		let bombs = Bomb::generate_from_index(&known_bombs);
+		let loadouts = CustomLoadout::generate_from_index(known_loadouts, "custom_loadouts/aircraft/");
+		let bombs = Bomb::generate_from_index(known_bombs, "bombs/index/");
 
 		let compressed_shells = CompressedShells::compress(&shells);
 
@@ -57,11 +57,11 @@ fn main() {
 
 		fs::write("shell_index/compressed.json", serde_json::to_string(&compressed_shells).unwrap()).unwrap();
 
-		Missile::write_all(missiles);
+		Missile::write_all(missiles, "missile_index/all.json");
 		Thermal::write_all(thermals, "thermal_index/all.json");
 		Shell::write_all(shells);
-		CustomLoadout::write_all(loadouts);
-		Bomb::write_all(bombs);
+		CustomLoadout::write_all(loadouts, "custom_loadouts/all.json");
+		Bomb::write_all(bombs, "bombs/all.json");
 	} else {
 		panic!("Local mined cache is invalid or could not be read");
 	}
