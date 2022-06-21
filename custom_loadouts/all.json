@@ -9323,8 +9323,8 @@
         "exempt_from_imbalance": false,
         "weapons": [
           {
-            "name": "pl2_default",
-            "localized": "su_pl2_default",
+            "name": "pl2",
+            "localized": "PL-2",
             "icon_type": "missile_air_to_air",
             "count": 1,
             "individual_mass": 75.3,
@@ -9333,8 +9333,8 @@
             "depend_on": null
           },
           {
-            "name": "pl5",
-            "localized": "PL-5B",
+            "name": "pl5_default",
+            "localized": "su_pl5b_default",
             "icon_type": "missile_type_b_air_to_air",
             "count": 1,
             "individual_mass": 84.5,
@@ -9517,8 +9517,8 @@
         "exempt_from_imbalance": false,
         "weapons": [
           {
-            "name": "pl2_default",
-            "localized": "su_pl2_default",
+            "name": "pl2",
+            "localized": "PL-2",
             "icon_type": "missile_air_to_air",
             "count": 1,
             "individual_mass": 75.3,
@@ -9527,8 +9527,8 @@
             "depend_on": null
           },
           {
-            "name": "pl5",
-            "localized": "PL-5B",
+            "name": "pl5_default",
+            "localized": "su_pl5b_default",
             "icon_type": "missile_type_b_air_to_air",
             "count": 1,
             "individual_mass": 84.5,
@@ -10342,16 +10342,6 @@
             "name": "redtop",
             "localized": "Red Top",
             "icon_type": "missile_type_c_air_to_air_group",
-            "count": 1,
-            "individual_mass": 167.0,
-            "total_mass": 167.0,
-            "weapon_type": "AAM",
-            "depend_on": null
-          },
-          {
-            "name": "redtop_firestreak",
-            "localized": "Red Top",
-            "icon_type": "missile_air_to_air_mix_group",
             "count": 1,
             "individual_mass": 167.0,
             "total_mass": 167.0,
@@ -11999,7 +11989,7 @@
             "count": 1,
             "individual_mass": 278.0,
             "total_mass": 278.0,
-            "weapon_type": "AAM",
+            "weapon_type": "AGM",
             "depend_on": null
           },
           {
@@ -12077,7 +12067,7 @@
             "count": 1,
             "individual_mass": 278.0,
             "total_mass": 278.0,
-            "weapon_type": "AAM",
+            "weapon_type": "AGM",
             "depend_on": null
           },
           {
