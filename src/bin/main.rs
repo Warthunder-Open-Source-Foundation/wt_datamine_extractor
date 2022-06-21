@@ -40,7 +40,7 @@ fn main() {
 		let missiles = Missile::generate_from_index(&known_missiles);
 		let thermals = Thermal::generate_from_index(known_thermals, "thermal_index/thermals/");
 		let shells = Shell::generate_from_index(&known_shells);
-		let loadouts = CustomLoadout::generate_from_index(&known_loadouts);
+		let loadouts = CustomLoadout::generate_from_index(known_loadouts, "custom_loadouts/aircraft/");
 		let bombs = Bomb::generate_from_index(known_bombs, "bombs/index/");
 
 		let compressed_shells = CompressedShells::compress(&shells);
@@ -60,7 +60,7 @@ fn main() {
 		Missile::write_all(missiles);
 		Thermal::write_all(thermals, "thermal_index/all.json");
 		Shell::write_all(shells);
-		CustomLoadout::write_all(loadouts);
+		CustomLoadout::write_all(loadouts, "custom_loadouts/all.json");
 		Bomb::write_all(bombs, "bombs/all.json");
 	} else {
 		panic!("Local mined cache is invalid or could not be read");
