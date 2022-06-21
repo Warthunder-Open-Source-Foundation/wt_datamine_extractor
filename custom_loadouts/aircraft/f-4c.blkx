@@ -3429,7 +3429,7 @@
               "Weapon": {
                 "trigger": "bombs",
                 "blk": "gameData/Weapons/BombGuns/us_2000lb_mk_84_ldgp.blk",
-                "emitter": "bomb_2000lb_002",
+                "emitter": "2000lb_mk_84_002",
                 "bullets": 1,
                 "external": true,
                 "separate": true,
@@ -3502,7 +3502,8 @@
                 "spread": 1.5,
                 "traceOffset": 1,
                 "counterIndex": 1,
-                "external": true
+                "external": true,
+                "rotationAnimScale": "gun_rotate_01:CRS"
               }
             }
           }
@@ -3964,7 +3965,7 @@
               "Weapon": {
                 "trigger": "bombs",
                 "blk": "gameData/Weapons/BombGuns/us_2000lb_mk_84_ldgp.blk",
-                "emitter": "bomb_2000lb_001",
+                "emitter": "2000lb_mk_84_001",
                 "bullets": 1,
                 "external": true,
                 "separate": true,
@@ -4014,6 +4015,7 @@
                 "counterIndex": 1,
                 "external": true,
                 "gearLimit": [0.0,0.1],
+                "rotationAnimScale": "gun_rotate_01:CRS",
                 "gearName": "gear_c"
               }
             }
@@ -4476,7 +4478,7 @@
               "Weapon": {
                 "trigger": "bombs",
                 "blk": "gameData/Weapons/BombGuns/us_2000lb_mk_84_ldgp.blk",
-                "emitter": "bomb_2000lb_003",
+                "emitter": "2000lb_mk_84_003",
                 "bullets": 1,
                 "external": true,
                 "separate": true,
@@ -4549,7 +4551,8 @@
                 "spread": 1.5,
                 "traceOffset": 1,
                 "counterIndex": 1,
-                "external": true
+                "external": true,
+                "rotationAnimScale": "gun_rotate_01:CRS"
               }
             }
           }
