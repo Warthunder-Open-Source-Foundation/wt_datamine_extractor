@@ -7,5 +7,17 @@ pub fn parameter_to_data(file: &str, parameter: &str) -> Option<String> {
 	})
 }
 
+pub fn is_clrf(file: &str)  -> bool {
+	 file.contains("\r\n")
+}
+
+pub fn get_sep(file: &str) -> String {
+	return if file.contains("\r\n")  {
+		"\r\n"
+	} else {
+		"\n"
+	}.to_owned()
+}
+
 #[cfg(test)]
 mod tests {}

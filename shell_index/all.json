@@ -5653,20 +5653,6 @@
     ]
   },
   {
-    "name": "122mm_3vdcz3",
-    "localized": "122mm_3vdcz3",
-    "shell_type": "Smoke",
-    "caliber": 122,
-    "true_caliber": 122,
-    "velocity": 515,
-    "penetration": [],
-    "explosive": [
-      "smoke_composition",
-      50,
-      50
-    ]
-  },
-  {
     "name": "122mm_bp_462",
     "localized": "BP-460A",
     "shell_type": "Heat",
@@ -6587,15 +6573,15 @@
     "penetration": [
       [
         0,
-        576
+        577
       ],
       [
         100,
-        574
+        575
       ],
       [
         500,
-        565
+        566
       ],
       [
         1000,
@@ -6611,7 +6597,7 @@
       ],
       [
         3000,
-        511
+        512
       ]
     ],
     "explosive": [
@@ -6725,7 +6711,7 @@
     "penetration": [
       [
         0,
-        508
+        509
       ],
       [
         100,
@@ -7337,49 +7323,6 @@
     ]
   },
   {
-    "name": "13mm_tp",
-    "localized": "TP",
-    "shell_type": "ApSolid",
-    "caliber": 13,
-    "true_caliber": 13,
-    "velocity": 800,
-    "penetration": [
-      [
-        0,
-        24
-      ],
-      [
-        100,
-        23
-      ],
-      [
-        500,
-        14
-      ],
-      [
-        1000,
-        10
-      ],
-      [
-        1500,
-        7
-      ],
-      [
-        2000,
-        4
-      ],
-      [
-        2500,
-        3
-      ]
-    ],
-    "explosive": [
-      "",
-      0,
-      0
-    ]
-  },
-  {
     "name": "140mm_KE",
     "localized": "ATW-KE",
     "shell_type": "ApFsDs",
@@ -7545,8 +7488,59 @@
         16
       ],
       [
+        1500,
+        0
+      ],
+      [
         2000,
         12
+      ],
+      [
+        4000,
+        2
+      ]
+    ],
+    "explosive": [
+      "",
+      0,
+      0
+    ]
+  },
+  {
+    "name": "14mm_apit",
+    "localized": "API-T",
+    "shell_type": "ApSolid",
+    "caliber": 15,
+    "true_caliber": 15,
+    "velocity": 990,
+    "penetration": [
+      [
+        0,
+        31
+      ],
+      [
+        100,
+        27
+      ],
+      [
+        300,
+        23
+      ],
+      [
+        500,
+        22
+      ],
+      [
+        1000,
+        17
+      ],
+      [
+        1500,
+        0
+      ],
+      [
+        2000,
+        13
       ],
       [
         4000,
@@ -7576,8 +7570,12 @@
         2
       ],
       [
+        300,
+        20
+      ],
+      [
         500,
-        1
+        2
       ],
       [
         1000,
@@ -7586,6 +7584,14 @@
       [
         1500,
         0
+      ],
+      [
+        2000,
+        12
+      ],
+      [
+        4000,
+        2
       ]
     ],
     "explosive": [
@@ -8665,41 +8671,6 @@
     ]
   },
   {
-    "name": "15mm_brsprgr",
-    "localized": "15mm_brsprgr",
-    "shell_type": "ApSolid",
-    "caliber": 15,
-    "true_caliber": 15,
-    "velocity": 960,
-    "penetration": [
-      [
-        0,
-        2
-      ],
-      [
-        100,
-        2
-      ],
-      [
-        500,
-        1
-      ],
-      [
-        1000,
-        1
-      ],
-      [
-        1500,
-        0
-      ]
-    ],
-    "explosive": [
-      "",
-      0,
-      0
-    ]
-  },
-  {
     "name": "15mm_h_pzgr",
     "localized": "H-Pzgr.",
     "shell_type": "ApCr",
@@ -8721,7 +8692,42 @@
   {
     "name": "15mm_pzgr",
     "localized": "Pzgr. L'spur",
-    "shell_type": "ApSolid",
+    "shell_type": "ApHe",
+    "caliber": 15,
+    "true_caliber": 15,
+    "velocity": 850,
+    "penetration": [
+      [
+        0,
+        2
+      ],
+      [
+        100,
+        2
+      ],
+      [
+        500,
+        2
+      ],
+      [
+        1000,
+        1
+      ],
+      [
+        1500,
+        0
+      ]
+    ],
+    "explosive": [
+      "np_10",
+      1,
+      2
+    ]
+  },
+  {
+    "name": "15mm_pzgr",
+    "localized": "Pzgr. L'spur",
+    "shell_type": "ApHe",
     "caliber": 15,
     "true_caliber": 15,
     "velocity": 850,
@@ -8732,9 +8738,9 @@
       ]
     ],
     "explosive": [
-      "",
-      0,
-      0
+      "np_10",
+      1,
+      2
     ]
   },
   {
@@ -8744,7 +8750,12 @@
     "caliber": 15,
     "true_caliber": 15,
     "velocity": 960,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        33
+      ]
+    ],
     "explosive": [
       "np_10",
       1,
@@ -9082,7 +9093,7 @@
       ],
       [
         500,
-        1
+        2
       ],
       [
         1000,
@@ -9113,9 +9124,9 @@
       ]
     ],
     "explosive": [
-      "",
-      0,
-      0
+      "hexal",
+      16,
+      27
     ]
   },
   {
@@ -9123,9 +9134,14 @@
     "localized": "DM51A1",
     "shell_type": "ApHe",
     "caliber": 20,
-    "true_caliber": 20,
+    "true_caliber": 12,
     "velocity": 1100,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        65
+      ]
+    ],
     "explosive": [
       "hexal",
       16,
@@ -9146,9 +9162,28 @@
       ]
     ],
     "explosive": [
-      "",
-      0,
-      0
+      "hexal",
+      16,
+      27
+    ]
+  },
+  {
+    "name": "20mm_granata_m35",
+    "localized": "Granata mod.35",
+    "shell_type": "ApHe",
+    "caliber": 20,
+    "true_caliber": 20,
+    "velocity": 830,
+    "penetration": [
+      [
+        0,
+        37
+      ]
+    ],
+    "explosive": [
+      "tnt",
+      3,
+      3
     ]
   },
   {
@@ -9172,7 +9207,12 @@
     "caliber": 20,
     "true_caliber": 20,
     "velocity": 1030,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        41
+      ]
+    ],
     "explosive": [
       "rdx",
       8,
@@ -9193,9 +9233,9 @@
       ]
     ],
     "explosive": [
-      "",
-      0,
-      0
+      "rdx",
+      8,
+      13
     ]
   },
   {
@@ -9203,9 +9243,14 @@
     "localized": "M594",
     "shell_type": "He",
     "caliber": 20,
-    "true_caliber": 20,
+    "true_caliber": 12,
     "velocity": 1054,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        59
+      ]
+    ],
     "explosive": [
       "hexal",
       16,
@@ -9226,9 +9271,9 @@
       ]
     ],
     "explosive": [
-      "",
-      0,
-      0
+      "hexal",
+      16,
+      27
     ]
   },
   {
@@ -9251,31 +9296,22 @@
     ]
   },
   {
-    "name": "20mm_oerlikon_he",
-    "localized": "HE",
-    "shell_type": "He",
+    "name": "20mm_oerlikon_ap",
+    "localized": "APT",
+    "shell_type": "ApSolid",
     "caliber": 20,
     "true_caliber": 20,
-    "velocity": 838,
-    "penetration": [],
+    "velocity": 830,
+    "penetration": [
+      [
+        0,
+        42
+      ]
+    ],
     "explosive": [
       "tnt",
       6,
       6
-    ]
-  },
-  {
-    "name": "20mm_oerlikon_he_i",
-    "localized": "HEI",
-    "shell_type": "He",
-    "caliber": 20,
-    "true_caliber": 20,
-    "velocity": 838,
-    "penetration": [],
-    "explosive": [
-      "tnt",
-      5,
-      5
     ]
   },
   {
@@ -9326,28 +9362,28 @@
     ]
   },
   {
-    "name": "20mm_pzbrgr_ph",
-    "localized": "2cm Pzbrgr.(Ph) 151",
-    "shell_type": "ApSolid",
+    "name": "20mm_pzgr",
+    "localized": "PzGr",
+    "shell_type": "ApHe",
     "caliber": 20,
-    "true_caliber": 20,
-    "velocity": 705,
+    "true_caliber": 12,
+    "velocity": 800,
     "penetration": [
       [
         0,
-        26
+        64
       ]
     ],
     "explosive": [
-      "",
-      0,
-      0
+      "np_10",
+      6,
+      10
     ]
   },
   {
     "name": "20mm_pzgr",
     "localized": "PzGr",
-    "shell_type": "ApSolid",
+    "shell_type": "ApHe",
     "caliber": 20,
     "true_caliber": 20,
     "velocity": 800,
@@ -9358,15 +9394,15 @@
       ]
     ],
     "explosive": [
-      "",
-      0,
-      0
+      "np_10",
+      6,
+      10
     ]
   },
   {
     "name": "20mm_pzgr",
     "localized": "PzGr",
-    "shell_type": "ApSolid",
+    "shell_type": "ApHe",
     "caliber": 20,
     "true_caliber": 20,
     "velocity": 800,
@@ -9409,6 +9445,25 @@
       ]
     ],
     "explosive": [
+      "np_10",
+      17,
+      29
+    ]
+  },
+  {
+    "name": "20mm_pzgr",
+    "localized": "PzGr",
+    "shell_type": "ApSolid",
+    "caliber": 20,
+    "true_caliber": 20,
+    "velocity": 800,
+    "penetration": [
+      [
+        0,
+        37
+      ]
+    ],
+    "explosive": [
       "",
       0,
       0
@@ -9431,6 +9486,25 @@
       "",
       0,
       0
+    ]
+  },
+  {
+    "name": "20mm_pzgr_40",
+    "localized": "PzGr 40",
+    "shell_type": "ApCr",
+    "caliber": 20,
+    "true_caliber": 12,
+    "velocity": 1050,
+    "penetration": [
+      [
+        0,
+        51
+      ]
+    ],
+    "explosive": [
+      "petn",
+      1,
+      2
     ]
   },
   {
@@ -9466,9 +9540,9 @@
       ]
     ],
     "explosive": [
-      "",
-      0,
-      0
+      "tnt",
+      6,
+      6
     ]
   },
   {
@@ -9517,7 +9591,7 @@
       ],
       [
         500,
-        1
+        2
       ],
       [
         1000,
@@ -9526,12 +9600,47 @@
       [
         1500,
         0
+      ],
+      [
+        2000,
+        11
+      ],
+      [
+        2500,
+        7
+      ],
+      [
+        3000,
+        5
+      ],
+      [
+        4000,
+        3
       ]
     ],
     "explosive": [
       "np_10",
       17,
       29
+    ]
+  },
+  {
+    "name": "20mm_type100_ap",
+    "localized": "Type 100 AP-T",
+    "shell_type": "ApHe",
+    "caliber": 20,
+    "true_caliber": 20,
+    "velocity": 928,
+    "penetration": [
+      [
+        0,
+        47
+      ]
+    ],
+    "explosive": [
+      "tnt",
+      6,
+      6
     ]
   },
   {
@@ -9570,7 +9679,7 @@
   {
     "name": "23mm_apit",
     "localized": "API-T",
-    "shell_type": "ApSolid",
+    "shell_type": "ApHe",
     "caliber": 23,
     "true_caliber": 23,
     "velocity": 970,
@@ -9581,23 +9690,28 @@
       ]
     ],
     "explosive": [
-      "",
-      0,
-      0
+      "a_ix_2",
+      13,
+      20
     ]
   },
   {
-    "name": "23mm_heit",
-    "localized": "HEI-T",
+    "name": "23mm_apit",
+    "localized": "API-T",
     "shell_type": "ApHe",
     "caliber": 23,
     "true_caliber": 23,
     "velocity": 970,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        50
+      ]
+    ],
     "explosive": [
       "a_ix_2",
-      13,
-      20
+      19,
+      29
     ]
   },
   {
@@ -9607,7 +9721,12 @@
     "caliber": 23,
     "true_caliber": 23,
     "velocity": 980,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        50
+      ]
+    ],
     "explosive": [
       "a_ix_2",
       19,
@@ -9645,6 +9764,25 @@
       "",
       0,
       0
+    ]
+  },
+  {
+    "name": "25mm_br_132",
+    "localized": "BR-132",
+    "shell_type": "ApSolid",
+    "caliber": 25,
+    "true_caliber": 25,
+    "velocity": 900,
+    "penetration": [
+      [
+        0,
+        54
+      ]
+    ],
+    "explosive": [
+      "tnt",
+      13,
+      13
     ]
   },
   {
@@ -9710,6 +9848,25 @@
     "shell_type": "Apds",
     "caliber": 25,
     "true_caliber": 14,
+    "velocity": 1335,
+    "penetration": [
+      [
+        0,
+        79
+      ]
+    ],
+    "explosive": [
+      "hexal",
+      32,
+      54
+    ]
+  },
+  {
+    "name": "25mm_m791",
+    "localized": "M791",
+    "shell_type": "Apds",
+    "caliber": 25,
+    "true_caliber": 14,
     "velocity": 1345,
     "penetration": [
       [
@@ -9718,9 +9875,28 @@
       ]
     ],
     "explosive": [
-      "",
-      0,
-      0
+      "hexal",
+      32,
+      54
+    ]
+  },
+  {
+    "name": "25mm_m792",
+    "localized": "M792",
+    "shell_type": "He",
+    "caliber": 25,
+    "true_caliber": 14,
+    "velocity": 1100,
+    "penetration": [
+      [
+        0,
+        75
+      ]
+    ],
+    "explosive": [
+      "hexal",
+      32,
+      54
     ]
   },
   {
@@ -9827,9 +10003,9 @@
       ]
     ],
     "explosive": [
-      "",
-      0,
-      0
+      "hexal",
+      32,
+      54
     ]
   },
   {
@@ -9837,9 +10013,14 @@
     "localized": "25mm_pgu_25_u",
     "shell_type": "He",
     "caliber": 25,
-    "true_caliber": 25,
+    "true_caliber": 11,
     "velocity": 1065,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        89
+      ]
+    ],
     "explosive": [
       "hexal",
       32,
@@ -9906,6 +10087,25 @@
       "",
       0,
       0
+    ]
+  },
+  {
+    "name": "25mm_type_87_api",
+    "localized": "Type 87 AP",
+    "shell_type": "ApSolid",
+    "caliber": 25,
+    "true_caliber": 25,
+    "velocity": 1050,
+    "penetration": [
+      [
+        0,
+        63
+      ]
+    ],
+    "explosive": [
+      "tnt",
+      19,
+      19
     ]
   },
   {
@@ -10028,6 +10228,49 @@
     ]
   },
   {
+    "name": "30_170mm_apds_t",
+    "localized": "30х170 APDS-T",
+    "shell_type": "Apds",
+    "caliber": 30,
+    "true_caliber": 30,
+    "velocity": 1175,
+    "penetration": [
+      [
+        0,
+        110
+      ],
+      [
+        100,
+        101
+      ],
+      [
+        500,
+        95
+      ],
+      [
+        1000,
+        69
+      ],
+      [
+        1500,
+        52
+      ],
+      [
+        2000,
+        41
+      ],
+      [
+        2500,
+        30
+      ]
+    ],
+    "explosive": [
+      "hexal",
+      18,
+      31
+    ]
+  },
+  {
     "name": "30_170mm_aphe_i",
     "localized": "30x170 APHE-I",
     "shell_type": "ApHe",
@@ -10047,27 +10290,18 @@
     ]
   },
   {
-    "name": "30_170mm_he_i",
-    "localized": "30x170 HE-I",
-    "shell_type": "He",
-    "caliber": 30,
-    "true_caliber": 30,
-    "velocity": 1080,
-    "penetration": [],
-    "explosive": [
-      "hexal",
-      60,
-      102
-    ]
-  },
-  {
     "name": "30_170mm_he_i_t",
     "localized": "30x170 HE-I-T",
     "shell_type": "He",
     "caliber": 30,
     "true_caliber": 30,
     "velocity": 1080,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        70
+      ]
+    ],
     "explosive": [
       "hexal",
       50,
@@ -10088,9 +10322,9 @@
       ]
     ],
     "explosive": [
-      "",
-      0,
-      0
+      "a_ix_2",
+      12,
+      18
     ]
   },
   {
@@ -10103,7 +10337,7 @@
     "penetration": [
       [
         0,
-        101
+        102
       ],
       [
         100,
@@ -10154,7 +10388,7 @@
       ],
       [
         500,
-        1
+        2
       ],
       [
         1000,
@@ -10181,13 +10415,29 @@
     "penetration": [
       [
         0,
-        57
+        2
+      ],
+      [
+        100,
+        2
+      ],
+      [
+        500,
+        2
+      ],
+      [
+        1000,
+        1
+      ],
+      [
+        1500,
+        0
       ]
     ],
     "explosive": [
-      "",
-      0,
-      0
+      "hta",
+      70,
+      84
     ]
   },
   {
@@ -10200,13 +10450,29 @@
     "penetration": [
       [
         0,
-        82
+        2
+      ],
+      [
+        100,
+        2
+      ],
+      [
+        500,
+        2
+      ],
+      [
+        1000,
+        1
+      ],
+      [
+        1500,
+        0
       ]
     ],
     "explosive": [
-      "",
-      0,
-      0
+      "hta",
+      70,
+      84
     ]
   },
   {
@@ -10223,9 +10489,28 @@
       ]
     ],
     "explosive": [
-      "",
-      0,
-      0
+      "a_ix_2",
+      12,
+      18
+    ]
+  },
+  {
+    "name": "30mm_UBR6",
+    "localized": "30 mm APT",
+    "shell_type": "ApSolid",
+    "caliber": 30,
+    "true_caliber": 30,
+    "velocity": 970,
+    "penetration": [
+      [
+        0,
+        64
+      ]
+    ],
+    "explosive": [
+      "a_ix_2",
+      49,
+      75
     ]
   },
   {
@@ -10235,25 +10520,16 @@
     "caliber": 30,
     "true_caliber": 30,
     "velocity": 960,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        62
+      ]
+    ],
     "explosive": [
       "a_ix_2",
       49,
       75
-    ]
-  },
-  {
-    "name": "30mm_UOR6",
-    "localized": "30mm_UOR6",
-    "shell_type": "He",
-    "caliber": 30,
-    "true_caliber": 30,
-    "velocity": 960,
-    "penetration": [],
-    "explosive": [
-      "a_ix_2",
-      12,
-      18
     ]
   },
   {
@@ -10313,9 +10589,9 @@
       ]
     ],
     "explosive": [
-      "",
-      0,
-      0
+      "hexal",
+      32,
+      54
     ]
   },
   {
@@ -10361,11 +10637,11 @@
     "penetration": [
       [
         0,
-        120
+        121
       ],
       [
         100,
-        118
+        119
       ],
       [
         500,
@@ -10377,7 +10653,7 @@
       ],
       [
         1500,
-        92
+        93
       ],
       [
         2000,
@@ -10385,7 +10661,7 @@
       ],
       [
         3000,
-        64
+        65
       ]
     ],
     "explosive": [
@@ -10500,6 +10776,25 @@
     "caliber": 35,
     "true_caliber": 35,
     "velocity": 1175,
+    "penetration": [
+      [
+        0,
+        90
+      ]
+    ],
+    "explosive": [
+      "hexal",
+      120,
+      204
+    ]
+  },
+  {
+    "name": "35_228mm_he_i_t",
+    "localized": "DM11A1",
+    "shell_type": "He",
+    "caliber": 35,
+    "true_caliber": 35,
+    "velocity": 1175,
     "penetration": [],
     "explosive": [
       "hexal",
@@ -10514,7 +10809,12 @@
     "caliber": 35,
     "true_caliber": 35,
     "velocity": 1175,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        90
+      ]
+    ],
     "explosive": [
       "hexal",
       120,
@@ -10560,6 +10860,25 @@
     ]
   },
   {
+    "name": "37mm_BT",
+    "localized": "BT",
+    "shell_type": "ApSolid",
+    "caliber": 37,
+    "true_caliber": 37,
+    "velocity": 880,
+    "penetration": [
+      [
+        0,
+        71
+      ]
+    ],
+    "explosive": [
+      "tnt",
+      34,
+      34
+    ]
+  },
+  {
     "name": "37mm_OFZ",
     "localized": "OFZ",
     "shell_type": "ApHe",
@@ -10598,6 +10917,25 @@
     "shell_type": "ApSolid",
     "caliber": 37,
     "true_caliber": 37,
+    "velocity": 1000,
+    "penetration": [
+      [
+        0,
+        86
+      ]
+    ],
+    "explosive": [
+      "a_ix_2",
+      37,
+      57
+    ]
+  },
+  {
+    "name": "37mm_UBR_167",
+    "localized": "BR-167",
+    "shell_type": "ApSolid",
+    "caliber": 37,
+    "true_caliber": 37,
     "velocity": 868,
     "penetration": [
       [
@@ -10609,6 +10947,25 @@
       "",
       0,
       0
+    ]
+  },
+  {
+    "name": "37mm_UBR_167",
+    "localized": "BR-167",
+    "shell_type": "ApSolid",
+    "caliber": 37,
+    "true_caliber": 37,
+    "velocity": 868,
+    "penetration": [
+      [
+        0,
+        70
+      ]
+    ],
+    "explosive": [
+      "a_ix_2",
+      37,
+      57
     ]
   },
   {
@@ -10817,6 +11174,25 @@
       "",
       0,
       0
+    ]
+  },
+  {
+    "name": "37mm_m59a1",
+    "localized": "M59A1 shot",
+    "shell_type": "ApSolid",
+    "caliber": 37,
+    "true_caliber": 37,
+    "velocity": 625,
+    "penetration": [
+      [
+        0,
+        48
+      ]
+    ],
+    "explosive": [
+      "tetryl",
+      45,
+      65
     ]
   },
   {
@@ -11510,6 +11886,25 @@
     "caliber": 40,
     "true_caliber": 40,
     "velocity": 880,
+    "penetration": [
+      [
+        0,
+        73
+      ]
+    ],
+    "explosive": [
+      "tnt",
+      68,
+      68
+    ]
+  },
+  {
+    "name": "40mm_HF_MKII_TL",
+    "localized": "40 mm HET",
+    "shell_type": "ApHe",
+    "caliber": 40,
+    "true_caliber": 40,
+    "velocity": 880,
     "penetration": [],
     "explosive": [
       "tnt",
@@ -11537,6 +11932,25 @@
     ]
   },
   {
+    "name": "40mm_M81A1",
+    "localized": "M81A1",
+    "shell_type": "ApSolid",
+    "caliber": 40,
+    "true_caliber": 40,
+    "velocity": 874,
+    "penetration": [
+      [
+        0,
+        72
+      ]
+    ],
+    "explosive": [
+      "tnt",
+      63,
+      63
+    ]
+  },
+  {
     "name": "40mm_M81_AP",
     "localized": "40 mm APT",
     "shell_type": "ApSolid",
@@ -11550,9 +11964,9 @@
       ]
     ],
     "explosive": [
-      "",
-      0,
-      0
+      "tnt",
+      68,
+      68
     ]
   },
   {
@@ -11597,9 +12011,28 @@
       ]
     ],
     "explosive": [
-      "",
-      0,
-      0
+      "octol",
+      165,
+      262
+    ]
+  },
+  {
+    "name": "40mm_l70_ap",
+    "localized": "40 mm AP-T",
+    "shell_type": "ApSolid",
+    "caliber": 40,
+    "true_caliber": 40,
+    "velocity": 1025,
+    "penetration": [
+      [
+        0,
+        93
+      ]
+    ],
+    "explosive": [
+      "tetryl",
+      100,
+      145
     ]
   },
   {
@@ -11609,7 +12042,12 @@
     "caliber": 40,
     "true_caliber": 40,
     "velocity": 1005,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        93
+      ]
+    ],
     "explosive": [
       "tetryl",
       100,
@@ -11623,7 +12061,12 @@
     "caliber": 40,
     "true_caliber": 40,
     "velocity": 1100,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        98
+      ]
+    ],
     "explosive": [
       "octol",
       165,
@@ -11656,7 +12099,12 @@
     "caliber": 40,
     "true_caliber": 40,
     "velocity": 1100,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        98
+      ]
+    ],
     "explosive": [
       "octol",
       120,
@@ -11837,7 +12285,7 @@
   {
     "name": "40mm_slpprj_m42",
     "localized": "slpprj m/42",
-    "shell_type": "ApSolid",
+    "shell_type": "ApHe",
     "caliber": 40,
     "true_caliber": 40,
     "velocity": 800,
@@ -11848,9 +12296,9 @@
       ]
     ],
     "explosive": [
-      "",
-      0,
-      0
+      "tnt",
+      44,
+      44
     ]
   },
   {
@@ -11867,9 +12315,9 @@
       ]
     ],
     "explosive": [
-      "",
-      0,
-      0
+      "tnt",
+      44,
+      44
     ]
   },
   {
@@ -11922,7 +12370,12 @@
     "caliber": 40,
     "true_caliber": 40,
     "velocity": 850,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        75
+      ]
+    ],
     "explosive": [
       "tnt",
       44,
@@ -12596,7 +13049,7 @@
       ],
       [
         500,
-        1
+        2
       ],
       [
         1000,
@@ -12881,6 +13334,25 @@
       "tnt",
       220,
       220
+    ]
+  },
+  {
+    "name": "57mm_or_281u",
+    "localized": "OR-281U",
+    "shell_type": "He",
+    "caliber": 57,
+    "true_caliber": 57,
+    "velocity": 1000,
+    "penetration": [
+      [
+        0,
+        151
+      ]
+    ],
+    "explosive": [
+      "a_ix_2",
+      153,
+      236
     ]
   },
   {
@@ -19393,49 +19865,6 @@
     ]
   },
   {
-    "name": "ap_i_ball_M8",
-    "localized": "ap_i_ball_M8",
-    "shell_type": "ApSolid",
-    "caliber": 13,
-    "true_caliber": 13,
-    "velocity": 929,
-    "penetration": [
-      [
-        0,
-        23
-      ],
-      [
-        100,
-        22
-      ],
-      [
-        500,
-        16
-      ],
-      [
-        1000,
-        10
-      ],
-      [
-        1500,
-        6
-      ],
-      [
-        2000,
-        5
-      ],
-      [
-        2500,
-        3
-      ]
-    ],
-    "explosive": [
-      "",
-      0,
-      0
-    ]
-  },
-  {
     "name": "ap_i_ball_b32",
     "localized": "ap_i_ball_b32",
     "shell_type": "ApSolid",
@@ -19488,7 +19917,128 @@
     "penetration": [
       [
         0,
+        23
+      ],
+      [
+        100,
+        22
+      ],
+      [
+        500,
+        16
+      ],
+      [
+        1000,
+        10
+      ],
+      [
+        1500,
+        6
+      ],
+      [
+        2000,
+        5
+      ],
+      [
+        2500,
+        3
+      ]
+    ],
+    "explosive": [
+      "",
+      0,
+      0
+    ]
+  },
+  {
+    "name": "ap_i_t_ball_M20",
+    "localized": "ap_i_t_ball_M20",
+    "shell_type": "ApSolid",
+    "caliber": 13,
+    "true_caliber": 13,
+    "velocity": 887,
+    "penetration": [
+      [
+        0,
         28
+      ]
+    ],
+    "explosive": [
+      "",
+      0,
+      0
+    ]
+  },
+  {
+    "name": "ap_i_t_ball_M20",
+    "localized": "ap_i_t_ball_M20",
+    "shell_type": "ApSolid",
+    "caliber": 13,
+    "true_caliber": 13,
+    "velocity": 929,
+    "penetration": [
+      [
+        0,
+        2
+      ],
+      [
+        100,
+        2
+      ],
+      [
+        500,
+        2
+      ],
+      [
+        1000,
+        1
+      ],
+      [
+        1500,
+        0
+      ]
+    ],
+    "explosive": [
+      "",
+      0,
+      0
+    ]
+  },
+  {
+    "name": "ap_i_t_ball_M20",
+    "localized": "ap_i_t_ball_M20",
+    "shell_type": "ApSolid",
+    "caliber": 13,
+    "true_caliber": 13,
+    "velocity": 929,
+    "penetration": [
+      [
+        0,
+        23
+      ],
+      [
+        100,
+        22
+      ],
+      [
+        500,
+        16
+      ],
+      [
+        1000,
+        10
+      ],
+      [
+        1500,
+        6
+      ],
+      [
+        2000,
+        5
+      ],
+      [
+        2500,
+        3
       ]
     ],
     "explosive": [
@@ -19779,76 +20329,6 @@
     ]
   },
   {
-    "name": "i_ball_M1",
-    "localized": "i_ball_M1",
-    "shell_type": "ApSolid",
-    "caliber": 13,
-    "true_caliber": 13,
-    "velocity": 944,
-    "penetration": [
-      [
-        0,
-        2
-      ],
-      [
-        100,
-        2
-      ],
-      [
-        500,
-        1
-      ],
-      [
-        1000,
-        1
-      ],
-      [
-        1500,
-        0
-      ]
-    ],
-    "explosive": [
-      "",
-      0,
-      0
-    ]
-  },
-  {
-    "name": "i_ball_mdz",
-    "localized": "i_ball_mdz",
-    "shell_type": "ApSolid",
-    "caliber": 13,
-    "true_caliber": 13,
-    "velocity": 850,
-    "penetration": [
-      [
-        0,
-        2
-      ],
-      [
-        100,
-        2
-      ],
-      [
-        500,
-        1
-      ],
-      [
-        1000,
-        1
-      ],
-      [
-        1500,
-        0
-      ]
-    ],
-    "explosive": [
-      "",
-      0,
-      0
-    ]
-  },
-  {
     "name": "mlrs_tank_rocket",
     "localized": "mlrs_tank_rocket",
     "shell_type": "Heat",
@@ -19918,7 +20398,7 @@
       ],
       [
         500,
-        1
+        2
       ],
       [
         1000,
@@ -19927,49 +20407,6 @@
       [
         1500,
         0
-      ]
-    ],
-    "explosive": [
-      "",
-      0,
-      0
-    ]
-  },
-  {
-    "name": "t_ball_t_38",
-    "localized": "t_ball_t_38",
-    "shell_type": "ApSolid",
-    "caliber": 13,
-    "true_caliber": 13,
-    "velocity": 850,
-    "penetration": [
-      [
-        0,
-        10
-      ],
-      [
-        100,
-        8
-      ],
-      [
-        500,
-        7
-      ],
-      [
-        1000,
-        6
-      ],
-      [
-        1500,
-        4
-      ],
-      [
-        2000,
-        3
-      ],
-      [
-        2500,
-        2
       ]
     ],
     "explosive": [

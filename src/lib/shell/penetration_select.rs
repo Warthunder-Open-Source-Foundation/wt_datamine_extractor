@@ -1,7 +1,7 @@
 use std::str::FromStr;
 
 use crate::shell::demarre::{DemarreMod, penetration_from_demarre};
-use crate::util::parameter_to_data;
+use crate::util::{get_sep, parameter_to_data};
 
 pub fn shell_to_penetration(shell: &str) -> Vec<(u32, u32)> {
 	// X axis represents ranges from 0, 100, 500, 1000, 1500, 2000, 3000, 10000 and 20000
@@ -12,9 +12,11 @@ pub fn shell_to_penetration(shell: &str) -> Vec<(u32, u32)> {
 		penetration.push((0, pen_32));
 	} else if shell.contains("ArmorPower0m") {
 		for range in 0..5000 / 100 {
-			if let Some(param) = &parameter_to_data(shell, &format!("ArmorPower{}m", range * 100)) {
-				let param_64 = f64::from_str(&param.split('.').collect::<Vec<&str>>()[0].replace('[', "")).unwrap();
-				penetration.push((range * 100, param_64.round() as u32));
+			let split = shell.split(&format!("ArmorPower{}m", range * 100)).collect::<Vec<&str>>();
+			if let Some(last) = split.get(1) {
+				let by_newline = last.split(&get_sep(&file!())).collect::<Vec<&str>>();
+				let pen = by_newline[1].replace("\r", "").replace(",", "").trim().parse::<f64>().unwrap();
+				penetration.push((range * 100, pen.round() as u32));
 			}
 		}
 	} else if shell.contains("demarre") {

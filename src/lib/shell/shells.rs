@@ -63,7 +63,13 @@ impl Shell {
 			};
 
 			// Shells can sometimes fail to resolve and therefore require manual checking
-			let shell_type = if let Ok(result) = ShellType::from_str(&parameter_to_data(bullet, "bulletType").unwrap()) {
+			// Dumb edge case
+			// TODO https://github.com/Warthunder-Open-Source-Foundation/wt_datamine_extractor/issues/65
+			let mut pre_type = parameter_to_data(bullet, "bulletType").unwrap();
+			if name == "152mm_mim146" {
+				pre_type = "\"atgm_tank\"".to_owned();
+			}
+			let shell_type = if let Ok(result) = ShellType::from_str(&pre_type) {
 				result
 			} else if explosive.0.is_empty() {
 				ShellType::ApSolid
@@ -71,6 +77,7 @@ impl Shell {
 				ShellType::ApHe
 			};
 
+			println!("{}", &name);
 			let penetration: Vec<(u32, u32)> = shell_to_penetration(bullet);
 
 			shells.push(
