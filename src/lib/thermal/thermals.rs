@@ -2,6 +2,7 @@ use get_size::GetSize;
 
 use crate::extraction_traits::core::ExtractCore;
 use crate::lang::{Lang, name_to_local};
+use crate::util::get_sep;
 
 #[derive(Clone, serde::Serialize, serde::Deserialize, Debug, PartialEq, const_gen::CompileConst, get_size::GetSize)]
 pub struct Thermal {
@@ -60,18 +61,29 @@ impl ExtractCore for Thermal {
 
 impl Sight {
 	pub fn from_file(file: &str, keyword: &str) -> Self {
-		let crew = if keyword == "gunnerThermal" {
-			Crew::Gunner
-		} else if keyword == "commanderViewThermal" {
-			Crew::Commander
-		} else {
-			Crew::Global
+		let crew = match keyword {
+			"gunnerThermal" => Crew::Gunner,
+			"commanderViewThermal" => Crew::Commander,
+			_ => Crew::Global
 		};
 
-		let part = &file.split(keyword).collect::<Vec<&str>>()[1].split('\n').collect::<Vec<&str>>()[1];
-		let array = part.split('[').collect::<Vec<&str>>()[1].split(']').collect::<Vec<&str>>()[0];
-		let x: f64 = array.split(',').collect::<Vec<&str>>()[0].parse().unwrap();
-		let y: f64 = array.split(',').collect::<Vec<&str>>()[1].parse().unwrap();
+		// Splits file at the start of the wanted thermal sight
+		let keyword_split = &file.split(keyword).collect::<Vec<&str>>();
+		// Get the start of the sight
+		let start_sight = keyword_split.last().unwrap();
+
+		let start_of_resolution = start_sight.split("resolution").collect::<Vec<&str>>();
+
+		let split_by_newline = start_of_resolution.last().unwrap().split(&get_sep(file)).collect::<Vec<&str>>();
+
+		let raw_x = split_by_newline[1];
+		let raw_y = split_by_newline[2];
+
+		let split_x = raw_x.split(',').collect::<Vec<&str>>();
+		let x: f64 = split_x.first().unwrap().trim().parse().unwrap();
+
+		let split_y = raw_y.split(',').collect::<Vec<&str>>();
+		let y: f64 = split_y.first().unwrap().trim().parse().unwrap();
 		Sight {
 			crew,
 			x,

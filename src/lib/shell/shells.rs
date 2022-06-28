@@ -1,5 +1,6 @@
 use std::collections::HashSet;
 use std::fs;
+use std::ops::Not;
 use std::str::FromStr;
 
 use get_size::GetSize;
@@ -52,23 +53,31 @@ impl Shell {
 
 			let velocity = f64::from_str(&parameter_to_data(bullet, "speed").unwrap_or_else(|| "0".to_owned())).expect(&name).round() as u32;
 
-			let explosive: (String, f64, f64) = {
-				let explosive_type = parameter_to_data(bullet, "explosiveType").map_or_else(|| "".to_owned(), |value| value.trim().replace('\\', "").replace('\"', ""));
-				let raw_mass: f64 = parameter_to_data(bullet, "explosiveMass").as_ref().map_or(0.0, |mass| (f64::from_str(mass).unwrap() * 1000.0).round());
-				(
-					explosive_type.clone(),
-					raw_mass,
-					explosive_type_to_tnt(&explosive_type, raw_mass)
-				)
-			};
-
 			// Shells can sometimes fail to resolve and therefore require manual checking
-			let shell_type = if let Ok(result) = ShellType::from_str(&parameter_to_data(bullet, "bulletType").unwrap()) {
+			// Dumb edge case
+			// TODO https://github.com/Warthunder-Open-Source-Foundation/wt_datamine_extractor/issues/65
+			let mut pre_type = parameter_to_data(bullet, "bulletType").unwrap();
+			if name == "152mm_mim146" {
+				pre_type = "\"atgm_tank\"".to_owned();
+			}
+			let shell_type = if let Ok(result) = ShellType::from_str(&pre_type) {
 				result
-			} else if explosive.0.is_empty() {
+			} else if !bullet.contains("explosiveType") {
 				ShellType::ApSolid
 			} else {
 				ShellType::ApHe
+			};
+
+			let explosive: (String, f64, f64) = if shell_type.is_inert().not() {
+					let explosive_type = parameter_to_data(bullet, "explosiveType").map_or_else(|| "".to_owned(), |value| value.trim().replace('\\', "").replace('\"', ""));
+					let raw_mass: f64 = parameter_to_data(bullet, "explosiveMass").as_ref().map_or(0.0, |mass| (f64::from_str(mass).unwrap() * 1000.0).round());
+					(
+						explosive_type.clone(),
+						raw_mass,
+						explosive_type_to_tnt(&explosive_type, raw_mass)
+					)
+			} else {
+				("".to_owned(), 0.0, 0.0)
 			};
 
 			let penetration: Vec<(u32, u32)> = shell_to_penetration(bullet);
@@ -288,6 +297,18 @@ impl FromStr for ShellType {
 				Err("Failed to resolve shell type from direct parameter".to_owned())
 			}
 			_ => { panic!("Cannot determine shell type {}", s) }
+		}
+	}
+}
+
+impl ShellType {
+	// Catches extra edge cases
+	pub fn is_inert(&self) -> bool {
+		match self {
+			Self::ApCr |
+			Self::ApSolid
+			=> true,
+			_ => false
 		}
 	}
 }
