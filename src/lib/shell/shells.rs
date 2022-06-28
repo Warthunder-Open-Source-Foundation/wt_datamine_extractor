@@ -77,7 +77,6 @@ impl Shell {
 				ShellType::ApHe
 			};
 
-			println!("{}", &name);
 			let penetration: Vec<(u32, u32)> = shell_to_penetration(bullet);
 
 			shells.push(
