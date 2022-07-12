@@ -10152,12 +10152,12 @@
     ]
   },
   {
-    "name": "30_170mm_apds_t",
-    "localized": "30х170 APDS-T",
-    "shell_type": "Apds",
+    "name": "30_170mm_aphe_i",
+    "localized": "30x170 APHE-I",
+    "shell_type": "ApHe",
     "caliber": 30,
     "true_caliber": 30,
-    "velocity": 1175,
+    "velocity": 1080,
     "penetration": [
       [
         0,
