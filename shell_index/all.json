@@ -6758,9 +6758,9 @@
       ]
     ],
     "explosive": [
-      "comp_b",
-      2450,
-      3210
+      "octol",
+      2360,
+      3752
     ]
   },
   {
@@ -6777,9 +6777,9 @@
       ]
     ],
     "explosive": [
-      "comp_b",
-      2080,
-      2725
+      "lx14",
+      2040,
+      2876
     ]
   },
   {
@@ -6796,9 +6796,9 @@
       ]
     ],
     "explosive": [
-      "comp_b",
-      2450,
-      3210
+      "octol",
+      2360,
+      3752
     ]
   },
   {
@@ -6815,9 +6815,9 @@
       ]
     ],
     "explosive": [
-      "comp_b",
-      2080,
-      2725
+      "lx14",
+      2040,
+      2876
     ]
   },
   {
@@ -6853,9 +6853,9 @@
       ]
     ],
     "explosive": [
-      "comp_b",
-      2450,
-      3210
+      "octol",
+      2360,
+      3752
     ]
   },
   {
@@ -6872,9 +6872,9 @@
       ]
     ],
     "explosive": [
-      "comp_b",
-      2080,
-      2725
+      "lx14",
+      2040,
+      2876
     ]
   },
   {
@@ -6900,8 +6900,8 @@
     "name": "127mm_tow_2b",
     "localized": "TOW-2B",
     "shell_type": "Atgm",
-    "caliber": 127,
-    "true_caliber": 127,
+    "caliber": 152,
+    "true_caliber": 152,
     "velocity": 0,
     "penetration": [
       [
@@ -6910,9 +6910,9 @@
       ]
     ],
     "explosive": [
-      "comp_b",
+      "lx14",
       2400,
-      3144
+      3384
     ]
   },
   {
@@ -8257,9 +8257,9 @@
       ]
     ],
     "explosive": [
-      "comp_b",
+      "lx14",
       3130,
-      4100
+      4413
     ]
   },
   {
@@ -8313,9 +8313,9 @@
       ]
     ],
     "explosive": [
-      "comp_b",
+      "lx14",
       3130,
-      4100
+      4413
     ]
   },
   {
@@ -8332,9 +8332,9 @@
       ]
     ],
     "explosive": [
-      "comp_b",
+      "lx14",
       3200,
-      4192
+      4512
     ]
   },
   {
@@ -10152,12 +10152,12 @@
     ]
   },
   {
-    "name": "30_170mm_apds_t",
-    "localized": "30х170 APDS-T",
-    "shell_type": "Apds",
+    "name": "30_170mm_aphe_i",
+    "localized": "30x170 APHE-I",
+    "shell_type": "ApHe",
     "caliber": 30,
     "true_caliber": 30,
-    "velocity": 1175,
+    "velocity": 1080,
     "penetration": [
       [
         0,

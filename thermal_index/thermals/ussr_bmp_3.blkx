@@ -372,9 +372,18 @@
       "armorThickness": 35.0,
       "gun_barrel_dm": {},
       "gun_barrel_01_dm": {
-        "armorThrough": 10.0,
-        "armorThickness": 5.0,
-        "hp": 50.0
+        "armorThrough": [
+          10.0,
+          10.0
+        ],
+        "armorThickness": [
+          5.0,
+          35.0
+        ],
+        "hp": [
+          50.0,
+          200.0
+        ]
       },
       "gun_barrel_02_dm": {
         "armorThrough": [
@@ -1532,6 +1541,7 @@
         "speedPitch": 35.0,
         "fireConeAngle": 1.0,
         "bullets": 500,
+        "rearmCartridgeTime": 20.0,
         "salvoAmount": 100.0,
         "ChainfireTime": 0.0,
         "DelayAfterShoot": 5.0,
@@ -3020,6 +3030,7 @@
               "speedPitch": 35.0,
               "fireConeAngle": 1.0,
               "bullets": 500,
+              "rearmCartridgeTime": 20.0,
               "salvoAmount": 100.0,
               "ChainfireTime": 0.0,
               "DelayAfterShoot": 5.0,
@@ -3365,6 +3376,7 @@
               "defaultPitch": 0.0,
               "allowableDelta": 360.0,
               "salvo": 3,
+              "salvoDelay": 0.5,
               "speedYaw": 24.0,
               "speedPitch": 15.0,
               "fireConeAngle": [

@@ -2559,6 +2559,7 @@
           15.0
         ],
         "bullets": 1000,
+        "rearmCartridgeTime": 20.0,
         "ChainfireTime": 3.0,
         "DelayAfterShoot": 3.0,
         "accuracyAir": 0.0,
@@ -2795,6 +2796,7 @@
                 15.0
               ],
               "bullets": 1000,
+              "rearmCartridgeTime": 20.0,
               "ChainfireTime": 3.0,
               "DelayAfterShoot": 3.0,
               "accuracyAir": 0.0,
@@ -2916,6 +2918,7 @@
               "defaultPitch": 0.0,
               "allowableDelta": 360.0,
               "salvo": 4,
+              "salvoDelay": 0.5,
               "speedYaw": 24.0,
               "speedPitch": 15.0,
               "fireConeAngle": 1.0,

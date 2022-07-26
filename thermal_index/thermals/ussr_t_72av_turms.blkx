@@ -43,10 +43,7 @@
   "destroysRendInstances": true,
   "destroysTrees": true,
   "type": "typeMediumTank",
-  "bladeAnimVar": [
-    "t_72m2_moderna_dozer_blade_action",
-    "t_72av_turms_dozer_blade_action"
-  ],
+  "bladeAnimVar": "t_72av_turms_dozer_blade_action",
   "rearmSmokeTimeOnField": 60.0,
   "canReloadNonGuns": true,
   "smokeScreenActivateTime": 5.0,
@@ -3347,6 +3344,7 @@
               "defaultPitch": 0.0,
               "allowableDelta": 360.0,
               "salvo": 4,
+              "salvoDelay": 0.5,
               "speedYaw": 24.0,
               "speedPitch": 15.0,
               "fireConeAngle": 1.0,
