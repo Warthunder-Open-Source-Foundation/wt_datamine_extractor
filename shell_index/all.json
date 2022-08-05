@@ -13990,6 +13990,58 @@
     ]
   },
   {
+    "name": "75mm_43m",
+    "localized": "75mm_43m",
+    "shell_type": "ApHe",
+    "caliber": 75,
+    "true_caliber": 75,
+    "velocity": 770,
+    "penetration": [
+      [
+        0,
+        145
+      ]
+    ],
+    "explosive": [
+      "h10",
+      17,
+      29
+    ]
+  },
+  {
+    "name": "75mm_43m_he",
+    "localized": "75mm_43m_he",
+    "shell_type": "He",
+    "caliber": 75,
+    "true_caliber": 75,
+    "velocity": 550,
+    "penetration": [],
+    "explosive": [
+      "tnt",
+      686,
+      686
+    ]
+  },
+  {
+    "name": "75mm_43m_heat",
+    "localized": "75mm_43m_heat",
+    "shell_type": "Heat",
+    "caliber": 75,
+    "true_caliber": 75,
+    "velocity": 550,
+    "penetration": [
+      [
+        0,
+        80
+      ]
+    ],
+    "explosive": [
+      "h5",
+      513,
+      872
+    ]
+  },
+  {
     "name": "75mm_eps_m42",
     "localized": "EPS M42",
     "shell_type": "Heat",
