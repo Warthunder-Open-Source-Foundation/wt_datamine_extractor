@@ -3609,6 +3609,141 @@
     ]
   },
   {
+    "name": "120mm_122tm_he",
+    "localized": "120mm_122tm_he",
+    "shell_type": "He",
+    "caliber": 120,
+    "true_caliber": 120,
+    "velocity": 940,
+    "penetration": [],
+    "explosive": [
+      "tnt",
+      2763,
+      2763
+    ]
+  },
+  {
+    "name": "120mm_122tm_heat",
+    "localized": "120mm_122tm_heat",
+    "shell_type": "HeatFs",
+    "caliber": 120,
+    "true_caliber": 120,
+    "velocity": 1000,
+    "penetration": [
+      [
+        0,
+        440
+      ]
+    ],
+    "explosive": [
+      "rdx_tnt",
+      1350,
+      1728
+    ]
+  },
+  {
+    "name": "120mm_122tm_steel",
+    "localized": "120mm_122tm_steel",
+    "shell_type": "ApFsDs",
+    "caliber": 120,
+    "true_caliber": 42,
+    "velocity": 1610,
+    "penetration": [
+      [
+        0,
+        285
+      ],
+      [
+        100,
+        279
+      ],
+      [
+        500,
+        263
+      ],
+      [
+        1000,
+        243
+      ],
+      [
+        1500,
+        222
+      ],
+      [
+        2000,
+        202
+      ],
+      [
+        3000,
+        163
+      ]
+    ],
+    "explosive": [
+      "",
+      0,
+      0
+    ]
+  },
+  {
+    "name": "120mm_122tm_tungsten",
+    "localized": "120mm_122tm_tungsten",
+    "shell_type": "ApFsDs",
+    "caliber": 120,
+    "true_caliber": 42,
+    "velocity": 1610,
+    "penetration": [
+      [
+        0,
+        350
+      ],
+      [
+        100,
+        347
+      ],
+      [
+        500,
+        322
+      ],
+      [
+        1000,
+        300
+      ],
+      [
+        1500,
+        283
+      ],
+      [
+        2000,
+        270
+      ],
+      [
+        2500,
+        251
+      ],
+      [
+        3000,
+        240
+      ],
+      [
+        3500,
+        211
+      ],
+      [
+        4000,
+        183
+      ],
+      [
+        4500,
+        143
+      ]
+    ],
+    "explosive": [
+      "",
+      0,
+      0
+    ]
+  },
+  {
     "name": "120mm_common_he_base_fuze",
     "localized": "C.P.(BF)",
     "shell_type": "ApHe",
@@ -20016,6 +20151,25 @@
       "hbx",
       1110,
       1776
+    ]
+  },
+  {
+    "name": "atgm_302",
+    "localized": "atgm_302",
+    "shell_type": "Atgm",
+    "caliber": 120,
+    "true_caliber": 120,
+    "velocity": 0,
+    "penetration": [
+      [
+        0,
+        480
+      ]
+    ],
+    "explosive": [
+      "tp_88",
+      1505,
+      1957
     ]
   },
   {
