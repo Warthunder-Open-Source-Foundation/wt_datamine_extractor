@@ -863,6 +863,7 @@
       "replenishmentDelay": 3.0,
       "shells": [
         {
+          "fireParamsPreset": "turret_bustle",
           "fatalFire": false,
           "fatalExplosion": false,
           "firstStage": true,
@@ -942,6 +943,9 @@
         {
           "fatalFire": true,
           "fatalExplosion": true,
+          "fireEvent": "ammo_fire",
+          "explosionEvent": "ammo_explosion",
+          "wreckedPartId": 0,
           "reloadTimeMult": 2.0,
           "ammo_body_01_dm": {
             "count": 1
@@ -992,6 +996,9 @@
         {
           "fatalFire": true,
           "fatalExplosion": true,
+          "fireEvent": "ammo_fire",
+          "explosionEvent": "ammo_explosion",
+          "wreckedPartId": 0,
           "reloadTimeMult": 1.28,
           "ammo_turret_01_dm": {
             "count": 1
@@ -1894,7 +1901,7 @@
           1.0,
           15.0
         ],
-        "bullets": 8900,
+        "bullets": 9000,
         "isBulletBelt": true,
         "ChainfireTime": 3.0,
         "DelayAfterShoot": 3.0,

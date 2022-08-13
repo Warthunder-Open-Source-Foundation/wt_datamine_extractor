@@ -133,7 +133,7 @@
   },
   {
     "name": "ah_64a_peten",
-    "localized": "AH-64A Peten",
+    "localized": "✪AH-64A Peten",
     "vehicle_type": "Helicopter",
     "sights": [
       {
@@ -1274,7 +1274,7 @@
   },
   {
     "name": "sa_342m",
-    "localized": "SA 342M Gazelle",
+    "localized": "SA.342M Gazelle",
     "vehicle_type": "Helicopter",
     "sights": [
       {
