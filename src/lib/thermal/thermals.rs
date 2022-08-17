@@ -27,8 +27,6 @@ impl ExtractCore for Thermal {
 
 		let mut sights: Vec<Sight> = vec![];
 
-		dbg!(&name);
-
 		if file.contains("gunnerThermal") {
 			sights.push(Sight::from_file(&file, "gunnerThermal"));
 		}
@@ -44,7 +42,6 @@ impl ExtractCore for Thermal {
 		if file.contains("sightThermal") {
 			sights.push(Sight::from_file(&file, "sightThermal"));
 		}
-		dbg!(&sights);
 		if sights.is_empty() {
 			assert!(!sights.is_empty(), "Missing sight on {}", name);
 		}
