@@ -3,6 +3,7 @@ use std::time::Instant;
 
 use get_size::GetSize;
 
+use wt_datamine_extractor_lib::battle_rating::battle_rating::VehicleBattleRating;
 use wt_datamine_extractor_lib::bombs::bombs::Bomb;
 use wt_datamine_extractor_lib::bombs::known_bombs::{KNOWN_BOMBS_LOC, KnownBombs};
 use wt_datamine_extractor_lib::extraction_traits::core::ExtractCore;
@@ -23,6 +24,7 @@ fn main() {
 	if fs::read_dir("resources/cache").is_ok() {
 		fs::write("meta_index/version.txt", &fs::read_to_string("resources/cache/aces.vromfs.bin_u/version").unwrap()).unwrap();
 		fs::write("explosive/explosive.blkx", &fs::read_to_string("resources/cache/aces.vromfs.bin_u/gamedata/damage_model/explosive.blkx").unwrap()).unwrap();
+		fs::write("battle_rating/wpcost.blkx", &fs::read_to_string("resources/cache/char.vromfs.bin_u/config/wpcost.blkx").unwrap()).unwrap();
 
 		copy_lang();
 		// copy_loadouts();
@@ -38,6 +40,7 @@ fn main() {
 		let shells = Shell::generate_from_index(&known_shells);
 		// let loadouts = CustomLoadout::generate_from_index(known_loadouts, "custom_loadouts/aircraft/");
 		let bombs = Bomb::generate_from_index(known_bombs, "bombs/index/");
+		let battle_ratings = VehicleBattleRating::generate_from_index("battle_rating/wpcost.blkx");
 
 		let compressed_shells = CompressedShells::compress(&shells);
 
@@ -57,6 +60,7 @@ fn main() {
 		Shell::write_all(shells);
 		// CustomLoadout::write_all(loadouts, "custom_loadouts/all.json");
 		Bomb::write_all(bombs, "bombs/all.json");
+		VehicleBattleRating::write_all(battle_ratings, "battle_rating/all.json");
 	} else {
 		panic!("Local mined cache is invalid or could not be read");
 	}

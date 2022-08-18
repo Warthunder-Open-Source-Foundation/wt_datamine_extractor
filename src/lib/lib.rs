@@ -20,5 +20,6 @@ pub mod explosive;
 pub mod custom_loadouts;
 pub mod bombs;
 pub mod extraction_traits;
+pub mod battle_rating;
 
 pub const MISSILES_PATH: &str = "./missile_index/missiles";
