@@ -1,4 +1,5 @@
 use std::str::FromStr;
+
 use get_size::GetSize;
 
 use crate::extraction_traits::core::ExtractCore;
@@ -76,7 +77,7 @@ impl Sight {
 
 		let x_y_split = end_res.split(",").collect::<Vec<&str>>();
 
-		let split_n_clean= |idx: usize| f64::from_str(x_y_split[idx].trim()).unwrap();
+		let split_n_clean = |idx: usize| f64::from_str(x_y_split[idx].trim()).unwrap();
 
 		let x = split_n_clean(0);
 		let y = split_n_clean(1);
