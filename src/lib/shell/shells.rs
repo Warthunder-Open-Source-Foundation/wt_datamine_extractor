@@ -69,13 +69,13 @@ impl Shell {
 			};
 
 			let explosive: (String, f64, f64) = if shell_type.is_inert().not() {
-					let explosive_type = parameter_to_data(bullet, "explosiveType").map_or_else(|| "".to_owned(), |value| value.trim().replace('\\', "").replace('\"', ""));
-					let raw_mass: f64 = parameter_to_data(bullet, "explosiveMass").as_ref().map_or(0.0, |mass| (f64::from_str(mass).unwrap() * 1000.0).round());
-					(
-						explosive_type.clone(),
-						raw_mass,
-						explosive_type_to_tnt(&explosive_type, raw_mass)
-					)
+				let explosive_type = parameter_to_data(bullet, "explosiveType").map_or_else(|| "".to_owned(), |value| value.trim().replace('\\', "").replace('\"', ""));
+				let raw_mass: f64 = parameter_to_data(bullet, "explosiveMass").as_ref().map_or(0.0, |mass| (f64::from_str(mass).unwrap() * 1000.0).round());
+				(
+					explosive_type.clone(),
+					raw_mass,
+					explosive_type_to_tnt(&explosive_type, raw_mass)
+				)
 			} else {
 				("".to_owned(), 0.0, 0.0)
 			};

@@ -8487,20 +8487,6 @@
     ]
   },
   {
-    "name": "152mm_wgr_41",
-    "localized": "Wgr.41 Spr",
-    "shell_type": "Rocket",
-    "caliber": 158,
-    "true_caliber": 158,
-    "velocity": 0,
-    "penetration": [],
-    "explosive": [
-      "",
-      0,
-      0
-    ]
-  },
-  {
     "name": "152mm_xm410e1",
     "localized": "XM410E1",
     "shell_type": "Smoke",

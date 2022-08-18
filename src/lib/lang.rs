@@ -39,6 +39,7 @@ const REPLACE_CHAR: [(char, char); 5] = [
 ];
 
 lazy_static! {
+	#[derive(Debug)]
     pub static ref CSV_UNIT: HashMap<String, String> = {
 		let wtcsv = WTCSV::new_from_path("lang/units.csv", "units").unwrap();
 
@@ -50,6 +51,19 @@ lazy_static! {
 
 		for item in EDGE_CASES {
 			map.insert(item.0.to_owned(), item.1.to_owned());
+		}
+
+		map
+		};
+
+	  /// Inverted hashmap for web scraping
+	  pub static ref CSV_UNIT_LOCAL_TO_INGAME: HashMap<String, String> = {
+		let wtcsv = WTCSV::new_from_path("lang/units.csv", "units").unwrap();
+
+		let mut map = HashMap::new();
+
+		for record  in wtcsv.records {
+			map.insert(record.items[1].clone(), record.items[0].clone());
 		}
 
 		map
