@@ -5,7 +5,7 @@ use serde::{Deserialize, Serialize};
 use crate::battle_rating::battle_rating_def::BattleRating;
 use crate::lang::{Lang, name_to_local};
 
-#[derive(Serialize, Deserialize, Clone, Debug, Default)]
+#[derive(Serialize, Deserialize, Clone, Debug, Default, Hash, PartialEq, Eq)]
 pub struct VehicleBattleRating {
 	pub name: String,
 	pub localized: String,
