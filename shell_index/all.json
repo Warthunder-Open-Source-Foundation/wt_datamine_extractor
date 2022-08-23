@@ -10078,11 +10078,11 @@
     "shell_type": "He",
     "caliber": 25,
     "true_caliber": 11,
-    "velocity": 1065,
+    "velocity": 1085,
     "penetration": [
       [
         0,
-        89
+        91
       ]
     ],
     "explosive": [
