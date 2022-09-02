@@ -177,7 +177,9 @@ impl FromStr for ShellType {
 			r#""apds_fs_tank""# |
 			r#""apds_fs_tungsten_small_core_tank""# |
 			r#""apds_fs_tungsten_l10_l15_tank""# |
-			r#""apds_fs_full_body_steel_tank""# => {
+			r#""apds_fs_full_body_steel_tank""# |
+			r#""apds_fs_long_l30_tank""# |
+			r#""apds_fs_tungsten_caliber_fins_tank""# => {
 				Ok(Self::ApFsDs)
 			}
 			r#""heat_fs_tank""# => {
@@ -195,6 +197,7 @@ impl FromStr for ShellType {
 			r#""he_frag_t""# |
 			r#""he_frag_vog""# |
 			r#""he_i""# |
+			r#""he_frag_t_ball""# |
 			r#""he_i_t_mine""# |
 			r#""he_grenade_tank""# => {
 				Ok(Self::He)
@@ -238,6 +241,7 @@ impl FromStr for ShellType {
 				Ok(Self::SapHei)
 			}
 			r#""apcr_tank""# |
+			r#""apcr""# |
 			r#""apcr_t""# => {
 				Ok(Self::ApCr)
 			}
@@ -247,6 +251,8 @@ impl FromStr for ShellType {
 			r#""he_i_ball""# |
 			r#""apcr_i_ball""# |
 			r#""ap_i_ball""# |
+			r#""ap_ball""# |
+			r#""ap_t_ball""# |
 			r#""t_ball""# |
 			r#""ap_i_t_ball_M20""# |
 			r#""i_ball_M1""# |
