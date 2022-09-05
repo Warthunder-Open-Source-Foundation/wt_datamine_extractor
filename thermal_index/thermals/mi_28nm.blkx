@@ -421,14 +421,6 @@
             "smoke": 0.2
           },
           {
-            "damage": 20.0,
-            "tail_dm": 0.2
-          },
-          {
-            "damage": 30.0,
-            "tail_dm": 0.4
-          },
-          {
             "damage": 50.0,
             "tail_dm": 0.6
           },
@@ -2753,7 +2745,7 @@
       },
       {
         "index": 3,
-        "tier": 7,
+        "tier": 5,
         "order": 4,
         "WeaponPreset": [
           {
@@ -2907,6 +2899,7 @@
           {
             "iconType": "atgm_type1_x4",
             "name": "9m120_x4_right",
+            "reqModification": "mi_35_9M120_8",
             "Weapon": {
               "trigger": "atgm",
               "blk": "gameData/Weapons/containers/9m120_x4_right_ataka_laser.blk",

@@ -219,14 +219,6 @@
             "smoke": 0.2
           },
           {
-            "damage": 20.0,
-            "tail_dm": 0.2
-          },
-          {
-            "damage": 30.0,
-            "tail_dm": 0.4
-          },
-          {
             "damage": 50.0,
             "tail_dm": 0.6
           },
@@ -931,13 +923,6 @@
           "page": [
             {
               "type": "map"
-            },
-            {
-              "type": "rwr"
-            },
-            {
-              "type": "radar",
-              "radarScale": 0.85
             },
             {
               "type": "devices",
@@ -1680,7 +1665,8 @@
         "gun1_dm",
         "gun2_dm",
         "cover3_dm",
-        "cover4_dm"
+        "cover4_dm",
+        "transmission2_dm"
       ]
     },
     "WeaponSlot": [
@@ -1751,13 +1737,13 @@
             }
           },
           {
-            "iconType": "missile_air_to_uni",
+            "iconType": "missile_air_to_uni_group",
             "name": "hj8_default_left_wing",
             "Weapon": {
               "trigger": "atgm",
               "external": true,
               "separate": true,
-              "blk": "gameData/Weapons/containers/cn_hj_8a_2_x1_left_wing.blk",
+              "blk": "gameData/Weapons/containers/cn_hj_8a_2_x2_left_wing.blk",
               "emitter": "hj_8_2_launcher_001"
             }
           },
@@ -1844,17 +1830,6 @@
               "emitter": "ch_rocket_pod_90mm_hf7d_2",
               "mass": 0.01,
               "dragCx": 0.01
-            }
-          },
-          {
-            "iconType": "missile_air_to_uni",
-            "name": "hj8_default_right_wing",
-            "Weapon": {
-              "trigger": "atgm",
-              "external": true,
-              "separate": true,
-              "blk": "gameData/Weapons/containers/cn_hj_8a_2_x1_right_wing.blk",
-              "emitter": "hj_8_2_launcher_002"
             }
           },
           {

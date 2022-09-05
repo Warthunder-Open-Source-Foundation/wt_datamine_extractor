@@ -225,29 +225,14 @@
             "smoke": 0.2
           },
           {
-            "damage": 9.0,
-            "wing_r_dm": 0.1,
-            "wing_l_dm": 0.1
-          },
-          {
-            "damage": 10.0,
+            "damage": 30.0,
             "wing_r_dm": 0.3,
             "wing_l_dm": 0.3
           },
           {
-            "damage": 20.0,
+            "damage": 50.0,
             "wing_r_dm": 0.5,
             "wing_l_dm": 0.5
-          },
-          {
-            "damage": 30.0,
-            "wing_r_dm": 0.7,
-            "wing_l_dm": 0.7
-          },
-          {
-            "damage": 50.0,
-            "wing_r_dm": 0.9,
-            "wing_l_dm": 0.9
           }
         ],
         "onKill": [
@@ -295,28 +280,28 @@
         "name": "spar1_l_dm",
         "onKill": {
           "nothing": 2.0,
-          "cut": 4.0
+          "cut": 3.0
         }
       },
       {
         "name": "spar1_r_dm",
         "onKill": {
           "nothing": 2.0,
-          "cut": 4.0
+          "cut": 3.0
         }
       },
       {
         "name": "spar2_l_dm",
         "onKill": {
           "nothing": 2.0,
-          "cut": 4.0
+          "cut": 3.0
         }
       },
       {
         "name": "spar2_r_dm",
         "onKill": {
           "nothing": 2.0,
-          "cut": 4.0
+          "cut": 3.0
         }
       },
       {

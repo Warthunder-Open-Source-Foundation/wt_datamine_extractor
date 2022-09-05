@@ -994,7 +994,6 @@
           "ammo_body_16_dm",
           "ammo_body_17_dm",
           "ammo_body_18_dm",
-          "ammo_body_19_dm",
           "ammo_body_20_dm",
           "ammo_body_21_dm",
           "ammo_body_22_dm",
@@ -3816,9 +3815,6 @@
             "count": 1
           },
           "ammo_turret_48_dm": {
-            "count": 1
-          },
-          "ammo_body_19_dm": {
             "count": 1
           },
           "ammo_body_20_dm": {

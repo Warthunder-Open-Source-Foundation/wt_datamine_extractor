@@ -405,14 +405,6 @@
             "smoke": 0.2
           },
           {
-            "damage": 20.0,
-            "tail_dm": 0.2
-          },
-          {
-            "damage": 30.0,
-            "tail_dm": 0.4
-          },
-          {
             "damage": 50.0,
             "tail_dm": 0.6
           },
@@ -2133,6 +2125,10 @@
         "blk": "gameData/flightModels/weaponPresets/mi_28n_rocket_c_13.blk"
       },
       {
+        "name": "mi_28n_rocket_9M120_4_default",
+        "blk": "gameData/flightModels/weaponPresets/mi_28n_rocket_9M120_4_default.blk"
+      },
+      {
         "name": "mi_28n_rocket_9M120_4",
         "blk": "gameData/flightModels/weaponPresets/mi_28n_rocket_9M120_4.blk"
       },
@@ -2541,7 +2537,6 @@
           {
             "iconType": "atgm_type1_x4",
             "name": "9m120_x4_right",
-            "reqModification": "mi_35_9M120_4",
             "Weapon": {
               "trigger": "atgm",
               "blk": "gameData/Weapons/containers/9m120_x4_right_ataka.blk",

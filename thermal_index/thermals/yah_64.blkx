@@ -358,14 +358,6 @@
             "smoke": 0.2
           },
           {
-            "damage": 20.0,
-            "tail_dm": 0.2
-          },
-          {
-            "damage": 30.0,
-            "tail_dm": 0.4
-          },
-          {
             "damage": 50.0,
             "tail_dm": 0.6
           },
@@ -2309,6 +2301,8 @@
       "tier": 3
     },
     "heli_night_vision_system": {
+      "modClass": "weapon",
+      "tier": 3,
       "image": "#ui/gameuiskin#thermal_sight.png",
       "effects": {
         "nightVision": {

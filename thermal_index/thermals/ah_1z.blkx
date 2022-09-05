@@ -3967,37 +3967,10 @@
     "new_heli_cover": {},
     "heli_flak_jacket": {},
     "heli_structure": {},
-    "heli_night_vision_system": {
-      "image": "#ui/gameuiskin#thermal_sight.png",
-      "effects": {
-        "nightVision": {
-          "gunnerIr": {
-            "resolution": [
-              1920,
-              1080
-            ],
-            "lightMult": 10.0,
-            "ghosting": 0.7,
-            "noiseFactor": 0.15
-          },
-          "pilotIr": {
-            "resolution": [
-              1920,
-              1080
-            ],
-            "lightMult": 10.0,
-            "ghosting": 0.7,
-            "noiseFactor": 0.15
-          },
-          "sightThermal": {
-            "resolution": [
-              1024,
-              768
-            ],
-            "noiseFactor": 0.05
-          }
-        }
-      }
+    "air_extinguisher": {
+      "prevModification": "heli_structure",
+      "tier": 3,
+      "invertEnableLogic": false
     },
     "t_160_universal": {},
     "t_160_air_targets": {},
@@ -4029,6 +4002,10 @@
       "reqModification": "ah_1_AGM_114_8",
       "modClass": "weapon",
       "tier": 4
+    },
+    "us_aim_9l": {
+      "tier": 3,
+      "modClass": "weapon"
     },
     "maw_countermeasures_launcher_chaff_only": {},
     "maw_countermeasures_launcher_flare_only": {},
@@ -4070,16 +4047,40 @@
         }
       }
     },
-    "us_aim_9l": {
-      "reqModification": "MAW_system_heli_false_thermal_targets",
-      "tier": 3,
-      "modClass": "weapon"
-    },
-    "air_extinguisher": {
-      "prevModification": "us_aim_9l",
-      "tier": 4,
+    "heli_night_vision_system": {
+      "prevModification": "MAW_system_heli_false_thermal_targets",
       "modClass": "weapon",
-      "invertEnableLogic": false
+      "tier": 3,
+      "image": "#ui/gameuiskin#thermal_sight.png",
+      "effects": {
+        "nightVision": {
+          "gunnerIr": {
+            "resolution": [
+              1920,
+              1080
+            ],
+            "lightMult": 10.0,
+            "ghosting": 0.7,
+            "noiseFactor": 0.15
+          },
+          "pilotIr": {
+            "resolution": [
+              1920,
+              1080
+            ],
+            "lightMult": 10.0,
+            "ghosting": 0.7,
+            "noiseFactor": 0.15
+          },
+          "sightThermal": {
+            "resolution": [
+              1024,
+              768
+            ],
+            "noiseFactor": 0.05
+          }
+        }
+      }
     }
   },
   "cutting": {

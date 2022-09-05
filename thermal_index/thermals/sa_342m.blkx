@@ -185,14 +185,6 @@
             "smoke": 0.2
           },
           {
-            "damage": 20.0,
-            "tail_dm": 0.2
-          },
-          {
-            "damage": 30.0,
-            "tail_dm": 0.4
-          },
-          {
             "damage": 50.0,
             "tail_dm": 0.6
           },

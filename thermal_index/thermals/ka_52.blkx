@@ -290,14 +290,6 @@
             "smoke": 0.2
           },
           {
-            "damage": 20.0,
-            "tail_dm": 0.2
-          },
-          {
-            "damage": 30.0,
-            "tail_dm": 0.4
-          },
-          {
             "damage": 50.0,
             "tail_dm": 0.6
           },
@@ -2319,6 +2311,9 @@
           },
           {
             "name": "2a42_exhaust_common",
+            "ShowNodes": {
+              "node": "exhaust_shield"
+            },
             "HideNodes": {
               "node": [
                 "fuse2",
@@ -2404,6 +2399,9 @@
                 "fuse4",
                 "exhaust"
               ]
+            },
+            "ShowNodes": {
+              "node": "exhaust_shield"
             },
             "Weapon": [
               {

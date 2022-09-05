@@ -316,14 +316,6 @@
             "smoke": 0.2
           },
           {
-            "damage": 20.0,
-            "tail_dm": 0.2
-          },
-          {
-            "damage": 30.0,
-            "tail_dm": 0.4
-          },
-          {
             "damage": 50.0,
             "tail_dm": 0.6
           },
@@ -2368,19 +2360,6 @@
             }
           },
           {
-            "iconType": "atgm_type_helfire_x2",
-            "name": "114b_x2",
-            "reqModification": "ah_1_AGM_114_8",
-            "Weapon": {
-              "trigger": "atgm",
-              "blk": "gameData/Weapons/containers/m279_hellfire_x2.blk",
-              "emitter": "pylon_m279_001",
-              "external": true,
-              "separate": true,
-              "machLimit": 1.01
-            }
-          },
-          {
             "iconType": "atgm_type_helfire_x4",
             "name": "114b_x4",
             "reqModification": "ah_1_AGM_114_16",
@@ -2523,19 +2502,6 @@
             "Weapon": {
               "trigger": "atgm",
               "blk": "gameData/Weapons/containers/m279_hellfire_x2_default.blk",
-              "emitter": "pylon_m279_004",
-              "external": true,
-              "separate": true,
-              "machLimit": 1.01
-            }
-          },
-          {
-            "iconType": "atgm_type_helfire_x2",
-            "name": "114b_x2",
-            "reqModification": "ah_1_AGM_114_8",
-            "Weapon": {
-              "trigger": "atgm",
-              "blk": "gameData/Weapons/containers/m279_hellfire_x2.blk",
               "emitter": "pylon_m279_004",
               "external": true,
               "separate": true,
