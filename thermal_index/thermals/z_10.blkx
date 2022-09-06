@@ -1,25 +1,27 @@
 {
-  "model": "tiger_uht",
-  "fmFile": "fm/tiger_uht.blk",
+  "model": "z_10",
+  "fmFile": "fm/z_10.blk",
+  "harmonizationSuffix": "_tomoe",
   "viewDistKInSight": 4.0,
   "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/hellicopters_metaparts.blk",
-  "harmonizationSuffix": "_tomoe",
   "haveCCIPForRocket": true,
+  "haveCCRPForRocket": false,
+  "haveCCIPForBombs": true,
   "haveCCIPForGun": true,
   "haveCCIPForTurret": true,
   "haveCCRPForGun": false,
   "haveCCRPForTurret": true,
-  "gearSinkRangeLR": 0.195,
-  "gearSinkRangeC": 0.178,
-  "tpsCameraTargetOffsetAtZoom": [
-    50.0,
-    20.0,
+  "gearSinkRangeLR": 0.216,
+  "gearSinkRangeC": 0.165,
+  "tpsCameraOffset": [
+    1.5,
+    -0.75,
     0.0
   ],
-  "tpsCameraOffset": [
-    -3.0,
-    0.0,
-    0.2
+  "tpsCameraTargetOffsetAtZoom": [
+    2.0,
+    -2.5,
+    0.0
   ],
   "type": "typeFighter",
   "paratrooper": "usa_para",
@@ -37,63 +39,59 @@
   "damagePartsToVisualEffectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_visual_effects_map.blk",
   "damagePartsExcludeFromHoleBlk": "gameData/FlightModels/DM/dm_parts_exclude_from_hole.blk",
   "explosion_dmBlk": "gameData/FlightModels/DM/commonExplosion.blk",
-  "fireParamsPreset": "300kph",
+  "fireParamsPreset": "200kph",
   "fightAiBehaviour": "helicopter",
-  "laserDesignator": true,
+  "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg",
+  "customImage": "!#ui/unitskin#image_in_progress",
+  "customTooltipImage": "ui/aircrafts/image_in_progress",
   "DamageParts": {
-    "amar_air20": {
-      "armor3_dm": {
-        "hp": 35.0
-      },
-      "armor4_dm": {
-        "hp": 35.0
-      }
-    },
     "armor10": {
       "cannon1_dm": {
         "hp": 15.0
       },
-      "cannon2_dm": {
+      "gun1_dm": {
         "hp": 15.0
       },
-      "mgun1_dm": {
-        "hp": 15.0
-      },
-      "mgun2_dm": {
+      "gun2_dm": {
         "hp": 15.0
       }
     },
-    "armor8": {
-      "armor1_dm": {
-        "hp": 40.0
-      }
-    },
-    "armor_engine": {
+    "armor_jet_engine": {
       "engine1_dm": {
         "genericDamageMult": 1.6,
-        "hp": 30.5
+        "hp": 36.1
       },
       "engine2_dm": {
         "genericDamageMult": 1.6,
-        "hp": 30.5
+        "hp": 36.1
       },
       "transmission1_dm": {
         "genericDamageMult": 1.6,
         "hp": 30.5
+      },
+      "transmission2_dm": {
+        "genericDamageMult": 1.6,
+        "hp": 30.5
+      }
+    },
+    "boron_carbide20": {
+      "armor3_dm": {
+        "hp": 40.0
+      },
+      "armor4_dm": {
+        "hp": 40.0
+      },
+      "armor5_dm": {
+        "hp": 40.0
+      },
+      "armor6_dm": {
+        "hp": 40.0
       }
     },
     "c_dural10": {
       "tail_dm": {
         "genericDamageMult": 0.6,
-        "hp": 99.5
-      },
-      "wing_l_dm": {
-        "genericDamageMult": 0.35,
-        "hp": 75.5
-      },
-      "wing_r_dm": {
-        "genericDamageMult": 0.35,
-        "hp": 75.5
+        "hp": 160.5
       }
     },
     "c_dural15": {
@@ -102,12 +100,6 @@
       }
     },
     "c_dural3": {
-      "fin1_dm": {
-        "hp": 29.5
-      },
-      "fin2_dm": {
-        "hp": 29.5
-      },
       "fin_dm": {
         "hp": 50.5
       },
@@ -116,16 +108,25 @@
       }
     },
     "dural": {
+      "cover1_dm": {
+        "hp": 19.5
+      },
       "cover2_dm": {
         "hp": 19.5
       },
       "cover3_dm": {
         "hp": 19.5
+      },
+      "cover4_dm": {
+        "hp": 19.5
       }
     },
-    "kevlar5": {
+    "new_armor_glass44": {
+      "armor1_dm": {
+        "hp": 110.0
+      },
       "armor2_dm": {
-        "hp": 35.0
+        "hp": 110.0
       }
     },
     "protected_controls": {
@@ -139,7 +140,7 @@
         "hp": 80.5
       },
       "wingcontrol_dm": {
-        "hp": 59.5
+        "hp": 80.5
       }
     },
     "steel": {
@@ -176,6 +177,9 @@
       },
       "tank2_dm": {
         "hp": 75.5
+      },
+      "tank3_dm": {
+        "hp": 44.5
       }
     }
   },
@@ -194,16 +198,25 @@
         "name": "armor4_dm"
       },
       {
+        "name": "armor5_dm"
+      },
+      {
+        "name": "armor6_dm"
+      },
+      {
         "name": "cannon1_dm"
       },
       {
-        "name": "cannon2_dm"
+        "name": "cover1_dm"
       },
       {
         "name": "cover2_dm"
       },
       {
         "name": "cover3_dm"
+      },
+      {
+        "name": "cover4_dm"
       },
       {
         "name": "engine1_dm",
@@ -260,66 +273,6 @@
             "fire": 30.0,
             "leak_oil": 10.0,
             "cut": 0.0
-          }
-        ]
-      },
-      {
-        "name": "fin1_dm",
-        "onHit": [
-          {
-            "damage": 30.0,
-            "cut": 0.6
-          },
-          {
-            "damage": 65.0,
-            "cut": 1.0
-          }
-        ],
-        "onKill": [
-          {
-            "damage": 10.0,
-            "cut": 1.0,
-            "nothing": 11.0
-          },
-          {
-            "damage": 31.0,
-            "cut": 1.0,
-            "nothing": 3.0
-          },
-          {
-            "damage": 50.0,
-            "cut": 1.0,
-            "nothing": 0.0
-          }
-        ]
-      },
-      {
-        "name": "fin2_dm",
-        "onHit": [
-          {
-            "damage": 30.0,
-            "cut": 0.6
-          },
-          {
-            "damage": 65.0,
-            "cut": 1.0
-          }
-        ],
-        "onKill": [
-          {
-            "damage": 10.0,
-            "cut": 1.0,
-            "nothing": 11.0
-          },
-          {
-            "damage": 31.0,
-            "cut": 1.0,
-            "nothing": 3.0
-          },
-          {
-            "damage": 50.0,
-            "cut": 1.0,
-            "nothing": 0.0
           }
         ]
       },
@@ -492,13 +445,13 @@
         }
       },
       {
+        "name": "gun1_dm"
+      },
+      {
+        "name": "gun2_dm"
+      },
+      {
         "name": "gunner1_dm"
-      },
-      {
-        "name": "mgun1_dm"
-      },
-      {
-        "name": "mgun2_dm"
       },
       {
         "name": "oil1_dm",
@@ -700,6 +653,50 @@
         ]
       },
       {
+        "name": "tank3_dm",
+        "onHit": [
+          {
+            "fire": 0.005,
+            "leak": 0.3
+          },
+          {
+            "damage": 3.0,
+            "fire": 0.01,
+            "leak": 0.5
+          },
+          {
+            "damage": 20.0,
+            "fire": 0.1,
+            "leak": 0.7
+          },
+          {
+            "damage": 70.0,
+            "expl": 0.5,
+            "fire": 0.4,
+            "leak": 0.9
+          }
+        ],
+        "onKill": [
+          {
+            "fire": 3.0,
+            "leak": 12.0,
+            "nothing": 85.0
+          },
+          {
+            "damage": 50.0,
+            "expl": 45.0,
+            "fire": 45.0,
+            "leak": 25.0
+          },
+          {
+            "damage": 70.0,
+            "expl": 50.0,
+            "fire": 50.0,
+            "leak": 20.0
+          }
+        ]
+      },
+      {
         "name": "transmission1_dm",
         "onHit": [
           {
@@ -729,234 +726,31 @@
         ]
       },
       {
-        "name": "wing_l_dm",
-        "defaultEffectPart": "spar_l_dm",
+        "name": "transmission2_dm",
         "onHit": [
           {
-            "smoke": 0.1,
-            "flame": 0.2
-          },
-          {
-            "damage": 10.0,
-            "cut": 0.0,
-            "smoke": 0.3,
-            "flame": 0.3,
-            "part": {
-              "ratio": 0.1,
-              "canCut": true
-            }
-          },
-          {
-            "damage": 20.0,
-            "cut": 0.0,
-            "smoke": 0.3,
-            "flame": 0.3,
-            "part": {
-              "ratio": 0.2,
-              "canCut": true
-            }
+            "fire": 0.001,
+            "leak_oil": 0.8,
+            "cut": 0.0
           },
           {
             "damage": 30.0,
-            "cut": 0.0,
-            "smoke": 0.4,
-            "flame": 0.4,
-            "part": {
-              "ratio": 0.4,
-              "canCut": true
-            }
-          },
-          {
-            "damage": 50.0,
-            "cut": 0.0,
-            "smoke": 0.6,
-            "flame": 0.6,
-            "part": {
-              "ratio": 0.8,
-              "canCut": true
-            }
-          },
-          {
-            "damage": 70.0,
-            "cut": 0.0,
-            "smoke": 0.8,
-            "flame": 0.8,
-            "part": {
-              "ratio": 1.0,
-              "canCut": true
-            }
+            "fire": 0.005,
+            "leak_oil": 0.95,
+            "cut": 0.0
           }
         ],
         "onKill": [
           {
-            "damage": 10.0,
-            "cut": 0.0,
-            "smoke": 1.0,
-            "flame": 1.0,
-            "nothing": 9.0,
-            "part": {
-              "ratio": 1.0,
-              "canCut": true
-            }
-          },
-          {
-            "damage": 20.0,
-            "cut": 0.0,
-            "smoke": 2.0,
-            "flame": 2.0,
-            "nothing": 5.0,
-            "part": {
-              "ratio": 1.0,
-              "canCut": true
-            }
+            "fire": 25.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
           },
           {
             "damage": 30.0,
-            "cut": 0.0,
-            "smoke": 2.0,
-            "flame": 2.0,
-            "nothing": 3.0,
-            "part": {
-              "ratio": 1.0,
-              "canCut": true
-            }
-          },
-          {
-            "damage": 50.0,
-            "cut": 0.0,
-            "smoke": 2.0,
-            "flame": 2.0,
-            "nothing": 1.0,
-            "part": {
-              "ratio": 1.0,
-              "canCut": true
-            }
-          },
-          {
-            "damage": 70.0,
-            "cut": 0.0,
-            "smoke": 2.0,
-            "flame": 2.0,
-            "part": {
-              "ratio": 1.0,
-              "canCut": true
-            }
-          }
-        ]
-      },
-      {
-        "name": "wing_r_dm",
-        "defaultEffectPart": "spar_r_dm",
-        "onHit": [
-          {
-            "smoke": 0.1,
-            "flame": 0.2
-          },
-          {
-            "damage": 10.0,
-            "cut": 0.0,
-            "smoke": 0.3,
-            "flame": 0.3,
-            "part": {
-              "ratio": 0.1,
-              "canCut": true
-            }
-          },
-          {
-            "damage": 20.0,
-            "cut": 0.0,
-            "smoke": 0.3,
-            "flame": 0.3,
-            "part": {
-              "ratio": 0.2,
-              "canCut": true
-            }
-          },
-          {
-            "damage": 30.0,
-            "cut": 0.0,
-            "smoke": 0.4,
-            "flame": 0.4,
-            "part": {
-              "ratio": 0.4,
-              "canCut": true
-            }
-          },
-          {
-            "damage": 50.0,
-            "cut": 0.0,
-            "smoke": 0.6,
-            "flame": 0.6,
-            "part": {
-              "ratio": 0.8,
-              "canCut": true
-            }
-          },
-          {
-            "damage": 70.0,
-            "cut": 0.0,
-            "smoke": 0.8,
-            "flame": 0.8,
-            "part": {
-              "ratio": 1.0,
-              "canCut": true
-            }
-          }
-        ],
-        "onKill": [
-          {
-            "damage": 10.0,
-            "cut": 0.0,
-            "smoke": 1.0,
-            "flame": 1.0,
-            "nothing": 9.0,
-            "part": {
-              "ratio": 1.0,
-              "canCut": true
-            }
-          },
-          {
-            "damage": 20.0,
-            "cut": 0.0,
-            "smoke": 2.0,
-            "flame": 2.0,
-            "nothing": 5.0,
-            "part": {
-              "ratio": 1.0,
-              "canCut": true
-            }
-          },
-          {
-            "damage": 30.0,
-            "cut": 0.0,
-            "smoke": 2.0,
-            "flame": 2.0,
-            "nothing": 3.0,
-            "part": {
-              "ratio": 1.0,
-              "canCut": true
-            }
-          },
-          {
-            "damage": 50.0,
-            "cut": 0.0,
-            "smoke": 2.0,
-            "flame": 2.0,
-            "nothing": 1.0,
-            "part": {
-              "ratio": 1.0,
-              "canCut": true
-            }
-          },
-          {
-            "damage": 70.0,
-            "cut": 0.0,
-            "smoke": 2.0,
-            "flame": 2.0,
-            "part": {
-              "ratio": 1.0,
-              "canCut": true
-            }
+            "fire": 30.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
           }
         ]
       },
@@ -966,7 +760,7 @@
     ]
   },
   "ikPilot": {
-    "model": "pilot_france_heli_late_char",
+    "model": "pilot_us_heli_early_char",
     "maxHeadHorAngle": 60.0,
     "maxHeadDownAngle": 60.0,
     "maxHeadUpAngle": 10.0,
@@ -1043,7 +837,7 @@
     ]
   },
   "ikGunner": {
-    "model": "pilot_france_heli_late_char",
+    "model": "pilot_us_heli_early_char",
     "maxHeadHorAngle": 60.0,
     "maxHeadDownAngle": 60.0,
     "maxHeadUpAngle": 10.0,
@@ -1138,131 +932,57 @@
     "Range": 882.0
   },
   "Sound": {
-    "Engine": "engine_ah1",
+    "Engine": "engine_sa_313b",
     "gun": "gun_default"
   },
   "cockpit": {
+    "textToShowInCockpit": "msg/textToShowInCockpit",
     "headPos": [
-      2.52,
-      0.611,
+      1.21,
+      1.49,
       0.0
     ],
     "headPosOnShooting": [
-      2.52,
-      0.611,
-      0.0
-    ],
-    "mirror": true,
-    "mirrorPos": [
-      2.898,
-      0.726,
-      0.162
-    ],
-    "mirrorNorm": [
-      -1.0,
-      0.0,
+      1.21,
+      1.49,
       0.0
     ],
     "lightPos": [
-      3.143456,
-      0.224957,
-      -0.006499
+      1.882572,
+      0.389432,
+      -0.010049
     ],
     "lightColor": [
       0.01,
       0.6,
       0.1
     ],
-    "lightRadius": 0.45,
-    "zoomOutFov": 22.46,
-    "zoomInFov": 2.46,
-    "sightFov": 5.5,
-    "sightOutFov": 20.0,
-    "sightInFov": 0.8,
+    "lightRadius": 0.4,
+    "zoomOutFov": 18.0,
+    "zoomInFov": 0.9,
+    "sightFov": 0.01,
+    "sightInFov": 0.9,
+    "sightOutFov": 18.0,
     "devices": {
-      "stick_ailerons": [
-        -1.0,
-        1.0
-      ],
-      "stick_elevator": [
-        -1.0,
-        1.0
-      ],
-      "pedals": [
-        -1.0,
-        1.0
-      ],
-      "pedals1": [
-        -1.0,
-        1.0
-      ],
-      "pedals2": [
-        -1.0,
-        1.0
-      ],
-      "pedals3": [
-        -1.0,
-        1.0
-      ],
-      "pedals4": [
-        -1.0,
-        1.0
-      ],
-      "pedals5": [
-        -1.0,
-        1.0
-      ],
-      "pedals6": [
-        -1.0,
-        1.0
-      ],
-      "pedals7": [
-        -1.0,
-        1.0
-      ],
-      "throttle": [
+      "speed": [
         0.0,
-        1.0
-      ],
-      "weapon1": [
-        0.0,
-        1.0
-      ],
-      "weapon2": [
-        0.0,
-        1.0
-      ],
-      "weapon3": [
-        0.0,
-        1.0
-      ],
-      "aviahorizon_pitch": [
-        -90.0,
-        90.0
-      ],
-      "aviahorizon_roll": [
-        -90.0,
-        90.0
+        257.222
       ],
       "bank": [
         -8.0,
         8.0
       ],
-      "compass": [
-        0.0,
-        360.0
+      "turn": [
+        -0.23562,
+        0.23562
       ],
-      "clock_hour": [
-        0.0,
-        12.0
+      "vario": [
+        -30.0,
+        30.0
       ],
-      "clock_min": [
+      "altitude_10k": [
         0.0,
-        60.0
-      ],
-      "clock_sec": [
-        0.0,
-        60.0
+        100000.0
       ],
       "altitude_hour": [
         0.0,
@@ -1272,29 +992,130 @@
         0.0,
         1000.0
       ],
-      "speed": [
-        0.0,
-        111.111
+      "altitude_koef": 3.28,
+      "aviahorizon_pitch": [
+        -60.0,
+        60.0
       ],
-      "vario": [
-        -15.0,
-        15.0
+      "aviahorizon_roll": [
+        -180.0,
+        180.0
+      ],
+      "compass": [
+        0.0,
+        360.0
+      ],
+      "fuel": [
+        0.0,
+        1277.625
       ],
       "rpm": [
         0.0,
-        40000.0
+        4500.0
       ],
       "rpm1": [
         0.0,
-        40000.0
+        4500.0
       ],
-      "oil_temperature": [
+      "rpm2": [
         0.0,
-        140.0
+        4500.0
+      ],
+      "rpm3": [
+        0.0,
+        4500.0
+      ],
+      "rpm_hour": [
+        10000.0,
+        30000.0
+      ],
+      "rpm_min": [
+        0.0,
+        1000.0
       ],
       "water_temperature": [
         0.0,
-        1400.0
+        1000.0
+      ],
+      "manifold_pressure": [
+        0.334,
+        2.507
+      ],
+      "manifold_pressure1": [
+        0.334,
+        2.507
+      ],
+      "manifold_pressure2": [
+        0.334,
+        2.507
+      ],
+      "manifold_pressure3": [
+        0.334,
+        2.507
+      ],
+      "head_temperature": [
+        0.0,
+        300.0
+      ],
+      "head_temperature1": [
+        0.0,
+        300.0
+      ],
+      "head_temperature2": [
+        0.0,
+        300.0
+      ],
+      "head_temperature3": [
+        0.0,
+        300.0
+      ],
+      "oil_temperature": [
+        -50.0,
+        150.0
+      ],
+      "oil_temperature1": [
+        -50.0,
+        150.0
+      ],
+      "oil_temperature2": [
+        -50.0,
+        150.0
+      ],
+      "oil_temperature3": [
+        -50.0,
+        150.0
+      ],
+      "fuel_pressure": [
+        0.0,
+        15.0
+      ],
+      "fuel_pressure1": [
+        0.0,
+        15.0
+      ],
+      "fuel_pressure2": [
+        0.0,
+        15.0
+      ],
+      "fuel_pressure3": [
+        0.0,
+        15.0
+      ],
+      "oil_pressure": [
+        0.0,
+        150.0
+      ],
+      "oil_pressure1": [
+        0.0,
+        150.0
+      ],
+      "oil_pressure2": [
+        0.0,
+        150.0
+      ],
+      "oil_pressure3": [
+        0.0,
+        150.0
       ]
     },
     "multifunctionDisplays": {
@@ -1314,6 +1135,10 @@
               "type": "rwr"
             },
             {
+              "type": "radar",
+              "radarScale": 0.85
+            },
+            {
               "type": "devices",
               "speed": {
                 "texture": "us_mfd_speed",
@@ -1542,17 +1367,10 @@
                 }
               },
               "aviahorizon_pitch": {
-                "texture": "us_mfd_ahorizon",
                 "arrowTex": "us_mfd_ahorizon_scale",
                 "position": [
                   340.0,
                   256.0
-                ],
-                "backgroundTexCoord": [
-                  0.11,
-                  0.0,
-                  0.89,
-                  0.89
                 ],
                 "arrowTexCoord": [
                   0.0,
@@ -1564,6 +1382,7 @@
                   180.0,
                   180.0
                 ],
+                "notDrawBackground": true,
                 "ranges": {
                   "limits": [
                     -90.0,
@@ -1573,32 +1392,59 @@
                   ]
                 }
               },
-              "aviahorizon_roll": {
-                "texture": "us_mfd_ahorizon",
-                "position": [
-                  340.0,
-                  256.0
-                ],
-                "arrowTexCoord": [
-                  0.2,
-                  0.9,
-                  0.8,
-                  1.0
-                ],
-                "size": [
-                  180.0,
-                  180.0
-                ],
-                "notDrawBackground": true,
-                "ranges": {
-                  "limits": [
-                    -180.0,
+              "aviahorizon_roll": [
+                {
+                  "texture": "us_mfd_ahorizon_body",
+                  "position": [
+                    340.0,
+                    256.0
+                  ],
+                  "backgroundTexCoord": [
+                    0.11,
+                    0.0,
+                    0.89,
+                    0.89
+                  ],
+                  "size": [
                     180.0,
-                    -1.0,
+                    180.0
+                  ],
+                  "ranges": {
+                    "limits": [
+                      -180.0,
+                      180.0,
+                      -1.0,
+                      1.0
+                    ]
+                  }
+                },
+                {
+                  "texture": "us_mfd_ahorizon",
+                  "position": [
+                    340.0,
+                    256.0
+                  ],
+                  "arrowTexCoord": [
+                    0.2,
+                    0.9,
+                    0.8,
                     1.0
-                  ]
+                  ],
+                  "size": [
+                    180.0,
+                    180.0
+                  ],
+                  "notDrawBackground": true,
+                  "ranges": {
+                    "limits": [
+                      -180.0,
+                      180.0,
+                      -1.0,
+                      1.0
+                    ]
+                  }
                 }
-              }
+              ]
             }
           ]
         },
@@ -1609,22 +1455,9 @@
             1.0,
             1.0
           ],
-          "monoDisplayColor": [
-            0.4,
-            0.8,
-            0.4
-          ],
           "page": [
             {
               "type": "target_tracking",
-              "turretIdx": 0
-            },
-            {
-              "type": "thermal",
-              "turretIdx": 0
-            },
-            {
-              "type": "night_vision",
               "turretIdx": 0
             },
             {
@@ -1856,17 +1689,10 @@
                 }
               },
               "aviahorizon_pitch": {
-                "texture": "us_mfd_ahorizon",
                 "arrowTex": "us_mfd_ahorizon_scale",
                 "position": [
                   340.0,
                   256.0
-                ],
-                "backgroundTexCoord": [
-                  0.11,
-                  0.0,
-                  0.89,
-                  0.89
                 ],
                 "arrowTexCoord": [
                   0.0,
@@ -1878,6 +1704,7 @@
                   180.0,
                   180.0
                 ],
+                "notDrawBackground": true,
                 "ranges": {
                   "limits": [
                     -90.0,
@@ -1887,32 +1714,63 @@
                   ]
                 }
               },
-              "aviahorizon_roll": {
-                "texture": "us_mfd_ahorizon",
-                "position": [
-                  340.0,
-                  256.0
-                ],
-                "arrowTexCoord": [
-                  0.2,
-                  0.9,
-                  0.8,
-                  1.0
-                ],
-                "size": [
-                  180.0,
-                  180.0
-                ],
-                "notDrawBackground": true,
-                "ranges": {
-                  "limits": [
-                    -180.0,
+              "aviahorizon_roll": [
+                {
+                  "texture": "us_mfd_ahorizon_body",
+                  "position": [
+                    340.0,
+                    256.0
+                  ],
+                  "backgroundTexCoord": [
+                    0.11,
+                    0.0,
+                    0.89,
+                    0.89
+                  ],
+                  "size": [
                     180.0,
-                    -1.0,
+                    180.0
+                  ],
+                  "ranges": {
+                    "limits": [
+                      -180.0,
+                      180.0,
+                      -1.0,
+                      1.0
+                    ]
+                  }
+                },
+                {
+                  "texture": "us_mfd_ahorizon",
+                  "position": [
+                    340.0,
+                    256.0
+                  ],
+                  "arrowTexCoord": [
+                    0.2,
+                    0.9,
+                    0.8,
                     1.0
-                  ]
+                  ],
+                  "size": [
+                    180.0,
+                    180.0
+                  ],
+                  "notDrawBackground": true,
+                  "ranges": {
+                    "limits": [
+                      -180.0,
+                      180.0,
+                      -1.0,
+                      1.0
+                    ]
+                  }
                 }
-              }
+              ]
+            },
+            {
+              "type": "thermal",
+              "turretIdx": 0
             }
           ]
         },
@@ -1930,13 +1788,9 @@
               0.2,
               0.2
             ],
-            "ilsProjSize": [
-              0.1,
-              0.09,
-              0.0
-            ],
             "ilsOffsetForce": 0.2,
-            "brightnessMult": 3.5
+            "brightnessMult": 3.5,
+            "ilsColor": "yh4KeA=="
           }
         }
       ]
@@ -1955,170 +1809,369 @@
   },
   "helicopter": {
     "rotorBladeAnglesCoeffs": [
-      0.3,
+      0.0,
       0.5,
       0.5
-    ],
-    "propellerStrainCoeff": -0.01
+    ]
   },
   "sensors": {
     "sensor": [
       {
         "blk": "gameData/sensors/ir_tracker.blk",
-        "node": "optic1_gun"
+        "node": "optic_gun1"
       },
       {
-        "blk": "gameData/sensors/us_an_apr_39.blk"
+        "blk": "gameData/sensors/cn_helicopter_z_mlws.blk"
+      },
+      {
+        "blk": "gameData/sensors/cn_helicopter_z_rwr.blk"
+      },
+      {
+        "blk": "gameData/sensors/us_flir.blk",
+        "node": "optic_gun1"
+      },
+      {
+        "blk": "gameData/sensors/cn_helicopter_z_lws.blk"
       }
-    ]
-  },
-  "gunnerOpticFps": {
-    "pos": [
-      0.3,
-      1.5,
-      0.0
-    ],
-    "head": "optic1_turret",
-    "crosshairPreset": "test_crosshair",
-    "angularLimits": [
-      -180.0,
-      180.0,
-      -59.0,
-      24.0
     ]
   },
   "commonWeapons": {
     "Weapon": {
       "slot": 0,
-      "preset": "default_common"
+      "preset": "type_23l_common"
     }
+  },
+  "gunnerOpticFps": {
+    "pos": [
+      1.5,
+      0.4,
+      0.0
+    ],
+    "head": "optic1_turret",
+    "angularLimits": [
+      -115.0,
+      90.0,
+      -50.0,
+      25.0
+    ],
+    "crosshairPreset": "test_crosshair"
   },
   "weapon_presets": {
     "preset": [
       {
-        "name": "tiger_uht_default",
-        "blk": "gameData/flightModels/weaponPresets/tiger_uht_rocket.blk"
+        "name": "z_10_default",
+        "blk": "gameData/flightModels/weaponPresets/z_10_default.blk"
       },
       {
-        "name": "tiger_uht_4x_hot3",
-        "blk": "gameData/flightModels/weaponPresets/tiger_uht_4x_hot3.blk"
+        "name": "z_10_akd_9_default",
+        "blk": "gameData/flightModels/weaponPresets/z_10_akd_9_default.blk"
       },
       {
-        "name": "tiger_uht_hot3",
-        "blk": "gameData/flightModels/weaponPresets/tiger_uht_hot3.blk"
+        "name": "z_10_akd_9",
+        "blk": "gameData/flightModels/weaponPresets/z_10_akd_9.blk"
       },
       {
-        "name": "tiger_uht_atgw3",
-        "blk": "gameData/flightModels/weaponPresets/tiger_uht_atgw3.blk"
+        "name": "z_10_akd_10",
+        "blk": "gameData/flightModels/weaponPresets/z_10_akd_10.blk"
       },
       {
-        "name": "tiger_uht_gun_fn_m3p",
-        "blk": "gameData/flightModels/weaponPresets/tiger_uht_gun_fn_m3p.blk"
+        "name": "z_10_hf_7d",
+        "blk": "gameData/flightModels/weaponPresets/z_10_hf_27.blk"
       },
       {
-        "name": "tiger_uht_gun_fn_m3p_rocket",
-        "blk": "gameData/flightModels/weaponPresets/tiger_uht_gun_fn_m3p_rocket.blk"
+        "name": "z_10_hf_25",
+        "blk": "gameData/flightModels/weaponPresets/z_10_hf_25.blk"
       },
       {
-        "name": "tiger_uht_stinger",
-        "blk": "gameData/flightModels/weaponPresets/tiger_uht_stinger.blk"
+        "name": "z_10_ty_90",
+        "blk": "gameData/flightModels/weaponPresets/z_10_ty_90.blk"
+      },
+      {
+        "name": "z_10_gun_pod",
+        "blk": "gameData/flightModels/weaponPresets/z_10_gun_pod.blk"
       }
     ]
   },
   "WeaponSlots": {
-    "maxloadMass": 1000.0,
-    "maxloadMassLeftConsoles": 500.0,
-    "maxloadMassRightConsoles": 500.0,
-    "maxDisbalance": 480.0,
+    "maxloadMass": 1200.0,
+    "maxloadMassLeftConsoles": 800.0,
+    "maxloadMassRightConsoles": 800.0,
+    "maxDisbalance": 200.0,
     "HideNodes": {
       "node": [
-        "pylon_l",
-        "pylon_r",
-        "pylon_l_m",
-        "pylon_r_m",
-        "pylon_l_atgw3",
-        "pylon_r_atgw3",
-        "pylon_l_gun",
-        "pylon_r_gun",
-        "fn_hmp400_pod_l",
-        "flare1",
-        "fn_hmp400_pod_r",
-        "flare2",
-        "fn_rmp_pod_l",
-        "flare3",
-        "fn_rmp_pod_r",
-        "flare4"
+        "ch_12_7mm_gunpod_left",
+        "ch_12_7mm_gunpod_right"
       ]
     },
     "HideDmParts": {
       "node": [
-        "mgun1_dm",
-        "mgun2_dm"
+        "cover3_dm",
+        "gun1_dm",
+        "cover4_dm",
+        "gun2_dm",
+        "transmission2_dm"
       ]
     },
     "WeaponSlot": [
       {
         "index": 0,
+        "notUseforDisbalanceCalculation": true,
         "WeaponPreset": [
           {
-            "name": "default_common",
-            "Weapon": {
-              "dummy": true,
-              "trigger": "gunner0",
-              "triggerGroup": "primary",
-              "blk": "gameData/Weapons/dummy_weapon.blk",
-              "emitter": "optic1_gun",
-              "defaultYaw": 0.0,
-              "defaultPitch": 0.0,
-              "speedYaw": 25.0,
-              "speedPitch": 25.0,
-              "parkInDeadzone": false,
-              "aimForOperatedShell": true,
-              "turret": {
-                "head": "optic1_turret",
-                "gun": "optic1_gun",
-                "mainTurret": true
-              },
-              "limits": {
-                "yaw": [
-                  -180.0,
-                  180.0
-                ],
-                "pitch": [
-                  -59.0,
-                  24.0
-                ]
-              }
-            }
-          },
-          {
-            "name": "ltc_common",
+            "name": "type_23l_common",
             "Weapon": [
               {
                 "dummy": true,
                 "trigger": "gunner0",
                 "triggerGroup": "primary",
                 "blk": "gameData/Weapons/dummy_weapon.blk",
-                "emitter": "optic1_gun",
+                "emitter": "optic_gun1",
+                "parkInDeadzone": false,
                 "defaultYaw": 0.0,
                 "defaultPitch": 0.0,
                 "speedYaw": 25.0,
                 "speedPitch": 25.0,
-                "parkInDeadzone": false,
                 "aimForOperatedShell": true,
                 "turret": {
                   "head": "optic1_turret",
-                  "gun": "optic1_gun",
+                  "gun": "optic_gun1",
+                  "playerControllable": false,
                   "mainTurret": true
                 },
                 "limits": {
                   "yaw": [
-                    -180.0,
-                    180.0
+                    -115.0,
+                    90.0
                   ],
                   "pitch": [
-                    -59.0,
+                    -50.0,
+                    25.0
+                  ]
+                }
+              },
+              {
+                "trigger": "gunner0",
+                "blk": "gameData/Weapons/cannonType_23L.blk",
+                "emitter": "flare1",
+                "flash": "flare1",
+                "dm": "gunner1_dm",
+                "gunnerDm": "gunner1_dm",
+                "gunDm": "cannon1_dm",
+                "partsDP": "cannon1_dm",
+                "bullets": 300,
+                "parkInDeadzone": false,
+                "turret": {
+                  "head": "turret1",
+                  "gun": "gun1",
+                  "mainTurret": true,
+                  "ballisticTargeting": true
+                },
+                "limits": {
+                  "yaw": [
+                    -115.0,
+                    115.0
+                  ],
+                  "pitch": [
+                    -50.0,
+                    25.0
+                  ]
+                },
+                "limitsTable": {
+                  "lim1": [
+                    -115.0,
+                    -103.0,
+                    -50.0,
+                    15.0
+                  ],
+                  "lim2": [
+                    -103.0,
+                    -75.0,
+                    -50.0,
+                    19.0
+                  ],
+                  "lim3": [
+                    -75.0,
+                    -52.0,
+                    -50.0,
                     24.0
+                  ],
+                  "lim4": [
+                    -52.0,
+                    -35.0,
+                    -50.0,
+                    25.0
+                  ],
+                  "lim5": [
+                    -35.0,
+                    -15.0,
+                    -50.0,
+                    23.0
+                  ],
+                  "lim6": [
+                    -15.0,
+                    15.0,
+                    -50.0,
+                    20.0
+                  ],
+                  "lim7": [
+                    15.0,
+                    35.0,
+                    -50.0,
+                    23.0
+                  ],
+                  "lim8": [
+                    35.0,
+                    52.0,
+                    -50.0,
+                    25.0
+                  ],
+                  "lim9": [
+                    52.0,
+                    75.0,
+                    -50.0,
+                    24.0
+                  ],
+                  "lim10": [
+                    75.0,
+                    103.0,
+                    -50.0,
+                    19.0
+                  ],
+                  "lim11": [
+                    103.0,
+                    115.0,
+                    -50.0,
+                    15.0
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name": "type_23l_ltc_common",
+            "Weapon": [
+              {
+                "dummy": true,
+                "trigger": "gunner0",
+                "triggerGroup": "primary",
+                "blk": "gameData/Weapons/dummy_weapon.blk",
+                "emitter": "optic_gun1",
+                "parkInDeadzone": false,
+                "defaultYaw": 0.0,
+                "defaultPitch": 0.0,
+                "speedYaw": 25.0,
+                "speedPitch": 25.0,
+                "aimForOperatedShell": true,
+                "turret": {
+                  "head": "optic1_turret",
+                  "gun": "optic_gun1",
+                  "playerControllable": false,
+                  "mainTurret": true
+                },
+                "limits": {
+                  "yaw": [
+                    -115.0,
+                    90.0
+                  ],
+                  "pitch": [
+                    -50.0,
+                    25.0
+                  ]
+                }
+              },
+              {
+                "trigger": "gunner0",
+                "blk": "gameData/Weapons/cannonType_23L.blk",
+                "emitter": "flare1",
+                "flash": "flare1",
+                "dm": "gunner1_dm",
+                "gunnerDm": "gunner1_dm",
+                "gunDm": "cannon1_dm",
+                "partsDP": "cannon1_dm",
+                "bullets": 300,
+                "parkInDeadzone": false,
+                "turret": {
+                  "head": "turret1",
+                  "gun": "gun1",
+                  "mainTurret": true,
+                  "ballisticTargeting": true
+                },
+                "limits": {
+                  "yaw": [
+                    -115.0,
+                    115.0
+                  ],
+                  "pitch": [
+                    -50.0,
+                    25.0
+                  ]
+                },
+                "limitsTable": {
+                  "lim1": [
+                    -115.0,
+                    -103.0,
+                    -50.0,
+                    15.0
+                  ],
+                  "lim2": [
+                    -103.0,
+                    -75.0,
+                    -50.0,
+                    19.0
+                  ],
+                  "lim3": [
+                    -75.0,
+                    -52.0,
+                    -50.0,
+                    24.0
+                  ],
+                  "lim4": [
+                    -52.0,
+                    -35.0,
+                    -50.0,
+                    25.0
+                  ],
+                  "lim5": [
+                    -35.0,
+                    -15.0,
+                    -50.0,
+                    23.0
+                  ],
+                  "lim6": [
+                    -15.0,
+                    15.0,
+                    -50.0,
+                    20.0
+                  ],
+                  "lim7": [
+                    15.0,
+                    35.0,
+                    -50.0,
+                    23.0
+                  ],
+                  "lim8": [
+                    35.0,
+                    52.0,
+                    -50.0,
+                    25.0
+                  ],
+                  "lim9": [
+                    52.0,
+                    75.0,
+                    -50.0,
+                    24.0
+                  ],
+                  "lim10": [
+                    75.0,
+                    103.0,
+                    -50.0,
+                    19.0
+                  ],
+                  "lim11": [
+                    103.0,
+                    115.0,
+                    -50.0,
+                    15.0
                   ]
                 }
               },
@@ -2127,18 +2180,21 @@
                 "startFx": "",
                 "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher.blk",
                 "emitter": "emtr_flare1",
-                "bullets": 30,
+                "bullets": 24,
                 "external": true,
-                "separate": false
+                "separate": true,
+                "dragCx": 0.05,
+                "mass": 2.0
               },
               {
                 "trigger": "countermeasures",
                 "startFx": "",
                 "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher.blk",
                 "emitter": "emtr_flare2",
-                "bullets": 30,
+                "bullets": 24,
                 "external": true,
-                "separate": false
+                "separate": true,
+                "mass": 2.0
               }
             ]
           }
@@ -2148,21 +2204,56 @@
         "index": 1,
         "tier": 8,
         "order": 1,
-        "WeaponPreset": {
-          "iconType": "missile_air_to_air_group_heli",
-          "name": "atas",
-          "reqModification": "stinger_aam",
-          "ShowNodes": {
-            "node": "pylon_l"
+        "WeaponPreset": [
+          {
+            "iconType": "nar_ap_special",
+            "name": "hf27",
+            "reqModification": "cn_hf7d",
+            "Weapon": {
+              "trigger": "rockets",
+              "external": true,
+              "blk": "gameData/Weapons/containers/hf7d_cn_fs_70.blk",
+              "emitter": "ch_rocket_pod_90mm_hf7d_1",
+              "mass": 0.01,
+              "dragCx": 0.01
+            }
           },
-          "Weapon": {
-            "trigger": "aam",
-            "external": true,
-            "separate": true,
-            "blk": "gameData/Weapons/containers/atas_2x_stinger.blk",
-            "emitter": "aim92_stinger_pod_001"
+          {
+            "iconType": "atgm_type_helfire_x4",
+            "name": "akd_9_default",
+            "Weapon": {
+              "trigger": "atgm",
+              "external": true,
+              "separate": true,
+              "blk": "gameData/Weapons/containers/akd_9_x4.blk",
+              "emitter": "akd_9_launcher_1"
+            }
+          },
+          {
+            "iconType": "atgm_type_helfire_x4",
+            "name": "akd_10",
+            "reqModification": "cn_akd_10",
+            "Weapon": {
+              "trigger": "atgm",
+              "external": true,
+              "separate": true,
+              "blk": "gameData/Weapons/containers/akd_10_x4.blk",
+              "emitter": "akd_9_launcher_1"
+            }
+          },
+          {
+            "iconType": "missile_type_b_air_to_air_group_x4",
+            "name": "ty_90",
+            "reqModification": "cn_ty_90",
+            "Weapon": {
+              "trigger": "aam",
+              "external": true,
+              "separate": true,
+              "blk": "gameData/Weapons/containers/ty_90_x4.blk",
+              "emitter": "akd_9_launcher_1"
+            }
           }
-        }
+        ]
       },
       {
         "index": 2,
@@ -2171,170 +2262,54 @@
         "WeaponPreset": [
           {
             "iconType": "nar_ap_large",
-            "name": "z225",
-            "ShowNodes": {
-              "node": "pylon_l_gun"
-            },
+            "name": "hf25",
             "Weapon": {
               "trigger": "rockets",
-              "blk": "gameData/Weapons/containers/fz225_ffar_x19.blk",
-              "emitter": "fz225_001",
               "external": true,
-              "machLimit": 1.01
-            }
-          },
-          {
-            "iconType": "atgm_type2_x2",
-            "name": "hot3_x2",
-            "ShowNodes": {
-              "node": "pylon_l_atgw3"
-            },
-            "Weapon": {
-              "trigger": "atgm",
-              "external": true,
-              "separate": true,
-              "blk": "gameData/Weapons/containers/hot3_pods_x2.blk",
-              "emitter": "hot_pod_001",
+              "blk": "gameData/Weapons/containers/hf25_type_57.blk",
+              "emitter": "ch_rocket_pod_57mm_hf25_2",
+              "mass": 0.01,
               "dragCx": 0.01
             }
           },
           {
-            "iconType": "atgm_type1_x4",
-            "name": "hot3_x4",
-            "reqModification": "tiger_hot3",
-            "ShowNodes": {
-              "node": "pylon_l_atgw3"
-            },
+            "iconType": "nar_ap_special",
+            "name": "hf27",
+            "reqModification": "cn_hf7d",
             "Weapon": {
-              "trigger": "atgm",
+              "trigger": "rockets",
               "external": true,
-              "separate": true,
-              "blk": "gameData/Weapons/containers/hot3_pods_x4.blk",
-              "emitter": "hot_pod_001",
-              "dragCx": 0.01
-            }
-          },
-          {
-            "iconType": "atgm_type_pars3_x4",
-            "name": "atgw3",
-            "reqModification": "tiger_atgw3",
-            "ShowNodes": {
-              "node": "pylon_l_atgw3"
-            },
-            "Weapon": {
-              "trigger": "atgm",
-              "external": true,
-              "separate": true,
-              "blk": "gameData/Weapons/containers/trigat_lr_atwg_3lr.blk",
-              "emitter": "atgw3_pod_001",
+              "blk": "gameData/Weapons/containers/hf7d_cn_fs_70.blk",
+              "emitter": "ch_rocket_pod_90mm_hf7d_2",
+              "mass": 0.01,
               "dragCx": 0.01
             }
           },
           {
             "iconType": "machine_gun",
-            "name": "hmp_400",
-            "reqModification": "tiger_hmp400_lcc",
+            "name": "gun_pod",
             "ShowNodes": {
-              "node": [
-                "pylon_l_gun",
-                "fn_hmp400_pod_l",
-                "flare1"
-              ]
+              "node": "ch_12_7mm_gunpod_left"
             },
             "ShowDmParts": {
-              "node": "mgun1_dm"
+              "node": [
+                "cover3_dm",
+                "gun1_dm"
+              ]
             },
             "Weapon": {
               "trigger": "additional gun",
-              "blk": "gameData/Weapons/gunFN_M3P.blk",
-              "emitter": "flare1",
-              "flash": "flare1",
-              "dm": "mgun1_dm",
-              "bullets": 400,
+              "blk": "gameData/Weapons/gun_qjk_99_12_7_1.blk",
+              "emitter": "flare2",
+              "flash": "flare2",
+              "dm": "gun1_dm",
+              "bullets": 1000,
               "mass": 130.0,
               "spread": 1.5,
               "traceOffset": 1,
               "counterIndex": 1,
               "external": true
             }
-          },
-          {
-            "iconType": "machine_gun_rockets",
-            "name": "rmp_lc",
-            "reqModification": "tiger_rmp_lc",
-            "ShowNodes": {
-              "node": [
-                "pylon_l_gun",
-                "fn_rmp_pod_l",
-                "flare4"
-              ]
-            },
-            "ShowDmParts": {
-              "node": "mgun1_dm"
-            },
-            "Weapon": [
-              {
-                "trigger": "additional gun",
-                "blk": "gameData/Weapons/gunFN_M3P.blk",
-                "emitter": "flare4",
-                "flash": "flare4",
-                "dm": "mgun1_dm",
-                "bullets": 400,
-                "mass": 130.0,
-                "spread": 1.5,
-                "traceOffset": 1,
-                "counterIndex": 1,
-                "external": true
-              },
-              {
-                "trigger": "rockets",
-                "external": true,
-                "separate": true,
-                "jettisonable": false,
-                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk",
-                "emitter": "ffar_1",
-                "bullets": 1,
-                "minSize": [
-                  1.5,
-                  1.0,
-                  1.0
-                ],
-                "mass": 12.2,
-                "dragCx": 0.06
-              },
-              {
-                "trigger": "rockets",
-                "external": true,
-                "separate": true,
-                "jettisonable": false,
-                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk",
-                "emitter": "ffar_2",
-                "bullets": 1,
-                "minSize": [
-                  1.5,
-                  1.0,
-                  1.0
-                ],
-                "mass": 12.2,
-                "dragCx": 0.06
-              },
-              {
-                "trigger": "rockets",
-                "external": true,
-                "separate": true,
-                "jettisonable": false,
-                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk",
-                "emitter": "ffar_3",
-                "bullets": 1,
-                "minSize": [
-                  1.5,
-                  1.0,
-                  1.0
-                ],
-                "mass": 12.2,
-                "dragCx": 0.06
-              }
-            ]
           }
         ]
       },
@@ -2345,170 +2320,54 @@
         "WeaponPreset": [
           {
             "iconType": "nar_ap_large",
-            "name": "z225",
-            "ShowNodes": {
-              "node": "pylon_r_gun"
-            },
+            "name": "hf25",
             "Weapon": {
               "trigger": "rockets",
-              "blk": "gameData/Weapons/containers/fz225_ffar_x19.blk",
-              "emitter": "fz225_002",
               "external": true,
-              "machLimit": 1.01
-            }
-          },
-          {
-            "iconType": "atgm_type2_x2",
-            "name": "hot3_x2",
-            "ShowNodes": {
-              "node": "pylon_r_atgw3"
-            },
-            "Weapon": {
-              "trigger": "atgm",
-              "external": true,
-              "separate": true,
-              "blk": "gameData/Weapons/containers/hot3_pods_x2.blk",
-              "emitter": "hot_pod_002",
+              "blk": "gameData/Weapons/containers/hf25_type_57.blk",
+              "emitter": "ch_rocket_pod_57mm_hf25_3",
+              "mass": 0.01,
               "dragCx": 0.01
             }
           },
           {
-            "iconType": "atgm_type1_x4",
-            "name": "hot3_x4",
-            "reqModification": "tiger_hot3",
-            "ShowNodes": {
-              "node": "pylon_r_atgw3"
-            },
+            "iconType": "nar_ap_special",
+            "name": "hf27",
+            "reqModification": "cn_hf7d",
             "Weapon": {
-              "trigger": "atgm",
+              "trigger": "rockets",
               "external": true,
-              "separate": true,
-              "blk": "gameData/Weapons/containers/hot3_pods_x4.blk",
-              "emitter": "hot_pod_002",
-              "dragCx": 0.01
-            }
-          },
-          {
-            "iconType": "atgm_type_pars3_x4",
-            "name": "atgw3",
-            "reqModification": "tiger_atgw3",
-            "ShowNodes": {
-              "node": "pylon_r_atgw3"
-            },
-            "Weapon": {
-              "trigger": "atgm",
-              "external": true,
-              "separate": true,
-              "blk": "gameData/Weapons/containers/trigat_lr_atwg_3lr.blk",
-              "emitter": "atgw3_pod_002",
+              "blk": "gameData/Weapons/containers/hf7d_cn_fs_70.blk",
+              "emitter": "ch_rocket_pod_90mm_hf7d_3",
+              "mass": 0.01,
               "dragCx": 0.01
             }
           },
           {
             "iconType": "machine_gun",
-            "name": "hmp_400",
-            "reqModification": "tiger_hmp400_lcc",
+            "name": "gun_pod",
             "ShowNodes": {
-              "node": [
-                "pylon_r_gun",
-                "fn_hmp400_pod_r",
-                "flare2"
-              ]
+              "node": "ch_12_7mm_gunpod_right"
             },
             "ShowDmParts": {
-              "node": "mgun2_dm"
+              "node": [
+                "cover3_dm",
+                "gun1_dm"
+              ]
             },
             "Weapon": {
               "trigger": "additional gun",
-              "blk": "gameData/Weapons/gunFN_M3P.blk",
-              "emitter": "flare2",
-              "flash": "flare2",
-              "dm": "mgun2_dm",
-              "bullets": 400,
+              "blk": "gameData/Weapons/gun_qjk_99_12_7_1.blk",
+              "emitter": "flare3",
+              "flash": "flare3",
+              "dm": "gun2_dm",
+              "bullets": 1000,
               "mass": 130.0,
               "spread": 1.5,
               "traceOffset": 1,
               "counterIndex": 1,
               "external": true
             }
-          },
-          {
-            "iconType": "machine_gun_rockets",
-            "name": "rmp_lc",
-            "reqModification": "tiger_rmp_lc",
-            "ShowNodes": {
-              "node": [
-                "pylon_r_gun",
-                "fn_rmp_pod_r",
-                "flare3"
-              ]
-            },
-            "ShowDmParts": {
-              "node": "mgun2_dm"
-            },
-            "Weapon": [
-              {
-                "trigger": "additional gun",
-                "blk": "gameData/Weapons/gunFN_M3P.blk",
-                "emitter": "flare3",
-                "flash": "flare3",
-                "dm": "mgun2_dm",
-                "bullets": 400,
-                "mass": 130.0,
-                "spread": 1.5,
-                "traceOffset": 1,
-                "counterIndex": 1,
-                "external": true
-              },
-              {
-                "trigger": "rockets",
-                "external": true,
-                "separate": true,
-                "jettisonable": false,
-                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk",
-                "emitter": "ffar_6",
-                "bullets": 1,
-                "minSize": [
-                  1.5,
-                  1.0,
-                  1.0
-                ],
-                "mass": 12.2,
-                "dragCx": 0.06
-              },
-              {
-                "trigger": "rockets",
-                "external": true,
-                "separate": true,
-                "jettisonable": false,
-                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk",
-                "emitter": "ffar_5",
-                "bullets": 1,
-                "minSize": [
-                  1.5,
-                  1.0,
-                  1.0
-                ],
-                "mass": 12.2,
-                "dragCx": 0.06
-              },
-              {
-                "trigger": "rockets",
-                "external": true,
-                "separate": true,
-                "jettisonable": false,
-                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk",
-                "emitter": "ffar_4",
-                "bullets": 1,
-                "minSize": [
-                  1.5,
-                  1.0,
-                  1.0
-                ],
-                "mass": 12.2,
-                "dragCx": 0.06
-              }
-            ]
           }
         ]
       },
@@ -2516,21 +2375,57 @@
         "index": 4,
         "tier": 4,
         "order": 2,
-        "WeaponPreset": {
-          "iconType": "missile_air_to_air_group_heli",
-          "name": "atas",
-          "reqModification": "stinger_aam",
-          "ShowNodes": {
-            "node": "pylon_r"
+        "WeaponPreset": [
+          {
+            "iconType": "nar_ap_special",
+            "name": "hf27",
+            "reqModification": "cn_hf7d",
+            "Weapon": {
+              "trigger": "rockets",
+              "external": true,
+              "blk": "gameData/Weapons/containers/hf7d_cn_fs_70.blk",
+              "emitter": "ch_rocket_pod_90mm_hf7d_4",
+              "mass": 0.01,
+              "dragCx": 0.01
+            }
           },
-          "Weapon": {
-            "trigger": "aam",
-            "external": true,
-            "separate": true,
-            "blk": "gameData/Weapons/containers/atas_2x_stinger.blk",
-            "emitter": "aim92_stinger_pod_002"
+          {
+            "iconType": "atgm_type_helfire_x4",
+            "name": "akd_9",
+            "reqModification": "cn_akd_9",
+            "Weapon": {
+              "trigger": "atgm",
+              "external": true,
+              "separate": true,
+              "blk": "gameData/Weapons/containers/akd_9_x4_default.blk",
+              "emitter": "akd_9_launcher_2"
+            }
+          },
+          {
+            "iconType": "atgm_type_helfire_x4",
+            "name": "akd_10",
+            "reqModification": "cn_akd_10",
+            "Weapon": {
+              "trigger": "atgm",
+              "external": true,
+              "separate": true,
+              "blk": "gameData/Weapons/containers/akd_10_x4.blk",
+              "emitter": "akd_9_launcher_2"
+            }
+          },
+          {
+            "iconType": "missile_type_b_air_to_air_group_x4",
+            "name": "ty_90",
+            "reqModification": "cn_ty_90",
+            "Weapon": {
+              "trigger": "aam",
+              "external": true,
+              "separate": true,
+              "blk": "gameData/Weapons/containers/ty_90_x4.blk",
+              "emitter": "akd_9_launcher_2"
+            }
           }
-        }
+        ]
       }
     ]
   },
@@ -2544,8 +2439,8 @@
   },
   "fireParams": {
     "engineExtinguishFireSpeed": [
-      28.0,
-      110.0
+      0.0,
+      92.0
     ],
     "engineExtinguishFireSpeedChance": [
       0.01,
@@ -2563,97 +2458,84 @@
       "prevModification": "new_compressor_heli"
     },
     "cd_98_main_rotor": {
-      "tier": 3,
-      "effects": {
-        "mulCdminMainRotor": 1.15,
-        "mulOswEffNumberMainRotor": 0.85
-      }
+      "tier": 3
     },
     "new_heli_cover": {},
     "heli_flak_jacket": {},
+    "automatic_air_extinguisher": {
+      "prevModification": "new_heli_cover",
+      "tier": 3,
+      "modClass": "weapon",
+      "invertEnableLogic": false
+    },
     "heli_structure": {},
-    "maw_countermeasures_launcher_chaff_only": {},
-    "maw_countermeasures_launcher_flare_only": {},
-    "maw_countermeasures_launcher_chaff_priority": {},
-    "maw_countermeasures_launcher_flare_priority": {},
-    "MAW_system_heli_false_thermal_targets": {
+    "type_23l_armor_targets": {},
+    "type_23l_air_targets": {},
+    "type_23l_belt_pack": {
+      "tier": 1
+    },
+    "type_23l_new_gun": {
+      "reqModification": "type_23l_belt_pack",
+      "tier": 2
+    },
+    "qjk_99_universal": {},
+    "qjk_99_ground_targets": {},
+    "qjk_99_air_targets": {},
+    "qjk_99_stealth": {},
+    "qjk_99_belt_pack": {
+      "prevModification": "type_23l_new_gun",
+      "tier": 3
+    },
+    "qjk_99_new_gun": {
+      "reqModification": "qjk_99_belt_pack",
+      "tier": 4
+    },
+    "cn_hf7d": {
+      "deactivationIsAllowed": false,
+      "modClass": "weapon",
+      "tier": 2
+    },
+    "cn_hj8": {
+      "deactivationIsAllowed": false,
+      "reqModification": "cn_hf7d",
+      "modClass": "weapon",
+      "tier": 4
+    },
+    "cn_akd_9": {
+      "deactivationIsAllowed": false,
+      "reqModification": "cn_hf7d",
+      "modClass": "weapon",
+      "tier": 1
+    },
+    "cn_akd_10": {
+      "deactivationIsAllowed": false,
+      "reqModification": "cn_hf7d",
+      "modClass": "weapon",
+      "tier": 3
+    },
+    "countermeasures_launcher_chaff_only": {},
+    "countermeasures_launcher_flare_only": {},
+    "countermeasures_launcher_chaff_priority": {},
+    "countermeasures_launcher_flare_priority": {},
+    "countermeasures_belt_pack": {
       "modClass": "weapon",
       "turn_it_off": false,
       "tier": 1,
       "invertEnableLogic": false,
-      "group": "countermeasures",
       "effects": {
         "commonWeapons": {
           "Weapon": {
             "slot": 0,
-            "preset": "ltc_common"
+            "preset": "type_23l_ltc_common"
           }
-        },
-        "sensors": {
-          "sensor": [
-            {
-              "blk": "gameData/sensors/ir_tracker.blk",
-              "node": "optic1_gun"
-            },
-            {
-              "blk": "gameData/sensors/us_an_apr_39.blk"
-            },
-            {
-              "blk": "gameData/sensors/us_an_aar_60.blk"
-            },
-            {
-              "blk": "gameData/sensors/fr_ralm01.blk"
-            }
-          ]
         }
       }
     },
-    "50cal_universal": {},
-    "50cal_ground_targets": {},
-    "50cal_tracers": {},
-    "50cal_stealth": {},
-    "bmg50_belt_pack": {
-      "tier": 2
-    },
-    "bmg50_new_gun": {
-      "reqModification": "bmg50_belt_pack",
-      "tier": 4
-    },
-    "tiger_hmp400_lcc": {
-      "tier": 1,
-      "modClass": "weapon"
-    },
-    "tiger_rmp_lc": {
-      "deactivationIsAllowed": false,
-      "reqModification": "tiger_hmp400_lcc",
-      "tier": 3,
-      "modClass": "weapon"
-    },
-    "air_extinguisher": {
-      "prevModification": "tiger_rmp_lc",
-      "tier": 4,
-      "modClass": "weapon",
-      "invertEnableLogic": false
-    },
-    "tiger_hot3": {
-      "deactivationIsAllowed": false,
-      "modClass": "weapon",
-      "tier": 2
-    },
-    "tiger_atgw3": {
-      "reqModification": "tiger_hot3",
-      "deactivationIsAllowed": false,
-      "modClass": "weapon",
-      "tier": 3
-    },
-    "stinger_aam": {
-      "reqModification": "tiger_atgw3",
-      "deactivationIsAllowed": false,
-      "modClass": "weapon",
-      "tier": 4
-    },
     "heli_night_vision_system": {
       "image": "#ui/gameuiskin#thermal_sight.png",
+      "prevModification": "countermeasures_belt_pack",
+      "tier": 3,
+      "modClass": "weapon",
       "effects": {
         "nightVision": {
           "gunnerIr": {
@@ -2683,99 +2565,99 @@
           }
         }
       }
+    },
+    "cn_ty_90": {
+      "deactivationIsAllowed": false,
+      "prevModification": "heli_night_vision_system",
+      "modClass": "weapon",
+      "tier": 4
     }
   },
   "default_skin_tomoe": {
-    "name": "default_tomoe",
     "replace_tex": [
       {
-        "from": "tiger_uht_germany_camo_c*",
-        "to": "tiger_uht_germany_camo_c_tomoe*"
+        "from": "z_10_c*",
+        "to": "z_10_c_tomoe*"
       },
       {
-        "from": "tiger_uht_germany_camo_c_dmg*",
-        "to": "tiger_uht_germany_camo_c_tomoe_dmg*"
+        "from": "z_10_c_dmg*",
+        "to": "z_10_c_tomoe_dmg*"
       }
     ]
   },
   "user_skin": {
-    "name": "tiger_uht",
+    "name": "z_10",
     "replace_tex": [
       {
-        "from": "tiger_uht_germany_camo_c*"
+        "from": "z_10_c*"
       },
       {
-        "from": "tiger_uht_germany_camo_c_dmg*"
+        "from": "z_10_c_dmg*"
       },
       {
-        "from": "tiger_uht_germany_camo_n*"
+        "from": "z_10_n*"
       },
       {
-        "from": "tiger_uht_germany_camo_n_dmg*"
+        "from": "z_10_n_dmg*"
       }
     ]
   },
   "cutting": {
-    "emtr_break_wing0_l_from": [
-      0.0755793,
-      -0.0717285,
-      1.05561
-    ],
-    "emtr_break_wing0_l_to": [
-      0.0755793,
-      -0.0717285,
-      1.27005
-    ],
-    "emtr_break_wing0_r_from": [
-      0.0755793,
-      -0.0717285,
-      -1.05561
-    ],
-    "emtr_break_wing0_r_to": [
-      0.0755793,
-      -0.0717285,
-      -1.27005
-    ],
-    "emtr_break_wing_lower": [
+    "_emtr_break_wing0_l_from": [
       0.0,
-      -1.3,
-      0.0
+      0.0,
+      2.72941
+    ],
+    "_emtr_break_wing0_l_to": [
+      0.0,
+      0.0,
+      2.73941
+    ],
+    "_emtr_break_wing0_r_from": [
+      0.0,
+      0.0,
+      -2.7294
+    ],
+    "_emtr_break_wing0_r_to": [
+      0.0,
+      0.0,
+      -2.7394
     ],
     "emtr_break_wing_tail": [
-      -7.30788,
+      8.53199,
       0.0,
       0.0
     ],
     "finCut": false,
     "emtr_break_stab_l_from": [
-      -7.56949,
-      -0.822309,
-      0.246464
+      -7.32123,
+      -0.0933799,
+      0.347083
     ],
     "emtr_break_stab_l_to": [
-      -7.56949,
-      -0.822309,
-      0.985855
+      -7.32123,
+      -0.0933799,
+      1.38833
     ],
     "emtr_break_stab_r_from": [
-      -7.56949,
-      -0.822309,
-      -0.241635
+      -7.32123,
+      -0.0933799,
+      -0.352058
     ],
     "emtr_break_stab_r_to": [
-      -7.56949,
-      -0.822309,
-      -0.966541
+      -7.32123,
+      -0.0933799,
+      -1.40823
     ],
     "emtr_break_fin_from": [
-      -7.53536,
-      -0.831441,
-      0.0339972
+      -8.04942,
+      0.407822,
+      0.101596
     ],
     "emtr_break_fin_to": [
-      -7.53536,
-      0.525917,
-      0.0339972
+      -8.04942,
+      1.52726,
+      0.101596
     ]
   }
 }

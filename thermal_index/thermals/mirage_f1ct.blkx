@@ -9,7 +9,7 @@
   "haveCCIPForBombs": true,
   "haveCCIPForGun": true,
   "haveCCRPForBombs": true,
-  "ilsTCSF196": true,
+  "ilsTCSFVE130": true,
   "havePointOfInterestDesignator": true,
   "standardExhaustFxType": "jet_exhaust",
   "afterburnerExhaustFxType": "jet_afterburner_exhaust",

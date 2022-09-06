@@ -5,7 +5,7 @@
   "shotFreq": 1000.25,
   "sound": "weapon.rocketgun_132",
   "helicopterGroup": 2,
-  "mesh": "matra_super_530f",
+  "mesh": "matra_super_530d",
   "tags": {},
   "rocket": {
     "normalizationPreset": "heat",

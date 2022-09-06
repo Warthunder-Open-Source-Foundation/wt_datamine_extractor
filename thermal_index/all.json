@@ -121,7 +121,7 @@
   },
   {
     "name": "ah_64a_iaf",
-    "localized": "✡AH-64A Peten",
+    "localized": "✡AH-64A",
     "vehicle_type": "Helicopter",
     "sights": [
       {
@@ -218,6 +218,18 @@
   {
     "name": "cn_cm11",
     "localized": "CM11",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "cn_hj_9",
+    "localized": "AFT-9",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -866,6 +878,30 @@
     ]
   },
   {
+    "name": "il_magach_6c",
+    "localized": "Magach 6C",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "il_magach_6m",
+    "localized": "Magach 6M",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "il_merkava_mk_1b",
     "localized": "Merkava Mk.1B",
     "vehicle_type": "Tank",
@@ -904,6 +940,18 @@
   {
     "name": "il_merkava_mk_3b",
     "localized": "Merkava Mk.3B",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "il_merkava_mk_3c",
+    "localized": "Merkava Mk.3C",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1107,6 +1155,18 @@
     ]
   },
   {
+    "name": "it_vrcc_centauro",
+    "localized": "VRCC",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
     "name": "jaguar_gr1a",
     "localized": "Jaguar GR.1A",
     "vehicle_type": "Aircraft",
@@ -1138,6 +1198,23 @@
   {
     "name": "jp_type_16",
     "localized": "Type 16",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      },
+      {
+        "crew": "Commander",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "jp_type_16_mcv_prot",
+    "localized": "Type 16 (P)",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1273,6 +1350,18 @@
     ]
   },
   {
+    "name": "mirage_f1ct",
+    "localized": "Mirage F1CT",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "sa_342m",
     "localized": "SA.342M Gazelle",
     "vehicle_type": "Helicopter",
@@ -1327,18 +1416,18 @@
   },
   {
     "name": "sw_cv_90105_tml",
-    "localized": "CV 90105 TML",
+    "localized": "CV 90105",
     "vehicle_type": "Tank",
     "sights": [
       {
         "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
+        "x": 1200.0,
+        "y": 800.0
       },
       {
         "crew": "Commander",
-        "x": 800.0,
-        "y": 600.0
+        "x": 1200.0,
+        "y": 800.0
       }
     ]
   },
@@ -1356,6 +1445,18 @@
         "crew": "Commander",
         "x": 1200.0,
         "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "sw_leopard_1a5no",
+    "localized": "Leopard 1A5NO",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
       }
     ]
   },
@@ -1471,6 +1572,18 @@
     ]
   },
   {
+    "name": "t_129_atak",
+    "localized": "T129",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
     "name": "tiger_had_france",
     "localized": "EC-665 Tiger HAD",
     "vehicle_type": "Helicopter",
@@ -1498,6 +1611,174 @@
     "name": "tiger_uht",
     "localized": "EC-665 Tiger UHT",
     "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "ucav_mq_1_predator",
+    "localized": "MQ-1",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "ucav_mq_1_predator_france_killstreak",
+    "localized": "MQ-1",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "ucav_mq_1_predator_germany_killstreak",
+    "localized": "MQ-1",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "ucav_mq_1_predator_iaf_killstreak",
+    "localized": "MQ-1",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "ucav_mq_1_predator_italy_killstreak",
+    "localized": "MQ-1",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "ucav_mq_1_predator_japan_killstreak",
+    "localized": "MQ-1",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "ucav_mq_1_predator_sweden_killstreak",
+    "localized": "MQ-1",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "ucav_mq_1_predator_uk_killstreak",
+    "localized": "MQ-1",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "ucav_mq_1_predator_usa_killstreak",
+    "localized": "MQ-1",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "ucav_orion",
+    "localized": "ucav_orion",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "ucav_orion_killstreak",
+    "localized": "Orion",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "ucav_recon_micro_flir",
+    "localized": "Recon Micro",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "ucav_wing_loong_i",
+    "localized": "ucav_wing_loong_i",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "ucav_wing_loong_i_killstreak",
+    "localized": "Wing Long I",
+    "vehicle_type": "Aircraft",
     "sights": [
       {
         "crew": "Global",
@@ -2222,6 +2503,18 @@
     ]
   },
   {
+    "name": "ussr_t_80uk",
+    "localized": "T-80UK",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "ussr_t_90a",
     "localized": "Т-90А",
     "vehicle_type": "Tank",
@@ -2248,6 +2541,42 @@
   {
     "name": "yah_64",
     "localized": "YAH-64",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "z_10",
+    "localized": "Z-10",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "z_11wa",
+    "localized": "Z-11WA",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "z_19",
+    "localized": "Z-19",
     "vehicle_type": "Helicopter",
     "sights": [
       {
