@@ -3009,6 +3009,11 @@
     "new_heli_cover": {},
     "heli_flak_jacket": {},
     "heli_structure": {},
+    "air_extinguisher": {
+      "prevModification": "heli_structure",
+      "tier": 3,
+      "invertEnableLogic": false
+    },
     "Oerlikon_KAD_air_targets": {},
     "Oerlikon_KAD_armor_targets": {},
     "Oerlikon_KAD_belt_pack": {
@@ -3017,12 +3022,6 @@
     "Oerlikon_KAD_new_gun": {
       "reqModification": "Oerlikon_KAD_belt_pack",
       "tier": 3
-    },
-    "air_extinguisher": {
-      "prevModification": "Oerlikon_KAD_new_gun",
-      "tier": 4,
-      "modClass": "weapon",
-      "invertEnableLogic": false
     },
     "ah_1_TOW": {
       "deactivationIsAllowed": false,
@@ -3058,6 +3057,12 @@
       "reqModification": "ah_1_TOW2_2",
       "modClass": "weapon",
       "tier": 4
+    },
+    "stinger_aam": {
+      "prevModification": "countermeasures_belt_pack",
+      "deactivationIsAllowed": false,
+      "modClass": "weapon",
+      "tier": 2
     },
     "countermeasures_launcher_chaff_only": {},
     "countermeasures_launcher_flare_only": {},
@@ -3129,13 +3134,10 @@
         }
       }
     },
-    "stinger_aam": {
-      "deactivationIsAllowed": false,
-      "reqModification": "countermeasures_belt_pack",
-      "modClass": "weapon",
-      "tier": 2
-    },
     "heli_night_vision_system": {
+      "prevModification": "stinger_aam",
+      "modClass": "weapon",
+      "tier": 3,
       "image": "#ui/gameuiskin#thermal_sight.png",
       "effects": {
         "nightVision": {
