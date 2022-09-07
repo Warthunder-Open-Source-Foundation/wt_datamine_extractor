@@ -1443,6 +1443,7 @@
         3.0,
         0.23
       ],
+      "waitShellForPark": true,
       "canChangeBulletInReload": false,
       "createGunEffects": true,
       "parkForReload": true,
@@ -2489,6 +2490,7 @@
                 3.0,
                 0.23
               ],
+              "waitShellForPark": true,
               "canChangeBulletInReload": false,
               "createGunEffects": true,
               "parkForReload": true,
