@@ -1,7 +1,8 @@
 {
-  "model": "mq_1l_usa",
+  "model": "wing_loong_china",
   "fmFile": "fm/ucav_mq_1_predator.blk",
-  "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/jet_fighter_metaparts.blk",
+  "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/fighter_metaparts.blk",
+  "exhaustEffectsBlk": "gameData/FlightModels/exhaustEffects/exhaustEffects_common.blk",
   "gForceTolerationMult": 0.0001,
   "haveCCIPForRocket": true,
   "haveCCIPForBombs": true,
@@ -10,8 +11,8 @@
   "havePointOfInterestDesignator": true,
   "hasOpticTurret": true,
   "disableAerobaticsSmoke": true,
-  "gearSinkRangeLR": 0.204,
-  "gearSinkRangeC": 0.308,
+  "gearSinkRangeLR": 0.128,
+  "gearSinkRangeC": 0.75,
   "jetEnginePowerFullScale": true,
   "mustHaveCockpit": false,
   "viewDistKInSight": 10.0,
@@ -38,11 +39,11 @@
   "fightAiBehaviour": "assault",
   "autopilotImpl": "FBW",
   "laserDesignator": true,
-  "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg",
-  "customImage": "!#ui/unitskin#image_in_progress",
-  "customTooltipImage": "ui/aircrafts/image_in_progress",
+  "customClassIco": "!#ui/gameuiskin#ucav_wing_loong_i_ico.svg",
+  "customImage": "!#ui/unitskin#ucav_wing_loong_i",
+  "customTooltipImage": "ui/aircrafts/ucav_wing_loong_i",
   "DamageParts": {
-    "armor_engine": {
+    "armor_jet_engine": {
       "engine_dm": {
         "genericDamageMult": 1.6,
         "hp": 30.5
@@ -67,6 +68,15 @@
     "c_dural7": {
       "fuse_dm": {
         "hp": 84.7
+      },
+      "fuse1_dm": {
+        "hp": 84.7
+      },
+      "fin1_dm": {
+        "hp": 14.5
+      },
+      "fin2_dm": {
+        "hp": 14.5
       },
       "tail_dm": {
         "genericDamageMult": 0.5,
@@ -414,6 +424,68 @@
         ]
       },
       {
+        "name": "fuse1_dm",
+        "onHit": [
+          {
+            "flame": 0.2,
+            "smoke": 0.2
+          },
+          {
+            "damage": 45.0,
+            "tail_dm": 0.4
+          },
+          {
+            "damage": 40.0,
+            "tail_dm": 0.6
+          },
+          {
+            "damage": 50.0,
+            "tail_dm": 1.0
+          }
+        ],
+        "onKill": [
+          {
+            "tail_dm": 1.0,
+            "nothing": 10.0
+          },
+          {
+            "damage": 3.0,
+            "tail_dm": 1.0,
+            "nothing": 7.0
+          },
+          {
+            "damage": 7.0,
+            "tail_dm": 1.0,
+            "nothing": 6.0
+          },
+          {
+            "damage": 10.0,
+            "tail_dm": 1.0,
+            "nothing": 5.0
+          },
+          {
+            "damage": 20.0,
+            "tail_dm": 1.0,
+            "nothing": 4.0
+          },
+          {
+            "damage": 30.0,
+            "tail_dm": 1.0,
+            "nothing": 3.0
+          },
+          {
+            "damage": 40.0,
+            "tail_dm": 1.0,
+            "nothing": 2.0
+          },
+          {
+            "damage": 50.0,
+            "tail_dm": 1.0,
+            "nothing": 1.0
+          }
+        ]
+      },
+      {
         "name": "gear_c_dm",
         "onHit": [
           {
@@ -523,6 +595,12 @@
         "name": "spar_r_dm"
       },
       {
+        "name": "fin1_dm"
+      },
+      {
+        "name": "fin2_dm"
+      },
+      {
         "name": "tail_dm",
         "onHit": {
           "flame": 0.2,
@@ -558,7 +636,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.01,
             "leak": 0.9
@@ -571,13 +649,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 50.0,
             "fire": 50.0,
             "leak": 15.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 10.0
           }
@@ -601,7 +677,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.01,
             "leak": 0.9
@@ -614,13 +690,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 50.0,
             "fire": 50.0,
             "leak": 15.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 10.0
           }
@@ -1293,16 +1367,16 @@
           180.0
         ],
         "pitch": [
-          -80.0,
-          19.0
+          -90.0,
+          90.0
         ]
       }
     }
   },
   "weapon_presets": {
     "preset": {
-      "name": "ucav_mq_1_predator_default",
-      "blk": "gameData/FlightModels/weaponPresets/ucav_mq_1_predator_hellfire.blk",
+      "name": "ucav_wing_loong_default",
+      "blk": "gameData/FlightModels/weaponPresets/ucav_wing_loong_akd_9.blk",
       "tags": {
         "free": true
       }

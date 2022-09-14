@@ -11,6 +11,7 @@
   "haveCCIPForTurret": true,
   "haveCCRPForGun": false,
   "haveCCRPForTurret": true,
+  "laserDesignator": true,
   "gearSinkRangeLR": 0.216,
   "gearSinkRangeC": 0.165,
   "tpsCameraOffset": [
@@ -41,9 +42,6 @@
   "explosion_dmBlk": "gameData/FlightModels/DM/commonExplosion.blk",
   "fireParamsPreset": "200kph",
   "fightAiBehaviour": "helicopter",
-  "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg",
-  "customImage": "!#ui/unitskin#image_in_progress",
-  "customTooltipImage": "ui/aircrafts/image_in_progress",
   "DamageParts": {
     "armor10": {
       "cannon1_dm": {
@@ -582,7 +580,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.4,
             "leak": 0.9
@@ -596,13 +594,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 45.0,
             "fire": 45.0,
             "leak": 25.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 20.0
           }
@@ -626,7 +622,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.4,
             "leak": 0.9
@@ -640,13 +636,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 45.0,
             "fire": 45.0,
             "leak": 25.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 20.0
           }
@@ -670,7 +664,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.4,
             "leak": 0.9
@@ -684,13 +678,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 45.0,
             "fire": 45.0,
             "leak": 25.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 20.0
           }
@@ -1133,10 +1125,6 @@
             },
             {
               "type": "rwr"
-            },
-            {
-              "type": "radar",
-              "radarScale": 0.85
             },
             {
               "type": "devices",
@@ -2230,7 +2218,7 @@
             }
           },
           {
-            "iconType": "atgm_type_helfire_x4",
+            "iconType": "atgm_type_helfire_x4_late",
             "name": "akd_10",
             "reqModification": "cn_akd_10",
             "Weapon": {
@@ -2352,7 +2340,7 @@
             "ShowDmParts": {
               "node": [
                 "cover3_dm",
-                "gun1_dm"
+                "gun2_dm"
               ]
             },
             "Weapon": {
@@ -2402,7 +2390,7 @@
             }
           },
           {
-            "iconType": "atgm_type_helfire_x4",
+            "iconType": "atgm_type_helfire_x4_late",
             "name": "akd_10",
             "reqModification": "cn_akd_10",
             "Weapon": {
@@ -2453,12 +2441,12 @@
     "new_compressor_heli": {
       "tier": 1
     },
+    "cd_98_main_rotor": {
+      "tier": 2
+    },
     "hp_105_jet": {
       "tier": 3,
-      "prevModification": "new_compressor_heli"
-    },
-    "cd_98_main_rotor": {
-      "tier": 3
+      "prevModification": "cd_98_main_rotor"
     },
     "new_heli_cover": {},
     "heli_flak_jacket": {},
@@ -2495,21 +2483,14 @@
       "modClass": "weapon",
       "tier": 2
     },
-    "cn_hj8": {
-      "deactivationIsAllowed": false,
-      "reqModification": "cn_hf7d",
-      "modClass": "weapon",
-      "tier": 4
-    },
     "cn_akd_9": {
       "deactivationIsAllowed": false,
-      "reqModification": "cn_hf7d",
       "modClass": "weapon",
       "tier": 1
     },
     "cn_akd_10": {
       "deactivationIsAllowed": false,
-      "reqModification": "cn_hf7d",
+      "reqModification": "cn_akd_9",
       "modClass": "weapon",
       "tier": 3
     },

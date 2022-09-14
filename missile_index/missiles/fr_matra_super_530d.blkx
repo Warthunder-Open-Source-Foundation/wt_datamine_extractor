@@ -18,12 +18,12 @@
     "bulletType": "aam",
     "bulletName": "su_r3s",
     "caliber": 0.263,
-    "mass": 245.0,
+    "mass": 270.0,
     "explosiveType": "pbxn_3",
     "explosiveMass": 8.1,
     "maxDeltaAngle": 0.0,
     "dragCx": 0.015,
-    "length": 3.54,
+    "length": 3.8,
     "distFromCmToStab": 0.07,
     "wingAreaMult": 1.4,
     "CxK": 2.2,
@@ -32,14 +32,15 @@
       0.1,
       0.1
     ],
-    "finsAoaHor": 0.16,
-    "finsAoaVer": 0.16,
-    "massEnd": 210.45,
+    "finsAoaHor": 0.25,
+    "finsAoaVer": 0.25,
+    "finsLatAccel": 36.8,
+    "massEnd": 235.45,
     "force": 38000.0,
     "timeFire": 2.0,
-    "massEnd1": 165.0,
-    "force1": 25000.0,
-    "timeFire1": 4.0,
+    "massEnd1": 180.0,
+    "force1": 15250.0,
+    "timeFire1": 8.0,
     "fireDelay": 0.0,
     "spawnExplosionFx": false,
     "spawnExplosionWreckage": false,
@@ -85,8 +86,8 @@
     "startSpeed": 0.0,
     "endSpeed": 0.0,
     "timeLife": 60.0,
-    "machMax": 4.5,
-    "loadFactorMax": 28.0,
+    "machMax": 5.0,
+    "loadFactorMax": 30.0,
     "rangeMax": 40000.0,
     "price": 3000.0,
     "iconType": "missile_type_b_air_to_air_midrange",
@@ -408,63 +409,61 @@
     },
     "guidance": {
       "warmUpTime": 2.0,
-      "workTime": 15.0,
+      "workTime": 100.0,
       "uncageBeforeLaunch": true,
+      "lockAfterLaunch": true,
+      "useTargetVel": true,
+      "lockTimeOut": 0.75,
+      "afterLaunchSpeedUp": 170.0,
       "breakLockMaxTime": 3.0,
       "radarSeeker": {
         "band": 8,
-        "sideLobesAttenuation": -16.0,
-        "lockAngleMax": 40.0,
-        "angleMax": 50.0,
+        "sideLobesAttenuation": -20.0,
+        "lockAngleMax": 15.0,
+        "angleMax": 45.0,
         "rateMax": 12.0,
         "prolongationTimeMax": 1.0,
         "designationSourceTypeMask": 2,
         "transmitter": {
           "power": 200.0,
           "antenna": {
-            "angleHalfSens": 5.0,
-            "sideLobesSensitivity": -27.0
+            "angleHalfSens": 12.0,
+            "sideLobesSensitivity": -30.0
           }
         },
         "receiver": {
           "rcs": 2.0,
-          "range": 25000.0,
-          "rangeMax": 30000.0,
+          "range": 30000.0,
+          "rangeMax": 40000.0,
+          "timeGainControl": false,
           "antenna": {
             "angleHalfSens": 10.0,
-            "sideLobesSensitivity": -16.0
+            "sideLobesSensitivity": -17.0
           }
         },
-        "distance": {
+        "dopplerSpeed": {
           "presents": true,
-          "minValue": 150.0,
-          "maxValue": 75000.0,
-          "width": 150.0,
-          "signalWidthMin": 75.0,
-          "refWidth": 750.0
+          "minValue": -3000.0,
+          "maxValue": 3000.0,
+          "width": 20.0,
+          "refWidth": 100.0,
+          "signalWidthMin": 5.0
         },
-        "distGate": {
-          "filterAlpha": 0.8,
-          "filterBetta": 0.05,
-          "distAccelLimit": 60.0
+        "dopplerSpeedGate": {
+          "filterAlpha": 0.2,
+          "filterBetta": 0.02,
+          "dopplerSpeedGateSearchRange": 300.0
         }
       },
       "guidanceAutopilot": {
-        "timeToGain0": [
-          0.5,
-          0.0
-        ],
-        "timeToGain1": [
-          1.5,
-          1.0
-        ],
+        "timeOut": 0.5,
         "propNavMult": 3.75,
-        "reqAccelMax": 28.0,
-        "baseIndSpeed": 1620.0,
-        "accelControlProp": 0.04,
-        "accelControlIntg": 0.02,
-        "accelControlIntgLim": 0.8,
-        "accelControlDiff": 0.002
+        "reqAccelMax": 30.0,
+        "accelControlProp": 0.002,
+        "accelControlIntg": 0.0256,
+        "accelControlDiff": 0.0006,
+        "baseIndSpeed": 1800.0,
+        "accelControlIntgLim": 1.0
       },
       "table0": {
         "altitude": 0.0,
@@ -484,14 +483,24 @@
           1050.0
         ],
         "rangeMax": [
-          12500.0,
-          4300.0,
-          11500.0,
-          3500.0
+          20245.0,
+          4685.0,
+          19085.0,
+          3755.0
         ],
-        "altDiff": [
+        "timeMax": [
+          28.35,
+          15.5,
+          27.6,
+          14.85
+        ],
+        "rangeMaxAltDiff": [
           500.0,
           1200.0
+        ],
+        "timeMaxAltDiff": [
+          500.0,
+          1.4
         ]
       },
       "table1": {
@@ -512,14 +521,24 @@
           1550.0
         ],
         "rangeMax": [
-          20000.0,
-          7200.0,
-          18000.0,
-          6000.0
+          31500.0,
+          8035.0,
+          29580.0,
+          6590.0
         ],
-        "altDiff": [
+        "timeMax": [
+          43.0,
+          22.2,
+          42.0,
+          21.45
+        ],
+        "rangeMaxAltDiff": [
           500.0,
           1200.0
+        ],
+        "timeMaxAltDiff": [
+          500.0,
+          1.4
         ]
       },
       "table2": {
@@ -540,20 +559,30 @@
           2050.0
         ],
         "rangeMax": [
-          40000.0,
-          16500.0,
-          38500.0,
-          14000.0
+          48400.0,
+          19900.0,
+          45800.0,
+          17170.0
         ],
-        "altDiff": [
+        "timeMax": [
+          50.7,
+          60.0,
+          48.6,
+          60.0
+        ],
+        "rangeMaxAltDiff": [
           500.0,
-          1000.0
+          1200.0
+        ],
+        "timeMaxAltDiff": [
+          500.0,
+          1.4
         ]
       }
     },
     "arcadeProp": {
-      "finsAoaHor": 0.17,
-      "finsAoaVer": 0.17
+      "finsAoaHor": 0.27,
+      "finsAoaVer": 0.27
     },
     "proximityFuse": {
       "timeOut": 2.2,

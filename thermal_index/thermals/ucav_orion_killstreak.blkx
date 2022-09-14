@@ -1,7 +1,8 @@
 {
-  "model": "mq_1l_usa",
+  "model": "uav_orion",
   "fmFile": "fm/ucav_mq_1_predator.blk",
-  "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/jet_fighter_metaparts.blk",
+  "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/fighter_metaparts.blk",
+  "exhaustEffectsBlk": "gameData/FlightModels/exhaustEffects/exhaustEffects_common.blk",
   "gForceTolerationMult": 0.0001,
   "haveCCIPForRocket": true,
   "haveCCIPForBombs": true,
@@ -38,11 +39,11 @@
   "fightAiBehaviour": "assault",
   "autopilotImpl": "FBW",
   "laserDesignator": true,
-  "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg",
-  "customImage": "!#ui/unitskin#image_in_progress",
-  "customTooltipImage": "ui/aircrafts/image_in_progress",
+  "customClassIco": "!#ui/gameuiskin#ucav_orion_ico.svg",
+  "customImage": "!#ui/unitskin#ucav_orion",
+  "customTooltipImage": "ui/aircrafts/ucav_orion",
   "DamageParts": {
-    "armor_engine": {
+    "armor_jet_engine": {
       "engine_dm": {
         "genericDamageMult": 1.6,
         "hp": 30.5
@@ -51,22 +52,28 @@
     "c_dural3": {
       "aileron_l_dm": {
         "genericDamageMult": 0.3,
-        "hp": 19.6
+        "hp": 19.2
       },
       "aileron_r_dm": {
         "genericDamageMult": 0.3,
-        "hp": 19.6
+        "hp": 19.2
       },
       "flap_l_dm": {
-        "hp": 26.6
+        "hp": 24.5
       },
       "flap_r_dm": {
-        "hp": 26.6
+        "hp": 24.5
+      },
+      "stab1_dm": {
+        "hp": 16.4
+      },
+      "stab2_dm": {
+        "hp": 16.4
       }
     },
     "c_dural7": {
       "fuse_dm": {
-        "hp": 84.7
+        "hp": 66.5
       },
       "tail_dm": {
         "genericDamageMult": 0.5,
@@ -103,14 +110,26 @@
       },
       "cover2_dm": {
         "hp": 19.5
+      },
+      "cover3_dm": {
+        "hp": 19.5
+      },
+      "cover4_dm": {
+        "hp": 19.5
+      },
+      "cover5_dm": {
+        "hp": 19.5
+      },
+      "cover6_dm": {
+        "hp": 19.5
       }
     },
     "dural40": {
       "spar1_l_dm": {
-        "hp": 29.6
+        "hp": 28.4
       },
       "spar1_r_dm": {
-        "hp": 29.6
+        "hp": 28.4
       },
       "spar2_l_dm": {
         "hp": 19.5
@@ -119,10 +138,10 @@
         "hp": 19.5
       },
       "spar_l_dm": {
-        "hp": 31.8
+        "hp": 35.6
       },
       "spar_r_dm": {
-        "hp": 31.8
+        "hp": 35.6
       }
     },
     "dural5": {
@@ -141,12 +160,14 @@
         "hp": 39.5
       }
     },
+    "steel_cooling_sys": {
+      "oil1_dm": {
+        "hp": 17.5
+      }
+    },
     "steel_tank_armor": {
       "tank1_dm": {
-        "hp": 69.3
-      },
-      "tank2_dm": {
-        "hp": 39.9
+        "hp": 55.2
       }
     }
   },
@@ -239,6 +260,18 @@
       },
       {
         "name": "cover2_dm"
+      },
+      {
+        "name": "cover3_dm"
+      },
+      {
+        "name": "cover4_dm"
+      },
+      {
+        "name": "cover5_dm"
+      },
+      {
+        "name": "cover6_dm"
       },
       {
         "name": "engine_dm",
@@ -486,6 +519,15 @@
         }
       },
       {
+        "name": "oil1_dm",
+        "onHit": {
+          "leak_oil": 0.95
+        },
+        "onKill": {
+          "leak_oil": 1.0
+        }
+      },
+      {
         "name": "radar_dm"
       },
       {
@@ -523,6 +565,66 @@
         "name": "spar_r_dm"
       },
       {
+        "name": "stab1_dm",
+        "onHit": [
+          {
+            "damage": 30.0,
+            "cut": 0.6
+          },
+          {
+            "damage": 60.0,
+            "cut": 1.0
+          }
+        ],
+        "onKill": [
+          {
+            "damage": 10.0,
+            "cut": 1.0,
+            "nothing": 10.0
+          },
+          {
+            "damage": 30.0,
+            "cut": 2.0,
+            "nothing": 5.0
+          },
+          {
+            "damage": 50.0,
+            "cut": 1.0,
+            "nothing": 0.0
+          }
+        ]
+      },
+      {
+        "name": "stab2_dm",
+        "onHit": [
+          {
+            "damage": 30.0,
+            "cut": 0.6
+          },
+          {
+            "damage": 60.0,
+            "cut": 1.0
+          }
+        ],
+        "onKill": [
+          {
+            "damage": 10.0,
+            "cut": 1.0,
+            "nothing": 10.0
+          },
+          {
+            "damage": 30.0,
+            "cut": 2.0,
+            "nothing": 5.0
+          },
+          {
+            "damage": 50.0,
+            "cut": 1.0,
+            "nothing": 0.0
+          }
+        ]
+      },
+      {
         "name": "tail_dm",
         "onHit": {
           "flame": 0.2,
@@ -558,7 +660,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.01,
             "leak": 0.9
@@ -571,56 +673,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 50.0,
             "fire": 50.0,
             "leak": 15.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
-            "fire": 50.0,
-            "leak": 10.0
-          }
-        ]
-      },
-      {
-        "name": "tank2_dm",
-        "onHit": [
-          {
-            "fire": 0.0001,
-            "leak": 0.3
-          },
-          {
-            "damage": 3.0,
-            "fire": 0.001,
-            "leak": 0.5
-          },
-          {
-            "damage": 20.0,
-            "fire": 0.005,
-            "leak": 0.7
-          },
-          {
-            "damage": 70.0,
-            "expl": 0.5,
-            "fire": 0.01,
-            "leak": 0.9
-          }
-        ],
-        "onKill": [
-          {
-            "fire": 0.01,
-            "leak": 9.99
-          },
-          {
-            "damage": 50.0,
-            "expl": 50.0,
-            "fire": 50.0,
-            "leak": 15.0
-          },
-          {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 10.0
           }
@@ -1269,44 +1326,190 @@
     }
   },
   "commonWeapons": {
-    "hasTargetingPod": true,
     "Weapon": {
-      "dummy": true,
-      "trigger": "gunner0",
-      "triggerGroup": "primary",
-      "blk": "gameData/Weapons/dummy_weapon.blk",
-      "emitter": "optic1_gun",
-      "defaultYaw": 0.0,
-      "defaultPitch": 0.0,
-      "speedYaw": 200.0,
-      "speedPitch": 200.0,
-      "parkInDeadzone": true,
-      "aimForOperatedShell": true,
-      "turret": {
-        "head": "optic1_turret",
-        "gun": "optic1_gun",
-        "mainTurret": true
-      },
-      "limits": {
-        "yaw": [
-          -180.0,
-          180.0
-        ],
-        "pitch": [
-          -80.0,
-          19.0
-        ]
-      }
+      "slot": 0,
+      "preset": "common"
     }
   },
   "weapon_presets": {
-    "preset": {
-      "name": "ucav_mq_1_predator_default",
-      "blk": "gameData/FlightModels/weaponPresets/ucav_mq_1_predator_hellfire.blk",
-      "tags": {
-        "free": true
+    "preset": [
+      {
+        "name": "ucav_orion_default",
+        "blk": "gameData/FlightModels/weaponPresets/ucav_orion_kornet.blk",
+        "tags": {
+          "free": true
+        }
+      },
+      {
+        "name": "ucav_orion_kornet_fm3",
+        "blk": "gameData/FlightModels/weaponPresets/ucav_orion_kornet_fm3.blk"
       }
-    }
+    ]
+  },
+  "WeaponSlots": {
+    "maxloadMass": 1000.0,
+    "maxloadMassLeftConsoles": 1000.0,
+    "maxloadMassRightConsoles": 1000.0,
+    "maxDisbalance": 900.0,
+    "WeaponSlot": [
+      {
+        "index": 0,
+        "notUseforDisbalanceCalculation": true,
+        "WeaponPreset": {
+          "name": "common",
+          "Weapon": {
+            "dummy": true,
+            "trigger": "gunner0",
+            "triggerGroup": "primary",
+            "blk": "gameData/Weapons/dummy_weapon.blk",
+            "emitter": "optic1_gun",
+            "defaultYaw": 0.0,
+            "defaultPitch": 0.0,
+            "speedYaw": 200.0,
+            "speedPitch": 200.0,
+            "parkInDeadzone": true,
+            "aimForOperatedShell": true,
+            "turret": {
+              "head": "optic1_turret",
+              "gun": "optic1_gun",
+              "mainTurret": true
+            },
+            "limits": {
+              "yaw": [
+                -180.0,
+                180.0
+              ],
+              "pitch": [
+                -90.0,
+                90.0
+              ]
+            }
+          }
+        }
+      },
+      {
+        "index": 1,
+        "tier": 7,
+        "order": 1,
+        "WeaponPreset": [
+          {
+            "iconType": "missile_air_to_uni",
+            "name": "kornet",
+            "hasTargetingPod": true,
+            "Weapon": {
+              "trigger": "atgm",
+              "blk": "gameData/Weapons/containers/orion_kornet_x1_default.blk",
+              "emitter": "kornet_d_tpk_001",
+              "external": true,
+              "separate": true,
+              "machLimit": 1.01
+            }
+          },
+          {
+            "iconType": "missile_air_to_uni_large",
+            "name": "kornet_fm3",
+            "hasTargetingPod": true,
+            "Weapon": {
+              "trigger": "atgm",
+              "blk": "gameData/Weapons/containers/orion_kornet_fm3_x1.blk",
+              "emitter": "kornet_d_tpk_001",
+              "external": true,
+              "separate": true,
+              "machLimit": 1.01
+            }
+          },
+          {
+            "iconType": "guided_bomb_small_laser",
+            "name": "kab_50l",
+            "hasTargetingPod": true,
+            "Weapon": {
+              "trigger": "guided bombs",
+              "blk": "gameData/Weapons/BombGuns/su_kab_50l.blk",
+              "emitter": "kornet_d_tpk_001",
+              "external": true,
+              "separate": true,
+              "machLimit": 1.01,
+              "bullets": 1
+            }
+          },
+          {
+            "iconType": "guided_bomb_red",
+            "name": "kab_50tv",
+            "hasTargetingPod": true,
+            "Weapon": {
+              "trigger": "guided bombs",
+              "blk": "gameData/Weapons/BombGuns/su_kab_50tv.blk",
+              "emitter": "kornet_d_tpk_001",
+              "external": true,
+              "separate": true,
+              "machLimit": 1.01,
+              "bullets": 1
+            }
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "tier": 5,
+        "order": 2,
+        "WeaponPreset": [
+          {
+            "iconType": "missile_air_to_uni",
+            "name": "kornet",
+            "hasTargetingPod": true,
+            "Weapon": {
+              "trigger": "atgm",
+              "blk": "gameData/Weapons/containers/orion_kornet_x1_default.blk",
+              "emitter": "kornet_d_tpk_002",
+              "external": true,
+              "separate": true,
+              "machLimit": 1.01
+            }
+          },
+          {
+            "iconType": "missile_air_to_uni_large",
+            "name": "kornet_fm3",
+            "hasTargetingPod": true,
+            "Weapon": {
+              "trigger": "atgm",
+              "blk": "gameData/Weapons/containers/orion_kornet_fm3_x1.blk",
+              "emitter": "kornet_d_tpk_002",
+              "external": true,
+              "separate": true,
+              "machLimit": 1.01
+            }
+          },
+          {
+            "iconType": "guided_bomb_small_laser",
+            "name": "kab_50l",
+            "hasTargetingPod": true,
+            "Weapon": {
+              "trigger": "guided bombs",
+              "blk": "gameData/Weapons/BombGuns/su_kab_50l.blk",
+              "emitter": "kornet_d_tpk_002",
+              "external": true,
+              "separate": true,
+              "machLimit": 1.01,
+              "bullets": 1
+            }
+          },
+          {
+            "iconType": "guided_bomb_red",
+            "name": "kab_50tv",
+            "hasTargetingPod": true,
+            "Weapon": {
+              "trigger": "guided bombs",
+              "blk": "gameData/Weapons/BombGuns/su_kab_50tv.blk",
+              "emitter": "kornet_d_tpk_002",
+              "external": true,
+              "separate": true,
+              "machLimit": 1.01,
+              "bullets": 1
+            }
+          }
+        ]
+      }
+    ]
   },
   "sensors": {
     "sensor": [
@@ -1351,70 +1554,90 @@
   },
   "cutting": {
     "_emtr_break_wing0_l_from": [
-      -0.348412,
-      -0.121709,
-      0.8951
+      -0.1244,
+      -0.0677273,
+      1.13189
     ],
     "_emtr_break_wing0_l_to": [
-      -0.348412,
-      -0.121709,
-      1.57548
+      -0.1244,
+      -0.0677273,
+      2.10852
     ],
     "emtr_break_wing1_l_from": [
-      -0.348412,
-      -0.121709,
-      2.59606
+      -0.1244,
+      -0.0677273,
+      3.57346
     ],
     "emtr_break_wing1_l_to": [
-      -0.348412,
-      -0.121709,
-      3.53339
+      -0.1244,
+      -0.0677273,
+      4.892
     ],
     "emtr_break_wing2_l_from": [
-      -0.348412,
-      -0.121709,
-      4.93939
+      -0.1244,
+      -0.0677273,
+      6.8698
     ],
     "emtr_break_wing2_l_to": [
-      -0.348412,
-      -0.121709,
-      5.87692
+      -0.1244,
+      -0.0677273,
+      7.48954
     ],
     "_emtr_break_wing0_r_from": [
-      -0.348413,
-      -0.121708,
-      -0.8951
+      -0.124401,
+      -0.0677648,
+      -1.13189
     ],
     "_emtr_break_wing0_r_to": [
-      -0.348413,
-      -0.121708,
-      -1.57548
+      -0.124401,
+      -0.0677648,
+      -2.10852
     ],
     "emtr_break_wing1_r_from": [
-      -0.348413,
-      -0.121708,
-      -2.59606
+      -0.124401,
+      -0.0677648,
+      -3.57346
     ],
     "emtr_break_wing1_r_to": [
-      -0.348413,
-      -0.121708,
-      -3.53339
+      -0.124401,
+      -0.0677648,
+      -4.892
     ],
     "emtr_break_wing2_r_from": [
-      -0.348413,
-      -0.121708,
-      -4.93939
+      -0.124401,
+      -0.0677648,
+      -6.8698
     ],
     "emtr_break_wing2_r_to": [
-      -0.348413,
-      -0.121708,
-      -5.87692
+      -0.124401,
+      -0.0677648,
+      -7.49674
     ],
     "emtr_break_wing_tail": [
-      -1.59128,
+      -1.41522,
       0.0,
       0.0
     ],
-    "finCut": false
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -2.74098,
+      0.855384,
+      0.749219
+    ],
+    "emtr_break_stab_l_to": [
+      -2.74098,
+      0.855384,
+      2.10993
+    ],
+    "emtr_break_stab_r_from": [
+      -2.74097,
+      0.85542,
+      -0.749219
+    ],
+    "emtr_break_stab_r_to": [
+      -2.74097,
+      0.85542,
+      -2.10993
+    ]
   }
 }

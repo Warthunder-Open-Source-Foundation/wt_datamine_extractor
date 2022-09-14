@@ -131,6 +131,9 @@
       },
       "turret_09_back_dm": {
         "armorThickness": 12.7
+      },
+      "turret_03_front_dm": {
+        "armorThickness": 25.0
       }
     },
     "turret": {
@@ -147,9 +150,6 @@
       },
       "turret_01_front_dm": {
         "armorThickness": 25.4
-      },
-      "turret_03_front_dm": {
-        "armorThickness": 142.0
       },
       "gun_mask_dm": {
         "armorThickness": 127.0,

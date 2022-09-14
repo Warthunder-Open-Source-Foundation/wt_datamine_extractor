@@ -1,7 +1,7 @@
 {
   "model": "uav_scout",
   "fmFile": "fm/ucav_recon_micro.blk",
-  "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/fighter_metaparts.blk",
+  "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/ucav_scout_metaparts.blk",
   "exhaustEffectsBlk": "gameData/FlightModels/exhaustEffects/exhaustEffects_common.blk",
   "gForceTolerationMult": 0.0001,
   "tpsCameraOffset": [
@@ -24,7 +24,7 @@
   "damagePartsToCollisionObjectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_collision_objects.blk",
   "damagePartsToFmPartsMapBlk": "gameData/FlightModels/DM/dm_parts_to_fm_parts_map_tailless.blk",
   "damagePartsToHudPartsMapBlk": "gameData/FlightModels/DM/dm_parts_to_hud_parts_map.blk",
-  "damagePartsDependencyMapBlk": "gameData/FlightModels/DM/dm_parts_dependency_map.blk",
+  "damagePartsDependencyMapBlk": "gameData/FlightModels/DM/dm_parts_dependency_map_canard.blk",
   "damagePartsToCollisionPointsMapBlk": "gameData/FlightModels/DM/dm_parts_to_collision_points_map.blk",
   "damagePartsToWeaponsMapBlk": "gameData/FlightModels/DM/dm_parts_to_weapons_map.blk",
   "damagePartsToVisualEffectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_visual_effects_map.blk",
@@ -33,9 +33,9 @@
   "fireParamsPreset": "200kph",
   "fightAiBehaviour": "fighter",
   "autopilotImpl": "FBW",
-  "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg",
-  "customImage": "!#ui/unitskin#image_in_progress",
-  "customTooltipImage": "ui/aircrafts/image_in_progress",
+  "customClassIco": "!#ui/gameuiskin#ucav_recon_micro_ico.svg",
+  "customImage": "!#ui/unitskin#ucav_recon_micro",
+  "customTooltipImage": "ui/aircrafts/ucav_recon_micro",
   "DamageParts": {
     "c_wood30": {
       "elevon_l_dm": {
@@ -916,6 +916,10 @@
   "effects": {
     "waterExplosionEffect": "water_explosion_medium",
     "landExplosionEffect": "hit_28_38mm_stone_ap",
+    "landCrashShortFireEffect": [
+      "ad_sand",
+      ""
+    ],
     "landCrashFireEffect": "ad_sand",
     "landCrashSmokeEffect": "",
     "explosionEffect": "",
