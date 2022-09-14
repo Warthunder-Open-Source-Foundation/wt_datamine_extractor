@@ -12015,13 +12015,13 @@
     "name": "su_25k",
     "localized": "Su-25K",
     "arcade": {
-      "economic_rank": 25
+      "economic_rank": 26
     },
     "realistic": {
-      "economic_rank": 25
+      "economic_rank": 26
     },
     "simulator": {
-      "economic_rank": 25
+      "economic_rank": 26
     },
     "rank": 6
   },
@@ -12029,13 +12029,13 @@
     "name": "su_25",
     "localized": "Su-25",
     "arcade": {
-      "economic_rank": 25
+      "economic_rank": 26
     },
     "realistic": {
-      "economic_rank": 25
+      "economic_rank": 26
     },
     "simulator": {
-      "economic_rank": 25
+      "economic_rank": 26
     },
     "rank": 6
   },
@@ -29571,13 +29571,13 @@
     "name": "uk_cruiser_dido",
     "localized": "HMS Dido",
     "arcade": {
-      "economic_rank": 12
+      "economic_rank": 13
     },
     "realistic": {
-      "economic_rank": 12
+      "economic_rank": 13
     },
     "simulator": {
-      "economic_rank": 12
+      "economic_rank": 13
     },
     "rank": 3
   },
