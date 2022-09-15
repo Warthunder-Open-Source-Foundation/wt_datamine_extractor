@@ -1753,7 +1753,7 @@
   },
   {
     "name": "ucav_orion",
-    "localized": "ucav_orion",
+    "localized": "Orion",
     "vehicle_type": "Aircraft",
     "sights": [
       {
@@ -1789,7 +1789,7 @@
   },
   {
     "name": "ucav_wing_loong_i",
-    "localized": "ucav_wing_loong_i",
+    "localized": "Wing Long I",
     "vehicle_type": "Aircraft",
     "sights": [
       {

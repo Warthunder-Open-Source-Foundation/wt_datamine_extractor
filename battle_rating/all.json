@@ -29,7 +29,7 @@
   },
   {
     "name": "ucav_orion",
-    "localized": "ucav_orion",
+    "localized": "Orion",
     "arcade": {
       "economic_rank": 29
     },
@@ -43,7 +43,7 @@
   },
   {
     "name": "ucav_wing_loong_i",
-    "localized": "ucav_wing_loong_i",
+    "localized": "Wing Long I",
     "arcade": {
       "economic_rank": 29
     },
