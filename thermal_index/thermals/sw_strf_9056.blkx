@@ -1521,7 +1521,6 @@
       "role": "tank_gunner",
       "substitute": [
         "commander",
-        "loader",
         "machine_gunner"
       ]
     },
@@ -1530,25 +1529,19 @@
       "role": "driver",
       "substitute": [
         "commander",
-        "loader",
         "machine_gunner"
       ]
-    },
-    "loader": {
-      "dmPart": "loader_dm",
-      "role": "loader",
-      "substitute": [
-        "commander",
-        "machine_gunner"
-      ]
-    },
-    "commander": {
-      "dmPart": "commander_dm",
-      "role": "commander"
     },
     "machine_gunner": {
       "dmPart": "machine_gunner_dm",
       "role": "radio_gunner"
+    },
+    "commander": {
+      "dmPart": "commander_dm",
+      "role": [
+        "tank_gunner",
+        "commander"
+      ]
     }
   },
   "xray_viewer_data": {
@@ -1878,10 +1871,10 @@
           "hasVerticalGunFreeMode": false,
           "hasHorizontal": true,
           "horizontalOmegaMult": 1.0,
-          "horizontalSpeedLimitKPH": 15.0,
+          "horizontalSpeedLimitKPH": 30.0,
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
-          "verticalSpeedLimitKPH": 15.0,
+          "verticalSpeedLimitKPH": 30.0,
           "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
@@ -3412,10 +3405,10 @@
                 "hasVerticalGunFreeMode": false,
                 "hasHorizontal": true,
                 "horizontalOmegaMult": 1.0,
-                "horizontalSpeedLimitKPH": 15.0,
+                "horizontalSpeedLimitKPH": 30.0,
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
-                "verticalSpeedLimitKPH": 15.0,
+                "verticalSpeedLimitKPH": 30.0,
                 "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [

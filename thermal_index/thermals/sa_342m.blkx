@@ -185,14 +185,6 @@
             "smoke": 0.2
           },
           {
-            "damage": 20.0,
-            "tail_dm": 0.2
-          },
-          {
-            "damage": 30.0,
-            "tail_dm": 0.4
-          },
-          {
             "damage": 50.0,
             "tail_dm": 0.6
           },
@@ -461,7 +453,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.4,
             "leak": 0.9
@@ -475,13 +467,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 45.0,
             "fire": 45.0,
             "leak": 25.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 20.0
           }
@@ -505,7 +495,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.4,
             "leak": 0.9
@@ -519,13 +509,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 45.0,
             "fire": 45.0,
             "leak": 25.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 20.0
           }
@@ -1199,16 +1187,32 @@
     "new_compressor_heli": {
       "tier": 1
     },
+    "cd_98_main_rotor": {
+      "tier": 2
+    },
     "hp_105_jet": {
       "tier": 3,
-      "prevModification": "new_compressor_heli"
-    },
-    "cd_98_main_rotor": {
-      "tier": 3
+      "prevModification": "cd_98_main_rotor"
     },
     "new_heli_cover": {},
     "heli_flak_jacket": {},
     "heli_structure": {},
+    "sa_heli_hot": {
+      "deactivationIsAllowed": false,
+      "modClass": "weapon",
+      "tier": 2
+    },
+    "sa_heli_hot_2": {
+      "reqModification": "sa_heli_hot",
+      "deactivationIsAllowed": false,
+      "modClass": "weapon",
+      "tier": 3
+    },
+    "heli_atam_mistral": {
+      "deactivationIsAllowed": false,
+      "modClass": "weapon",
+      "tier": 4
+    },
     "countermeasures_launcher_chaff_only": {},
     "countermeasures_launcher_flare_only": {},
     "countermeasures_launcher_chaff_priority": {},
@@ -1273,24 +1277,10 @@
         }
       }
     },
-    "sa_heli_hot": {
-      "deactivationIsAllowed": false,
-      "modClass": "weapon",
-      "tier": 2
-    },
-    "sa_heli_hot_2": {
-      "reqModification": "sa_heli_hot",
-      "deactivationIsAllowed": false,
-      "modClass": "weapon",
-      "tier": 3
-    },
-    "heli_atam_mistral": {
-      "deactivationIsAllowed": false,
-      "reqModification": "sa_heli_hot_2",
-      "modClass": "weapon",
-      "tier": 4
-    },
     "heli_night_vision_system": {
+      "prevModification": "countermeasures_belt_pack",
+      "modClass": "weapon",
+      "tier": 3,
       "image": "#ui/gameuiskin#thermal_sight.png",
       "effects": {
         "nightVision": {

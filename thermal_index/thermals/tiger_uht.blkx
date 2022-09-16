@@ -361,14 +361,6 @@
             "smoke": 0.2
           },
           {
-            "damage": 20.0,
-            "tail_dm": 0.2
-          },
-          {
-            "damage": 30.0,
-            "tail_dm": 0.4
-          },
-          {
             "damage": 50.0,
             "tail_dm": 0.6
           },
@@ -637,7 +629,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.4,
             "leak": 0.9
@@ -651,13 +643,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 45.0,
             "fire": 45.0,
             "leak": 25.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 20.0
           }
@@ -681,7 +671,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.4,
             "leak": 0.9
@@ -695,13 +685,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 45.0,
             "fire": 45.0,
             "leak": 25.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 20.0
           }
@@ -2299,7 +2287,7 @@
                 "external": true,
                 "separate": true,
                 "jettisonable": false,
-                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk",
+                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse_fn_m3p_cwp.blk",
                 "emitter": "ffar_1",
                 "bullets": 1,
                 "minSize": [
@@ -2315,7 +2303,7 @@
                 "external": true,
                 "separate": true,
                 "jettisonable": false,
-                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk",
+                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse_fn_m3p_cwp.blk",
                 "emitter": "ffar_2",
                 "bullets": 1,
                 "minSize": [
@@ -2331,7 +2319,7 @@
                 "external": true,
                 "separate": true,
                 "jettisonable": false,
-                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk",
+                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse_fn_m3p_cwp.blk",
                 "emitter": "ffar_3",
                 "bullets": 1,
                 "minSize": [
@@ -2473,7 +2461,7 @@
                 "external": true,
                 "separate": true,
                 "jettisonable": false,
-                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk",
+                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse_fn_m3p_cwp.blk",
                 "emitter": "ffar_6",
                 "bullets": 1,
                 "minSize": [
@@ -2489,7 +2477,7 @@
                 "external": true,
                 "separate": true,
                 "jettisonable": false,
-                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk",
+                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse_fn_m3p_cwp.blk",
                 "emitter": "ffar_5",
                 "bullets": 1,
                 "minSize": [
@@ -2505,7 +2493,7 @@
                 "external": true,
                 "separate": true,
                 "jettisonable": false,
-                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk",
+                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse_fn_m3p_cwp.blk",
                 "emitter": "ffar_4",
                 "bullets": 1,
                 "minSize": [
@@ -2566,20 +2554,63 @@
     "new_compressor_heli": {
       "tier": 1
     },
-    "hp_105_jet": {
-      "tier": 3,
-      "prevModification": "new_compressor_heli"
-    },
     "cd_98_main_rotor": {
-      "tier": 3,
+      "tier": 2,
       "effects": {
         "mulCdminMainRotor": 1.15,
         "mulOswEffNumberMainRotor": 0.85
       }
     },
+    "hp_105_jet": {
+      "tier": 3,
+      "prevModification": "cd_98_main_rotor"
+    },
     "new_heli_cover": {},
     "heli_flak_jacket": {},
     "heli_structure": {},
+    "air_extinguisher": {
+      "prevModification": "heli_structure",
+      "tier": 3,
+      "invertEnableLogic": false
+    },
+    "50cal_universal": {},
+    "50cal_ground_targets": {},
+    "50cal_tracers": {},
+    "50cal_stealth": {},
+    "bmg50_belt_pack": {
+      "tier": 2
+    },
+    "bmg50_new_gun": {
+      "reqModification": "bmg50_belt_pack",
+      "tier": 4
+    },
+    "tiger_hmp400_lcc": {
+      "tier": 1,
+      "modClass": "weapon"
+    },
+    "tiger_rmp_lc": {
+      "deactivationIsAllowed": false,
+      "reqModification": "tiger_hmp400_lcc",
+      "tier": 3,
+      "modClass": "weapon"
+    },
+    "tiger_hot3": {
+      "deactivationIsAllowed": false,
+      "modClass": "weapon",
+      "tier": 2
+    },
+    "tiger_atgw3": {
+      "reqModification": "tiger_hot3",
+      "deactivationIsAllowed": false,
+      "modClass": "weapon",
+      "tier": 3
+    },
+    "stinger_aam": {
+      "prevModification": "tiger_atgw3",
+      "deactivationIsAllowed": false,
+      "modClass": "weapon",
+      "tier": 4
+    },
     "maw_countermeasures_launcher_chaff_only": {},
     "maw_countermeasures_launcher_flare_only": {},
     "maw_countermeasures_launcher_chaff_priority": {},
@@ -2616,51 +2647,10 @@
         }
       }
     },
-    "50cal_universal": {},
-    "50cal_ground_targets": {},
-    "50cal_tracers": {},
-    "50cal_stealth": {},
-    "bmg50_belt_pack": {
-      "tier": 2
-    },
-    "bmg50_new_gun": {
-      "reqModification": "bmg50_belt_pack",
-      "tier": 4
-    },
-    "tiger_hmp400_lcc": {
-      "tier": 1,
-      "modClass": "weapon"
-    },
-    "tiger_rmp_lc": {
-      "deactivationIsAllowed": false,
-      "reqModification": "tiger_hmp400_lcc",
-      "tier": 3,
-      "modClass": "weapon"
-    },
-    "air_extinguisher": {
-      "prevModification": "tiger_rmp_lc",
-      "tier": 4,
-      "modClass": "weapon",
-      "invertEnableLogic": false
-    },
-    "tiger_hot3": {
-      "deactivationIsAllowed": false,
-      "modClass": "weapon",
-      "tier": 2
-    },
-    "tiger_atgw3": {
-      "reqModification": "tiger_hot3",
-      "deactivationIsAllowed": false,
-      "modClass": "weapon",
-      "tier": 3
-    },
-    "stinger_aam": {
-      "reqModification": "tiger_atgw3",
-      "deactivationIsAllowed": false,
-      "modClass": "weapon",
-      "tier": 4
-    },
     "heli_night_vision_system": {
+      "prevModification": "MAW_system_heli_false_thermal_targets",
+      "modClass": "weapon",
+      "tier": 3,
       "image": "#ui/gameuiskin#thermal_sight.png",
       "effects": {
         "nightVision": {

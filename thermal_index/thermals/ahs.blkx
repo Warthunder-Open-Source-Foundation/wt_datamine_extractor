@@ -312,14 +312,6 @@
             "smoke": 0.2
           },
           {
-            "damage": 20.0,
-            "tail_dm": 0.2
-          },
-          {
-            "damage": 30.0,
-            "tail_dm": 0.4
-          },
-          {
             "damage": 50.0,
             "tail_dm": 0.6
           },
@@ -552,7 +544,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.4,
             "leak": 0.9
@@ -566,13 +558,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 45.0,
             "fire": 45.0,
             "leak": 25.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 20.0
           }
@@ -596,7 +586,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.4,
             "leak": 0.9
@@ -610,13 +600,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 45.0,
             "fire": 45.0,
             "leak": 25.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 20.0
           }
@@ -2283,7 +2271,7 @@
           },
           "Weapon": {
             "trigger": "aam",
-            "blk": "gameData/Weapons/containers/atas_2x_stinger.blk",
+            "blk": "gameData/Weapons/containers/atas_2x_stinger_left.blk",
             "emitter": "aim92_stinger_pod_001",
             "bullets": 2,
             "external": true,
@@ -2536,7 +2524,7 @@
           },
           "Weapon": {
             "trigger": "aam",
-            "blk": "gameData/Weapons/containers/atas_2x_stinger.blk",
+            "blk": "gameData/Weapons/containers/atas_2x_stinger_right.blk",
             "emitter": "aim92_stinger_pod_002",
             "bullets": 2,
             "external": true,
@@ -2570,12 +2558,12 @@
     "new_compressor_heli": {
       "tier": 1
     },
+    "cd_98_main_rotor": {
+      "tier": 2
+    },
     "hp_105_jet": {
       "tier": 3,
-      "prevModification": "new_compressor_heli"
-    },
-    "cd_98_main_rotor": {
-      "tier": 3
+      "prevModification": "cd_98_main_rotor"
     },
     "new_heli_cover": {},
     "heli_flak_jacket": {},
@@ -2585,46 +2573,13 @@
         "mulMass": 1.02
       }
     },
-    "heli_night_vision_system": {
-      "image": "#ui/gameuiskin#thermal_sight.png",
-      "effects": {
-        "nightVision": {
-          "gunnerIr": {
-            "resolution": [
-              1920,
-              1080
-            ],
-            "lightMult": 10.0,
-            "ghosting": 0.7,
-            "noiseFactor": 0.15
-          },
-          "pilotIr": {
-            "resolution": [
-              1920,
-              1080
-            ],
-            "lightMult": 10.0,
-            "ghosting": 0.7,
-            "noiseFactor": 0.15
-          },
-          "sightThermal": {
-            "resolution": [
-              1024,
-              768
-            ],
-            "noiseFactor": 0.05
-          }
-        }
-      }
+    "air_extinguisher": {
+      "prevModification": "heli_structure",
+      "tier": 3,
+      "invertEnableLogic": false
     },
     "aden_new_gun": {
       "tier": 1
-    },
-    "air_extinguisher": {
-      "prevModification": "aden_new_gun",
-      "tier": 4,
-      "modClass": "weapon",
-      "invertEnableLogic": false
     },
     "ah_1_AGM_114_8": {
       "deactivationIsAllowed": false,
@@ -2677,10 +2632,44 @@
         }
       }
     },
-    "swd_rb74": {
+    "heli_night_vision_system": {
+      "prevModification": "heli_counterMeasures",
       "tier": 3,
       "modClass": "weapon",
-      "reqModification": "heli_counterMeasures"
+      "image": "#ui/gameuiskin#thermal_sight.png",
+      "effects": {
+        "nightVision": {
+          "gunnerIr": {
+            "resolution": [
+              1920,
+              1080
+            ],
+            "lightMult": 10.0,
+            "ghosting": 0.7,
+            "noiseFactor": 0.15
+          },
+          "pilotIr": {
+            "resolution": [
+              1920,
+              1080
+            ],
+            "lightMult": 10.0,
+            "ghosting": 0.7,
+            "noiseFactor": 0.15
+          },
+          "sightThermal": {
+            "resolution": [
+              1024,
+              768
+            ],
+            "noiseFactor": 0.05
+          }
+        }
+      }
+    },
+    "swd_rb74": {
+      "tier": 3,
+      "modClass": "weapon"
     },
     "stinger_aam": {
       "reqModification": "swd_rb74",

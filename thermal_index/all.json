@@ -109,7 +109,7 @@
   },
   {
     "name": "ah_2_rooivalk",
-    "localized": "ah_2_rooivalk",
+    "localized": "Rooivalk Mk1F CSH",
     "vehicle_type": "Helicopter",
     "sights": [
       {
@@ -241,7 +241,7 @@
   },
   {
     "name": "cn_hj_9",
-    "localized": "AFT-9",
+    "localized": "AFT09",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -854,6 +854,18 @@
     ]
   },
   {
+    "name": "harrier_gr7",
+    "localized": "Harrier GR.7",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "hkp9a_cb3_fc",
     "localized": "HKP9A (FC)",
     "vehicle_type": "Helicopter",
@@ -1428,7 +1440,7 @@
   },
   {
     "name": "sw_cv_90105_tml",
-    "localized": "CV 90105 XC-8",
+    "localized": "CV 90105",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1633,7 +1645,7 @@
   },
   {
     "name": "ucav_mq_1_predator",
-    "localized": "MQ-1 Predator",
+    "localized": "MQ-1",
     "vehicle_type": "Aircraft",
     "sights": [
       {
@@ -1645,7 +1657,7 @@
   },
   {
     "name": "ucav_mq_1_predator_france_killstreak",
-    "localized": "ucav_mq_1_predator_france_killstreak",
+    "localized": "MQ-1",
     "vehicle_type": "Aircraft",
     "sights": [
       {
@@ -1657,7 +1669,7 @@
   },
   {
     "name": "ucav_mq_1_predator_germany_killstreak",
-    "localized": "ucav_mq_1_predator_germany_killstreak",
+    "localized": "MQ-1",
     "vehicle_type": "Aircraft",
     "sights": [
       {
@@ -1669,7 +1681,7 @@
   },
   {
     "name": "ucav_mq_1_predator_iaf_killstreak",
-    "localized": "ucav_mq_1_predator_iaf_killstreak",
+    "localized": "MQ-1",
     "vehicle_type": "Aircraft",
     "sights": [
       {
@@ -1681,7 +1693,7 @@
   },
   {
     "name": "ucav_mq_1_predator_italy_killstreak",
-    "localized": "ucav_mq_1_predator_italy_killstreak",
+    "localized": "MQ-1",
     "vehicle_type": "Aircraft",
     "sights": [
       {
@@ -1693,7 +1705,7 @@
   },
   {
     "name": "ucav_mq_1_predator_japan_killstreak",
-    "localized": "ucav_mq_1_predator_japan_killstreak",
+    "localized": "MQ-1",
     "vehicle_type": "Aircraft",
     "sights": [
       {
@@ -1705,7 +1717,7 @@
   },
   {
     "name": "ucav_mq_1_predator_sweden_killstreak",
-    "localized": "ucav_mq_1_predator_sweden_killstreak",
+    "localized": "MQ-1",
     "vehicle_type": "Aircraft",
     "sights": [
       {
@@ -1717,7 +1729,7 @@
   },
   {
     "name": "ucav_mq_1_predator_uk_killstreak",
-    "localized": "ucav_mq_1_predator_uk_killstreak",
+    "localized": "MQ-1",
     "vehicle_type": "Aircraft",
     "sights": [
       {
@@ -1729,7 +1741,7 @@
   },
   {
     "name": "ucav_mq_1_predator_usa_killstreak",
-    "localized": "ucav_mq_1_predator_usa_killstreak",
+    "localized": "MQ-1",
     "vehicle_type": "Aircraft",
     "sights": [
       {
@@ -1741,7 +1753,7 @@
   },
   {
     "name": "ucav_orion",
-    "localized": "ucav_orion",
+    "localized": "Orion",
     "vehicle_type": "Aircraft",
     "sights": [
       {
@@ -1753,7 +1765,7 @@
   },
   {
     "name": "ucav_orion_killstreak",
-    "localized": "ucav_orion_killstreak",
+    "localized": "Orion",
     "vehicle_type": "Aircraft",
     "sights": [
       {
@@ -1777,7 +1789,7 @@
   },
   {
     "name": "ucav_wing_loong_i",
-    "localized": "ucav_wing_loong_i",
+    "localized": "Wing Long I",
     "vehicle_type": "Aircraft",
     "sights": [
       {
@@ -1789,7 +1801,7 @@
   },
   {
     "name": "ucav_wing_loong_i_killstreak",
-    "localized": "ucav_wing_loong_i_killstreak",
+    "localized": "Wing Long I",
     "vehicle_type": "Aircraft",
     "sights": [
       {
@@ -2563,6 +2575,18 @@
     ]
   },
   {
+    "name": "z_10",
+    "localized": "Z-10",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
     "name": "z_11wa",
     "localized": "Z-11WA",
     "vehicle_type": "Helicopter",
@@ -2589,6 +2613,18 @@
   {
     "name": "z_19e",
     "localized": "Z-19E",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "z_9wa",
+    "localized": "Z-9WA",
     "vehicle_type": "Helicopter",
     "sights": [
       {

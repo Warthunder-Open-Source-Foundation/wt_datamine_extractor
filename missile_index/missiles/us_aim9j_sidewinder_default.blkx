@@ -35,6 +35,7 @@
     ],
     "finsAoaHor": 0.18,
     "finsAoaVer": 0.18,
+    "finsLatAccel": 10.6,
     "force": 18100.0,
     "timeFire": 2.2,
     "fireDelay": 0.0,
@@ -426,11 +427,11 @@
         "timeOut": 0.5,
         "propNavMult": 4.0,
         "reqAccelMax": 20.0,
+        "accelControlProp": 0.0035,
+        "accelControlIntg": 0.0651,
+        "accelControlDiff": 0.001,
         "baseIndSpeed": 1620.0,
-        "accelControlProp": 0.01,
-        "accelControlIntg": 0.005,
-        "accelControlIntgLim": 0.5,
-        "accelControlDiff": 0.001
+        "accelControlIntgLim": 0.5
       },
       "table0": {
         "altitude": 0.0,

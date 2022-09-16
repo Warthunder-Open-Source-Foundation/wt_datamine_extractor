@@ -290,14 +290,6 @@
             "smoke": 0.2
           },
           {
-            "damage": 20.0,
-            "tail_dm": 0.2
-          },
-          {
-            "damage": 30.0,
-            "tail_dm": 0.4
-          },
-          {
             "damage": 50.0,
             "tail_dm": 0.6
           },
@@ -643,7 +635,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.4,
             "leak": 0.9
@@ -657,13 +649,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 45.0,
             "fire": 45.0,
             "leak": 25.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 20.0
           }
@@ -687,7 +677,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.4,
             "leak": 0.9
@@ -701,13 +691,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 45.0,
             "fire": 45.0,
             "leak": 25.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 20.0
           }
@@ -731,7 +719,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.4,
             "leak": 0.9
@@ -745,13 +733,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 45.0,
             "fire": 45.0,
             "leak": 25.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 20.0
           }
@@ -775,7 +761,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.4,
             "leak": 0.9
@@ -789,13 +775,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 45.0,
             "fire": 45.0,
             "leak": 25.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 20.0
           }
@@ -2319,6 +2303,9 @@
           },
           {
             "name": "2a42_exhaust_common",
+            "ShowNodes": {
+              "node": "exhaust_shield"
+            },
             "HideNodes": {
               "node": [
                 "fuse2",
@@ -2404,6 +2391,9 @@
                 "fuse4",
                 "exhaust"
               ]
+            },
+            "ShowNodes": {
+              "node": "exhaust_shield"
             },
             "Weapon": [
               {
@@ -2725,7 +2715,19 @@
                 "mass": 12.0,
                 "dragCx": 0.001
               }
-            ]
+            ],
+            "WeaponContainers": {
+              "blk": "gameData/Weapons/rocketGuns/su_9M127.blk",
+              "node": [
+                "su_vyihr_apu6_tpk_lower_001",
+                "su_vyihr_cap_001",
+                "su_vyihr_cap_002",
+                "su_vyihr_cap_008",
+                "su_vyihr_cap_007",
+                "su_vyihr_cap_006",
+                "su_vyihr_cap_005"
+              ]
+            }
           },
           {
             "iconType": "bombs_large",
@@ -3154,7 +3156,19 @@
                 "mass": 12.0,
                 "dragCx": 0.001
               }
-            ]
+            ],
+            "WeaponContainers": {
+              "blk": "gameData/Weapons/rocketGuns/su_9M127.blk",
+              "node": [
+                "su_vyihr_apu6_tpk_lower_002",
+                "su_vyihr_cap_003",
+                "su_vyihr_cap_004",
+                "su_vyihr_cap_009",
+                "su_vyihr_cap_010",
+                "su_vyihr_cap_011",
+                "su_vyihr_cap_012"
+              ]
+            }
           },
           {
             "iconType": "bombs_large",
@@ -3261,7 +3275,11 @@
           "elevon_r_dm",
           "elevon%d_r_dm",
           "airbrake_l_dm",
+          "airbrake_l%d_dm",
+          "airbrake%d_l_dm",
           "airbrake_r_dm",
+          "airbrake_r%d_dm",
+          "airbrake%d_r_dm",
           "airbrake_c_dm",
           "aileron_interceptor_l_dm",
           "aileron_interceptor%d_l_dm",
@@ -3349,7 +3367,11 @@
           "elevon_r_dm",
           "elevon%d_r_dm",
           "airbrake_l_dm",
+          "airbrake_l%d_dm",
+          "airbrake%d_l_dm",
           "airbrake_r_dm",
+          "airbrake_r%d_dm",
+          "airbrake%d_r_dm",
           "airbrake_c_dm",
           "aileron_interceptor_l_dm",
           "aileron_interceptor%d_l_dm",
@@ -3437,7 +3459,11 @@
           "elevon_r_dm",
           "elevon%d_r_dm",
           "airbrake_l_dm",
+          "airbrake_l%d_dm",
+          "airbrake%d_l_dm",
           "airbrake_r_dm",
+          "airbrake_r%d_dm",
+          "airbrake%d_r_dm",
           "airbrake_c_dm",
           "aileron_interceptor_l_dm",
           "aileron_interceptor%d_l_dm",
@@ -3516,7 +3542,11 @@
           "elevon_r_dm",
           "elevon%d_r_dm",
           "airbrake_l_dm",
+          "airbrake_l%d_dm",
+          "airbrake%d_l_dm",
           "airbrake_r_dm",
+          "airbrake_r%d_dm",
+          "airbrake%d_r_dm",
           "airbrake_c_dm",
           "aileron_interceptor_l_dm",
           "aileron_interceptor%d_l_dm",
@@ -3600,7 +3630,11 @@
           "elevon_r_dm",
           "elevon%d_r_dm",
           "airbrake_l_dm",
+          "airbrake_l%d_dm",
+          "airbrake%d_l_dm",
           "airbrake_r_dm",
+          "airbrake_r%d_dm",
+          "airbrake%d_r_dm",
           "airbrake_c_dm",
           "aileron_interceptor_l_dm",
           "aileron_interceptor%d_l_dm",
@@ -3684,7 +3718,11 @@
           "elevon_r_dm",
           "elevon%d_r_dm",
           "airbrake_l_dm",
+          "airbrake_l%d_dm",
+          "airbrake%d_l_dm",
           "airbrake_r_dm",
+          "airbrake_r%d_dm",
+          "airbrake%d_r_dm",
           "airbrake_c_dm",
           "aileron_interceptor_l_dm",
           "aileron_interceptor%d_l_dm",
@@ -3768,7 +3806,11 @@
           "elevon_r_dm",
           "elevon%d_r_dm",
           "airbrake_l_dm",
+          "airbrake_l%d_dm",
+          "airbrake%d_l_dm",
           "airbrake_r_dm",
+          "airbrake_r%d_dm",
+          "airbrake%d_r_dm",
           "airbrake_c_dm",
           "aileron_interceptor_l_dm",
           "aileron_interceptor%d_l_dm",
@@ -3852,7 +3894,11 @@
           "elevon_r_dm",
           "elevon%d_r_dm",
           "airbrake_l_dm",
+          "airbrake_l%d_dm",
+          "airbrake%d_l_dm",
           "airbrake_r_dm",
+          "airbrake_r%d_dm",
+          "airbrake%d_r_dm",
           "airbrake_c_dm",
           "aileron_interceptor_l_dm",
           "aileron_interceptor%d_l_dm",
@@ -4345,12 +4391,13 @@
     "new_compressor_heli": {
       "tier": 1
     },
-    "hp_105_jet": {
-      "tier": 3,
+    "cd_98_main_rotor": {
+      "tier": 2,
       "prevModification": "new_compressor_heli"
     },
-    "cd_98_main_rotor": {
-      "tier": 3
+    "hp_105_jet": {
+      "tier": 3,
+      "prevModification": "cd_98_main_rotor"
     },
     "new_heli_cover": {},
     "heli_flak_jacket": {},
@@ -4360,37 +4407,66 @@
         "mulMass": 1.02
       }
     },
-    "heli_night_vision_system": {
-      "image": "#ui/gameuiskin#thermal_sight.png",
-      "effects": {
-        "nightVision": {
-          "gunnerIr": {
-            "resolution": [
-              1920,
-              1080
-            ],
-            "lightMult": 10.0,
-            "ghosting": 0.7,
-            "noiseFactor": 0.15
-          },
-          "pilotIr": {
-            "resolution": [
-              1920,
-              1080
-            ],
-            "lightMult": 10.0,
-            "ghosting": 0.7,
-            "noiseFactor": 0.15
-          },
-          "sightThermal": {
-            "resolution": [
-              1024,
-              768
-            ],
-            "noiseFactor": 0.05
-          }
-        }
-      }
+    "automatic_air_extinguisher": {
+      "prevModification": "heli_structure",
+      "tier": 3,
+      "modClass": "weapon",
+      "invertEnableLogic": false
+    },
+    "mi_35_9M39": {
+      "prevModification": "heli_night_vision_system",
+      "deactivationIsAllowed": false,
+      "modClass": "weapon",
+      "tier": 4
+    },
+    "2A42_ground_targets": {},
+    "2A42_air_targets": {},
+    "2A42_armor_targets": {},
+    "2A42_belt_pack": {
+      "tier": 1
+    },
+    "2A42_new_gun": {
+      "reqModification": "2A42_belt_pack",
+      "tier": 2
+    },
+    "il_28sh_upk23_gunpod": {
+      "deactivationIsAllowed": false,
+      "prevModification": "2A42_new_gun",
+      "tier": 3,
+      "modClass": "weapon"
+    },
+    "ns23_armor_targets": {},
+    "ns23_air_targets": {},
+    "ns23_stealth": {},
+    "ns23_belt_pack": {
+      "reqModification": "il_28sh_upk23_gunpod",
+      "tier": 4
+    },
+    "mi_28_C13": {
+      "deactivationIsAllowed": false,
+      "modClass": "weapon",
+      "tier": 1
+    },
+    "ka_52_9m120_6": {
+      "deactivationIsAllowed": false,
+      "reqModification": "mi_28_C13",
+      "modClass": "weapon",
+      "tier": 2
+    },
+    "ka_9K121": {
+      "deactivationIsAllowed": false,
+      "reqModification": "ka_52_9m120_6",
+      "modClass": "weapon",
+      "tier": 3
+    },
+    "mi_24_fab_250": {
+      "modClass": "weapon",
+      "tier": 1
+    },
+    "mi_24_fab_500": {
+      "modClass": "weapon",
+      "reqModification": "mi_24_fab_250",
+      "tier": 2
     },
     "heli_screen_exhaust_device": {
       "turn_it_off": false,
@@ -4451,66 +4527,39 @@
         }
       }
     },
-    "automatic_air_extinguisher": {
-      "prevModification": "MAW_system_heli_false_thermal_targets",
-      "tier": 4,
-      "modClass": "weapon",
-      "invertEnableLogic": false
-    },
-    "2A42_ground_targets": {},
-    "2A42_air_targets": {},
-    "2A42_armor_targets": {},
-    "2A42_belt_pack": {
-      "tier": 2
-    },
-    "2A42_new_gun": {
-      "reqModification": "2A42_belt_pack",
-      "tier": 4
-    },
-    "mi_28_C13": {
-      "deactivationIsAllowed": false,
-      "modClass": "weapon",
-      "tier": 1
-    },
-    "ka_52_9m120_6": {
-      "deactivationIsAllowed": false,
-      "reqModification": "mi_28_C13",
-      "modClass": "weapon",
-      "tier": 2
-    },
-    "ka_9K121": {
-      "deactivationIsAllowed": false,
-      "reqModification": "ka_52_9m120_6",
-      "modClass": "weapon",
-      "tier": 3
-    },
-    "mi_35_9M39": {
-      "deactivationIsAllowed": false,
-      "reqModification": "ka_9K121",
-      "modClass": "weapon",
-      "tier": 4
-    },
-    "mi_24_fab_250": {
-      "modClass": "weapon",
-      "tier": 1
-    },
-    "mi_24_fab_500": {
-      "modClass": "weapon",
-      "reqModification": "mi_24_fab_250",
-      "tier": 2
-    },
-    "il_28sh_upk23_gunpod": {
-      "deactivationIsAllowed": false,
-      "prevModification": "mi_24_fab_500",
+    "heli_night_vision_system": {
+      "image": "#ui/gameuiskin#thermal_sight.png",
       "tier": 3,
-      "modClass": "weapon"
-    },
-    "ns23_armor_targets": {},
-    "ns23_air_targets": {},
-    "ns23_stealth": {},
-    "ns23_belt_pack": {
-      "reqModification": "il_28sh_upk23_gunpod",
-      "tier": 4
+      "prevModification": "MAW_system_heli_false_thermal_targets",
+      "effects": {
+        "nightVision": {
+          "gunnerIr": {
+            "resolution": [
+              1920,
+              1080
+            ],
+            "lightMult": 10.0,
+            "ghosting": 0.7,
+            "noiseFactor": 0.15
+          },
+          "pilotIr": {
+            "resolution": [
+              1920,
+              1080
+            ],
+            "lightMult": 10.0,
+            "ghosting": 0.7,
+            "noiseFactor": 0.15
+          },
+          "sightThermal": {
+            "resolution": [
+              1024,
+              768
+            ],
+            "noiseFactor": 0.05
+          }
+        }
+      }
     }
   },
   "user_skin": {

@@ -351,14 +351,6 @@
             "smoke": 0.2
           },
           {
-            "damage": 20.0,
-            "tail_dm": 0.2
-          },
-          {
-            "damage": 30.0,
-            "tail_dm": 0.4
-          },
-          {
             "damage": 50.0,
             "tail_dm": 0.6
           },
@@ -597,7 +589,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.4,
             "leak": 0.9
@@ -611,13 +603,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 45.0,
             "fire": 45.0,
             "leak": 25.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 20.0
           }
@@ -641,7 +631,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.4,
             "leak": 0.9
@@ -655,13 +645,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 45.0,
             "fire": 45.0,
             "leak": 25.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 20.0
           }
@@ -1614,9 +1602,6 @@
         "node": "optic1_gun"
       },
       {
-        "blk": "gameData/sensors/us_an_apr_39.blk"
-      },
-      {
         "blk": "gameData/sensors/us_flir.blk",
         "node": "optic1_gun"
       },
@@ -2056,7 +2041,7 @@
             }
           },
           {
-            "iconType": "missile_air_to_earth_group",
+            "iconType": "atgm_cirit_x2",
             "name": "tr_cirit_x2",
             "reqModification": "tr_cirit_x4",
             "Weapon": {
@@ -2069,7 +2054,7 @@
             }
           },
           {
-            "iconType": "missile_air_to_earth_group_x4",
+            "iconType": "atgm_cirit_x4",
             "name": "tr_cirit_x4",
             "reqModification": "tr_cirit_x4",
             "Weapon": {
@@ -2113,7 +2098,7 @@
             }
           },
           {
-            "iconType": "missile_air_to_earth_group",
+            "iconType": "atgm_cirit_x2",
             "name": "tr_cirit_x2",
             "reqModification": "tr_cirit_x4",
             "Weapon": {
@@ -2126,7 +2111,7 @@
             }
           },
           {
-            "iconType": "missile_air_to_earth_group_x4",
+            "iconType": "atgm_cirit_x4",
             "name": "tr_cirit_x4",
             "reqModification": "tr_cirit_x4",
             "Weapon": {
@@ -2170,7 +2155,7 @@
             }
           },
           {
-            "iconType": "missile_air_to_earth_group",
+            "iconType": "atgm_cirit_x2",
             "name": "tr_cirit_x2",
             "reqModification": "tr_cirit_x4",
             "Weapon": {
@@ -2183,7 +2168,7 @@
             }
           },
           {
-            "iconType": "missile_air_to_earth_group_x4",
+            "iconType": "atgm_cirit_x4",
             "name": "tr_cirit_x4",
             "reqModification": "tr_cirit_x4",
             "Weapon": {
@@ -2240,7 +2225,7 @@
             }
           },
           {
-            "iconType": "missile_air_to_earth_group",
+            "iconType": "atgm_cirit_x2",
             "name": "tr_cirit_x2",
             "reqModification": "tr_cirit_x4",
             "Weapon": {
@@ -2253,7 +2238,7 @@
             }
           },
           {
-            "iconType": "missile_air_to_earth_group_x4",
+            "iconType": "atgm_cirit_x4",
             "name": "tr_cirit_x4",
             "reqModification": "tr_cirit_x4",
             "Weapon": {
@@ -2312,7 +2297,11 @@
           "elevon_r_dm",
           "elevon%d_r_dm",
           "airbrake_l_dm",
+          "airbrake_l%d_dm",
+          "airbrake%d_l_dm",
           "airbrake_r_dm",
+          "airbrake_r%d_dm",
+          "airbrake%d_r_dm",
           "airbrake_c_dm",
           "aileron_interceptor_l_dm",
           "aileron_interceptor%d_l_dm",
@@ -2400,7 +2389,11 @@
           "elevon_r_dm",
           "elevon%d_r_dm",
           "airbrake_l_dm",
+          "airbrake_l%d_dm",
+          "airbrake%d_l_dm",
           "airbrake_r_dm",
+          "airbrake_r%d_dm",
+          "airbrake%d_r_dm",
           "airbrake_c_dm",
           "aileron_interceptor_l_dm",
           "aileron_interceptor%d_l_dm",
@@ -2488,7 +2481,11 @@
           "elevon_r_dm",
           "elevon%d_r_dm",
           "airbrake_l_dm",
+          "airbrake_l%d_dm",
+          "airbrake%d_l_dm",
           "airbrake_r_dm",
+          "airbrake_r%d_dm",
+          "airbrake%d_r_dm",
           "airbrake_c_dm",
           "aileron_interceptor_l_dm",
           "aileron_interceptor%d_l_dm",
@@ -2567,7 +2564,11 @@
           "elevon_r_dm",
           "elevon%d_r_dm",
           "airbrake_l_dm",
+          "airbrake_l%d_dm",
+          "airbrake%d_l_dm",
           "airbrake_r_dm",
+          "airbrake_r%d_dm",
+          "airbrake%d_r_dm",
           "airbrake_c_dm",
           "aileron_interceptor_l_dm",
           "aileron_interceptor%d_l_dm",
@@ -2651,7 +2652,11 @@
           "elevon_r_dm",
           "elevon%d_r_dm",
           "airbrake_l_dm",
+          "airbrake_l%d_dm",
+          "airbrake%d_l_dm",
           "airbrake_r_dm",
+          "airbrake_r%d_dm",
+          "airbrake%d_r_dm",
           "airbrake_c_dm",
           "aileron_interceptor_l_dm",
           "aileron_interceptor%d_l_dm",
@@ -2735,7 +2740,11 @@
           "elevon_r_dm",
           "elevon%d_r_dm",
           "airbrake_l_dm",
+          "airbrake_l%d_dm",
+          "airbrake%d_l_dm",
           "airbrake_r_dm",
+          "airbrake_r%d_dm",
+          "airbrake%d_r_dm",
           "airbrake_c_dm",
           "aileron_interceptor_l_dm",
           "aileron_interceptor%d_l_dm",
@@ -2819,7 +2828,11 @@
           "elevon_r_dm",
           "elevon%d_r_dm",
           "airbrake_l_dm",
+          "airbrake_l%d_dm",
+          "airbrake%d_l_dm",
           "airbrake_r_dm",
+          "airbrake_r%d_dm",
+          "airbrake%d_r_dm",
           "airbrake_c_dm",
           "aileron_interceptor_l_dm",
           "aileron_interceptor%d_l_dm",
@@ -2903,7 +2916,11 @@
           "elevon_r_dm",
           "elevon%d_r_dm",
           "airbrake_l_dm",
+          "airbrake_l%d_dm",
+          "airbrake%d_l_dm",
           "airbrake_r_dm",
+          "airbrake_r%d_dm",
+          "airbrake%d_r_dm",
           "airbrake_c_dm",
           "aileron_interceptor_l_dm",
           "aileron_interceptor%d_l_dm",
@@ -3405,27 +3422,76 @@
     "new_compressor_heli": {
       "tier": 1
     },
-    "hp_105_jet": {
-      "tier": 3,
-      "prevModification": "new_compressor_heli"
-    },
     "cd_98_main_rotor": {
-      "tier": 3,
+      "tier": 2,
       "effects": {
         "mulCdminMainRotor": 1.5,
         "mulOswEffNumberMainRotor": 0.9
       }
     },
+    "hp_105_jet": {
+      "tier": 3,
+      "prevModification": "cd_98_main_rotor"
+    },
     "new_heli_cover": {},
     "heli_flak_jacket": {},
     "heli_structure": {},
     "air_extinguisher": {
-      "prevModification": "stinger_aam",
-      "tier": 4,
-      "modClass": "weapon",
+      "prevModification": "heli_structure",
+      "tier": 3,
       "invertEnableLogic": false
     },
+    "t_160_universal": {},
+    "t_160_air_targets": {},
+    "t_160_armor_targets": {},
+    "t_160_stealth": {},
+    "t_160_belt_pack": {
+      "tier": 1
+    },
+    "t_160_new_gun": {
+      "reqModification": "t_160_belt_pack",
+      "tier": 3
+    },
+    "a_129_hl_19_70": {
+      "deactivationIsAllowed": false,
+      "modClass": "weapon",
+      "tier": 1
+    },
+    "tr_cirit_x4": {
+      "deactivationIsAllowed": false,
+      "reqModification": "a_129_hl_19_70",
+      "modClass": "weapon",
+      "tier": 3
+    },
+    "tr_umtas_x4": {
+      "deactivationIsAllowed": false,
+      "reqModification": "tr_cirit_x4",
+      "modClass": "weapon",
+      "tier": 4
+    },
+    "countermeasures_launcher_chaff_only": {},
+    "countermeasures_launcher_flare_only": {},
+    "countermeasures_launcher_chaff_priority": {},
+    "countermeasures_launcher_flare_priority": {},
+    "countermeasures_belt_pack": {
+      "modClass": "weapon",
+      "turn_it_off": false,
+      "tier": 1,
+      "invertEnableLogic": false,
+      "group": "countermeasures",
+      "effects": {
+        "commonWeapons": {
+          "Weapon": {
+            "slot": 0,
+            "preset": "tm197b_ltc_common"
+          }
+        }
+      }
+    },
     "heli_night_vision_system": {
+      "prevModification": "countermeasures_belt_pack",
+      "modClass": "weapon",
+      "tier": 3,
       "image": "#ui/gameuiskin#thermal_sight.png",
       "effects": {
         "nightVision": {
@@ -3457,58 +3523,10 @@
         }
       }
     },
-    "countermeasures_launcher_chaff_only": {},
-    "countermeasures_launcher_flare_only": {},
-    "countermeasures_launcher_chaff_priority": {},
-    "countermeasures_launcher_flare_priority": {},
-    "countermeasures_belt_pack": {
-      "modClass": "weapon",
-      "turn_it_off": false,
-      "tier": 1,
-      "invertEnableLogic": false,
-      "group": "countermeasures",
-      "effects": {
-        "commonWeapons": {
-          "Weapon": {
-            "slot": 0,
-            "preset": "tm197b_ltc_common"
-          }
-        }
-      }
-    },
     "stinger_aam": {
-      "prevModification": "countermeasures_belt_pack",
       "deactivationIsAllowed": false,
       "modClass": "weapon",
       "tier": 2
-    },
-    "t_160_universal": {},
-    "t_160_air_targets": {},
-    "t_160_armor_targets": {},
-    "t_160_stealth": {},
-    "t_160_belt_pack": {
-      "tier": 1
-    },
-    "t_160_new_gun": {
-      "reqModification": "t_160_belt_pack",
-      "tier": 3
-    },
-    "a_129_hl_19_70": {
-      "deactivationIsAllowed": false,
-      "modClass": "weapon",
-      "tier": 1
-    },
-    "tr_cirit_x4": {
-      "deactivationIsAllowed": false,
-      "reqModification": "a_129_hl_19_70",
-      "modClass": "weapon",
-      "tier": 3
-    },
-    "tr_umtas_x4": {
-      "deactivationIsAllowed": false,
-      "reqModification": "tr_cirit_x4",
-      "modClass": "weapon",
-      "tier": 4
     }
   },
   "user_skin": {

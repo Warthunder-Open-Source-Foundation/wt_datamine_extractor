@@ -73,14 +73,10 @@
         "genericArmorQuality": 1.2,
         "variableThickness": true
       },
-      "turret_02_front_dm": {
+      "composite_armor_hull_01_dm": {
         "armorClass": "tank_textolite",
-        "armorThickness": 50.0,
-        "createSecondaryShatters": false
-      },
-      "turret_03_top_dm": {
-        "armorClass": "tank_textolite",
-        "armorThickness": 50.0,
+        "hidableInXrayViewer": true,
+        "armorThickness": 100.0,
         "createSecondaryShatters": false
       },
       "turret_01_bottom_dm": {
@@ -89,16 +85,8 @@
       }
     },
     "hull_ufp_armor": {
-      "composite_armor_hull_01_dm": {
-        "armorClass": "tank_textolite",
-        "hidableInXrayViewer": true,
-        "armorThickness": 105.0,
-        "genericArmorQuality": 0.0,
-        "cumulativeArmorQuality": 0.0
-      },
       "turret_02_back_dm": {
-        "armorThickness": 90.0,
-        "cumulativeArmorQuality": 0.75
+        "armorThickness": 90.0
       },
       "turret_03_front_dm": {
         "armorThickness": 50.0,

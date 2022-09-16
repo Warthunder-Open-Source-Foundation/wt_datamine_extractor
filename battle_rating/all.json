@@ -15,7 +15,7 @@
   },
   {
     "name": "ucav_mq_1_predator",
-    "localized": "MQ-1 Predator",
+    "localized": "MQ-1",
     "arcade": {
       "economic_rank": 29
     },
@@ -29,7 +29,7 @@
   },
   {
     "name": "ucav_orion",
-    "localized": "ucav_orion",
+    "localized": "Orion",
     "arcade": {
       "economic_rank": 29
     },
@@ -43,7 +43,7 @@
   },
   {
     "name": "ucav_wing_loong_i",
-    "localized": "ucav_wing_loong_i",
+    "localized": "Wing Long I",
     "arcade": {
       "economic_rank": 29
     },
@@ -85,7 +85,7 @@
   },
   {
     "name": "ucav_mq_1_predator_usa_killstreak",
-    "localized": "ucav_mq_1_predator_usa_killstreak",
+    "localized": "MQ-1",
     "arcade": {
       "economic_rank": 29
     },
@@ -99,7 +99,7 @@
   },
   {
     "name": "ucav_mq_1_predator_uk_killstreak",
-    "localized": "ucav_mq_1_predator_uk_killstreak",
+    "localized": "MQ-1",
     "arcade": {
       "economic_rank": 29
     },
@@ -113,7 +113,7 @@
   },
   {
     "name": "ucav_mq_1_predator_sweden_killstreak",
-    "localized": "ucav_mq_1_predator_sweden_killstreak",
+    "localized": "MQ-1",
     "arcade": {
       "economic_rank": 29
     },
@@ -127,7 +127,7 @@
   },
   {
     "name": "ucav_mq_1_predator_france_killstreak",
-    "localized": "ucav_mq_1_predator_france_killstreak",
+    "localized": "MQ-1",
     "arcade": {
       "economic_rank": 29
     },
@@ -141,7 +141,7 @@
   },
   {
     "name": "ucav_mq_1_predator_japan_killstreak",
-    "localized": "ucav_mq_1_predator_japan_killstreak",
+    "localized": "MQ-1",
     "arcade": {
       "economic_rank": 29
     },
@@ -155,7 +155,7 @@
   },
   {
     "name": "ucav_mq_1_predator_germany_killstreak",
-    "localized": "ucav_mq_1_predator_germany_killstreak",
+    "localized": "MQ-1",
     "arcade": {
       "economic_rank": 29
     },
@@ -169,7 +169,7 @@
   },
   {
     "name": "ucav_mq_1_predator_iaf_killstreak",
-    "localized": "ucav_mq_1_predator_iaf_killstreak",
+    "localized": "MQ-1",
     "arcade": {
       "economic_rank": 29
     },
@@ -183,7 +183,7 @@
   },
   {
     "name": "ucav_mq_1_predator_italy_killstreak",
-    "localized": "ucav_mq_1_predator_italy_killstreak",
+    "localized": "MQ-1",
     "arcade": {
       "economic_rank": 29
     },
@@ -197,7 +197,7 @@
   },
   {
     "name": "ucav_orion_killstreak",
-    "localized": "ucav_orion_killstreak",
+    "localized": "Orion",
     "arcade": {
       "economic_rank": 29
     },
@@ -211,7 +211,7 @@
   },
   {
     "name": "ucav_wing_loong_i_killstreak",
-    "localized": "ucav_wing_loong_i_killstreak",
+    "localized": "Wing Long I",
     "arcade": {
       "economic_rank": 29
     },
@@ -1206,6 +1206,20 @@
   {
     "name": "arado-196a-3",
     "localized": "Ar 196 A-3",
+    "arcade": {
+      "economic_rank": 2
+    },
+    "realistic": {
+      "economic_rank": 1
+    },
+    "simulator": {
+      "economic_rank": 2
+    },
+    "rank": 1
+  },
+  {
+    "name": "arado-196a-5",
+    "localized": "⦿Ar 196 A-5",
     "arcade": {
       "economic_rank": 2
     },
@@ -12001,13 +12015,13 @@
     "name": "su_25k",
     "localized": "Su-25K",
     "arcade": {
-      "economic_rank": 25
+      "economic_rank": 26
     },
     "realistic": {
-      "economic_rank": 25
+      "economic_rank": 26
     },
     "simulator": {
-      "economic_rank": 25
+      "economic_rank": 26
     },
     "rank": 6
   },
@@ -12015,13 +12029,13 @@
     "name": "su_25",
     "localized": "Su-25",
     "arcade": {
-      "economic_rank": 25
+      "economic_rank": 26
     },
     "realistic": {
-      "economic_rank": 25
+      "economic_rank": 26
     },
     "simulator": {
-      "economic_rank": 25
+      "economic_rank": 26
     },
     "rank": 6
   },
@@ -13637,7 +13651,7 @@
   },
   {
     "name": "so_4050_vautour_2n",
-    "localized": "S.O.4050 Vautour IIN (late)",
+    "localized": "S.O.4050 Vautour IIN",
     "arcade": {
       "economic_rank": 26
     },
@@ -13651,7 +13665,7 @@
   },
   {
     "name": "so_4050_vautour_2n_late",
-    "localized": "S.O.4050 Vautour IIN",
+    "localized": "S.O.4050 Vautour IIN (late)",
     "arcade": {
       "economic_rank": 23
     },
@@ -14843,13 +14857,13 @@
     "name": "sa_342l_china",
     "localized": "SA.342L Gazelle",
     "arcade": {
-      "economic_rank": 22
+      "economic_rank": 23
     },
     "realistic": {
-      "economic_rank": 22
+      "economic_rank": 23
     },
     "simulator": {
-      "economic_rank": 22
+      "economic_rank": 23
     },
     "rank": 5
   },
@@ -14866,6 +14880,34 @@
       "economic_rank": 23
     },
     "rank": 5
+  },
+  {
+    "name": "z_9w",
+    "localized": "Z-9W",
+    "arcade": {
+      "economic_rank": 25
+    },
+    "realistic": {
+      "economic_rank": 25
+    },
+    "simulator": {
+      "economic_rank": 25
+    },
+    "rank": 6
+  },
+  {
+    "name": "z_9wa",
+    "localized": "Z-9WA",
+    "arcade": {
+      "economic_rank": 26
+    },
+    "realistic": {
+      "economic_rank": 26
+    },
+    "simulator": {
+      "economic_rank": 26
+    },
+    "rank": 6
   },
   {
     "name": "z_19",
@@ -14894,6 +14936,20 @@
       "economic_rank": 28
     },
     "rank": 6
+  },
+  {
+    "name": "z_10",
+    "localized": "Z-10",
+    "arcade": {
+      "economic_rank": 29
+    },
+    "realistic": {
+      "economic_rank": 30
+    },
+    "simulator": {
+      "economic_rank": 29
+    },
+    "rank": 7
   },
   {
     "name": "ka_50",
@@ -15482,6 +15538,20 @@
       "economic_rank": 28
     },
     "rank": 7
+  },
+  {
+    "name": "ah_2_rooivalk",
+    "localized": "Rooivalk Mk1F CSH",
+    "arcade": {
+      "economic_rank": 29
+    },
+    "realistic": {
+      "economic_rank": 29
+    },
+    "simulator": {
+      "economic_rank": 29
+    },
+    "rank": 6
   },
   {
     "name": "ah_mk1",
@@ -22597,7 +22667,7 @@
   },
   {
     "name": "sw_cv_90105_tml",
-    "localized": "CV 90105 XC-8",
+    "localized": "CV 90105",
     "arcade": {
       "economic_rank": 25
     },
@@ -27189,15 +27259,15 @@
   },
   {
     "name": "cn_hj_9",
-    "localized": "AFT-9",
+    "localized": "AFT09",
     "arcade": {
-      "economic_rank": 22
+      "economic_rank": 23
     },
     "realistic": {
-      "economic_rank": 22
+      "economic_rank": 23
     },
     "simulator": {
-      "economic_rank": 22
+      "economic_rank": 23
     },
     "rank": 6
   },
@@ -29501,13 +29571,13 @@
     "name": "uk_cruiser_dido",
     "localized": "HMS Dido",
     "arcade": {
-      "economic_rank": 12
+      "economic_rank": 13
     },
     "realistic": {
-      "economic_rank": 12
+      "economic_rank": 13
     },
     "simulator": {
-      "economic_rank": 12
+      "economic_rank": 13
     },
     "rank": 3
   },
@@ -32590,5 +32660,19 @@
       "economic_rank": 16
     },
     "rank": 5
+  },
+  {
+    "name": "uk_attack_class_arrow",
+    "localized": "HMAS Arrow",
+    "arcade": {
+      "economic_rank": 5
+    },
+    "realistic": {
+      "economic_rank": 5
+    },
+    "simulator": {
+      "economic_rank": 5
+    },
+    "rank": 4
   }
 ]

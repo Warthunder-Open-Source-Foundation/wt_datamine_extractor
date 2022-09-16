@@ -45,6 +45,7 @@
   "destroysRendInstances": true,
   "destroysTrees": true,
   "type": "typeMediumTank",
+  "bladeAnimVar": "challenger_1_dozer_blade_action",
   "rearmSmokeTimeOnField": 60.0,
   "canReloadNonGuns": true,
   "DamageParts": {
@@ -91,6 +92,11 @@
       },
       "turret_05_back_dm": {
         "armorThickness": 80.0
+      },
+      "ex_armor_03_dm": {
+        "armorThickness": 30.0,
+        "armorClass": "tank_structural_steel",
+        "createSecondaryShatters": false
       }
     },
     "hull_turret_spaced_armor": {
@@ -3026,6 +3032,33 @@
     "new_tank_horizontal_aiming": {},
     "new_tank_vertical_aiming": {},
     "tank_new_gun": {},
+    "tank_bulldozer_blade": {
+      "modClass": "firepower",
+      "tier": 2,
+      "requiresModelReload": true,
+      "turn_it_off": false,
+      "effects": {
+        "rcostAddParam": 0.99,
+        "diggingAvailable": true,
+        "diggingActivateTime": 3.0,
+        "diggingLevel": 0.25,
+        "digMaxSpeed": 7.0,
+        "digMaxRevSpeed": -12.0,
+        "hideNodes": {}
+      },
+      "disableModEffects": {
+        "hideNodes": {
+          "node": [
+            "ex_armor_03",
+            "body_04",
+            "roll_01",
+            "roll_02",
+            "roll_03",
+            "roll_04"
+          ]
+        }
+      }
+    },
     "tank_medical_kit": {
       "image": "#ui/gameuiskin#tank_reinforcement_uk.png"
     },
@@ -3038,11 +3071,12 @@
     "120mm_britain_L23A1_APDSFS_ammo_pack": {},
     "120mm_britain_Smoke": {},
     "120mm_britain_Smoke_ammo_pack": {
-      "tier": 3
+      "tier": 1
     },
     "art_support": {},
     "tank_smoke_screen_system_mod": {
-      "tier": 3,
+      "tier": 4,
+      "modClass": "protection",
       "effects": {
         "commonWeapons": {
           "Weapon": [
@@ -3343,7 +3377,7 @@
     },
     "night_vision_system": {
       "image": "#ui/gameuiskin#thermal_sight.png",
-      "tier": 2,
+      "tier": 3,
       "effects": {
         "nightVision": {
           "gunnerThermal": {
@@ -3383,6 +3417,7 @@
       "fatalExplosion": true,
       "replenishmentDelay": 4.0,
       "replenishmentTime": 20.0,
+      "reverseFill": false,
       "shells": [
         {
           "firstStage": true,
@@ -3448,10 +3483,7 @@
           },
           "ammo_turret_39_dm": {
             "count": 1
-          }
-        },
-        {
-          "reloadTimeMult": 2.0,
+          },
           "ammo_turret_19_dm": {
             "count": 1
           },
@@ -3580,28 +3612,52 @@
           "ammo_body_05_dm": {
             "count": 1
           },
+          "ammo_body_52_dm": {
+            "count": 1
+          },
           "ammo_body_06_dm": {
             "count": 1
           },
           "ammo_body_07_dm": {
             "count": 1
           },
+          "ammo_body_53_dm": {
+            "count": 1
+          },
           "ammo_body_09_dm": {
+            "count": 1
+          },
+          "ammo_body_55_dm": {
             "count": 1
           },
           "ammo_body_11_dm": {
             "count": 1
           },
+          "ammo_body_57_dm": {
+            "count": 1
+          },
           "ammo_body_08_dm": {
+            "count": 1
+          },
+          "ammo_body_54_dm": {
             "count": 1
           },
           "ammo_body_10_dm": {
             "count": 1
           },
+          "ammo_body_56_dm": {
+            "count": 1
+          },
           "ammo_body_12_dm": {
             "count": 1
           },
+          "ammo_body_58_dm": {
+            "count": 1
+          },
           "ammo_body_13_dm": {
+            "count": 1
+          },
+          "ammo_body_59_dm": {
             "count": 1
           },
           "ammo_body_14_dm": {
@@ -3615,10 +3671,7 @@
           },
           "ammo_body_17_dm": {
             "count": 1
-          }
-        },
-        {
-          "reloadTimeMult": 2.0,
+          },
           "ammo_body_30_dm": {
             "count": 1
           },
@@ -3668,28 +3721,28 @@
             "count": 1
           },
           "ammo_body_22_dm": {
-            "count": 2
+            "count": 1
           },
           "ammo_body_23_dm": {
-            "count": 2
+            "count": 1
           },
           "ammo_body_24_dm": {
-            "count": 2
+            "count": 1
           },
           "ammo_body_25_dm": {
-            "count": 2
+            "count": 1
           },
           "ammo_body_26_dm": {
-            "count": 2
+            "count": 1
           },
           "ammo_body_27_dm": {
-            "count": 2
+            "count": 1
           },
           "ammo_body_28_dm": {
-            "count": 2
+            "count": 1
           },
           "ammo_body_29_dm": {
-            "count": 2
+            "count": 1
           }
         }
       ]

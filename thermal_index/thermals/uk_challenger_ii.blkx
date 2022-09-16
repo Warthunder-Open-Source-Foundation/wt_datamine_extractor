@@ -3766,6 +3766,7 @@
       "fatalExplosion": true,
       "replenishmentDelay": 4.0,
       "replenishmentTime": 20.0,
+      "reverseFill": false,
       "shells": [
         {
           "firstStage": true,
@@ -3834,10 +3835,7 @@
           },
           "ammo_turret_21_dm": {
             "count": 1
-          }
-        },
-        {
-          "reloadTimeMult": 2.0,
+          },
           "ammo_turret_22_dm": {
             "count": 1
           },
@@ -4046,10 +4044,7 @@
           },
           "ammo_body_33_dm": {
             "count": 1
-          }
-        },
-        {
-          "reloadTimeMult": 2.0,
+          },
           "ammo_body_34_dm": {
             "count": 1
           },

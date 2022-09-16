@@ -157,14 +157,27 @@
         "armorThickness": 25.0
       },
       "composite_armor_hull_02_dm": {
-        "armorThickness": 17.25,
-        "armorClass": "tank_structural_steel",
+        "armorThickness": 25.0,
         "hidableInXrayViewer": true
       },
       "composite_armor_hull_03_dm": {
-        "armorThickness": 17.25,
-        "armorClass": "tank_structural_steel",
+        "armorThickness": 25.0,
         "hidableInXrayViewer": true
+      },
+      "turret_04_side_dm": {
+        "armorThickness": 25.4
+      },
+      "ex_armor_01_dm": {
+        "armorThickness": 25.4,
+        "ignoreSolidDimension": true
+      },
+      "turret_05_front_dm": {
+        "armorThickness": 25.4,
+        "ignoreSolidDimension": true
+      },
+      "turret_02_front_dm": {
+        "armorThickness": 25.4,
+        "ignoreSolidDimension": true
       }
     },
     "composite_armor": {
@@ -184,21 +197,6 @@
       },
       "turret_06_back_dm": {
         "armorThickness": 100.0
-      },
-      "ex_armor_01_dm": {
-        "armorThickness": 100.0,
-        "genericArmorQuality": 0.5,
-        "cumulativeArmorQuality": 0.95
-      },
-      "turret_05_front_dm": {
-        "armorThickness": 200.0,
-        "genericArmorQuality": 0.47,
-        "cumulativeArmorQuality": 0.65
-      },
-      "turret_02_front_dm": {
-        "armorThickness": 200.0,
-        "genericArmorQuality": 0.47,
-        "cumulativeArmorQuality": 0.65
       }
     },
     "turret": {
@@ -222,21 +220,29 @@
       "turret_side_dm": {
         "armorThickness": 89.0
       },
-      "turret_04_side_dm": {
-        "armorThickness": 25.4
-      },
       "turret_03_front_dm": {
         "armorThickness": 40.0,
         "variableThickness": true
       },
       "composite_armor_turret_01_dm": {
-        "armorThickness": 17.25,
-        "armorClass": "tank_structural_steel",
+        "armorThickness": 200.0,
+        "armorClass": "leopard_2a5_turret_nera",
+        "genericArmorQuality": 0.5,
+        "cumulativeArmorQuality": 0.85,
         "hidableInXrayViewer": true
       },
       "composite_armor_turret_02_dm": {
-        "armorThickness": 17.25,
-        "armorClass": "tank_structural_steel",
+        "armorThickness": 200.0,
+        "armorClass": "leopard_2a5_turret_nera",
+        "genericArmorQuality": 0.5,
+        "cumulativeArmorQuality": 0.85,
+        "hidableInXrayViewer": true
+      },
+      "composite_armor_hull_01_dm": {
+        "armorThickness": 100.0,
+        "armorClass": "leopard_2a5_turret_nera",
+        "genericArmorQuality": 0.35,
+        "cumulativeArmorQuality": 0.825,
         "hidableInXrayViewer": true
       }
     },
@@ -872,16 +878,16 @@
     "armorArrayHull": [
       {
         "xrayDmPart": "composite_armor_hull_02_dm",
-        "titleLoc": "tank_structural_steel",
+        "titleLoc": "RHA_tank_modern",
         "armorArrayText": {
           "layer": {
-            "dmPart": "composite_armor_hull_03_dm"
+            "dmPart": "composite_armor_hull_02_dm"
           }
         }
       },
       {
         "xrayDmPart": "composite_armor_hull_03_dm",
-        "titleLoc": "tank_structural_steel",
+        "titleLoc": "RHA_tank_modern",
         "armorArrayText": {
           "layer": {
             "dmPart": "composite_armor_hull_03_dm"
@@ -890,7 +896,7 @@
       },
       {
         "xrayDmPart": "composite_armor_turret_01_dm",
-        "titleLoc": "tank_structural_steel",
+        "titleLoc": "leopard_2a5_turret_nera",
         "armorArrayText": {
           "layer": {
             "dmPart": "composite_armor_turret_01_dm"
@@ -899,10 +905,19 @@
       },
       {
         "xrayDmPart": "composite_armor_turret_02_dm",
-        "titleLoc": "tank_structural_steel",
+        "titleLoc": "leopard_2a5_turret_nera",
         "armorArrayText": {
           "layer": {
             "dmPart": "composite_armor_turret_02_dm"
+          }
+        }
+      },
+      {
+        "xrayDmPart": "composite_armor_hull_01_dm",
+        "titleLoc": "leopard_2a5_turret_nera",
+        "armorArrayText": {
+          "layer": {
+            "dmPart": "composite_armor_hull_01_dm"
           }
         }
       }

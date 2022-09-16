@@ -567,29 +567,14 @@
             "smoke": 0.2
           },
           {
-            "damage": 9.0,
-            "wing_r_dm": 0.1,
-            "wing_l_dm": 0.1
-          },
-          {
-            "damage": 10.0,
+            "damage": 30.0,
             "wing_r_dm": 0.3,
             "wing_l_dm": 0.3
           },
           {
-            "damage": 20.0,
+            "damage": 50.0,
             "wing_r_dm": 0.5,
             "wing_l_dm": 0.5
-          },
-          {
-            "damage": 30.0,
-            "wing_r_dm": 0.7,
-            "wing_l_dm": 0.7
-          },
-          {
-            "damage": 50.0,
-            "wing_r_dm": 0.9,
-            "wing_l_dm": 0.9
           }
         ],
         "onKill": [
@@ -638,24 +623,12 @@
             "smoke": 0.2
           },
           {
-            "damage": 10.0,
-            "tail_dm": 0.2
-          },
-          {
-            "damage": 20.0,
+            "damage": 45.0,
             "tail_dm": 0.4
           },
           {
-            "damage": 30.0,
-            "tail_dm": 0.6
-          },
-          {
-            "damage": 45.0,
-            "tail_dm": 0.8
-          },
-          {
             "damage": 40.0,
-            "tail_dm": 0.9
+            "tail_dm": 0.6
           },
           {
             "damage": 50.0,
@@ -824,28 +797,28 @@
         "name": "spar1_l_dm",
         "onKill": {
           "nothing": 2.0,
-          "cut": 4.0
+          "cut": 3.0
         }
       },
       {
         "name": "spar1_r_dm",
         "onKill": {
           "nothing": 2.0,
-          "cut": 4.0
+          "cut": 3.0
         }
       },
       {
         "name": "spar2_l_dm",
         "onKill": {
           "nothing": 2.0,
-          "cut": 4.0
+          "cut": 3.0
         }
       },
       {
         "name": "spar2_r_dm",
         "onKill": {
           "nothing": 2.0,
-          "cut": 4.0
+          "cut": 3.0
         }
       },
       {
@@ -893,7 +866,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.01,
             "leak": 0.9
@@ -906,13 +879,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 50.0,
             "fire": 50.0,
             "leak": 15.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 10.0
           }
@@ -936,7 +907,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.01,
             "leak": 0.9
@@ -949,13 +920,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 50.0,
             "fire": 50.0,
             "leak": 15.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 10.0
           }
@@ -979,7 +948,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.01,
             "leak": 0.9
@@ -992,13 +961,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 50.0,
             "fire": 50.0,
             "leak": 15.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 10.0
           }
@@ -1022,7 +989,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.01,
             "leak": 0.9
@@ -1035,13 +1002,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 50.0,
             "fire": 50.0,
             "leak": 15.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 10.0
           }
@@ -1065,7 +1030,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.01,
             "leak": 0.9
@@ -1078,13 +1043,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 50.0,
             "fire": 50.0,
             "leak": 15.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 10.0
           }
@@ -1108,7 +1071,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.01,
             "leak": 0.9
@@ -1121,13 +1084,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 50.0,
             "fire": 50.0,
             "leak": 15.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 10.0
           }
@@ -2231,15 +2192,15 @@
         "jaguar_gr1_pylon_1_r",
         "jaguar_gr1_mer_l",
         "jaguar_gr1_mer_r",
+        "phimat_container",
+        "phimat_container_cap",
         "aero_3b_001",
         "aero_3b_002",
         "fuse_2",
         "uk_tiald_pod",
         "uk_tiald_pod_head",
         "mfd_b",
-        "panel_b",
-        "mfd_a",
-        "panel_a"
+        "panel_b"
       ]
     },
     "WeaponSlot": [
@@ -2249,13 +2210,35 @@
         "WeaponPreset": [
           {
             "name": "aden_common",
-            "ShowNodes": {
-              "node": [
-                "mfd_a",
-                "panel_a"
-              ]
-            },
             "Weapon": [
+              {
+                "dummy": true,
+                "trigger": "gunner0",
+                "triggerGroup": "primary",
+                "blk": "gameData/Weapons/dummy_weapon.blk",
+                "emitter": "optic1_gun",
+                "defaultYaw": 0.0,
+                "defaultPitch": 0.0,
+                "speedYaw": 200.0,
+                "speedPitch": 200.0,
+                "parkInDeadzone": true,
+                "aimForOperatedShell": true,
+                "turret": {
+                  "head": "optic1_turret",
+                  "gun": "optic1_gun",
+                  "mainTurret": true
+                },
+                "limits": {
+                  "yaw": [
+                    -90.0,
+                    90.0
+                  ],
+                  "pitch": [
+                    -90.0,
+                    90.0
+                  ]
+                }
+              },
               {
                 "trigger": "cannon",
                 "blk": "gameData/Weapons/cannonADEN_mk4.blk",
@@ -2286,58 +2269,6 @@
               "node": [
                 "mfd_a",
                 "panel_a",
-                "fuse_2"
-              ]
-            },
-            "Weapon": [
-              {
-                "trigger": "cannon",
-                "blk": "gameData/Weapons/cannonADEN_mk4.blk",
-                "emitter": "flare1",
-                "flash": "flare1",
-                "dm": "cannon1_dm",
-                "bullets": 150,
-                "light": false,
-                "spread": 1.2,
-                "traceOffset": 1
-              },
-              {
-                "trigger": "cannon",
-                "blk": "gameData/Weapons/cannonADEN_mk4.blk",
-                "emitter": "flare2",
-                "flash": "flare2",
-                "dm": "cannon2_dm",
-                "bullets": 150,
-                "light": false,
-                "spread": 1.2,
-                "traceOffset": 1
-              },
-              {
-                "trigger": "countermeasures",
-                "startFx": "",
-                "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
-                "emitter": "emtr_flare1",
-                "bullets": 30,
-                "external": true,
-                "separate": false
-              },
-              {
-                "trigger": "countermeasures",
-                "startFx": "",
-                "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
-                "emitter": "emtr_flare2",
-                "bullets": 30,
-                "external": true,
-                "separate": false
-              }
-            ]
-          },
-          {
-            "name": "aden_tiald_common",
-            "ShowNodes": {
-              "node": [
-                "mfd_b",
-                "panel_b",
                 "fuse_2"
               ]
             },
@@ -2653,7 +2584,16 @@
               "node": [
                 "jaguar_gr1_pylon_3",
                 "uk_tiald_pod",
-                "uk_tiald_pod_head"
+                "uk_tiald_pod_head",
+                "mfd_b",
+                "panel_b",
+                "fuse_2"
+              ]
+            },
+            "HideNodes": {
+              "node": [
+                "mfd_a",
+                "panel_a"
               ]
             },
             "Weapon": {
@@ -2661,10 +2601,6 @@
               "blk": "gameData/Weapons/equipment/uk_tiald_targeting_pod.blk",
               "emitter": "1000lb_mk_83_002",
               "bullets": 1
-            },
-            "DependentWeaponPreset": {
-              "slot": 0,
-              "preset": "aden_tiald_common"
             }
           }
         ]
@@ -2779,21 +2715,6 @@
         "tier": 3,
         "order": 2,
         "WeaponPreset": [
-          {
-            "iconType": "ltc",
-            "name": "phimat_container",
-            "reqModification": "q_5b_ltc",
-            "ShowNodes": {
-              "node": "jaguar_gr1_pylon_1_r"
-            },
-            "Weapon": {
-              "trigger": "countermeasures",
-              "blk": "gameData/Weapons/containers/phimat_container.blk",
-              "external": true,
-              "emitter": "phimat_container",
-              "bullets": 200
-            }
-          },
           {
             "iconType": "bombs_middle",
             "name": "uk_540lbs",
@@ -3077,23 +2998,12 @@
       }
     },
     "uk_tiald_pod": {
-      "reqModification": "q_5b_ltc",
+      "prevModification": "q_5b_ltc",
       "modClass": "weapon",
-      "tier": 3,
-      "invertEnableLogic": false,
-      "turn_it_off": false,
-      "requiresModelReload": true,
-      "group": "q_5b_group",
-      "effects": {
-        "commonWeapons": {
-          "Weapon": {
-            "slot": 0,
-            "preset": "aden_tiald_common"
-          }
-        }
-      }
+      "tier": 3
     },
     "uk_mk_13_18": {
+      "reqModification": "uk_tiald_pod",
       "tier": 4,
       "modClass": "weapon"
     }

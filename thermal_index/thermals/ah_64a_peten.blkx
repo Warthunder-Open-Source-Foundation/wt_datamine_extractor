@@ -544,7 +544,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.4,
             "leak": 0.9
@@ -558,13 +558,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 45.0,
             "fire": 45.0,
             "leak": 25.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 20.0
           }
@@ -588,7 +586,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.4,
             "leak": 0.9
@@ -602,13 +600,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 45.0,
             "fire": 45.0,
             "leak": 25.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 20.0
           }
@@ -2271,7 +2267,7 @@
           },
           "Weapon": {
             "trigger": "aam",
-            "blk": "gameData/Weapons/containers/atas_2x_stinger.blk",
+            "blk": "gameData/Weapons/containers/atas_2x_stinger_left.blk",
             "emitter": "aim92_stinger_pod_001",
             "bullets": 2,
             "external": true,
@@ -2492,7 +2488,7 @@
           },
           "Weapon": {
             "trigger": "aam",
-            "blk": "gameData/Weapons/containers/atas_2x_stinger.blk",
+            "blk": "gameData/Weapons/containers/atas_2x_stinger_right.blk",
             "emitter": "aim92_stinger_pod_002",
             "bullets": 2,
             "external": true,
@@ -2526,12 +2522,12 @@
     "new_compressor_heli": {
       "tier": 1
     },
+    "cd_98_main_rotor": {
+      "tier": 2
+    },
     "hp_105_jet": {
       "tier": 3,
-      "prevModification": "new_compressor_heli"
-    },
-    "cd_98_main_rotor": {
-      "tier": 3
+      "prevModification": "cd_98_main_rotor"
     },
     "new_heli_cover": {},
     "heli_flak_jacket": {},
@@ -2541,14 +2537,29 @@
         "mulMass": 1.02
       }
     },
+    "air_extinguisher": {
+      "prevModification": "heli_structure",
+      "tier": 3,
+      "invertEnableLogic": false
+    },
     "aden_new_gun": {
       "tier": 1
     },
-    "air_extinguisher": {
-      "prevModification": "aden_new_gun",
-      "tier": 4,
+    "ah_1_AGM_114_8": {
+      "deactivationIsAllowed": false,
       "modClass": "weapon",
-      "invertEnableLogic": false
+      "tier": 2
+    },
+    "ah_1_AGM_114_16": {
+      "deactivationIsAllowed": false,
+      "reqModification": "ah_1_AGM_114_8",
+      "modClass": "weapon",
+      "tier": 3
+    },
+    "stinger_aam": {
+      "deactivationIsAllowed": false,
+      "modClass": "weapon",
+      "tier": 4
     },
     "countermeasures_launcher_chaff_only": {},
     "countermeasures_launcher_flare_only": {},
@@ -2590,23 +2601,10 @@
         }
       }
     },
-    "ah_1_AGM_114_8": {
-      "deactivationIsAllowed": false,
-      "modClass": "weapon",
-      "tier": 2
-    },
-    "ah_1_AGM_114_16": {
-      "deactivationIsAllowed": false,
-      "reqModification": "ah_1_AGM_114_8",
-      "modClass": "weapon",
-      "tier": 3
-    },
-    "stinger_aam": {
-      "deactivationIsAllowed": false,
-      "modClass": "weapon",
-      "tier": 4
-    },
     "heli_night_vision_system": {
+      "prevModification": "heli_counterMeasures",
+      "modClass": "weapon",
+      "tier": 3,
       "image": "#ui/gameuiskin#thermal_sight.png",
       "effects": {
         "nightVision": {

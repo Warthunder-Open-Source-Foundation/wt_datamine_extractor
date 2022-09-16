@@ -69,7 +69,7 @@
         0.1,
         2.0
       ],
-      "shellAnimation": "video/shells_animations/ap.ivf",
+      "shellAnimation": "video/shells_animations/ap_belt.ivf",
       "bulletName": "20mm_slpprj_m40",
       "relativeVelHitShift": [
         300.0,
@@ -769,7 +769,7 @@
         0.1,
         2.0
       ],
-      "shellAnimation": "video/shells_animations/ap.ivf",
+      "shellAnimation": "video/shells_animations/ap_belt.ivf",
       "bulletName": "20mm_slpgr_m42",
       "relativeVelHitShift": [
         300.0,

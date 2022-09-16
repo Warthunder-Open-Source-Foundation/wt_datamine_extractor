@@ -535,7 +535,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.4,
             "leak": 0.9
@@ -549,13 +549,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 45.0,
             "fire": 45.0,
             "leak": 25.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 20.0
           }
@@ -579,7 +577,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.4,
             "leak": 0.9
@@ -593,13 +591,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 45.0,
             "fire": 45.0,
             "leak": 25.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 20.0
           }
@@ -1831,7 +1827,11 @@
           "elevon_r_dm",
           "elevon%d_r_dm",
           "airbrake_l_dm",
+          "airbrake_l%d_dm",
+          "airbrake%d_l_dm",
           "airbrake_r_dm",
+          "airbrake_r%d_dm",
+          "airbrake%d_r_dm",
           "airbrake_c_dm",
           "aileron_interceptor_l_dm",
           "aileron_interceptor%d_l_dm",
@@ -1919,7 +1919,11 @@
           "elevon_r_dm",
           "elevon%d_r_dm",
           "airbrake_l_dm",
+          "airbrake_l%d_dm",
+          "airbrake%d_l_dm",
           "airbrake_r_dm",
+          "airbrake_r%d_dm",
+          "airbrake%d_r_dm",
           "airbrake_c_dm",
           "aileron_interceptor_l_dm",
           "aileron_interceptor%d_l_dm",
@@ -2007,7 +2011,11 @@
           "elevon_r_dm",
           "elevon%d_r_dm",
           "airbrake_l_dm",
+          "airbrake_l%d_dm",
+          "airbrake%d_l_dm",
           "airbrake_r_dm",
+          "airbrake_r%d_dm",
+          "airbrake%d_r_dm",
           "airbrake_c_dm",
           "aileron_interceptor_l_dm",
           "aileron_interceptor%d_l_dm",
@@ -2086,7 +2094,11 @@
           "elevon_r_dm",
           "elevon%d_r_dm",
           "airbrake_l_dm",
+          "airbrake_l%d_dm",
+          "airbrake%d_l_dm",
           "airbrake_r_dm",
+          "airbrake_r%d_dm",
+          "airbrake%d_r_dm",
           "airbrake_c_dm",
           "aileron_interceptor_l_dm",
           "aileron_interceptor%d_l_dm",
@@ -2170,7 +2182,11 @@
           "elevon_r_dm",
           "elevon%d_r_dm",
           "airbrake_l_dm",
+          "airbrake_l%d_dm",
+          "airbrake%d_l_dm",
           "airbrake_r_dm",
+          "airbrake_r%d_dm",
+          "airbrake%d_r_dm",
           "airbrake_c_dm",
           "aileron_interceptor_l_dm",
           "aileron_interceptor%d_l_dm",
@@ -2254,7 +2270,11 @@
           "elevon_r_dm",
           "elevon%d_r_dm",
           "airbrake_l_dm",
+          "airbrake_l%d_dm",
+          "airbrake%d_l_dm",
           "airbrake_r_dm",
+          "airbrake_r%d_dm",
+          "airbrake%d_r_dm",
           "airbrake_c_dm",
           "aileron_interceptor_l_dm",
           "aileron_interceptor%d_l_dm",
@@ -2338,7 +2358,11 @@
           "elevon_r_dm",
           "elevon%d_r_dm",
           "airbrake_l_dm",
+          "airbrake_l%d_dm",
+          "airbrake%d_l_dm",
           "airbrake_r_dm",
+          "airbrake_r%d_dm",
+          "airbrake%d_r_dm",
           "airbrake_c_dm",
           "aileron_interceptor_l_dm",
           "aileron_interceptor%d_l_dm",
@@ -2422,7 +2446,11 @@
           "elevon_r_dm",
           "elevon%d_r_dm",
           "airbrake_l_dm",
+          "airbrake_l%d_dm",
+          "airbrake%d_l_dm",
           "airbrake_r_dm",
+          "airbrake_r%d_dm",
+          "airbrake%d_r_dm",
           "airbrake_c_dm",
           "aileron_interceptor_l_dm",
           "aileron_interceptor%d_l_dm",
@@ -2934,21 +2962,77 @@
     "new_compressor_heli": {
       "tier": 1
     },
-    "hp_105_jet": {
-      "tier": 3,
-      "prevModification": "new_compressor_heli"
-    },
     "cd_98_main_rotor": {
-      "tier": 3,
+      "tier": 2,
       "effects": {
         "mulCdminMainRotor": 1.15,
         "mulOswEffNumberMainRotor": 0.85
       }
     },
+    "hp_105_jet": {
+      "tier": 3,
+      "prevModification": "cd_98_main_rotor"
+    },
     "new_heli_cover": {},
     "heli_flak_jacket": {},
     "heli_structure": {},
+    "air_extinguisher": {
+      "prevModification": "heli_structure",
+      "tier": 3,
+      "invertEnableLogic": false
+    },
+    "t_160_universal": {},
+    "t_160_air_targets": {},
+    "t_160_armor_targets": {},
+    "t_160_stealth": {},
+    "t_160_belt_pack": {
+      "tier": 1
+    },
+    "t_160_new_gun": {
+      "reqModification": "t_160_belt_pack",
+      "tier": 2
+    },
+    "uh_1c_xm18": {
+      "deactivationIsAllowed": false,
+      "tier": 3,
+      "modClass": "weapon"
+    },
+    "M163_Minigun_new_gun": {
+      "reqModification": "uh_1c_xm18",
+      "tier": 4
+    },
+    "ah_1_m200_2": {
+      "deactivationIsAllowed": false,
+      "modClass": "weapon",
+      "tier": 1
+    },
+    "ah_1_TOW": {
+      "deactivationIsAllowed": false,
+      "reqModification": "ah_1_m200_2",
+      "modClass": "weapon",
+      "tier": 3
+    },
+    "ah_1_TOW_2": {
+      "deactivationIsAllowed": false,
+      "reqModification": "ah_1_TOW",
+      "modClass": "weapon",
+      "tier": 4
+    },
+    "ah_1_TOW2": {
+      "deactivationIsAllowed": false,
+      "reqModification": "ah_1_TOW",
+      "modClass": "weapon",
+      "tier": 3
+    },
+    "ah_1_TOW2_2": {
+      "deactivationIsAllowed": false,
+      "reqModification": "ah_1_TOW2",
+      "modClass": "weapon",
+      "tier": 4
+    },
     "heli_night_vision_system": {
+      "tier": 3,
+      "modClass": "weapon",
       "image": "#ui/gameuiskin#thermal_sight.png",
       "effects": {
         "nightVision": {
@@ -2979,60 +3063,6 @@
           }
         }
       }
-    },
-    "t_160_universal": {},
-    "t_160_air_targets": {},
-    "t_160_armor_targets": {},
-    "t_160_stealth": {},
-    "t_160_belt_pack": {
-      "tier": 1
-    },
-    "t_160_new_gun": {
-      "reqModification": "t_160_belt_pack",
-      "tier": 2
-    },
-    "uh_1c_xm18": {
-      "deactivationIsAllowed": false,
-      "tier": 3,
-      "modClass": "weapon"
-    },
-    "M163_Minigun_new_gun": {
-      "reqModification": "uh_1c_xm18",
-      "tier": 4
-    },
-    "ah_1_m200_2": {
-      "deactivationIsAllowed": false,
-      "modClass": "weapon",
-      "tier": 2
-    },
-    "ah_1_TOW": {
-      "deactivationIsAllowed": false,
-      "reqModification": "ah_1_m200_2",
-      "modClass": "weapon",
-      "tier": 3
-    },
-    "ah_1_TOW_2": {
-      "deactivationIsAllowed": false,
-      "reqModification": "ah_1_TOW",
-      "modClass": "weapon",
-      "tier": 4
-    },
-    "ah_1_TOW2": {
-      "deactivationIsAllowed": false,
-      "reqModification": "ah_1_TOW",
-      "modClass": "weapon",
-      "tier": 3
-    },
-    "ah_1_TOW2_2": {
-      "deactivationIsAllowed": false,
-      "reqModification": "ah_1_TOW2",
-      "modClass": "weapon",
-      "tier": 4
-    },
-    "air_extinguisher": {
-      "tier": 4,
-      "modClass": "weapon",
-      "invertEnableLogic": false
     }
   },
   "cutting": {

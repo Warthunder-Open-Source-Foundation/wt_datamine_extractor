@@ -9,7 +9,7 @@
   "haveCCIPForBombs": true,
   "haveCCIPForGun": true,
   "haveCCRPForBombs": true,
-  "ilsTCSF196": true,
+  "ilsTCSFVE130": true,
   "havePointOfInterestDesignator": true,
   "standardExhaustFxType": "jet_exhaust",
   "afterburnerExhaustFxType": "jet_afterburner_exhaust",
@@ -624,29 +624,14 @@
             "smoke": 0.2
           },
           {
-            "damage": 9.0,
-            "wing_r_dm": 0.1,
-            "wing_l_dm": 0.1
-          },
-          {
-            "damage": 10.0,
+            "damage": 30.0,
             "wing_r_dm": 0.3,
             "wing_l_dm": 0.3
           },
           {
-            "damage": 20.0,
+            "damage": 50.0,
             "wing_r_dm": 0.5,
             "wing_l_dm": 0.5
-          },
-          {
-            "damage": 30.0,
-            "wing_r_dm": 0.7,
-            "wing_l_dm": 0.7
-          },
-          {
-            "damage": 50.0,
-            "wing_r_dm": 0.9,
-            "wing_l_dm": 0.9
           }
         ],
         "onKill": [
@@ -695,24 +680,12 @@
             "smoke": 0.2
           },
           {
-            "damage": 10.0,
-            "tail_dm": 0.2
-          },
-          {
-            "damage": 20.0,
+            "damage": 45.0,
             "tail_dm": 0.4
           },
           {
-            "damage": 30.0,
-            "tail_dm": 0.6
-          },
-          {
-            "damage": 45.0,
-            "tail_dm": 0.8
-          },
-          {
             "damage": 40.0,
-            "tail_dm": 0.9
+            "tail_dm": 0.6
           },
           {
             "damage": 50.0,
@@ -884,28 +857,28 @@
         "name": "spar1_l_dm",
         "onKill": {
           "nothing": 2.0,
-          "cut": 4.0
+          "cut": 3.0
         }
       },
       {
         "name": "spar1_r_dm",
         "onKill": {
           "nothing": 2.0,
-          "cut": 4.0
+          "cut": 3.0
         }
       },
       {
         "name": "spar2_l_dm",
         "onKill": {
           "nothing": 2.0,
-          "cut": 4.0
+          "cut": 3.0
         }
       },
       {
         "name": "spar2_r_dm",
         "onKill": {
           "nothing": 2.0,
-          "cut": 4.0
+          "cut": 3.0
         }
       },
       {
@@ -953,7 +926,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.01,
             "leak": 0.9
@@ -966,13 +939,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 50.0,
             "fire": 50.0,
             "leak": 15.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 10.0
           }
@@ -996,7 +967,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.01,
             "leak": 0.9
@@ -1009,13 +980,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 50.0,
             "fire": 50.0,
             "leak": 15.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 10.0
           }
@@ -1039,7 +1008,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.01,
             "leak": 0.9
@@ -1052,13 +1021,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 50.0,
             "fire": 50.0,
             "leak": 15.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 10.0
           }
@@ -1082,7 +1049,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.01,
             "leak": 0.9
@@ -1095,13 +1062,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 50.0,
             "fire": 50.0,
             "leak": 15.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 10.0
           }
@@ -1125,7 +1090,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.01,
             "leak": 0.9
@@ -1138,13 +1103,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 50.0,
             "fire": 50.0,
             "leak": 15.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 10.0
           }
@@ -1168,7 +1131,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.01,
             "leak": 0.9
@@ -1181,13 +1144,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 50.0,
             "fire": 50.0,
             "leak": 15.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 10.0
           }
@@ -2216,7 +2177,7 @@
                 "startFx": "",
                 "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
                 "emitter": "emtr_flare1",
-                "bullets": 60,
+                "bullets": 92,
                 "external": true,
                 "separate": true
               },
@@ -2225,7 +2186,7 @@
                 "startFx": "",
                 "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
                 "emitter": "emtr_flare2",
-                "bullets": 60,
+                "bullets": 92,
                 "external": true,
                 "separate": true
               }

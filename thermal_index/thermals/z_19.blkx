@@ -41,9 +41,6 @@
   "damagePartsExcludeFromHoleBlk": "gameData/FlightModels/DM/dm_parts_exclude_from_hole.blk",
   "fightAiBehaviour": "helicopter",
   "laserDesignator": true,
-  "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg",
-  "customImage": "!#ui/unitskin#image_in_progress",
-  "customTooltipImage": "ui/aircrafts/image_in_progress",
   "DamageParts": {
     "armor10": {
       "gun1_dm": {
@@ -319,14 +316,6 @@
           {
             "flame": 0.2,
             "smoke": 0.2
-          },
-          {
-            "damage": 20.0,
-            "tail_dm": 0.2
-          },
-          {
-            "damage": 30.0,
-            "tail_dm": 0.4
           },
           {
             "damage": 50.0,
@@ -609,7 +598,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.4,
             "leak": 0.9
@@ -623,13 +612,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 45.0,
             "fire": 45.0,
             "leak": 25.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 20.0
           }
@@ -1970,10 +1957,10 @@
     "head": "optic1_turret",
     "crosshairPreset": "test_crosshair",
     "angularLimits": [
-      -60.0,
-      60.0,
-      -40.0,
-      10.0
+      -115.0,
+      115.0,
+      -80.0,
+      30.0
     ]
   },
   "sensors": {
@@ -1996,7 +1983,7 @@
         "blk": "gameData/sensors/cn_helicopter_z_lws.blk"
       },
       {
-        "blk": "gameData/sensors/su_rn_01_arbalet.blk",
+        "blk": "gameData/sensors/cn_rn_01_ii.blk",
         "dmPart": "radar_dm"
       }
     ]
@@ -2265,7 +2252,7 @@
               "emitter": "flare1",
               "flash": "flare1",
               "dm": "gun1_dm",
-              "bullets": 640,
+              "bullets": 1000,
               "spread": 1.5,
               "traceOffset": 1,
               "counterIndex": 1,
@@ -2348,7 +2335,7 @@
               "emitter": "flare2",
               "flash": "flare2",
               "dm": "gun2_dm",
-              "bullets": 640,
+              "bullets": 1000,
               "spread": 1.5,
               "traceOffset": 1,
               "counterIndex": 1,
@@ -2439,16 +2426,16 @@
     "new_compressor_heli": {
       "tier": 1
     },
-    "hp_105_jet": {
-      "tier": 3,
-      "prevModification": "new_compressor_heli"
-    },
     "cd_98_main_rotor": {
-      "tier": 3,
+      "tier": 2,
       "effects": {
         "mulCdminMainRotor": 1.15,
         "mulOswEffNumberMainRotor": 0.85
       }
+    },
+    "hp_105_jet": {
+      "tier": 3,
+      "prevModification": "cd_98_main_rotor"
     },
     "new_heli_cover": {},
     "heli_flak_jacket": {},
@@ -2462,6 +2449,23 @@
     },
     "qjk_99_new_gun": {
       "reqModification": "qjk_99_belt_pack",
+      "tier": 4
+    },
+    "cn_hf7d": {
+      "deactivationIsAllowed": false,
+      "tier": 1,
+      "modClass": "weapon"
+    },
+    "cn_akd_9": {
+      "deactivationIsAllowed": false,
+      "reqModification": "cn_hf7d",
+      "modClass": "weapon",
+      "tier": 3
+    },
+    "cn_ty_90": {
+      "deactivationIsAllowed": false,
+      "reqModification": "cn_akd_9",
+      "modClass": "weapon",
       "tier": 4
     },
     "countermeasures_launcher_chaff_only": {},
@@ -2540,23 +2544,6 @@
           }
         }
       }
-    },
-    "cn_hf7d": {
-      "deactivationIsAllowed": false,
-      "tier": 2,
-      "modClass": "weapon"
-    },
-    "cn_akd_9": {
-      "deactivationIsAllowed": false,
-      "reqModification": "cn_hf7d",
-      "modClass": "weapon",
-      "tier": 3
-    },
-    "cn_ty_90": {
-      "deactivationIsAllowed": false,
-      "reqModification": "cn_akd_9",
-      "modClass": "weapon",
-      "tier": 4
     }
   },
   "default_skin_tomoe": {

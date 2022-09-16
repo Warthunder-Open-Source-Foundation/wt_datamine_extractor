@@ -23,6 +23,7 @@
   "support_unit_tag": "artillery",
   "useSimpleDeathConditionsAndEffects": false,
   "bladeAnimVar": "magach_6m_dozer_blade_action",
+  "digForwardOffset": 1.5,
   "autoSightDistanceCorrection": true,
   "subclass": "heavyVehicle",
   "onRadarAs": "tracked",
@@ -278,7 +279,6 @@
       "ex_decor_l_15_dm": {},
       "ex_decor_l_16_dm": {},
       "ex_armor_body_r_01_dm": {},
-      "ex_armor_body_r_02_dm": {},
       "ex_armor_body_r_03_dm": {},
       "ex_armor_body_r_04_dm": {},
       "ex_armor_body_r_05_dm": {},
@@ -438,7 +438,10 @@
       "ex_era_hull_15_dm": {},
       "ex_era_hull_16_dm": {},
       "ex_era_hull_17_dm": {},
-      "ex_era_hull_18_dm": {}
+      "ex_era_hull_18_dm": {},
+      "ex_era_hull_19_dm": {},
+      "ex_era_hull_20_dm": {},
+      "ex_era_hull_21_dm": {}
     },
     "chassis": {
       "armorClass": "tank_steel_wheels",
@@ -2130,9 +2133,9 @@
   },
   "VehiclePhys": {
     "Mass": {
-      "Empty": 52450.0,
-      "Fuel": 750.0,
-      "TakeOff": 53200.0,
+      "Empty": 49500.0,
+      "Fuel": 500.0,
+      "TakeOff": 50000.0,
       "momentOfInertia": [
         2.5,
         2.5,
@@ -2962,13 +2965,13 @@
     }
   },
   "cockpit": {
-    "zoomOutFov": 9.2,
-    "zoomInFov": 7.3,
+    "zoomOutFov": 10.0,
+    "zoomInFov": 9.21,
     "sightFov": [
-      4.3,
+      5.0,
       8.0
     ],
-    "sightName": "periscope_m31_with_range_finder_m17a1",
+    "sightName": "telescope_m105c",
     "headPos": [
       0.0,
       3.7,
@@ -3110,12 +3113,23 @@
         "diggingLevel": 0.25,
         "digMaxSpeed": 7.0,
         "digMaxRevSpeed": -12.0,
-        "hideNodes": {}
+        "hideNodes": {
+          "node": [
+            "ex_era_hull_15",
+            "ex_era_hull_16",
+            "ex_era_hull_17",
+            "ex_era_hull_18",
+            "ex_era_hull_19",
+            "ex_era_hull_20"
+          ]
+        }
       },
       "disableModEffects": {
         "hideNodes": {
           "node": [
             "ex_armor_01",
+            "ex_decor_02",
+            "body_01",
             "roll_01",
             "roll_02",
             "roll_03",
@@ -3422,7 +3436,8 @@
               "defaultYaw": 0.0,
               "defaultPitch": 0.0,
               "allowableDelta": 360.0,
-              "salvo": 4,
+              "salvo": 2,
+              "salvoDelay": 0.5,
               "speedYaw": 24.0,
               "speedPitch": 15.0,
               "fireConeAngle": [

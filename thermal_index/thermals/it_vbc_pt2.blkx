@@ -118,6 +118,9 @@
       "turret_08_front_dm": {
         "armorThickness": 15.0
       },
+      "turret_09_front_dm": {
+        "armorThickness": 15.0
+      },
       "turret_03_back_dm": {
         "armorThickness": 10.0,
         "armorClass": "RHA_tank"
@@ -161,9 +164,6 @@
       "turret_04_top_dm": {
         "armorThickness": 10.0
       },
-      "turret_09_top_dm": {
-        "armorThickness": 15.0
-      },
       "body_top_dm": {
         "armorThickness": 15.0
       },
@@ -188,6 +188,10 @@
       },
       "ex_decor_r_03_dm": {
         "armorThickness": 6.0,
+        "armorClass": "RHA_tank"
+      },
+      "turret_03_top_dm": {
+        "armorThickness": 8.0,
         "armorClass": "RHA_tank"
       }
     },
@@ -249,7 +253,8 @@
     "turret_7039": {
       "armorClass": "aluminum_armor_7039",
       "turret_04_side_dm": {
-        "armorThickness": 50.0
+        "armorThickness": 50.0,
+        "armorClass": "aluminum_armor_5083"
       },
       "turret_front_dm": {
         "armorThickness": 40.0
@@ -353,6 +358,12 @@
       "hidableInViewer": true,
       "turret_01_back_dm": {
         "armorThickness": 6.0
+      },
+      "turret_01_front_dm": {
+        "armorThickness": 6.0
+      },
+      "turret_09_bottom_dm": {
+        "armorThickness": 6.0
       }
     },
     "composite_shields": {
@@ -363,7 +374,13 @@
       "cumulativeArmorQuality": 0.1,
       "createSecondaryShatters": false,
       "hidableInViewer": true,
+      "turret_06_top_dm": {
+        "armorThickness": 30.0
+      },
       "superstructure_side_dm": {
+        "armorThickness": 30.0
+      },
+      "superstructure_front_dm": {
         "armorThickness": 30.0
       },
       "turret_04_back_dm": {
@@ -388,6 +405,9 @@
         "armorThickness": 30.0
       },
       "turret_07_front_dm": {
+        "armorThickness": 30.0
+      },
+      "turret_09_top_dm": {
         "armorThickness": 30.0
       }
     },
@@ -2051,9 +2071,9 @@
   },
   "VehiclePhys": {
     "Mass": {
-      "Empty": 24800.0,
-      "Fuel": 250.0,
-      "TakeOff": 27000.0,
+      "Empty": 25500.0,
+      "Fuel": 500.0,
+      "TakeOff": 26000.0,
       "momentOfInertia": [
         2.0,
         2.0,
@@ -2091,19 +2111,26 @@
     "mechanics": {
       "maxBrakeForce": 108000.0,
       "driveGearRadius": 0.6,
-      "mainGearRatio": 4.935,
+      "mainGearRatio": 6.76,
       "sideGearRatio": 1.0,
       "tracked": false,
       "gearRatios": {
         "ratio": [
-          -2.75,
-          -5.5,
+          -3.63,
+          -4.64,
+          -4.96,
+          -6.34,
           0.0,
-          5.5,
-          2.75,
-          1.833,
-          1.375,
-          1.0
+          6.375,
+          5.1,
+          4.96,
+          3.63,
+          2.83,
+          2.26,
+          1.69,
+          1.35,
+          1.0,
+          0.73
         ]
       }
     },

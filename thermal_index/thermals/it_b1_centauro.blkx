@@ -2065,19 +2065,26 @@
     "mechanics": {
       "maxBrakeForce": 108000.0,
       "driveGearRadius": 0.6,
-      "mainGearRatio": 4.935,
+      "mainGearRatio": 6.76,
       "sideGearRatio": 1.0,
       "tracked": false,
       "gearRatios": {
         "ratio": [
-          -2.75,
-          -5.5,
+          -3.63,
+          -4.64,
+          -4.96,
+          -6.34,
           0.0,
-          5.5,
-          2.75,
-          1.833,
-          1.375,
-          1.0
+          6.375,
+          5.1,
+          4.96,
+          3.63,
+          2.83,
+          2.26,
+          1.69,
+          1.35,
+          1.0,
+          0.73
         ]
       }
     },

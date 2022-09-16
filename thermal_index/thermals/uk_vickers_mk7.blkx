@@ -3159,6 +3159,7 @@
       "fatalExplosion": true,
       "replenishmentDelay": 4.0,
       "replenishmentTime": 20.0,
+      "reverseFill": false,
       "shells": [
         {
           "firstStage": true,
@@ -3174,6 +3175,15 @@
         },
         {
           "reloadTimeMult": 1.333,
+          "ammo_turret_10_dm": {
+            "count": 1
+          },
+          "ammo_turret_08_dm": {
+            "count": 1
+          },
+          "ammo_turret_06_dm": {
+            "count": 1
+          },
           "ammo_turret_01_dm": {
             "count": 1
           },
@@ -3187,15 +3197,6 @@
             "count": 1
           },
           "ammo_turret_05_dm": {
-            "count": 1
-          },
-          "ammo_turret_06_dm": {
-            "count": 1
-          },
-          "ammo_turret_08_dm": {
-            "count": 1
-          },
-          "ammo_turret_10_dm": {
             "count": 1
           },
           "ammo_turret_12_dm": {
@@ -3215,10 +3216,7 @@
           },
           "ammo_turret_17_dm": {
             "count": 1
-          }
-        },
-        {
-          "reloadTimeMult": 2.0,
+          },
           "ammo_turret_18_dm": {
             "count": 1
           },
@@ -3376,10 +3374,7 @@
           },
           "ammo_body_48_dm": {
             "count": 1
-          }
-        },
-        {
-          "reloadTimeMult": 2.0,
+          },
           "ammo_body_01_dm": {
             "count": 1
           },

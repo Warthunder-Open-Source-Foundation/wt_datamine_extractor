@@ -23,7 +23,7 @@
   "reloadTime": 10.0,
   "bulletsCartridge": 500,
   "isBulletBelt": false,
-  "notUseDefaultBulletInGui": true,
+  "notUseDefaultBulletInGui": false,
   "fxType": "muzzle_ground_15mm",
   "fxGroundDust": "",
   "fxGrassDust": "",

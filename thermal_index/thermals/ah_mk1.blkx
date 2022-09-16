@@ -316,14 +316,6 @@
             "smoke": 0.2
           },
           {
-            "damage": 20.0,
-            "tail_dm": 0.2
-          },
-          {
-            "damage": 30.0,
-            "tail_dm": 0.4
-          },
-          {
             "damage": 50.0,
             "tail_dm": 0.6
           },
@@ -559,7 +551,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.4,
             "leak": 0.9
@@ -573,13 +565,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 45.0,
             "fire": 45.0,
             "leak": 25.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 20.0
           }
@@ -603,7 +593,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.4,
             "leak": 0.9
@@ -617,13 +607,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 45.0,
             "fire": 45.0,
             "leak": 25.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 20.0
           }
@@ -2368,19 +2356,6 @@
             }
           },
           {
-            "iconType": "atgm_type_helfire_x2",
-            "name": "114b_x2",
-            "reqModification": "ah_1_AGM_114_8",
-            "Weapon": {
-              "trigger": "atgm",
-              "blk": "gameData/Weapons/containers/m279_hellfire_x2.blk",
-              "emitter": "pylon_m279_001",
-              "external": true,
-              "separate": true,
-              "machLimit": 1.01
-            }
-          },
-          {
             "iconType": "atgm_type_helfire_x4",
             "name": "114b_x4",
             "reqModification": "ah_1_AGM_114_16",
@@ -2530,19 +2505,6 @@
             }
           },
           {
-            "iconType": "atgm_type_helfire_x2",
-            "name": "114b_x2",
-            "reqModification": "ah_1_AGM_114_8",
-            "Weapon": {
-              "trigger": "atgm",
-              "blk": "gameData/Weapons/containers/m279_hellfire_x2.blk",
-              "emitter": "pylon_m279_004",
-              "external": true,
-              "separate": true,
-              "machLimit": 1.01
-            }
-          },
-          {
             "iconType": "atgm_type_helfire_x4",
             "name": "114b_x4",
             "reqModification": "ah_1_AGM_114_16",
@@ -2639,12 +2601,12 @@
     "new_compressor_heli": {
       "tier": 1
     },
+    "cd_98_main_rotor": {
+      "tier": 2
+    },
     "hp_105_jet": {
       "tier": 3,
-      "prevModification": "new_compressor_heli"
-    },
-    "cd_98_main_rotor": {
-      "tier": 3
+      "prevModification": "cd_98_main_rotor"
     },
     "new_heli_cover": {},
     "heli_flak_jacket": {},
@@ -2654,37 +2616,10 @@
         "mulMass": 1.02
       }
     },
-    "heli_night_vision_system": {
-      "image": "#ui/gameuiskin#thermal_sight.png",
-      "effects": {
-        "nightVision": {
-          "gunnerIr": {
-            "resolution": [
-              1920,
-              1080
-            ],
-            "lightMult": 10.0,
-            "ghosting": 0.7,
-            "noiseFactor": 0.15
-          },
-          "pilotIr": {
-            "resolution": [
-              1920,
-              1080
-            ],
-            "lightMult": 10.0,
-            "ghosting": 0.7,
-            "noiseFactor": 0.15
-          },
-          "sightThermal": {
-            "resolution": [
-              1024,
-              768
-            ],
-            "noiseFactor": 0.05
-          }
-        }
-      }
+    "air_extinguisher": {
+      "prevModification": "heli_structure",
+      "tier": 3,
+      "invertEnableLogic": false
     },
     "aden_new_gun": {
       "tier": 1
@@ -2707,7 +2642,7 @@
     "MAW_system_heli_false_thermal_targets": {
       "modClass": "weapon",
       "turn_it_off": false,
-      "tier": 2,
+      "tier": 1,
       "invertEnableLogic": false,
       "effects": {
         "commonWeapons": {
@@ -2747,19 +2682,50 @@
       }
     },
     "AMASE_heli_false_thermal_targets": {
-      "tier": 3,
+      "tier": 2,
       "invertEnableLogic": false,
       "enabled": false
     },
+    "heli_night_vision_system": {
+      "prevModification": "AMASE_heli_false_thermal_targets",
+      "tier": 3,
+      "modClass": "weapon",
+      "image": "#ui/gameuiskin#thermal_sight.png",
+      "effects": {
+        "nightVision": {
+          "gunnerIr": {
+            "resolution": [
+              1920,
+              1080
+            ],
+            "lightMult": 10.0,
+            "ghosting": 0.7,
+            "noiseFactor": 0.15
+          },
+          "pilotIr": {
+            "resolution": [
+              1920,
+              1080
+            ],
+            "lightMult": 10.0,
+            "ghosting": 0.7,
+            "noiseFactor": 0.15
+          },
+          "sightThermal": {
+            "resolution": [
+              1024,
+              768
+            ],
+            "noiseFactor": 0.05
+          }
+        }
+      }
+    },
     "ah_mk1_starstreak": {
+      "prevModification": "heli_night_vision_system",
       "tier": 4,
       "modClass": "weapon",
       "enabled": false
-    },
-    "air_extinguisher": {
-      "tier": 4,
-      "modClass": "weapon",
-      "invertEnableLogic": false
     }
   },
   "user_skin": {

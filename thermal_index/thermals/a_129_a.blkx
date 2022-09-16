@@ -360,14 +360,6 @@
             "smoke": 0.2
           },
           {
-            "damage": 20.0,
-            "tail_dm": 0.2
-          },
-          {
-            "damage": 30.0,
-            "tail_dm": 0.4
-          },
-          {
             "damage": 50.0,
             "tail_dm": 0.6
           },
@@ -609,7 +601,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.4,
             "leak": 0.9
@@ -623,13 +615,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 45.0,
             "fire": 45.0,
             "leak": 25.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 20.0
           }
@@ -653,7 +643,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.4,
             "leak": 0.9
@@ -667,13 +657,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 45.0,
             "fire": 45.0,
             "leak": 25.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 20.0
           }
@@ -2226,7 +2214,7 @@
                 "trigger": "rockets",
                 "external": true,
                 "separate": true,
-                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk",
+                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse_fn_m3p_cwp.blk",
                 "emitter": "ffar_1",
                 "bullets": 1,
                 "minSize": [
@@ -2241,7 +2229,7 @@
                 "trigger": "rockets",
                 "external": true,
                 "separate": true,
-                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk",
+                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse_fn_m3p_cwp.blk",
                 "emitter": "ffar_2",
                 "bullets": 1,
                 "minSize": [
@@ -2256,7 +2244,7 @@
                 "trigger": "rockets",
                 "external": true,
                 "separate": true,
-                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk",
+                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse_fn_m3p_cwp.blk",
                 "emitter": "ffar_3",
                 "bullets": 1,
                 "minSize": [
@@ -2357,7 +2345,7 @@
                 "trigger": "rockets",
                 "external": true,
                 "separate": true,
-                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk",
+                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse_fn_m3p_cwp.blk",
                 "emitter": "ffar_6",
                 "bullets": 1,
                 "minSize": [
@@ -2372,7 +2360,7 @@
                 "trigger": "rockets",
                 "external": true,
                 "separate": true,
-                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk",
+                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse_fn_m3p_cwp.blk",
                 "emitter": "ffar_5",
                 "bullets": 1,
                 "minSize": [
@@ -2387,7 +2375,7 @@
                 "trigger": "rockets",
                 "external": true,
                 "separate": true,
-                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse.blk",
+                "blk": "gameData/Weapons/rocketGuns/us_2_75_in_ffar_mighty_mouse_fn_m3p_cwp.blk",
                 "emitter": "ffar_4",
                 "bullets": 1,
                 "minSize": [
@@ -2549,7 +2537,11 @@
           "elevon_r_dm",
           "elevon%d_r_dm",
           "airbrake_l_dm",
+          "airbrake_l%d_dm",
+          "airbrake%d_l_dm",
           "airbrake_r_dm",
+          "airbrake_r%d_dm",
+          "airbrake%d_r_dm",
           "airbrake_c_dm",
           "aileron_interceptor_l_dm",
           "aileron_interceptor%d_l_dm",
@@ -2637,7 +2629,11 @@
           "elevon_r_dm",
           "elevon%d_r_dm",
           "airbrake_l_dm",
+          "airbrake_l%d_dm",
+          "airbrake%d_l_dm",
           "airbrake_r_dm",
+          "airbrake_r%d_dm",
+          "airbrake%d_r_dm",
           "airbrake_c_dm",
           "aileron_interceptor_l_dm",
           "aileron_interceptor%d_l_dm",
@@ -2725,7 +2721,11 @@
           "elevon_r_dm",
           "elevon%d_r_dm",
           "airbrake_l_dm",
+          "airbrake_l%d_dm",
+          "airbrake%d_l_dm",
           "airbrake_r_dm",
+          "airbrake_r%d_dm",
+          "airbrake%d_r_dm",
           "airbrake_c_dm",
           "aileron_interceptor_l_dm",
           "aileron_interceptor%d_l_dm",
@@ -2804,7 +2804,11 @@
           "elevon_r_dm",
           "elevon%d_r_dm",
           "airbrake_l_dm",
+          "airbrake_l%d_dm",
+          "airbrake%d_l_dm",
           "airbrake_r_dm",
+          "airbrake_r%d_dm",
+          "airbrake%d_r_dm",
           "airbrake_c_dm",
           "aileron_interceptor_l_dm",
           "aileron_interceptor%d_l_dm",
@@ -2888,7 +2892,11 @@
           "elevon_r_dm",
           "elevon%d_r_dm",
           "airbrake_l_dm",
+          "airbrake_l%d_dm",
+          "airbrake%d_l_dm",
           "airbrake_r_dm",
+          "airbrake_r%d_dm",
+          "airbrake%d_r_dm",
           "airbrake_c_dm",
           "aileron_interceptor_l_dm",
           "aileron_interceptor%d_l_dm",
@@ -2972,7 +2980,11 @@
           "elevon_r_dm",
           "elevon%d_r_dm",
           "airbrake_l_dm",
+          "airbrake_l%d_dm",
+          "airbrake%d_l_dm",
           "airbrake_r_dm",
+          "airbrake_r%d_dm",
+          "airbrake%d_r_dm",
           "airbrake_c_dm",
           "aileron_interceptor_l_dm",
           "aileron_interceptor%d_l_dm",
@@ -3056,7 +3068,11 @@
           "elevon_r_dm",
           "elevon%d_r_dm",
           "airbrake_l_dm",
+          "airbrake_l%d_dm",
+          "airbrake%d_l_dm",
           "airbrake_r_dm",
+          "airbrake_r%d_dm",
+          "airbrake%d_r_dm",
           "airbrake_c_dm",
           "aileron_interceptor_l_dm",
           "aileron_interceptor%d_l_dm",
@@ -3140,7 +3156,11 @@
           "elevon_r_dm",
           "elevon%d_r_dm",
           "airbrake_l_dm",
+          "airbrake_l%d_dm",
+          "airbrake%d_l_dm",
           "airbrake_r_dm",
+          "airbrake_r%d_dm",
+          "airbrake%d_r_dm",
           "airbrake_c_dm",
           "aileron_interceptor_l_dm",
           "aileron_interceptor%d_l_dm",
@@ -3642,20 +3662,25 @@
     "new_compressor_heli": {
       "tier": 1
     },
-    "hp_105_jet": {
-      "tier": 3,
-      "prevModification": "new_compressor_heli"
-    },
     "cd_98_main_rotor": {
-      "tier": 3,
+      "tier": 2,
       "effects": {
         "mulCdminMainRotor": 1.5,
         "mulOswEffNumberMainRotor": 0.9
       }
     },
+    "hp_105_jet": {
+      "tier": 3,
+      "prevModification": "cd_98_main_rotor"
+    },
     "new_heli_cover": {},
     "heli_flak_jacket": {},
     "heli_structure": {},
+    "air_extinguisher": {
+      "prevModification": "heli_structure",
+      "tier": 3,
+      "invertEnableLogic": false
+    },
     "tiger_hmp400_lcc": {
       "tier": 1,
       "modClass": "weapon"
@@ -3666,11 +3691,34 @@
       "tier": 3,
       "modClass": "weapon"
     },
-    "air_extinguisher": {
-      "prevModification": "tiger_rmp_lc",
-      "tier": 4,
+    "50cal_universal": {},
+    "50cal_ground_targets": {},
+    "50cal_tracers": {},
+    "50cal_stealth": {},
+    "bmg50_belt_pack": {
+      "prevModification": "heli_counterMeasures",
+      "tier": 2
+    },
+    "bmg50_new_gun": {
+      "reqModification": "bmg50_belt_pack",
+      "tier": 3
+    },
+    "a_129_hl_19_70": {
+      "deactivationIsAllowed": false,
       "modClass": "weapon",
-      "invertEnableLogic": false
+      "tier": 1
+    },
+    "ah_1_TOW2": {
+      "deactivationIsAllowed": false,
+      "reqModification": "a_129_hl_19_70",
+      "modClass": "weapon",
+      "tier": 2
+    },
+    "ah_1_AGM_114_8": {
+      "deactivationIsAllowed": false,
+      "reqModification": "ah_1_TOW2",
+      "modClass": "weapon",
+      "tier": 3
     },
     "heli_counterMeasures": {
       "turn_it_off": false,
@@ -3691,36 +3739,10 @@
         }
       }
     },
-    "50cal_universal": {},
-    "50cal_ground_targets": {},
-    "50cal_tracers": {},
-    "50cal_stealth": {},
-    "bmg50_belt_pack": {
-      "prevModification": "heli_counterMeasures",
-      "tier": 2
-    },
-    "bmg50_new_gun": {
-      "reqModification": "bmg50_belt_pack",
-      "tier": 4
-    },
-    "a_129_hl_19_70": {
-      "deactivationIsAllowed": false,
-      "modClass": "weapon",
-      "tier": 1
-    },
-    "ah_1_TOW2": {
-      "deactivationIsAllowed": false,
-      "reqModification": "a_129_hl_19_70",
-      "modClass": "weapon",
-      "tier": 2
-    },
-    "ah_1_AGM_114_8": {
-      "deactivationIsAllowed": false,
-      "reqModification": "ah_1_TOW2",
-      "modClass": "weapon",
-      "tier": 3
-    },
     "heli_night_vision_system": {
+      "prevModification": "heli_counterMeasures",
+      "modClass": "weapon",
+      "tier": 3,
       "image": "#ui/gameuiskin#thermal_sight.png",
       "effects": {
         "nightVision": {

@@ -25,7 +25,7 @@
     "maxDeltaAngle": 0.0,
     "dragCx": 0.018,
     "length": 3.66,
-    "distFromCmToStab": 0.05,
+    "distFromCmToStab": 0.12,
     "wingAreaMult": 1.4,
     "CxK": 2.3,
     "WdK": [
@@ -35,6 +35,7 @@
     ],
     "finsAoaHor": 0.16,
     "finsAoaVer": 0.16,
+    "finsLatAccel": 13.0,
     "force": 41000.0,
     "timeFire": 2.1,
     "fireDelay": 0.25,
@@ -473,11 +474,11 @@
         ],
         "propNavMult": 4.0,
         "reqAccelMax": 15.0,
-        "baseIndSpeed": 1600.0,
-        "accelControlProp": 0.04,
-        "accelControlIntg": 0.02,
-        "accelControlIntgLim": 0.8,
-        "accelControlDiff": 0.002
+        "accelControlProp": 0.004,
+        "accelControlIntg": 0.0426,
+        "accelControlDiff": 0.0011,
+        "baseIndSpeed": 1800.0,
+        "accelControlIntgLim": 1.0
       },
       "table0": {
         "altitude": 1500.0,

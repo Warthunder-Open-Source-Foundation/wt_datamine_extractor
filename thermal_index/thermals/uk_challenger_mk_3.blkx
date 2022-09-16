@@ -994,7 +994,6 @@
           "ammo_body_16_dm",
           "ammo_body_17_dm",
           "ammo_body_18_dm",
-          "ammo_body_19_dm",
           "ammo_body_20_dm",
           "ammo_body_21_dm",
           "ammo_body_22_dm",
@@ -3510,6 +3509,7 @@
       "fatalExplosion": true,
       "replenishmentDelay": 4.0,
       "replenishmentTime": 20.0,
+      "reverseFill": false,
       "shells": [
         {
           "firstStage": true,
@@ -3575,10 +3575,7 @@
           },
           "ammo_turret_39_dm": {
             "count": 1
-          }
-        },
-        {
-          "reloadTimeMult": 2.0,
+          },
           "ammo_turret_19_dm": {
             "count": 1
           },
@@ -3645,9 +3642,6 @@
           "ammo_turret_45_dm": {
             "count": 1
           },
-          "ammo_body_39_dm": {
-            "count": 1
-          },
           "ammo_body_40_dm": {
             "count": 1
           },
@@ -3673,6 +3667,9 @@
             "count": 1
           },
           "ammo_body_48_dm": {
+            "count": 1
+          },
+          "ammo_body_49_dm": {
             "count": 1
           }
         }
@@ -3742,10 +3739,7 @@
           },
           "ammo_turret_53_dm": {
             "count": 1
-          }
-        },
-        {
-          "reloadTimeMult": 2.0,
+          },
           "ammo_body_27_dm": {
             "count": 1
           },
@@ -3818,9 +3812,6 @@
           "ammo_turret_48_dm": {
             "count": 1
           },
-          "ammo_body_19_dm": {
-            "count": 1
-          },
           "ammo_body_20_dm": {
             "count": 1
           },
@@ -3840,6 +3831,9 @@
             "count": 1
           },
           "ammo_body_26_dm": {
+            "count": 1
+          },
+          "ammo_body_39_dm": {
             "count": 1
           }
         }
