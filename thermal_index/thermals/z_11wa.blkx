@@ -34,9 +34,6 @@
   "explosion_dmBlk": "gameData/FlightModels/DM/commonExplosion.blk",
   "fireParamsPreset": "200kph",
   "fightAiBehaviour": "helicopter",
-  "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg",
-  "customImage": "!#ui/unitskin#image_in_progress",
-  "customTooltipImage": "ui/aircrafts/image_in_progress",
   "DamageParts": {
     "armor10": {
       "gun1_dm": {
@@ -463,7 +460,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.4,
             "leak": 0.9
@@ -477,13 +474,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 45.0,
             "fire": 45.0,
             "leak": 25.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 20.0
           }
@@ -1640,10 +1635,6 @@
         "blk": "gameData/flightModels/weaponPresets/z_11wa_hj_8.blk"
       },
       {
-        "name": "z_11wa_hj_8_c",
-        "blk": "gameData/flightModels/weaponPresets/z_11wa_hj_8_c.blk"
-      },
-      {
         "name": "z_11wa_gun_pod",
         "blk": "gameData/flightModels/weaponPresets/z_11wa_gun_pod.blk"
       }
@@ -1760,18 +1751,6 @@
             }
           },
           {
-            "iconType": "missile_air_to_uni_large_group",
-            "name": "hj8_c_left_wing",
-            "reqModification": "cn_hj8_c",
-            "Weapon": {
-              "trigger": "atgm",
-              "external": true,
-              "separate": true,
-              "blk": "gameData/Weapons/containers/cn_hj_8c_2_left_wing.blk",
-              "emitter": "hj_8_2_launcher_001"
-            }
-          },
-          {
             "iconType": "machine_gun",
             "name": "gun_pod",
             "ShowNodes": {
@@ -1845,18 +1824,6 @@
             }
           },
           {
-            "iconType": "missile_air_to_uni_large_group",
-            "name": "hj8_c_right_wing",
-            "reqModification": "cn_hj8_c",
-            "Weapon": {
-              "trigger": "atgm",
-              "external": true,
-              "separate": true,
-              "blk": "gameData/Weapons/containers/cn_hj_8c_2_right_wing.blk",
-              "emitter": "hj_8_2_launcher_002"
-            }
-          },
-          {
             "iconType": "machine_gun",
             "name": "gun_pod",
             "ShowNodes": {
@@ -1913,12 +1880,12 @@
     "new_compressor_heli": {
       "tier": 1
     },
+    "cd_98_main_rotor": {
+      "tier": 2
+    },
     "hp_105_jet": {
       "tier": 3,
-      "prevModification": "new_compressor_heli"
-    },
-    "cd_98_main_rotor": {
-      "tier": 3
+      "prevModification": "cd_98_main_rotor"
     },
     "new_heli_cover": {},
     "heli_flak_jacket": {},
@@ -1937,21 +1904,17 @@
     "cn_hf7d": {
       "deactivationIsAllowed": false,
       "modClass": "weapon",
-      "tier": 2
+      "tier": 1
     },
     "cn_hj8": {
       "deactivationIsAllowed": false,
       "reqModification": "cn_hf7d",
       "modClass": "weapon",
-      "tier": 3
-    },
-    "cn_hj8_c": {
-      "deactivationIsAllowed": false,
-      "reqModification": "cn_hj8",
-      "modClass": "weapon",
       "tier": 4
     },
     "heli_night_vision_system": {
+      "modClass": "weapon",
+      "tier": 3,
       "image": "#ui/gameuiskin#thermal_sight.png",
       "effects": {
         "nightVision": {

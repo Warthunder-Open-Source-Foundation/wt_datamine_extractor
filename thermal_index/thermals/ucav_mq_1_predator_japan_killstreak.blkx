@@ -1,7 +1,7 @@
 {
   "model": "mq_1l_usa",
   "fmFile": "fm/ucav_mq_1_predator.blk",
-  "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/jet_fighter_metaparts.blk",
+  "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/fighter_metaparts.blk",
   "gForceTolerationMult": 0.0001,
   "haveCCIPForRocket": true,
   "haveCCIPForBombs": true,
@@ -38,9 +38,9 @@
   "fightAiBehaviour": "assault",
   "autopilotImpl": "FBW",
   "laserDesignator": true,
-  "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg",
-  "customImage": "!#ui/unitskin#image_in_progress",
-  "customTooltipImage": "ui/aircrafts/image_in_progress",
+  "customClassIco": "!#ui/gameuiskin#ucav_mq_1_predator_ico.svg",
+  "customImage": "!#ui/unitskin#ucav_mq_1_predator",
+  "customTooltipImage": "ui/aircrafts/ucav_mq_1_predator",
   "DamageParts": {
     "armor_engine": {
       "engine_dm": {
@@ -558,7 +558,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.01,
             "leak": 0.9
@@ -571,13 +571,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 50.0,
             "fire": 50.0,
             "leak": 15.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 10.0
           }
@@ -601,7 +599,7 @@
             "leak": 0.7
           },
           {
-            "damage": 70.0,
+            "damage": 80.0,
             "expl": 0.5,
             "fire": 0.01,
             "leak": 0.9
@@ -614,13 +612,11 @@
           },
           {
             "damage": 50.0,
-            "expl": 50.0,
             "fire": 50.0,
             "leak": 15.0
           },
           {
-            "damage": 70.0,
-            "expl": 50.0,
+            "damage": 80.0,
             "fire": 50.0,
             "leak": 10.0
           }
@@ -1285,7 +1281,8 @@
       "turret": {
         "head": "optic1_turret",
         "gun": "optic1_gun",
-        "mainTurret": true
+        "mainTurret": true,
+        "playerControllable": false
       },
       "limits": {
         "yaw": [

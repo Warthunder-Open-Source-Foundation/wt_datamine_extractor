@@ -117,6 +117,15 @@
     "can_kill_npc_ship": false
   },
   {
+    "name": "bomb_ussr_rku36u",
+    "weight": 180.0,
+    "explosive_mass": 101.0,
+    "explosive_type": "tnt",
+    "explosive_equiv": 101.0,
+    "can_kill_npc_tank": false,
+    "can_kill_npc_ship": false
+  },
+  {
     "name": "china_250kg_mk_82",
     "weight": 240.9,
     "explosive_mass": 87.1,
@@ -1224,6 +1233,24 @@
     "can_kill_npc_ship": false
   },
   {
+    "name": "su_kab_50l",
+    "weight": 50.0,
+    "explosive_mass": 15.0,
+    "explosive_type": "tgaf_5",
+    "explosive_equiv": 24.0,
+    "can_kill_npc_tank": false,
+    "can_kill_npc_ship": false
+  },
+  {
+    "name": "su_kab_50tv",
+    "weight": 50.0,
+    "explosive_mass": 15.0,
+    "explosive_type": "tgaf_5",
+    "explosive_equiv": 24.0,
+    "can_kill_npc_tank": false,
+    "can_kill_npc_ship": false
+  },
+  {
     "name": "su_ofab100_120",
     "weight": 114.0,
     "explosive_mass": 38.0,
@@ -1281,8 +1308,8 @@
     "name": "swd_120kg_sb_m61",
     "weight": 120.0,
     "explosive_mass": 30.0,
-    "explosive_type": "tnt",
-    "explosive_equiv": 30.0,
+    "explosive_type": "comp_b",
+    "explosive_equiv": 39.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1530,6 +1557,15 @@
     "can_kill_npc_ship": true
   },
   {
+    "name": "us_1000lb_mk_83_ldgp_default",
+    "weight": 446.8,
+    "explosive_mass": 201.8,
+    "explosive_type": "comp_h6",
+    "explosive_equiv": 272.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
     "name": "us_1000lbs",
     "weight": 453.6,
     "explosive_mass": 240.4,
@@ -1568,6 +1604,15 @@
   {
     "name": "us_2000lb_gbu_15v1",
     "weight": 1140.8,
+    "explosive_mass": 428.6,
+    "explosive_type": "tritonal",
+    "explosive_equiv": 506.0,
+    "can_kill_npc_tank": false,
+    "can_kill_npc_ship": false
+  },
+  {
+    "name": "us_2000lb_gbu_24",
+    "weight": 1050.0,
     "explosive_mass": 428.6,
     "explosive_type": "tritonal",
     "explosive_equiv": 506.0,
@@ -1737,6 +1782,15 @@
     "can_kill_npc_ship": true
   },
   {
+    "name": "us_500lb_mk_82_ldgp_default",
+    "weight": 240.9,
+    "explosive_mass": 87.1,
+    "explosive_type": "comp_h6",
+    "explosive_equiv": 118.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
     "name": "us_500lbs",
     "weight": 223.0,
     "explosive_mass": 118.8,
@@ -1814,6 +1868,15 @@
     "explosive_mass": 358.3,
     "explosive_type": "napalm",
     "explosive_equiv": 1.0,
+    "can_kill_npc_tank": false,
+    "can_kill_npc_ship": false
+  },
+  {
+    "name": "us_gbu_10_paveway_2",
+    "weight": 957.0,
+    "explosive_mass": 428.7,
+    "explosive_type": "comp_h6",
+    "explosive_equiv": 579.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
