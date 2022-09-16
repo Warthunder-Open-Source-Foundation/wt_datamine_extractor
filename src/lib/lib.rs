@@ -21,5 +21,6 @@ pub mod custom_loadouts;
 pub mod bombs;
 pub mod extraction_traits;
 pub mod battle_rating;
+pub mod atgm_index;
 
 pub const MISSILES_PATH: &str = "./missile_index/missiles";
