@@ -2062,6 +2062,23 @@
     ]
   },
   {
+    "name": "us_ccvl",
+    "localized": "us_ccvl",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      },
+      {
+        "crew": "Commander",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "us_hstv_l",
     "localized": "HSTV-L",
     "vehicle_type": "Tank",
