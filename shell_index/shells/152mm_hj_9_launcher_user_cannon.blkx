@@ -116,7 +116,6 @@
         0.1,
         0.1
       ],
-      "irBeaconBand": 5,
       "maxAxisValues": 0.75,
       "maxLateralAcceleration": 10.0,
       "aimCorrectionVelMin": 600.0,
@@ -635,7 +634,6 @@
           0.1,
           0.1
         ],
-        "irBeaconBand": 5,
         "maxAxisValues": 0.75,
         "maxLateralAcceleration": 10.0,
         "aimCorrectionVelMin": 600.0,

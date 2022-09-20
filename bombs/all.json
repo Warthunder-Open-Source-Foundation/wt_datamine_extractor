@@ -1287,15 +1287,6 @@
     "can_kill_npc_ship": true
   },
   {
-    "name": "su_zab50fp",
-    "weight": 49.76,
-    "explosive_mass": 26.35,
-    "explosive_type": "sks",
-    "explosive_equiv": 0.0,
-    "can_kill_npc_tank": false,
-    "can_kill_npc_ship": false
-  },
-  {
     "name": "su_zb_360",
     "weight": 342.0,
     "explosive_mass": 213.0,
