@@ -8980,25 +8980,6 @@
     ]
   },
   {
-    "name": "164mm_lfk_ss_11",
-    "localized": "LFK SS.11",
-    "shell_type": "Atgm",
-    "caliber": 164,
-    "true_caliber": 164,
-    "velocity": 0,
-    "penetration": [
-      [
-        0,
-        600
-      ]
-    ],
-    "explosive": [
-      "comp_b",
-      3470,
-      4546
-    ]
-  },
-  {
     "name": "164mm_nord_ss11",
     "localized": "SS.11",
     "shell_type": "Atgm",
