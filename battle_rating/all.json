@@ -39676,5 +39676,22 @@
     "tech_tree": {
       "nation": "Great Britain"
     }
+  },
+  {
+    "name": "us_cyclone_class_cyclone",
+    "localized": "USS Cyclone",
+    "arcade": {
+      "economic_rank": 8
+    },
+    "realistic": {
+      "economic_rank": 8
+    },
+    "simulator": {
+      "economic_rank": 8
+    },
+    "rank": 5,
+    "tech_tree": {
+      "nation": "USA"
+    }
   }
 ]
