@@ -44,12 +44,13 @@ fn main() {
 
 		let compressed_shells = CompressedShells::compress(&shells);
 
-		println!("Missiles: {}kb\nThermals: {}kb\nShells(compressed): {}kb({}kb)\nBombs: {}kb",
+		println!("Missiles: {}kb\nThermals: {}kb\nShells(compressed): {}kb({}kb)\nBombs: {}kb\nBattle Ratings: {}kb",
 				 missiles.get_heap_size() / 1024,
 				 thermals.get_heap_size() / 1024,
 				 shells.get_heap_size() / 1024,
 				 compressed_shells.get_heap_size() / 1024,
 				 bombs.get_heap_size() / 1024,
+				battle_ratings.get_heap_size() / 1024
 		);
 
 

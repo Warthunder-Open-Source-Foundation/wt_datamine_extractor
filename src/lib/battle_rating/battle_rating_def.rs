@@ -1,13 +1,13 @@
 use std::fmt::{Display, Formatter};
 
 use serde::{Deserialize, Serialize};
-
-#[derive(Clone, Copy, Debug, Serialize, Deserialize, Default, Hash, PartialEq, Eq)]
+use get_size::GetSize;
+#[derive(Clone, Copy, Debug, Serialize, Deserialize, Default, Hash, PartialEq, Eq, const_gen::CompileConst, get_size::GetSize)]
 pub struct BattleRating {
 	pub economic_rank: u8
 }
 
-#[derive(Clone, Copy, Debug, Serialize, Deserialize)]
+#[derive(Clone, Copy, Debug, Serialize, Deserialize, const_gen::CompileConst, get_size::GetSize)]
 pub enum GameMode {
 	Arcade,
 	// Referred to as 'Historical' in files
