@@ -2063,7 +2063,7 @@
   },
   {
     "name": "us_ccvl",
-    "localized": "us_ccvl",
+    "localized": "CCVL",
     "vehicle_type": "Tank",
     "sights": [
       {
