@@ -3383,6 +3383,23 @@
     }
   },
   {
+    "name": "po_2op_event",
+    "localized": "Po-2 \"\"Overpowered\"\"",
+    "arcade": {
+      "economic_rank": 0
+    },
+    "realistic": {
+      "economic_rank": 0
+    },
+    "simulator": {
+      "economic_rank": 0
+    },
+    "rank": 1,
+    "tech_tree": {
+      "nation": "USSR"
+    }
+  },
+  {
     "name": "spitfire_ix",
     "localized": "Spitfire LF Mk IX",
     "arcade": {
@@ -24143,13 +24160,13 @@
     "name": "us_ccvl",
     "localized": "CCVL",
     "arcade": {
-      "economic_rank": 26
+      "economic_rank": 27
     },
     "realistic": {
-      "economic_rank": 26
+      "economic_rank": 27
     },
     "simulator": {
-      "economic_rank": 26
+      "economic_rank": 27
     },
     "rank": 6,
     "tech_tree": {
