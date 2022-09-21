@@ -3349,8 +3349,42 @@
     }
   },
   {
+    "name": "po-2m",
+    "localized": "Po-2M",
+    "arcade": {
+      "economic_rank": 0
+    },
+    "realistic": {
+      "economic_rank": 0
+    },
+    "simulator": {
+      "economic_rank": 0
+    },
+    "rank": 1,
+    "tech_tree": {
+      "nation": "USSR"
+    }
+  },
+  {
     "name": "po-2_nw",
     "localized": "Po-2 Night Witch",
+    "arcade": {
+      "economic_rank": 0
+    },
+    "realistic": {
+      "economic_rank": 0
+    },
+    "simulator": {
+      "economic_rank": 0
+    },
+    "rank": 1,
+    "tech_tree": {
+      "nation": "USSR"
+    }
+  },
+  {
+    "name": "po_2op_event",
+    "localized": "Po-2 \"\"Overpowered\"\"",
     "arcade": {
       "economic_rank": 0
     },
@@ -16116,6 +16150,23 @@
     }
   },
   {
+    "name": "jaguar_e",
+    "localized": "Jaguar E",
+    "arcade": {
+      "economic_rank": 27
+    },
+    "realistic": {
+      "economic_rank": 28
+    },
+    "simulator": {
+      "economic_rank": 26
+    },
+    "rank": 6,
+    "tech_tree": {
+      "nation": "France"
+    }
+  },
+  {
     "name": "jaguar_a",
     "localized": "Jaguar A",
     "arcade": {
@@ -24099,6 +24150,23 @@
     },
     "simulator": {
       "economic_rank": 25
+    },
+    "rank": 6,
+    "tech_tree": {
+      "nation": "USA"
+    }
+  },
+  {
+    "name": "us_ccvl",
+    "localized": "CCVL",
+    "arcade": {
+      "economic_rank": 27
+    },
+    "realistic": {
+      "economic_rank": 27
+    },
+    "simulator": {
+      "economic_rank": 27
     },
     "rank": 6,
     "tech_tree": {
@@ -39675,6 +39743,23 @@
     "rank": 4,
     "tech_tree": {
       "nation": "Great Britain"
+    }
+  },
+  {
+    "name": "us_cyclone_class_cyclone",
+    "localized": "USS Cyclone",
+    "arcade": {
+      "economic_rank": 8
+    },
+    "realistic": {
+      "economic_rank": 8
+    },
+    "simulator": {
+      "economic_rank": 8
+    },
+    "rank": 5,
+    "tech_tree": {
+      "nation": "USA"
     }
   }
 ]

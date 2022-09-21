@@ -7,6 +7,9 @@ use serde::{Deserialize, Serialize};
 use crate::battle_rating::battle_rating_def::{BattleRating};
 use crate::battle_rating::nation::{Nation, TechTree};
 use crate::battle_rating::rank::Rank;
+use crate::extraction_traits::core::ExtractCore;
+use crate::extraction_traits::csv_serialize::CsvSerialize;
+use crate::extraction_traits::known::KnownItem;
 use crate::lang::{Lang, name_to_local};
 
 #[derive(Serialize, Deserialize, Clone, Debug, Default, Hash, PartialEq, Eq, CompileConst, GetSize)]
@@ -21,8 +24,11 @@ pub struct VehicleBattleRating {
 }
 
 impl VehicleBattleRating {
-	pub fn generate_from_index(path: &str) -> Vec<Self> {
-		let raw = fs::read_to_string(path).unwrap();
+}
+
+impl ExtractCore for VehicleBattleRating {
+	fn generate_from_index(_: impl KnownItem, write_path: &str) -> Vec<Self> where Self: Sized {
+		let raw = fs::read_to_string(write_path).unwrap();
 		let mut items: Vec<VehicleBattleRating> = vec![];
 		let mut current = VehicleBattleRating::default();
 		for line in raw.split('\n').collect::<Vec<&str>>() {
@@ -71,8 +77,21 @@ impl VehicleBattleRating {
 		}
 		items
 	}
-	pub fn write_all(vec: Vec<Self>, path: &str) {
-		let serialized = serde_json::to_string_pretty(&vec).unwrap();
+
+	fn write_all(items: Vec<Self>, path: &str) where Self: Sized, Self: Serialize {
+		let serialized = serde_json::to_string_pretty(&items).unwrap();
 		fs::write(path, serialized).unwrap();
 	}
+
+	fn new_from_file(file: &[u8], name: String) -> Self {
+		todo!()
+	}
+
+	fn sort(items: &mut Vec<Self>) where Self: Sized {
+		todo!()
+	}
+}
+
+impl CsvSerialize for VehicleBattleRating {
+
 }
