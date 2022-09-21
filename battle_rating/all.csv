@@ -197,6 +197,7 @@ p-51d-5;P-51D-5;9;10;12;4;USA
 po-2;Po-2;0;0;0;1;USSR
 po-2m;Po-2M;0;0;0;1;USSR
 po-2_nw;Po-2 Night Witch;0;0;0;1;USSR
+po_2op_event;"Po-2 """"Overpowered""""";0;0;0;1;USSR
 spitfire_ix;Spitfire LF Mk IX;13;14;12;4;Great Britain
 spitfire_mk9c_4cannons;Spitfire F Mk IXc;12;11;11;3;Great Britain
 spitfire_ix_early;Spitfire F Mk IX;10;10;11;3;Great Britain
@@ -1418,7 +1419,7 @@ us_m24_chaffee;M24;7;8;8;2;USA
 us_m24_chaffee_tl;M24 (TL);7;8;8;2;USA
 us_ags_teledyne;AGS;26;26;26;6;USA
 us_xm_8;XM8;25;25;25;6;USA
-us_ccvl;CCVL;26;26;26;6;USA
+us_ccvl;CCVL;27;27;27;6;USA
 us_hstv_l;HSTV-L;28;29;29;7;USA
 us_m41_walker_bulldog;M41A1;15;15;15;4;USA
 us_m50_ontos;M50;17;17;17;5;USA
