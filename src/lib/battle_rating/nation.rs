@@ -10,6 +10,7 @@ pub enum Nation {
 	Germany,
 	USSR,
 	#[strum(serialize = "Great Britain")]
+	#[serde(alias = "Great Britain")]
 	#[serde(rename(serialize = "Great Britain"))]
 	GreatBritain,
 	Japan,
