@@ -19538,6 +19538,39 @@
     ]
   },
   {
+    "name": "type_44_ap",
+    "localized": "type_44_ap",
+    "shell_type": "ApHe",
+    "caliber": 100,
+    "true_caliber": 100,
+    "velocity": 887,
+    "penetration": [
+      [
+        0,
+        240
+      ]
+    ],
+    "explosive": [
+      "a_ix_2",
+      61,
+      94
+    ]
+  },
+  {
+    "name": "type_44_he",
+    "localized": "type_44_he",
+    "shell_type": "He",
+    "caliber": 100,
+    "true_caliber": 100,
+    "velocity": 900,
+    "penetration": [],
+    "explosive": [
+      "tnt",
+      1462,
+      1462
+    ]
+  },
+  {
     "name": "type_79_asm",
     "localized": "Type 79 ASM",
     "shell_type": "AtgmHe",
