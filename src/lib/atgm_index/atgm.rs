@@ -1,4 +1,7 @@
 
+use get_size::GetSize;
+
+#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone, const_gen::CompileConst, get_size::GetSize)]
 pub struct Atgm {
 	pub name: String,
 
@@ -34,6 +37,7 @@ pub struct Atgm {
 	pub is_lofting: bool,
 }
 
+#[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone, const_gen::CompileConst, get_size::GetSize)]
 pub enum SeekerType {
 	// Manual Command Line Of Sight
 	MCLOS,
