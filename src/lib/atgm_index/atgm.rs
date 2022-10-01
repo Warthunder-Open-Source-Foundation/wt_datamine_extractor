@@ -1,5 +1,7 @@
-
+use std::fs;
 use get_size::GetSize;
+use crate::extraction_traits::core::ExtractCore;
+use crate::extraction_traits::known::KnownItem;
 
 #[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Clone, const_gen::CompileConst, get_size::GetSize)]
 pub struct Atgm {
@@ -49,6 +51,23 @@ pub enum SeekerType {
 	SALH,
 	// Imaging Infra Red - not actually IIR atm, but it works like one
 	IIR,
-	// Charge Coupled Device
+	// Charge Coupled Device - AKA visual
 	CCD,
+}
+
+impl ExtractCore for Atgm {
+	fn generate_from_index(_: impl KnownItem, write_path: &str) -> Vec<Self> where Self: Sized {
+		let raw = fs::read_to_string(write_path).unwrap();
+		let mut items: Vec<Self> = vec![];
+
+		items
+	}
+
+	fn new_from_file(file: &[u8], name: String) -> Self {
+		todo!()
+	}
+
+	fn sort(items: &mut Vec<Self>) where Self: Sized {
+		items.sort_by_key(|x| x.name.clone());
+	}
 }
