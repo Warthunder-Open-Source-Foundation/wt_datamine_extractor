@@ -1,14 +1,14 @@
 use std::fs;
 use crate::extraction_traits::known::{Index, KnownItem, OwnedIndex};
 
-pub const KNOWN_ATGM_LOC: &str = "resources/cache/aces.vromfs.bin_u/gamedata/weapons/rocketguns/";
+pub const KNOWN_AIR_ATGM_LOC: &str = "resources/cache/aces.vromfs.bin_u/gamedata/weapons/rocketguns/";
 
 #[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, const_gen::CompileConst, Default)]
-pub struct KnownAtgms {
+pub struct KnownAirAtgms {
 	pub path: Vec<String>,
 }
 
-impl KnownItem for KnownAtgms {
+impl KnownItem for KnownAirAtgms {
 	fn push_index(&mut self, mut index: OwnedIndex) {
 		self.path.append(&mut index);
 	}
