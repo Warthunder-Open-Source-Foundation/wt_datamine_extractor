@@ -26,4 +26,22 @@ impl KnownItem for KnownAtgms {
 		}
 		self
 	}
+	fn generate_index(path: &str) -> Self where Self: Default {
+		let mut known = Self::default();
+		let mut index: Vec<String> = vec![];
+		let folder = fs::read_dir(path).unwrap();
+		for i in folder.enumerate() {
+			if let Ok(file) = &i.1 {
+				if file.file_type().unwrap().is_file() {
+					let content = fs::read_to_string(file.path()).unwrap();
+					if content.contains("guidance") && !content.contains("\"bulletType\": \"aam\"") {
+						index.push(file.file_name().to_str().unwrap().to_owned());
+					}
+				}
+			}
+		}
+		index.sort();
+		known.push_index(index);
+		known
+	}
 }

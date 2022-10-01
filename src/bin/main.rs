@@ -36,7 +36,7 @@ fn main() {
 		let known_thermals = KnownThermals::generate_index("").write_index("thermal_index/known.json").copy_index_to_folder("", "thermal_index/thermals/");
 		let known_shells = KnownShells::generate_index(KNOWN_SHELLS_LOC).write_index("shell_index/known.json").copy_index_to_folder(KNOWN_SHELLS_LOC, "shell_index/shells/");
 		let known_bombs = KnownBombs::generate_index(KNOWN_BOMBS_LOC).write_index("bombs/known.json").copy_index_to_folder(KNOWN_BOMBS_LOC, "bombs/index/");
-		// let known_atgms = KnownAtgms::generate_index(KNOWN_ATGM_LOC).write_index("atgm/known.json").copy_index_to_folder(KNOWN_ATGM_LOC, "atgm/index/");
+		let known_atgms = KnownAtgms::generate_index(KNOWN_ATGM_LOC).write_index("atgm/known.json").copy_index_to_folder(KNOWN_ATGM_LOC, "atgm/index/");
 
 		let missiles = Missile::generate_from_index(known_missiles, "missile_index/missiles/");
 		let thermals = Thermal::generate_from_index(known_thermals, "thermal_index/thermals/");
