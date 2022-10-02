@@ -9,6 +9,8 @@ pub struct KnownMissiles {
 
 impl KnownItem for KnownMissiles {
 	const READ_FOLDER: &'static str = "resources/cache/aces.vromfs.bin_u/gamedata/weapons/rocketguns/";
+	const KNOWN_FILE: &'static str = "missile_index/known.json";
+	const INDEX_FOLDER: &'static str = "missile_index/missiles/";
 
 	fn generate_index() -> Self where Self: Default {
 		let mut index: Vec<String> = vec![];

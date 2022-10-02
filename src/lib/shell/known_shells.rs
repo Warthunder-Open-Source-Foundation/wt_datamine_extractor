@@ -20,6 +20,8 @@ impl KnownShells {
 
 impl KnownItem for KnownShells {
 	const READ_FOLDER: &'static str = "resources/cache/aces.vromfs.bin_u/gamedata/weapons/groundmodels_weapons/";
+	const KNOWN_FILE: &'static str = "shell_index/known.json";
+	const INDEX_FOLDER: &'static str = "shell_index/shells/";
 
 	fn generate_index() -> Self where Self: Default {
 		let mut index: Vec<String> = vec![];

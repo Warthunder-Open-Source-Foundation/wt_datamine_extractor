@@ -13,6 +13,8 @@ pub struct KnownThermals {
 impl KnownItem for KnownThermals {
 	/// Do not use
 	const READ_FOLDER: &'static str = "UNUSED";
+	const KNOWN_FILE: &'static str = "thermal_index/known.json";
+	const INDEX_FOLDER: &'static str = "thermal_index/thermals/";
 
 	// Path dropped, as it varies
 	fn generate_index() -> Self where Self: Default {
@@ -45,14 +47,14 @@ impl KnownItem for KnownThermals {
 	}
 
 	// Source path dropped, as it varies
-	fn copy_index_to_folder(self, _: &str, destination_path: &str) -> Self where Self: Sized {
+	fn copy_index_to_folder(self) -> Self where Self: Sized {
 		for i in &self.path {
 			let file_path_plane = format!("{KNOWN_THERMALS_LOC_TANK}{}", i);
 			let file_path_tank = format!("{KNOWN_THERMALS_LOC_AIR}{}", i);
 			if let Ok(file) = fs::read(&file_path_plane) {
-				fs::write(format!("{destination_path}{}", i), &file).unwrap();
+				fs::write(format!("{}{}",Self::INDEX_FOLDER, i), &file).unwrap();
 			} else if let Ok(file) = fs::read(&file_path_tank) {
-				fs::write(format!("{destination_path}{}", i), &file).unwrap();
+				fs::write(format!("{}{}",Self::INDEX_FOLDER, i), &file).unwrap();
 			}
 		}
 		self

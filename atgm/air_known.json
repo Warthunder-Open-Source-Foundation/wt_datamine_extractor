@@ -1,32 +1,3 @@
 {
-  "path": [
-    "cn_akd_10.blkx",
-    "cn_akd_9.blkx",
-    "cn_ba_7.blkx",
-    "cn_ba_9.blkx",
-    "dragonfly_atgm.blkx",
-    "euro_atgw3.blkx",
-    "fr_as30l.blkx",
-    "su_kh_25.blkx",
-    "su_kh_25_haslaserchannel.blkx",
-    "su_kh_25ml.blkx",
-    "su_kh_29l.blkx",
-    "su_kh_29l_notlaserchannel.blkx",
-    "su_kh_29t.blkx",
-    "su_s_25l_rocket.blkx",
-    "su_s_25ld.blkx",
-    "swd_rb75.blkx",
-    "tr_cirit_mpw_missile.blkx",
-    "tr_l_umtas_missile.blkx",
-    "tr_umtas_missile.blkx",
-    "us_agm_65a.blkx",
-    "us_agm_65b.blkx",
-    "us_agm_65d.blkx",
-    "us_hellfire_agm_114_b.blkx",
-    "us_hellfire_agm_114_b_default.blkx",
-    "us_hellfire_agm_114_k.blkx",
-    "us_hellfire_agm_114_k_default.blkx",
-    "us_hellfire_agm_114_k_ucav_default.blkx",
-    "zt_6_mokopa.blkx"
-  ]
+  "path": []
 }

@@ -9,6 +9,8 @@ pub struct KnownLoadouts {
 
 impl KnownItem for KnownLoadouts {
 	const READ_FOLDER: &'static str = "resources/cache/aces.vromfs.bin_u/gamedata/flightmodels/";
+	const KNOWN_FILE: &'static str = "loadouts/known.json";
+	const INDEX_FOLDER: &'static str = "loadouts/index/";
 
 	fn generate_index() -> Self {
 		let mut index: Vec<String> = vec![];

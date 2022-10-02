@@ -7,6 +7,8 @@ pub struct KnownBombs {
 
 impl KnownItem for KnownBombs {
 	const READ_FOLDER: &'static str = "resources/cache/aces.vromfs.bin_u/gamedata/weapons/bombguns/";
+	const KNOWN_FILE: &'static str = "bombs/known.json";
+	const INDEX_FOLDER: &'static str =  "bombs/index/";
 
 	fn push_index(&mut self, index: OwnedIndex) {
 		self.path = index;

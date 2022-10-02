@@ -8,6 +8,12 @@ pub trait KnownItem {
 	/// Where the folder sits relative to the project node, within the `/resources/` directory
 	const READ_FOLDER: &'static str;
 
+	/// File relative to the project node pointing to the xx.json
+	const KNOWN_FILE: &'static str;
+
+	/// Folder containing in-game files copied for git-tracking as defined by `KNOWN_FILE`
+	const INDEX_FOLDER: &'static str;
+
 	/// Creates index by reading generic indexed single layer folder
 	fn generate_index() -> Self where Self: Default {
 		let mut known = Self::default();
@@ -24,17 +30,17 @@ pub trait KnownItem {
 	}
 	/// Stores index to usual known file
 	#[must_use]
-	fn write_index(self, path: &str) -> Self where Self: serde::Serialize + Sized {
-		fs::write(path, serde_json::to_string_pretty(&self).unwrap()).unwrap();
+	fn write_index(self) -> Self where Self: serde::Serialize + Sized {
+		fs::write(Self::KNOWN_FILE, serde_json::to_string_pretty(&self).unwrap()).unwrap();
 		self
 	}
 	/// Copies index from cache folder into designated one
 	#[must_use]
-	fn copy_index_to_folder(self, format_path: &str, destination_path: &str) -> Self where Self: Sized {
+	fn copy_index_to_folder(self) -> Self where Self: Sized {
 		for i in self.get_index() {
-			let file_path = format!("{format_path}{i}");
+			let file_path = format!("{}{i}", Self::READ_FOLDER);
 			if let Ok(file) = fs::read(&file_path) {
-				fs::write(format!("{destination_path}{i}"), &file).unwrap();
+				fs::write(format!("{}{i}", Self::INDEX_FOLDER), &file).unwrap();
 			}
 		}
 		self

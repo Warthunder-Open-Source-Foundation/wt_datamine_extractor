@@ -28,16 +28,18 @@ impl ExtractCore for DummyCore {
 
 impl KnownItem for DummyCore {
 	const READ_FOLDER: &'static str = "";
+	const KNOWN_FILE: &'static str = "";
+	const INDEX_FOLDER: &'static str = "";
 
 	fn generate_index() -> Self where Self: Default {
 		unimplemented!("Dummy fn should not be called")
 	}
 
-	fn write_index(self, _: &str) -> Self where Self: Serialize + Sized {
+	fn write_index(self) -> Self where Self: Serialize + Sized {
 		unimplemented!("Dummy fn should not be called")
 	}
 
-	fn copy_index_to_folder(self, _: &str, _: &str) -> Self where Self: Sized {
+	fn copy_index_to_folder(self) -> Self where Self: Sized {
 		unimplemented!("Dummy fn should not be called")
 	}
 

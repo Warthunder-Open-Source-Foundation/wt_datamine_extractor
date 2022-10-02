@@ -8,6 +8,8 @@ pub struct KnownAirAtgms {
 
 impl KnownItem for KnownAirAtgms {
 	const READ_FOLDER: &'static str = "resources/cache/aces.vromfs.bin_u/gamedata/weapons/rocketguns/";
+	const KNOWN_FILE: &'static str = "atgm/air_known.json";
+	const INDEX_FOLDER: &'static str = "atgm/air_index/";
 
 
 	fn push_index(&mut self, mut index: OwnedIndex) {
@@ -18,11 +20,11 @@ impl KnownItem for KnownAirAtgms {
 		&self.path
 	}
 
-	fn copy_index_to_folder(self, format_path: &str, destination_path: &str) -> Self where Self: Sized {
+	fn copy_index_to_folder(self) -> Self where Self: Sized {
 		for i in self.get_index() {
-			let file_path = format!("{format_path}{i}");
+			let file_path = format!("{}{i}", Self::READ_FOLDER);
 			if let Ok(file) = fs::read(&file_path) {
-				fs::write(format!("{destination_path}{i}"), &file).unwrap();
+				fs::write(format!("{}{i}", Self::KNOWN_FILE), &file).unwrap();
 			}
 		}
 		self
@@ -35,7 +37,11 @@ impl KnownItem for KnownAirAtgms {
 			if let Ok(file) = &i.1 {
 				if file.file_type().unwrap().is_file() {
 					let content = fs::read_to_string(file.path()).unwrap();
-					if content.contains("guidance") && !content.contains("\"bulletType\": \"aam\"") {
+					if
+						content.contains("guidance") &&
+						!content.contains("\"bulletType\": \"aam\"") &&
+						content.contains("\"operated\": true")
+					{
 						index.push(file.file_name().to_str().unwrap().to_owned());
 					}
 				}
