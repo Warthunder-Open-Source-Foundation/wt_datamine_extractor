@@ -2,8 +2,6 @@ use std::fs;
 
 use crate::extraction_traits::known::{Index, KnownItem, OwnedIndex};
 
-pub const KNOWN_SHELLS_LOC: &str = "resources/cache/aces.vromfs.bin_u/gamedata/weapons/groundmodels_weapons/";
-
 #[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, Default)]
 pub struct KnownShells {
 	pub path: Vec<String>,
@@ -21,9 +19,13 @@ impl KnownShells {
 }
 
 impl KnownItem for KnownShells {
-	fn generate_index(path: &str) -> Self where Self: Default {
+	const READ_FOLDER: &'static str = "resources/cache/aces.vromfs.bin_u/gamedata/weapons/groundmodels_weapons/";
+	const KNOWN_FILE: &'static str = "shell_index/known.json";
+	const INDEX_FOLDER: &'static str = "shell_index/shells/";
+
+	fn generate_index() -> Self where Self: Default {
 		let mut index: Vec<String> = vec![];
-		let folder = fs::read_dir(path).unwrap();
+		let folder = fs::read_dir(Self::READ_FOLDER).unwrap();
 		let blacklist: BlackList = serde_json::from_str(&fs::read_to_string("shell_index/blacklist.json").unwrap()).unwrap();
 		let blackset = blacklist.path.join(" ");
 		for i in folder.enumerate() {

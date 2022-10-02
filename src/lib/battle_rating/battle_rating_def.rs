@@ -2,7 +2,7 @@ use std::fmt::{Display, Formatter};
 
 use serde::{Deserialize, Serialize};
 use get_size::GetSize;
-#[derive(Clone, Copy, Debug, Serialize, Deserialize, Default, Hash, PartialEq, Eq, const_gen::CompileConst, get_size::GetSize)]
+#[derive(Serialize, Deserialize, Clone, Copy, Debug, Default, Hash, PartialEq, Eq, Ord, PartialOrd, GetSize)]
 pub struct BattleRating {
 	pub economic_rank: u8
 }

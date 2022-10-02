@@ -10231,68 +10231,6 @@
     ]
   },
   {
-    "name": "25x137mm_APHE_bullet",
-    "localized": "25x137mm_APHE_bullet",
-    "shell_type": "ApHe",
-    "caliber": 30,
-    "true_caliber": 30,
-    "velocity": 1080,
-    "penetration": [
-      [
-        0,
-        110
-      ],
-      [
-        100,
-        101
-      ],
-      [
-        500,
-        95
-      ],
-      [
-        1000,
-        69
-      ],
-      [
-        1500,
-        52
-      ],
-      [
-        2000,
-        41
-      ],
-      [
-        2500,
-        30
-      ]
-    ],
-    "explosive": [
-      "hexal",
-      18,
-      31
-    ]
-  },
-  {
-    "name": "25x137mm_APHE_bullet",
-    "localized": "25x137mm_APHE_bullet",
-    "shell_type": "ApHe",
-    "caliber": 30,
-    "true_caliber": 30,
-    "velocity": 1080,
-    "penetration": [
-      [
-        0,
-        70
-      ]
-    ],
-    "explosive": [
-      "hexal",
-      18,
-      31
-    ]
-  },
-  {
     "name": "27mm_ke",
     "localized": "CoAW-KE",
     "shell_type": "ApFsDs",
@@ -10395,6 +10333,68 @@
       "",
       0,
       0
+    ]
+  },
+  {
+    "name": "30_170mm_aphe_i",
+    "localized": "30x170 APHE-I",
+    "shell_type": "ApHe",
+    "caliber": 30,
+    "true_caliber": 30,
+    "velocity": 1080,
+    "penetration": [
+      [
+        0,
+        110
+      ],
+      [
+        100,
+        101
+      ],
+      [
+        500,
+        95
+      ],
+      [
+        1000,
+        69
+      ],
+      [
+        1500,
+        52
+      ],
+      [
+        2000,
+        41
+      ],
+      [
+        2500,
+        30
+      ]
+    ],
+    "explosive": [
+      "hexal",
+      18,
+      31
+    ]
+  },
+  {
+    "name": "30_170mm_aphe_i",
+    "localized": "30x170 APHE-I",
+    "shell_type": "ApHe",
+    "caliber": 30,
+    "true_caliber": 30,
+    "velocity": 1080,
+    "penetration": [
+      [
+        0,
+        70
+      ]
+    ],
+    "explosive": [
+      "hexal",
+      18,
+      31
     ]
   },
   {
@@ -19535,6 +19535,39 @@
       "",
       0,
       0
+    ]
+  },
+  {
+    "name": "type_44_ap",
+    "localized": "type_44_ap",
+    "shell_type": "ApHe",
+    "caliber": 100,
+    "true_caliber": 100,
+    "velocity": 887,
+    "penetration": [
+      [
+        0,
+        240
+      ]
+    ],
+    "explosive": [
+      "a_ix_2",
+      61,
+      94
+    ]
+  },
+  {
+    "name": "type_44_he",
+    "localized": "type_44_he",
+    "shell_type": "He",
+    "caliber": 100,
+    "true_caliber": 100,
+    "velocity": 900,
+    "penetration": [],
+    "explosive": [
+      "tnt",
+      1462,
+      1462
     ]
   },
   {

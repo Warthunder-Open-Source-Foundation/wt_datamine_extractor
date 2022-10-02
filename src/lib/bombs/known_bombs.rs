@@ -1,13 +1,15 @@
 use crate::extraction_traits::known::{Index, KnownItem, OwnedIndex};
 
-pub const KNOWN_BOMBS_LOC: &str = "resources/cache/aces.vromfs.bin_u/gamedata/weapons/bombguns/";
-
 #[derive(serde::Serialize, serde::Deserialize, Debug, PartialEq, const_gen::CompileConst, Default)]
 pub struct KnownBombs {
 	pub path: Vec<String>,
 }
 
 impl KnownItem for KnownBombs {
+	const READ_FOLDER: &'static str = "resources/cache/aces.vromfs.bin_u/gamedata/weapons/bombguns/";
+	const KNOWN_FILE: &'static str = "bombs/known.json";
+	const INDEX_FOLDER: &'static str =  "bombs/index/";
+
 	fn push_index(&mut self, index: OwnedIndex) {
 		self.path = index;
 	}
