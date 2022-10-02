@@ -12,7 +12,7 @@ use crate::extraction_traits::csv_serialize::CsvSerialize;
 use crate::extraction_traits::known::KnownItem;
 use crate::lang::{Lang, name_to_local};
 
-#[derive(Serialize, Deserialize, Clone, Debug, Default, Hash, PartialEq, Eq, CompileConst, GetSize)]
+#[derive(Serialize, Deserialize, Clone, Debug, Default, Hash, PartialEq, Eq, GetSize)]
 pub struct VehicleBattleRating {
 	pub name: String,
 	pub localized: String,

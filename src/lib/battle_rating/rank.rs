@@ -4,7 +4,7 @@ use const_gen::CompileConst;
 use get_size::GetSize;
 use serde::{Deserialize, Serialize};
 
-#[derive(Clone, Copy, Debug, Serialize, Deserialize, Default, Hash, PartialEq, Eq, CompileConst)]
+#[derive(Serialize, Deserialize, Clone, Copy, Debug, Default, Hash, PartialEq, Eq, Ord, PartialOrd)]
 pub struct Rank(u8);
 
 impl Rank {
