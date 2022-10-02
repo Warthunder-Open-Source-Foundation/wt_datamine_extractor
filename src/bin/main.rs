@@ -2,22 +2,20 @@ use std::fs;
 use std::time::Instant;
 
 use get_size::GetSize;
-use wt_datamine_extractor_lib::atgm_index::atgm::Atgm;
-use wt_datamine_extractor_lib::atgm_index::known_atgm::{KNOWN_AIR_ATGM_LOC, KnownAirAtgms};
+use wt_datamine_extractor_lib::atgm_index::known_atgm::{KnownAirAtgms};
 
 use wt_datamine_extractor_lib::battle_rating::battle_rating::VehicleBattleRating;
 use wt_datamine_extractor_lib::bombs::bombs::Bomb;
-use wt_datamine_extractor_lib::bombs::known_bombs::{KNOWN_BOMBS_LOC, KnownBombs};
+use wt_datamine_extractor_lib::bombs::known_bombs::{ KnownBombs};
 use wt_datamine_extractor_lib::extraction_traits::core::ExtractCore;
 use wt_datamine_extractor_lib::extraction_traits::csv_serialize::CsvSerialize;
 use wt_datamine_extractor_lib::extraction_traits::dummy::DummyCore;
 use wt_datamine_extractor_lib::extraction_traits::known::KnownItem;
 use wt_datamine_extractor_lib::lang::copy_lang;
-use wt_datamine_extractor_lib::missile::known_missiles::KNOWN_MISSILES_LOC;
 use wt_datamine_extractor_lib::missile::known_missiles::KnownMissiles;
 use wt_datamine_extractor_lib::missile::missile::Missile;
 use wt_datamine_extractor_lib::shell::compress::CompressedShells;
-use wt_datamine_extractor_lib::shell::known_shells::{KNOWN_SHELLS_LOC, KnownShells};
+use wt_datamine_extractor_lib::shell::known_shells::{ KnownShells};
 use wt_datamine_extractor_lib::shell::shells::Shell;
 use wt_datamine_extractor_lib::thermal::known_thermals::KnownThermals;
 use wt_datamine_extractor_lib::thermal::thermals::Thermal;
@@ -32,11 +30,11 @@ fn main() {
 
 		copy_lang();
 
-		let known_missiles = KnownMissiles::generate_index(KNOWN_MISSILES_LOC).write_index("missile_index/known.json").copy_index_to_folder(KNOWN_MISSILES_LOC, "missile_index/missiles/");
-		let known_thermals = KnownThermals::generate_index("").write_index("thermal_index/known.json").copy_index_to_folder("", "thermal_index/thermals/");
-		let known_shells = KnownShells::generate_index(KNOWN_SHELLS_LOC).write_index("shell_index/known.json").copy_index_to_folder(KNOWN_SHELLS_LOC, "shell_index/shells/");
-		let known_bombs = KnownBombs::generate_index(KNOWN_BOMBS_LOC).write_index("bombs/known.json").copy_index_to_folder(KNOWN_BOMBS_LOC, "bombs/index/");
-		let known_air_atgms = KnownAirAtgms::generate_index(KNOWN_AIR_ATGM_LOC).write_index("atgm/air_known.json").copy_index_to_folder(KNOWN_AIR_ATGM_LOC, "atgm/air_index/");
+		let known_missiles = KnownMissiles::generate_index().write_index("missile_index/known.json").copy_index_to_folder(KNOWN_MISSILES_LOC, "missile_index/missiles/");
+		let known_thermals = KnownThermals::generate_index().write_index("thermal_index/known.json").copy_index_to_folder("", "thermal_index/thermals/");
+		let known_shells = KnownShells::generate_index().write_index("shell_index/known.json").copy_index_to_folder(KNOWN_SHELLS_LOC, "shell_index/shells/");
+		let known_bombs = KnownBombs::generate_index().write_index("bombs/known.json").copy_index_to_folder(KNOWN_BOMBS_LOC, "bombs/index/");
+		let known_air_atgms = KnownAirAtgms::generate_index().write_index("atgm/air_known.json").copy_index_to_folder(KNOWN_AIR_ATGM_LOC, "atgm/air_index/");
 
 		let missiles = Missile::generate_from_index(known_missiles, "missile_index/missiles/");
 		let thermals = Thermal::generate_from_index(known_thermals, "thermal_index/thermals/");

@@ -11,8 +11,11 @@ pub struct KnownThermals {
 }
 
 impl KnownItem for KnownThermals {
+	/// Do not use
+	const READ_FOLDER: &'static str = "UNUSED";
+
 	// Path dropped, as it varies
-	fn generate_index(_: &str) -> Self where Self: Default {
+	fn generate_index() -> Self where Self: Default {
 		let mut index: Vec<String> = vec![];
 		let folder_tanks = fs::read_dir(KNOWN_THERMALS_LOC_TANK).unwrap();
 		for i in folder_tanks.enumerate() {

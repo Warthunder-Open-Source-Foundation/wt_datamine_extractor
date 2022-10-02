@@ -27,7 +27,9 @@ impl ExtractCore for DummyCore {
 }
 
 impl KnownItem for DummyCore {
-	fn generate_index(_: &str) -> Self where Self: Default {
+	const READ_FOLDER: &'static str = "";
+
+	fn generate_index() -> Self where Self: Default {
 		unimplemented!("Dummy fn should not be called")
 	}
 
