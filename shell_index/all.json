@@ -1342,6 +1342,49 @@
     ]
   },
   {
+    "name": "105mm_imi_m413",
+    "localized": "105mm_imi_m413",
+    "shell_type": "ApFsDs",
+    "caliber": 105,
+    "true_caliber": 33,
+    "velocity": 1455,
+    "penetration": [
+      [
+        0,
+        408
+      ],
+      [
+        100,
+        405
+      ],
+      [
+        500,
+        398
+      ],
+      [
+        1000,
+        389
+      ],
+      [
+        1500,
+        379
+      ],
+      [
+        2000,
+        370
+      ],
+      [
+        3000,
+        355
+      ]
+    ],
+    "explosive": [
+      "",
+      0,
+      0
+    ]
+  },
+  {
     "name": "105mm_imi_m426",
     "localized": "105mm_imi_m426",
     "shell_type": "ApFsDs",
@@ -9333,8 +9376,8 @@
     ]
   },
   {
-    "name": "20mm_m246a1",
-    "localized": "HEI-T",
+    "name": "20mm_m242a1",
+    "localized": "HEI",
     "shell_type": "He",
     "caliber": 20,
     "true_caliber": 20,
@@ -9361,7 +9404,7 @@
     "penetration": [
       [
         0,
-        53
+        40
       ]
     ],
     "explosive": [
@@ -11816,17 +11859,17 @@
     "shell_type": "ApHe",
     "caliber": 40,
     "true_caliber": 40,
-    "velocity": 880,
+    "velocity": 874,
     "penetration": [
       [
         0,
-        73
+        69
       ]
     ],
     "explosive": [
       "tnt",
-      68,
-      68
+      63,
+      63
     ]
   },
   {
@@ -11835,12 +11878,12 @@
     "shell_type": "ApHe",
     "caliber": 40,
     "true_caliber": 40,
-    "velocity": 880,
+    "velocity": 874,
     "penetration": [],
     "explosive": [
       "tnt",
-      68,
-      68
+      63,
+      63
     ]
   },
   {
@@ -11849,7 +11892,7 @@
     "shell_type": "ApSolid",
     "caliber": 40,
     "true_caliber": 40,
-    "velocity": 874,
+    "velocity": 875,
     "penetration": [
       [
         0,
@@ -11868,11 +11911,11 @@
     "shell_type": "ApSolid",
     "caliber": 40,
     "true_caliber": 40,
-    "velocity": 860,
+    "velocity": 875,
     "penetration": [
       [
         0,
-        71
+        72
       ]
     ],
     "explosive": [
