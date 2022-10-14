@@ -242,7 +242,8 @@ impl FromStr for ShellType {
 			}
 			r#""apcr_tank""# |
 			r#""apcr""# |
-			r#""apcr_t""# => {
+			r#""apcr_t""# |
+			r#""apcr_i_ball_bs41""# => {
 				Ok(Self::ApCr)
 			}
 			r#""apcbc_solid_medium_caliber_tank""# |
@@ -263,6 +264,7 @@ impl FromStr for ShellType {
 			r#""ap_tank""# |
 			r#""apc_solid_medium_caliber_tank""# |
 			r#""apc_t""# |
+			r#""he_ball""# |
 			r#""cannon_ball""# => {
 				Ok(Self::ApSolid)
 			}

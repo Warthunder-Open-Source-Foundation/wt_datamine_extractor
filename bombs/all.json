@@ -1899,6 +1899,15 @@
     "can_kill_npc_ship": false
   },
   {
+    "name": "us_gbu_16_paveway_2",
+    "weight": 495.3,
+    "explosive_mass": 201.8,
+    "explosive_type": "comp_h6",
+    "explosive_equiv": 272.0,
+    "can_kill_npc_tank": false,
+    "can_kill_npc_ship": false
+  },
+  {
     "name": "us_mk6",
     "weight": 996.3,
     "explosive_mass": 0.01,
@@ -1913,6 +1922,15 @@
     "explosive_mass": 0.01,
     "explosive_type": "tritonal",
     "explosive_equiv": 0.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
+    "name": "us_special_weapon",
+    "weight": 240.9,
+    "explosive_mass": 87.1,
+    "explosive_type": "comp_h6",
+    "explosive_equiv": 118.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   }
