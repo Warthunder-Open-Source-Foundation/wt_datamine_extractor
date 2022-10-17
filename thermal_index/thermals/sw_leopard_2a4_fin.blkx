@@ -3597,6 +3597,11 @@
     "replace_tex": {
       "from": "ger_camo_bronzegruen*",
       "to": "fin_camo_black_green_dark*"
+    },
+    "set_tex": {
+      "from": "leopard_2a4_turret_c*",
+      "to": "leopard_2a4_skin_fin_turret_c*",
+      "param": "camo_skin_tex"
     }
   },
   "skin": [

@@ -110,7 +110,7 @@
       "maxDeltaAngle": 0.0,
       "dragCx": 0.014,
       "length": 2.898,
-      "distFromCmToStab": 0.03,
+      "distFromCmToStab": 0.09,
       "wingAreaMult": 1.3,
       "CxK": 1.39,
       "WdK": [
@@ -120,6 +120,7 @@
       ],
       "finsAoaHor": 0.2,
       "finsAoaVer": 0.2,
+      "finsLatAccel": 18.0,
       "spawnExplosionFx": false,
       "spawnExplosionWreckage": false,
       "selfDestructionFx": "explosion_air_selfexplosion_big",
@@ -134,6 +135,11 @@
       "smokeEffect": "",
       "hazeEffect": "haze_missile",
       "endSmokeViscosity": 0.5,
+      "effectOffset": [
+        -1.4,
+        0.0,
+        0.0
+      ],
       "maxDistance": 12000.0,
       "minDistance": 1200.0,
       "distanceFuse": false,
@@ -156,7 +162,7 @@
       "advancedMissiles": false,
       "useStartSpeed": true,
       "startSpeed": 16.0,
-      "endSpeed": 850.0,
+      "endSpeed": 1500.0,
       "timeLife": 21.0,
       "loadFactorMax": 16.0,
       "rangeMax": 12000.0,
@@ -481,6 +487,8 @@
       },
       "guidance": {
         "controlConeFov": 180.0,
+        "leading": true,
+        "leadMult": 0.5,
         "breakLockMaxTime": 20.0,
         "orientationAutopilot": {
           "controlTime": 2.0,
@@ -499,17 +507,17 @@
         },
         "lineOfSightAutopilot": {
           "timeOut": 0.5,
-          "crossDistToReqCrossVelMult": 1.5,
+          "crossDistToReqCrossVelMult": 2.0,
           "reqCrossVelRationMax": 0.6,
-          "velDiffToReqAccelMult": 3.0,
+          "velDiffToReqAccelMult": 4.0,
           "accelControl": {
             "omegaToAccelMult": 4.0,
             "propNavMult": 4.0,
             "reqAccelMax": 16.0,
+            "accelControlProp": 0.005,
+            "accelControlIntg": 0.05,
+            "accelControlDiff": 0.0012,
             "baseIndSpeed": 1800.0,
-            "accelControlProp": 0.05,
-            "accelControlIntg": 0.0025,
-            "accelControlDiff": 0.007,
             "accelControlIntgLim": 1.0
           }
         }
@@ -624,7 +632,7 @@
         "maxDeltaAngle": 0.0,
         "dragCx": 0.014,
         "length": 2.898,
-        "distFromCmToStab": 0.03,
+        "distFromCmToStab": 0.09,
         "wingAreaMult": 1.3,
         "CxK": 1.39,
         "WdK": [
@@ -634,6 +642,7 @@
         ],
         "finsAoaHor": 0.2,
         "finsAoaVer": 0.2,
+        "finsLatAccel": 18.0,
         "spawnExplosionFx": false,
         "spawnExplosionWreckage": false,
         "selfDestructionFx": "explosion_air_selfexplosion_big",
@@ -648,6 +657,11 @@
         "smokeEffect": "",
         "hazeEffect": "haze_missile",
         "endSmokeViscosity": 0.5,
+        "effectOffset": [
+          -1.4,
+          0.0,
+          0.0
+        ],
         "maxDistance": 12000.0,
         "minDistance": 1200.0,
         "distanceFuse": false,
@@ -670,7 +684,7 @@
         "advancedMissiles": false,
         "useStartSpeed": true,
         "startSpeed": 16.0,
-        "endSpeed": 850.0,
+        "endSpeed": 1500.0,
         "timeLife": 21.0,
         "loadFactorMax": 16.0,
         "rangeMax": 12000.0,
@@ -995,6 +1009,8 @@
         },
         "guidance": {
           "controlConeFov": 180.0,
+          "leading": true,
+          "leadMult": 0.5,
           "breakLockMaxTime": 20.0,
           "orientationAutopilot": {
             "controlTime": 2.0,
@@ -1013,17 +1029,17 @@
           },
           "lineOfSightAutopilot": {
             "timeOut": 0.5,
-            "crossDistToReqCrossVelMult": 1.5,
+            "crossDistToReqCrossVelMult": 2.0,
             "reqCrossVelRationMax": 0.6,
-            "velDiffToReqAccelMult": 3.0,
+            "velDiffToReqAccelMult": 4.0,
             "accelControl": {
               "omegaToAccelMult": 4.0,
               "propNavMult": 4.0,
               "reqAccelMax": 16.0,
+              "accelControlProp": 0.005,
+              "accelControlIntg": 0.05,
+              "accelControlDiff": 0.0012,
               "baseIndSpeed": 1800.0,
-              "accelControlProp": 0.05,
-              "accelControlIntg": 0.0025,
-              "accelControlDiff": 0.007,
               "accelControlIntgLim": 1.0
             }
           }

@@ -17544,6 +17544,23 @@
     }
   },
   {
+    "name": "q_5l",
+    "localized": "Q-5l",
+    "arcade": {
+      "economic_rank": 29
+    },
+    "realistic": {
+      "economic_rank": 25
+    },
+    "simulator": {
+      "economic_rank": 29
+    },
+    "rank": 7,
+    "tech_tree": {
+      "nation": "China"
+    }
+  },
+  {
     "name": "mig-15bis_nr23_china",
     "localized": "J-2",
     "arcade": {
@@ -33219,7 +33236,7 @@
   },
   {
     "name": "il_zsu_57_2",
-    "localized": "il_zsu_57_2",
+    "localized": "ZSU-57-2",
     "arcade": {
       "economic_rank": 18
     },
@@ -33236,7 +33253,7 @@
   },
   {
     "name": "il_zsu_23_4",
-    "localized": "il_zsu_23_4",
+    "localized": "ZSU-23-4",
     "arcade": {
       "economic_rank": 21
     },
@@ -40406,6 +40423,40 @@
     "rank": 5,
     "tech_tree": {
       "nation": "Japan"
+    }
+  },
+  {
+    "name": "uk_battlecruiser_glorious",
+    "localized": "HMS Glorious",
+    "arcade": {
+      "economic_rank": 14
+    },
+    "realistic": {
+      "economic_rank": 14
+    },
+    "simulator": {
+      "economic_rank": 14
+    },
+    "rank": 5,
+    "tech_tree": {
+      "nation": "Great Britain"
+    }
+  },
+  {
+    "name": "us_cruiser_fargo_class",
+    "localized": "USS Fargo",
+    "arcade": {
+      "economic_rank": 14
+    },
+    "realistic": {
+      "economic_rank": 14
+    },
+    "simulator": {
+      "economic_rank": 14
+    },
+    "rank": 4,
+    "tech_tree": {
+      "nation": "USA"
     }
   }
 ]
