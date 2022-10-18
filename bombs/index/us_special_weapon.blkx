@@ -30,6 +30,7 @@
       10.0,
       15.0
     ],
+    "useDelayExplosion": false,
     "sound": "weapon.bomb_std",
     "explosionFx": "explosion_toilet_cmps_fx",
     "explosionPatchRadius": 1.0,

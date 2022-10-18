@@ -396,9 +396,6 @@
       "hp": 500.0,
       "stopChanceOnDeadPart": 0.0,
       "createSecondaryShatters": false,
-      "ex_decor_07_dm": {
-        "armorThickness": 5.0
-      },
       "ex_decor_08_dm": {
         "armorThickness": 5.0
       },
@@ -3270,7 +3267,12 @@
           "cls_turret": "convex_hull"
         },
         "hideNodes": {
-          "node": "ex_armor_01"
+          "node": [
+            "ex_armor_01",
+            "body_01",
+            "roll_02",
+            "roll_01"
+          ]
         }
       }
     },

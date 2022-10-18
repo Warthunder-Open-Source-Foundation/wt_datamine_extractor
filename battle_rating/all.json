@@ -2159,6 +2159,23 @@
     }
   },
   {
+    "name": "fw_190a_5_u14",
+    "localized": "Fw 190 A-5/U14",
+    "arcade": {
+      "economic_rank": 10
+    },
+    "realistic": {
+      "economic_rank": 10
+    },
+    "simulator": {
+      "economic_rank": 11
+    },
+    "rank": 3,
+    "tech_tree": {
+      "nation": "Germany"
+    }
+  },
+  {
     "name": "fw-190a-5_cannons",
     "localized": "Fw 190 A-5",
     "arcade": {
@@ -9092,6 +9109,23 @@
     "rank": 3,
     "tech_tree": {
       "nation": "USA"
+    }
+  },
+  {
+    "name": "a_20g_30_ussr",
+    "localized": "★A-20G-30",
+    "arcade": {
+      "economic_rank": 7
+    },
+    "realistic": {
+      "economic_rank": 8
+    },
+    "simulator": {
+      "economic_rank": 8
+    },
+    "rank": 3,
+    "tech_tree": {
+      "nation": "USSR"
     }
   },
   {
@@ -28900,6 +28934,23 @@
     }
   },
   {
+    "name": "sw_t_55m",
+    "localized": "sw_t_55m",
+    "arcade": {
+      "economic_rank": 22
+    },
+    "realistic": {
+      "economic_rank": 22
+    },
+    "simulator": {
+      "economic_rank": 22
+    },
+    "rank": 6,
+    "tech_tree": {
+      "nation": "Sweden"
+    }
+  },
+  {
     "name": "sw_t_80u",
     "localized": "sw_t_80u",
     "arcade": {
@@ -40455,6 +40506,23 @@
       "economic_rank": 14
     },
     "rank": 4,
+    "tech_tree": {
+      "nation": "USA"
+    }
+  },
+  {
+    "name": "us_destroyer_gearing_frank_knox",
+    "localized": "USS Frank Knox",
+    "arcade": {
+      "economic_rank": 11
+    },
+    "realistic": {
+      "economic_rank": 11
+    },
+    "simulator": {
+      "economic_rank": 11
+    },
+    "rank": 3,
     "tech_tree": {
       "nation": "USA"
     }

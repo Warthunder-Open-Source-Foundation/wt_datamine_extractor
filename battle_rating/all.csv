@@ -125,6 +125,7 @@ d_521;⦿D.521;7;6;5;2;Great Britain
 fw-190a-5;Fw 190 A-5/U12;15;11;11;3;Germany
 fw-190c;Fw 190 C;13;12;12;4;Germany
 fw-190a-5_u2;Fw 190 A-5/U2;10;10;11;3;Germany
+fw_190a_5_u14;Fw 190 A-5/U14;10;10;11;3;Germany
 fw-190a-5_cannons;Fw 190 A-5;13;11;11;3;Germany
 fw-190d-12;Fw 190 D-12;15;12;14;4;Germany
 fw-190f-8;Fw 190 F-8;13;12;10;4;Germany
@@ -533,6 +534,7 @@ b_25j_1;B-25J-1;8;9;8;2;USA
 b_26b_c;B-26B;10;11;11;3;USA
 b_26c_france;B-26C;10;11;11;3;France
 b_25j_20;B-25J-20;9;10;10;3;USA
+a_20g_30_ussr;★A-20G-30;7;8;8;3;USSR
 b_25j_30_vvs_ussr;★B-25J-30;9;10;10;3;USSR
 p_108a_serie2;P.108A serie 2;2;4;6;2;Italy
 meteor_fmk8;Meteor F Mk 8 G.41K;20;21;21;5;Great Britain
@@ -1698,6 +1700,7 @@ sw_strv_81_rb52;Strv 81 (RB 52);19;19;19;4;Sweden
 sw_strv_101;Strv 101;20;20;20;5;Sweden
 sw_strv_103_0;Strv 103-0;20;20;20;5;Sweden
 sw_leopard_1a5no;Leopard 1A5NO;24;24;24;6;Sweden
+sw_t_55m;sw_t_55m;22;22;22;6;Sweden
 sw_t_80u;sw_t_80u;29;29;29;7;Sweden
 uk_17_pdr_m10_achilles;Achilles;8;7;7;2;Great Britain
 uk_ac4_thunderbolt;A.C.IV;13;13;13;3;Great Britain
@@ -2378,3 +2381,4 @@ germ_type152_hugin;germ_type152_hugin;8;8;8;4;Germany
 jp_battleship_fuso;IJN Fuso;18;18;18;5;Japan
 uk_battlecruiser_glorious;HMS Glorious;14;14;14;5;Great Britain
 us_cruiser_fargo_class;USS Fargo;14;14;14;4;USA
+us_destroyer_gearing_frank_knox;USS Frank Knox;11;11;11;3;USA
