@@ -1203,23 +1203,6 @@
     ]
   },
   {
-    "name": "jp_tkx_prot",
-    "localized": "jp_tkx_prot",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 1200.0,
-        "y": 800.0
-      },
-      {
-        "crew": "Commander",
-        "x": 1200.0,
-        "y": 800.0
-      }
-    ]
-  },
-  {
     "name": "jp_type_10",
     "localized": "Type 10",
     "vehicle_type": "Tank",
@@ -1502,35 +1485,6 @@
     ]
   },
   {
-    "name": "sw_leopard_2a4_fin",
-    "localized": "Leopard 2A4",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "sw_leopard_2a6nl",
-    "localized": "sw_leopard_2a6nl",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
-      },
-      {
-        "crew": "Commander",
-        "x": 800.0,
-        "y": 600.0
-      }
-    ]
-  },
-  {
     "name": "sw_lvkv_90c",
     "localized": "Lvkv 9040C",
     "vehicle_type": "Tank",
@@ -1638,18 +1592,6 @@
         "crew": "Commander",
         "x": 1200.0,
         "y": 800.0
-      }
-    ]
-  },
-  {
-    "name": "sw_t_80u",
-    "localized": "sw_t_80u",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
       }
     ]
   },
@@ -2273,23 +2215,6 @@
         "crew": "Commander",
         "x": 500.0,
         "y": 300.0
-      }
-    ]
-  },
-  {
-    "name": "us_m1a2_sep_abrams",
-    "localized": "M1A2 SEP",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 800.0,
-        "y": 600.0
-      },
-      {
-        "crew": "Commander",
-        "x": 800.0,
-        "y": 600.0
       }
     ]
   },

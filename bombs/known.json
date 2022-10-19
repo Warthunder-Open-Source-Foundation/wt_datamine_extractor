@@ -17,8 +17,6 @@
     "china_250kg_mk_82.blkx",
     "cn_gp_250_3.blkx",
     "cn_gp_500_3.blkx",
-    "cn_ls_500j.blkx",
-    "cn_ts_250.blkx",
     "de_250_matra_25e.blkx",
     "de_fx1400.blkx",
     "de_sc1000.blkx",
@@ -213,9 +211,7 @@
     "us_blu_1.blkx",
     "us_gbu_10_paveway_2.blkx",
     "us_gbu_12_paveway_2.blkx",
-    "us_gbu_16_paveway_2.blkx",
     "us_mk6.blkx",
-    "us_mk7.blkx",
-    "us_special_weapon.blkx"
+    "us_mk7.blkx"
   ]
 }
