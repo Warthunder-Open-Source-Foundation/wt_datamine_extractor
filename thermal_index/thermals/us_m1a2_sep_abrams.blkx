@@ -59,9 +59,6 @@
   "smokeScreenDmPart": "engine_dm",
   "smokeScreenFxType": "tank_smokescreen",
   "smokeScreenFx": "smokescreen_no_therm_small",
-  "customClassIco": "!#ui/gameuiskin#image_in_progress_ico.svg",
-  "customImage": "!#ui/unitskin#image_in_progress",
-  "customTooltipImage": "ui/aircrafts/image_in_progress",
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "RHA_tank_modern",
@@ -181,6 +178,10 @@
       },
       "turret_04_front_dm": {
         "armorThickness": 33.0
+      },
+      "ex_armor_10_dm": {
+        "armorThickness": 40.0,
+        "armorClass": "aluminum_armor_7020"
       }
     },
     "add_hatch_armor_plates": {
@@ -227,17 +228,11 @@
       "turret_05_side_dm": {
         "armorThickness": 30.0
       },
-      "ex_armor_01_dm": {
-        "armorThickness": 19.0
-      },
-      "ex_armor_02_dm": {
-        "armorThickness": 19.0
-      },
       "ex_armor_05_dm": {
         "armorThickness": 25.0
       },
       "ex_armor_06_dm": {
-        "armorThickness": 10.0
+        "armorThickness": 5.0
       },
       "body_side_dm": {
         "armorThickness": 35.0
@@ -281,9 +276,6 @@
       },
       "turret_07_side_dm": {
         "armorThickness": 28.4
-      },
-      "turret_09_side_dm": {
-        "armorThickness": 23.0
       },
       "turret_07_bottom_dm": {
         "armorThickness": 38.1
@@ -418,6 +410,25 @@
         "armorThickness": 6.35
       }
     },
+    "turret_titanium": {
+      "armorClass": "titanium_alloy_tank",
+      "turret_01_top_dm": {
+        "armorThickness": 15.24,
+        "createSecondaryShatters": false
+      },
+      "ex_armor_01_dm": {
+        "armorThickness": 24.13
+      },
+      "ex_armor_02_dm": {
+        "armorThickness": 24.13
+      },
+      "turret_09_side_dm": {
+        "armorThickness": 27.94
+      },
+      "turret_09_top_dm": {
+        "armorThickness": 25.4
+      }
+    },
     "turret": {
       "armorClass": "RHA_tank_modern",
       "turret_side_dm": {
@@ -426,10 +437,6 @@
       },
       "turret_top_dm": {
         "armorThickness": 25.4
-      },
-      "turret_01_top_dm": {
-        "armorThickness": 12.7,
-        "createSecondaryShatters": false
       },
       "turret_02_top_dm": {
         "armorThickness": 101.0
@@ -481,9 +488,6 @@
       },
       "turret_04_back_dm": {
         "armorThickness": 20.0
-      },
-      "turret_09_top_dm": {
-        "armorThickness": 25.4
       },
       "turret_02_back_dm": {
         "armorThickness": 30.0
@@ -613,21 +617,19 @@
     },
     "era_hull_side": {
       "armorClass": "ERA_ARAT",
-      "kineticProtectionEquivalent": 120.0,
+      "kineticProtectionEquivalent": 20.0,
       "cumulativeProtectionEquivalent": 450.0,
-      "genericEffectiveThicknessMax": 130.0,
-      "cumulativeEffectiveThicknessMax": 450.0,
-      "hp": 250.0,
-      "armorThickness": 20.0,
-      "genericDamageMult": 3.0,
-      "genericArmorQuality": 1.7,
-      "genericLongRodArmorQuality": 0.8,
-      "cumulativeArmorQuality": 7.75,
+      "hp": 350.0,
+      "armorThickness": 175.0,
+      "genericArmorQuality": 0.108,
+      "cumulativeArmorQuality": 2.57,
+      "explosionArmorQuality": 0.7,
+      "explosionDamageMult": 1.1,
       "stopChanceOnDeadPart": 0.0,
       "hidableInViewer": true,
       "hidableInXrayViewer": true,
-      "responseImpulse": 0.5,
-      "tandemPrechargeArmorQuality": 2.0,
+      "restrainDamage": 0.5,
+      "tandemPrechargeArmorQuality": 0.1,
       "ex_era_hull_03_dm": {},
       "ex_era_hull_04_dm": {},
       "ex_era_hull_05_dm": {},
@@ -2190,24 +2192,10 @@
         },
         "limits": {
           "yaw": [
-            -140.0,
+            -100.0,
             10.0
           ],
           "pitch": [
-            -9.0,
-            65.0
-          ]
-        },
-        "limitsTable": {
-          "lim1": [
-            -140.0,
-            -100.0,
-            -5.0,
-            65.0
-          ],
-          "lim2": [
-            -100.0,
-            10.0,
             -9.0,
             65.0
           ]
@@ -2330,16 +2318,6 @@
           "verDriveDm": "commander_panoramic_sight_dm",
           "horDriveDm": "commander_panoramic_sight_dm"
         },
-        "limits": {
-          "yaw": [
-            -180.0,
-            180.0
-          ],
-          "pitch": [
-            -10.0,
-            20.0
-          ]
-        },
         "gunStabilizer": {
           "hasVerticalGunFreeMode": false,
           "forceEnabled": true,
@@ -2366,6 +2344,16 @@
               ]
             ]
           }
+        },
+        "limits": {
+          "yaw": [
+            -180.0,
+            180.0
+          ],
+          "pitch": [
+            -12.0,
+            20.0
+          ]
         }
       }
     ]
@@ -2378,9 +2366,9 @@
   },
   "VehiclePhys": {
     "Mass": {
-      "Empty": 60680.0,
+      "Empty": 61200.0,
       "Fuel": 1000.0,
-      "TakeOff": 61680.0,
+      "TakeOff": 62200.0,
       "momentOfInertia": [
         3.0,
         2.5,
@@ -3406,7 +3394,7 @@
               },
               "limits": {
                 "yaw": [
-                  -30.0,
+                  -10.0,
                   170.0
                 ],
                 "pitch": [
@@ -3453,24 +3441,10 @@
               },
               "limits": {
                 "yaw": [
-                  -140.0,
+                  -100.0,
                   -10.0
                 ],
                 "pitch": [
-                  -9.0,
-                  65.0
-                ]
-              },
-              "limitsTable": {
-                "lim1": [
-                  -140.0,
-                  -100.0,
-                  -5.0,
-                  65.0
-                ],
-                "lim2": [
-                  -100.0,
-                  -10.0,
                   -9.0,
                   65.0
                 ]
@@ -3642,16 +3616,6 @@
                 "verDriveDm": "commander_panoramic_sight_dm",
                 "horDriveDm": "commander_panoramic_sight_dm"
               },
-              "limits": {
-                "yaw": [
-                  -180.0,
-                  180.0
-                ],
-                "pitch": [
-                  -10.0,
-                  20.0
-                ]
-              },
               "gunStabilizer": {
                 "hasVerticalGunFreeMode": false,
                 "forceEnabled": true,
@@ -3678,6 +3642,16 @@
                     ]
                   ]
                 }
+              },
+              "limits": {
+                "yaw": [
+                  -180.0,
+                  180.0
+                ],
+                "pitch": [
+                  -12.0,
+                  20.0
+                ]
               }
             }
           ],

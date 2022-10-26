@@ -159,6 +159,7 @@ pub enum ShellType {
 	Aam = 18,
 	SonicWave = 19,
 	Ahead = 20,
+	Napalm = 21,
 }
 
 impl ToString for ShellType {
@@ -293,6 +294,9 @@ impl FromStr for ShellType {
 			}
 			r#""ahead_tank""# => {
 				Ok(Self::Ahead)
+			}
+			r#""napalm_tank""# => {
+				Ok(Self::Napalm)
 			}
 			// This is an edge-case, apcbc can both resolve to APHE or solid AP
 			r#""apbc_usa_tank""# |

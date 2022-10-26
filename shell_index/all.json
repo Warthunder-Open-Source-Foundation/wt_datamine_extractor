@@ -3307,6 +3307,39 @@
     ]
   },
   {
+    "name": "114mm_akr",
+    "localized": "114mm_akr",
+    "shell_type": "He",
+    "caliber": 114,
+    "true_caliber": 114,
+    "velocity": 350,
+    "penetration": [],
+    "explosive": [
+      "amatol",
+      2000,
+      2000
+    ]
+  },
+  {
+    "name": "114mm_hkr",
+    "localized": "114mm_hkr",
+    "shell_type": "Heat",
+    "caliber": 114,
+    "true_caliber": 114,
+    "velocity": 357,
+    "penetration": [
+      [
+        0,
+        115
+      ]
+    ],
+    "explosive": [
+      "h5",
+      1500,
+      2550
+    ]
+  },
+  {
     "name": "114mm_m8",
     "localized": "M8",
     "shell_type": "Rocket",
@@ -9288,20 +9321,6 @@
     ]
   },
   {
-    "name": "20mm_dm51a1",
-    "localized": "DM51A1",
-    "shell_type": "ApSolid",
-    "caliber": 5,
-    "true_caliber": 5,
-    "velocity": 106,
-    "penetration": [],
-    "explosive": [
-      "",
-      0,
-      0
-    ]
-  },
-  {
     "name": "20mm_dm63",
     "localized": "DM63",
     "shell_type": "Apds",
@@ -11467,6 +11486,44 @@
     ]
   },
   {
+    "name": "37mm_psav",
+    "localized": "37mm_psav",
+    "shell_type": "ApSolid",
+    "caliber": 37,
+    "true_caliber": 37,
+    "velocity": 810,
+    "penetration": [
+      [
+        0,
+        62
+      ]
+    ],
+    "explosive": [
+      "",
+      0,
+      0
+    ]
+  },
+  {
+    "name": "37mm_pstkr",
+    "localized": "37mm_pstkr",
+    "shell_type": "ApHe",
+    "caliber": 37,
+    "true_caliber": 37,
+    "velocity": 800,
+    "penetration": [
+      [
+        0,
+        61
+      ]
+    ],
+    "explosive": [
+      "tnt",
+      15,
+      15
+    ]
+  },
+  {
     "name": "37mm_pzgr",
     "localized": "PzGr",
     "shell_type": "ApHe",
@@ -13067,6 +13124,63 @@
       "hexal",
       300,
       510
+    ]
+  },
+  {
+    "name": "57mm_3ubr_22",
+    "localized": "57mm_3ubr_22",
+    "shell_type": "ApFsDs",
+    "caliber": 57,
+    "true_caliber": 16,
+    "velocity": 1500,
+    "penetration": [
+      [
+        0,
+        225
+      ],
+      [
+        100,
+        221
+      ],
+      [
+        500,
+        209
+      ],
+      [
+        1000,
+        193
+      ],
+      [
+        1500,
+        177
+      ],
+      [
+        2000,
+        161
+      ],
+      [
+        3000,
+        129
+      ]
+    ],
+    "explosive": [
+      "",
+      0,
+      0
+    ]
+  },
+  {
+    "name": "57mm_3uo8",
+    "localized": "57mm_3uo8",
+    "shell_type": "He",
+    "caliber": 57,
+    "true_caliber": 57,
+    "velocity": 1000,
+    "penetration": [],
+    "explosive": [
+      "a_ix_2",
+      150,
+      231
     ]
   },
   {
@@ -19376,6 +19490,20 @@
       "rdx_tnt",
       28000,
       35840
+    ]
+  },
+  {
+    "name": "napalm",
+    "localized": "napalm",
+    "shell_type": "Napalm",
+    "caliber": 20,
+    "true_caliber": 20,
+    "velocity": 106,
+    "penetration": [],
+    "explosive": [
+      "",
+      0,
+      0
     ]
   },
   {

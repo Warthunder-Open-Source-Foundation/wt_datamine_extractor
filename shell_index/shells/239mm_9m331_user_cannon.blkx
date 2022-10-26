@@ -15,7 +15,7 @@
   "attackMaxDist": 8000.0,
   "maxDeltaAngle": 0.06,
   "maxDeltaAngleVertical": 0.08,
-  "shotFreq": 1.0,
+  "shotFreq": 0.5,
   "traceFreq": 4,
   "reloadTime": 15.0,
   "bEnablePause": false,
@@ -31,8 +31,8 @@
   "fxWaterShockWave": "",
   "shouldCollideWithRendinsts": true,
   "sound_pathStudio": "ground/weapon/atgm",
-  "sound": "atgm_LPC",
-  "sound_inside": "atgm_LPC_interior",
+  "sound": "atgm_tor_m1",
+  "sound_inside": "atgm_tor_m1_interior",
   "reload_sound_pathStudio": "ground/effects",
   "reload_sound": "reload_rocket",
   "fxMultipleSpawn": true,
@@ -41,8 +41,8 @@
   "notUseDefaultBulletInGui": true,
   "drawRocketInBullet": true,
   "allowRearmOnField": true,
-  "mesh": "roland_rocket",
-  "animChar": "roland_rocket_char",
+  "mesh": "9m331_rocket",
+  "animChar": "9m331_rocket_char",
   "reloadAnimParam": "cap_hide",
   "bullet": {
     "normalizationPreset": "heat",
@@ -65,8 +65,8 @@
     "mass": 167.0,
     "caliber": 0.239,
     "sound_pathStudio": "ground/weapon/atgm",
-    "sound": "atgm_LPC",
-    "sound_inside": "atgm_LPC_interior",
+    "sound": "atgm_tor_m1",
+    "sound_inside": "atgm_tor_m1_interior",
     "recoilMultiplier": 0.05,
     "mesh": "9m331_rocket_deployed",
     "stabilityRicochetModifier": {
@@ -110,16 +110,17 @@
       "maxDeltaAngle": 0.0,
       "dragCx": 0.014,
       "length": 2.898,
-      "distFromCmToStab": 0.03,
+      "distFromCmToStab": 0.09,
       "wingAreaMult": 1.3,
-      "CxK": 1.39,
+      "CxK": 1.32,
       "WdK": [
         0.1,
         0.1,
         0.1
       ],
-      "finsAoaHor": 0.2,
-      "finsAoaVer": 0.2,
+      "finsAoaHor": 0.14,
+      "finsAoaVer": 0.14,
+      "finsLatAccel": 18.0,
       "spawnExplosionFx": false,
       "spawnExplosionWreckage": false,
       "selfDestructionFx": "explosion_air_selfexplosion_big",
@@ -134,6 +135,11 @@
       "smokeEffect": "",
       "hazeEffect": "haze_missile",
       "endSmokeViscosity": 0.5,
+      "effectOffset": [
+        -1.4,
+        0.0,
+        0.0
+      ],
       "maxDistance": 12000.0,
       "minDistance": 1200.0,
       "distanceFuse": false,
@@ -141,14 +147,14 @@
       "fuseDelayDist": 1.0,
       "explodeTreshold": 0.1,
       "mass": 167.0,
-      "massEnd": 105.0,
-      "massEnd1": 73.0,
-      "force": 34100.0,
+      "massEnd": 107.0,
+      "massEnd1": 77.0,
+      "force": 33000.0,
       "timeFire": 4.0,
-      "force1": 8800.0,
+      "force1": 8250.0,
       "timeFire1": 8.0,
       "fireDelay": 1.0,
-      "orientationTorque": 280.0,
+      "orientationTorque": 245.0,
       "guidanceType": "saclos",
       "hasProximityFuse": true,
       "rendinstDamageRadius": 15.0,
@@ -480,10 +486,28 @@
         }
       },
       "guidance": {
-        "controlConeFov": 180.0,
+        "controlConeFov": 60.0,
+        "leading": true,
+        "leadMult": 0.5,
+        "loftEnabled": true,
+        "distToTargetToLoftElevation": [
+          9000.0,
+          7.0,
+          1500.0,
+          0.0
+        ],
+        "targetElevationToLoftElevationMult": [
+          3.0,
+          1.0,
+          5.0,
+          0.0
+        ],
+        "leadMinimalElevation": 3.0,
         "breakLockMaxTime": 20.0,
         "orientationAutopilot": {
           "controlTime": 2.0,
+          "finalSpeed": 1800.0,
+          "finalDist": 110.0,
           "elevationAdd": 0.0,
           "elevationToHeadingMult": [
             80.0,
@@ -498,19 +522,20 @@
           "accelControlDiff": 0.0
         },
         "lineOfSightAutopilot": {
-          "timeOut": 0.5,
-          "crossDistToReqCrossVelMult": 1.5,
+          "timeOut": 1.75,
+          "crossDistToReqCrossVelMult": 2.0,
           "reqCrossVelRationMax": 0.6,
-          "velDiffToReqAccelMult": 3.0,
+          "velDiffToReqAccelMult": 8.0,
           "accelControl": {
-            "omegaToAccelMult": 4.0,
-            "propNavMult": 4.0,
             "reqAccelMax": 16.0,
-            "baseIndSpeed": 1800.0,
-            "accelControlProp": 0.05,
-            "accelControlIntg": 0.0025,
-            "accelControlDiff": 0.007,
-            "accelControlIntgLim": 1.0
+            "accelControlProp": 0.0075,
+            "accelControlIntg": 0.0306,
+            "accelControlDiff": 0.0009,
+            "accelControlIntgLim": [
+              0.5,
+              1.0
+            ],
+            "baseIndSpeed": 1800.0
           }
         }
       },
@@ -579,8 +604,8 @@
       "mass": 167.0,
       "caliber": 0.239,
       "sound_pathStudio": "ground/weapon/atgm",
-      "sound": "atgm_LPC",
-      "sound_inside": "atgm_LPC_interior",
+      "sound": "atgm_tor_m1",
+      "sound_inside": "atgm_tor_m1_interior",
       "recoilMultiplier": 0.05,
       "mesh": "9m331_rocket_deployed",
       "stabilityRicochetModifier": {
@@ -624,16 +649,17 @@
         "maxDeltaAngle": 0.0,
         "dragCx": 0.014,
         "length": 2.898,
-        "distFromCmToStab": 0.03,
+        "distFromCmToStab": 0.09,
         "wingAreaMult": 1.3,
-        "CxK": 1.39,
+        "CxK": 1.32,
         "WdK": [
           0.1,
           0.1,
           0.1
         ],
-        "finsAoaHor": 0.2,
-        "finsAoaVer": 0.2,
+        "finsAoaHor": 0.14,
+        "finsAoaVer": 0.14,
+        "finsLatAccel": 18.0,
         "spawnExplosionFx": false,
         "spawnExplosionWreckage": false,
         "selfDestructionFx": "explosion_air_selfexplosion_big",
@@ -648,6 +674,11 @@
         "smokeEffect": "",
         "hazeEffect": "haze_missile",
         "endSmokeViscosity": 0.5,
+        "effectOffset": [
+          -1.4,
+          0.0,
+          0.0
+        ],
         "maxDistance": 12000.0,
         "minDistance": 1200.0,
         "distanceFuse": false,
@@ -655,14 +686,14 @@
         "fuseDelayDist": 1.0,
         "explodeTreshold": 0.1,
         "mass": 167.0,
-        "massEnd": 105.0,
-        "massEnd1": 73.0,
-        "force": 34100.0,
+        "massEnd": 107.0,
+        "massEnd1": 77.0,
+        "force": 33000.0,
         "timeFire": 4.0,
-        "force1": 8800.0,
+        "force1": 8250.0,
         "timeFire1": 8.0,
         "fireDelay": 1.0,
-        "orientationTorque": 280.0,
+        "orientationTorque": 245.0,
         "guidanceType": "saclos",
         "hasProximityFuse": true,
         "rendinstDamageRadius": 15.0,
@@ -994,10 +1025,28 @@
           }
         },
         "guidance": {
-          "controlConeFov": 180.0,
+          "controlConeFov": 60.0,
+          "leading": true,
+          "leadMult": 0.5,
+          "loftEnabled": true,
+          "distToTargetToLoftElevation": [
+            9000.0,
+            7.0,
+            1500.0,
+            0.0
+          ],
+          "targetElevationToLoftElevationMult": [
+            3.0,
+            1.0,
+            5.0,
+            0.0
+          ],
+          "leadMinimalElevation": 3.0,
           "breakLockMaxTime": 20.0,
           "orientationAutopilot": {
             "controlTime": 2.0,
+            "finalSpeed": 1800.0,
+            "finalDist": 110.0,
             "elevationAdd": 0.0,
             "elevationToHeadingMult": [
               80.0,
@@ -1012,19 +1061,20 @@
             "accelControlDiff": 0.0
           },
           "lineOfSightAutopilot": {
-            "timeOut": 0.5,
-            "crossDistToReqCrossVelMult": 1.5,
+            "timeOut": 1.75,
+            "crossDistToReqCrossVelMult": 2.0,
             "reqCrossVelRationMax": 0.6,
-            "velDiffToReqAccelMult": 3.0,
+            "velDiffToReqAccelMult": 8.0,
             "accelControl": {
-              "omegaToAccelMult": 4.0,
-              "propNavMult": 4.0,
               "reqAccelMax": 16.0,
-              "baseIndSpeed": 1800.0,
-              "accelControlProp": 0.05,
-              "accelControlIntg": 0.0025,
-              "accelControlDiff": 0.007,
-              "accelControlIntgLim": 1.0
+              "accelControlProp": 0.0075,
+              "accelControlIntg": 0.0306,
+              "accelControlDiff": 0.0009,
+              "accelControlIntgLim": [
+                0.5,
+                1.0
+              ],
+              "baseIndSpeed": 1800.0
             }
           }
         },

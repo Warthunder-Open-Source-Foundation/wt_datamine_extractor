@@ -9,8 +9,9 @@
     -3.0,
     0.0
   ],
-  "disableAerobaticsSmoke": true,
   "mustHaveCockpit": false,
+  "orbitAvaible": true,
+  "disableAerobaticsSmoke": true,
   "haveOpticTurret": true,
   "isBwOpticSight": true,
   "laserDesignator": true,
