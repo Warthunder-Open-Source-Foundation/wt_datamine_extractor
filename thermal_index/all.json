@@ -132,6 +132,18 @@
     ]
   },
   {
+    "name": "ah_64a_greece_usa",
+    "localized": "AH-64A (GR)",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
     "name": "ah_64a_iaf",
     "localized": "✡AH-64A",
     "vehicle_type": "Helicopter",
@@ -572,6 +584,18 @@
     ]
   },
   {
+    "name": "fr_vab_santal",
+    "localized": "SANTAL",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "fr_vcac_mephisto",
     "localized": "MEPHISTO",
     "vehicle_type": "Tank",
@@ -858,6 +882,11 @@
     "localized": "Harrier GR.7",
     "vehicle_type": "Aircraft",
     "sights": [
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
+      },
       {
         "crew": "Global",
         "x": 500.0,
@@ -1203,6 +1232,23 @@
     ]
   },
   {
+    "name": "jp_tkx_prot",
+    "localized": "TKX",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      },
+      {
+        "crew": "Commander",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
     "name": "jp_type_10",
     "localized": "Type 10",
     "vehicle_type": "Tank",
@@ -1386,6 +1432,18 @@
     ]
   },
   {
+    "name": "q_5l",
+    "localized": "Q-5L",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "sa_342m",
     "localized": "SA.342M Gazelle",
     "vehicle_type": "Helicopter",
@@ -1473,6 +1531,18 @@
     ]
   },
   {
+    "name": "sw_cv_9030_fin",
+    "localized": "sw_cv_9030_fin",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
     "name": "sw_leopard_1a5no",
     "localized": "Leopard 1A5NO",
     "vehicle_type": "Tank",
@@ -1481,6 +1551,35 @@
         "crew": "Gunner",
         "x": 500.0,
         "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "sw_leopard_2a4_fin",
+    "localized": "Leopard 2A4",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "sw_leopard_2a6nl",
+    "localized": "Leopard 2A6",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      },
+      {
+        "crew": "Commander",
+        "x": 800.0,
+        "y": 600.0
       }
     ]
   },
@@ -1592,6 +1691,18 @@
         "crew": "Commander",
         "x": 1200.0,
         "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "sw_t_80u",
+    "localized": "T 80 U",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
       }
     ]
   },
@@ -2219,6 +2330,23 @@
     ]
   },
   {
+    "name": "us_m1a2_sep_abrams",
+    "localized": "M1A2 SEP",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Commander",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
     "name": "us_m3_bradley",
     "localized": "M3 Bradley",
     "vehicle_type": "Tank",
@@ -2351,6 +2479,23 @@
   {
     "name": "ussr_2s25m",
     "localized": "2S25M",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      },
+      {
+        "crew": "Commander",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "ussr_2s38",
+    "localized": "2S38",
     "vehicle_type": "Tank",
     "sights": [
       {

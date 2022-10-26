@@ -153,6 +153,24 @@
     "can_kill_npc_ship": true
   },
   {
+    "name": "cn_ls_500j",
+    "weight": 570.0,
+    "explosive_mass": 220.0,
+    "explosive_type": "tnt",
+    "explosive_equiv": 220.0,
+    "can_kill_npc_tank": false,
+    "can_kill_npc_ship": false
+  },
+  {
+    "name": "cn_ts_250",
+    "weight": 260.0,
+    "explosive_mass": 91.0,
+    "explosive_type": "tnt",
+    "explosive_equiv": 91.0,
+    "can_kill_npc_tank": false,
+    "can_kill_npc_ship": false
+  },
+  {
     "name": "de_250_matra_25e",
     "weight": 223.0,
     "explosive_mass": 118.8,
@@ -1531,7 +1549,7 @@
   },
   {
     "name": "us_1000lb_anm65a1",
-    "weight": 500.76,
+    "weight": 546.5,
     "explosive_mass": 269.9,
     "explosive_type": "tritonal",
     "explosive_equiv": 318.0,
@@ -1712,9 +1730,9 @@
   {
     "name": "us_3000lb_m118",
     "weight": 1369.8,
-    "explosive_mass": 898.8,
+    "explosive_mass": 856.3,
     "explosive_type": "tritonal",
-    "explosive_equiv": 1061.0,
+    "explosive_equiv": 1010.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1891,10 +1909,19 @@
   },
   {
     "name": "us_gbu_12_paveway_2",
-    "weight": 295.0,
+    "weight": 277.14,
     "explosive_mass": 87.1,
     "explosive_type": "comp_h6",
     "explosive_equiv": 118.0,
+    "can_kill_npc_tank": false,
+    "can_kill_npc_ship": false
+  },
+  {
+    "name": "us_gbu_16_paveway_2",
+    "weight": 495.3,
+    "explosive_mass": 201.8,
+    "explosive_type": "comp_h6",
+    "explosive_equiv": 272.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -1913,6 +1940,15 @@
     "explosive_mass": 0.01,
     "explosive_type": "tritonal",
     "explosive_equiv": 0.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
+    "name": "us_special_weapon",
+    "weight": 24.95,
+    "explosive_mass": 1.1,
+    "explosive_type": "tnt",
+    "explosive_equiv": 1.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   }
