@@ -2511,7 +2511,13 @@
           ]
         }
       }
-    ]
+    ],
+    "hideNodes": {
+      "node": [
+        "ex_armor_body_l_12",
+        "ex_armor_body_r_12"
+      ]
+    }
   },
   "weapon_presets": {
     "preset": {
@@ -3809,7 +3815,13 @@
                 ]
               }
             }
-          ]
+          ],
+          "hideNodes": {
+            "node": [
+              "ex_armor_body_l_12",
+              "ex_armor_body_r_12"
+            ]
+          }
         }
       }
     },

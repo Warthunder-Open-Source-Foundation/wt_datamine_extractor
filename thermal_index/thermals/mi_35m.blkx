@@ -9,6 +9,11 @@
   "haveCCRPForTurret": true,
   "gearSinkRangeLR": 0.305,
   "gearSinkRangeC": 0.21,
+  "tpsCameraTargetOffsetAtZoom": [
+    -80.0,
+    40.0,
+    0.0
+  ],
   "type": "typeFighter",
   "paratrooper": "usa_para",
   "advancedInstructor": true,

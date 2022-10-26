@@ -3,88 +3,58 @@
   "preset_cost": 100,
   "shotFreq": 10.0,
   "sound": "weapon.bombgun",
-  "mesh": "us_500lb_mk_82_ldgp",
+  "mesh": "unitaz",
   "tags": {
     "antiTankBomb": true,
     "antiShipBomb": true
   },
   "bomb": {
-    "mass": 240.9,
-    "mass_lbs": 500.0,
-    "explosiveType": "comp_h6",
-    "explosiveMass": 87.1,
+    "mass": 24.95,
+    "mass_lbs": 55.0,
+    "explosiveType": "tnt",
+    "explosiveMass": 1.1,
     "bombType": "he_bomb",
-    "bombName": "an_mk_82_ldgp",
+    "bombName": "us_special_weapon",
     "dragCx": 0.0257,
-    "caliber": 0.273,
-    "length": 2.207,
-    "distFromCmToStab": 0.77,
+    "caliber": 0.25,
+    "length": 0.5,
+    "CxK": 2.8,
+    "WdK": [
+      0.1,
+      0.1,
+      0.1
+    ],
+    "distFromCmToStab": -0.025,
+    "aerodynamicAxisAngles": [
+      20.0,
+      10.0,
+      15.0
+    ],
+    "useDelayExplosion": false,
     "sound": "weapon.bomb_std",
-    "explosionFx": "bomb_expl_200kg",
-    "explosionPatchRadius": 8.0,
-    "waterExplosionEffect": "bigesplashxplosion_fx",
+    "explosionFx": "explosion_toilet_cmps_fx",
+    "explosionPatchRadius": 1.0,
+    "waterExplosionEffect": "hit_8_11mm_water",
     "fallToUnitFx": "hit_81_105mm_metal_ap",
     "fallToWaterFx": "bomb_reflection",
-    "fallFx": "hit_59_80mm_dirt_ap",
     "shatterPatchRadius": 0.0,
     "visualShattersWaterOffset": 1.2,
     "visualShattersGroundOffset": 1.2,
-    "hitPowerMult": 1.0,
-    "nearHitPower": [
-      1.0,
-      50.0
-    ],
-    "midHitPower": [
-      0.9,
-      400.0
-    ],
-    "farHitPower": [
-      0.1,
-      1000.0
-    ],
-    "endHitPower": [
-      0.01,
-      1500.0
-    ],
-    "relativeVelHitShift": [
-      300.0,
-      1000.0
-    ],
-    "nearArmorPower": [
-      10.0,
-      50.0
-    ],
-    "midArmorPower": [
-      7.0,
-      400.0
-    ],
-    "farArmorPower": [
-      0.2,
-      700.0
-    ],
-    "relativeVelArmorShift": [
-      200.0,
-      1000.0
-    ],
     "explodeTreshold": 1E-05,
     "explodeHitPower": 400.0,
-    "explodeArmorPower": 100.0,
+    "explodeArmorPower": 2.0,
     "explodeRadius": [
-      6.0,
-      16.0
+      1.0,
+      2.0
     ],
-    "rendinstDamageRadius": 18.0,
+    "rendinstDamageRadius": 1.0,
     "shutterDamage": true,
-    "shutterDamageRadius": 80.0,
-    "shutterAmount": 3000,
-    "shutterArmorPower": 12.0,
+    "shutterDamageRadius": 1.0,
+    "shutterAmount": 15,
+    "shutterArmorPower": 1.0,
     "shutterHit": 15.0,
     "iconType": "bombs_middle",
-    "pressureDamage": {
-      "damageType": "pressure"
-    },
     "shatterCollisions": {
-      "groundCollisionEffect": "hit_12_18mm_dirt_ap",
       "waterCollisionEffect": "hit_8_11mm_water",
       "default": {
         "fx": "hit_12_18mm_dirt_ap"

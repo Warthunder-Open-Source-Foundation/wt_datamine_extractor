@@ -2063,7 +2063,7 @@
   },
   "sensors": {
     "sensor": {
-      "blk": "gameData/sensors/it_tv_tracker_3jb10.blk",
+      "blk": "gameData/sensors/us_lav_ad_track.blk",
       "turretIndex": 0,
       "dmPart": "optic_gun_dm"
     }
@@ -3622,7 +3622,7 @@
         "sensors": {
           "sensor": [
             {
-              "blk": "gameData/sensors/it_tv_tracker_3jb10.blk",
+              "blk": "gameData/sensors/us_lav_ad_track.blk",
               "turretIndex": 0,
               "dmPart": "optic_gun_dm"
             },
