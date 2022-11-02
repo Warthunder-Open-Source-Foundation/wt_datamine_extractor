@@ -452,6 +452,60 @@
     ]
   },
   {
+    "name": "100mm_tp",
+    "localized": "100mm_tp",
+    "shell_type": "Practice",
+    "caliber": 120,
+    "true_caliber": 120,
+    "velocity": 150,
+    "penetration": [
+      [
+        0,
+        3
+      ],
+      [
+        100,
+        2
+      ],
+      [
+        400,
+        1
+      ]
+    ],
+    "explosive": [
+      "",
+      0,
+      0
+    ]
+  },
+  {
+    "name": "100mm_tphv",
+    "localized": "100mm_tphv",
+    "shell_type": "Practice",
+    "caliber": 50,
+    "true_caliber": 50,
+    "velocity": 200,
+    "penetration": [
+      [
+        0,
+        6
+      ],
+      [
+        100,
+        3
+      ],
+      [
+        400,
+        2
+      ]
+    ],
+    "explosive": [
+      "",
+      0,
+      0
+    ]
+  },
+  {
     "name": "100mm_type1959",
     "localized": "Type 1959 APDS",
     "shell_type": "Apds",
@@ -10685,6 +10739,25 @@
     ]
   },
   {
+    "name": "30mm_m789",
+    "localized": "30mm_m789",
+    "shell_type": "HeatFs",
+    "caliber": 30,
+    "true_caliber": 30,
+    "velocity": 1500,
+    "penetration": [
+      [
+        0,
+        150
+      ]
+    ],
+    "explosive": [
+      "pbxn_5",
+      900,
+      1152
+    ]
+  },
+  {
     "name": "30mm_mk258",
     "localized": "MK258",
     "shell_type": "ApFsDs",
@@ -11860,6 +11933,20 @@
     ]
   },
   {
+    "name": "380mm_sprgr4581",
+    "localized": "380mm_sprgr4581",
+    "shell_type": "Rocket",
+    "caliber": 380,
+    "true_caliber": 380,
+    "velocity": 0,
+    "penetration": [],
+    "explosive": [
+      "tnt",
+      135000,
+      135000
+    ]
+  },
+  {
     "name": "40mm_36m",
     "localized": "36M",
     "shell_type": "ApHe",
@@ -12117,6 +12204,20 @@
       "rdx_tnt",
       32,
       41
+    ]
+  },
+  {
+    "name": "40mm_m822",
+    "localized": "M822",
+    "shell_type": "ApSolid",
+    "caliber": 40,
+    "true_caliber": 50,
+    "velocity": 200,
+    "penetration": [],
+    "explosive": [
+      "",
+      0,
+      0
     ]
   },
   {
@@ -17111,6 +17212,20 @@
     "name": "81mm_3d17",
     "localized": "81 mm smoke grenade 3D17",
     "shell_type": "Smoke",
+    "caliber": 105,
+    "true_caliber": 105,
+    "velocity": 0,
+    "penetration": [],
+    "explosive": [
+      "",
+      3470,
+      0
+    ]
+  },
+  {
+    "name": "81mm_3d17",
+    "localized": "81 mm smoke grenade 3D17",
+    "shell_type": "Smoke",
     "caliber": 81,
     "true_caliber": 81,
     "velocity": 0,
@@ -19155,6 +19270,37 @@
       ],
       [
         1500,
+        0
+      ]
+    ],
+    "explosive": [
+      "",
+      0,
+      0
+    ]
+  },
+  {
+    "name": "ap_i_t_ball_M20",
+    "localized": "ap_i_t_ball_M20",
+    "shell_type": "ApSolid",
+    "caliber": 13,
+    "true_caliber": 13,
+    "velocity": 1000,
+    "penetration": [
+      [
+        0,
+        23
+      ],
+      [
+        100,
+        22
+      ],
+      [
+        2400,
+        22
+      ],
+      [
+        2500,
         0
       ]
     ],

@@ -34,7 +34,7 @@ mod tests {
 	fn he_has_tnt_and_type() {
 		for shell in SHELLS.iter() {
 			if shell.shell_type == ShellType::He {
-				// println!("{}", shell.name);
+				dbg!(shell);
 				assert_ne!(shell.explosive.0, "");
 				assert_ne!(shell.explosive.1, 0);
 				assert_ne!(shell.explosive.2, 0);

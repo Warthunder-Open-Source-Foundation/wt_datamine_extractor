@@ -60,7 +60,7 @@ impl Shell {
 			if name == "152mm_mim146" {
 				pre_type = "\"atgm_tank\"".to_owned();
 			}
-			let shell_type = if let Ok(result) = ShellType::from_str(&pre_type) {
+			let mut shell_type = if let Ok(result) = ShellType::from_str(&pre_type) {
 				result
 			} else if !bullet.contains("explosiveType") {
 				ShellType::ApSolid
@@ -68,7 +68,7 @@ impl Shell {
 				ShellType::ApHe
 			};
 
-			let explosive: (String, f64, f64) = if shell_type.is_inert().not() {
+			let mut explosive: (String, f64, f64) = if shell_type.is_inert().not() {
 				let explosive_type = parameter_to_data(bullet, "explosiveType").map_or_else(|| "".to_owned(), |value| value.trim().replace('\\', "").replace('\"', ""));
 				let raw_mass: f64 = parameter_to_data(bullet, "explosiveMass").as_ref().map_or(0.0, |mass| (f64::from_str(mass).unwrap() * 1000.0).round());
 				(
@@ -79,6 +79,14 @@ impl Shell {
 			} else {
 				("".to_owned(), 0.0, 0.0)
 			};
+
+			// Another edge case
+			if shell_type == ShellType::He {
+				if explosive.0 == "" {
+					explosive = ("".to_owned(), 0.0, 0.0);
+					shell_type = ShellType::ApSolid;
+				}
+			}
 
 			let penetration: Vec<(u32, u32)> = shell_to_penetration(bullet);
 
@@ -234,7 +242,9 @@ impl FromStr for ShellType {
 			r#""heat_fs_rocket""# => {
 				Ok(Self::Heat)
 			}
-			r#""practice_tank""# => {
+			r#""practice_tank""# |
+			r#""tp_tank""# |
+			r#""tphv_tank""# => {
 				Ok(Self::Practice)
 			}
 			r#""sap_hei_tank""# |
