@@ -1456,6 +1456,23 @@
     ]
   },
   {
+    "name": "sdi_minotaur",
+    "localized": "sdi_minotaur",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      },
+      {
+        "crew": "Commander",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
     "name": "space_rocket_launcher",
     "localized": "Space rocket launcher",
     "vehicle_type": "Tank",

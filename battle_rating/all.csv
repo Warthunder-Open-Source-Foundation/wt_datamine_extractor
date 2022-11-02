@@ -1146,6 +1146,8 @@ sa_342m;SA.342M Gazelle;25;25;26;6;France
 sa_341f;SA.341F Gazelle;24;24;26;6;France
 ussr_t_80u_yt_cup_2019;T-80U YT cup;29;29;29;7;USSR
 uk_challenger_II_yt_cup_2019;␙Challenger 2;28;28;28;7;Great Britain
+destroyer_heavy_tank_h;destroyer_heavy_tank_h;28;28;28;7;USSR
+sdi_minotaur;sdi_minotaur;28;28;28;7;USA
 us_m1a1_abrams_yt_cup_2019;M1A1 YT cup;29;29;29;7;USA
 germ_leopard_2a5_yt_cup_2019;Leopard 2A5 YT cup;30;30;30;7;Germany
 ussr_t_80;T-80;3;4;4;2;USSR
@@ -1297,6 +1299,7 @@ germ_pz_IV_L70;Panzer IV/70(V);13;13;13;3;Germany
 germ_pz_IV_L70_A;Panzer IV/70(A);10;10;10;3;Germany
 germ_kv_1B_finland;✠KV-IB;10;9;10;3;Germany
 germ_sturmpanzer_IV_brummbar;Brummbär;11;10;10;3;Germany
+germ_sturmmorser_sturmtiger;38 cm Sturmmörser;16;16;16;4;Germany
 germ_sturmpanzer_II;15cm sIG 33 B Sfl;0;0;0;1;Germany
 germ_kv_1_kwk_40;✠KW I C 756 (r);12;12;12;3;Germany
 germ_panzerjager_tiger;Jagdtiger;19;17;17;5;Germany
