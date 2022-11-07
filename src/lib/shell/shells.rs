@@ -8,6 +8,7 @@ use strum_macros::EnumIter;
 
 use crate::explosive::explosive::explosive_type_to_tnt;
 use crate::lang::{Lang, name_to_local};
+use crate::shell::error::ShellError;
 use crate::shell::known_shells::KnownShells;
 use crate::shell::penetration_select::shell_to_penetration;
 use crate::util::parameter_to_data;
@@ -60,12 +61,21 @@ impl Shell {
 			if name == "152mm_mim146" {
 				pre_type = "\"atgm_tank\"".to_owned();
 			}
-			let mut shell_type = if let Ok(result) = ShellType::from_str(&pre_type) {
-				result
-			} else if !bullet.contains("explosiveType") {
-				ShellType::ApSolid
-			} else {
-				ShellType::ApHe
+
+			let mut shell_type = match ShellType::from_str(&pre_type) {
+				Ok(s) => {s}
+				Err(e) => {
+					match e {
+						ShellError::UnknownType(u) => {panic!("Unknown shell type {u}")}
+						ShellError::NonDeterministic(_) => {
+							if bullet.contains("explosiveType") {
+								ShellType::ApHe
+							} else {
+								ShellType::ApSolid
+							}
+						}
+					}
+				}
 			};
 
 			let mut explosive: (String, f64, f64) = if shell_type.is_inert().not() {
@@ -177,7 +187,7 @@ impl ToString for ShellType {
 }
 
 impl FromStr for ShellType {
-	type Err = String;
+	type Err = ShellError;
 
 	#[allow(clippy::too_many_lines)]
 	fn from_str(s: &str) -> Result<Self, Self::Err> {
@@ -316,9 +326,11 @@ impl FromStr for ShellType {
 			r#""he_frag_i_t""# |
 			// Same with API-T
 			r#""ap_i_t""# => {
-				Err("Failed to resolve shell type from direct parameter".to_owned())
+				Err(ShellError::NonDeterministic(s.to_owned()))
 			}
-			_ => { panic!("Cannot determine shell type {}", s) }
+			_ => {
+				Err(ShellError::UnknownType(s.to_owned()))
+			}
 		}
 	}
 }

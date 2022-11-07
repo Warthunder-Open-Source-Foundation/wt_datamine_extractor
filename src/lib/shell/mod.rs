@@ -5,3 +5,4 @@ mod test;
 pub mod parent_gun;
 pub mod demarre;
 pub mod compress;
+mod error;
