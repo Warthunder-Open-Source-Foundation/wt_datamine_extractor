@@ -68,7 +68,7 @@ impl Shell {
 					match e {
 						ShellError::UnknownType(u) => {panic!("Unknown shell type {u}")}
 						ShellError::NonDeterministic(_) => {
-							if bullet.contains("explosiveType") {
+							if bullet.contains("explosiveType") && bullet.contains("explosiveMass") {
 								ShellType::ApHe
 							} else {
 								ShellType::ApSolid
