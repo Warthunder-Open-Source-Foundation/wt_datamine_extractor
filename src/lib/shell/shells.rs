@@ -9,6 +9,7 @@ use strum_macros::EnumIter;
 use crate::explosive::explosive::explosive_type_to_tnt;
 use crate::lang::{Lang, name_to_local};
 use crate::shell::error::ShellError;
+use crate::shell::explosive::{Explosive, ExplosiveType};
 use crate::shell::known_shells::KnownShells;
 use crate::shell::penetration_select::shell_to_penetration;
 use crate::util::parameter_to_data;
@@ -32,7 +33,7 @@ pub struct Shell {
 	pub penetration: Vec<(u32, u32)>,
 
 	// 1st is type, 2nd is raw mass, 3rd is TNT equivalent mass
-	pub explosive: (String, u32, u32),
+	pub explosive: ExplosiveType,
 }
 
 impl Shell {
@@ -78,25 +79,23 @@ impl Shell {
 				}
 			};
 
-			let mut explosive: (String, f64, f64) = if shell_type.is_inert().not() {
+			let mut explosive = if shell_type.is_inert().not() {
 				let explosive_type = parameter_to_data(bullet, "explosiveType").map_or_else(|| "".to_owned(), |value| value.trim().replace('\\', "").replace('\"', ""));
 				let raw_mass: f64 = parameter_to_data(bullet, "explosiveMass").as_ref().map_or(0.0, |mass| (f64::from_str(mass).unwrap() * 1000.0).round());
-				(
-					explosive_type.clone(),
-					raw_mass,
-					explosive_type_to_tnt(&explosive_type, raw_mass)
+				if explosive_type == "" {
+					dbg!(bullet);
+					panic!("No Explosive type! {}, {:?}", name, shell_type)
+				}
+				ExplosiveType::Energetic(
+					Explosive {
+						name_type: explosive_type.clone(),
+						raw_mass: raw_mass as u32,
+						equiv_mass: explosive_type_to_tnt(&explosive_type, raw_mass) as u32
+					}
 				)
 			} else {
-				("".to_owned(), 0.0, 0.0)
+				ExplosiveType::Inert
 			};
-
-			// Another edge case
-			if shell_type == ShellType::He {
-				if explosive.0 == "" {
-					explosive = ("".to_owned(), 0.0, 0.0);
-					shell_type = ShellType::ApSolid;
-				}
-			}
 
 			let penetration: Vec<(u32, u32)> = shell_to_penetration(bullet);
 
@@ -109,7 +108,7 @@ impl Shell {
 					true_caliber,
 					velocity,
 					penetration,
-					explosive: (explosive.0, explosive.1.round() as u32, explosive.2.round() as u32),
+					explosive,
 				}
 			);
 		}
@@ -340,7 +339,11 @@ impl ShellType {
 	pub fn is_inert(&self) -> bool {
 		match self {
 			Self::ApCr |
-			Self::ApSolid
+			Self::ApSolid |
+			Self::ApFsDs |
+			Self::Apds |
+			Self::Practice |
+			Self::Smoke // Technically smoke does have some explosive, but it is so incredibly insignificant that we will not count it
 			=> true,
 			_ => false
 		}
