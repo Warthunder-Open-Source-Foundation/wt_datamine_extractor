@@ -14,3 +14,16 @@ pub struct Explosive {
 	pub raw_mass: u32,
 	pub equiv_mass: u32,
 }
+
+impl ExplosiveType {
+	pub fn is_inert(&self) -> bool {
+		match self {
+			ExplosiveType::Inert => {
+				true
+			}
+			ExplosiveType::Energetic(_) => {
+				false
+			}
+		}
+	}
+}

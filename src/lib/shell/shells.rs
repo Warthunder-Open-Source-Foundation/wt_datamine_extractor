@@ -64,10 +64,10 @@ impl Shell {
 			}
 
 			let mut shell_type = match ShellType::from_str(&pre_type) {
-				Ok(s) => {s}
+				Ok(s) => { s }
 				Err(e) => {
 					match e {
-						ShellError::UnknownType(u) => {panic!("Unknown shell type {u}")}
+						ShellError::UnknownType(u) => { panic!("Unknown shell type {u}") }
 						ShellError::NonDeterministic(_) => {
 							if bullet.contains("explosiveType") && bullet.contains("explosiveMass") {
 								ShellType::ApHe
@@ -79,20 +79,8 @@ impl Shell {
 				}
 			};
 
-			let mut explosive = if shell_type.is_inert().not() {
-				let explosive_type = parameter_to_data(bullet, "explosiveType").map_or_else(|| "".to_owned(), |value| value.trim().replace('\\', "").replace('\"', ""));
-				let raw_mass: f64 = parameter_to_data(bullet, "explosiveMass").as_ref().map_or(0.0, |mass| (f64::from_str(mass).unwrap() * 1000.0).round());
-				if explosive_type == "" {
-					dbg!(bullet);
-					panic!("No Explosive type! {}, {:?}", name, shell_type)
-				}
-				ExplosiveType::Energetic(
-					Explosive {
-						name_type: explosive_type.clone(),
-						raw_mass: raw_mass as u32,
-						equiv_mass: explosive_type_to_tnt(&explosive_type, raw_mass) as u32
-					}
-				)
+			let explosive = if !shell_type.is_inert() {
+				get_shell_type(&bullet, &name, shell_type)
 			} else {
 				ExplosiveType::Inert
 			};
@@ -151,6 +139,44 @@ impl Shell {
 		}
 		None
 	}
+}
+
+pub fn get_shell_type(bullet: &str, name: &str, shell_type: ShellType) -> ExplosiveType {
+	let mut explosive_type = parameter_to_data(bullet, "explosiveType").map_or_else(|| "".to_owned(), |value| value.trim().replace('\\', "").replace('\"', ""));
+	let raw_mass: f64 = parameter_to_data(bullet, "explosiveMass").as_ref().map_or(0.0, |mass| (f64::from_str(mass).unwrap() * 1000.0).round());
+
+	/// Begin edge-case-catching
+	match name {
+		"125mm_hj_73" | "125mm_hj_73e" => {
+			explosive_type = "a_ix_1".to_owned();
+		}
+		"sonicWave" => {
+			return ExplosiveType::Inert;
+		}
+		"114mm_m8" => {
+			explosive_type = "tnt".to_owned();
+		}
+		"space_rocket" => {
+			return ExplosiveType::Inert;
+		}
+		"40mm_m822" => {
+			explosive_type = "octol".to_owned();
+		}
+		_ => {}
+	}
+	/// End edge-case-catching
+
+	if explosive_type == "" {
+		dbg!(bullet);
+		panic!("No Explosive type! {}, {:?}", name, shell_type)
+	}
+	ExplosiveType::Energetic(
+		Explosive {
+			name_type: explosive_type.clone(),
+			raw_mass: raw_mass as u32,
+			equiv_mass: explosive_type_to_tnt(&explosive_type, raw_mass) as u32,
+		}
+	)
 }
 
 #[derive(serde::Serialize, Copy, Clone, serde::Deserialize, Debug, PartialEq, EnumIter, Hash, Eq, const_gen::CompileConst, get_size::GetSize)]
@@ -343,6 +369,9 @@ impl ShellType {
 			Self::ApFsDs |
 			Self::Apds |
 			Self::Practice |
+			Self::Football |
+			Self::SonicWave |
+			Self::Napalm |
 			Self::Smoke // Technically smoke does have some explosive, but it is so incredibly insignificant that we will not count it
 			=> true,
 			_ => false

@@ -3,6 +3,7 @@ mod tests {
 	use std::collections::HashSet;
 
 	use lazy_static::lazy_static;
+	use crate::shell::explosive::ExplosiveType;
 
 	use crate::shell::known_shells::KnownShells;
 	use crate::shell::shells::{Shell, ShellType};
@@ -22,10 +23,7 @@ mod tests {
 		for shell in SHELLS.iter() {
 			// They fucking classified the sonic wave launcher as heat-fs
 			if shell.shell_type == ShellType::HeatFs && shell.name != "sonicWave" {
-				// println!("{} {}", shell.name, shell.shell_type.to_string());
-				assert_ne!(shell.explosive.0, "");
-				assert_ne!(shell.explosive.1, 0);
-				assert_ne!(shell.explosive.2, 0);
+				assert!(!shell.explosive.is_inert());
 			}
 		}
 	}
@@ -34,10 +32,7 @@ mod tests {
 	fn he_has_tnt_and_type() {
 		for shell in SHELLS.iter() {
 			if shell.shell_type == ShellType::He {
-				dbg!(shell);
-				assert_ne!(shell.explosive.0, "");
-				assert_ne!(shell.explosive.1, 0);
-				assert_ne!(shell.explosive.2, 0);
+				assert!(!shell.explosive.is_inert());
 			}
 		}
 	}
@@ -46,10 +41,7 @@ mod tests {
 	fn aphe_has_tnt_and_type() {
 		for shell in SHELLS.iter() {
 			if shell.shell_type == ShellType::ApHe {
-				// println!("{}", shell.name);
-				assert_ne!(shell.explosive.0, "");
-				assert_ne!(shell.explosive.1, 0);
-				assert_ne!(shell.explosive.2, 0);
+				assert!(!shell.explosive.is_inert());
 			}
 		}
 	}
@@ -71,10 +63,7 @@ mod tests {
 	fn hesh_he_has_tnt_and_type() {
 		for shell in SHELLS.iter() {
 			if shell.shell_type == ShellType::Hesh {
-				// println!("{}", shell.name);
-				assert_ne!(shell.explosive.0, "");
-				assert_ne!(shell.explosive.1, 0);
-				assert_ne!(shell.explosive.2, 0);
+				assert!(!shell.explosive.is_inert());
 			}
 		}
 	}
@@ -83,10 +72,7 @@ mod tests {
 	fn heat_he_has_tnt_and_type() {
 		for shell in SHELLS.iter() {
 			if shell.shell_type == ShellType::Heat {
-				// println!("{}", shell.name);
-				assert_ne!(shell.explosive.0, "");
-				assert_ne!(shell.explosive.1, 0);
-				assert_ne!(shell.explosive.2, 0);
+				assert!(!shell.explosive.is_inert());
 			}
 		}
 	}
@@ -95,10 +81,7 @@ mod tests {
 	fn sap_he_i_has_tnt_and_type() {
 		for shell in SHELLS.iter() {
 			if shell.shell_type == ShellType::SapHei {
-				// println!("{}", shell.name);
-				assert_ne!(shell.explosive.0, "");
-				assert_ne!(shell.explosive.1, 0);
-				assert_ne!(shell.explosive.2, 0);
+				assert!(!shell.explosive.is_inert());
 			}
 		}
 	}
@@ -107,10 +90,7 @@ mod tests {
 	fn sam_has_tnt_and_type() {
 		for shell in SHELLS.iter() {
 			if shell.shell_type == ShellType::Sam {
-				// println!("{}", shell.name);
-				assert_ne!(shell.explosive.0, "");
-				assert_ne!(shell.explosive.1, 0);
-				assert_ne!(shell.explosive.2, 0);
+				assert!(!shell.explosive.is_inert());
 			}
 		}
 	}
@@ -119,10 +99,7 @@ mod tests {
 	fn atgm_he_has_tnt_and_type() {
 		for shell in SHELLS.iter() {
 			if shell.shell_type == ShellType::AtgmHe {
-				// println!("{}", shell.name);
-				assert_ne!(shell.explosive.0, "");
-				assert_ne!(shell.explosive.1, 0);
-				assert_ne!(shell.explosive.2, 0);
+				assert!(!shell.explosive.is_inert());
 			}
 		}
 	}
@@ -131,10 +108,7 @@ mod tests {
 	fn shrapnel_he_has_tnt_and_type() {
 		for shell in SHELLS.iter() {
 			if shell.shell_type == ShellType::Shrapnel {
-				// println!("{}", shell.name);
-				assert_ne!(shell.explosive.0, "");
-				assert_ne!(shell.explosive.1, 0);
-				assert_ne!(shell.explosive.2, 0);
+				assert!(!shell.explosive.is_inert());
 			}
 		}
 	}
@@ -143,10 +117,7 @@ mod tests {
 	fn aam_he_has_tnt_and_type() {
 		for shell in SHELLS.iter() {
 			if shell.shell_type == ShellType::Aam {
-				// println!("{}", shell.name);
-				assert_ne!(shell.explosive.0, "");
-				assert_ne!(shell.explosive.1, 0);
-				assert_ne!(shell.explosive.2, 0);
+				assert!(!shell.explosive.is_inert());
 			}
 		}
 	}
@@ -157,10 +128,7 @@ mod tests {
 	fn ap_fs_ds_doesnt_have_tnt() {
 		for shell in SHELLS.iter() {
 			if shell.shell_type == ShellType::ApFsDs {
-				// println!("{}", shell.name);
-				assert_eq!(shell.explosive.0, "");
-				assert_eq!(shell.explosive.1, 0);
-				assert_eq!(shell.explosive.2, 0);
+				assert!(shell.explosive.is_inert());
 			}
 		}
 	}
@@ -169,10 +137,7 @@ mod tests {
 	fn practice_doesnt_have_tnt() {
 		for shell in SHELLS.iter() {
 			if shell.shell_type == ShellType::Practice {
-				// println!("{}", shell.name);
-				assert_eq!(shell.explosive.0, "");
-				assert_eq!(shell.explosive.1, 0);
-				assert_eq!(shell.explosive.2, 0);
+				assert!(shell.explosive.is_inert());
 			}
 		}
 	}
@@ -181,10 +146,7 @@ mod tests {
 	fn ap_cr_doesnt_have_tnt() {
 		for shell in SHELLS.iter() {
 			if shell.shell_type == ShellType::ApCr {
-				// println!("{}", shell.name);
-				assert_eq!(shell.explosive.0, "");
-				assert_eq!(shell.explosive.1, 0);
-				assert_eq!(shell.explosive.2, 0);
+				assert!(shell.explosive.is_inert());
 			}
 		}
 	}
@@ -193,10 +155,7 @@ mod tests {
 	fn solid_ap_doesnt_have_tnt() {
 		for shell in SHELLS.iter() {
 			if shell.shell_type == ShellType::ApSolid {
-				// println!("{}", shell.name);
-				assert_eq!(shell.explosive.0, "");
-				assert_eq!(shell.explosive.1, 0);
-				assert_eq!(shell.explosive.2, 0);
+				assert!(shell.explosive.is_inert());
 			}
 		}
 	}
