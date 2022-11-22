@@ -6,4 +6,4 @@ pub mod parent_gun;
 pub mod demarre;
 pub mod compress;
 mod error;
-mod explosive;
+pub mod explosive;
