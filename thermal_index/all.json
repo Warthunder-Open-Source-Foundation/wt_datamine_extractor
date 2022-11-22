@@ -1573,7 +1573,7 @@
   },
   {
     "name": "sw_leopard_2a4_fin",
-    "localized": "Leopard 2A4",
+    "localized": "⦿Leopard 2A4",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1585,7 +1585,7 @@
   },
   {
     "name": "sw_leopard_2a6nl",
-    "localized": "Leopard 2A6",
+    "localized": "⦿Leopard 2A6",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1917,7 +1917,7 @@
   },
   {
     "name": "ucav_wing_loong_i",
-    "localized": "Wing Long I",
+    "localized": "Wing Loong I",
     "vehicle_type": "Aircraft",
     "sights": [
       {
@@ -1929,7 +1929,7 @@
   },
   {
     "name": "ucav_wing_loong_i_killstreak",
-    "localized": "Wing Long I",
+    "localized": "Wing Loong I",
     "vehicle_type": "Aircraft",
     "sights": [
       {

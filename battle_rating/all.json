@@ -52,7 +52,7 @@
   },
   {
     "name": "ucav_wing_loong_i",
-    "localized": "Wing Long I",
+    "localized": "Wing Loong I",
     "arcade": {
       "economic_rank": 29
     },
@@ -256,7 +256,7 @@
   },
   {
     "name": "ucav_wing_loong_i_killstreak",
-    "localized": "Wing Long I",
+    "localized": "Wing Loong I",
     "arcade": {
       "economic_rank": 29
     },
@@ -22134,6 +22134,23 @@
     }
   },
   {
+    "name": "germ_sturmmorser_sturmtiger_event",
+    "localized": "38 cm Sturmmörser",
+    "arcade": {
+      "economic_rank": 16
+    },
+    "realistic": {
+      "economic_rank": 16
+    },
+    "simulator": {
+      "economic_rank": 16
+    },
+    "rank": 4,
+    "tech_tree": {
+      "nation": "Germany"
+    }
+  },
+  {
     "name": "germ_sturmpanzer_II",
     "localized": "15cm sIG 33 B Sfl",
     "arcade": {
@@ -28357,7 +28374,7 @@
   },
   {
     "name": "sw_zsu_57_2",
-    "localized": "ZSU-57-2",
+    "localized": "⦿ZSU-57-2",
     "arcade": {
       "economic_rank": 18
     },
@@ -28442,7 +28459,7 @@
   },
   {
     "name": "sw_leopard_2a6nl",
-    "localized": "Leopard 2A6",
+    "localized": "⦿Leopard 2A6",
     "arcade": {
       "economic_rank": 30
     },
@@ -28459,7 +28476,7 @@
   },
   {
     "name": "sw_pt_76b",
-    "localized": "PT-76",
+    "localized": "⦿PT-76",
     "arcade": {
       "economic_rank": 12
     },
@@ -28476,7 +28493,7 @@
   },
   {
     "name": "sw_vickers_mk_e_45",
-    "localized": "T-26E",
+    "localized": "⦿T-26E",
     "arcade": {
       "economic_rank": 0
     },
@@ -28510,7 +28527,7 @@
   },
   {
     "name": "sw_t_28",
-    "localized": "T-28",
+    "localized": "⦿T-28",
     "arcade": {
       "economic_rank": 2
     },
@@ -28544,7 +28561,7 @@
   },
   {
     "name": "sw_t_34_1941",
-    "localized": "T-34",
+    "localized": "⦿T-34",
     "arcade": {
       "economic_rank": 8
     },
@@ -28561,7 +28578,7 @@
   },
   {
     "name": "sw_t_34_85_zis_53",
-    "localized": "T-34-85",
+    "localized": "⦿T-34-85",
     "arcade": {
       "economic_rank": 14
     },
@@ -28578,7 +28595,7 @@
   },
   {
     "name": "sw_pzkpfw_IV_ausf_J",
-    "localized": "Pz.IV",
+    "localized": "⦿Pz.IV",
     "arcade": {
       "economic_rank": 9
     },
@@ -28595,7 +28612,7 @@
   },
   {
     "name": "sw_a_34_comet",
-    "localized": "Comet I",
+    "localized": "⦿Comet I",
     "arcade": {
       "economic_rank": 12
     },
@@ -28612,7 +28629,7 @@
   },
   {
     "name": "sw_charioteer_mk_7",
-    "localized": "Charioteer Mk VII",
+    "localized": "⦿Charioteer Mk VII",
     "arcade": {
       "economic_rank": 14
     },
@@ -28629,7 +28646,7 @@
   },
   {
     "name": "sw_t_54_1951",
-    "localized": "T-54",
+    "localized": "⦿T-54",
     "arcade": {
       "economic_rank": 20
     },
@@ -28663,7 +28680,7 @@
   },
   {
     "name": "sw_leopard_2a4_fin",
-    "localized": "Leopard 2A4",
+    "localized": "⦿Leopard 2A4",
     "arcade": {
       "economic_rank": 27
     },
@@ -40665,7 +40682,7 @@
   },
   {
     "name": "it_gabbiano_class_c16",
-    "localized": "RN Folaga",
+    "localized": "Folaga",
     "arcade": {
       "economic_rank": 7
     },

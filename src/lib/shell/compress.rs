@@ -1,4 +1,5 @@
 use get_size::GetSize;
+use crate::shell::explosive::ExplosiveType;
 
 use crate::shell::parent_gun::ParentGun;
 use crate::shell::shells::{Shell, ShellType};
@@ -24,7 +25,7 @@ pub struct CompressedShells {
 	pub penetration: Vec<Vec<(u32, u32)>>,
 
 	// 1st is type, 2nd is raw mass, 3rd is TNT equivalent mass
-	pub explosive: Vec<(String, u32, u32)>,
+	pub explosive: Vec<ExplosiveType>,
 }
 
 impl CompressedShells {

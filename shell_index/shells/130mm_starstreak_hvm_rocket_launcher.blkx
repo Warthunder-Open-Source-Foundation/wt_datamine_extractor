@@ -193,7 +193,7 @@
         "maxDeltaAngle": 0.01,
         "dragCx": 0.01,
         "length": 0.68,
-        "distFromCmToStab": 0.01,
+        "distFromCmToStab": 0.001,
         "CxK": 1.6,
         "WdK": [
           0.1,
@@ -207,7 +207,7 @@
         "operatedDist": 9800.0,
         "autoLeveling": true,
         "autoAiming": true,
-        "maxAxisValues": 4.25,
+        "maxAxisValues": 2.75,
         "maxLateralAcceleration": 60.0,
         "wingAreaMult": 1.25,
         "CyK": 5.0,

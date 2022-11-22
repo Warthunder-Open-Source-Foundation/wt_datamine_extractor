@@ -80,7 +80,8 @@
         "armorThickness": 30.0
       },
       "superstructure_side_dm": {
-        "armorThickness": 50.0
+        "armorThickness": 50.0,
+        "ignoreSolidDimension": true
       },
       "body_side_dm": {
         "armorThickness": 5.0
@@ -2206,7 +2207,7 @@
         "accuracyGnd": 0.0,
         "errMeasureVel": 0.0,
         "errMeasureVelFast": 0.0,
-        "errMeasureVelFwdShift": 0.0,
+        "errMeasureVelFwdShift": 1.5,
         "errMeasureVelDir": 0.0,
         "errTargettingOn100kmph": 0.0,
         "errTargetting": 3.0,
@@ -3653,7 +3654,7 @@
               "accuracyGnd": 0.0,
               "errMeasureVel": 0.0,
               "errMeasureVelFast": 0.0,
-              "errMeasureVelFwdShift": 0.0,
+              "errMeasureVelFwdShift": 1.5,
               "errMeasureVelDir": 0.0,
               "errTargettingOn100kmph": 0.0,
               "errTargetting": 3.0,

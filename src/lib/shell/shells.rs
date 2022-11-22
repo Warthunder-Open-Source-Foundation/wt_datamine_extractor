@@ -8,6 +8,8 @@ use strum_macros::EnumIter;
 
 use crate::explosive::explosive::explosive_type_to_tnt;
 use crate::lang::{Lang, name_to_local};
+use crate::shell::error::ShellError;
+use crate::shell::explosive::{Explosive, ExplosiveType};
 use crate::shell::known_shells::KnownShells;
 use crate::shell::penetration_select::shell_to_penetration;
 use crate::util::parameter_to_data;
@@ -31,7 +33,7 @@ pub struct Shell {
 	pub penetration: Vec<(u32, u32)>,
 
 	// 1st is type, 2nd is raw mass, 3rd is TNT equivalent mass
-	pub explosive: (String, u32, u32),
+	pub explosive: ExplosiveType,
 }
 
 impl Shell {
@@ -60,33 +62,28 @@ impl Shell {
 			if name == "152mm_mim146" {
 				pre_type = "\"atgm_tank\"".to_owned();
 			}
-			let mut shell_type = if let Ok(result) = ShellType::from_str(&pre_type) {
-				result
-			} else if !bullet.contains("explosiveType") {
-				ShellType::ApSolid
-			} else {
-				ShellType::ApHe
-			};
 
-			let mut explosive: (String, f64, f64) = if shell_type.is_inert().not() {
-				let explosive_type = parameter_to_data(bullet, "explosiveType").map_or_else(|| "".to_owned(), |value| value.trim().replace('\\', "").replace('\"', ""));
-				let raw_mass: f64 = parameter_to_data(bullet, "explosiveMass").as_ref().map_or(0.0, |mass| (f64::from_str(mass).unwrap() * 1000.0).round());
-				(
-					explosive_type.clone(),
-					raw_mass,
-					explosive_type_to_tnt(&explosive_type, raw_mass)
-				)
-			} else {
-				("".to_owned(), 0.0, 0.0)
-			};
-
-			// Another edge case
-			if shell_type == ShellType::He {
-				if explosive.0 == "" {
-					explosive = ("".to_owned(), 0.0, 0.0);
-					shell_type = ShellType::ApSolid;
+			let mut shell_type = match ShellType::from_str(&pre_type) {
+				Ok(s) => { s }
+				Err(e) => {
+					match e {
+						ShellError::UnknownType(u) => { panic!("Unknown shell type {u}") }
+						ShellError::NonDeterministic(_) => {
+							if bullet.contains("explosiveType") && bullet.contains("explosiveMass") {
+								ShellType::ApHe
+							} else {
+								ShellType::ApSolid
+							}
+						}
+					}
 				}
-			}
+			};
+
+			let explosive = if !shell_type.is_inert() {
+				get_shell_type(&bullet, &name, shell_type)
+			} else {
+				ExplosiveType::Inert
+			};
 
 			let penetration: Vec<(u32, u32)> = shell_to_penetration(bullet);
 
@@ -99,7 +96,7 @@ impl Shell {
 					true_caliber,
 					velocity,
 					penetration,
-					explosive: (explosive.0, explosive.1.round() as u32, explosive.2.round() as u32),
+					explosive,
 				}
 			);
 		}
@@ -144,6 +141,44 @@ impl Shell {
 	}
 }
 
+pub fn get_shell_type(bullet: &str, name: &str, shell_type: ShellType) -> ExplosiveType {
+	let mut explosive_type = parameter_to_data(bullet, "explosiveType").map_or_else(|| "".to_owned(), |value| value.trim().replace('\\', "").replace('\"', ""));
+	let raw_mass: f64 = parameter_to_data(bullet, "explosiveMass").as_ref().map_or(0.0, |mass| (f64::from_str(mass).unwrap() * 1000.0).round());
+
+	/// Begin edge-case-catching
+	match name {
+		"125mm_hj_73" | "125mm_hj_73e" => {
+			explosive_type = "a_ix_1".to_owned();
+		}
+		"sonicWave" => {
+			return ExplosiveType::Inert;
+		}
+		"114mm_m8" => {
+			explosive_type = "tnt".to_owned();
+		}
+		"space_rocket" => {
+			return ExplosiveType::Inert;
+		}
+		"40mm_m822" => {
+			explosive_type = "octol".to_owned();
+		}
+		_ => {}
+	}
+	/// End edge-case-catching
+
+	if explosive_type == "" {
+		dbg!(bullet);
+		panic!("No Explosive type! {}, {:?}", name, shell_type)
+	}
+	ExplosiveType::Energetic(
+		Explosive {
+			name_type: explosive_type.clone(),
+			raw_mass: raw_mass as u32,
+			equiv_mass: explosive_type_to_tnt(&explosive_type, raw_mass) as u32,
+		}
+	)
+}
+
 #[derive(serde::Serialize, Copy, Clone, serde::Deserialize, Debug, PartialEq, EnumIter, Hash, Eq, const_gen::CompileConst, get_size::GetSize)]
 pub enum ShellType {
 	ApFsDs = 0,
@@ -177,7 +212,7 @@ impl ToString for ShellType {
 }
 
 impl FromStr for ShellType {
-	type Err = String;
+	type Err = ShellError;
 
 	#[allow(clippy::too_many_lines)]
 	fn from_str(s: &str) -> Result<Self, Self::Err> {
@@ -316,9 +351,11 @@ impl FromStr for ShellType {
 			r#""he_frag_i_t""# |
 			// Same with API-T
 			r#""ap_i_t""# => {
-				Err("Failed to resolve shell type from direct parameter".to_owned())
+				Err(ShellError::NonDeterministic(s.to_owned()))
 			}
-			_ => { panic!("Cannot determine shell type {}", s) }
+			_ => {
+				Err(ShellError::UnknownType(s.to_owned()))
+			}
 		}
 	}
 }
@@ -328,7 +365,14 @@ impl ShellType {
 	pub fn is_inert(&self) -> bool {
 		match self {
 			Self::ApCr |
-			Self::ApSolid
+			Self::ApSolid |
+			Self::ApFsDs |
+			Self::Apds |
+			Self::Practice |
+			Self::Football |
+			Self::SonicWave |
+			Self::Napalm |
+			Self::Smoke // Technically smoke does have some explosive, but it is so incredibly insignificant that we will not count it
 			=> true,
 			_ => false
 		}
