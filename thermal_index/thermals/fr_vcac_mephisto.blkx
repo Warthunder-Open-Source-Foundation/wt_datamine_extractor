@@ -419,10 +419,7 @@
     "xray_parts": {
       "armorClass": "RHA_tank_modern",
       "hidableInXrayViewer": true,
-      "armorThickness": 0.01,
       "createSecondaryShatters": false,
-      "genericArmorQuality": 0.0,
-      "cumulativeArmorQuality": 0.0,
       "composite_armor_hull_01_dm": {
         "armorThickness": 5.0
       }
@@ -2009,7 +2006,7 @@
             1.15,
             1.0
           ],
-          "thrust": 18000.0,
+          "thrust": 13900.0,
           "reverseMult": 0.2
         },
         {
@@ -2019,7 +2016,7 @@
             1.15,
             -1.0
           ],
-          "thrust": 18000.0,
+          "thrust": 13900.0,
           "reverseMult": 0.2
         }
       ]

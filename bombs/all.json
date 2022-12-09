@@ -1053,6 +1053,15 @@
     "can_kill_npc_ship": true
   },
   {
+    "name": "su_fab250_m54",
+    "weight": 236.0,
+    "explosive_mass": 97.0,
+    "explosive_type": "tnt",
+    "explosive_equiv": 97.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
     "name": "su_fab250x",
     "weight": 252.2,
     "explosive_mass": 122.25,
