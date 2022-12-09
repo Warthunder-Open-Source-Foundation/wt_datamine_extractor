@@ -312,7 +312,7 @@
       "economic_rank": 27
     },
     "realistic": {
-      "economic_rank": 27
+      "economic_rank": 28
     },
     "simulator": {
       "economic_rank": 27
@@ -445,7 +445,7 @@
     "name": "f-4c",
     "localized": "F-4C Phantom II",
     "arcade": {
-      "economic_rank": 29
+      "economic_rank": 28
     },
     "realistic": {
       "economic_rank": 27
@@ -550,7 +550,7 @@
       "economic_rank": 26
     },
     "realistic": {
-      "economic_rank": 27
+      "economic_rank": 26
     },
     "simulator": {
       "economic_rank": 26
@@ -567,7 +567,7 @@
       "economic_rank": 26
     },
     "realistic": {
-      "economic_rank": 27
+      "economic_rank": 26
     },
     "simulator": {
       "economic_rank": 26
@@ -601,7 +601,7 @@
       "economic_rank": 26
     },
     "realistic": {
-      "economic_rank": 27
+      "economic_rank": 26
     },
     "simulator": {
       "economic_rank": 27
@@ -683,7 +683,7 @@
     "name": "f-104s_asa",
     "localized": "F-104S.ASA",
     "arcade": {
-      "economic_rank": 30
+      "economic_rank": 31
     },
     "realistic": {
       "economic_rank": 31
@@ -853,7 +853,7 @@
     "name": "f-4f",
     "localized": "F-4F Early",
     "arcade": {
-      "economic_rank": 29
+      "economic_rank": 28
     },
     "realistic": {
       "economic_rank": 28
@@ -1230,7 +1230,7 @@
       "economic_rank": 21
     },
     "realistic": {
-      "economic_rank": 20
+      "economic_rank": 21
     },
     "simulator": {
       "economic_rank": 19
@@ -2029,7 +2029,7 @@
       "economic_rank": 1
     },
     "realistic": {
-      "economic_rank": 2
+      "economic_rank": 1
     },
     "simulator": {
       "economic_rank": 2
@@ -2369,7 +2369,7 @@
       "economic_rank": 7
     },
     "realistic": {
-      "economic_rank": 6
+      "economic_rank": 7
     },
     "simulator": {
       "economic_rank": 5
@@ -2403,7 +2403,7 @@
       "economic_rank": 7
     },
     "realistic": {
-      "economic_rank": 6
+      "economic_rank": 7
     },
     "simulator": {
       "economic_rank": 5
@@ -2794,7 +2794,7 @@
       "economic_rank": 8
     },
     "realistic": {
-      "economic_rank": 9
+      "economic_rank": 10
     },
     "simulator": {
       "economic_rank": 8
@@ -3355,7 +3355,7 @@
       "economic_rank": 9
     },
     "realistic": {
-      "economic_rank": 9
+      "economic_rank": 8
     },
     "simulator": {
       "economic_rank": 8
@@ -3372,7 +3372,7 @@
       "economic_rank": 9
     },
     "realistic": {
-      "economic_rank": 9
+      "economic_rank": 8
     },
     "simulator": {
       "economic_rank": 8
@@ -3389,7 +3389,7 @@
       "economic_rank": 8
     },
     "realistic": {
-      "economic_rank": 9
+      "economic_rank": 8
     },
     "simulator": {
       "economic_rank": 8
@@ -5395,7 +5395,7 @@
       "economic_rank": 8
     },
     "realistic": {
-      "economic_rank": 6
+      "economic_rank": 5
     },
     "simulator": {
       "economic_rank": 7
@@ -5871,7 +5871,7 @@
       "economic_rank": 8
     },
     "realistic": {
-      "economic_rank": 9
+      "economic_rank": 8
     },
     "simulator": {
       "economic_rank": 8
@@ -7840,7 +7840,7 @@
     "name": "z_1007_bis_serie3",
     "localized": "Z.1007 bis serie 3",
     "arcade": {
-      "economic_rank": 6
+      "economic_rank": 7
     },
     "realistic": {
       "economic_rank": 5
@@ -10053,7 +10053,7 @@
       "economic_rank": 10
     },
     "realistic": {
-      "economic_rank": 13
+      "economic_rank": 12
     },
     "simulator": {
       "economic_rank": 15
@@ -10645,7 +10645,7 @@
     "name": "ki_84_ko",
     "localized": "Ki-84 ko",
     "arcade": {
-      "economic_rank": 13
+      "economic_rank": 14
     },
     "realistic": {
       "economic_rank": 13
@@ -10662,7 +10662,7 @@
     "name": "ki_84_ko_china",
     "localized": "␗Ki-84 ko",
     "arcade": {
-      "economic_rank": 13
+      "economic_rank": 14
     },
     "realistic": {
       "economic_rank": 13
@@ -10679,7 +10679,7 @@
     "name": "ki_84_otsu",
     "localized": "Ki-84 otsu",
     "arcade": {
-      "economic_rank": 15
+      "economic_rank": 16
     },
     "realistic": {
       "economic_rank": 14
@@ -10781,7 +10781,7 @@
     "name": "la-9",
     "localized": "La-9",
     "arcade": {
-      "economic_rank": 15
+      "economic_rank": 16
     },
     "realistic": {
       "economic_rank": 15
@@ -11345,7 +11345,7 @@
       "economic_rank": 7
     },
     "realistic": {
-      "economic_rank": 6
+      "economic_rank": 7
     },
     "simulator": {
       "economic_rank": 5
@@ -11549,7 +11549,7 @@
       "economic_rank": 26
     },
     "realistic": {
-      "economic_rank": 26
+      "economic_rank": 25
     },
     "simulator": {
       "economic_rank": 26
@@ -11804,7 +11804,7 @@
       "economic_rank": 9
     },
     "realistic": {
-      "economic_rank": 9
+      "economic_rank": 8
     },
     "simulator": {
       "economic_rank": 9
@@ -11821,7 +11821,7 @@
       "economic_rank": 9
     },
     "realistic": {
-      "economic_rank": 9
+      "economic_rank": 8
     },
     "simulator": {
       "economic_rank": 10
@@ -12195,7 +12195,7 @@
       "economic_rank": 19
     },
     "realistic": {
-      "economic_rank": 20
+      "economic_rank": 21
     },
     "simulator": {
       "economic_rank": 20
@@ -12212,7 +12212,7 @@
       "economic_rank": 20
     },
     "realistic": {
-      "economic_rank": 20
+      "economic_rank": 21
     },
     "simulator": {
       "economic_rank": 18
@@ -12229,7 +12229,7 @@
       "economic_rank": 19
     },
     "realistic": {
-      "economic_rank": 20
+      "economic_rank": 21
     },
     "simulator": {
       "economic_rank": 19
@@ -12297,7 +12297,7 @@
       "economic_rank": 17
     },
     "realistic": {
-      "economic_rank": 17
+      "economic_rank": 16
     },
     "simulator": {
       "economic_rank": 17
@@ -12314,7 +12314,7 @@
       "economic_rank": 17
     },
     "realistic": {
-      "economic_rank": 17
+      "economic_rank": 16
     },
     "simulator": {
       "economic_rank": 17
@@ -12583,7 +12583,7 @@
     "name": "j2m3",
     "localized": "J2M3",
     "arcade": {
-      "economic_rank": 14
+      "economic_rank": 15
     },
     "realistic": {
       "economic_rank": 14
@@ -12654,7 +12654,7 @@
       "economic_rank": 20
     },
     "realistic": {
-      "economic_rank": 21
+      "economic_rank": 20
     },
     "simulator": {
       "economic_rank": 21
@@ -13229,7 +13229,7 @@
     "name": "douglas_ad_2",
     "localized": "AD-2",
     "arcade": {
-      "economic_rank": 13
+      "economic_rank": 12
     },
     "realistic": {
       "economic_rank": 14
@@ -13994,7 +13994,7 @@
     "name": "yak-9b",
     "localized": "Yak-9B",
     "arcade": {
-      "economic_rank": 5
+      "economic_rank": 6
     },
     "realistic": {
       "economic_rank": 6
@@ -14436,7 +14436,7 @@
     "name": "d4y2",
     "localized": "D4Y2",
     "arcade": {
-      "economic_rank": 4
+      "economic_rank": 3
     },
     "realistic": {
       "economic_rank": 4
@@ -14609,7 +14609,7 @@
       "economic_rank": 26
     },
     "realistic": {
-      "economic_rank": 26
+      "economic_rank": 25
     },
     "simulator": {
       "economic_rank": 26
@@ -14674,7 +14674,7 @@
     "name": "harrier_gr3",
     "localized": "Harrier GR.3",
     "arcade": {
-      "economic_rank": 26
+      "economic_rank": 27
     },
     "realistic": {
       "economic_rank": 26
@@ -14691,10 +14691,10 @@
     "name": "harrier_gr7",
     "localized": "Harrier GR.7",
     "arcade": {
-      "economic_rank": 30
+      "economic_rank": 31
     },
     "realistic": {
-      "economic_rank": 30
+      "economic_rank": 31
     },
     "simulator": {
       "economic_rank": 30
@@ -14827,7 +14827,7 @@
     "name": "su_25k",
     "localized": "Su-25K",
     "arcade": {
-      "economic_rank": 26
+      "economic_rank": 27
     },
     "realistic": {
       "economic_rank": 26
@@ -14844,7 +14844,7 @@
     "name": "su_25",
     "localized": "Su-25",
     "arcade": {
-      "economic_rank": 26
+      "economic_rank": 27
     },
     "realistic": {
       "economic_rank": 26
@@ -15068,7 +15068,7 @@
       "economic_rank": 31
     },
     "realistic": {
-      "economic_rank": 30
+      "economic_rank": 31
     },
     "simulator": {
       "economic_rank": 30
@@ -15527,7 +15527,7 @@
       "economic_rank": 16
     },
     "realistic": {
-      "economic_rank": 15
+      "economic_rank": 16
     },
     "simulator": {
       "economic_rank": 14
@@ -16119,7 +16119,7 @@
     "name": "douglas_ad_4_france",
     "localized": "⦿AD-4",
     "arcade": {
-      "economic_rank": 14
+      "economic_rank": 13
     },
     "realistic": {
       "economic_rank": 15
@@ -16153,7 +16153,7 @@
     "name": "douglas_ad_4",
     "localized": "AD-4",
     "arcade": {
-      "economic_rank": 15
+      "economic_rank": 14
     },
     "realistic": {
       "economic_rank": 15
@@ -16190,7 +16190,7 @@
       "economic_rank": 16
     },
     "realistic": {
-      "economic_rank": 16
+      "economic_rank": 15
     },
     "simulator": {
       "economic_rank": 17
@@ -16612,7 +16612,7 @@
     "name": "mirage_f1c",
     "localized": "Mirage F1C",
     "arcade": {
-      "economic_rank": 30
+      "economic_rank": 31
     },
     "realistic": {
       "economic_rank": 31
@@ -17091,7 +17091,7 @@
       "economic_rank": 9
     },
     "realistic": {
-      "economic_rank": 11
+      "economic_rank": 12
     },
     "simulator": {
       "economic_rank": 9
@@ -17465,7 +17465,7 @@
       "economic_rank": 27
     },
     "realistic": {
-      "economic_rank": 26
+      "economic_rank": 25
     },
     "simulator": {
       "economic_rank": 28
@@ -17700,7 +17700,7 @@
     "name": "la-9_china",
     "localized": "␗La-9",
     "arcade": {
-      "economic_rank": 15
+      "economic_rank": 16
     },
     "realistic": {
       "economic_rank": 15
@@ -17907,7 +17907,7 @@
       "economic_rank": 9
     },
     "realistic": {
-      "economic_rank": 9
+      "economic_rank": 8
     },
     "simulator": {
       "economic_rank": 8
@@ -18040,7 +18040,7 @@
     "name": "a_4h",
     "localized": "✡A-4H",
     "arcade": {
-      "economic_rank": 22
+      "economic_rank": 23
     },
     "realistic": {
       "economic_rank": 22
@@ -20559,7 +20559,7 @@
       "economic_rank": 10
     },
     "realistic": {
-      "economic_rank": 10
+      "economic_rank": 9
     },
     "simulator": {
       "economic_rank": 10
@@ -20998,7 +20998,7 @@
     "name": "ussr_t_90a",
     "localized": "Т-90А",
     "arcade": {
-      "economic_rank": 29
+      "economic_rank": 28
     },
     "realistic": {
       "economic_rank": 29
@@ -22120,10 +22120,10 @@
     "name": "germ_sturmmorser_sturmtiger",
     "localized": "38 cm Sturmmörser",
     "arcade": {
-      "economic_rank": 16
+      "economic_rank": 15
     },
     "realistic": {
-      "economic_rank": 16
+      "economic_rank": 14
     },
     "simulator": {
       "economic_rank": 16
@@ -22137,10 +22137,10 @@
     "name": "germ_sturmmorser_sturmtiger_event",
     "localized": "38 cm Sturmmörser",
     "arcade": {
-      "economic_rank": 16
+      "economic_rank": 15
     },
     "realistic": {
-      "economic_rank": 16
+      "economic_rank": 14
     },
     "simulator": {
       "economic_rank": 16
@@ -23024,7 +23024,7 @@
       "economic_rank": 1
     },
     "realistic": {
-      "economic_rank": 1
+      "economic_rank": 2
     },
     "simulator": {
       "economic_rank": 1
@@ -23157,7 +23157,7 @@
     "name": "it_c1_ariete",
     "localized": "Ariete",
     "arcade": {
-      "economic_rank": 30
+      "economic_rank": 29
     },
     "realistic": {
       "economic_rank": 29
@@ -23636,7 +23636,7 @@
       "economic_rank": 9
     },
     "realistic": {
-      "economic_rank": 9
+      "economic_rank": 10
     },
     "simulator": {
       "economic_rank": 9
@@ -24517,7 +24517,7 @@
     "name": "us_ags_teledyne",
     "localized": "AGS",
     "arcade": {
-      "economic_rank": 26
+      "economic_rank": 27
     },
     "realistic": {
       "economic_rank": 27
@@ -24534,7 +24534,7 @@
     "name": "us_xm_8",
     "localized": "XM8",
     "arcade": {
-      "economic_rank": 25
+      "economic_rank": 24
     },
     "realistic": {
       "economic_rank": 25
@@ -27869,7 +27869,7 @@
       "economic_rank": 1
     },
     "realistic": {
-      "economic_rank": 1
+      "economic_rank": 2
     },
     "simulator": {
       "economic_rank": 1
@@ -27968,7 +27968,7 @@
     "name": "sw_strf_9056",
     "localized": "Strf 9040 BILL",
     "arcade": {
-      "economic_rank": 27
+      "economic_rank": 28
     },
     "realistic": {
       "economic_rank": 27
@@ -28141,7 +28141,7 @@
       "economic_rank": 18
     },
     "realistic": {
-      "economic_rank": 18
+      "economic_rank": 19
     },
     "simulator": {
       "economic_rank": 18
@@ -29416,7 +29416,7 @@
       "economic_rank": 9
     },
     "realistic": {
-      "economic_rank": 10
+      "economic_rank": 9
     },
     "simulator": {
       "economic_rank": 10
@@ -29481,10 +29481,10 @@
     "name": "uk_fv4005",
     "localized": "FV4005",
     "arcade": {
-      "economic_rank": 17
+      "economic_rank": 16
     },
     "realistic": {
-      "economic_rank": 17
+      "economic_rank": 16
     },
     "simulator": {
       "economic_rank": 17
@@ -30671,7 +30671,7 @@
     "name": "uk_crusader_aa_mk_2",
     "localized": "Crusader AA Mk II",
     "arcade": {
-      "economic_rank": 10
+      "economic_rank": 11
     },
     "realistic": {
       "economic_rank": 8
@@ -30708,7 +30708,7 @@
       "economic_rank": 9
     },
     "realistic": {
-      "economic_rank": 10
+      "economic_rank": 9
     },
     "simulator": {
       "economic_rank": 10
@@ -31490,7 +31490,7 @@
       "economic_rank": 10
     },
     "realistic": {
-      "economic_rank": 12
+      "economic_rank": 13
     },
     "simulator": {
       "economic_rank": 12
@@ -31504,10 +31504,10 @@
     "name": "fr_panhard_ebr_1954",
     "localized": "E.B.R. (1954)",
     "arcade": {
-      "economic_rank": 14
+      "economic_rank": 16
     },
     "realistic": {
-      "economic_rank": 16
+      "economic_rank": 17
     },
     "simulator": {
       "economic_rank": 16
@@ -31524,7 +31524,7 @@
       "economic_rank": 18
     },
     "realistic": {
-      "economic_rank": 18
+      "economic_rank": 19
     },
     "simulator": {
       "economic_rank": 18
@@ -31606,7 +31606,7 @@
     "name": "fr_bat_chat_25t",
     "localized": "Char 25t",
     "arcade": {
-      "economic_rank": 18
+      "economic_rank": 19
     },
     "realistic": {
       "economic_rank": 19
@@ -31915,7 +31915,7 @@
       "economic_rank": 18
     },
     "realistic": {
-      "economic_rank": 19
+      "economic_rank": 20
     },
     "simulator": {
       "economic_rank": 18
@@ -34547,7 +34547,7 @@
     "name": "cn_m_41d",
     "localized": "M41D",
     "arcade": {
-      "economic_rank": 21
+      "economic_rank": 20
     },
     "realistic": {
       "economic_rank": 21
@@ -35108,7 +35108,7 @@
     "name": "germ_type140_jaguar",
     "localized": "Jaguar",
     "arcade": {
-      "economic_rank": 9
+      "economic_rank": 10
     },
     "realistic": {
       "economic_rank": 9
@@ -38440,13 +38440,13 @@
     "name": "us_cruiser_cleveland_class_cleveland",
     "localized": "USS Cleveland",
     "arcade": {
-      "economic_rank": 14
+      "economic_rank": 15
     },
     "realistic": {
-      "economic_rank": 14
+      "economic_rank": 15
     },
     "simulator": {
-      "economic_rank": 14
+      "economic_rank": 15
     },
     "rank": 4,
     "tech_tree": {
@@ -40429,7 +40429,7 @@
     "name": "ussr_cruiser_mikhail_kutuzov",
     "localized": "Mikhail Kutuzov",
     "arcade": {
-      "economic_rank": 15
+      "economic_rank": 16
     },
     "realistic": {
       "economic_rank": 15
@@ -40582,7 +40582,7 @@
     "name": "germ_type152_hugin",
     "localized": "Hugin",
     "arcade": {
-      "economic_rank": 9
+      "economic_rank": 10
     },
     "realistic": {
       "economic_rank": 9
@@ -40633,13 +40633,13 @@
     "name": "us_cruiser_fargo_class",
     "localized": "USS Fargo",
     "arcade": {
-      "economic_rank": 14
+      "economic_rank": 15
     },
     "realistic": {
-      "economic_rank": 14
+      "economic_rank": 15
     },
     "simulator": {
-      "economic_rank": 14
+      "economic_rank": 15
     },
     "rank": 4,
     "tech_tree": {
