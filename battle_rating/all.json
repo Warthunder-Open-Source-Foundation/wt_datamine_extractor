@@ -26965,7 +26965,7 @@
     "name": "us_m1128_wolfpack",
     "localized": "us_m1128_wolfpack",
     "arcade": {
-      "economic_rank": 26
+      "economic_rank": 24
     },
     "realistic": {
       "economic_rank": 26
@@ -41290,6 +41290,23 @@
     "rank": 3,
     "tech_tree": {
       "nation": "Germany"
+    }
+  },
+  {
+    "name": "ussr_destroyer_regele_ferdinand_class_letuchiy",
+    "localized": "ussr_destroyer_regele_ferdinand_class_letuchiy",
+    "arcade": {
+      "economic_rank": 9
+    },
+    "realistic": {
+      "economic_rank": 9
+    },
+    "simulator": {
+      "economic_rank": 9
+    },
+    "rank": 1,
+    "tech_tree": {
+      "nation": "USSR"
     }
   }
 ]
