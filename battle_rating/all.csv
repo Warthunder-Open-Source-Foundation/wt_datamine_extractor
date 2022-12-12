@@ -1584,7 +1584,7 @@ us_m60a3_tts;M60A3 TTS;23;24;24;6;USA
 us_m60a3_slep;M60 AMBT;27;26;26;7;USA
 us_mbt_70;MBT-70;24;25;25;6;USA
 us_m60a2;M60A2;21;21;21;6;USA
-us_m1128_wolfpack;us_m1128_wolfpack;26;26;26;6;USA
+us_m1128_wolfpack;us_m1128_wolfpack;24;26;26;6;USA
 us_m1128_mgs;M1128;25;27;27;7;USA
 us_m901_itv;M901;20;21;21;6;USA
 germ_mkpz_m47;germ_mkpz_m47;19;19;19;5;Germany
@@ -2427,3 +2427,4 @@ germ_destroyer_class1936c_z47;germ_destroyer_class1936c_z47;11;11;11;3;Germany
 us_pt812;us_pt812;6;6;6;4;USA
 ussr_destroyer_7_ryany;ussr_destroyer_7_ryany;8;8;8;1;USSR
 germ_pr_131;germ_pr_131;5;5;5;3;Germany
+ussr_destroyer_regele_ferdinand_class_letuchiy;ussr_destroyer_regele_ferdinand_class_letuchiy;9;9;9;1;USSR

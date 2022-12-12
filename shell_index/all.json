@@ -8708,6 +8708,22 @@
     }
   },
   {
+    "name": "155mm_mle15",
+    "localized": "155mm_mle15",
+    "shell_type": "He",
+    "caliber": 155,
+    "true_caliber": 155,
+    "velocity": 240,
+    "penetration": [],
+    "explosive": {
+      "Energetic": {
+        "name_type": "tnt",
+        "raw_mass": 7650,
+        "equiv_mass": 7650
+      }
+    }
+  },
+  {
     "name": "155mm_sgr_m60",
     "localized": "sgr m/60",
     "shell_type": "He",
