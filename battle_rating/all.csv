@@ -37,7 +37,7 @@ f-104a_china;␗F-104A;26;26;27;6;China
 f-104g_china;␗F-104G;29;29;27;7;China
 f-104g_italy;⦿F-104G;28;29;27;6;Italy
 f-104j;F-104J;28;29;27;6;Japan
-f-104s;F-104S;29;29;28;7;Italy
+f-104s;F-104S;29;29;28;6;Italy
 f-104s_cb;⦿F-104S TAF;29;29;28;7;Italy
 f-104s_asa;F-104S.ASA;31;31;30;7;Italy
 lightning_f6;Lightning F.6;25;25;26;6;Great Britain
@@ -53,9 +53,10 @@ f-4jk;f-4jk;31;31;31;7;Great Britain
 f-4k;f-4k;30;31;30;7;Great Britain
 f-4f;f-4f;28;28;29;7;Germany
 f-4f_late;f-4f_late;30;30;30;7;Germany
-f_14a_early;f_14a_early;31;31;30;8;USA
+f_14a_early;f_14a_early;31;31;30;7;USA
 f_16a_block_10;f_16a_block_10;32;32;32;8;USA
 f_16a_block_10_iaf;f_16a_block_10_iaf;32;32;32;8;Israel
+f_16a_block_20_mlu;f_16a_block_20_mlu;32;32;32;8;China
 fiat_g91_r3;✠G.91 R/3;24;23;24;5;Germany
 ju-388j;Ju 388 J;11;10;10;4;Germany
 i_180;I-180S;6;6;6;2;USSR
@@ -408,6 +409,7 @@ saab_j35d;saab_j35d;27;29;29;7;Sweden
 saab_j35a;J35A;24;26;26;6;Sweden
 saab_a32a;saab_a32a;24;25;24;6;Sweden
 saab_ja37;JA37C;29;30;30;7;Sweden
+saab_ja37d;JA37D;32;32;32;8;Sweden
 saab_aj37;AJ37;27;28;28;7;Sweden
 mig-9;MiG-9;19;19;19;5;USSR
 mig-9_ussr;MiG-9 (l);20;19;20;5;USSR
@@ -871,7 +873,7 @@ swift_f7;swift_f7;23;23;23;5;Great Britain
 harrier_gr1;harrier_gr1;27;27;27;6;Great Britain
 harrier_gr3;harrier_gr3;27;26;26;6;Great Britain
 harrier_frs1;harrier_frs1;29;29;29;7;Great Britain
-harrier_gr7;harrier_gr7;31;31;30;8;Great Britain
+harrier_gr7;harrier_gr7;31;31;30;7;Great Britain
 tornado_gr1;tornado_gr1;31;31;31;8;Great Britain
 su-7b;Su-7B;26;25;26;6;USSR
 su-7bkl;Su-7BKL;26;26;27;6;USSR
@@ -893,10 +895,10 @@ mig_23m;mig_23m;30;30;30;7;USSR
 mig_23bn;mig_23bn;26;26;26;6;Germany
 mig_23mf_germany;mig_23mf_germany;30;30;30;7;Germany
 mig_23ml;mig_23ml;31;31;30;7;USSR
-mig_23mld;mig_23mld;31;31;30;8;USSR
-mig_23mla;mig_23mla;31;31;30;8;Germany
+mig_23mld;mig_23mld;31;31;30;7;USSR
+mig_23mla;mig_23mla;31;31;30;7;Germany
 mig_27m;MiG-27M;30;30;30;7;USSR
-mig_27k;MiG-27K;31;31;30;8;USSR
+mig_27k;MiG-27K;31;31;30;7;USSR
 mig-21_mf;✠MiG-21MF;27;28;29;7;Germany
 mig-21_sps_k;✠MiG-21 SPS-K;25;27;27;6;Germany
 mig-21_pfm;MiG-21PFM;23;25;27;6;USSR
@@ -991,7 +993,7 @@ mirage_3e;Mirage IIIE;28;28;30;7;France
 mirage_f1c_200;Mirage F1C-200;30;31;30;7;France
 mirage_f1c;Mirage F1C;31;31;30;7;France
 mirage_f1ct;Mirage F1CT;31;31;30;7;France
-mirage_2000c_s5;Mirage 2000C-S5;31;31;31;8;France
+mirage_2000c_s5;Mirage 2000C-S5;31;31;31;7;France
 mirage_5f;Mirage 5F;28;28;28;7;France
 nesher;nesher;28;28;28;7;Israel
 kfir_canard;Kfir Canard;28;30;29;7;Israel

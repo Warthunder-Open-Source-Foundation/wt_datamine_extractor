@@ -674,7 +674,7 @@
     "simulator": {
       "economic_rank": 28
     },
-    "rank": 7,
+    "rank": 6,
     "tech_tree": {
       "nation": "Italy"
     }
@@ -946,7 +946,7 @@
     "simulator": {
       "economic_rank": 30
     },
-    "rank": 8,
+    "rank": 7,
     "tech_tree": {
       "nation": "USA"
     }
@@ -983,6 +983,23 @@
     "rank": 8,
     "tech_tree": {
       "nation": "Israel"
+    }
+  },
+  {
+    "name": "f_16a_block_20_mlu",
+    "localized": "f_16a_block_20_mlu",
+    "arcade": {
+      "economic_rank": 32
+    },
+    "realistic": {
+      "economic_rank": 32
+    },
+    "simulator": {
+      "economic_rank": 32
+    },
+    "rank": 8,
+    "tech_tree": {
+      "nation": "China"
     }
   },
   {
@@ -6965,6 +6982,23 @@
       "economic_rank": 30
     },
     "rank": 7,
+    "tech_tree": {
+      "nation": "Sweden"
+    }
+  },
+  {
+    "name": "saab_ja37d",
+    "localized": "JA37D",
+    "arcade": {
+      "economic_rank": 32
+    },
+    "realistic": {
+      "economic_rank": 32
+    },
+    "simulator": {
+      "economic_rank": 32
+    },
+    "rank": 8,
     "tech_tree": {
       "nation": "Sweden"
     }
@@ -14852,7 +14886,7 @@
     "simulator": {
       "economic_rank": 30
     },
-    "rank": 8,
+    "rank": 7,
     "tech_tree": {
       "nation": "Great Britain"
     }
@@ -15226,7 +15260,7 @@
     "simulator": {
       "economic_rank": 30
     },
-    "rank": 8,
+    "rank": 7,
     "tech_tree": {
       "nation": "USSR"
     }
@@ -15243,7 +15277,7 @@
     "simulator": {
       "economic_rank": 30
     },
-    "rank": 8,
+    "rank": 7,
     "tech_tree": {
       "nation": "Germany"
     }
@@ -15277,7 +15311,7 @@
     "simulator": {
       "economic_rank": 30
     },
-    "rank": 8,
+    "rank": 7,
     "tech_tree": {
       "nation": "USSR"
     }
@@ -16892,7 +16926,7 @@
     "simulator": {
       "economic_rank": 31
     },
-    "rank": 8,
+    "rank": 7,
     "tech_tree": {
       "nation": "France"
     }
