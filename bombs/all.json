@@ -531,6 +531,15 @@
     "can_kill_npc_ship": false
   },
   {
+    "name": "fr_150kg_i2_navale",
+    "weight": 118.0,
+    "explosive_mass": 101.6,
+    "explosive_type": "tnt",
+    "explosive_equiv": 102.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
     "name": "fr_200kg",
     "weight": 225.0,
     "explosive_mass": 105.0,
@@ -664,6 +673,15 @@
     "explosive_equiv": 207.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
+  },
+  {
+    "name": "fr_75kg_g2_navale",
+    "weight": 73.0,
+    "explosive_mass": 46.27,
+    "explosive_type": "tnt",
+    "explosive_equiv": 46.0,
+    "can_kill_npc_tank": false,
+    "can_kill_npc_ship": false
   },
   {
     "name": "fr_an52",

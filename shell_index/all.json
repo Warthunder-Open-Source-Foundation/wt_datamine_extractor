@@ -6136,6 +6136,45 @@
     "explosive": "Inert"
   },
   {
+    "name": "125mm_125_1",
+    "localized": "125-I",
+    "shell_type": "ApFsDs",
+    "caliber": 125,
+    "true_caliber": 28,
+    "velocity": 1770,
+    "penetration": [
+      [
+        0,
+        466
+      ],
+      [
+        100,
+        464
+      ],
+      [
+        500,
+        458
+      ],
+      [
+        1000,
+        450
+      ],
+      [
+        1500,
+        442
+      ],
+      [
+        2000,
+        434
+      ],
+      [
+        3000,
+        415
+      ]
+    ],
+    "explosive": "Inert"
+  },
+  {
     "name": "125mm_3bk_12m",
     "localized": "3BK12M",
     "shell_type": "HeatFs",
@@ -6683,12 +6722,44 @@
     }
   },
   {
+    "name": "125mm_dtb_125",
+    "localized": "DTB-125",
+    "shell_type": "He",
+    "caliber": 125,
+    "true_caliber": 125,
+    "velocity": 870,
+    "penetration": [],
+    "explosive": {
+      "Energetic": {
+        "name_type": "a_ix_2",
+        "raw_mass": 3548,
+        "equiv_mass": 5464
+      }
+    }
+  },
+  {
     "name": "125mm_dtb_12_he",
     "localized": "125mm_dtb_12_he",
     "shell_type": "He",
     "caliber": 125,
     "true_caliber": 125,
     "velocity": 850,
+    "penetration": [],
+    "explosive": {
+      "Energetic": {
+        "name_type": "a_ix_2",
+        "raw_mass": 3440,
+        "equiv_mass": 5298
+      }
+    }
+  },
+  {
+    "name": "125mm_dtb_12_he",
+    "localized": "125mm_dtb_12_he",
+    "shell_type": "He",
+    "caliber": 125,
+    "true_caliber": 125,
+    "velocity": 870,
     "penetration": [],
     "explosive": {
       "Energetic": {
@@ -6738,12 +6809,72 @@
     "explosive": "Inert"
   },
   {
+    "name": "125mm_dtc10_125",
+    "localized": "125mm_dtc10_125",
+    "shell_type": "ApFsDs",
+    "caliber": 125,
+    "true_caliber": 24,
+    "velocity": 1810,
+    "penetration": [
+      [
+        0,
+        577
+      ],
+      [
+        100,
+        575
+      ],
+      [
+        500,
+        566
+      ],
+      [
+        1000,
+        555
+      ],
+      [
+        1500,
+        544
+      ],
+      [
+        2000,
+        533
+      ],
+      [
+        3000,
+        512
+      ]
+    ],
+    "explosive": "Inert"
+  },
+  {
     "name": "125mm_dtp_125",
     "localized": "DTP-125",
     "shell_type": "HeatFs",
     "caliber": 125,
     "true_caliber": 125,
     "velocity": 905,
+    "penetration": [
+      [
+        0,
+        480
+      ]
+    ],
+    "explosive": {
+      "Energetic": {
+        "name_type": "rdx_tnt",
+        "raw_mass": 1710,
+        "equiv_mass": 2189
+      }
+    }
+  },
+  {
+    "name": "125mm_dtp_125",
+    "localized": "DTP-125",
+    "shell_type": "HeatFs",
+    "caliber": 125,
+    "true_caliber": 125,
+    "velocity": 930,
     "penetration": [
       [
         0,
@@ -6811,6 +6942,21 @@
       [
         0,
         199
+      ]
+    ],
+    "explosive": "Inert"
+  },
+  {
+    "name": "125mm_practice",
+    "localized": "3P11",
+    "shell_type": "Practice",
+    "caliber": 125,
+    "true_caliber": 125,
+    "velocity": 930,
+    "penetration": [
+      [
+        0,
+        207
       ]
     ],
     "explosive": "Inert"

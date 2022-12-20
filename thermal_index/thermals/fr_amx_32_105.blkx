@@ -159,18 +159,10 @@
         "armorThickness": 20.0,
         "armorClass": "RHA_tank_modern"
       },
-      "turret_04_back_dm": {
-        "armorThickness": 16.0,
-        "armorClass": "RHAHH_tank",
-        "createSecondaryShatters": false
-      },
       "turret_05_back_dm": {
         "armorThickness": 16.0,
         "armorClass": "RHAHH_tank",
         "createSecondaryShatters": false
-      },
-      "turret_04_side_dm": {
-        "armorThickness": 15.0
       },
       "turret_04_top_dm": {
         "armorThickness": 15.0
@@ -257,7 +249,16 @@
         "armorThickness": 35.0
       },
       "gun_mask_01_dm": {
-        "armorThickness": 25.0
+        "armorThickness": 50.0
+      },
+      "turret_04_side_dm": {
+        "armorThickness": 60.0
+      },
+      "turret_04_back_dm": {
+        "armorThickness": 80.0
+      },
+      "turret_07_side_dm": {
+        "armorThickness": 150.0
       }
     },
     "turret": {
@@ -266,16 +267,13 @@
         "armorThickness": 30.0
       },
       "turret_side_dm": {
-        "armorThickness": 16.0
+        "armorThickness": 25.0
       },
       "turret_08_bottom_dm": {
-        "armorThickness": 16.0
+        "armorThickness": 41.5
       },
       "turret_08_back_dm": {
-        "armorThickness": 16.0
-      },
-      "ex_decor_09_dm": {
-        "armorThickness": 16.0
+        "armorThickness": 20.0
       },
       "turret_commander_dm": {
         "armorThickness": 35.0
@@ -287,16 +285,18 @@
         "armorThickness": 25.4
       },
       "turret_01_top_dm": {
-        "armorThickness": 20.0
+        "armorThickness": 35.0
       },
       "turret_bottom_dm": {
-        "armorThickness": 50.0
+        "armorThickness": 25.0
       },
       "turret_top_dm": {
         "armorThickness": 20.0
       },
       "turret_01_front_dm": {
-        "armorThickness": 5.0
+        "armorThickness": 5.0,
+        "hidableInViewer": true,
+        "createSecondaryShatters": false
       },
       "turret_03_top_dm": {
         "armorThickness": 20.0
@@ -335,32 +335,26 @@
       "turret_02_bottom_dm": {
         "armorThickness": 5.0
       },
-      "turret_02_back_dm": {
-        "armorThickness": 15.0
-      },
       "turret_07_top_dm": {
         "armorThickness": 15.0
       },
       "turret_07_bottom_dm": {
-        "armorThickness": 84.0
+        "armorThickness": 41.5
       },
       "turret_07_front_dm": {
         "armorThickness": 29.0
       },
-      "turret_07_side_dm": {
-        "armorThickness": 35.0
-      },
       "turret_07_back_dm": {
-        "armorThickness": 29.0
+        "armorThickness": 30.0
       },
       "turret_08_top_dm": {
-        "armorThickness": 30.0
+        "armorThickness": 15.0
       },
       "turret_09_top_dm": {
         "armorThickness": 30.0
       },
       "turret_08_side_dm": {
-        "armorThickness": 30.0
+        "armorThickness": 40.0
       },
       "turret_09_side_dm": {
         "armorThickness": 25.0
@@ -371,6 +365,7 @@
       "hp": 400.0,
       "armorThickness": 6.0,
       "createSecondaryShatters": false,
+      "hidableInViewer": true,
       "ex_armor_body_l_01_dm": {},
       "ex_armor_body_l_02_dm": {},
       "ex_armor_body_l_03_dm": {},
@@ -1075,6 +1070,10 @@
           "ammo_body_l_18_dm",
           "ammo_body_l_19_dm",
           "ammo_body_l_20_dm",
+          "ammo_body_l_21_dm",
+          "ammo_body_l_22_dm",
+          "ammo_body_l_23_dm",
+          "ammo_body_l_24_dm",
           "ammo_body_r_01_dm",
           "ammo_body_r_02_dm",
           "ammo_body_r_03_dm",
@@ -1095,6 +1094,10 @@
           "ammo_body_r_18_dm",
           "ammo_body_r_19_dm",
           "ammo_body_r_20_dm",
+          "ammo_body_r_21_dm",
+          "ammo_body_r_22_dm",
+          "ammo_body_r_23_dm",
+          "ammo_body_r_24_dm",
           "ammo_turret_dm",
           "ammo_turret_01_dm",
           "ammo_turret_02_dm",
@@ -2172,14 +2175,14 @@
       "cls_body": "convex_hull"
     },
     "engine": {
-      "horsePowers": 800.0,
-      "maxRPM": 2500.0,
+      "horsePowers": 700.0,
+      "maxRPM": 2400.0,
       "minRPM": 700.0
     },
     "mechanics": {
       "maxBrakeForce": 270000.0,
       "driveGearRadius": 0.33,
-      "mainGearRatio": 7.715,
+      "mainGearRatio": 7.4,
       "sideGearRatio": 1.0,
       "neutralGearRatio": 10.0,
       "gearRatios": {
@@ -2959,10 +2962,10 @@
     ]
   },
   "cockpit": {
-    "zoomOutFov": 8.3,
-    "zoomInFov": 7.3,
-    "sightFov": 3.9,
-    "sightName": "cotac_m581",
+    "zoomOutFov": 7.37,
+    "zoomInFov": 7.37,
+    "sightFov": 4.0,
+    "sightName": "m544",
     "headPos": [
       0.0,
       4.0,
