@@ -443,7 +443,7 @@
   },
   {
     "name": "f-4c",
-    "localized": "f-4c",
+    "localized": "F-4C Phantom II",
     "arcade": {
       "economic_rank": 28
     },
@@ -579,7 +579,7 @@
   },
   {
     "name": "f-104g",
-    "localized": "F-104G",
+    "localized": "◄F-104G",
     "arcade": {
       "economic_rank": 28
     },
@@ -766,7 +766,7 @@
   },
   {
     "name": "f-4e",
-    "localized": "f-4e",
+    "localized": "F-4E Phantom II",
     "arcade": {
       "economic_rank": 30
     },
@@ -783,7 +783,7 @@
   },
   {
     "name": "f-4j",
-    "localized": "f-4j",
+    "localized": "F-4J Phantom II",
     "arcade": {
       "economic_rank": 30
     },
@@ -800,7 +800,7 @@
   },
   {
     "name": "f-4ej",
-    "localized": "f-4ej",
+    "localized": "F-4EJ Phantom II",
     "arcade": {
       "economic_rank": 30
     },
@@ -817,7 +817,7 @@
   },
   {
     "name": "f-4ej_adtw",
-    "localized": "f-4ej_adtw",
+    "localized": "F-4EJ ADTW",
     "arcade": {
       "economic_rank": 30
     },
@@ -834,7 +834,7 @@
   },
   {
     "name": "f-4ej_kai",
-    "localized": "f-4ej_kai",
+    "localized": "F-4EJ Kai Phantom II",
     "arcade": {
       "economic_rank": 30
     },
@@ -851,7 +851,7 @@
   },
   {
     "name": "f-4m_fgr2",
-    "localized": "f-4m_fgr2",
+    "localized": "Phantom FGR.2",
     "arcade": {
       "economic_rank": 30
     },
@@ -868,7 +868,7 @@
   },
   {
     "name": "f-4jk",
-    "localized": "f-4jk",
+    "localized": "F-4J(UK) Phantom II",
     "arcade": {
       "economic_rank": 31
     },
@@ -885,7 +885,7 @@
   },
   {
     "name": "f-4k",
-    "localized": "f-4k",
+    "localized": "Phantom FG.1",
     "arcade": {
       "economic_rank": 30
     },
@@ -902,7 +902,7 @@
   },
   {
     "name": "f-4f",
-    "localized": "f-4f",
+    "localized": "◄F-4F Early",
     "arcade": {
       "economic_rank": 28
     },
@@ -919,7 +919,7 @@
   },
   {
     "name": "f-4f_late",
-    "localized": "f-4f_late",
+    "localized": "◄F-4F",
     "arcade": {
       "economic_rank": 30
     },
@@ -936,7 +936,7 @@
   },
   {
     "name": "f_14a_early",
-    "localized": "f_14a_early",
+    "localized": "F-14A Early",
     "arcade": {
       "economic_rank": 31
     },
@@ -953,7 +953,7 @@
   },
   {
     "name": "f_16a_block_10",
-    "localized": "f_16a_block_10",
+    "localized": "F-16A",
     "arcade": {
       "economic_rank": 32
     },
@@ -969,8 +969,42 @@
     }
   },
   {
+    "name": "f_16a_block_15_adf",
+    "localized": "F-16A ADF",
+    "arcade": {
+      "economic_rank": 32
+    },
+    "realistic": {
+      "economic_rank": 32
+    },
+    "simulator": {
+      "economic_rank": 32
+    },
+    "rank": 8,
+    "tech_tree": {
+      "nation": "USA"
+    }
+  },
+  {
+    "name": "f_16a_block_15_adf_italy",
+    "localized": "⦿F-16A ADF",
+    "arcade": {
+      "economic_rank": 32
+    },
+    "realistic": {
+      "economic_rank": 32
+    },
+    "simulator": {
+      "economic_rank": 32
+    },
+    "rank": 8,
+    "tech_tree": {
+      "nation": "Italy"
+    }
+  },
+  {
     "name": "f_16a_block_10_iaf",
-    "localized": "f_16a_block_10_iaf",
+    "localized": "✡F-16A Netz",
     "arcade": {
       "economic_rank": 32
     },
@@ -987,7 +1021,7 @@
   },
   {
     "name": "f_16a_block_20_mlu",
-    "localized": "f_16a_block_20_mlu",
+    "localized": "␗F-16A MLU",
     "arcade": {
       "economic_rank": 32
     },
@@ -1004,7 +1038,7 @@
   },
   {
     "name": "fiat_g91_r3",
-    "localized": "✠G.91 R/3",
+    "localized": "◄G.91 R/3",
     "arcade": {
       "economic_rank": 24
     },
@@ -1106,7 +1140,7 @@
   },
   {
     "name": "av_8a",
-    "localized": "av_8a",
+    "localized": "AV-8A",
     "arcade": {
       "economic_rank": 25
     },
@@ -1123,7 +1157,7 @@
   },
   {
     "name": "av_8c",
-    "localized": "av_8c",
+    "localized": "AV-8C",
     "arcade": {
       "economic_rank": 26
     },
@@ -1293,7 +1327,7 @@
   },
   {
     "name": "f-4e_iaf",
-    "localized": "f-4e_iaf",
+    "localized": "✡F-4E Phantom II",
     "arcade": {
       "economic_rank": 30
     },
@@ -1327,7 +1361,7 @@
   },
   {
     "name": "dh_110_sea_vixen",
-    "localized": "dh_110_sea_vixen",
+    "localized": "Sea Vixen F.A.W. Mk.2",
     "arcade": {
       "economic_rank": 21
     },
@@ -1361,7 +1395,7 @@
   },
   {
     "name": "sea_hawk_mk100",
-    "localized": "Sea Hawk Mk.100",
+    "localized": "◄Sea Hawk Mk.100",
     "arcade": {
       "economic_rank": 21
     },
@@ -1854,7 +1888,7 @@
   },
   {
     "name": "f-86k_late_german",
-    "localized": "✠F-86K",
+    "localized": "◄F-86K",
     "arcade": {
       "economic_rank": 24
     },
@@ -2840,7 +2874,7 @@
   },
   {
     "name": "mig-21_bis_lazur",
-    "localized": "mig-21_bis_lazur",
+    "localized": "◊MiG-21 \"\"Lazur-M\"\"",
     "arcade": {
       "economic_rank": 30
     },
@@ -2874,7 +2908,7 @@
   },
   {
     "name": "saab_b18a",
-    "localized": "saab_b18a",
+    "localized": "B18A",
     "arcade": {
       "economic_rank": 3
     },
@@ -2891,7 +2925,7 @@
   },
   {
     "name": "saab_b18b",
-    "localized": "saab_b18b",
+    "localized": "B18B",
     "arcade": {
       "economic_rank": 7
     },
@@ -2925,7 +2959,7 @@
   },
   {
     "name": "saab_t18b_1",
-    "localized": "saab_t18b_1",
+    "localized": "T18B",
     "arcade": {
       "economic_rank": 8
     },
@@ -2942,7 +2976,7 @@
   },
   {
     "name": "saab_t18b_2",
-    "localized": "saab_t18b_2",
+    "localized": "T18B (57)",
     "arcade": {
       "economic_rank": 8
     },
@@ -3316,7 +3350,7 @@
   },
   {
     "name": "me-262a1_u1",
-    "localized": "me-262a1_u1",
+    "localized": "Me 262 A-1a/U1",
     "arcade": {
       "economic_rank": 19
     },
@@ -4540,7 +4574,7 @@
   },
   {
     "name": "a_29_hudson",
-    "localized": "a_29_hudson",
+    "localized": "A-29",
     "arcade": {
       "economic_rank": 4
     },
@@ -6001,6 +6035,23 @@
     }
   },
   {
+    "name": "late_298d",
+    "localized": "Late 298D",
+    "arcade": {
+      "economic_rank": 1
+    },
+    "realistic": {
+      "economic_rank": 1
+    },
+    "simulator": {
+      "economic_rank": 1
+    },
+    "rank": 1,
+    "tech_tree": {
+      "nation": "France"
+    }
+  },
+  {
     "name": "p-47d_16_re_germany",
     "localized": "✠P-47D-16-RE",
     "arcade": {
@@ -6495,7 +6546,7 @@
   },
   {
     "name": "saab_j29d",
-    "localized": "saab_j29d",
+    "localized": "J29D",
     "arcade": {
       "economic_rank": 24
     },
@@ -6512,7 +6563,7 @@
   },
   {
     "name": "saab_j29f",
-    "localized": "saab_j29f",
+    "localized": "J29F",
     "arcade": {
       "economic_rank": 24
     },
@@ -6529,7 +6580,7 @@
   },
   {
     "name": "saab_j29a",
-    "localized": "saab_j29a",
+    "localized": "J29A",
     "arcade": {
       "economic_rank": 21
     },
@@ -6546,7 +6597,7 @@
   },
   {
     "name": "saab_j29b",
-    "localized": "saab_j29b",
+    "localized": "A29B",
     "arcade": {
       "economic_rank": 22
     },
@@ -6563,7 +6614,7 @@
   },
   {
     "name": "fiat_cr42_j11",
-    "localized": "fiat_cr42_j11",
+    "localized": "J11",
     "arcade": {
       "economic_rank": 2
     },
@@ -6580,7 +6631,7 @@
   },
   {
     "name": "re_2000_j20",
-    "localized": "re_2000_j20",
+    "localized": "J20",
     "arcade": {
       "economic_rank": 3
     },
@@ -6597,7 +6648,7 @@
   },
   {
     "name": "p-51d-20-na_j26",
-    "localized": "p-51d-20-na_j26",
+    "localized": "J26",
     "arcade": {
       "economic_rank": 8
     },
@@ -6614,7 +6665,7 @@
   },
   {
     "name": "vampire_fb5_j28b",
-    "localized": "vampire_fb5_j28b",
+    "localized": "A28B",
     "arcade": {
       "economic_rank": 20
     },
@@ -6631,7 +6682,7 @@
   },
   {
     "name": "ffvs_j22_a",
-    "localized": "ffvs_j22_a",
+    "localized": "J22-A",
     "arcade": {
       "economic_rank": 6
     },
@@ -6648,7 +6699,7 @@
   },
   {
     "name": "ffvs_j22_b",
-    "localized": "ffvs_j22_b",
+    "localized": "J22-B",
     "arcade": {
       "economic_rank": 9
     },
@@ -6665,7 +6716,7 @@
   },
   {
     "name": "saab_j21a_1",
-    "localized": "saab_j21a_1",
+    "localized": "J21A-1",
     "arcade": {
       "economic_rank": 12
     },
@@ -6682,7 +6733,7 @@
   },
   {
     "name": "saab_j21a_2",
-    "localized": "saab_j21a_2",
+    "localized": "J21A-2",
     "arcade": {
       "economic_rank": 12
     },
@@ -6699,7 +6750,7 @@
   },
   {
     "name": "saab_a21a_3",
-    "localized": "saab_a21a_3",
+    "localized": "A21A-3",
     "arcade": {
       "economic_rank": 12
     },
@@ -6716,7 +6767,7 @@
   },
   {
     "name": "saab_j21ra",
-    "localized": "saab_j21ra",
+    "localized": "J21RA",
     "arcade": {
       "economic_rank": 17
     },
@@ -6733,7 +6784,7 @@
   },
   {
     "name": "saab_a21rb",
-    "localized": "saab_a21rb",
+    "localized": "A21RB",
     "arcade": {
       "economic_rank": 17
     },
@@ -6750,7 +6801,7 @@
   },
   {
     "name": "saab_b3c",
-    "localized": "saab_b3c",
+    "localized": "B3C",
     "arcade": {
       "economic_rank": 0
     },
@@ -6767,7 +6818,7 @@
   },
   {
     "name": "gladiator_j8a_iacobi",
-    "localized": "gladiator_j8a_iacobi",
+    "localized": "Iacobi's J8A",
     "arcade": {
       "economic_rank": 2
     },
@@ -6784,7 +6835,7 @@
   },
   {
     "name": "j6b",
-    "localized": "j6b",
+    "localized": "J6B",
     "arcade": {
       "economic_rank": 0
     },
@@ -6801,7 +6852,7 @@
   },
   {
     "name": "j6k1",
-    "localized": "j6k1",
+    "localized": "J6K1",
     "arcade": {
       "economic_rank": 16
     },
@@ -6818,7 +6869,7 @@
   },
   {
     "name": "tis_ma",
-    "localized": "tis_ma",
+    "localized": "TIS MA",
     "arcade": {
       "economic_rank": 8
     },
@@ -6835,7 +6886,7 @@
   },
   {
     "name": "saab_b17bs",
-    "localized": "saab_b17bs",
+    "localized": "S17BS",
     "arcade": {
       "economic_rank": 1
     },
@@ -6852,7 +6903,7 @@
   },
   {
     "name": "saab_b17a",
-    "localized": "saab_b17a",
+    "localized": "B17A",
     "arcade": {
       "economic_rank": 3
     },
@@ -6869,7 +6920,7 @@
   },
   {
     "name": "saab_b17b",
-    "localized": "saab_b17b",
+    "localized": "B17B",
     "arcade": {
       "economic_rank": 1
     },
@@ -6886,7 +6937,7 @@
   },
   {
     "name": "saab_j32b",
-    "localized": "saab_j32b",
+    "localized": "J32B",
     "arcade": {
       "economic_rank": 26
     },
@@ -6902,8 +6953,8 @@
     }
   },
   {
-    "name": "saab_j35j",
-    "localized": "saab_j35j",
+    "name": "saab_j35xs",
+    "localized": "J35XS",
     "arcade": {
       "economic_rank": 27
     },
@@ -6920,7 +6971,7 @@
   },
   {
     "name": "saab_j35d",
-    "localized": "saab_j35d",
+    "localized": "J35D",
     "arcade": {
       "economic_rank": 27
     },
@@ -6954,7 +7005,7 @@
   },
   {
     "name": "saab_a32a",
-    "localized": "saab_a32a",
+    "localized": "A32A",
     "arcade": {
       "economic_rank": 24
     },
@@ -10099,7 +10150,7 @@
   },
   {
     "name": "fiat_g91_r4_german",
-    "localized": "✠G.91 R/4",
+    "localized": "◄G.91 R/4",
     "arcade": {
       "economic_rank": 22
     },
@@ -10592,7 +10643,7 @@
   },
   {
     "name": "il_28_german",
-    "localized": "✠IL-28",
+    "localized": "◊IL-28",
     "arcade": {
       "economic_rank": 21
     },
@@ -11102,7 +11153,7 @@
   },
   {
     "name": "f-89b",
-    "localized": "f-89b",
+    "localized": "F-89B",
     "arcade": {
       "economic_rank": 17
     },
@@ -11119,7 +11170,7 @@
   },
   {
     "name": "f-89d",
-    "localized": "f-89d",
+    "localized": "F-89D",
     "arcade": {
       "economic_rank": 17
     },
@@ -11221,7 +11272,7 @@
   },
   {
     "name": "f-84f_germany",
-    "localized": "✠F-84F",
+    "localized": "◄F-84F",
     "arcade": {
       "economic_rank": 23
     },
@@ -11374,7 +11425,7 @@
   },
   {
     "name": "f-86_cl_13b_mk6",
-    "localized": "CL-13B Mk.6",
+    "localized": "◄CL-13B Mk.6",
     "arcade": {
       "economic_rank": 25
     },
@@ -11697,7 +11748,7 @@
   },
   {
     "name": "mig-15bis_nr23_german",
-    "localized": "✠MiG-15bis",
+    "localized": "◊MiG-15bis",
     "arcade": {
       "economic_rank": 23
     },
@@ -11714,7 +11765,7 @@
   },
   {
     "name": "mig-19s",
-    "localized": "✠MiG-19S",
+    "localized": "◊MiG-19S",
     "arcade": {
       "economic_rank": 26
     },
@@ -14213,7 +14264,7 @@
   },
   {
     "name": "pyorremyrsky",
-    "localized": "pyorremyrsky",
+    "localized": "Pyörremyrsky",
     "arcade": {
       "economic_rank": 10
     },
@@ -14723,7 +14774,7 @@
   },
   {
     "name": "mig-17_cuba",
-    "localized": "mig-17_cuba",
+    "localized": "MiG-17AS",
     "arcade": {
       "economic_rank": 24
     },
@@ -14740,7 +14791,7 @@
   },
   {
     "name": "mig-17_f5",
-    "localized": "mig-17_f5",
+    "localized": "Shenyang F-5",
     "arcade": {
       "economic_rank": 25
     },
@@ -14757,7 +14808,7 @@
   },
   {
     "name": "mig-17p_lim_5p",
-    "localized": "Lim-5P",
+    "localized": "◊Lim-5P",
     "arcade": {
       "economic_rank": 24
     },
@@ -14791,7 +14842,7 @@
   },
   {
     "name": "swift_f1",
-    "localized": "swift_f1",
+    "localized": "Swift F.1",
     "arcade": {
       "economic_rank": 22
     },
@@ -14808,7 +14859,7 @@
   },
   {
     "name": "swift_f7",
-    "localized": "swift_f7",
+    "localized": "Swift F.7",
     "arcade": {
       "economic_rank": 23
     },
@@ -14825,7 +14876,7 @@
   },
   {
     "name": "harrier_gr1",
-    "localized": "harrier_gr1",
+    "localized": "Harrier GR.1",
     "arcade": {
       "economic_rank": 27
     },
@@ -14842,7 +14893,7 @@
   },
   {
     "name": "harrier_gr3",
-    "localized": "harrier_gr3",
+    "localized": "Harrier GR.3",
     "arcade": {
       "economic_rank": 27
     },
@@ -14859,7 +14910,7 @@
   },
   {
     "name": "harrier_frs1",
-    "localized": "harrier_frs1",
+    "localized": "Sea Harrier FRS.1",
     "arcade": {
       "economic_rank": 29
     },
@@ -14876,7 +14927,7 @@
   },
   {
     "name": "harrier_gr7",
-    "localized": "harrier_gr7",
+    "localized": "Harrier GR.7",
     "arcade": {
       "economic_rank": 31
     },
@@ -14893,7 +14944,7 @@
   },
   {
     "name": "tornado_gr1",
-    "localized": "tornado_gr1",
+    "localized": "Tornado GR.1",
     "arcade": {
       "economic_rank": 31
     },
@@ -14906,6 +14957,57 @@
     "rank": 8,
     "tech_tree": {
       "nation": "Great Britain"
+    }
+  },
+  {
+    "name": "tornado_ids_de_mfg",
+    "localized": "◄Tornado IDS",
+    "arcade": {
+      "economic_rank": 29
+    },
+    "realistic": {
+      "economic_rank": 29
+    },
+    "simulator": {
+      "economic_rank": 29
+    },
+    "rank": 8,
+    "tech_tree": {
+      "nation": "Germany"
+    }
+  },
+  {
+    "name": "tornado_ids_de_assta1",
+    "localized": "◄Tornado IDS ASSTA1",
+    "arcade": {
+      "economic_rank": 31
+    },
+    "realistic": {
+      "economic_rank": 31
+    },
+    "simulator": {
+      "economic_rank": 31
+    },
+    "rank": 8,
+    "tech_tree": {
+      "nation": "Germany"
+    }
+  },
+  {
+    "name": "tornado_ids_it_mod95",
+    "localized": "⦿Tornado IDS (1995)",
+    "arcade": {
+      "economic_rank": 31
+    },
+    "realistic": {
+      "economic_rank": 31
+    },
+    "simulator": {
+      "economic_rank": 31
+    },
+    "rank": 8,
+    "tech_tree": {
+      "nation": "Italy"
     }
   },
   {
@@ -14978,7 +15080,7 @@
   },
   {
     "name": "su_22um3k",
-    "localized": "✠Su-22UM3K",
+    "localized": "◊Su-22UM3K",
     "arcade": {
       "economic_rank": 30
     },
@@ -15097,7 +15199,7 @@
   },
   {
     "name": "mig_29_9_13",
-    "localized": "mig_29_9_13",
+    "localized": "MiG-29",
     "arcade": {
       "economic_rank": 32
     },
@@ -15165,7 +15267,7 @@
   },
   {
     "name": "mig-21_bis_sau",
-    "localized": "✠MiG-21bis-SAU",
+    "localized": "◊MiG-21bis-SAU",
     "arcade": {
       "economic_rank": 30
     },
@@ -15182,7 +15284,7 @@
   },
   {
     "name": "mig_23m",
-    "localized": "mig_23m",
+    "localized": "MiG-23M",
     "arcade": {
       "economic_rank": 30
     },
@@ -15199,7 +15301,7 @@
   },
   {
     "name": "mig_23bn",
-    "localized": "mig_23bn",
+    "localized": "◊MiG-23BN",
     "arcade": {
       "economic_rank": 26
     },
@@ -15216,7 +15318,7 @@
   },
   {
     "name": "mig_23mf_germany",
-    "localized": "mig_23mf_germany",
+    "localized": "◊MiG-23MF",
     "arcade": {
       "economic_rank": 30
     },
@@ -15233,7 +15335,7 @@
   },
   {
     "name": "mig_23ml",
-    "localized": "mig_23ml",
+    "localized": "MiG-23ML",
     "arcade": {
       "economic_rank": 31
     },
@@ -15250,7 +15352,7 @@
   },
   {
     "name": "mig_23mld",
-    "localized": "mig_23mld",
+    "localized": "MiG-23MLD",
     "arcade": {
       "economic_rank": 31
     },
@@ -15267,7 +15369,7 @@
   },
   {
     "name": "mig_23mla",
-    "localized": "mig_23mla",
+    "localized": "◊MiG-23MLA",
     "arcade": {
       "economic_rank": 31
     },
@@ -15318,7 +15420,7 @@
   },
   {
     "name": "mig-21_mf",
-    "localized": "✠MiG-21MF",
+    "localized": "◊MiG-21MF",
     "arcade": {
       "economic_rank": 27
     },
@@ -15335,7 +15437,7 @@
   },
   {
     "name": "mig-21_sps_k",
-    "localized": "✠MiG-21 SPS-K",
+    "localized": "◊MiG-21 SPS-K",
     "arcade": {
       "economic_rank": 25
     },
@@ -16100,7 +16202,7 @@
   },
   {
     "name": "martin_139wc",
-    "localized": "martin_139wc",
+    "localized": "Martin 139WC",
     "arcade": {
       "economic_rank": 2
     },
@@ -16932,6 +17034,23 @@
     }
   },
   {
+    "name": "mirage_2000d_r1",
+    "localized": "Mirage 2000D-R1",
+    "arcade": {
+      "economic_rank": 31
+    },
+    "realistic": {
+      "economic_rank": 31
+    },
+    "simulator": {
+      "economic_rank": 31
+    },
+    "rank": 8,
+    "tech_tree": {
+      "nation": "France"
+    }
+  },
+  {
     "name": "mirage_5f",
     "localized": "Mirage 5F",
     "arcade": {
@@ -16950,7 +17069,7 @@
   },
   {
     "name": "nesher",
-    "localized": "nesher",
+    "localized": "Nesher",
     "arcade": {
       "economic_rank": 28
     },
@@ -16972,7 +17091,7 @@
       "economic_rank": 28
     },
     "realistic": {
-      "economic_rank": 30
+      "economic_rank": 29
     },
     "simulator": {
       "economic_rank": 29
@@ -16989,7 +17108,7 @@
       "economic_rank": 28
     },
     "realistic": {
-      "economic_rank": 30
+      "economic_rank": 29
     },
     "simulator": {
       "economic_rank": 29
@@ -17800,7 +17919,7 @@
   },
   {
     "name": "saab_sk60b",
-    "localized": "saab_sk60b",
+    "localized": "SK60B",
     "arcade": {
       "economic_rank": 19
     },
@@ -17817,7 +17936,7 @@
   },
   {
     "name": "saab_105g",
-    "localized": "saab_105g",
+    "localized": "SAAB-105G",
     "arcade": {
       "economic_rank": 23
     },
@@ -17834,7 +17953,7 @@
   },
   {
     "name": "saab_105oe",
-    "localized": "saab_105oe",
+    "localized": "SAAB-105OE",
     "arcade": {
       "economic_rank": 22
     },
@@ -18496,8 +18615,76 @@
     }
   },
   {
+    "name": "dragonfly_a",
+    "localized": "TOPTER",
+    "arcade": {
+      "economic_rank": 29
+    },
+    "realistic": {
+      "economic_rank": 29
+    },
+    "simulator": {
+      "economic_rank": 29
+    },
+    "rank": 6,
+    "tech_tree": {
+      "nation": "USA"
+    }
+  },
+  {
+    "name": "dragonfly_h",
+    "localized": "TOPTER",
+    "arcade": {
+      "economic_rank": 29
+    },
+    "realistic": {
+      "economic_rank": 29
+    },
+    "simulator": {
+      "economic_rank": 29
+    },
+    "rank": 6,
+    "tech_tree": {
+      "nation": "USSR"
+    }
+  },
+  {
+    "name": "dragonfly_99_rda",
+    "localized": "Dragonfly AB-99 (R)",
+    "arcade": {
+      "economic_rank": 29
+    },
+    "realistic": {
+      "economic_rank": 29
+    },
+    "simulator": {
+      "economic_rank": 29
+    },
+    "rank": 6,
+    "tech_tree": {
+      "nation": "USA"
+    }
+  },
+  {
+    "name": "dragonfly_99_na",
+    "localized": "Dragonfly AB-99 (N)",
+    "arcade": {
+      "economic_rank": 29
+    },
+    "realistic": {
+      "economic_rank": 29
+    },
+    "simulator": {
+      "economic_rank": 29
+    },
+    "rank": 6,
+    "tech_tree": {
+      "nation": "USSR"
+    }
+  },
+  {
     "name": "scout_ah_mk1",
-    "localized": "scout_ah_mk1",
+    "localized": "Scout AH.Mk.1",
     "arcade": {
       "economic_rank": 23
     },
@@ -18514,7 +18701,7 @@
   },
   {
     "name": "wasp_has_mk1",
-    "localized": "wasp_has_mk1",
+    "localized": "Wasp HAS.Mk.1",
     "arcade": {
       "economic_rank": 23
     },
@@ -18531,7 +18718,7 @@
   },
   {
     "name": "g_lynx",
-    "localized": "g_lynx",
+    "localized": "G-LYNX",
     "arcade": {
       "economic_rank": 26
     },
@@ -18548,7 +18735,7 @@
   },
   {
     "name": "lynx_ah_mk1",
-    "localized": "lynx_ah_mk1",
+    "localized": "Lynx AH.Mk.1",
     "arcade": {
       "economic_rank": 26
     },
@@ -18565,7 +18752,7 @@
   },
   {
     "name": "tiger_uht",
-    "localized": "tiger_uht",
+    "localized": "EC-665 Tiger UHT",
     "arcade": {
       "economic_rank": 28
     },
@@ -18582,7 +18769,7 @@
   },
   {
     "name": "tiger_hap_france",
-    "localized": "tiger_hap_france",
+    "localized": "EC-665 Tiger HAP",
     "arcade": {
       "economic_rank": 27
     },
@@ -18599,7 +18786,7 @@
   },
   {
     "name": "tiger_had_france",
-    "localized": "tiger_had_france",
+    "localized": "EC-665 Tiger HAD",
     "arcade": {
       "economic_rank": 29
     },
@@ -18735,7 +18922,7 @@
   },
   {
     "name": "ka_50",
-    "localized": "ka_50",
+    "localized": "Ka-50",
     "arcade": {
       "economic_rank": 29
     },
@@ -18752,7 +18939,7 @@
   },
   {
     "name": "ka_52",
-    "localized": "ka_52",
+    "localized": "Ka-52",
     "arcade": {
       "economic_rank": 30
     },
@@ -18769,7 +18956,7 @@
   },
   {
     "name": "ka_29",
-    "localized": "ka_29",
+    "localized": "Ka-29",
     "arcade": {
       "economic_rank": 26
     },
@@ -18786,7 +18973,7 @@
   },
   {
     "name": "a_129_a",
-    "localized": "a_129_a",
+    "localized": "A-129 International (p)",
     "arcade": {
       "economic_rank": 26
     },
@@ -18803,7 +18990,7 @@
   },
   {
     "name": "ab_205a_1",
-    "localized": "ab_205a_1",
+    "localized": "AB 205 A-1",
     "arcade": {
       "economic_rank": 20
     },
@@ -18820,7 +19007,7 @@
   },
   {
     "name": "a_109_eoa2",
-    "localized": "a_109_eoa2",
+    "localized": "A.109EOA-2",
     "arcade": {
       "economic_rank": 23
     },
@@ -18837,7 +19024,7 @@
   },
   {
     "name": "a_129_cbt",
-    "localized": "a_129_cbt",
+    "localized": "A129CBT",
     "arcade": {
       "economic_rank": 26
     },
@@ -18854,7 +19041,7 @@
   },
   {
     "name": "t_129_atak",
-    "localized": "t_129_atak",
+    "localized": "T129",
     "arcade": {
       "economic_rank": 26
     },
@@ -18871,7 +19058,7 @@
   },
   {
     "name": "mi_28a_sweden",
-    "localized": "mi_28a_sweden",
+    "localized": "Mi-28A",
     "arcade": {
       "economic_rank": 28
     },
@@ -18888,7 +19075,7 @@
   },
   {
     "name": "mi_28n",
-    "localized": "mi_28n",
+    "localized": "Mi-28N",
     "arcade": {
       "economic_rank": 29
     },
@@ -18905,7 +19092,7 @@
   },
   {
     "name": "mi_28nm",
-    "localized": "mi_28nm",
+    "localized": "Mi-28NM",
     "arcade": {
       "economic_rank": 30
     },
@@ -19313,7 +19500,7 @@
   },
   {
     "name": "ah_64a",
-    "localized": "ah_64a",
+    "localized": "AH-64A",
     "arcade": {
       "economic_rank": 28
     },
@@ -19347,7 +19534,7 @@
   },
   {
     "name": "ah_64a_greece_usa",
-    "localized": "ah_64a_greece_usa",
+    "localized": "AH-64A (GR)",
     "arcade": {
       "economic_rank": 28
     },
@@ -19364,7 +19551,7 @@
   },
   {
     "name": "ah_64a_peten",
-    "localized": "ah_64a_peten",
+    "localized": "✪AH-64A Peten",
     "arcade": {
       "economic_rank": 28
     },
@@ -19398,7 +19585,7 @@
   },
   {
     "name": "ah_64d",
-    "localized": "ah_64d",
+    "localized": "AH-64D",
     "arcade": {
       "economic_rank": 29
     },
@@ -19415,7 +19602,7 @@
   },
   {
     "name": "ah_64a_iaf",
-    "localized": "ah_64a_iaf",
+    "localized": "✡AH-64A",
     "arcade": {
       "economic_rank": 28
     },
@@ -19432,7 +19619,7 @@
   },
   {
     "name": "ah_64d_i_saraph",
-    "localized": "ah_64d_i_saraph",
+    "localized": "✡AH-64D-I",
     "arcade": {
       "economic_rank": 29
     },
@@ -19449,7 +19636,7 @@
   },
   {
     "name": "ah_64d_japan",
-    "localized": "ah_64d_japan",
+    "localized": "AH-64DJP",
     "arcade": {
       "economic_rank": 29
     },
@@ -19466,7 +19653,7 @@
   },
   {
     "name": "ah_2_rooivalk",
-    "localized": "ah_2_rooivalk",
+    "localized": "Rooivalk Mk1F CSH",
     "arcade": {
       "economic_rank": 29
     },
@@ -19483,7 +19670,7 @@
   },
   {
     "name": "ah_mk1",
-    "localized": "ah_mk1",
+    "localized": "AH Mk.1 Apache",
     "arcade": {
       "economic_rank": 29
     },
@@ -19670,7 +19857,7 @@
   },
   {
     "name": "mi_24p_german_hfs80",
-    "localized": "mi_24p_german_hfs80",
+    "localized": "✠Mi-24P HFS 80",
     "arcade": {
       "economic_rank": 27
     },
@@ -20384,7 +20571,7 @@
   },
   {
     "name": "ussr_2s25",
-    "localized": "ussr_2s25",
+    "localized": "2S25",
     "arcade": {
       "economic_rank": 25
     },
@@ -20401,7 +20588,7 @@
   },
   {
     "name": "ussr_2s25m",
-    "localized": "ussr_2s25m",
+    "localized": "2S25M",
     "arcade": {
       "economic_rank": 26
     },
@@ -20928,7 +21115,7 @@
   },
   {
     "name": "ussr_bt_7_1937_td",
-    "localized": "ussr_bt_7_1937_td",
+    "localized": "BT-7 TD",
     "arcade": {
       "economic_rank": 1
     },
@@ -21455,7 +21642,7 @@
   },
   {
     "name": "ussr_su_76d",
-    "localized": "ussr_su_76d",
+    "localized": "SU-76D",
     "arcade": {
       "economic_rank": 4
     },
@@ -21574,7 +21761,7 @@
   },
   {
     "name": "germ_pzkpfw_VI_ausf_h1_tiger_animal_version",
-    "localized": "germ_pzkpfw_VI_ausf_h1_tiger_animal_version",
+    "localized": "␠Tiger",
     "arcade": {
       "economic_rank": 13
     },
@@ -22084,7 +22271,7 @@
   },
   {
     "name": "germ_pzkpfw_III_ausf_J_td",
-    "localized": "germ_pzkpfw_III_ausf_J_td",
+    "localized": "Pz.III J1 TD",
     "arcade": {
       "economic_rank": 5
     },
@@ -22492,7 +22679,7 @@
   },
   {
     "name": "germ_marder_df_105",
-    "localized": "germ_marder_df_105",
+    "localized": "DF105",
     "arcade": {
       "economic_rank": 19
     },
@@ -22526,7 +22713,7 @@
   },
   {
     "name": "germ_wiesel_1_tow",
-    "localized": "germ_wiesel_1_tow",
+    "localized": "Wiesel 1A2",
     "arcade": {
       "economic_rank": 24
     },
@@ -22951,7 +23138,7 @@
   },
   {
     "name": "germ_wiesel_1_mk20",
-    "localized": "germ_wiesel_1_mk20",
+    "localized": "Wiesel 1A4",
     "arcade": {
       "economic_rank": 18
     },
@@ -22962,6 +23149,23 @@
       "economic_rank": 18
     },
     "rank": 5,
+    "tech_tree": {
+      "nation": "Germany"
+    }
+  },
+  {
+    "name": "germ_flakpz_1a2_Gepard",
+    "localized": "Gepard 1A2",
+    "arcade": {
+      "economic_rank": 26
+    },
+    "realistic": {
+      "economic_rank": 26
+    },
+    "simulator": {
+      "economic_rank": 26
+    },
+    "rank": 6,
     "tech_tree": {
       "nation": "Germany"
     }
@@ -22985,7 +23189,7 @@
   },
   {
     "name": "germ_wiesel_2_adwc",
-    "localized": "germ_wiesel_2_adwc",
+    "localized": "Ozelot",
     "arcade": {
       "economic_rank": 25
     },
@@ -23580,7 +23784,7 @@
   },
   {
     "name": "it_otobreda_sidam_25_mistral",
-    "localized": "it_otobreda_sidam_25_mistral",
+    "localized": "SIDAM 25 (Mistral)",
     "arcade": {
       "economic_rank": 27
     },
@@ -23801,7 +24005,7 @@
   },
   {
     "name": "it_44m_zrinyi_1",
-    "localized": "it_44m_zrinyi_1",
+    "localized": "Zrinyi I",
     "arcade": {
       "economic_rank": 9
     },
@@ -24124,7 +24328,7 @@
   },
   {
     "name": "it_c13_t90",
-    "localized": "it_c13_t90",
+    "localized": "C13 T90",
     "arcade": {
       "economic_rank": 17
     },
@@ -25535,7 +25739,7 @@
   },
   {
     "name": "us_m8_greyhound",
-    "localized": "us_m8_greyhound",
+    "localized": "M8 LAC",
     "arcade": {
       "economic_rank": 0
     },
@@ -26453,7 +26657,7 @@
   },
   {
     "name": "germ_pzkpfw_35t_romania_mare",
-    "localized": "germ_pzkpfw_35t_romania_mare",
+    "localized": "Pz.35(t) RM",
     "arcade": {
       "economic_rank": 0
     },
@@ -26504,7 +26708,7 @@
   },
   {
     "name": "ussr_object_279",
-    "localized": "ussr_object_279",
+    "localized": "Object 279",
     "arcade": {
       "economic_rank": 23
     },
@@ -26640,7 +26844,7 @@
   },
   {
     "name": "us_m728",
-    "localized": "M728",
+    "localized": "M728 CEV",
     "arcade": {
       "economic_rank": 21
     },
@@ -26742,7 +26946,7 @@
   },
   {
     "name": "us_m1a1_hc_abrams",
-    "localized": "us_m1a1_hc_abrams",
+    "localized": "M1A1 HC",
     "arcade": {
       "economic_rank": 29
     },
@@ -26997,7 +27201,7 @@
   },
   {
     "name": "us_m1128_wolfpack",
-    "localized": "us_m1128_wolfpack",
+    "localized": "M1128 Wolfpack",
     "arcade": {
       "economic_rank": 24
     },
@@ -27048,7 +27252,7 @@
   },
   {
     "name": "germ_mkpz_m47",
-    "localized": "germ_mkpz_m47",
+    "localized": "mKPz M47 G",
     "arcade": {
       "economic_rank": 19
     },
@@ -27065,7 +27269,7 @@
   },
   {
     "name": "germ_mkpz_m48a2c",
-    "localized": "germ_mkpz_m48a2c",
+    "localized": "M48A2 C",
     "arcade": {
       "economic_rank": 19
     },
@@ -27167,7 +27371,7 @@
   },
   {
     "name": "germ_vt_1_2",
-    "localized": "germ_vt_1_2",
+    "localized": "VT1-2",
     "arcade": {
       "economic_rank": 21
     },
@@ -27235,7 +27439,7 @@
   },
   {
     "name": "germ_leopard_2av",
-    "localized": "germ_leopard_2av",
+    "localized": "Leopard 2AV",
     "arcade": {
       "economic_rank": 26
     },
@@ -27252,7 +27456,7 @@
   },
   {
     "name": "germ_erprobungstrager_3_achs_turm",
-    "localized": "germ_erprobungstrager_3_achs_turm",
+    "localized": "Turm III",
     "arcade": {
       "economic_rank": 22
     },
@@ -27762,7 +27966,7 @@
   },
   {
     "name": "germ_radpanzer_90",
-    "localized": "germ_radpanzer_90",
+    "localized": "Radkampfwagen 90",
     "arcade": {
       "economic_rank": 24
     },
@@ -27813,7 +28017,7 @@
   },
   {
     "name": "germ_le_kpz_m41",
-    "localized": "germ_le_kpz_m41",
+    "localized": "leKPz M41",
     "arcade": {
       "economic_rank": 16
     },
@@ -27830,7 +28034,7 @@
   },
   {
     "name": "germ_marder_1a1",
-    "localized": "germ_marder_1a1",
+    "localized": "Marder A1-",
     "arcade": {
       "economic_rank": 19
     },
@@ -27847,7 +28051,7 @@
   },
   {
     "name": "germ_marder_1a3",
-    "localized": "germ_marder_1a3",
+    "localized": "Marder 1A3",
     "arcade": {
       "economic_rank": 21
     },
@@ -27864,7 +28068,7 @@
   },
   {
     "name": "germ_schutzenpanzer_puma",
-    "localized": "germ_schutzenpanzer_puma",
+    "localized": "PUMA",
     "arcade": {
       "economic_rank": 25
     },
@@ -27881,7 +28085,7 @@
   },
   {
     "name": "germ_begleitpanzer_57",
-    "localized": "germ_begleitpanzer_57",
+    "localized": "Begleitpanzer 57",
     "arcade": {
       "economic_rank": 26
     },
@@ -28051,7 +28255,7 @@
   },
   {
     "name": "ussr_object_685",
-    "localized": "ussr_object_685",
+    "localized": "Object 685",
     "arcade": {
       "economic_rank": 22
     },
@@ -28153,7 +28357,7 @@
   },
   {
     "name": "ussr_ba_11",
-    "localized": "ussr_ba_11",
+    "localized": "BA-11",
     "arcade": {
       "economic_rank": 1
     },
@@ -28221,7 +28425,7 @@
   },
   {
     "name": "sw_pvlvv_fm42",
-    "localized": "sw_pvlvv_fm42",
+    "localized": "Pvlvv fm/42",
     "arcade": {
       "economic_rank": 1
     },
@@ -28238,7 +28442,7 @@
   },
   {
     "name": "sw_pbv_301",
-    "localized": "sw_pbv_301",
+    "localized": "Pbv 301",
     "arcade": {
       "economic_rank": 4
     },
@@ -28255,7 +28459,7 @@
   },
   {
     "name": "sw_lvkv_42",
-    "localized": "sw_lvkv_42",
+    "localized": "Lvkv 42",
     "arcade": {
       "economic_rank": 12
     },
@@ -28272,7 +28476,7 @@
   },
   {
     "name": "sw_l_62_anti_II",
-    "localized": "sw_l_62_anti_II",
+    "localized": "L-62 ANTI II",
     "arcade": {
       "economic_rank": 8
     },
@@ -28289,7 +28493,7 @@
   },
   {
     "name": "sw_tgdgb_m40_lv",
-    "localized": "sw_tgdgb_m40_lv",
+    "localized": "Lvtdgb m/40",
     "arcade": {
       "economic_rank": 6
     },
@@ -28306,7 +28510,7 @@
   },
   {
     "name": "sw_strf_90b",
-    "localized": "sw_strf_90b",
+    "localized": "Strf 9040B",
     "arcade": {
       "economic_rank": 24
     },
@@ -28323,7 +28527,7 @@
   },
   {
     "name": "sw_strf_9056",
-    "localized": "sw_strf_9056",
+    "localized": "Strf 9040 BILL",
     "arcade": {
       "economic_rank": 28
     },
@@ -28340,7 +28544,7 @@
   },
   {
     "name": "sw_strf_90c",
-    "localized": "sw_strf_90c",
+    "localized": "Strf 9040C",
     "arcade": {
       "economic_rank": 27
     },
@@ -28357,7 +28561,7 @@
   },
   {
     "name": "sw_cv_90105_tml",
-    "localized": "sw_cv_90105_tml",
+    "localized": "CV 90105",
     "arcade": {
       "economic_rank": 25
     },
@@ -28374,7 +28578,7 @@
   },
   {
     "name": "sw_cv_90120",
-    "localized": "sw_cv_90120",
+    "localized": "CV 90120",
     "arcade": {
       "economic_rank": 29
     },
@@ -28391,7 +28595,7 @@
   },
   {
     "name": "sw_asrad_r",
-    "localized": "sw_asrad_r",
+    "localized": "ASRAD-R",
     "arcade": {
       "economic_rank": 28
     },
@@ -28408,7 +28612,7 @@
   },
   {
     "name": "sw_crotale_ng",
-    "localized": "sw_crotale_ng",
+    "localized": "ItO 90M",
     "arcade": {
       "economic_rank": 30
     },
@@ -28425,7 +28629,7 @@
   },
   {
     "name": "sw_lvrbv_701",
-    "localized": "sw_lvrbv_701",
+    "localized": "Lvrbv 701",
     "arcade": {
       "economic_rank": 25
     },
@@ -28442,7 +28646,7 @@
   },
   {
     "name": "sw_udes_33",
-    "localized": "sw_udes_33",
+    "localized": "UDES 33",
     "arcade": {
       "economic_rank": 20
     },
@@ -28459,7 +28663,7 @@
   },
   {
     "name": "sw_pvrbv_551",
-    "localized": "sw_pvrbv_551",
+    "localized": "Pvrbv 551",
     "arcade": {
       "economic_rank": 21
     },
@@ -28476,7 +28680,7 @@
   },
   {
     "name": "sw_pbv_302_bill",
-    "localized": "sw_pbv_302_bill",
+    "localized": "Pbv 302 (BILL)",
     "arcade": {
       "economic_rank": 22
     },
@@ -28493,7 +28697,7 @@
   },
   {
     "name": "sw_ikv_91",
-    "localized": "sw_ikv_91",
+    "localized": "Ikv 91",
     "arcade": {
       "economic_rank": 18
     },
@@ -28510,7 +28714,7 @@
   },
   {
     "name": "sw_ikv_91_105",
-    "localized": "sw_ikv_91_105",
+    "localized": "Ikv 91-105",
     "arcade": {
       "economic_rank": 22
     },
@@ -28527,7 +28731,7 @@
   },
   {
     "name": "sw_ikv_73",
-    "localized": "sw_ikv_73",
+    "localized": "Ikv 73",
     "arcade": {
       "economic_rank": 5
     },
@@ -28544,7 +28748,7 @@
   },
   {
     "name": "sw_ikv_103",
-    "localized": "sw_ikv_103",
+    "localized": "Ikv 103",
     "arcade": {
       "economic_rank": 11
     },
@@ -28561,7 +28765,7 @@
   },
   {
     "name": "sw_stormpjas_fm43_44",
-    "localized": "sw_stormpjas_fm43_44",
+    "localized": "Spj fm/43-44",
     "arcade": {
       "economic_rank": 4
     },
@@ -28578,7 +28782,7 @@
   },
   {
     "name": "sw_pvkv_III",
-    "localized": "sw_pvkv_III",
+    "localized": "Pvkv III",
     "arcade": {
       "economic_rank": 7
     },
@@ -28595,7 +28799,7 @@
   },
   {
     "name": "sw_pvkv_II",
-    "localized": "sw_pvkv_II",
+    "localized": "Pvkv II",
     "arcade": {
       "economic_rank": 8
     },
@@ -28612,7 +28816,7 @@
   },
   {
     "name": "sw_pvkv_m43_1946",
-    "localized": "sw_pvkv_m43_1946",
+    "localized": "Pvkv m/43 (1946)",
     "arcade": {
       "economic_rank": 9
     },
@@ -28629,7 +28833,7 @@
   },
   {
     "name": "sw_pvkv_m43_1963",
-    "localized": "sw_pvkv_m43_1963",
+    "localized": "Pvkv m/43 (1963)",
     "arcade": {
       "economic_rank": 11
     },
@@ -28646,7 +28850,7 @@
   },
   {
     "name": "sw_bkan_1c",
-    "localized": "sw_bkan_1c",
+    "localized": "Bkan 1C",
     "arcade": {
       "economic_rank": 18
     },
@@ -28663,7 +28867,7 @@
   },
   {
     "name": "sw_ikv_72",
-    "localized": "sw_ikv_72",
+    "localized": "Ikv 72",
     "arcade": {
       "economic_rank": 2
     },
@@ -28680,7 +28884,7 @@
   },
   {
     "name": "sw_sav_m43_1944",
-    "localized": "sw_sav_m43_1944",
+    "localized": "Sav m/43 (1944)",
     "arcade": {
       "economic_rank": 2
     },
@@ -28697,7 +28901,7 @@
   },
   {
     "name": "sw_sav_m43_1946",
-    "localized": "sw_sav_m43_1946",
+    "localized": "Sav m/43 (1946)",
     "arcade": {
       "economic_rank": 6
     },
@@ -28714,7 +28918,7 @@
   },
   {
     "name": "sw_landsverk_ush_405",
-    "localized": "sw_landsverk_ush_405",
+    "localized": "U-SH 405",
     "arcade": {
       "economic_rank": 19
     },
@@ -28731,7 +28935,7 @@
   },
   {
     "name": "sw_zsu_57_2",
-    "localized": "sw_zsu_57_2",
+    "localized": "⦿ZSU-57-2",
     "arcade": {
       "economic_rank": 18
     },
@@ -28748,7 +28952,7 @@
   },
   {
     "name": "sw_veak_40",
-    "localized": "sw_veak_40",
+    "localized": "VEAK 40",
     "arcade": {
       "economic_rank": 22
     },
@@ -28765,7 +28969,7 @@
   },
   {
     "name": "sw_lvkv_90c",
-    "localized": "sw_lvkv_90c",
+    "localized": "Lvkv 9040C",
     "arcade": {
       "economic_rank": 26
     },
@@ -28782,7 +28986,7 @@
   },
   {
     "name": "sw_pbil_m40",
-    "localized": "sw_pbil_m40",
+    "localized": "Pbil m/40",
     "arcade": {
       "economic_rank": 2
     },
@@ -28799,7 +29003,7 @@
   },
   {
     "name": "sw_strv_m38",
-    "localized": "sw_strv_m38",
+    "localized": "Strv m/38",
     "arcade": {
       "economic_rank": 0
     },
@@ -28816,7 +29020,7 @@
   },
   {
     "name": "sw_leopard_2a6nl",
-    "localized": "sw_leopard_2a6nl",
+    "localized": "⦿Leopard 2A6",
     "arcade": {
       "economic_rank": 30
     },
@@ -28833,7 +29037,7 @@
   },
   {
     "name": "sw_pt_76b",
-    "localized": "sw_pt_76b",
+    "localized": "⦿PT-76",
     "arcade": {
       "economic_rank": 12
     },
@@ -28850,7 +29054,7 @@
   },
   {
     "name": "sw_vickers_mk_e_45",
-    "localized": "sw_vickers_mk_e_45",
+    "localized": "⦿T-26E",
     "arcade": {
       "economic_rank": 0
     },
@@ -28867,7 +29071,7 @@
   },
   {
     "name": "sw_vickers_mk_e_37",
-    "localized": "sw_vickers_mk_e_37",
+    "localized": "Vickers Mk.E",
     "arcade": {
       "economic_rank": 0
     },
@@ -28884,7 +29088,7 @@
   },
   {
     "name": "sw_t_28",
-    "localized": "sw_t_28",
+    "localized": "⦿T-28",
     "arcade": {
       "economic_rank": 2
     },
@@ -28901,7 +29105,7 @@
   },
   {
     "name": "sw_bt_42",
-    "localized": "sw_bt_42",
+    "localized": "BT-42",
     "arcade": {
       "economic_rank": 3
     },
@@ -28918,7 +29122,7 @@
   },
   {
     "name": "sw_t_34_1941",
-    "localized": "sw_t_34_1941",
+    "localized": "⦿T-34",
     "arcade": {
       "economic_rank": 8
     },
@@ -28935,7 +29139,7 @@
   },
   {
     "name": "sw_t_34_85_zis_53",
-    "localized": "sw_t_34_85_zis_53",
+    "localized": "⦿T-34-85",
     "arcade": {
       "economic_rank": 14
     },
@@ -28952,7 +29156,7 @@
   },
   {
     "name": "sw_pzkpfw_IV_ausf_J",
-    "localized": "sw_pzkpfw_IV_ausf_J",
+    "localized": "⦿Pz.IV",
     "arcade": {
       "economic_rank": 9
     },
@@ -28969,7 +29173,7 @@
   },
   {
     "name": "sw_a_34_comet",
-    "localized": "sw_a_34_comet",
+    "localized": "⦿Comet I",
     "arcade": {
       "economic_rank": 12
     },
@@ -28986,7 +29190,7 @@
   },
   {
     "name": "sw_charioteer_mk_7",
-    "localized": "sw_charioteer_mk_7",
+    "localized": "⦿Charioteer Mk VII",
     "arcade": {
       "economic_rank": 14
     },
@@ -29003,7 +29207,7 @@
   },
   {
     "name": "sw_t_54_1951",
-    "localized": "sw_t_54_1951",
+    "localized": "⦿T-54",
     "arcade": {
       "economic_rank": 20
     },
@@ -29020,7 +29224,7 @@
   },
   {
     "name": "sw_t_72m1",
-    "localized": "sw_t_72m1",
+    "localized": "T-72M1",
     "arcade": {
       "economic_rank": 25
     },
@@ -29037,7 +29241,7 @@
   },
   {
     "name": "sw_t_55m",
-    "localized": "sw_t_55m",
+    "localized": "T-55M",
     "arcade": {
       "economic_rank": 22
     },
@@ -29054,7 +29258,7 @@
   },
   {
     "name": "sw_leopard_2a4_fin",
-    "localized": "sw_leopard_2a4_fin",
+    "localized": "⦿Leopard 2A4",
     "arcade": {
       "economic_rank": 27
     },
@@ -29071,7 +29275,7 @@
   },
   {
     "name": "sw_strv_74",
-    "localized": "sw_strv_74",
+    "localized": "Strv 74",
     "arcade": {
       "economic_rank": 14
     },
@@ -29088,7 +29292,7 @@
   },
   {
     "name": "sw_lago_1",
-    "localized": "sw_lago_1",
+    "localized": "Lago I",
     "arcade": {
       "economic_rank": 5
     },
@@ -29105,7 +29309,7 @@
   },
   {
     "name": "sw_strv_m42_eh",
-    "localized": "sw_strv_m42_eh",
+    "localized": "Strv m/42 EH",
     "arcade": {
       "economic_rank": 5
     },
@@ -29122,7 +29326,7 @@
   },
   {
     "name": "sw_strv_m42_delat_torn",
-    "localized": "sw_strv_m42_delat_torn",
+    "localized": "Strv m/42 DT",
     "arcade": {
       "economic_rank": 12
     },
@@ -29139,7 +29343,7 @@
   },
   {
     "name": "sw_strv_m31",
-    "localized": "sw_strv_m31",
+    "localized": "Strv m/31",
     "arcade": {
       "economic_rank": 0
     },
@@ -29156,7 +29360,7 @@
   },
   {
     "name": "sw_strv_m41_s1",
-    "localized": "sw_strv_m41_s1",
+    "localized": "Strv m/41 S-I",
     "arcade": {
       "economic_rank": 5
     },
@@ -29173,7 +29377,7 @@
   },
   {
     "name": "sw_strv_m41_s2",
-    "localized": "sw_strv_m41_s2",
+    "localized": "Strv m/41 S-II",
     "arcade": {
       "economic_rank": 4
     },
@@ -29190,7 +29394,7 @@
   },
   {
     "name": "sw_strv_m40l",
-    "localized": "sw_strv_m40l",
+    "localized": "Strv m/40L",
     "arcade": {
       "economic_rank": 3
     },
@@ -29207,7 +29411,7 @@
   },
   {
     "name": "sw_strv_m39",
-    "localized": "sw_strv_m39",
+    "localized": "Strv m/39",
     "arcade": {
       "economic_rank": 0
     },
@@ -29224,7 +29428,7 @@
   },
   {
     "name": "sw_strv_m39_td",
-    "localized": "sw_strv_m39_td",
+    "localized": "Strv m/39 TD",
     "arcade": {
       "economic_rank": 0
     },
@@ -29241,7 +29445,7 @@
   },
   {
     "name": "sw_strv_104",
-    "localized": "sw_strv_104",
+    "localized": "Strv 104",
     "arcade": {
       "economic_rank": 22
     },
@@ -29258,7 +29462,7 @@
   },
   {
     "name": "sw_strv_105",
-    "localized": "sw_strv_105",
+    "localized": "Strv 105",
     "arcade": {
       "economic_rank": 24
     },
@@ -29275,7 +29479,7 @@
   },
   {
     "name": "sw_strv_103a",
-    "localized": "sw_strv_103a",
+    "localized": "Strv 103A",
     "arcade": {
       "economic_rank": 20
     },
@@ -29292,7 +29496,7 @@
   },
   {
     "name": "sw_strv_103c",
-    "localized": "sw_strv_103c",
+    "localized": "Strv 103С",
     "arcade": {
       "economic_rank": 22
     },
@@ -29309,7 +29513,7 @@
   },
   {
     "name": "sw_strv_122",
-    "localized": "sw_strv_122",
+    "localized": "Strv 122A",
     "arcade": {
       "economic_rank": 30
     },
@@ -29326,7 +29530,7 @@
   },
   {
     "name": "sw_strv_122b_plss",
-    "localized": "sw_strv_122b_plss",
+    "localized": "Strv 122B PLSS",
     "arcade": {
       "economic_rank": 30
     },
@@ -29343,7 +29547,7 @@
   },
   {
     "name": "sw_strv_121",
-    "localized": "sw_strv_121",
+    "localized": "Strv 121",
     "arcade": {
       "economic_rank": 27
     },
@@ -29360,7 +29564,7 @@
   },
   {
     "name": "sw_sav_fm48",
-    "localized": "sw_sav_fm48",
+    "localized": "SAV 20.12.48",
     "arcade": {
       "economic_rank": 8
     },
@@ -29377,7 +29581,7 @@
   },
   {
     "name": "sw_strv_81",
-    "localized": "sw_strv_81",
+    "localized": "Strv 81",
     "arcade": {
       "economic_rank": 19
     },
@@ -29394,7 +29598,7 @@
   },
   {
     "name": "sw_strv_81_rb52",
-    "localized": "sw_strv_81_rb52",
+    "localized": "Strv 81 (RB 52)",
     "arcade": {
       "economic_rank": 19
     },
@@ -29411,7 +29615,7 @@
   },
   {
     "name": "sw_strv_101",
-    "localized": "sw_strv_101",
+    "localized": "Strv 101",
     "arcade": {
       "economic_rank": 20
     },
@@ -29428,7 +29632,7 @@
   },
   {
     "name": "sw_strv_103_0",
-    "localized": "sw_strv_103_0",
+    "localized": "Strv 103-0",
     "arcade": {
       "economic_rank": 20
     },
@@ -29445,7 +29649,7 @@
   },
   {
     "name": "sw_leopard_1a5no",
-    "localized": "sw_leopard_1a5no",
+    "localized": "Leopard 1A5NO",
     "arcade": {
       "economic_rank": 24
     },
@@ -29462,7 +29666,7 @@
   },
   {
     "name": "sw_t_80u",
-    "localized": "sw_t_80u",
+    "localized": "T 80 U",
     "arcade": {
       "economic_rank": 29
     },
@@ -29887,7 +30091,7 @@
   },
   {
     "name": "uk_fv102_striker",
-    "localized": "uk_fv102_striker",
+    "localized": "Striker",
     "arcade": {
       "economic_rank": 21
     },
@@ -29904,7 +30108,7 @@
   },
   {
     "name": "uk_ram_90mm_aa",
-    "localized": "uk_ram_90mm_aa",
+    "localized": "QF 3.7 Ram",
     "arcade": {
       "economic_rank": 13
     },
@@ -30176,7 +30380,7 @@
   },
   {
     "name": "uk_rooikat_105_td",
-    "localized": "uk_rooikat_105_td",
+    "localized": "Rooikat 105",
     "arcade": {
       "economic_rank": 22
     },
@@ -30193,7 +30397,7 @@
   },
   {
     "name": "uk_rooikat_76",
-    "localized": "uk_rooikat_76",
+    "localized": "Rooikat Mk.1D",
     "arcade": {
       "economic_rank": 22
     },
@@ -30210,7 +30414,7 @@
   },
   {
     "name": "uk_vfm_5",
-    "localized": "uk_vfm_5",
+    "localized": "VFM5",
     "arcade": {
       "economic_rank": 24
     },
@@ -30397,7 +30601,7 @@
   },
   {
     "name": "uk_vickers_mbt_mk_3",
-    "localized": "uk_vickers_mbt_mk_3",
+    "localized": "Vickers Mk.3",
     "arcade": {
       "economic_rank": 21
     },
@@ -30516,7 +30720,7 @@
   },
   {
     "name": "ussr_valentine_mk_9",
-    "localized": "ussr_valentine_mk_9",
+    "localized": "★МК-IX \"\"Valentine\"\"",
     "arcade": {
       "economic_rank": 6
     },
@@ -30533,7 +30737,7 @@
   },
   {
     "name": "ussr_a_12_mk_2_matilda_2A_F96",
-    "localized": "ussr_a_12_mk_2_matilda_2A_F96",
+    "localized": "★MK-II \"\"Matilda\"\"",
     "arcade": {
       "economic_rank": 8
     },
@@ -30924,7 +31128,7 @@
   },
   {
     "name": "uk_a_33_excelsior",
-    "localized": "uk_a_33_excelsior",
+    "localized": "Excelsior",
     "arcade": {
       "economic_rank": 9
     },
@@ -31179,7 +31383,7 @@
   },
   {
     "name": "it_p_40",
-    "localized": "it_p_40",
+    "localized": "P40",
     "arcade": {
       "economic_rank": 7
     },
@@ -31196,7 +31400,7 @@
   },
   {
     "name": "it_p_26_40",
-    "localized": "it_p_26_40",
+    "localized": "P40 \"\"G.C. Leoncello\"\"",
     "arcade": {
       "economic_rank": 7
     },
@@ -31230,7 +31434,7 @@
   },
   {
     "name": "it_m26_ariete",
-    "localized": "it_m26_ariete",
+    "localized": "M26 \"\"D.C.Ariete\"\"",
     "arcade": {
       "economic_rank": 17
     },
@@ -31740,7 +31944,7 @@
   },
   {
     "name": "fr_char_2c_bis",
-    "localized": "fr_char_2c_bis",
+    "localized": "2C bis",
     "arcade": {
       "economic_rank": 2
     },
@@ -32029,7 +32233,7 @@
   },
   {
     "name": "fr_aml_90",
-    "localized": "fr_aml_90",
+    "localized": "AML-90",
     "arcade": {
       "economic_rank": 17
     },
@@ -32369,7 +32573,7 @@
   },
   {
     "name": "jp_type_89b_i_go_otsu",
-    "localized": "jp_type_89b_i_go_otsu",
+    "localized": "I-Go Ko",
     "arcade": {
       "economic_rank": 0
     },
@@ -32386,7 +32590,7 @@
   },
   {
     "name": "jp_type_95_ha_go",
-    "localized": "jp_type_95_ha_go",
+    "localized": "Ha-Go",
     "arcade": {
       "economic_rank": 0
     },
@@ -32403,7 +32607,7 @@
   },
   {
     "name": "jp_type_95_heavy",
-    "localized": "jp_type_95_heavy",
+    "localized": "Ro-Go",
     "arcade": {
       "economic_rank": 1
     },
@@ -32420,7 +32624,7 @@
   },
   {
     "name": "jp_type_95_ha_go_commander",
-    "localized": "jp_type_95_ha_go_commander",
+    "localized": "Ha-Go Commander",
     "arcade": {
       "economic_rank": 0
     },
@@ -32437,7 +32641,7 @@
   },
   {
     "name": "jp_type_98_ke_ni",
-    "localized": "jp_type_98_ke_ni",
+    "localized": "Ke-Ni",
     "arcade": {
       "economic_rank": 0
     },
@@ -32454,7 +32658,7 @@
   },
   {
     "name": "jp_type_2_ka_mi",
-    "localized": "jp_type_2_ka_mi",
+    "localized": "Ka-Mi",
     "arcade": {
       "economic_rank": 0
     },
@@ -32471,7 +32675,7 @@
   },
   {
     "name": "jp_type_3_ka_chi",
-    "localized": "jp_type_3_ka_chi",
+    "localized": "Ka-Chi",
     "arcade": {
       "economic_rank": 3
     },
@@ -32488,7 +32692,7 @@
   },
   {
     "name": "jp_type_97_chi_ha",
-    "localized": "jp_type_97_chi_ha",
+    "localized": "Chi-Ha",
     "arcade": {
       "economic_rank": 1
     },
@@ -32505,7 +32709,7 @@
   },
   {
     "name": "jp_m24_chaffee",
-    "localized": "jp_m24_chaffee",
+    "localized": "▅M24",
     "arcade": {
       "economic_rank": 7
     },
@@ -32522,7 +32726,7 @@
   },
   {
     "name": "jp_m41_walker_bulldog",
-    "localized": "jp_m41_walker_bulldog",
+    "localized": "▅M41A1",
     "arcade": {
       "economic_rank": 15
     },
@@ -32539,7 +32743,7 @@
   },
   {
     "name": "jp_m4a3e8_76w_sherman",
-    "localized": "jp_m4a3e8_76w_sherman",
+    "localized": "▅M4A3 (76) W",
     "arcade": {
       "economic_rank": 13
     },
@@ -32556,7 +32760,7 @@
   },
   {
     "name": "jp_type_1_chi_he_5th_regiment",
-    "localized": "jp_type_1_chi_he_5th_regiment",
+    "localized": "Chi-He (5th Regiment)",
     "arcade": {
       "economic_rank": 5
     },
@@ -32573,7 +32777,7 @@
   },
   {
     "name": "jp_type_1_chi_he",
-    "localized": "jp_type_1_chi_he",
+    "localized": "Chi-He",
     "arcade": {
       "economic_rank": 5
     },
@@ -32590,7 +32794,7 @@
   },
   {
     "name": "jp_type_2_ho_i",
-    "localized": "jp_type_2_ho_i",
+    "localized": "Ho-I",
     "arcade": {
       "economic_rank": 4
     },
@@ -32607,7 +32811,7 @@
   },
   {
     "name": "jp_type_3_chi_nu_75cm_type_5",
-    "localized": "jp_type_3_chi_nu_75cm_type_5",
+    "localized": "Chi-Nu II",
     "arcade": {
       "economic_rank": 10
     },
@@ -32624,7 +32828,7 @@
   },
   {
     "name": "jp_type_3_chi_nu",
-    "localized": "jp_type_3_chi_nu",
+    "localized": "Chi-Nu",
     "arcade": {
       "economic_rank": 7
     },
@@ -32641,7 +32845,7 @@
   },
   {
     "name": "jp_type_4_chi_to",
-    "localized": "jp_type_4_chi_to",
+    "localized": "Chi-To",
     "arcade": {
       "economic_rank": 11
     },
@@ -32658,7 +32862,7 @@
   },
   {
     "name": "jp_type_4_chi_to_late",
-    "localized": "jp_type_4_chi_to_late",
+    "localized": "Chi-To Late",
     "arcade": {
       "economic_rank": 11
     },
@@ -32675,7 +32879,7 @@
   },
   {
     "name": "jp_type_5_chi_ri",
-    "localized": "jp_type_5_chi_ri",
+    "localized": "Chi-Ri II",
     "arcade": {
       "economic_rank": 12
     },
@@ -32692,7 +32896,7 @@
   },
   {
     "name": "jp_type_5_na_to",
-    "localized": "jp_type_5_na_to",
+    "localized": "Na-To",
     "arcade": {
       "economic_rank": 7
     },
@@ -32709,7 +32913,7 @@
   },
   {
     "name": "jp_m36b2_jgsdf",
-    "localized": "jp_m36b2_jgsdf",
+    "localized": "▅M36",
     "arcade": {
       "economic_rank": 14
     },
@@ -32726,7 +32930,7 @@
   },
   {
     "name": "jp_type_5_ho_ri_prototype",
-    "localized": "jp_type_5_ho_ri_prototype",
+    "localized": "Ho-Ri Prototype",
     "arcade": {
       "economic_rank": 17
     },
@@ -32743,7 +32947,7 @@
   },
   {
     "name": "jp_type_5_ho_ri_production",
-    "localized": "jp_type_5_ho_ri_production",
+    "localized": "Ho-Ri Production",
     "arcade": {
       "economic_rank": 19
     },
@@ -32760,7 +32964,7 @@
   },
   {
     "name": "jp_st_b1",
-    "localized": "jp_st_b1",
+    "localized": "STB-1",
     "arcade": {
       "economic_rank": 20
     },
@@ -32777,7 +32981,7 @@
   },
   {
     "name": "jp_type_60_atm",
-    "localized": "jp_type_60_atm",
+    "localized": "Type 60 ATM",
     "arcade": {
       "economic_rank": 17
     },
@@ -32794,7 +32998,7 @@
   },
   {
     "name": "jp_type_74",
-    "localized": "jp_type_74",
+    "localized": "Type 74 (E)",
     "arcade": {
       "economic_rank": 23
     },
@@ -32811,7 +33015,7 @@
   },
   {
     "name": "jp_type_74_c",
-    "localized": "jp_type_74_c",
+    "localized": "Type 74 (C)",
     "arcade": {
       "economic_rank": 21
     },
@@ -32845,7 +33049,7 @@
   },
   {
     "name": "jp_type_74_f",
-    "localized": "jp_type_74_f",
+    "localized": "Type 74 (F)",
     "arcade": {
       "economic_rank": 23
     },
@@ -32913,7 +33117,7 @@
   },
   {
     "name": "jp_type_75_mlrs",
-    "localized": "jp_type_75_mlrs",
+    "localized": "Type 75 MLRS",
     "arcade": {
       "economic_rank": 18
     },
@@ -32998,7 +33202,7 @@
   },
   {
     "name": "jp_st_a1",
-    "localized": "jp_st_a1",
+    "localized": "ST-A1",
     "arcade": {
       "economic_rank": 16
     },
@@ -33015,7 +33219,7 @@
   },
   {
     "name": "jp_st_a2",
-    "localized": "jp_st_a2",
+    "localized": "ST-A2",
     "arcade": {
       "economic_rank": 16
     },
@@ -33032,7 +33236,7 @@
   },
   {
     "name": "jp_st_a3",
-    "localized": "jp_st_a3",
+    "localized": "ST-A3",
     "arcade": {
       "economic_rank": 17
     },
@@ -33049,7 +33253,7 @@
   },
   {
     "name": "jp_m47_patton_II",
-    "localized": "jp_m47_patton_II",
+    "localized": "▅M47",
     "arcade": {
       "economic_rank": 19
     },
@@ -33066,7 +33270,7 @@
   },
   {
     "name": "jp_type_61",
-    "localized": "jp_type_61",
+    "localized": "Type 61",
     "arcade": {
       "economic_rank": 16
     },
@@ -33083,7 +33287,7 @@
   },
   {
     "name": "jp_type_97_chi_ha_12cm",
-    "localized": "jp_type_97_chi_ha_12cm",
+    "localized": "Chi-Ha Short Gun",
     "arcade": {
       "economic_rank": 3
     },
@@ -33100,7 +33304,7 @@
   },
   {
     "name": "jp_type_97_kai_td",
-    "localized": "jp_type_97_kai_td",
+    "localized": "Chi-Ha Kai TD",
     "arcade": {
       "economic_rank": 4
     },
@@ -33117,7 +33321,7 @@
   },
   {
     "name": "jp_type_97_kai",
-    "localized": "jp_type_97_kai",
+    "localized": "Chi-Ha Kai",
     "arcade": {
       "economic_rank": 4
     },
@@ -33134,7 +33338,7 @@
   },
   {
     "name": "jp_pzkpfw_VI_ausf_e_tiger",
-    "localized": "jp_pzkpfw_VI_ausf_e_tiger",
+    "localized": "▅Heavy Tank No.6",
     "arcade": {
       "economic_rank": 14
     },
@@ -33151,7 +33355,7 @@
   },
   {
     "name": "jp_type_94",
-    "localized": "jp_type_94",
+    "localized": "Type 94",
     "arcade": {
       "economic_rank": 1
     },
@@ -33202,7 +33406,7 @@
   },
   {
     "name": "jp_type_98_ta_se",
-    "localized": "jp_type_98_ta_se",
+    "localized": "Ta-Se",
     "arcade": {
       "economic_rank": 2
     },
@@ -33219,7 +33423,7 @@
   },
   {
     "name": "jp_type_95_so_ki",
-    "localized": "jp_type_95_so_ki",
+    "localized": "So-Ki",
     "arcade": {
       "economic_rank": 7
     },
@@ -33236,7 +33440,7 @@
   },
   {
     "name": "jp_m42_duster",
-    "localized": "jp_m42_duster",
+    "localized": "▅M42",
     "arcade": {
       "economic_rank": 13
     },
@@ -33253,7 +33457,7 @@
   },
   {
     "name": "jp_sub_i_ii_20mm",
-    "localized": "jp_sub_i_ii_20mm",
+    "localized": "SUB-I-II",
     "arcade": {
       "economic_rank": 13
     },
@@ -33304,7 +33508,7 @@
   },
   {
     "name": "jp_type_4_ho_ro",
-    "localized": "jp_type_4_ho_ro",
+    "localized": "Ho-Ro",
     "arcade": {
       "economic_rank": 1
     },
@@ -33321,7 +33525,7 @@
   },
   {
     "name": "jp_hiro_sha",
-    "localized": "jp_hiro_sha",
+    "localized": "Ro-Go Exp.",
     "arcade": {
       "economic_rank": 2
     },
@@ -33338,7 +33542,7 @@
   },
   {
     "name": "jp_navy_120mm_spg",
-    "localized": "jp_navy_120mm_spg",
+    "localized": "Chi-Ha LG",
     "arcade": {
       "economic_rank": 5
     },
@@ -33355,7 +33559,7 @@
   },
   {
     "name": "jp_type_3_ho_ni_I",
-    "localized": "jp_type_3_ho_ni_I",
+    "localized": "Ho-Ni I",
     "arcade": {
       "economic_rank": 3
     },
@@ -33372,7 +33576,7 @@
   },
   {
     "name": "jp_type_3_ho_ni_III",
-    "localized": "jp_type_3_ho_ni_III",
+    "localized": "Ho-Ni III",
     "arcade": {
       "economic_rank": 4
     },
@@ -33389,7 +33593,7 @@
   },
   {
     "name": "jp_type_60_sprg",
-    "localized": "jp_type_60_sprg",
+    "localized": "Type 60 SPRG (C)",
     "arcade": {
       "economic_rank": 17
     },
@@ -34001,7 +34205,7 @@
   },
   {
     "name": "ussr_m551_football",
-    "localized": "ussr_m551_football",
+    "localized": "",
     "arcade": {
       "economic_rank": 22
     },
@@ -34018,7 +34222,7 @@
   },
   {
     "name": "us_m551_football",
-    "localized": "us_m551_football",
+    "localized": "",
     "arcade": {
       "economic_rank": 22
     },
@@ -34035,7 +34239,7 @@
   },
   {
     "name": "cn_bt_5",
-    "localized": "cn_bt_5",
+    "localized": "BT-5",
     "arcade": {
       "economic_rank": 0
     },
@@ -34052,7 +34256,7 @@
   },
   {
     "name": "cn_t_26_1940",
-    "localized": "cn_t_26_1940",
+    "localized": "␗T-26",
     "arcade": {
       "economic_rank": 0
     },
@@ -34069,7 +34273,7 @@
   },
   {
     "name": "cn_t_26_no531",
-    "localized": "cn_t_26_no531",
+    "localized": "T-26 No.531",
     "arcade": {
       "economic_rank": 0
     },
@@ -34086,7 +34290,7 @@
   },
   {
     "name": "cn_type_95_ha_go",
-    "localized": "cn_type_95_ha_go",
+    "localized": "Ha-Go",
     "arcade": {
       "economic_rank": 0
     },
@@ -34103,7 +34307,7 @@
   },
   {
     "name": "cn_type_97_chi_ha",
-    "localized": "cn_type_97_chi_ha",
+    "localized": "␗Chi-Ha",
     "arcade": {
       "economic_rank": 1
     },
@@ -34120,7 +34324,7 @@
   },
   {
     "name": "cn_m3a3_stuart_1st_ptg",
-    "localized": "cn_m3a3_stuart_1st_ptg",
+    "localized": "␗M3A3 (1st PTG)",
     "arcade": {
       "economic_rank": 4
     },
@@ -34137,7 +34341,7 @@
   },
   {
     "name": "cn_m3a3_stuart",
-    "localized": "cn_m3a3_stuart",
+    "localized": "␗M3A3 Stuart",
     "arcade": {
       "economic_rank": 4
     },
@@ -34154,7 +34358,7 @@
   },
   {
     "name": "cn_type_97_kai",
-    "localized": "cn_type_97_kai",
+    "localized": "␗Chi-Ha Kai",
     "arcade": {
       "economic_rank": 4
     },
@@ -34171,7 +34375,7 @@
   },
   {
     "name": "cn_m5a1_stuart",
-    "localized": "cn_m5a1_stuart",
+    "localized": "␗M5A1",
     "arcade": {
       "economic_rank": 4
     },
@@ -34188,7 +34392,7 @@
   },
   {
     "name": "cn_lvt_4_zis_2",
-    "localized": "cn_lvt_4_zis_2",
+    "localized": "LVT(A)(4) (ZiS-2)",
     "arcade": {
       "economic_rank": 4
     },
@@ -34205,7 +34409,7 @@
   },
   {
     "name": "cn_t_34_1942",
-    "localized": "cn_t_34_1942",
+    "localized": "␗T-34 (1943)",
     "arcade": {
       "economic_rank": 9
     },
@@ -34222,7 +34426,7 @@
   },
   {
     "name": "cn_type_64",
-    "localized": "cn_type_64",
+    "localized": "M64",
     "arcade": {
       "economic_rank": 11
     },
@@ -34239,7 +34443,7 @@
   },
   {
     "name": "cn_m4a4_sherman",
-    "localized": "cn_m4a4_sherman",
+    "localized": "␗M4A4",
     "arcade": {
       "economic_rank": 8
     },
@@ -34256,7 +34460,7 @@
   },
   {
     "name": "cn_m4a4_sherman_1st_ptg",
-    "localized": "cn_m4a4_sherman_1st_ptg",
+    "localized": "␗M4A4 (1st PTG)",
     "arcade": {
       "economic_rank": 8
     },
@@ -34273,7 +34477,7 @@
   },
   {
     "name": "cn_t_34_85_d_5t",
-    "localized": "cn_t_34_85_d_5t",
+    "localized": "␗Т-34-85 (S-53)",
     "arcade": {
       "economic_rank": 14
     },
@@ -34290,7 +34494,7 @@
   },
   {
     "name": "cn_t_34_85_zis_53_no215",
-    "localized": "cn_t_34_85_zis_53_no215",
+    "localized": "T-34-85 No.215",
     "arcade": {
       "economic_rank": 14
     },
@@ -34307,7 +34511,7 @@
   },
   {
     "name": "cn_pt_76",
-    "localized": "cn_pt_76",
+    "localized": "␗PT-76",
     "arcade": {
       "economic_rank": 12
     },
@@ -34324,7 +34528,7 @@
   },
   {
     "name": "cn_is_2_1943",
-    "localized": "cn_is_2_1943",
+    "localized": "␗IS-2",
     "arcade": {
       "economic_rank": 15
     },
@@ -34341,7 +34545,7 @@
   },
   {
     "name": "cn_is_2_1943_no402",
-    "localized": "cn_is_2_1943_no402",
+    "localized": "IS-2 No.402",
     "arcade": {
       "economic_rank": 15
     },
@@ -34358,7 +34562,7 @@
   },
   {
     "name": "cn_m113a1_tow",
-    "localized": "cn_m113a1_tow",
+    "localized": "␗M113A1 (TOW)",
     "arcade": {
       "economic_rank": 21
     },
@@ -34375,7 +34579,7 @@
   },
   {
     "name": "cn_cm_25",
-    "localized": "cn_cm_25",
+    "localized": "CM25",
     "arcade": {
       "economic_rank": 22
     },
@@ -34392,7 +34596,7 @@
   },
   {
     "name": "cn_hj_9",
-    "localized": "cn_hj_9",
+    "localized": "AFT09",
     "arcade": {
       "economic_rank": 23
     },
@@ -34409,7 +34613,7 @@
   },
   {
     "name": "cn_ptz_89",
-    "localized": "cn_ptz_89",
+    "localized": "PTZ89",
     "arcade": {
       "economic_rank": 23
     },
@@ -34426,7 +34630,7 @@
   },
   {
     "name": "cn_is_2_1944",
-    "localized": "cn_is_2_1944",
+    "localized": "␗IS-2 mod.1944",
     "arcade": {
       "economic_rank": 17
     },
@@ -34443,7 +34647,7 @@
   },
   {
     "name": "cn_ztz_59a",
-    "localized": "cn_ztz_59a",
+    "localized": "ZTZ59A",
     "arcade": {
       "economic_rank": 20
     },
@@ -34460,7 +34664,7 @@
   },
   {
     "name": "cn_type_59",
-    "localized": "cn_type_59",
+    "localized": "Type 59",
     "arcade": {
       "economic_rank": 20
     },
@@ -34477,7 +34681,7 @@
   },
   {
     "name": "cn_type_59d",
-    "localized": "cn_type_59d",
+    "localized": "ZTZ59D1",
     "arcade": {
       "economic_rank": 23
     },
@@ -34494,7 +34698,7 @@
   },
   {
     "name": "cn_ztz_88a",
-    "localized": "cn_ztz_88a",
+    "localized": "ZTZ88A",
     "arcade": {
       "economic_rank": 23
     },
@@ -34511,7 +34715,7 @@
   },
   {
     "name": "cn_ztz_96",
-    "localized": "cn_ztz_96",
+    "localized": "ZTZ96",
     "arcade": {
       "economic_rank": 25
     },
@@ -34528,7 +34732,7 @@
   },
   {
     "name": "cn_ztz_96a",
-    "localized": "cn_ztz_96a",
+    "localized": "ZTZ96A",
     "arcade": {
       "economic_rank": 26
     },
@@ -34545,7 +34749,7 @@
   },
   {
     "name": "cn_ztz_96a_prot",
-    "localized": "cn_ztz_96a_prot",
+    "localized": "ZTZ96A (P)",
     "arcade": {
       "economic_rank": 26
     },
@@ -34562,7 +34766,7 @@
   },
   {
     "name": "cn_ztz_99",
-    "localized": "cn_ztz_99",
+    "localized": "ZTZ99-II",
     "arcade": {
       "economic_rank": 29
     },
@@ -34579,7 +34783,7 @@
   },
   {
     "name": "cn_ztz_99_w",
-    "localized": "cn_ztz_99_w",
+    "localized": "ZTZ99-III",
     "arcade": {
       "economic_rank": 29
     },
@@ -34596,7 +34800,7 @@
   },
   {
     "name": "cn_ztz_99a",
-    "localized": "cn_ztz_99a",
+    "localized": "ZTZ99A",
     "arcade": {
       "economic_rank": 30
     },
@@ -34630,7 +34834,7 @@
   },
   {
     "name": "cn_wz_1001",
-    "localized": "cn_wz_1001",
+    "localized": "WZ1001(E) LCT",
     "arcade": {
       "economic_rank": 30
     },
@@ -34647,7 +34851,7 @@
   },
   {
     "name": "cn_type_69",
-    "localized": "cn_type_69",
+    "localized": "Type 69",
     "arcade": {
       "economic_rank": 21
     },
@@ -34664,7 +34868,7 @@
   },
   {
     "name": "cn_type_69_2g",
-    "localized": "cn_type_69_2g",
+    "localized": "T-69 II G",
     "arcade": {
       "economic_rank": 22
     },
@@ -34681,7 +34885,7 @@
   },
   {
     "name": "cn_gmc_cckw_353_m45_quad",
-    "localized": "cn_gmc_cckw_353_m45_quad",
+    "localized": "CCKW 353 (M45)",
     "arcade": {
       "economic_rank": 4
     },
@@ -34698,7 +34902,7 @@
   },
   {
     "name": "cn_zsd63_pg87",
-    "localized": "cn_zsd63_pg87",
+    "localized": "ZSD63/PG87",
     "arcade": {
       "economic_rank": 11
     },
@@ -34715,7 +34919,7 @@
   },
   {
     "name": "cn_m4a1_76w_sherman",
-    "localized": "cn_m4a1_76w_sherman",
+    "localized": "␗M4A1 (75) W",
     "arcade": {
       "economic_rank": 9
     },
@@ -34732,7 +34936,7 @@
   },
   {
     "name": "cn_m8_greyhound",
-    "localized": "cn_m8_greyhound",
+    "localized": "␗M8 LAC",
     "arcade": {
       "economic_rank": 0
     },
@@ -34749,7 +34953,7 @@
   },
   {
     "name": "cn_m10",
-    "localized": "cn_m10",
+    "localized": "␗M10 GMC",
     "arcade": {
       "economic_rank": 8
     },
@@ -34766,7 +34970,7 @@
   },
   {
     "name": "cn_m48a1_patton_III",
-    "localized": "cn_m48a1_patton_III",
+    "localized": "␗M48A1",
     "arcade": {
       "economic_rank": 19
     },
@@ -34783,7 +34987,7 @@
   },
   {
     "name": "cn_m60a3_tts",
-    "localized": "cn_m60a3_tts",
+    "localized": "␗M60A3 TTS",
     "arcade": {
       "economic_rank": 23
     },
@@ -34800,7 +35004,7 @@
   },
   {
     "name": "cn_m36",
-    "localized": "cn_m36",
+    "localized": "␗M36 GMC",
     "arcade": {
       "economic_rank": 13
     },
@@ -34817,7 +35021,7 @@
   },
   {
     "name": "cn_m8_scott",
-    "localized": "cn_m8_scott",
+    "localized": "␗M8 HMC",
     "arcade": {
       "economic_rank": 1
     },
@@ -34834,7 +35038,7 @@
   },
   {
     "name": "cn_m24_chaffee",
-    "localized": "cn_m24_chaffee",
+    "localized": "␗M24",
     "arcade": {
       "economic_rank": 7
     },
@@ -34851,7 +35055,7 @@
   },
   {
     "name": "cn_m18_hellcat",
-    "localized": "cn_m18_hellcat",
+    "localized": "␗M18 GMC",
     "arcade": {
       "economic_rank": 11
     },
@@ -34868,7 +35072,7 @@
   },
   {
     "name": "cn_object_122tm",
-    "localized": "cn_object_122tm",
+    "localized": "Object 122MT \"\"MC\"\"",
     "arcade": {
       "economic_rank": 22
     },
@@ -34885,7 +35089,7 @@
   },
   {
     "name": "cn_t_62",
-    "localized": "cn_t_62",
+    "localized": "Т-62 №545",
     "arcade": {
       "economic_rank": 22
     },
@@ -34902,7 +35106,7 @@
   },
   {
     "name": "cn_type_69_2a",
-    "localized": "cn_type_69_2a",
+    "localized": "Type 69-IIa",
     "arcade": {
       "economic_rank": 21
     },
@@ -34919,7 +35123,7 @@
   },
   {
     "name": "cn_su_76m_1943",
-    "localized": "cn_su_76m_1943",
+    "localized": "␗SU-76M",
     "arcade": {
       "economic_rank": 3
     },
@@ -34936,7 +35140,7 @@
   },
   {
     "name": "cn_isu_122",
-    "localized": "cn_isu_122",
+    "localized": "␗ISU-122",
     "arcade": {
       "economic_rank": 13
     },
@@ -34953,7 +35157,7 @@
   },
   {
     "name": "cn_isu_152",
-    "localized": "cn_isu_152",
+    "localized": "␗ISU-152",
     "arcade": {
       "economic_rank": 11
     },
@@ -34970,7 +35174,7 @@
   },
   {
     "name": "cn_su_100_1945",
-    "localized": "cn_su_100_1945",
+    "localized": "␗SU-100",
     "arcade": {
       "economic_rank": 15
     },
@@ -34987,7 +35191,7 @@
   },
   {
     "name": "cn_type_58",
-    "localized": "cn_type_58",
+    "localized": "Т-34-85 Gai",
     "arcade": {
       "economic_rank": 14
     },
@@ -35004,7 +35208,7 @@
   },
   {
     "name": "cn_m_41d",
-    "localized": "cn_m_41d",
+    "localized": "M41D",
     "arcade": {
       "economic_rank": 20
     },
@@ -35021,7 +35225,7 @@
   },
   {
     "name": "cn_type_62",
-    "localized": "cn_type_62",
+    "localized": "Type 62",
     "arcade": {
       "economic_rank": 17
     },
@@ -35038,7 +35242,7 @@
   },
   {
     "name": "cn_type_86",
-    "localized": "cn_type_86",
+    "localized": "ZBD86",
     "arcade": {
       "economic_rank": 19
     },
@@ -35055,7 +35259,7 @@
   },
   {
     "name": "cn_type_65_aa",
-    "localized": "cn_type_65_aa",
+    "localized": "Phòng không T-34",
     "arcade": {
       "economic_rank": 14
     },
@@ -35072,7 +35276,7 @@
   },
   {
     "name": "cn_m42_duster",
-    "localized": "cn_m42_duster",
+    "localized": "␗M42",
     "arcade": {
       "economic_rank": 13
     },
@@ -35089,7 +35293,7 @@
   },
   {
     "name": "cn_wz_305",
-    "localized": "cn_wz_305",
+    "localized": "WZ305",
     "arcade": {
       "economic_rank": 23
     },
@@ -35106,7 +35310,7 @@
   },
   {
     "name": "cn_pgz_09",
-    "localized": "cn_pgz_09",
+    "localized": "PGZ09",
     "arcade": {
       "economic_rank": 22
     },
@@ -35123,7 +35327,7 @@
   },
   {
     "name": "cn_tor_m1",
-    "localized": "cn_tor_m1",
+    "localized": "Tor-M1",
     "arcade": {
       "economic_rank": 30
     },
@@ -35140,7 +35344,7 @@
   },
   {
     "name": "cn_pgz_04a",
-    "localized": "cn_pgz_04a",
+    "localized": "PGZ04A",
     "arcade": {
       "economic_rank": 26
     },
@@ -35157,7 +35361,7 @@
   },
   {
     "name": "cn_ptl_02",
-    "localized": "cn_ptl_02",
+    "localized": "PTL02",
     "arcade": {
       "economic_rank": 21
     },
@@ -35174,7 +35378,7 @@
   },
   {
     "name": "cn_ztl_11",
-    "localized": "cn_ztl_11",
+    "localized": "ZLT11",
     "arcade": {
       "economic_rank": 25
     },
@@ -35191,7 +35395,7 @@
   },
   {
     "name": "cn_wma_301",
-    "localized": "cn_wma_301",
+    "localized": "WMA301",
     "arcade": {
       "economic_rank": 22
     },
@@ -35208,7 +35412,7 @@
   },
   {
     "name": "cn_type_63_I",
-    "localized": "cn_type_63_I",
+    "localized": "Type 63-I",
     "arcade": {
       "economic_rank": 16
     },
@@ -35225,7 +35429,7 @@
   },
   {
     "name": "cn_cm11",
-    "localized": "cn_cm11",
+    "localized": "CM11",
     "arcade": {
       "economic_rank": 25
     },
@@ -35242,7 +35446,7 @@
   },
   {
     "name": "ussr_1124_art",
-    "localized": "ussr_1124_art",
+    "localized": "Pr.1124 early",
     "arcade": {
       "economic_rank": 3
     },
@@ -35259,7 +35463,7 @@
   },
   {
     "name": "ussr_1124_rct",
-    "localized": "ussr_1124_rct",
+    "localized": "Pr.1124 MLRS",
     "arcade": {
       "economic_rank": 3
     },
@@ -35276,7 +35480,7 @@
   },
   {
     "name": "ussr_1124_ack",
-    "localized": "ussr_1124_ack",
+    "localized": "Pr.1124 late",
     "arcade": {
       "economic_rank": 4
     },
@@ -35293,7 +35497,7 @@
   },
   {
     "name": "ussr_bmo",
-    "localized": "ussr_bmo",
+    "localized": "BMO",
     "arcade": {
       "economic_rank": 6
     },
@@ -35344,7 +35548,7 @@
   },
   {
     "name": "germ_ls4_class",
-    "localized": "germ_ls4_class",
+    "localized": "LS 4 Esau",
     "arcade": {
       "economic_rank": 0
     },
@@ -35361,7 +35565,7 @@
   },
   {
     "name": "uk_fairmile_c",
-    "localized": "uk_fairmile_c",
+    "localized": "Fairmile C (312)",
     "arcade": {
       "economic_rank": 4
     },
@@ -35429,7 +35633,7 @@
   },
   {
     "name": "ussr_mkl_186",
-    "localized": "ussr_mkl_186",
+    "localized": "MBK pr.186",
     "arcade": {
       "economic_rank": 7
     },
@@ -35463,7 +35667,7 @@
   },
   {
     "name": "uk_fairmile_d_617_632",
-    "localized": "uk_fairmile_d_617_632",
+    "localized": "Fairmile D (617)",
     "arcade": {
       "economic_rank": 4
     },
@@ -35480,7 +35684,7 @@
   },
   {
     "name": "uk_fairmile_d_601_616",
-    "localized": "uk_fairmile_d_601_616",
+    "localized": "Fairmile D (601)",
     "arcade": {
       "economic_rank": 4
     },
@@ -35514,7 +35718,7 @@
   },
   {
     "name": "ussr_d3",
-    "localized": "ussr_d3",
+    "localized": "D-3",
     "arcade": {
       "economic_rank": 1
     },
@@ -35548,7 +35752,7 @@
   },
   {
     "name": "ussr_pr_183",
-    "localized": "ussr_pr_183",
+    "localized": "Pr.183",
     "arcade": {
       "economic_rank": 7
     },
@@ -35582,7 +35786,7 @@
   },
   {
     "name": "uk_dark_class",
-    "localized": "uk_dark_class",
+    "localized": "Dark Adventurer",
     "arcade": {
       "economic_rank": 3
     },
@@ -35599,7 +35803,7 @@
   },
   {
     "name": "uk_dark_class_mtb",
-    "localized": "uk_dark_class_mtb",
+    "localized": "Dark Aggressor",
     "arcade": {
       "economic_rank": 4
     },
@@ -35616,7 +35820,7 @@
   },
   {
     "name": "uk_destroyer_tribal",
-    "localized": "uk_destroyer_tribal",
+    "localized": "HMS Eskimo",
     "arcade": {
       "economic_rank": 10
     },
@@ -35633,7 +35837,7 @@
   },
   {
     "name": "ussr_pr_191m",
-    "localized": "ussr_pr_191m",
+    "localized": "Pr.191M",
     "arcade": {
       "economic_rank": 6
     },
@@ -35650,7 +35854,7 @@
   },
   {
     "name": "ussr_destroyer_7y",
-    "localized": "ussr_destroyer_7y",
+    "localized": "Soobrazitelny",
     "arcade": {
       "economic_rank": 10
     },
@@ -35667,7 +35871,7 @@
   },
   {
     "name": "ussr_pr_123bis",
-    "localized": "ussr_pr_123bis",
+    "localized": "Pr.123-bis",
     "arcade": {
       "economic_rank": 4
     },
@@ -36211,7 +36415,7 @@
   },
   {
     "name": "uk_cruiser_hawkins",
-    "localized": "uk_cruiser_hawkins",
+    "localized": "HMS Hawkins",
     "arcade": {
       "economic_rank": 12
     },
@@ -36228,7 +36432,7 @@
   },
   {
     "name": "uk_cruiser_enterprise_d52",
-    "localized": "uk_cruiser_enterprise_d52",
+    "localized": "HMS Enterprise",
     "arcade": {
       "economic_rank": 12
     },
@@ -36245,7 +36449,7 @@
   },
   {
     "name": "germ_destroyer_class1924_leopard1932",
-    "localized": "germ_destroyer_class1924_leopard1932",
+    "localized": "Leopard",
     "arcade": {
       "economic_rank": 8
     },
@@ -36262,7 +36466,7 @@
   },
   {
     "name": "germ_destroyer_class1939_t22",
-    "localized": "germ_destroyer_class1939_t22",
+    "localized": "T22",
     "arcade": {
       "economic_rank": 8
     },
@@ -36279,7 +36483,7 @@
   },
   {
     "name": "germ_cruiser_emden_1944",
-    "localized": "germ_cruiser_emden_1944",
+    "localized": "Emden",
     "arcade": {
       "economic_rank": 12
     },
@@ -36296,7 +36500,7 @@
   },
   {
     "name": "us_cruiser_omaha_class_trenton",
-    "localized": "us_cruiser_omaha_class_trenton",
+    "localized": "USS Trenton",
     "arcade": {
       "economic_rank": 12
     },
@@ -36313,7 +36517,7 @@
   },
   {
     "name": "ussr_cruiser_krasnyi_kavkaz",
-    "localized": "ussr_cruiser_krasnyi_kavkaz",
+    "localized": "Krasny Kavkaz",
     "arcade": {
       "economic_rank": 12
     },
@@ -36330,7 +36534,7 @@
   },
   {
     "name": "germ_pr_206",
-    "localized": "germ_pr_206",
+    "localized": "Pr. 206",
     "arcade": {
       "economic_rank": 10
     },
@@ -36347,7 +36551,7 @@
   },
   {
     "name": "us_destroyer_clemson_litchfield",
-    "localized": "us_destroyer_clemson_litchfield",
+    "localized": "USS Litchfield",
     "arcade": {
       "economic_rank": 7
     },
@@ -36364,7 +36568,7 @@
   },
   {
     "name": "germ_kanonenboot_k2",
-    "localized": "germ_kanonenboot_k2",
+    "localized": "K2",
     "arcade": {
       "economic_rank": 9
     },
@@ -36381,7 +36585,7 @@
   },
   {
     "name": "us_tucumcari_pgh2",
-    "localized": "us_tucumcari_pgh2",
+    "localized": "USS Tucumcari",
     "arcade": {
       "economic_rank": 6
     },
@@ -36398,7 +36602,7 @@
   },
   {
     "name": "ussr_pr_206",
-    "localized": "ussr_pr_206",
+    "localized": "Pr. 206",
     "arcade": {
       "economic_rank": 10
     },
@@ -36415,7 +36619,7 @@
   },
   {
     "name": "us_destroyer_clemson_barker",
-    "localized": "us_destroyer_clemson_barker",
+    "localized": "USS Barker",
     "arcade": {
       "economic_rank": 7
     },
@@ -36432,7 +36636,7 @@
   },
   {
     "name": "ussr_g5_mtb",
-    "localized": "ussr_g5_mtb",
+    "localized": "G-5",
     "arcade": {
       "economic_rank": 0
     },
@@ -36449,7 +36653,7 @@
   },
   {
     "name": "ussr_g5_mtb_shvak",
-    "localized": "ussr_g5_mtb_shvak",
+    "localized": "G-5 (ShVAK)",
     "arcade": {
       "economic_rank": 0
     },
@@ -36466,7 +36670,7 @@
   },
   {
     "name": "ussr_mbk_161_1944",
-    "localized": "ussr_mbk_161_1944",
+    "localized": "MBK-161 late",
     "arcade": {
       "economic_rank": 8
     },
@@ -36483,7 +36687,7 @@
   },
   {
     "name": "ussr_mpk_122a",
-    "localized": "ussr_mpk_122a",
+    "localized": "MPK pr.122A",
     "arcade": {
       "economic_rank": 3
     },
@@ -36500,7 +36704,7 @@
   },
   {
     "name": "ussr_skr_pr159",
-    "localized": "ussr_skr_pr159",
+    "localized": "SKR-1",
     "arcade": {
       "economic_rank": 10
     },
@@ -36517,7 +36721,7 @@
   },
   {
     "name": "ussr_mo_4",
-    "localized": "ussr_mo_4",
+    "localized": "MO-4",
     "arcade": {
       "economic_rank": 0
     },
@@ -36534,7 +36738,7 @@
   },
   {
     "name": "ussr_od_200",
-    "localized": "ussr_od_200",
+    "localized": "OD-200",
     "arcade": {
       "economic_rank": 2
     },
@@ -36551,7 +36755,7 @@
   },
   {
     "name": "ussr_pr_123k",
-    "localized": "ussr_pr_123k",
+    "localized": "Pr.123K",
     "arcade": {
       "economic_rank": 4
     },
@@ -36568,7 +36772,7 @@
   },
   {
     "name": "ussr_destroyer_7y_stroyny",
-    "localized": "ussr_destroyer_7y_stroyny",
+    "localized": "Stroyny",
     "arcade": {
       "economic_rank": 10
     },
@@ -36585,7 +36789,7 @@
   },
   {
     "name": "ussr_pr_206m",
-    "localized": "ussr_pr_206m",
+    "localized": "Pr.206-M",
     "arcade": {
       "economic_rank": 10
     },
@@ -36602,7 +36806,7 @@
   },
   {
     "name": "ussr_mpk_163",
-    "localized": "ussr_mpk_163",
+    "localized": "MPK-163",
     "arcade": {
       "economic_rank": 3
     },
@@ -36619,7 +36823,7 @@
   },
   {
     "name": "ussr_pr_1204_late",
-    "localized": "ussr_pr_1204_late",
+    "localized": "Pr.1204 late",
     "arcade": {
       "economic_rank": 5
     },
@@ -36636,7 +36840,7 @@
   },
   {
     "name": "ussr_destroyer_frunze",
-    "localized": "ussr_destroyer_frunze",
+    "localized": "Frunze",
     "arcade": {
       "economic_rank": 7
     },
@@ -36653,7 +36857,7 @@
   },
   {
     "name": "ussr_destroyer_kerch",
-    "localized": "ussr_destroyer_kerch",
+    "localized": "Kerch",
     "arcade": {
       "economic_rank": 7
     },
@@ -36670,7 +36874,7 @@
   },
   {
     "name": "us_destroyer_farragut_1942",
-    "localized": "us_destroyer_farragut_1942",
+    "localized": "USS Aylwin",
     "arcade": {
       "economic_rank": 9
     },
@@ -36687,7 +36891,7 @@
   },
   {
     "name": "uk_fairmile_d_697_800",
-    "localized": "uk_fairmile_d_697_800",
+    "localized": "Fairmile D (697)",
     "arcade": {
       "economic_rank": 5
     },
@@ -36704,7 +36908,7 @@
   },
   {
     "name": "uk_mtb_1series",
-    "localized": "uk_mtb_1series",
+    "localized": "MTB-1(1)",
     "arcade": {
       "economic_rank": 0
     },
@@ -36721,7 +36925,7 @@
   },
   {
     "name": "uk_mtb_vosper_1series",
-    "localized": "uk_mtb_vosper_1series",
+    "localized": "MTB Vosper",
     "arcade": {
       "economic_rank": 0
     },
@@ -36738,7 +36942,7 @@
   },
   {
     "name": "uk_mtb_vosper_2series",
-    "localized": "uk_mtb_vosper_2series",
+    "localized": "MTB Vosper(2)",
     "arcade": {
       "economic_rank": 2
     },
@@ -36755,7 +36959,7 @@
   },
   {
     "name": "uk_brave_borderer",
-    "localized": "uk_brave_borderer",
+    "localized": "Brave Borderer",
     "arcade": {
       "economic_rank": 7
     },
@@ -36772,7 +36976,7 @@
   },
   {
     "name": "uk_sgb_304",
-    "localized": "uk_sgb_304",
+    "localized": "SGB Grey Fox",
     "arcade": {
       "economic_rank": 6
     },
@@ -36789,7 +36993,7 @@
   },
   {
     "name": "uk_fairmile_c_332",
-    "localized": "uk_fairmile_c_332",
+    "localized": "Fairmile C (332)",
     "arcade": {
       "economic_rank": 6
     },
@@ -36806,7 +37010,7 @@
   },
   {
     "name": "uk_isles_class_trawler",
-    "localized": "uk_isles_class_trawler",
+    "localized": "HMS Liscomb",
     "arcade": {
       "economic_rank": 2
     },
@@ -36823,7 +37027,7 @@
   },
   {
     "name": "uk_destroyer_haida",
-    "localized": "uk_destroyer_haida",
+    "localized": "HMCS Haida",
     "arcade": {
       "economic_rank": 10
     },
@@ -36840,7 +37044,7 @@
   },
   {
     "name": "uk_fairmile_b_ml345",
-    "localized": "uk_fairmile_b_ml345",
+    "localized": "Fairmile B (ML345)",
     "arcade": {
       "economic_rank": 3
     },
@@ -36857,7 +37061,7 @@
   },
   {
     "name": "uk_fairmile_a_ml100",
-    "localized": "uk_fairmile_a_ml100",
+    "localized": "Fairmile A (ML100)",
     "arcade": {
       "economic_rank": 0
     },
@@ -36874,7 +37078,7 @@
   },
   {
     "name": "uk_70ft_mgb",
-    "localized": "uk_70ft_mgb",
+    "localized": "MGB-61",
     "arcade": {
       "economic_rank": 2
     },
@@ -36891,7 +37095,7 @@
   },
   {
     "name": "uk_destroyer_g_grafton",
-    "localized": "uk_destroyer_g_grafton",
+    "localized": "HMS Grafton",
     "arcade": {
       "economic_rank": 8
     },
@@ -36908,7 +37112,7 @@
   },
   {
     "name": "uk_destroyer_battle_2series",
-    "localized": "uk_destroyer_battle_2series",
+    "localized": "HMS Armada",
     "arcade": {
       "economic_rank": 11
     },
@@ -36925,7 +37129,7 @@
   },
   {
     "name": "uk_destroyer_n_class",
-    "localized": "uk_destroyer_n_class",
+    "localized": "HMS Nepal",
     "arcade": {
       "economic_rank": 11
     },
@@ -36942,7 +37146,7 @@
   },
   {
     "name": "uk_flower_class",
-    "localized": "uk_flower_class",
+    "localized": "HMCS Brantford",
     "arcade": {
       "economic_rank": 3
     },
@@ -36959,7 +37163,7 @@
   },
   {
     "name": "uk_destroyer_clemson_churchill",
-    "localized": "uk_destroyer_clemson_churchill",
+    "localized": "HMS Churchill",
     "arcade": {
       "economic_rank": 7
     },
@@ -36976,7 +37180,7 @@
   },
   {
     "name": "us_elco_80ft_pt_boat_thunderbolt",
-    "localized": "us_elco_80ft_pt_boat_thunderbolt",
+    "localized": "Thunderbolt (PT-556)",
     "arcade": {
       "economic_rank": 6
     },
@@ -36993,7 +37197,7 @@
   },
   {
     "name": "germ_destroyer_class1934a_1940",
-    "localized": "germ_destroyer_class1934a_1940",
+    "localized": "Z12 Erich Giese",
     "arcade": {
       "economic_rank": 10
     },
@@ -37010,7 +37214,7 @@
   },
   {
     "name": "ussr_pr_191",
-    "localized": "ussr_pr_191",
+    "localized": "Pr.191",
     "arcade": {
       "economic_rank": 5
     },
@@ -37027,7 +37231,7 @@
   },
   {
     "name": "ussr_mkl_186_mk85",
-    "localized": "ussr_mkl_186_mk85",
+    "localized": "MBK pr.186 (MK 85)",
     "arcade": {
       "economic_rank": 7
     },
@@ -37044,7 +37248,7 @@
   },
   {
     "name": "ussr_pr_123k_hydrofoils",
-    "localized": "ussr_pr_123k_hydrofoils",
+    "localized": "Pr.123K (A-11)",
     "arcade": {
       "economic_rank": 4
     },
@@ -37061,7 +37265,7 @@
   },
   {
     "name": "uk_fairmile_d_5001_5029",
-    "localized": "uk_fairmile_d_5001_5029",
+    "localized": "Fairmile D (5001)",
     "arcade": {
       "economic_rank": 5
     },
@@ -37078,7 +37282,7 @@
   },
   {
     "name": "germ_escort_typem1943",
-    "localized": "germ_escort_typem1943",
+    "localized": "M-802",
     "arcade": {
       "economic_rank": 8
     },
@@ -37112,7 +37316,7 @@
   },
   {
     "name": "ussr_ya_5m",
-    "localized": "ussr_ya_5m",
+    "localized": "Ya-5M",
     "arcade": {
       "economic_rank": 1
     },
@@ -37129,7 +37333,7 @@
   },
   {
     "name": "ussr_cruiser_krasnyi_krim",
-    "localized": "ussr_cruiser_krasnyi_krim",
+    "localized": "Krasny Krym",
     "arcade": {
       "economic_rank": 13
     },
@@ -37146,7 +37350,7 @@
   },
   {
     "name": "ussr_destroyer_pr20_tashkent",
-    "localized": "ussr_destroyer_pr20_tashkent",
+    "localized": "Tashkent",
     "arcade": {
       "economic_rank": 11
     },
@@ -37163,7 +37367,7 @@
   },
   {
     "name": "us_cruiser_omaha_class_raleigh",
-    "localized": "us_cruiser_omaha_class_raleigh",
+    "localized": "USS Raleigh",
     "arcade": {
       "economic_rank": 12
     },
@@ -37180,7 +37384,7 @@
   },
   {
     "name": "ussr_destroyer_moskva",
-    "localized": "ussr_destroyer_moskva",
+    "localized": "Moskva",
     "arcade": {
       "economic_rank": 10
     },
@@ -37197,7 +37401,7 @@
   },
   {
     "name": "uk_mtb_2series",
-    "localized": "uk_mtb_2series",
+    "localized": "MTB-1(2)",
     "arcade": {
       "economic_rank": 0
     },
@@ -37214,7 +37418,7 @@
   },
   {
     "name": "germ_cruiser_koln",
-    "localized": "germ_cruiser_koln",
+    "localized": "Köln",
     "arcade": {
       "economic_rank": 14
     },
@@ -37231,7 +37435,7 @@
   },
   {
     "name": "uk_cruiser_dido",
-    "localized": "uk_cruiser_dido",
+    "localized": "HMS Dido",
     "arcade": {
       "economic_rank": 13
     },
@@ -37248,7 +37452,7 @@
   },
   {
     "name": "ussr_skr_pr35",
-    "localized": "ussr_skr_pr35",
+    "localized": "SKR-7",
     "arcade": {
       "economic_rank": 10
     },
@@ -37265,7 +37469,7 @@
   },
   {
     "name": "germ_destroyer_class1936a_mob_z32",
-    "localized": "germ_destroyer_class1936a_mob_z32",
+    "localized": "Z32",
     "arcade": {
       "economic_rank": 11
     },
@@ -37282,7 +37486,7 @@
   },
   {
     "name": "us_destroyer_somers",
-    "localized": "us_destroyer_somers",
+    "localized": "USS Somers",
     "arcade": {
       "economic_rank": 12
     },
@@ -37299,7 +37503,7 @@
   },
   {
     "name": "ussr_destroyer_pr30_ognevoy",
-    "localized": "ussr_destroyer_pr30_ognevoy",
+    "localized": "Ognevoy",
     "arcade": {
       "economic_rank": 9
     },
@@ -37316,7 +37520,7 @@
   },
   {
     "name": "ussr_skr_groza_1943",
-    "localized": "ussr_skr_groza_1943",
+    "localized": "Groza",
     "arcade": {
       "economic_rank": 6
     },
@@ -37333,7 +37537,7 @@
   },
   {
     "name": "us_cruiser_brooklyn_class_brooklyn",
-    "localized": "us_cruiser_brooklyn_class_brooklyn",
+    "localized": "USS Brooklyn",
     "arcade": {
       "economic_rank": 15
     },
@@ -37350,7 +37554,7 @@
   },
   {
     "name": "ussr_destroyer_leningrad",
-    "localized": "ussr_destroyer_leningrad",
+    "localized": "Leningrad",
     "arcade": {
       "economic_rank": 10
     },
@@ -37367,7 +37571,7 @@
   },
   {
     "name": "uk_cruiser_leander",
-    "localized": "uk_cruiser_leander",
+    "localized": "HMNZS Leander",
     "arcade": {
       "economic_rank": 13
     },
@@ -37384,7 +37588,7 @@
   },
   {
     "name": "uk_cruiser_southampton",
-    "localized": "uk_cruiser_southampton",
+    "localized": "HMS Southampton",
     "arcade": {
       "economic_rank": 14
     },
@@ -37401,7 +37605,7 @@
   },
   {
     "name": "ussr_cruiser_kirov",
-    "localized": "ussr_cruiser_kirov",
+    "localized": "Kirov",
     "arcade": {
       "economic_rank": 14
     },
@@ -37418,7 +37622,7 @@
   },
   {
     "name": "germ_cruiser_nurnberg",
-    "localized": "germ_cruiser_nurnberg",
+    "localized": "Nürnberg",
     "arcade": {
       "economic_rank": 14
     },
@@ -37435,7 +37639,7 @@
   },
   {
     "name": "uk_cruiser_tiger",
-    "localized": "uk_cruiser_tiger",
+    "localized": "HMS Tiger",
     "arcade": {
       "economic_rank": 14
     },
@@ -37452,7 +37656,7 @@
   },
   {
     "name": "ussr_mpk_122bis",
-    "localized": "ussr_mpk_122bis",
+    "localized": "MPK Pr.122bis",
     "arcade": {
       "economic_rank": 4
     },
@@ -37469,7 +37673,7 @@
   },
   {
     "name": "jp_kusen_tei_13_1944",
-    "localized": "jp_kusen_tei_13_1944",
+    "localized": "Type K-8 No.13 late",
     "arcade": {
       "economic_rank": 4
     },
@@ -37486,7 +37690,7 @@
   },
   {
     "name": "jp_type_t1_1941",
-    "localized": "jp_type_t1_1941",
+    "localized": "Type T-1",
     "arcade": {
       "economic_rank": 0
     },
@@ -37503,7 +37707,7 @@
   },
   {
     "name": "jp_type38_1944",
-    "localized": "jp_type38_1944",
+    "localized": "Type T-38",
     "arcade": {
       "economic_rank": 2
     },
@@ -37520,7 +37724,7 @@
   },
   {
     "name": "jp_karotei_type2",
-    "localized": "jp_karotei_type2",
+    "localized": "Type 4 (mod. 2)",
     "arcade": {
       "economic_rank": 2
     },
@@ -37537,7 +37741,7 @@
   },
   {
     "name": "jp_abtei_pr1",
-    "localized": "jp_abtei_pr1",
+    "localized": "Soukou-Tei",
     "arcade": {
       "economic_rank": 0
     },
@@ -37554,7 +37758,7 @@
   },
   {
     "name": "jp_abtei_pr4",
-    "localized": "jp_abtei_pr4",
+    "localized": "Soukou-Tei No.4",
     "arcade": {
       "economic_rank": 1
     },
@@ -37571,7 +37775,7 @@
   },
   {
     "name": "jp_sehatei_mod1",
-    "localized": "jp_sehatei_mod1",
+    "localized": "Ha-Go (mod. 1)",
     "arcade": {
       "economic_rank": 3
     },
@@ -37588,7 +37792,7 @@
   },
   {
     "name": "jp_t14_class",
-    "localized": "jp_t14_class",
+    "localized": "Type T-14",
     "arcade": {
       "economic_rank": 0
     },
@@ -37605,7 +37809,7 @@
   },
   {
     "name": "jp_type5_escortboat",
-    "localized": "jp_type5_escortboat",
+    "localized": "Type 5",
     "arcade": {
       "economic_rank": 2
     },
@@ -37622,7 +37826,7 @@
   },
   {
     "name": "jp_no1_ch2",
-    "localized": "jp_no1_ch2",
+    "localized": "Type K-3 No.1",
     "arcade": {
       "economic_rank": 4
     },
@@ -37639,7 +37843,7 @@
   },
   {
     "name": "jp_no4_ch8",
-    "localized": "jp_no4_ch8",
+    "localized": "Type K-7 No.4",
     "arcade": {
       "economic_rank": 4
     },
@@ -37656,7 +37860,7 @@
   },
   {
     "name": "jp_t51b",
-    "localized": "jp_t51b",
+    "localized": "Type T-51b",
     "arcade": {
       "economic_rank": 4
     },
@@ -37673,7 +37877,7 @@
   },
   {
     "name": "jp_pg02",
-    "localized": "jp_pg02",
+    "localized": "PG 02",
     "arcade": {
       "economic_rank": 7
     },
@@ -37690,7 +37894,7 @@
   },
   {
     "name": "jp_t14_class_mod01",
-    "localized": "jp_t14_class_mod01",
+    "localized": "Type T-14 (mod. 1)",
     "arcade": {
       "economic_rank": 0
     },
@@ -37707,7 +37911,7 @@
   },
   {
     "name": "jp_type_11_pt_15",
-    "localized": "jp_type_11_pt_15",
+    "localized": "PT-15",
     "arcade": {
       "economic_rank": 7
     },
@@ -37724,7 +37928,7 @@
   },
   {
     "name": "jp_escort_chikugo_class",
-    "localized": "jp_escort_chikugo_class",
+    "localized": "Chikugo",
     "arcade": {
       "economic_rank": 7
     },
@@ -37741,7 +37945,7 @@
   },
   {
     "name": "jp_destroyer_isuzu",
-    "localized": "jp_destroyer_isuzu",
+    "localized": "Isuzu",
     "arcade": {
       "economic_rank": 8
     },
@@ -37758,7 +37962,7 @@
   },
   {
     "name": "jp_destroyer_yugumo",
-    "localized": "jp_destroyer_yugumo",
+    "localized": "IJN Yugumo",
     "arcade": {
       "economic_rank": 10
     },
@@ -37775,7 +37979,7 @@
   },
   {
     "name": "jp_destroyer_fubuki",
-    "localized": "jp_destroyer_fubuki",
+    "localized": "IJN Ayanami",
     "arcade": {
       "economic_rank": 9
     },
@@ -37792,7 +37996,7 @@
   },
   {
     "name": "jp_destroyer_akizuki",
-    "localized": "jp_destroyer_akizuki",
+    "localized": "IJN Akizuki",
     "arcade": {
       "economic_rank": 11
     },
@@ -37809,7 +38013,7 @@
   },
   {
     "name": "jp_destroyer_mutsuki",
-    "localized": "jp_destroyer_mutsuki",
+    "localized": "IJN Mutsuki",
     "arcade": {
       "economic_rank": 7
     },
@@ -37826,7 +38030,7 @@
   },
   {
     "name": "jp_destroyer_kiyoshimo",
-    "localized": "jp_destroyer_kiyoshimo",
+    "localized": "IJN Kiyoshimo",
     "arcade": {
       "economic_rank": 11
     },
@@ -37843,7 +38047,7 @@
   },
   {
     "name": "jp_cruiser_kuma",
-    "localized": "jp_cruiser_kuma",
+    "localized": "IJN Kuma",
     "arcade": {
       "economic_rank": 12
     },
@@ -37860,7 +38064,7 @@
   },
   {
     "name": "jp_cruiser_kako",
-    "localized": "jp_cruiser_kako",
+    "localized": "IJN Kako",
     "arcade": {
       "economic_rank": 11
     },
@@ -37877,7 +38081,7 @@
   },
   {
     "name": "jp_cruiser_furutaka",
-    "localized": "jp_cruiser_furutaka",
+    "localized": "IJN Furutaka",
     "arcade": {
       "economic_rank": 14
     },
@@ -37894,7 +38098,7 @@
   },
   {
     "name": "jp_cruiser_agano",
-    "localized": "jp_cruiser_agano",
+    "localized": "IJN Agano",
     "arcade": {
       "economic_rank": 13
     },
@@ -37911,7 +38115,7 @@
   },
   {
     "name": "uk_frigate_river",
-    "localized": "uk_frigate_river",
+    "localized": "HMS Spey",
     "arcade": {
       "economic_rank": 7
     },
@@ -37928,7 +38132,7 @@
   },
   {
     "name": "jp_destroyer_yuudachi",
-    "localized": "jp_destroyer_yuudachi",
+    "localized": "IJN Yuudachi",
     "arcade": {
       "economic_rank": 11
     },
@@ -37945,7 +38149,7 @@
   },
   {
     "name": "germ_cruiser_admiral_hipper",
-    "localized": "germ_cruiser_admiral_hipper",
+    "localized": "Admiral Hipper",
     "arcade": {
       "economic_rank": 14
     },
@@ -37962,7 +38166,7 @@
   },
   {
     "name": "us_cruiser_atlanta_class_atlanta",
-    "localized": "us_cruiser_atlanta_class_atlanta",
+    "localized": "USS Atlanta",
     "arcade": {
       "economic_rank": 13
     },
@@ -37979,7 +38183,7 @@
   },
   {
     "name": "uk_cruiser_arethusa",
-    "localized": "uk_cruiser_arethusa",
+    "localized": "HMS Arethusa",
     "arcade": {
       "economic_rank": 12
     },
@@ -37996,7 +38200,7 @@
   },
   {
     "name": "us_pc_466_carmi",
-    "localized": "us_pc_466_carmi",
+    "localized": "Carmi (PC-466)",
     "arcade": {
       "economic_rank": 3
     },
@@ -38013,7 +38217,7 @@
   },
   {
     "name": "ussr_cruiser_chapayev",
-    "localized": "ussr_cruiser_chapayev",
+    "localized": "Chapayev",
     "arcade": {
       "economic_rank": 15
     },
@@ -38030,7 +38234,7 @@
   },
   {
     "name": "jp_cruiser_mogami",
-    "localized": "jp_cruiser_mogami",
+    "localized": "IJN Mogami",
     "arcade": {
       "economic_rank": 15
     },
@@ -38047,7 +38251,7 @@
   },
   {
     "name": "jp_escort_hiburi_class_syonan",
-    "localized": "jp_escort_hiburi_class_syonan",
+    "localized": "Syonan",
     "arcade": {
       "economic_rank": 7
     },
@@ -38064,7 +38268,7 @@
   },
   {
     "name": "ussr_pr_1204",
-    "localized": "ussr_pr_1204",
+    "localized": "Pr.1204",
     "arcade": {
       "economic_rank": 4
     },
@@ -38081,7 +38285,7 @@
   },
   {
     "name": "uk_71ft_mgb",
-    "localized": "uk_71ft_mgb",
+    "localized": "MGB-75",
     "arcade": {
       "economic_rank": 3
     },
@@ -38098,7 +38302,7 @@
   },
   {
     "name": "jp_karotei_type4",
-    "localized": "jp_karotei_type4",
+    "localized": "Type 4 (Mod 4)",
     "arcade": {
       "economic_rank": 2
     },
@@ -38115,7 +38319,7 @@
   },
   {
     "name": "germ_destroyer_class1939_t31",
-    "localized": "germ_destroyer_class1939_t31",
+    "localized": "T31",
     "arcade": {
       "economic_rank": 9
     },
@@ -38132,7 +38336,7 @@
   },
   {
     "name": "ussr_mbk_161_1943",
-    "localized": "ussr_mbk_161_1943",
+    "localized": "MBK-161 early",
     "arcade": {
       "economic_rank": 7
     },
@@ -38149,7 +38353,7 @@
   },
   {
     "name": "uk_cruiser_belfast",
-    "localized": "uk_cruiser_belfast",
+    "localized": "HMS Belfast",
     "arcade": {
       "economic_rank": 14
     },
@@ -38166,7 +38370,7 @@
   },
   {
     "name": "us_cruiser_brooklyn_class_helena",
-    "localized": "us_cruiser_brooklyn_class_helena",
+    "localized": "USS Helena",
     "arcade": {
       "economic_rank": 15
     },
@@ -38183,7 +38387,7 @@
   },
   {
     "name": "us_cruiser_pensacola_class",
-    "localized": "us_cruiser_pensacola_class",
+    "localized": "USS Pensacola",
     "arcade": {
       "economic_rank": 13
     },
@@ -38200,7 +38404,7 @@
   },
   {
     "name": "jp_cruiser_sendai",
-    "localized": "jp_cruiser_sendai",
+    "localized": "IJN Sendai",
     "arcade": {
       "economic_rank": 12
     },
@@ -38217,7 +38421,7 @@
   },
   {
     "name": "germ_destroyer_class1934a_1944",
-    "localized": "germ_destroyer_class1934a_1944",
+    "localized": "Z15 Erich Steinbrinck",
     "arcade": {
       "economic_rank": 9
     },
@@ -38234,7 +38438,7 @@
   },
   {
     "name": "germ_destroyer_class1936b",
-    "localized": "germ_destroyer_class1936b",
+    "localized": "Z43",
     "arcade": {
       "economic_rank": 11
     },
@@ -38251,7 +38455,7 @@
   },
   {
     "name": "us_destroyer_porter_1941",
-    "localized": "us_destroyer_porter_1941",
+    "localized": "USS Porter",
     "arcade": {
       "economic_rank": 12
     },
@@ -38268,7 +38472,7 @@
   },
   {
     "name": "us_destroyer_porter_1944",
-    "localized": "us_destroyer_porter_1944",
+    "localized": "USS Phelps",
     "arcade": {
       "economic_rank": 12
     },
@@ -38285,7 +38489,7 @@
   },
   {
     "name": "uk_destroyer_k_class",
-    "localized": "uk_destroyer_k_class",
+    "localized": "HMS Kelvin",
     "arcade": {
       "economic_rank": 11
     },
@@ -38302,7 +38506,7 @@
   },
   {
     "name": "uk_destroyer_battle_tobruk",
-    "localized": "uk_destroyer_battle_tobruk",
+    "localized": "HMAS Tobruk",
     "arcade": {
       "economic_rank": 11
     },
@@ -38319,7 +38523,7 @@
   },
   {
     "name": "uk_destroyer_hunt_2series",
-    "localized": "uk_destroyer_hunt_2series",
+    "localized": "HMS Calpe",
     "arcade": {
       "economic_rank": 9
     },
@@ -38336,7 +38540,7 @@
   },
   {
     "name": "uk_destroyer_hunt_4series",
-    "localized": "uk_destroyer_hunt_4series",
+    "localized": "HMS Brissenden",
     "arcade": {
       "economic_rank": 9
     },
@@ -38353,7 +38557,7 @@
   },
   {
     "name": "germ_cruiser_prinz_eugen",
-    "localized": "germ_cruiser_prinz_eugen",
+    "localized": "Prinz Eugen",
     "arcade": {
       "economic_rank": 14
     },
@@ -38370,7 +38574,7 @@
   },
   {
     "name": "germ_cruiser_admiral_graf_spee",
-    "localized": "germ_cruiser_admiral_graf_spee",
+    "localized": "Admiral Graf Spee",
     "arcade": {
       "economic_rank": 14
     },
@@ -38387,7 +38591,7 @@
   },
   {
     "name": "jp_cruiser_mogami_suzuya",
-    "localized": "jp_cruiser_mogami_suzuya",
+    "localized": "IJN Suzuya",
     "arcade": {
       "economic_rank": 15
     },
@@ -38404,7 +38608,7 @@
   },
   {
     "name": "germ_destroyer_class1924_jaguar1941",
-    "localized": "germ_destroyer_class1924_jaguar1941",
+    "localized": "Jaguar",
     "arcade": {
       "economic_rank": 8
     },
@@ -38421,7 +38625,7 @@
   },
   {
     "name": "ussr_cruiser_sverdlov",
-    "localized": "ussr_cruiser_sverdlov",
+    "localized": "Sverdlov",
     "arcade": {
       "economic_rank": 15
     },
@@ -38438,7 +38642,7 @@
   },
   {
     "name": "germ_cruiser_leipzig",
-    "localized": "germ_cruiser_leipzig",
+    "localized": "Leipzig",
     "arcade": {
       "economic_rank": 13
     },
@@ -38455,7 +38659,7 @@
   },
   {
     "name": "us_cruiser_portland_class",
-    "localized": "us_cruiser_portland_class",
+    "localized": "USS Portland",
     "arcade": {
       "economic_rank": 13
     },
@@ -38472,7 +38676,7 @@
   },
   {
     "name": "jp_cruiser_mogami_mikuma",
-    "localized": "jp_cruiser_mogami_mikuma",
+    "localized": "IJN Mikuma",
     "arcade": {
       "economic_rank": 15
     },
@@ -38489,7 +38693,7 @@
   },
   {
     "name": "jp_escort_ikazuchi_class",
-    "localized": "jp_escort_ikazuchi_class",
+    "localized": "Ikazuchi",
     "arcade": {
       "economic_rank": 7
     },
@@ -38506,7 +38710,7 @@
   },
   {
     "name": "uk_cruiser_kent",
-    "localized": "uk_cruiser_kent",
+    "localized": "HMS Kent",
     "arcade": {
       "economic_rank": 15
     },
@@ -38523,7 +38727,7 @@
   },
   {
     "name": "ussr_destroyer_pr41_neustrashimy",
-    "localized": "ussr_destroyer_pr41_neustrashimy",
+    "localized": "Neustrashimy",
     "arcade": {
       "economic_rank": 12
     },
@@ -38540,7 +38744,7 @@
   },
   {
     "name": "germ_frigate_koln",
-    "localized": "germ_frigate_koln",
+    "localized": "Köln",
     "arcade": {
       "economic_rank": 10
     },
@@ -38557,7 +38761,7 @@
   },
   {
     "name": "uk_cruiser_london",
-    "localized": "uk_cruiser_london",
+    "localized": "HMS London",
     "arcade": {
       "economic_rank": 14
     },
@@ -38574,7 +38778,7 @@
   },
   {
     "name": "uk_sgb_309",
-    "localized": "uk_sgb_309",
+    "localized": "SGB Grey Goose",
     "arcade": {
       "economic_rank": 6
     },
@@ -38591,7 +38795,7 @@
   },
   {
     "name": "it_mas_classe500_3",
-    "localized": "it_mas_classe500_3",
+    "localized": "MAS 555",
     "arcade": {
       "economic_rank": 0
     },
@@ -38608,7 +38812,7 @@
   },
   {
     "name": "it_ms15_1a",
-    "localized": "it_ms15_1a",
+    "localized": "MS-15",
     "arcade": {
       "economic_rank": 1
     },
@@ -38625,7 +38829,7 @@
   },
   {
     "name": "it_vas_baglietto_68t_1serie",
-    "localized": "it_vas_baglietto_68t_1serie",
+    "localized": "VAS 201",
     "arcade": {
       "economic_rank": 1
     },
@@ -38642,7 +38846,7 @@
   },
   {
     "name": "it_ms53_2a",
-    "localized": "it_ms53_2a",
+    "localized": "MS-53",
     "arcade": {
       "economic_rank": 2
     },
@@ -38659,7 +38863,7 @@
   },
   {
     "name": "it_mas_stefano_turr",
-    "localized": "it_mas_stefano_turr",
+    "localized": "Stefano Turr",
     "arcade": {
       "economic_rank": 2
     },
@@ -38676,7 +38880,7 @@
   },
   {
     "name": "it_a1_vosper",
-    "localized": "it_a1_vosper",
+    "localized": "GIS 811",
     "arcade": {
       "economic_rank": 4
     },
@@ -38693,7 +38897,7 @@
   },
   {
     "name": "it_ms471_1a",
-    "localized": "it_ms471_1a",
+    "localized": "MV-611",
     "arcade": {
       "economic_rank": 4
     },
@@ -38710,7 +38914,7 @@
   },
   {
     "name": "it_ms473_2a",
-    "localized": "it_ms473_2a",
+    "localized": "MS-472",
     "arcade": {
       "economic_rank": 4
     },
@@ -38727,7 +38931,7 @@
   },
   {
     "name": "it_ms473_2a_art",
-    "localized": "it_ms473_2a_art",
+    "localized": "MS-473",
     "arcade": {
       "economic_rank": 6
     },
@@ -38744,7 +38948,7 @@
   },
   {
     "name": "it_mc490_folgore",
-    "localized": "it_mc490_folgore",
+    "localized": "MC-490",
     "arcade": {
       "economic_rank": 7
     },
@@ -38761,7 +38965,7 @@
   },
   {
     "name": "it_p420_sparviero",
-    "localized": "it_p420_sparviero",
+    "localized": "Sparviero",
     "arcade": {
       "economic_rank": 8
     },
@@ -38778,7 +38982,7 @@
   },
   {
     "name": "it_destroyer_dardo",
-    "localized": "it_destroyer_dardo",
+    "localized": "RN Dardo",
     "arcade": {
       "economic_rank": 8
     },
@@ -38795,7 +38999,7 @@
   },
   {
     "name": "it_destroyer_turbine",
-    "localized": "it_destroyer_turbine",
+    "localized": "RN Turbine",
     "arcade": {
       "economic_rank": 7
     },
@@ -38812,7 +39016,7 @@
   },
   {
     "name": "it_destroyer_soldati_serie1_camicianera",
-    "localized": "it_destroyer_soldati_serie1_camicianera",
+    "localized": "RN Corazziere",
     "arcade": {
       "economic_rank": 10
     },
@@ -38829,7 +39033,7 @@
   },
   {
     "name": "it_destroyer_soldati_serie1_geniere",
-    "localized": "it_destroyer_soldati_serie1_geniere",
+    "localized": "RN Geniere",
     "arcade": {
       "economic_rank": 10
     },
@@ -38846,7 +39050,7 @@
   },
   {
     "name": "it_cruiser_bartolomeocolleoni_1940",
-    "localized": "it_cruiser_bartolomeocolleoni_1940",
+    "localized": "RN Bartolomeo Colleoni",
     "arcade": {
       "economic_rank": 12
     },
@@ -38863,7 +39067,7 @@
   },
   {
     "name": "it_cruiser_trento",
-    "localized": "it_cruiser_trento",
+    "localized": "RN Trento",
     "arcade": {
       "economic_rank": 12
     },
@@ -38880,7 +39084,7 @@
   },
   {
     "name": "jp_cruiser_tone",
-    "localized": "jp_cruiser_tone",
+    "localized": "IJN Tone",
     "arcade": {
       "economic_rank": 15
     },
@@ -38897,7 +39101,7 @@
   },
   {
     "name": "us_cruiser_cleveland_class_cleveland",
-    "localized": "us_cruiser_cleveland_class_cleveland",
+    "localized": "USS Cleveland",
     "arcade": {
       "economic_rank": 15
     },
@@ -38914,7 +39118,7 @@
   },
   {
     "name": "uk_cruiser_york",
-    "localized": "uk_cruiser_york",
+    "localized": "HMS York",
     "arcade": {
       "economic_rank": 14
     },
@@ -38931,7 +39135,7 @@
   },
   {
     "name": "it_cruiser_capitani_romani_class_attilio_regolo",
-    "localized": "it_cruiser_capitani_romani_class_attilio_regolo",
+    "localized": "RN Attilio Regolo",
     "arcade": {
       "economic_rank": 11
     },
@@ -38948,7 +39152,7 @@
   },
   {
     "name": "it_mas_classe500_4",
-    "localized": "it_mas_classe500_4",
+    "localized": "MAS 569",
     "arcade": {
       "economic_rank": 0
     },
@@ -38965,7 +39169,7 @@
   },
   {
     "name": "ussr_g5_rct",
-    "localized": "ussr_g5_rct",
+    "localized": "TKA-106",
     "arcade": {
       "economic_rank": 2
     },
@@ -38982,7 +39186,7 @@
   },
   {
     "name": "ussr_destroyer_pr56_spokoinyy",
-    "localized": "ussr_destroyer_pr56_spokoinyy",
+    "localized": "Spokoinyy",
     "arcade": {
       "economic_rank": 12
     },
@@ -38999,7 +39203,7 @@
   },
   {
     "name": "it_p494_saetta",
-    "localized": "it_p494_saetta",
+    "localized": "Saetta P-494",
     "arcade": {
       "economic_rank": 11
     },
@@ -39016,7 +39220,7 @@
   },
   {
     "name": "it_cruiser_montecuccoli",
-    "localized": "it_cruiser_montecuccoli",
+    "localized": "RN Raimondo Montecuccoli",
     "arcade": {
       "economic_rank": 13
     },
@@ -39033,7 +39237,7 @@
   },
   {
     "name": "it_p493_freccia",
-    "localized": "it_p493_freccia",
+    "localized": "Freccia P-493",
     "arcade": {
       "economic_rank": 11
     },
@@ -39050,7 +39254,7 @@
   },
   {
     "name": "ussr_cruiser_maxim_gorky",
-    "localized": "ussr_cruiser_maxim_gorky",
+    "localized": "Maxim Gorky",
     "arcade": {
       "economic_rank": 14
     },
@@ -39067,7 +39271,7 @@
   },
   {
     "name": "ussr_pr_206_race",
-    "localized": "ussr_pr_206_race",
+    "localized": "Pr. 206",
     "arcade": {
       "economic_rank": 10
     },
@@ -39084,7 +39288,7 @@
   },
   {
     "name": "ussr_skr_pr50_jenot",
-    "localized": "ussr_skr_pr50_jenot",
+    "localized": "Yenot",
     "arcade": {
       "economic_rank": 9
     },
@@ -39101,7 +39305,7 @@
   },
   {
     "name": "us_cruiser_northampton_class",
-    "localized": "us_cruiser_northampton_class",
+    "localized": "USS Northampton",
     "arcade": {
       "economic_rank": 13
     },
@@ -39118,7 +39322,7 @@
   },
   {
     "name": "uk_corvette_peacock",
-    "localized": "uk_corvette_peacock",
+    "localized": "HMS Peacock",
     "arcade": {
       "economic_rank": 8
     },
@@ -39135,7 +39339,7 @@
   },
   {
     "name": "it_mas_classe500_3_1944",
-    "localized": "it_mas_classe500_3_1944",
+    "localized": "MAS 561",
     "arcade": {
       "economic_rank": 0
     },
@@ -39152,7 +39356,7 @@
   },
   {
     "name": "jp_escort_akebono_class",
-    "localized": "jp_escort_akebono_class",
+    "localized": "Akebono",
     "arcade": {
       "economic_rank": 7
     },
@@ -39169,7 +39373,7 @@
   },
   {
     "name": "jp_destroyer_chidori",
-    "localized": "jp_destroyer_chidori",
+    "localized": "Chidori",
     "arcade": {
       "economic_rank": 8
     },
@@ -39186,7 +39390,7 @@
   },
   {
     "name": "it_destroyer_comandanti_medaglie_doro",
-    "localized": "it_destroyer_comandanti_medaglie_doro",
+    "localized": "RN Comandante Margottini",
     "arcade": {
       "economic_rank": 9
     },
@@ -39203,7 +39407,7 @@
   },
   {
     "name": "it_cruiser_zara_class",
-    "localized": "it_cruiser_zara_class",
+    "localized": "RN Zara",
     "arcade": {
       "economic_rank": 14
     },
@@ -39220,7 +39424,7 @@
   },
   {
     "name": "it_cruiser_zara_class_pola",
-    "localized": "it_cruiser_zara_class_pola",
+    "localized": "RN Pola",
     "arcade": {
       "economic_rank": 14
     },
@@ -39237,7 +39441,7 @@
   },
   {
     "name": "jp_destroyer_shimakaze",
-    "localized": "jp_destroyer_shimakaze",
+    "localized": "IJN Shimakaze",
     "arcade": {
       "economic_rank": 12
     },
@@ -39254,7 +39458,7 @@
   },
   {
     "name": "germ_frigate_koln_lubeck",
-    "localized": "germ_frigate_koln_lubeck",
+    "localized": "Lübeck",
     "arcade": {
       "economic_rank": 10
     },
@@ -39271,7 +39475,7 @@
   },
   {
     "name": "ussr_battleship_poltava",
-    "localized": "ussr_battleship_poltava",
+    "localized": "Poltava",
     "arcade": {
       "economic_rank": 17
     },
@@ -39288,7 +39492,7 @@
   },
   {
     "name": "uk_battleship_dreadnought",
-    "localized": "uk_battleship_dreadnought",
+    "localized": "HMS Dreadnought",
     "arcade": {
       "economic_rank": 16
     },
@@ -39305,7 +39509,7 @@
   },
   {
     "name": "uk_battleship_colossus",
-    "localized": "uk_battleship_colossus",
+    "localized": "HMS Colossus",
     "arcade": {
       "economic_rank": 17
     },
@@ -39322,7 +39526,7 @@
   },
   {
     "name": "germ_battleship_westfalen",
-    "localized": "germ_battleship_westfalen",
+    "localized": "SMS Westfalen",
     "arcade": {
       "economic_rank": 16
     },
@@ -39339,7 +39543,7 @@
   },
   {
     "name": "germ_battleship_helgoland",
-    "localized": "germ_battleship_helgoland",
+    "localized": "SMS Helgoland",
     "arcade": {
       "economic_rank": 16
     },
@@ -39356,7 +39560,7 @@
   },
   {
     "name": "us_cruiser_new_orleans_class",
-    "localized": "us_cruiser_new_orleans_class",
+    "localized": "USS New Orleans",
     "arcade": {
       "economic_rank": 14
     },
@@ -39373,7 +39577,7 @@
   },
   {
     "name": "us_battleship_north_dakota",
-    "localized": "us_battleship_north_dakota",
+    "localized": "USS North Dakota",
     "arcade": {
       "economic_rank": 16
     },
@@ -39390,7 +39594,7 @@
   },
   {
     "name": "jp_battleship_settsu",
-    "localized": "jp_battleship_settsu",
+    "localized": "IJN Settsu",
     "arcade": {
       "economic_rank": 16
     },
@@ -39407,7 +39611,7 @@
   },
   {
     "name": "jp_armoredcruiser_ikoma",
-    "localized": "jp_armoredcruiser_ikoma",
+    "localized": "IJN Ikoma",
     "arcade": {
       "economic_rank": 14
     },
@@ -39424,7 +39628,7 @@
   },
   {
     "name": "ussr_cruiser_zheleznyakov",
-    "localized": "ussr_cruiser_zheleznyakov",
+    "localized": "Zheleznyakov",
     "arcade": {
       "economic_rank": 15
     },
@@ -39441,7 +39645,7 @@
   },
   {
     "name": "jp_destroyer_satsuki",
-    "localized": "jp_destroyer_satsuki",
+    "localized": "IJN Satsuki",
     "arcade": {
       "economic_rank": 7
     },
@@ -39458,7 +39662,7 @@
   },
   {
     "name": "it_destroyer_aquilone",
-    "localized": "it_destroyer_aquilone",
+    "localized": "RN Aquilone",
     "arcade": {
       "economic_rank": 7
     },
@@ -39475,7 +39679,7 @@
   },
   {
     "name": "germ_destroyer_class1924_iltis",
-    "localized": "germ_destroyer_class1924_iltis",
+    "localized": "Luchs",
     "arcade": {
       "economic_rank": 8
     },
@@ -39492,7 +39696,7 @@
   },
   {
     "name": "ussr_battleship_imperatritsa_mariya",
-    "localized": "ussr_battleship_imperatritsa_mariya",
+    "localized": "Imperatritsa Mariya",
     "arcade": {
       "economic_rank": 17
     },
@@ -39526,7 +39730,7 @@
   },
   {
     "name": "us_destroyer_clemson_welborn_c_wood",
-    "localized": "us_destroyer_clemson_welborn_c_wood",
+    "localized": "USS Welborn C. Wood",
     "arcade": {
       "economic_rank": 7
     },
@@ -39543,7 +39747,7 @@
   },
   {
     "name": "uk_destroyer_j_class",
-    "localized": "uk_destroyer_j_class",
+    "localized": "HMS Jervis",
     "arcade": {
       "economic_rank": 11
     },
@@ -39560,7 +39764,7 @@
   },
   {
     "name": "us_destroyer_porter_1942",
-    "localized": "us_destroyer_porter_1942",
+    "localized": "USS Moffett",
     "arcade": {
       "economic_rank": 12
     },
@@ -39577,7 +39781,7 @@
   },
   {
     "name": "uk_destroyer_g_garland",
-    "localized": "uk_destroyer_g_garland",
+    "localized": "ORP Garland",
     "arcade": {
       "economic_rank": 8
     },
@@ -39594,7 +39798,7 @@
   },
   {
     "name": "uk_dark_class_mtb_td",
-    "localized": "uk_dark_class_mtb_td",
+    "localized": "Dark Aggressor TD",
     "arcade": {
       "economic_rank": 4
     },
@@ -39611,7 +39815,7 @@
   },
   {
     "name": "germ_battlecruiser_von_der_tann",
-    "localized": "germ_battlecruiser_von_der_tann",
+    "localized": "SMS Von der Tann",
     "arcade": {
       "economic_rank": 16
     },
@@ -39628,7 +39832,7 @@
   },
   {
     "name": "jp_kusen_tei_13_1942",
-    "localized": "jp_kusen_tei_13_1942",
+    "localized": "Type K-8 No.13",
     "arcade": {
       "economic_rank": 1
     },
@@ -39645,7 +39849,7 @@
   },
   {
     "name": "us_cruiser_baltimore_class",
-    "localized": "us_cruiser_baltimore_class",
+    "localized": "USS Baltimore",
     "arcade": {
       "economic_rank": 15
     },
@@ -39662,7 +39866,7 @@
   },
   {
     "name": "uk_battlecruiser_invincible",
-    "localized": "uk_battlecruiser_invincible",
+    "localized": "HMS Invincible",
     "arcade": {
       "economic_rank": 16
     },
@@ -39679,7 +39883,7 @@
   },
   {
     "name": "ussr_mpk_pr12412",
-    "localized": "ussr_mpk_pr12412",
+    "localized": "MPK Pr.12412",
     "arcade": {
       "economic_rank": 10
     },
@@ -39696,7 +39900,7 @@
   },
   {
     "name": "jp_battleship_hyuga",
-    "localized": "jp_battleship_hyuga",
+    "localized": "IJN Hyuga",
     "arcade": {
       "economic_rank": 18
     },
@@ -39713,7 +39917,7 @@
   },
   {
     "name": "germ_destroyer_class1936a_z25",
-    "localized": "germ_destroyer_class1936a_z25",
+    "localized": "Z25",
     "arcade": {
       "economic_rank": 10
     },
@@ -39730,7 +39934,7 @@
   },
   {
     "name": "jp_cruiser_isuzu",
-    "localized": "jp_cruiser_isuzu",
+    "localized": "IJN Isuzu",
     "arcade": {
       "economic_rank": 12
     },
@@ -39747,7 +39951,7 @@
   },
   {
     "name": "germ_battleship_kaiser",
-    "localized": "germ_battleship_kaiser",
+    "localized": "SMS Kaiser",
     "arcade": {
       "economic_rank": 16
     },
@@ -39764,7 +39968,7 @@
   },
   {
     "name": "ussr_skr_pr50plo_rosomacha",
-    "localized": "ussr_skr_pr50plo_rosomacha",
+    "localized": "Rosomacha",
     "arcade": {
       "economic_rank": 9
     },
@@ -39781,7 +39985,7 @@
   },
   {
     "name": "uk_frigate_whitby_blackpool",
-    "localized": "uk_frigate_whitby_blackpool",
+    "localized": "HMS Blackpool",
     "arcade": {
       "economic_rank": 8
     },
@@ -39798,7 +40002,7 @@
   },
   {
     "name": "it_cruiser_etna_class",
-    "localized": "it_cruiser_etna_class",
+    "localized": "RN Etna",
     "arcade": {
       "economic_rank": 11
     },
@@ -39815,7 +40019,7 @@
   },
   {
     "name": "jp_destroyer_yugure",
-    "localized": "jp_destroyer_yugure",
+    "localized": "JDS Yūgure (DD-184)",
     "arcade": {
       "economic_rank": 10
     },
@@ -39832,7 +40036,7 @@
   },
   {
     "name": "ussr_cruiser_voroshilov",
-    "localized": "ussr_cruiser_voroshilov",
+    "localized": "Voroshilov",
     "arcade": {
       "economic_rank": 14
     },
@@ -39849,7 +40053,7 @@
   },
   {
     "name": "us_admirable_class",
-    "localized": "us_admirable_class",
+    "localized": "USS Candid",
     "arcade": {
       "economic_rank": 7
     },
@@ -39866,7 +40070,7 @@
   },
   {
     "name": "uk_frigate_leopard",
-    "localized": "uk_frigate_leopard",
+    "localized": "HMS Leopard",
     "arcade": {
       "economic_rank": 9
     },
@@ -39883,7 +40087,7 @@
   },
   {
     "name": "ussr_destroyer_pr30bis_bezuprechnyi",
-    "localized": "ussr_destroyer_pr30bis_bezuprechnyi",
+    "localized": "Bezuprechny",
     "arcade": {
       "economic_rank": 10
     },
@@ -39900,7 +40104,7 @@
   },
   {
     "name": "uk_cruiser_liverpool",
-    "localized": "uk_cruiser_liverpool",
+    "localized": "HMS Liverpool",
     "arcade": {
       "economic_rank": 13
     },
@@ -39917,7 +40121,7 @@
   },
   {
     "name": "it_battleship_dante_alighieri",
-    "localized": "it_battleship_dante_alighieri",
+    "localized": "RN Dante Alighieri",
     "arcade": {
       "economic_rank": 16
     },
@@ -39934,7 +40138,7 @@
   },
   {
     "name": "us_battleship_wyoming_class",
-    "localized": "us_battleship_wyoming_class",
+    "localized": "USS Wyoming",
     "arcade": {
       "economic_rank": 17
     },
@@ -39951,7 +40155,7 @@
   },
   {
     "name": "germ_type143_bussard",
-    "localized": "germ_type143_bussard",
+    "localized": "Bussard",
     "arcade": {
       "economic_rank": 8
     },
@@ -39968,7 +40172,7 @@
   },
   {
     "name": "us_cruiser_omaha_class_detroit",
-    "localized": "us_cruiser_omaha_class_detroit",
+    "localized": "USS Detroit",
     "arcade": {
       "economic_rank": 12
     },
@@ -39985,7 +40189,7 @@
   },
   {
     "name": "it_destroyer_soldati_serie1",
-    "localized": "it_destroyer_soldati_serie1",
+    "localized": "RN Aviere",
     "arcade": {
       "economic_rank": 9
     },
@@ -40002,7 +40206,7 @@
   },
   {
     "name": "germ_cruiser_karlsruhe",
-    "localized": "germ_cruiser_karlsruhe",
+    "localized": "Karlsruhe",
     "arcade": {
       "economic_rank": 14
     },
@@ -40019,7 +40223,7 @@
   },
   {
     "name": "jp_cruiser_aoba",
-    "localized": "jp_cruiser_aoba",
+    "localized": "IJN Aoba",
     "arcade": {
       "economic_rank": 14
     },
@@ -40036,7 +40240,7 @@
   },
   {
     "name": "it_destroyer_leone_class",
-    "localized": "it_destroyer_leone_class",
+    "localized": "RN Leone",
     "arcade": {
       "economic_rank": 10
     },
@@ -40053,7 +40257,7 @@
   },
   {
     "name": "uk_fairmile_lcs_l_h_mk2",
-    "localized": "uk_fairmile_lcs_l_h_mk2",
+    "localized": "Fairmile H LCS(L)(2)",
     "arcade": {
       "economic_rank": 4
     },
@@ -40070,7 +40274,7 @@
   },
   {
     "name": "uk_corvette_orla",
-    "localized": "uk_corvette_orla",
+    "localized": "LÉ Orla",
     "arcade": {
       "economic_rank": 8
     },
@@ -40087,7 +40291,7 @@
   },
   {
     "name": "us_cruiser_baltimore_class_pittsburgh",
-    "localized": "us_cruiser_baltimore_class_pittsburgh",
+    "localized": "USS Pittsburgh",
     "arcade": {
       "economic_rank": 15
     },
@@ -40104,7 +40308,7 @@
   },
   {
     "name": "ussr_battleship_parizhskaya_kommuna",
-    "localized": "ussr_battleship_parizhskaya_kommuna",
+    "localized": "Parizhskaya kommuna",
     "arcade": {
       "economic_rank": 18
     },
@@ -40121,7 +40325,7 @@
   },
   {
     "name": "uk_cruiser_norfolk",
-    "localized": "uk_cruiser_norfolk",
+    "localized": "HMS Norfolk",
     "arcade": {
       "economic_rank": 14
     },
@@ -40138,7 +40342,7 @@
   },
   {
     "name": "jp_cruiser_yubari",
-    "localized": "jp_cruiser_yubari",
+    "localized": "IJN Yubari",
     "arcade": {
       "economic_rank": 11
     },
@@ -40155,7 +40359,7 @@
   },
   {
     "name": "ussr_destroyer_pr30bis_smelyi",
-    "localized": "ussr_destroyer_pr30bis_smelyi",
+    "localized": "Smelyi",
     "arcade": {
       "economic_rank": 10
     },
@@ -40172,7 +40376,7 @@
   },
   {
     "name": "uk_destroyer_v_class_vega",
-    "localized": "uk_destroyer_v_class_vega",
+    "localized": "HMS Vega",
     "arcade": {
       "economic_rank": 8
     },
@@ -40189,7 +40393,7 @@
   },
   {
     "name": "it_gabbiano_class",
-    "localized": "it_gabbiano_class",
+    "localized": "RN Gabbiano",
     "arcade": {
       "economic_rank": 7
     },
@@ -40206,7 +40410,7 @@
   },
   {
     "name": "germ_escort_typem1935",
-    "localized": "germ_escort_typem1935",
+    "localized": "M-17",
     "arcade": {
       "economic_rank": 8
     },
@@ -40223,7 +40427,7 @@
   },
   {
     "name": "us_frigate_tacoma",
-    "localized": "us_frigate_tacoma",
+    "localized": "USS Hoquiam",
     "arcade": {
       "economic_rank": 7
     },
@@ -40240,7 +40444,7 @@
   },
   {
     "name": "uk_destroyer_v_class_verdun",
-    "localized": "uk_destroyer_v_class_verdun",
+    "localized": "HMS Verdun",
     "arcade": {
       "economic_rank": 8
     },
@@ -40257,7 +40461,7 @@
   },
   {
     "name": "uk_destroyer_tribal_mohawk",
-    "localized": "uk_destroyer_tribal_mohawk",
+    "localized": "HMS Mohawk",
     "arcade": {
       "economic_rank": 11
     },
@@ -40274,7 +40478,7 @@
   },
   {
     "name": "us_higgins_78ft_pt658",
-    "localized": "us_higgins_78ft_pt658",
+    "localized": "PT-658",
     "arcade": {
       "economic_rank": 5
     },
@@ -40291,7 +40495,7 @@
   },
   {
     "name": "it_destroyer_leone_class_tigre",
-    "localized": "it_destroyer_leone_class_tigre",
+    "localized": "RN Tigre",
     "arcade": {
       "economic_rank": 10
     },
@@ -40308,7 +40512,7 @@
   },
   {
     "name": "us_elco_80ft_pt174",
-    "localized": "us_elco_80ft_pt174",
+    "localized": "PT-174",
     "arcade": {
       "economic_rank": 4
     },
@@ -40325,7 +40529,7 @@
   },
   {
     "name": "ussr_mpk_201m",
-    "localized": "ussr_mpk_201m",
+    "localized": "MPK Pr.201M",
     "arcade": {
       "economic_rank": 8
     },
@@ -40342,7 +40546,7 @@
   },
   {
     "name": "us_destroyer_mitscher",
-    "localized": "us_destroyer_mitscher",
+    "localized": "USS Mitscher",
     "arcade": {
       "economic_rank": 11
     },
@@ -40359,7 +40563,7 @@
   },
   {
     "name": "uk_battleship_marlborough",
-    "localized": "uk_battleship_marlborough",
+    "localized": "HMS Marlborough",
     "arcade": {
       "economic_rank": 18
     },
@@ -40376,7 +40580,7 @@
   },
   {
     "name": "jp_destroyer_hayanami",
-    "localized": "jp_destroyer_hayanami",
+    "localized": "IJN Hayanami",
     "arcade": {
       "economic_rank": 10
     },
@@ -40393,7 +40597,7 @@
   },
   {
     "name": "germ_battleship_scharnhorst",
-    "localized": "germ_battleship_scharnhorst",
+    "localized": "Scharnhorst",
     "arcade": {
       "economic_rank": 18
     },
@@ -40410,7 +40614,7 @@
   },
   {
     "name": "germ_rdm242",
-    "localized": "germ_rdm242",
+    "localized": "Krischan der Große",
     "arcade": {
       "economic_rank": 5
     },
@@ -40427,7 +40631,7 @@
   },
   {
     "name": "jp_destroyer_harukaze",
-    "localized": "jp_destroyer_harukaze",
+    "localized": "JDS Harukaze (DD-101)",
     "arcade": {
       "economic_rank": 9
     },
@@ -40444,7 +40648,7 @@
   },
   {
     "name": "us_destroyer_mitscher_wilkinson",
-    "localized": "us_destroyer_mitscher_wilkinson",
+    "localized": "USS Wilkinson",
     "arcade": {
       "economic_rank": 11
     },
@@ -40461,7 +40665,7 @@
   },
   {
     "name": "ussr_cruiser_kerch",
-    "localized": "ussr_cruiser_kerch",
+    "localized": "Kerch",
     "arcade": {
       "economic_rank": 12
     },
@@ -40478,7 +40682,7 @@
   },
   {
     "name": "ussr_mpk_201k",
-    "localized": "ussr_mpk_201k",
+    "localized": "MPK Pr.201K",
     "arcade": {
       "economic_rank": 7
     },
@@ -40495,7 +40699,7 @@
   },
   {
     "name": "it_cruiser_eugenio_di_savoia",
-    "localized": "it_cruiser_eugenio_di_savoia",
+    "localized": "RN Eugenio di Savoia",
     "arcade": {
       "economic_rank": 13
     },
@@ -40512,7 +40716,7 @@
   },
   {
     "name": "uk_higgins_78ft_mtb422",
-    "localized": "uk_higgins_78ft_mtb422",
+    "localized": "MTB-422",
     "arcade": {
       "economic_rank": 4
     },
@@ -40529,7 +40733,7 @@
   },
   {
     "name": "uk_destroyer_v_class_valhalla",
-    "localized": "uk_destroyer_v_class_valhalla",
+    "localized": "HMS Valhalla",
     "arcade": {
       "economic_rank": 7
     },
@@ -40546,7 +40750,7 @@
   },
   {
     "name": "it_albatros_class_f543",
-    "localized": "it_albatros_class_f543",
+    "localized": "Albatros",
     "arcade": {
       "economic_rank": 8
     },
@@ -40563,7 +40767,7 @@
   },
   {
     "name": "us_battleship_arizona_1931",
-    "localized": "us_battleship_arizona_1931",
+    "localized": "USS Arizona",
     "arcade": {
       "economic_rank": 17
     },
@@ -40580,7 +40784,7 @@
   },
   {
     "name": "jp_battlecruiser_kongo",
-    "localized": "jp_battlecruiser_kongo",
+    "localized": "IJN Kongo",
     "arcade": {
       "economic_rank": 18
     },
@@ -40597,7 +40801,7 @@
   },
   {
     "name": "us_pgm_59_class",
-    "localized": "us_pgm_59_class",
+    "localized": "Kim Qui",
     "arcade": {
       "economic_rank": 7
     },
@@ -40614,7 +40818,7 @@
   },
   {
     "name": "germ_skr_pr50_karl_marx",
-    "localized": "germ_skr_pr50_karl_marx",
+    "localized": "Karl Marx",
     "arcade": {
       "economic_rank": 9
     },
@@ -40631,7 +40835,7 @@
   },
   {
     "name": "ussr_mpk_pr12412p",
-    "localized": "ussr_mpk_pr12412p",
+    "localized": "MPK Pr.12412P",
     "arcade": {
       "economic_rank": 10
     },
@@ -40648,7 +40852,7 @@
   },
   {
     "name": "us_destroyer_somers_davis",
-    "localized": "us_destroyer_somers_davis",
+    "localized": "USS Davis",
     "arcade": {
       "economic_rank": 12
     },
@@ -40665,7 +40869,7 @@
   },
   {
     "name": "uk_destroyer_battle_cadiz",
-    "localized": "uk_destroyer_battle_cadiz",
+    "localized": "HMS Cadiz",
     "arcade": {
       "economic_rank": 11
     },
@@ -40682,7 +40886,7 @@
   },
   {
     "name": "uk_battlecruiser_hood",
-    "localized": "uk_battlecruiser_hood",
+    "localized": "HMS Hood",
     "arcade": {
       "economic_rank": 18
     },
@@ -40699,7 +40903,7 @@
   },
   {
     "name": "germ_battleship_bayern",
-    "localized": "germ_battleship_bayern",
+    "localized": "SMS Bayern",
     "arcade": {
       "economic_rank": 18
     },
@@ -40716,7 +40920,7 @@
   },
   {
     "name": "uk_hdml_ml1383",
-    "localized": "uk_hdml_ml1383",
+    "localized": "ML 1383",
     "arcade": {
       "economic_rank": 2
     },
@@ -40733,7 +40937,7 @@
   },
   {
     "name": "ussr_battlecruiser_kronshtadt",
-    "localized": "ussr_battlecruiser_kronshtadt",
+    "localized": "Kronshtadt",
     "arcade": {
       "economic_rank": 18
     },
@@ -40750,7 +40954,7 @@
   },
   {
     "name": "it_destroyer_fletcher_geniere",
-    "localized": "it_destroyer_fletcher_geniere",
+    "localized": "Geniere",
     "arcade": {
       "economic_rank": 10
     },
@@ -40767,7 +40971,7 @@
   },
   {
     "name": "us_destroyer_gearing",
-    "localized": "us_destroyer_gearing",
+    "localized": "USS Gearing",
     "arcade": {
       "economic_rank": 11
     },
@@ -40784,7 +40988,7 @@
   },
   {
     "name": "us_ashville_class_douglas",
-    "localized": "us_ashville_class_douglas",
+    "localized": "USS Douglas",
     "arcade": {
       "economic_rank": 9
     },
@@ -40801,7 +41005,7 @@
   },
   {
     "name": "jp_destroyer_ayanami",
-    "localized": "jp_destroyer_ayanami",
+    "localized": "JDS Ayanami (DD-103)",
     "arcade": {
       "economic_rank": 9
     },
@@ -40818,7 +41022,7 @@
   },
   {
     "name": "jp_t51a",
-    "localized": "jp_t51a",
+    "localized": "Type T-51a",
     "arcade": {
       "economic_rank": 4
     },
@@ -40835,7 +41039,7 @@
   },
   {
     "name": "jp_battlecruiser_haruna",
-    "localized": "jp_battlecruiser_haruna",
+    "localized": "IJN Haruna",
     "arcade": {
       "economic_rank": 18
     },
@@ -40852,7 +41056,7 @@
   },
   {
     "name": "us_battlecruiser_alaska_class",
-    "localized": "us_battlecruiser_alaska_class",
+    "localized": "USS Alaska",
     "arcade": {
       "economic_rank": 18
     },
@@ -40869,7 +41073,7 @@
   },
   {
     "name": "germ_km5",
-    "localized": "germ_km5",
+    "localized": "KM-5",
     "arcade": {
       "economic_rank": 1
     },
@@ -40886,7 +41090,7 @@
   },
   {
     "name": "ussr_cruiser_mikhail_kutuzov",
-    "localized": "ussr_cruiser_mikhail_kutuzov",
+    "localized": "Mikhail Kutuzov",
     "arcade": {
       "economic_rank": 16
     },
@@ -40903,7 +41107,7 @@
   },
   {
     "name": "germ_cruiser_elbing",
-    "localized": "germ_cruiser_elbing",
+    "localized": "SMS Elbing",
     "arcade": {
       "economic_rank": 11
     },
@@ -40920,7 +41124,7 @@
   },
   {
     "name": "jp_destroyer_hatsuharu",
-    "localized": "jp_destroyer_hatsuharu",
+    "localized": "IJN Hatsuharu",
     "arcade": {
       "economic_rank": 10
     },
@@ -40937,7 +41141,7 @@
   },
   {
     "name": "ussr_destroyer_pr56_blagorodny",
-    "localized": "ussr_destroyer_pr56_blagorodny",
+    "localized": "Blagorodnyy",
     "arcade": {
       "economic_rank": 12
     },
@@ -40954,7 +41158,7 @@
   },
   {
     "name": "it_destroyer_navigatori_class_verazzano",
-    "localized": "it_destroyer_navigatori_class_verazzano",
+    "localized": "RN Da Verazzano",
     "arcade": {
       "economic_rank": 10
     },
@@ -40971,7 +41175,7 @@
   },
   {
     "name": "it_battleship_andrea_doria",
-    "localized": "it_battleship_andrea_doria",
+    "localized": "RN Andrea Doria",
     "arcade": {
       "economic_rank": 16
     },
@@ -40988,7 +41192,7 @@
   },
   {
     "name": "uk_attack_class_arrow",
-    "localized": "uk_attack_class_arrow",
+    "localized": "HMAS Arrow",
     "arcade": {
       "economic_rank": 5
     },
@@ -41005,7 +41209,7 @@
   },
   {
     "name": "us_cyclone_class_cyclone",
-    "localized": "us_cyclone_class_cyclone",
+    "localized": "USS Cyclone",
     "arcade": {
       "economic_rank": 8
     },
@@ -41022,7 +41226,7 @@
   },
   {
     "name": "germ_battleship_ostfriesland",
-    "localized": "germ_battleship_ostfriesland",
+    "localized": "SMS Ostfriesland",
     "arcade": {
       "economic_rank": 16
     },
@@ -41039,7 +41243,7 @@
   },
   {
     "name": "germ_type152_hugin",
-    "localized": "germ_type152_hugin",
+    "localized": "Hugin",
     "arcade": {
       "economic_rank": 10
     },
@@ -41056,7 +41260,7 @@
   },
   {
     "name": "jp_battleship_fuso",
-    "localized": "jp_battleship_fuso",
+    "localized": "IJN Fuso",
     "arcade": {
       "economic_rank": 18
     },
@@ -41073,7 +41277,7 @@
   },
   {
     "name": "uk_battlecruiser_glorious",
-    "localized": "uk_battlecruiser_glorious",
+    "localized": "HMS Glorious",
     "arcade": {
       "economic_rank": 14
     },
@@ -41090,7 +41294,7 @@
   },
   {
     "name": "us_cruiser_fargo_class",
-    "localized": "us_cruiser_fargo_class",
+    "localized": "USS Fargo",
     "arcade": {
       "economic_rank": 15
     },
@@ -41107,7 +41311,7 @@
   },
   {
     "name": "us_destroyer_gearing_frank_knox",
-    "localized": "us_destroyer_gearing_frank_knox",
+    "localized": "USS Frank Knox",
     "arcade": {
       "economic_rank": 11
     },
@@ -41124,7 +41328,7 @@
   },
   {
     "name": "ussr_destroyer_7_besposhchadny",
-    "localized": "ussr_destroyer_7_besposhchadny",
+    "localized": "Besposhchadny",
     "arcade": {
       "economic_rank": 8
     },
@@ -41141,7 +41345,7 @@
   },
   {
     "name": "it_gabbiano_class_c16",
-    "localized": "it_gabbiano_class_c16",
+    "localized": "Folaga",
     "arcade": {
       "economic_rank": 7
     },
@@ -41158,7 +41362,7 @@
   },
   {
     "name": "uk_destroyer_daring_class_diana",
-    "localized": "uk_destroyer_daring_class_diana",
+    "localized": "HMS Diana",
     "arcade": {
       "economic_rank": 11
     },
@@ -41175,7 +41379,7 @@
   },
   {
     "name": "it_destroyer_vifor_class_aquila",
-    "localized": "it_destroyer_vifor_class_aquila",
+    "localized": "RN Aquila",
     "arcade": {
       "economic_rank": 7
     },
@@ -41192,7 +41396,7 @@
   },
   {
     "name": "us_lcm_zippo",
-    "localized": "us_lcm_zippo",
+    "localized": "LCM(6) Zippo",
     "arcade": {
       "economic_rank": 4
     },
@@ -41209,7 +41413,7 @@
   },
   {
     "name": "ussr_mpk_pr1331m",
-    "localized": "ussr_mpk_pr1331m",
+    "localized": "MPK Pr.1331M",
     "arcade": {
       "economic_rank": 9
     },
@@ -41226,7 +41430,7 @@
   },
   {
     "name": "it_cruiser_garibaldi_class_abruzzi",
-    "localized": "it_cruiser_garibaldi_class_abruzzi",
+    "localized": "RN Duca degli Abruzzi",
     "arcade": {
       "economic_rank": 14
     },
@@ -41243,15 +41447,15 @@
   },
   {
     "name": "us_cruiser_des_moines_class_newport_news",
-    "localized": "us_cruiser_des_moines_class_newport_news",
+    "localized": "USS Newport News",
     "arcade": {
-      "economic_rank": 14
+      "economic_rank": 16
     },
     "realistic": {
-      "economic_rank": 14
+      "economic_rank": 16
     },
     "simulator": {
-      "economic_rank": 14
+      "economic_rank": 16
     },
     "rank": 5,
     "tech_tree": {
@@ -41260,7 +41464,7 @@
   },
   {
     "name": "germ_destroyer_class1936c_z47",
-    "localized": "germ_destroyer_class1936c_z47",
+    "localized": "Z47",
     "arcade": {
       "economic_rank": 11
     },
@@ -41277,7 +41481,7 @@
   },
   {
     "name": "us_pt812",
-    "localized": "us_pt812",
+    "localized": "PT-812",
     "arcade": {
       "economic_rank": 6
     },
@@ -41294,7 +41498,7 @@
   },
   {
     "name": "ussr_destroyer_7_ryany",
-    "localized": "ussr_destroyer_7_ryany",
+    "localized": "Ryany",
     "arcade": {
       "economic_rank": 8
     },
@@ -41311,7 +41515,7 @@
   },
   {
     "name": "germ_pr_131",
-    "localized": "germ_pr_131",
+    "localized": "V-990",
     "arcade": {
       "economic_rank": 5
     },
@@ -41328,7 +41532,7 @@
   },
   {
     "name": "ussr_destroyer_regele_ferdinand_class_letuchiy",
-    "localized": "ussr_destroyer_regele_ferdinand_class_letuchiy",
+    "localized": "Letuchiy",
     "arcade": {
       "economic_rank": 9
     },
@@ -41341,6 +41545,23 @@
     "rank": 1,
     "tech_tree": {
       "nation": "USSR"
+    }
+  },
+  {
+    "name": "uk_minelayer_abdiel_class_abdiel",
+    "localized": "HMS Abdiel",
+    "arcade": {
+      "economic_rank": 9
+    },
+    "realistic": {
+      "economic_rank": 9
+    },
+    "simulator": {
+      "economic_rank": 9
+    },
+    "rank": 2,
+    "tech_tree": {
+      "nation": "Great Britain"
     }
   }
 ]
