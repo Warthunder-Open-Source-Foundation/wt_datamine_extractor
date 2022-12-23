@@ -11357,7 +11357,7 @@
   },
   {
     "name": "f-86_canadair_german",
-    "localized": "CL-13A Mk 5",
+    "localized": "◄CL-13A Mk 5",
     "arcade": {
       "economic_rank": 22
     },
@@ -19755,7 +19755,7 @@
   },
   {
     "name": "uh_1d",
-    "localized": "✠UH-1D",
+    "localized": "◄UH-1D",
     "arcade": {
       "economic_rank": 24
     },
@@ -19772,7 +19772,7 @@
   },
   {
     "name": "sa_313b",
-    "localized": "✠SA 313B Alouette II",
+    "localized": "◄SA 313B Alouette II",
     "arcade": {
       "economic_rank": 23
     },
@@ -19857,7 +19857,7 @@
   },
   {
     "name": "mi_24p_german_hfs80",
-    "localized": "✠Mi-24P HFS 80",
+    "localized": "◄Mi-24P HFS 80",
     "arcade": {
       "economic_rank": 27
     },
@@ -19874,7 +19874,7 @@
   },
   {
     "name": "mi_24p_german",
-    "localized": "✠Mi-24P",
+    "localized": "◊Mi-24P",
     "arcade": {
       "economic_rank": 27
     },

@@ -666,7 +666,7 @@ f-84f_italy;⦿F-84F;24;22;23;5;Italy
 f-84f_france;⦿F-84F;24;22;23;5;France
 f-84f_iaf;F-84F IAF;23;22;23;5;France
 f-84f_israel_iaf;✡F-84F;23;22;23;5;Israel
-f-86_canadair_german;CL-13A Mk 5;22;24;24;6;Germany
+f-86_canadair_german;◄CL-13A Mk 5;22;24;24;6;Germany
 sagittario_2;Sagittario 2;23;24;21;6;Italy
 ariete;Ariete;25;25;22;6;Italy
 f-86_cl_13_mk4_italy;CL-13 Mk.4;21;23;24;5;Italy
@@ -1160,14 +1160,14 @@ uh_1b;UH-1B;24;23;23;5;USA
 uh_1b_japan;▅UH-1B;22;20;21;5;Japan
 uh_1c;UH-1C;24;23;23;5;USA
 uh_1c_xm_30;UH-1C XM-30;24;23;23;5;USA
-uh_1d;✠UH-1D;24;23;23;5;Germany
-sa_313b;✠SA 313B Alouette II;23;22;23;5;Germany
+uh_1d;◄UH-1D;24;23;23;5;Germany
+sa_313b;◄SA 313B Alouette II;23;22;23;5;Germany
 sa_313b_france;SA 313B Alouette II;23;22;23;5;France
 bo_105pah1;BO 105 PAH-1;26;25;26;6;Germany
 bo_105pah1_a1;BO 105 PAH-1A1;26;25;26;6;Germany
 bo_105cb2;BO 105 CB-2;26;25;26;5;Germany
-mi_24p_german_hfs80;✠Mi-24P HFS 80;27;26;26;6;Germany
-mi_24p_german;✠Mi-24P;27;26;26;6;Germany
+mi_24p_german_hfs80;◄Mi-24P HFS 80;27;26;26;6;Germany
+mi_24p_german;◊Mi-24P;27;26;26;6;Germany
 sa_316b;SA 316B Alouette III;23;22;24;5;France
 iar_316b;IAR 316B;23;22;25;5;France
 sa_342m;SA.342M Gazelle;25;25;26;6;France
