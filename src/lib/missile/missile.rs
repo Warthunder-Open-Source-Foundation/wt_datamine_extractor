@@ -1,3 +1,4 @@
+use std::fmt::{Display, Formatter};
 use get_size::GetSize;
 
 use crate::explosive::explosive::explosive_type_to_tnt;
@@ -130,6 +131,16 @@ pub enum SeekerType {
 	Ir = 0,
 	Sarh = 1,
 	Arh = 2,
+}
+
+impl Display for SeekerType {
+	fn fmt(&self, f: &mut Formatter<'_>) -> std::fmt::Result {
+		match self {
+			SeekerType::Ir => {write!(f,"{}", "IR")}
+			SeekerType::Sarh => {write!(f,"{}", "SARH")}
+			SeekerType::Arh => {write!(f,"{}", "ARH")}
+		}
+	}
 }
 
 impl Missile {
