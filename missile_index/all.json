@@ -85,7 +85,7 @@
   },
   {
     "name": "cn_ty_90",
-    "localized": "cn_ty_90",
+    "localized": "TY-90",
     "seekertype": "Ir",
     "mass": 24.0,
     "mass_end": 16.1,
@@ -127,7 +127,7 @@
   },
   {
     "name": "fr_matra_super_530d",
-    "localized": "fr_matra_super_530d",
+    "localized": "Matra Super 530D",
     "seekertype": "Sarh",
     "mass": 270.0,
     "mass_end": 235.45,
@@ -169,7 +169,7 @@
   },
   {
     "name": "fr_matra_super_530f",
-    "localized": "fr_matra_super_530f",
+    "localized": "Matra Super 530F",
     "seekertype": "Sarh",
     "mass": 245.0,
     "mass_end": 210.45,
@@ -211,7 +211,7 @@
   },
   {
     "name": "fr_r_511_matra",
-    "localized": "fr_r_511_matra",
+    "localized": "Matra R511",
     "seekertype": "Sarh",
     "mass": 172.5,
     "mass_end": 148.7,
@@ -379,7 +379,7 @@
   },
   {
     "name": "fr_r_550_magic_2",
-    "localized": "fr_r_550_magic_2",
+    "localized": "Matra R550 Magic 2",
     "seekertype": "Ir",
     "mass": 89.0,
     "mass_end": 62.0,
@@ -547,7 +547,7 @@
   },
   {
     "name": "il_shafrir_2_default",
-    "localized": "il_shafrir_2_default",
+    "localized": "Shafrir 2",
     "seekertype": "Ir",
     "mass": 90.0,
     "mass_end": 63.0,
@@ -589,7 +589,7 @@
   },
   {
     "name": "it_aspide_1a",
-    "localized": "it_aspide_1a",
+    "localized": "Aspide-1A",
     "seekertype": "Sarh",
     "mass": 230.0,
     "mass_end": 173.0,
@@ -757,7 +757,7 @@
   },
   {
     "name": "su_pl2_default",
-    "localized": "su_pl2_default",
+    "localized": "PL-2",
     "seekertype": "Ir",
     "mass": 75.3,
     "mass_end": 54.8,
@@ -841,7 +841,7 @@
   },
   {
     "name": "su_pl5b_default",
-    "localized": "su_pl5b_default",
+    "localized": "PL-5B",
     "seekertype": "Ir",
     "mass": 84.5,
     "mass_end": 59.7,
@@ -883,7 +883,7 @@
   },
   {
     "name": "su_pl7",
-    "localized": "su_pl7",
+    "localized": "PL-7",
     "seekertype": "Ir",
     "mass": 89.0,
     "mass_end": 62.0,
@@ -925,7 +925,7 @@
   },
   {
     "name": "su_pl8",
-    "localized": "su_pl8",
+    "localized": "PL-8",
     "seekertype": "Ir",
     "mass": 121.0,
     "mass_end": 108.0,
@@ -1051,7 +1051,7 @@
   },
   {
     "name": "su_r_13m1_default",
-    "localized": "su_r_13m1_default",
+    "localized": "R-13M1",
     "seekertype": "Ir",
     "mass": 90.6,
     "mass_end": 60.0,
@@ -1261,7 +1261,7 @@
   },
   {
     "name": "su_r_27er",
-    "localized": "su_r_27er",
+    "localized": "R-27ER",
     "seekertype": "Sarh",
     "mass": 350.0,
     "mass_end": 286.0,
@@ -1303,7 +1303,7 @@
   },
   {
     "name": "su_r_27et",
-    "localized": "su_r_27et",
+    "localized": "R-27ET",
     "seekertype": "Ir",
     "mass": 343.0,
     "mass_end": 279.0,
@@ -1345,7 +1345,7 @@
   },
   {
     "name": "su_r_27r",
-    "localized": "su_r_27r",
+    "localized": "R-27R",
     "seekertype": "Sarh",
     "mass": 253.0,
     "mass_end": 183.0,
@@ -1387,7 +1387,7 @@
   },
   {
     "name": "su_r_27t",
-    "localized": "su_r_27t",
+    "localized": "R-27T",
     "seekertype": "Ir",
     "mass": 245.5,
     "mass_end": 177.5,
@@ -1471,7 +1471,7 @@
   },
   {
     "name": "su_r_3r_default",
-    "localized": "su_r_3r_default",
+    "localized": "R-3R",
     "seekertype": "Sarh",
     "mass": 75.3,
     "mass_end": 54.8,
@@ -1555,7 +1555,7 @@
   },
   {
     "name": "su_r_3s_default",
-    "localized": "su_r_3s_default",
+    "localized": "R-3S",
     "seekertype": "Ir",
     "mass": 75.3,
     "mass_end": 54.8,
@@ -1639,7 +1639,7 @@
   },
   {
     "name": "su_r_60_default",
-    "localized": "su_r_60_default",
+    "localized": "R-60",
     "seekertype": "Ir",
     "mass": 43.5,
     "mass_end": 33.5,
@@ -1723,7 +1723,7 @@
   },
   {
     "name": "su_r_60m_default",
-    "localized": "su_r_60m_default",
+    "localized": "R-60M",
     "seekertype": "Ir",
     "mass": 44.0,
     "mass_end": 34.0,
@@ -1807,7 +1807,7 @@
   },
   {
     "name": "su_r_60mk_default",
-    "localized": "su_r_60mk_default",
+    "localized": "R-60MK",
     "seekertype": "Ir",
     "mass": 44.0,
     "mass_end": 34.0,
@@ -1849,7 +1849,7 @@
   },
   {
     "name": "su_r_73",
-    "localized": "su_r_73",
+    "localized": "R-73",
     "seekertype": "Ir",
     "mass": 105.0,
     "mass_end": 71.0,
@@ -1975,7 +1975,7 @@
   },
   {
     "name": "swd_rb24j_default",
-    "localized": "swd_rb24j_default",
+    "localized": "RB24J",
     "seekertype": "Ir",
     "mass": 76.93,
     "mass_end": 58.0,
@@ -2059,7 +2059,7 @@
   },
   {
     "name": "swd_rb74",
-    "localized": "swd_rb74",
+    "localized": "RB 74",
     "seekertype": "Ir",
     "mass": 84.46,
     "mass_end": 57.06,
@@ -2521,7 +2521,7 @@
   },
   {
     "name": "us_aim7m_sparrow",
-    "localized": "us_aim7m_sparrow",
+    "localized": "AIM-7M",
     "seekertype": "Sarh",
     "mass": 231.33,
     "mass_end": 193.68,
@@ -2563,7 +2563,7 @@
   },
   {
     "name": "us_aim92_stinger",
-    "localized": "AIM-92 Stinger",
+    "localized": "ATAS",
     "seekertype": "Ir",
     "mass": 10.1,
     "mass_end": 7.35,
@@ -2605,7 +2605,7 @@
   },
   {
     "name": "us_aim92_stinger_left",
-    "localized": "us_aim92_stinger_left",
+    "localized": "ATAS",
     "seekertype": "Ir",
     "mass": 10.1,
     "mass_end": 7.35,
@@ -2647,7 +2647,7 @@
   },
   {
     "name": "us_aim92_stinger_right",
-    "localized": "us_aim92_stinger_right",
+    "localized": "ATAS",
     "seekertype": "Ir",
     "mass": 10.1,
     "mass_end": 7.35,
@@ -2773,7 +2773,7 @@
   },
   {
     "name": "us_aim9b_sidewinder_cwp",
-    "localized": "us_aim9b_sidewinder_cwp",
+    "localized": "AIM-9B",
     "seekertype": "Ir",
     "mass": 72.57,
     "mass_end": 55.8,
@@ -2815,7 +2815,7 @@
   },
   {
     "name": "us_aim9b_sidewinder_default",
-    "localized": "us_aim9b_sidewinder_default",
+    "localized": "AIM-9B",
     "seekertype": "Ir",
     "mass": 72.57,
     "mass_end": 55.8,
@@ -2857,7 +2857,7 @@
   },
   {
     "name": "us_aim9b_sidewinder_default_group",
-    "localized": "us_aim9b_sidewinder_default_group",
+    "localized": "AIM-9B",
     "seekertype": "Ir",
     "mass": 72.57,
     "mass_end": 55.8,
@@ -2941,7 +2941,7 @@
   },
   {
     "name": "us_aim9c_sidewinder_default",
-    "localized": "us_aim9c_sidewinder_default",
+    "localized": "AIM-9C",
     "seekertype": "Sarh",
     "mass": 95.25,
     "mass_end": 55.8,
@@ -2983,7 +2983,7 @@
   },
   {
     "name": "us_aim9c_sidewinder_default_group",
-    "localized": "us_aim9c_sidewinder_default_group",
+    "localized": "AIM-9C",
     "seekertype": "Sarh",
     "mass": 95.25,
     "mass_end": 55.8,
@@ -3067,7 +3067,7 @@
   },
   {
     "name": "us_aim9d_sidewinder_cwp",
-    "localized": "us_aim9d_sidewinder_cwp",
+    "localized": "AIM-9D",
     "seekertype": "Ir",
     "mass": 88.45,
     "mass_end": 55.8,
@@ -3109,7 +3109,7 @@
   },
   {
     "name": "us_aim9d_sidewinder_default",
-    "localized": "us_aim9d_sidewinder_default",
+    "localized": "AIM-9D",
     "seekertype": "Ir",
     "mass": 88.45,
     "mass_end": 55.8,
@@ -3151,7 +3151,7 @@
   },
   {
     "name": "us_aim9d_sidewinder_default_group",
-    "localized": "us_aim9d_sidewinder_default_group",
+    "localized": "AIM-9D",
     "seekertype": "Ir",
     "mass": 88.45,
     "mass_end": 55.8,
@@ -3235,7 +3235,7 @@
   },
   {
     "name": "us_aim9e_sidewinder_default",
-    "localized": "us_aim9e_sidewinder_default",
+    "localized": "AIM-9E",
     "seekertype": "Ir",
     "mass": 76.43,
     "mass_end": 57.5,
@@ -3319,7 +3319,7 @@
   },
   {
     "name": "us_aim9h_sidewinder",
-    "localized": "us_aim9h_sidewinder",
+    "localized": "AIM-9H",
     "seekertype": "Ir",
     "mass": 88.45,
     "mass_end": 55.8,
@@ -3403,7 +3403,7 @@
   },
   {
     "name": "us_aim9j_sidewinder_default",
-    "localized": "us_aim9j_sidewinder_default",
+    "localized": "AIM-9J",
     "seekertype": "Ir",
     "mass": 76.93,
     "mass_end": 58.0,
@@ -3487,7 +3487,7 @@
   },
   {
     "name": "us_aim9l_sidewinder_bol_pod",
-    "localized": "us_aim9l_sidewinder_bol_pod",
+    "localized": "AIM-9L",
     "seekertype": "Ir",
     "mass": 84.46,
     "mass_end": 57.06,
@@ -3529,7 +3529,7 @@
   },
   {
     "name": "us_aim9l_sidewinder_default",
-    "localized": "us_aim9l_sidewinder_default",
+    "localized": "AIM-9L",
     "seekertype": "Ir",
     "mass": 84.46,
     "mass_end": 57.06,
@@ -3613,7 +3613,7 @@
   },
   {
     "name": "us_aim9p_sidewinder_default",
-    "localized": "us_aim9p_sidewinder_default",
+    "localized": "AIM-9P",
     "seekertype": "Ir",
     "mass": 76.93,
     "mass_end": 58.0,
@@ -3655,7 +3655,7 @@
   },
   {
     "name": "us_aim_54a",
-    "localized": "us_aim_54a",
+    "localized": "AIM-54A",
     "seekertype": "Arh",
     "mass": 447.7,
     "mass_end": 239.5,

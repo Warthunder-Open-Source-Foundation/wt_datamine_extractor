@@ -348,7 +348,7 @@
   },
   {
     "name": "100mm_ep",
-    "localized": "100mm_ep",
+    "localized": "Effetto Pronto da 100",
     "shell_type": "Hesh",
     "caliber": 100,
     "true_caliber": 100,
@@ -369,7 +369,7 @@
   },
   {
     "name": "100mm_gr_mod32",
-    "localized": "100mm_gr_mod32",
+    "localized": "Granata da 100 Mod.32",
     "shell_type": "He",
     "caliber": 100,
     "true_caliber": 100,
@@ -385,7 +385,7 @@
   },
   {
     "name": "100mm_gr_mod914",
-    "localized": "100mm_gr_mod914",
+    "localized": "Granata da 100 Mod.914",
     "shell_type": "ApHe",
     "caliber": 100,
     "true_caliber": 100,
@@ -406,7 +406,7 @@
   },
   {
     "name": "100mm_m1000a1",
-    "localized": "100mm_m1000a1",
+    "localized": "M1000A1",
     "shell_type": "ApFsDs",
     "caliber": 100,
     "true_caliber": 24,
@@ -1041,7 +1041,7 @@
   },
   {
     "name": "105mm_dm502",
-    "localized": "DM502",
+    "localized": "DM512",
     "shell_type": "Hesh",
     "caliber": 105,
     "true_caliber": 105,
@@ -1382,7 +1382,7 @@
   },
   {
     "name": "105mm_imi_m413",
-    "localized": "105mm_imi_m413",
+    "localized": "M413",
     "shell_type": "ApFsDs",
     "caliber": 105,
     "true_caliber": 33,
@@ -1421,7 +1421,7 @@
   },
   {
     "name": "105mm_imi_m426",
-    "localized": "105mm_imi_m426",
+    "localized": "M426",
     "shell_type": "ApFsDs",
     "caliber": 105,
     "true_caliber": 24,
@@ -1552,7 +1552,7 @@
   },
   {
     "name": "105mm_m1061",
-    "localized": "105mm_m1061",
+    "localized": "M1061",
     "shell_type": "HeatFs",
     "caliber": 105,
     "true_caliber": 105,
@@ -2762,7 +2762,7 @@
   },
   {
     "name": "105mm_slpprj_m90c",
-    "localized": "105mm_slpprj_m90c",
+    "localized": "slpprj m/90c",
     "shell_type": "ApFsDs",
     "caliber": 105,
     "true_caliber": 24,
@@ -3293,7 +3293,7 @@
   },
   {
     "name": "114mm_akr",
-    "localized": "114mm_akr",
+    "localized": "akr 32/41",
     "shell_type": "He",
     "caliber": 114,
     "true_caliber": 114,
@@ -3309,7 +3309,7 @@
   },
   {
     "name": "114mm_hkr",
-    "localized": "114mm_hkr",
+    "localized": "hkr 42/C",
     "shell_type": "Heat",
     "caliber": 114,
     "true_caliber": 114,
@@ -3671,7 +3671,7 @@
   },
   {
     "name": "120mm_122tm_he",
-    "localized": "120mm_122tm_he",
+    "localized": "120-HE",
     "shell_type": "He",
     "caliber": 120,
     "true_caliber": 120,
@@ -3687,7 +3687,7 @@
   },
   {
     "name": "120mm_122tm_heat",
-    "localized": "120mm_122tm_heat",
+    "localized": "120-HEAT",
     "shell_type": "HeatFs",
     "caliber": 120,
     "true_caliber": 120,
@@ -3708,7 +3708,7 @@
   },
   {
     "name": "120mm_122tm_steel",
-    "localized": "120mm_122tm_steel",
+    "localized": "120-I",
     "shell_type": "ApFsDs",
     "caliber": 120,
     "true_caliber": 42,
@@ -3747,7 +3747,7 @@
   },
   {
     "name": "120mm_122tm_tungsten",
-    "localized": "120mm_122tm_tungsten",
+    "localized": "120-II",
     "shell_type": "ApFsDs",
     "caliber": 120,
     "true_caliber": 42,
@@ -3802,7 +3802,7 @@
   },
   {
     "name": "120mm_9m37m",
-    "localized": "120mm_9m37m",
+    "localized": "9M37M",
     "shell_type": "Sam",
     "caliber": 120,
     "true_caliber": 120,
@@ -4931,7 +4931,7 @@
   },
   {
     "name": "120mm_m338",
-    "localized": "120mm_m338",
+    "localized": "M338",
     "shell_type": "ApFsDs",
     "caliber": 120,
     "true_caliber": 23,
@@ -6686,7 +6686,7 @@
   },
   {
     "name": "125mm_GP125",
-    "localized": "125mm_GP125",
+    "localized": "GP125",
     "shell_type": "Atgm",
     "caliber": 125,
     "true_caliber": 125,
@@ -6739,7 +6739,7 @@
   },
   {
     "name": "125mm_dtb_12_he",
-    "localized": "125mm_dtb_12_he",
+    "localized": "DTB12-125",
     "shell_type": "He",
     "caliber": 125,
     "true_caliber": 125,
@@ -6755,7 +6755,7 @@
   },
   {
     "name": "125mm_dtb_12_he",
-    "localized": "125mm_dtb_12_he",
+    "localized": "DTB12-125",
     "shell_type": "He",
     "caliber": 125,
     "true_caliber": 125,
@@ -6771,7 +6771,7 @@
   },
   {
     "name": "125mm_dtc10_125",
-    "localized": "125mm_dtc10_125",
+    "localized": "DTC10-125",
     "shell_type": "ApFsDs",
     "caliber": 125,
     "true_caliber": 24,
@@ -6810,7 +6810,7 @@
   },
   {
     "name": "125mm_dtc10_125",
-    "localized": "125mm_dtc10_125",
+    "localized": "DTC10-125",
     "shell_type": "ApFsDs",
     "caliber": 125,
     "true_caliber": 24,
@@ -6963,7 +6963,7 @@
   },
   {
     "name": "125mm_tapna",
-    "localized": "125mm_tapna",
+    "localized": "TAPNA",
     "shell_type": "ApFsDs",
     "caliber": 125,
     "true_caliber": 22,
@@ -7784,7 +7784,7 @@
   },
   {
     "name": "150mm_jgr_38",
-    "localized": "J.Gr.38",
+    "localized": "I.Gr.38",
     "shell_type": "He",
     "caliber": 150,
     "true_caliber": 150,
@@ -7800,7 +7800,7 @@
   },
   {
     "name": "150mm_jgr_39",
-    "localized": "J.Gr.39 HI/A",
+    "localized": "I.Gr.39 HI/A",
     "shell_type": "Heat",
     "caliber": 150,
     "true_caliber": 150,
@@ -7821,7 +7821,7 @@
   },
   {
     "name": "150mm_k3s_hot_2",
-    "localized": "150mm_k3s_hot_2",
+    "localized": "HOT-2",
     "shell_type": "Atgm",
     "caliber": 150,
     "true_caliber": 150,
@@ -8164,7 +8164,7 @@
   },
   {
     "name": "152mm_hj9",
-    "localized": "152mm_hj9",
+    "localized": "HJ-9",
     "shell_type": "Atgm",
     "caliber": 152,
     "true_caliber": 152,
@@ -8708,7 +8708,7 @@
   },
   {
     "name": "155mm_g6_smoke",
-    "localized": "155mm_g6_smoke",
+    "localized": "G6 Smoke",
     "shell_type": "Smoke",
     "caliber": 155,
     "true_caliber": 155,
@@ -8718,7 +8718,7 @@
   },
   {
     "name": "155mm_m1",
-    "localized": "155mm_m1",
+    "localized": "M1",
     "shell_type": "He",
     "caliber": 155,
     "true_caliber": 155,
@@ -8839,7 +8839,7 @@
   },
   {
     "name": "155mm_m1_pf",
-    "localized": "155mm_m1_pf",
+    "localized": "M1 (PF)",
     "shell_type": "He",
     "caliber": 155,
     "true_caliber": 155,
@@ -8855,7 +8855,7 @@
   },
   {
     "name": "155mm_mle15",
-    "localized": "155mm_mle15",
+    "localized": "Mle1915",
     "shell_type": "He",
     "caliber": 155,
     "true_caliber": 155,
@@ -8940,7 +8940,7 @@
   },
   {
     "name": "15mm_brsprgr",
-    "localized": "15mm_brsprgr",
+    "localized": "Brsprgr. L'spur",
     "shell_type": "ApHe",
     "caliber": 15,
     "true_caliber": 15,
@@ -8976,7 +8976,7 @@
   },
   {
     "name": "15mm_pzbrgr",
-    "localized": "15mm_pzbrgr",
+    "localized": "Pzbrgr.",
     "shell_type": "ApSolid",
     "caliber": 15,
     "true_caliber": 15,
@@ -9064,7 +9064,7 @@
   },
   {
     "name": "163mm_roland_2",
-    "localized": "163mm_roland_2",
+    "localized": "Roland 2",
     "shell_type": "Sam",
     "caliber": 163,
     "true_caliber": 163,
@@ -9164,7 +9164,7 @@
   },
   {
     "name": "164mm_robot_52",
-    "localized": "Rb.52",
+    "localized": "RB 52 A",
     "shell_type": "Atgm",
     "caliber": 164,
     "true_caliber": 164,
@@ -9206,7 +9206,7 @@
   },
   {
     "name": "165mm_m123",
-    "localized": "165mm_m123",
+    "localized": "M123",
     "shell_type": "Hesh",
     "caliber": 165,
     "true_caliber": 165,
@@ -9400,7 +9400,7 @@
   },
   {
     "name": "20mm_dm43",
-    "localized": "DM43 ",
+    "localized": "DM43",
     "shell_type": "ApCr",
     "caliber": 20,
     "true_caliber": 12,
@@ -9798,7 +9798,7 @@
   },
   {
     "name": "20mm_slpprj_m68",
-    "localized": "20mm_slpprj_m68",
+    "localized": "slpprj m/68",
     "shell_type": "ApCr",
     "caliber": 20,
     "true_caliber": 12,
@@ -9813,7 +9813,7 @@
   },
   {
     "name": "20mm_slsgr_71",
-    "localized": "20mm_slsgr_71",
+    "localized": "slsgr m/71",
     "shell_type": "ApHe",
     "caliber": 20,
     "true_caliber": 20,
@@ -9966,7 +9966,7 @@
   },
   {
     "name": "239mm_9m331",
-    "localized": "239mm_9m331",
+    "localized": "9M331",
     "shell_type": "Sam",
     "caliber": 239,
     "true_caliber": 239,
@@ -10258,7 +10258,7 @@
   },
   {
     "name": "25mm_pgu_20_u",
-    "localized": "25mm_pgu_20_u",
+    "localized": "PGU-20/U",
     "shell_type": "ApCr",
     "caliber": 25,
     "true_caliber": 11,
@@ -10273,7 +10273,7 @@
   },
   {
     "name": "25mm_pgu_25_u",
-    "localized": "25mm_pgu_25_u",
+    "localized": "PGU-25/U",
     "shell_type": "He",
     "caliber": 25,
     "true_caliber": 11,
@@ -10294,7 +10294,7 @@
   },
   {
     "name": "25mm_pmb_09",
-    "localized": "PMB 09",
+    "localized": "PMB 090",
     "shell_type": "ApFsDs",
     "caliber": 25,
     "true_caliber": 9,
@@ -10520,7 +10520,7 @@
   },
   {
     "name": "30mm_3ubr_11",
-    "localized": "30mm_3ubr_11",
+    "localized": "30 mm APDS-FS",
     "shell_type": "ApFsDs",
     "caliber": 30,
     "true_caliber": 10,
@@ -10785,7 +10785,7 @@
   },
   {
     "name": "30mm_pmc287",
-    "localized": "30mm_pmc287",
+    "localized": "PMC287",
     "shell_type": "ApFsDs",
     "caliber": 30,
     "true_caliber": 9,
@@ -10824,7 +10824,7 @@
   },
   {
     "name": "30mm_pmc308",
-    "localized": "30mm_pmc308",
+    "localized": "PMC308",
     "shell_type": "Ahead",
     "caliber": 30,
     "true_caliber": 30,
@@ -11154,7 +11154,7 @@
   },
   {
     "name": "37mm_m51b1",
-    "localized": "37mm_m51b1",
+    "localized": "M51B1",
     "shell_type": "ApSolid",
     "caliber": 37,
     "true_caliber": 37,
@@ -11169,7 +11169,7 @@
   },
   {
     "name": "37mm_m51b1",
-    "localized": "37mm_m51b1",
+    "localized": "M51B1",
     "shell_type": "ApSolid",
     "caliber": 37,
     "true_caliber": 37,
@@ -11465,7 +11465,7 @@
   },
   {
     "name": "37mm_psav",
-    "localized": "37mm_psav",
+    "localized": "psav Vj4",
     "shell_type": "ApSolid",
     "caliber": 37,
     "true_caliber": 37,
@@ -11480,7 +11480,7 @@
   },
   {
     "name": "37mm_pstkr",
-    "localized": "37mm_pstkr",
+    "localized": "pstkr 27-34",
     "shell_type": "ApHe",
     "caliber": 37,
     "true_caliber": 37,
@@ -11845,7 +11845,7 @@
   },
   {
     "name": "380mm_sprgr4581",
-    "localized": "380mm_sprgr4581",
+    "localized": "38 cm R Spgr.4581",
     "shell_type": "Rocket",
     "caliber": 380,
     "true_caliber": 380,
@@ -12085,7 +12085,7 @@
   },
   {
     "name": "40mm_m811_fuze_delay",
-    "localized": "40mm_m811_fuze_delay",
+    "localized": "M811 Fuze Delay",
     "shell_type": "SapHei",
     "caliber": 40,
     "true_caliber": 40,
@@ -12164,7 +12164,7 @@
   },
   {
     "name": "40mm_mp_he",
-    "localized": "40mm_mp_he",
+    "localized": "40 mm McUW-MP-HE",
     "shell_type": "SapHei",
     "caliber": 40,
     "true_caliber": 40,
@@ -13126,7 +13126,7 @@
   },
   {
     "name": "57mm_3ubr_22",
-    "localized": "57mm_3ubr_22",
+    "localized": "3UBM22",
     "shell_type": "ApFsDs",
     "caliber": 57,
     "true_caliber": 16,
@@ -13165,7 +13165,7 @@
   },
   {
     "name": "57mm_3uo8",
-    "localized": "57mm_3uo8",
+    "localized": "3UO8",
     "shell_type": "He",
     "caliber": 57,
     "true_caliber": 57,
@@ -13473,7 +13473,7 @@
   },
   {
     "name": "57mm_sgr_m43",
-    "localized": "57mm_sgr_m43",
+    "localized": "sgr m/43",
     "shell_type": "He",
     "caliber": 57,
     "true_caliber": 57,
@@ -13653,7 +13653,7 @@
   },
   {
     "name": "57mm_slpgr_m43",
-    "localized": "57mm_slpgr_m43",
+    "localized": "slpgr m/43",
     "shell_type": "ApHe",
     "caliber": 57,
     "true_caliber": 57,
@@ -13674,7 +13674,7 @@
   },
   {
     "name": "57mm_slpprj_m43",
-    "localized": "57mm_slpprj_m43",
+    "localized": "slpprj m/43",
     "shell_type": "ApSolid",
     "caliber": 57,
     "true_caliber": 57,
@@ -13963,7 +13963,7 @@
   },
   {
     "name": "70mm_m247",
-    "localized": "70mm_m247",
+    "localized": "M247",
     "shell_type": "Heat",
     "caliber": 70,
     "true_caliber": 70,
@@ -14199,7 +14199,7 @@
   },
   {
     "name": "75mm_43m",
-    "localized": "75mm_43m",
+    "localized": "43.M pancelgranat",
     "shell_type": "ApHe",
     "caliber": 75,
     "true_caliber": 75,
@@ -14220,7 +14220,7 @@
   },
   {
     "name": "75mm_43m_he",
-    "localized": "75mm_43m_he",
+    "localized": "43.M repeszgranat",
     "shell_type": "He",
     "caliber": 75,
     "true_caliber": 75,
@@ -14236,7 +14236,7 @@
   },
   {
     "name": "75mm_43m_heat",
-    "localized": "75mm_43m_heat",
+    "localized": "43.M pancelrobbantogranat",
     "shell_type": "Heat",
     "caliber": 75,
     "true_caliber": 75,
@@ -15079,7 +15079,7 @@
   },
   {
     "name": "75mm_sa50_he",
-    "localized": "75 mm HE",
+    "localized": "OE Mle 1951",
     "shell_type": "He",
     "caliber": 75,
     "true_caliber": 75,
@@ -15697,7 +15697,7 @@
   },
   {
     "name": "76mm_bp_350a",
-    "localized": "BP-350A",
+    "localized": "BP-353A",
     "shell_type": "Heat",
     "caliber": 76,
     "true_caliber": 76,
@@ -15718,7 +15718,7 @@
   },
   {
     "name": "76mm_bp_350a",
-    "localized": "BP-350A",
+    "localized": "BP-353A",
     "shell_type": "Heat",
     "caliber": 76,
     "true_caliber": 76,
@@ -15931,7 +15931,7 @@
   },
   {
     "name": "76mm_br_354p",
-    "localized": "BR-350P",
+    "localized": "BR-354P",
     "shell_type": "ApCr",
     "caliber": 76,
     "true_caliber": 28,
@@ -15946,7 +15946,7 @@
   },
   {
     "name": "76mm_br_354p",
-    "localized": "BR-350P",
+    "localized": "BR-354P",
     "shell_type": "ApCr",
     "caliber": 76,
     "true_caliber": 28,
@@ -18827,7 +18827,7 @@
   },
   {
     "name": "95mm_shell_heat",
-    "localized": "95mm_shell_heat",
+    "localized": "Shell H.E./A.T.",
     "shell_type": "Heat",
     "caliber": 95,
     "true_caliber": 95,
@@ -18848,7 +18848,7 @@
   },
   {
     "name": "95mm_shell_mk1a_he",
-    "localized": "95mm_shell_mk1a_he",
+    "localized": "Shell Mk.Ia",
     "shell_type": "He",
     "caliber": 95,
     "true_caliber": 95,
@@ -18864,7 +18864,7 @@
   },
   {
     "name": "95mm_shell_se_mk1",
-    "localized": "95mm_shell_se_mk1",
+    "localized": "Shell SE Mk,I",
     "shell_type": "Smoke",
     "caliber": 95,
     "true_caliber": 95,
@@ -19124,7 +19124,7 @@
   },
   {
     "name": "atgm_302",
-    "localized": "atgm_302",
+    "localized": "302 Anti-tank Missile",
     "shell_type": "Atgm",
     "caliber": 120,
     "true_caliber": 120,
@@ -19176,7 +19176,7 @@
   },
   {
     "name": "combat_track_missile",
-    "localized": "combat_track_missile",
+    "localized": "Red spear",
     "shell_type": "Atgm",
     "caliber": 120,
     "true_caliber": 120,
@@ -19264,7 +19264,7 @@
   },
   {
     "name": "mlrs_tank_rocket",
-    "localized": "mlrs_tank_rocket",
+    "localized": "Cudgel-33A",
     "shell_type": "Heat",
     "caliber": 203,
     "true_caliber": 203,
@@ -19285,7 +19285,7 @@
   },
   {
     "name": "napalm",
-    "localized": "napalm",
+    "localized": "Incendary mixture",
     "shell_type": "Napalm",
     "caliber": 20,
     "true_caliber": 20,
@@ -19401,7 +19401,7 @@
   },
   {
     "name": "type_44_ap",
-    "localized": "type_44_ap",
+    "localized": "Type 44 AP",
     "shell_type": "ApHe",
     "caliber": 100,
     "true_caliber": 100,
@@ -19422,7 +19422,7 @@
   },
   {
     "name": "type_44_he",
-    "localized": "type_44_he",
+    "localized": "Type 44 HE",
     "shell_type": "He",
     "caliber": 100,
     "true_caliber": 100,

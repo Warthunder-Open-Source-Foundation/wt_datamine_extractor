@@ -70,11 +70,16 @@ lazy_static! {
 		};
 
 	pub static ref CSV_WEAPON: HashMap<String, String> = {
-		let wtcsv = WTCSV::new_from_path("lang/weaponry.csv", "weaponry").unwrap();
+		let weaponry = WTCSV::new_from_path("lang/weaponry.csv", "weaponry").unwrap();
+		let units_weaponry = WTCSV::new_from_path("lang/units_weaponry.csv", "units_weaponry").unwrap();
 
 		let mut map = HashMap::new();
 
-		for record  in wtcsv.records {
+		for record  in weaponry.records {
+			map.insert(record.items[0].clone(), record.items[1].clone());
+		}
+
+		for record in units_weaponry.records {
 			map.insert(record.items[0].clone(), record.items[1].clone());
 		}
 
