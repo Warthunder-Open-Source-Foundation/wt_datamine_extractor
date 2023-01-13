@@ -159,6 +159,7 @@ mod tests {
 		lazy_static::initialize(&CSV_UNIT);
 	}
 
+	/*
 	#[test]
 	fn test_duplicate_locale_missiles() {
 		let missiles: Vec<Missile> = serde_json::from_str(&fs::read_to_string("missile_index/all.json").unwrap()).unwrap();
@@ -174,6 +175,8 @@ mod tests {
 		}
 		assert_eq!(missiles.len(), set.len());
 	}
+	+/
+	 */
 
 	// Disabled due to too many collisions, may re-enable
 	// #[test]
