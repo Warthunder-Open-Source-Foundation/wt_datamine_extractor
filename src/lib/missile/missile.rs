@@ -120,6 +120,9 @@ pub struct Missile {
 	/// permits the missile to link back data to other aircraft
 	pub has_data_link: bool,
 
+	/// permits missile to accurately track without continous targeting data, prevents self destruction when main seeker looses sight
+	pub has_inertial_navigation: bool,
+
 	// Calculated (dynamically created and not in files)
 
 	/// total potential energy in m/s²
@@ -136,9 +139,9 @@ pub enum SeekerType {
 impl Display for SeekerType {
 	fn fmt(&self, f: &mut Formatter<'_>) -> std::fmt::Result {
 		match self {
-			SeekerType::Ir => {write!(f,"{}", "IR")}
-			SeekerType::Sarh => {write!(f,"{}", "SARH")}
-			SeekerType::Arh => {write!(f,"{}", "ARH")}
+			SeekerType::Ir => { write!(f, "{}", "IR") }
+			SeekerType::Sarh => { write!(f, "{}", "SARH") }
+			SeekerType::Arh => { write!(f, "{}", "ARH") }
 		}
 	}
 }
@@ -255,6 +258,8 @@ impl ExtractCore for Missile {
 
 		let has_data_link = parameter_to_data(&file, "datalink").unwrap_or("false".to_owned()).parse().unwrap();
 
+		let has_inertial_navigation = parameter_to_data(&file, "inertialNavigation").unwrap_or("false".to_owned()).parse().unwrap();
+
 		Self {
 			// localized first as the borrow consumes name otherwise
 			localized: name_to_local(&name, &Lang::Weapon),
@@ -292,6 +297,7 @@ impl ExtractCore for Missile {
 			use_target_vel,
 			allow_radar_slave,
 			has_data_link,
+			has_inertial_navigation,
 			deltav: ((force0 / mass * timefire0) + (force1 / mass * timefire1)).round(),
 		}
 	}
