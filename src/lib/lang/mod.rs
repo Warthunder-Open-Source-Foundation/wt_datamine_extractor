@@ -9,7 +9,7 @@ use wt_csv::wtcsv::core::wtcsv::WTCSV;
 const EDGE_CASES: &[(&str, &str)] = &[
 	("space_rocket_launcher", "Space rocket launcher"),
 	("us_fim-92b", "Fim-92B"),
-	("su_9m336", "9K333 Werba (hidden)"),
+	("su_9m336", "9K333"),
 	("us_m1a1_abrams_yt_cup_2019", "M1A1 YT cup"),
 	("germ_leopard_2a5_yt_cup_2019", "Leopard 2A5 YT cup"),
 	("uk_challenger_ii_yt_cup_2019", "Challenger 2 YT cup"),
