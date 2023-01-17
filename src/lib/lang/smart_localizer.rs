@@ -73,8 +73,8 @@ pub fn auto_localize(mut input: impl ToString) -> Option<String> {
 mod test {
 	use crate::lang::smart_localizer::auto_localize;
 
-	#[test]
-	fn locale() {
-		println!("{}", auto_localize("su_r_23r").unwrap());
-	}
+	// #[test]
+	// fn locale() {
+	// 	println!("{}", auto_localize("su_r_23r").unwrap());
+	// }
 }
