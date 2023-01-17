@@ -1149,7 +1149,7 @@ ah_64a;AH-64A;28;29;28;6;USA
 yah_64;YAH-64;28;28;28;6;USA
 ah_64a_greece_usa;AH-64A (GR);28;29;28;6;USA
 ah_64a_peten;✪AH-64A Peten;28;29;28;6;USA
-ah_64a_peten_iaf;AH-64A Peten (USA);28;29;28;6;Israel
+ah_64a_peten_iaf;AH-64A Peten;28;29;28;6;Israel
 ah_64d;AH-64D;29;30;29;7;USA
 ah_64a_iaf;✡AH-64A;28;29;28;6;Israel
 ah_64d_i_saraph;✡AH-64D-I;29;30;29;7;Israel
@@ -1575,7 +1575,7 @@ us_magach_3;✪Magach 3 (ERA);20;20;20;5;USA
 il_magach_6b_gal_batash;Gal Batash;25;25;25;6;Israel
 il_magach_7c;Magach 7C;25;25;25;6;Israel
 us_merkava_mk_1;✪Merkava Mk.1;24;23;23;6;USA
-us_merkava_mk_2b_late;Merkava Mk.2B (USA);24;24;24;6;USA
+us_merkava_mk_2b_late;✪Merkava Mk.2B;24;24;24;6;USA
 us_merkava_mk_3d;✪Merkava Mk.3D;28;28;28;7;USA
 us_m728;M728 CEV;21;18;18;5;USA
 us_xm1_gm;XM-1 (GM);25;25;25;6;USA

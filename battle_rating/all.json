@@ -19568,7 +19568,7 @@
   },
   {
     "name": "ah_64a_peten_iaf",
-    "localized": "AH-64A Peten (USA)",
+    "localized": "AH-64A Peten",
     "arcade": {
       "economic_rank": 28
     },
@@ -26810,7 +26810,7 @@
   },
   {
     "name": "us_merkava_mk_2b_late",
-    "localized": "Merkava Mk.2B (USA)",
+    "localized": "✪Merkava Mk.2B",
     "arcade": {
       "economic_rank": 24
     },

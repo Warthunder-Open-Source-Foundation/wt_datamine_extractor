@@ -17,8 +17,6 @@ const EDGE_CASES: &[(&str, &str)] = &[
 	("ussr_t_72b3_2017_race", "T-72B3 race"),
 	("cn_ztz_96a_race", "ZTZ96A race"),
 	("ussr_t_80u_race", "T-80U race"),
-	("ah_64a_peten_iaf", "AH-64A Peten (USA)"),
-	("us_merkava_mk_2b_late", "Merkava Mk.2B (USA)")
 ];
 
 const REPLACE_CHAR: [(char, char); 5] = [
