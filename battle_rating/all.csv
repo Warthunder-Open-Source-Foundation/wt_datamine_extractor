@@ -116,6 +116,7 @@ bf-109e-1;Bf 109 E-1;4;4;4;1;Germany
 bf-109e-3;Bf 109 E-3;5;4;5;2;Germany
 bf-109f-4;Bf 109 F-4;10;9;9;3;Germany
 bf-109f-4_trop;Bf 109 F-4/trop;10;9;9;3;Germany
+bf-109f-4_hungary;⦿Bf 109 F-4;10;9;9;3;Italy
 bf-109g-10;Bf 109 G-10;14;14;13;4;Germany
 bf-109g-2;Bf 109 G-2/trop;13;10;9;3;Germany
 bf-109g-6_finland;⦿Bf 109 G-6;13;11;11;4;Sweden
@@ -407,7 +408,7 @@ saab_b17bs;S17BS;1;0;1;1;Sweden
 saab_b17a;B17A;3;2;3;2;Sweden
 saab_b17b;B17B;1;1;1;1;Sweden
 saab_j32b;J32B;26;25;26;6;Sweden
-saab_j35xs;J35XS;27;29;29;7;Sweden
+saab_j35xs;Saab 35FS;27;29;29;7;Sweden
 saab_j35d;J35D;27;29;29;7;Sweden
 saab_j35a;J35A;24;26;26;6;Sweden
 saab_a32a;A32A;24;25;24;6;Sweden
@@ -837,7 +838,7 @@ do_17e_1;Do 17 E-1;0;0;1;1;Germany
 yak-9b;Yak-9B;6;6;6;2;USSR
 bf-109e-4;Bf 109 E-4;6;6;6;2;Germany
 bf-109e-7;Bf 109 E-7/U2;6;6;6;2;Germany
-pyorremyrsky;Pyörremyrsky;10;10;8;3;Sweden
+pyorremyrsky;VL Pyörremyrsky;10;10;8;3;Sweden
 morko_morane;Mörkö-Morane;3;3;2;2;Sweden
 vl_myrsky_2_late;VL Myrsky II;5;4;4;2;Sweden
 fokker_d21_mod20;⦿Fokker D.XXI;3;3;2;2;Sweden
@@ -1081,7 +1082,7 @@ p-43a-1_china;␗P-43A-1;6;5;5;2;China
 ki-27_otsu_china;␗Ki-27 otsu;1;3;1;1;China
 ki_43_3_ko;␗Ki-43-III ko;3;6;5;2;China
 sb_2m_103u_china;␗SB 2M-103U;5;4;4;2;China
-spitfire_lf_mk9e_weisman;✡Spitfire LF Mk.IX Weizman's;13;14;12;4;Israel
+spitfire_lf_mk9e_weisman;✡Spitfire LF Mk.IXe Weizman's;13;14;12;4;Israel
 a_4e_late_iaf;✡A-4E;24;23;25;6;Israel
 a_4h;✡A-4H;23;22;23;6;Israel
 a_4n;✡A-4N;25;25;25;6;Israel
@@ -1873,6 +1874,7 @@ fr_amx_elc_bis;ELC bis;15;15;15;4;France
 fr_m36b2_cefeo;⦿M36B2;14;14;14;3;France
 fr_lorraine_100;CA Lorraine;14;15;15;4;France
 fr_amx_m4;AMX M4;17;17;17;4;France
+fr_amx_50_1950;AMX-50 (TO90/930);19;19;19;4;France
 fr_amx_50_foch;AMX-50 Foch;19;19;19;5;France
 fr_amx_50_surbaisse;AMX-50 Surbaissé;20;20;20;5;France
 fr_amx_50_surblinde;AMX-50 Surblindé;20;20;20;5;France
@@ -2443,3 +2445,4 @@ ussr_destroyer_7_ryany;Ryany;8;8;8;1;USSR
 germ_pr_131;V-990;5;5;5;3;Germany
 ussr_destroyer_regele_ferdinand_class_letuchiy;Letuchiy;9;9;9;1;USSR
 uk_minelayer_abdiel_class_abdiel;HMS Abdiel;9;9;9;2;Great Britain
+jp_cruiser_myoko;IJN Myoko;14;14;14;4;Japan

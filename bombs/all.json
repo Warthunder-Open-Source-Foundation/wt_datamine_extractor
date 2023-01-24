@@ -180,6 +180,15 @@
     "can_kill_npc_ship": true
   },
   {
+    "name": "de_flam_250",
+    "weight": 250.0,
+    "explosive_mass": 74.0,
+    "explosive_type": "fp_02",
+    "explosive_equiv": 0.0,
+    "can_kill_npc_tank": false,
+    "can_kill_npc_ship": false
+  },
+  {
     "name": "de_fx1400",
     "weight": 1570.0,
     "explosive_mass": 320.0,

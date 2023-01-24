@@ -2006,6 +2006,23 @@
     }
   },
   {
+    "name": "bf-109f-4_hungary",
+    "localized": "⦿Bf 109 F-4",
+    "arcade": {
+      "economic_rank": 10
+    },
+    "realistic": {
+      "economic_rank": 9
+    },
+    "simulator": {
+      "economic_rank": 9
+    },
+    "rank": 3,
+    "tech_tree": {
+      "nation": "Italy"
+    }
+  },
+  {
     "name": "bf-109g-10",
     "localized": "Bf 109 G-10",
     "arcade": {
@@ -6954,7 +6971,7 @@
   },
   {
     "name": "saab_j35xs",
-    "localized": "J35XS",
+    "localized": "Saab 35FS",
     "arcade": {
       "economic_rank": 27
     },
@@ -14264,7 +14281,7 @@
   },
   {
     "name": "pyorremyrsky",
-    "localized": "Pyörremyrsky",
+    "localized": "VL Pyörremyrsky",
     "arcade": {
       "economic_rank": 10
     },
@@ -18412,7 +18429,7 @@
   },
   {
     "name": "spitfire_lf_mk9e_weisman",
-    "localized": "✡Spitfire LF Mk.IX Weizman's",
+    "localized": "✡Spitfire LF Mk.IXe Weizman's",
     "arcade": {
       "economic_rank": 13
     },
@@ -31875,6 +31892,23 @@
     }
   },
   {
+    "name": "fr_amx_50_1950",
+    "localized": "AMX-50 (TO90/930)",
+    "arcade": {
+      "economic_rank": 19
+    },
+    "realistic": {
+      "economic_rank": 19
+    },
+    "simulator": {
+      "economic_rank": 19
+    },
+    "rank": 4,
+    "tech_tree": {
+      "nation": "France"
+    }
+  },
+  {
     "name": "fr_amx_50_foch",
     "localized": "AMX-50 Foch",
     "arcade": {
@@ -41562,6 +41596,23 @@
     "rank": 2,
     "tech_tree": {
       "nation": "Great Britain"
+    }
+  },
+  {
+    "name": "jp_cruiser_myoko",
+    "localized": "IJN Myoko",
+    "arcade": {
+      "economic_rank": 14
+    },
+    "realistic": {
+      "economic_rank": 14
+    },
+    "simulator": {
+      "economic_rank": 14
+    },
+    "rank": 4,
+    "tech_tree": {
+      "nation": "Japan"
     }
   }
 ]
