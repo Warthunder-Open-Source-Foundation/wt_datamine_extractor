@@ -1173,10 +1173,10 @@ sa_316b;SA 316B Alouette III;23;22;24;5;France
 iar_316b;IAR 316B;23;22;25;5;France
 sa_342m;SA.342M Gazelle;25;25;26;6;France
 sa_341f;SA.341F Gazelle;24;24;26;6;France
-ussr_t_80u_yt_cup_2019;T-80U YT cup;29;29;29;7;USSR
-uk_challenger_II_yt_cup_2019;␙Challenger 2;28;28;28;7;Great Britain
+ussr_t_80u_yt_cup_2019;T-80U YT cup;30;30;30;7;USSR
+uk_challenger_II_yt_cup_2019;␙Challenger 2;30;30;30;7;Great Britain
 us_m1a1_abrams_yt_cup_2019;M1A1 YT cup;29;29;29;7;USA
-germ_leopard_2a5_yt_cup_2019;Leopard 2A5 YT cup;30;30;30;7;Germany
+germ_leopard_2a5_yt_cup_2019;Leopard 2A5 YT cup;31;31;31;7;Germany
 ussr_t_80;T-80;3;4;4;2;USSR
 ussr_t_70_1942;T-70;3;3;3;1;USSR
 ussr_t_60_1941;T-60;0;0;0;1;USSR
@@ -1252,17 +1252,17 @@ ussr_t_72av_turms;T-72AV (TURMS-T);26;26;26;6;USSR
 ussr_t_72m2_moderna;T-72M2 Moderna;27;27;27;6;USSR
 ussr_t_72b;T-72B;26;26;26;6;USSR
 ussr_t_72b_1989;T-72B (1989);27;27;27;6;USSR
-ussr_t_72b3_2011;T-72B3;29;29;29;7;USSR
+ussr_t_72b3_2011;T-72B3;30;30;30;7;USSR
 ussr_t_72b3_2017_race;T-72B3 race;27;27;27;7;USSR
 ussr_t_64_b_1984;T-64B;26;25;25;6;USSR
 ussr_t_72a;T-72A;25;25;25;6;USSR
 ussr_t_80b;T-80B;27;27;27;6;USSR
 ussr_t_80um2;T-80UM2;29;29;29;7;USSR
-ussr_9a35_m2;Strela-10M2;25;25;25;6;USSR
-ussr_t_80u;T-80U;29;29;29;7;USSR
-ussr_t_80uk;T-80UK;29;29;29;7;USSR
-ussr_t_80bvm;T-80BVM;30;30;30;7;USSR
-ussr_t_90a;Т-90А;28;29;29;7;USSR
+ussr_9a35_m2;Strela-10M2;24;24;24;6;USSR
+ussr_t_80u;T-80U;30;30;30;7;USSR
+ussr_t_80uk;T-80UK;30;30;30;7;USSR
+ussr_t_80bvm;T-80BVM;31;31;31;7;USSR
+ussr_t_90a;Т-90А;29;29;29;7;USSR
 ussr_t_80u_race;T-80U race;29;29;29;7;USSR
 ussr_t_62;T-62;22;22;22;6;USSR
 ussr_t_62m1;T-62M-1;23;23;23;6;USSR
@@ -1333,7 +1333,7 @@ germ_sturmmorser_sturmtiger_event;38 cm Sturmmörser;15;14;16;4;Germany
 germ_sturmpanzer_II;15cm sIG 33 B Sfl;0;0;0;1;Germany
 germ_kv_1_kwk_40;✠KW I C 756 (r);12;12;12;3;Germany
 germ_panzerjager_tiger;Jagdtiger;19;17;17;5;Germany
-germ_marder_df_105;DF105;19;20;20;5;Germany
+germ_marder_df_105;DF105;20;20;20;5;Germany
 germ_sk105_a2;JaPz.K A2;22;22;22;6;Germany
 germ_wiesel_1_tow;Wiesel 1A2;24;26;26;6;Germany
 germ_pzkpfw_38t_Aufklarungspanzer;Sd.Kfz. 140/1;1;1;1;1;Germany
@@ -1365,25 +1365,25 @@ germ_flakpz_1a2_Gepard;Gepard 1A2;26;26;26;6;Germany
 germ_flakpz_I_Gepard;Gepard;21;21;21;6;Germany
 germ_wiesel_2_adwc;Ozelot;25;25;25;6;Germany
 germ_flarakpz_1;FlaRakPz 1;27;28;28;7;Germany
-germ_flarakrad;FlaRakRad;29;30;30;7;Germany
+germ_flarakrad;FlaRakRad;31;31;31;7;Germany
 ussr_pzkpfw_III_ausf_J_L42;★T-III;4;4;4;1;USSR
 us_xm_975_roland;XM975;27;28;28;7;USA
-us_adats_bradley;ADATS;30;30;30;7;USA
+us_adats_bradley;ADATS;31;31;31;7;USA
 ussr_9p149;Shturm-S;22;22;22;6;USSR
 ussr_9p157;Khrizantema-S;25;25;25;7;USSR
 uk_stormer_hvm;Stormer HVM;28;28;28;7;Great Britain
-uk_adats_m113a3;ADATS (M113);30;30;30;7;Great Britain
+uk_adats_m113a3;ADATS (M113);31;31;31;7;Great Britain
 fr_amx_30_roland;Roland 1;27;27;27;7;France
-fr_crotale_ng;⦿ItO 90M;30;30;30;7;France
-fr_leclerc_s1;Leclerc;30;30;30;7;France
-fr_leclerc_s2;Leclerc S2;30;30;30;7;France
-fr_leclerc_sxxi;Leclerc SXXI;30;30;30;7;France
+fr_crotale_ng;⦿ItO 90M;31;31;31;7;France
+fr_leclerc_s1;Leclerc;31;31;31;7;France
+fr_leclerc_s2;Leclerc S2;31;31;31;7;France
+fr_leclerc_sxxi;Leclerc SXXI;31;31;31;7;France
 fr_vab_santal;SANTAL;25;25;25;6;France
 fr_vcac_mephisto;MEPHISTO;22;22;22;6;France
 fr_amx_10rc;AMX-10RC;21;21;21;6;France
 it_as_42_metropolitana;AS 42;1;1;1;1;Italy
 it_fiat_cm52;CM52;4;4;4;2;Italy
-it_as_42_47;AS 42/47;1;2;1;1;Italy
+it_as_42_47;AS 42/47;2;3;3;1;Italy
 it_m15_42_contraereo;M42 Contraereo;7;7;7;2;Italy
 it_toldi_II_a;Toldi IIA;1;1;1;1;Italy
 it_sahariano;Celere Sahariano;5;5;5;2;Italy
@@ -1391,15 +1391,15 @@ it_oto_r3_t20_fa;R3 T20 FA-HS;11;12;12;3;Italy
 it_m26a1_pershing;M26A1;17;16;16;4;Italy
 it_m60a1_ariete;"M60A1 """"D.C.Ariete""""";20;20;20;5;Italy
 it_c1_ariete_preserie;Ariete (P);27;27;27;6;Italy
-it_c1_ariete;Ariete;29;29;29;7;Italy
-it_c1_ariete_pso;Ariete PSO;29;29;29;7;Italy
+it_c1_ariete;Ariete;30;30;30;7;Italy
+it_c1_ariete_pso;Ariete PSO;30;30;30;7;Italy
 it_m47_105;M47 (105/55);20;19;19;5;Italy
 it_of_40_mk_1;OF-40;20;20;20;5;Italy
 it_of_40_mk_2a;OF-40 Mk.2A;23;23;23;6;Italy
 it_of_40_mtca;OF-40 (MTCA);23;23;23;6;Italy
 it_otobreda_sidam_25;SIDAM 25;22;22;22;5;Italy
 it_otobreda_sidam_25_mistral;SIDAM 25 (Mistral);27;27;27;7;Italy
-it_otomatic;OTOMATIC;29;29;29;7;Italy
+it_otomatic;OTOMATIC;30;30;30;7;Italy
 it_l6;L6/40;0;0;0;1;Italy
 it_l6_leone;L6/40 (31 Rgt.);0;0;0;1;Italy
 it_ab_41;AB 41;0;0;0;1;Italy
@@ -1425,7 +1425,7 @@ it_fiat_6614_106sr;FIAT 6614;16;16;16;4;Italy
 jp_type_75;Type 75 SPH;16;16;16;4;Japan
 jp_type_89;Type 89;22;22;22;6;Japan
 it_vrcc_centauro;VRCC;24;24;24;6;Italy
-it_centauro_mgs_120;Centauro I 120;29;29;29;7;Italy
+it_centauro_mgs_120;Centauro I 120;30;30;30;7;Italy
 it_b1_centauro;Centauro I 105;23;23;23;6;Italy
 it_m113a1_tow;M113A1 (TOW);21;21;21;5;Italy
 it_b1_centauro_romor;Centauro I 105 R;24;24;24;6;Italy
@@ -1474,7 +1474,7 @@ us_m24_chaffee_tl;M24 (TL);7;8;8;2;USA
 us_ags_teledyne;AGS;27;27;27;6;USA
 us_xm_8;XM8;24;25;25;6;USA
 us_ccvl;CCVL;26;27;27;6;USA
-us_hstv_l;HSTV-L;28;29;29;7;USA
+us_hstv_l;HSTV-L;30;30;30;7;USA
 us_m41_walker_bulldog;M41A1;15;15;15;4;USA
 us_m50_ontos;M50;17;17;17;5;USA
 us_t114;T114;18;19;19;5;USA
@@ -1577,20 +1577,20 @@ il_magach_6b_gal_batash;Gal Batash;25;25;25;6;Israel
 il_magach_7c;Magach 7C;25;25;25;6;Israel
 us_merkava_mk_1;✪Merkava Mk.1;24;23;23;6;USA
 us_merkava_mk_2b_late;✪Merkava Mk.2B;24;24;24;6;USA
-us_merkava_mk_3d;✪Merkava Mk.3D;28;28;28;7;USA
+us_merkava_mk_3d;✪Merkava Mk.3D;29;29;29;7;USA
 us_m728;M728 CEV;21;18;18;5;USA
 us_xm1_gm;XM-1 (GM);25;25;25;6;USA
 us_xm1_chrysler;XM-1 (Chrysler);24;24;24;6;USA
 us_xm_803;XM-803;23;24;24;6;USA
 us_m3_bradley;M3 Bradley;21;21;21;6;USA
 us_m3a3_bradley;M3A3 Bradley;25;25;25;6;USA
-us_m1a1_hc_abrams;M1A1 HC;29;29;29;7;USA
+us_m1a1_hc_abrams;M1A1 HC;30;30;30;7;USA
 us_m1_abrams;M1 Abrams;27;27;27;6;USA
 us_m1_ip_abrams;IPM1;29;29;29;7;USA
 us_m1a1_abrams;M1A1;29;29;29;7;USA
-us_m1a1_aim_abrams;M1A1 AIM;29;29;29;7;USA
-us_m1a2_abrams;M1A2 Abrams;30;30;30;7;USA
-us_m1a2_sep_abrams;M1A2 SEP;30;30;30;7;USA
+us_m1a1_aim_abrams;M1A1 AIM;30;30;30;7;USA
+us_m1a2_abrams;M1A2 Abrams;31;31;31;7;USA
+us_m1a2_sep_abrams;M1A2 SEP;31;31;31;7;USA
 us_t54e1;T54E1;21;21;21;5;USA
 us_t95e1;T95E1;21;21;20;6;USA
 us_m60a1;M60A1 (AOS);21;21;21;6;USA
@@ -1603,7 +1603,7 @@ us_m1128_wolfpack;M1128 Wolfpack;24;26;26;6;USA
 us_m1128_mgs;M1128;25;27;27;7;USA
 us_m901_itv;M901;20;21;21;6;USA
 germ_mkpz_m47;mKPz M47 G;19;19;19;5;Germany
-germ_mkpz_m48a2c;M48A2 C;19;18;19;5;Germany
+germ_mkpz_m48a2c;M48A2 C;19;19;19;5;Germany
 germ_mkpz_m48a2ga2;M48A2 G A2;22;21;21;6;Germany
 germ_leopard_I;Leopard I;19;19;19;5;Germany
 germ_leopard_I_a1;Leopard A1A1;23;23;23;6;Germany
@@ -1618,9 +1618,9 @@ germ_erprobungstrager_3_achs_turm;Turm III;22;21;21;5;Germany
 germ_leopard_2k;Leopard 2K;26;26;26;6;Germany
 germ_leopard_2a4_pzbtl_123;Leopard 2 (PzBtl 123);27;27;27;6;Germany
 germ_leopard_2a4;Leopard 2A4;27;27;27;6;Germany
-germ_leopard_2pl;Leopard 2 PL;29;29;29;7;Germany
-germ_leopard_2a5;Leopard 2A5;30;30;30;7;Germany
-germ_leopard_2a6;Leopard 2A6;30;30;30;7;Germany
+germ_leopard_2pl;Leopard 2 PL;30;30;30;7;Germany
+germ_leopard_2a5;Leopard 2A5;31;31;31;7;Germany
+germ_leopard_2a6;Leopard 2A6;31;31;31;7;Germany
 germ_kpz_70;KPz-70;24;25;25;6;Germany
 us_m18_super_hellcat;Super Hellcat;15;16;16;4;USA
 ussr_t_34_100;T-34-100;16;16;16;4;USSR
@@ -1649,7 +1649,7 @@ germ_mkpz_super_m48;M48 Super;24;24;24;6;Germany
 germ_bmp_1_ddr;SPz BMP-1;19;19;19;5;Germany
 germ_le_kpz_m41;leKPz M41;16;16;16;4;Germany
 germ_marder_1a1;Marder A1-;19;19;19;5;Germany
-germ_marder_1a3;Marder 1A3;21;21;21;5;Germany
+germ_marder_1a3;Marder 1A3;21;20;20;5;Germany
 germ_schutzenpanzer_puma;PUMA;25;25;25;6;Germany
 germ_begleitpanzer_57;Begleitpanzer 57;26;25;25;6;Germany
 germ_thyssen_henschel_tam;TAM;23;23;23;6;Germany
@@ -1677,12 +1677,12 @@ sw_lvkv_42;Lvkv 42;12;10;10;4;Sweden
 sw_l_62_anti_II;L-62 ANTI II;8;5;5;3;Sweden
 sw_tgdgb_m40_lv;Lvtdgb m/40;6;5;5;2;Sweden
 sw_strf_90b;Strf 9040B;24;25;25;6;Sweden
-sw_strf_9056;Strf 9040 BILL;28;27;27;6;Sweden
+sw_strf_9056;Strf 9040 BILL;29;27;27;6;Sweden
 sw_strf_90c;Strf 9040C;27;27;27;6;Sweden
 sw_cv_90105_tml;CV 90105;25;26;26;6;Sweden
-sw_cv_90120;CV 90120;29;29;29;7;Sweden
+sw_cv_90120;CV 90120;30;30;30;7;Sweden
 sw_asrad_r;ASRAD-R;28;28;28;7;Sweden
-sw_crotale_ng;ItO 90M;30;30;30;7;Sweden
+sw_crotale_ng;ItO 90M;31;31;31;7;Sweden
 sw_lvrbv_701;Lvrbv 701;25;27;27;6;Sweden
 sw_udes_33;UDES 33;20;20;20;5;Sweden
 sw_pvrbv_551;Pvrbv 551;21;21;21;6;Sweden
@@ -1690,7 +1690,7 @@ sw_pbv_302_bill;Pbv 302 (BILL);22;22;22;6;Sweden
 sw_ikv_91;Ikv 91;18;19;18;4;Sweden
 sw_ikv_91_105;Ikv 91-105;22;22;22;6;Sweden
 sw_ikv_73;Ikv 73;5;5;5;2;Sweden
-sw_ikv_103;Ikv 103;11;11;11;3;Sweden
+sw_ikv_103;Ikv 103;9;9;9;3;Sweden
 sw_stormpjas_fm43_44;Spj fm/43-44;4;2;2;1;Sweden
 sw_pvkv_III;Pvkv III;7;7;7;2;Sweden
 sw_pvkv_II;Pvkv II;8;9;9;3;Sweden
@@ -1706,7 +1706,7 @@ sw_veak_40;VEAK 40;22;23;23;5;Sweden
 sw_lvkv_90c;Lvkv 9040C;26;27;27;6;Sweden
 sw_pbil_m40;Pbil m/40;2;2;2;1;Sweden
 sw_strv_m38;Strv m/38;0;0;0;1;Sweden
-sw_leopard_2a6nl;⦿Leopard 2A6;30;30;30;7;Sweden
+sw_leopard_2a6nl;⦿Leopard 2A6;31;31;31;7;Sweden
 sw_pt_76b;⦿PT-76;12;13;13;3;Sweden
 sw_vickers_mk_e_45;⦿T-26E;0;0;0;1;Sweden
 sw_vickers_mk_e_37;Vickers Mk.E;0;0;0;1;Sweden
@@ -1735,8 +1735,8 @@ sw_strv_104;Strv 104;22;22;22;6;Sweden
 sw_strv_105;Strv 105;24;24;24;6;Sweden
 sw_strv_103a;Strv 103A;20;20;20;5;Sweden
 sw_strv_103c;Strv 103С;22;22;22;6;Sweden
-sw_strv_122;Strv 122A;30;30;30;7;Sweden
-sw_strv_122b_plss;Strv 122B PLSS;30;30;30;7;Sweden
+sw_strv_122;Strv 122A;31;31;31;7;Sweden
+sw_strv_122b_plss;Strv 122B PLSS;31;31;31;7;Sweden
 sw_strv_121;Strv 121;27;27;27;6;Sweden
 sw_sav_fm48;SAV 20.12.48;8;8;8;2;Sweden
 sw_strv_81;Strv 81;19;19;19;4;Sweden
@@ -1786,7 +1786,7 @@ uk_marmon_herrington_mk_6_6pdr;SARC MkVI (6pdr);6;7;7;2;Great Britain
 uk_concept3_ngac;Concept 3;10;10;10;3;Great Britain
 uk_ratel_90;Ratel 90;15;15;15;4;Great Britain
 uk_ratel_20;Ratel 20;17;17;17;5;Great Britain
-uk_rooikat_105_td;Rooikat 105;22;23;23;6;Great Britain
+uk_rooikat_105_td;Rooikat 105;23;24;24;6;Great Britain
 uk_rooikat_76;Rooikat Mk.1D;22;22;22;6;Great Britain
 uk_vfm_5;VFM5;24;25;25;6;Great Britain
 uk_fv510_isv;Warrior;21;21;21;6;Great Britain
@@ -1823,10 +1823,10 @@ uk_chieftain_mk_10;Chieftain Mk 10;24;24;24;6;Great Britain
 uk_challenger_1;Challenger Mk.2;26;26;26;6;Great Britain
 uk_challenger_1_mk_3_gulf;Challenger DS;26;26;26;6;Great Britain
 uk_challenger_mk_3;Challenger Mk.3;27;27;27;6;Great Britain
-uk_challenger_II;Challenger 2;29;29;29;7;Great Britain
+uk_challenger_II;Challenger 2;30;30;30;7;Great Britain
 uk_challenger_2_dorchester;Challenger 2 (2F);30;30;30;7;Great Britain
 uk_challenger_2_tes;Challenger 2 TES;30;30;30;7;Great Britain
-uk_challenger_2_bn;Black Night;30;30;30;7;Great Britain
+uk_challenger_2_bn;Black Night;31;31;31;7;Great Britain
 uk_chieftain_mk_3;Chieftain Mk 3;23;22;22;6;Great Britain
 uk_chieftain_mk_5;Chieftain Mk 5;23;23;23;6;Great Britain
 uk_fv4202;FV4202;18;18;18;4;Great Britain
@@ -1839,7 +1839,7 @@ uk_armored_car_aec_mk_2;AEC Mk II;6;6;6;2;Great Britain
 uk_armored_car_mk_2_aa;AEC AA;5;5;5;2;Great Britain
 uk_crusader_aa_mk_1;Crusader AA Mk I;9;7;7;2;Great Britain
 uk_crusader_aa_mk_2;Crusader AA Mk II;11;8;8;3;Great Britain
-uk_skink_aa;Skink;12;12;12;4;Great Britain
+uk_skink_aa;Skink;13;12;12;4;Great Britain
 germ_infanterie_kampfpanzer_churchill;✠Pz.Kpfw. Churchill;9;9;10;3;Germany
 uk_a_34_comet_iron_duke;"Comet I """"Iron Duke IV""""";12;14;14;3;Great Britain
 ussr_t_44_100;T-44-100;18;18;18;4;USSR
@@ -1951,8 +1951,8 @@ jp_type_74_mod_g_kai;Type 74 (G);24;24;24;6;Japan
 jp_type_75_mlrs;Type 75 MLRS;18;18;18;5;Japan
 jp_type_90;Type 90;29;29;29;7;Japan
 jp_type_90b;Type 90 (B);29;29;29;7;Japan
-jp_tkx_prot;TKX;30;30;30;7;Japan
-jp_type_10;Type 10;30;30;30;7;Japan
+jp_tkx_prot;TKX;31;31;31;7;Japan
+jp_type_10;Type 10;31;31;31;7;Japan
 jp_st_a1;ST-A1;16;16;16;4;Japan
 jp_st_a2;ST-A2;16;16;16;4;Japan
 jp_st_a3;ST-A3;17;17;17;4;Japan
@@ -1986,11 +1986,11 @@ il_centurion_shot_kal_gimel;Sho't Kal Gimel;22;22;22;6;Israel
 il_centurion_shot_kal_alef;Sho't Kal Alef;21;21;21;5;Israel
 il_centurion_mk_5_shot;Sho't;19;19;19;4;Israel
 il_merkava_mk_1b;Merkava Mk.1B;24;24;24;6;Israel
-il_merkava_mk_3b;Merkava Mk.3B;27;27;27;6;Israel
-il_merkava_mk_3c;Merkava Mk.3C;27;27;27;6;Israel
+il_merkava_mk_3b;Merkava Mk.3B;29;29;29;6;Israel
+il_merkava_mk_3c;Merkava Mk.3C;29;29;29;6;Israel
 il_merkava_mk_2b_early;Merkava Mk.2B;24;24;24;6;Israel
 il_merkava_mk_4b;Merkava Mk.4B;30;30;30;7;Israel
-il_merkava_mk_4m;Merkava Mk.4M;30;30;30;7;Israel
+il_merkava_mk_4m;Merkava Mk.4M;31;31;31;7;Israel
 il_magach_3;Magach 3 (ERA);20;20;20;5;Israel
 il_magach_3_idf;Magach 3;20;20;20;5;Israel
 il_magach_5;Magach 5;21;21;21;5;Israel
@@ -2047,9 +2047,9 @@ cn_ztz_96a;ZTZ96A;26;26;26;6;China
 cn_ztz_96a_prot;ZTZ96A (P);26;26;26;6;China
 cn_ztz_99;ZTZ99-II;29;29;29;7;China
 cn_ztz_99_w;ZTZ99-III;29;29;29;7;China
-cn_ztz_99a;ZTZ99A;30;30;30;7;China
+cn_ztz_99a;ZTZ99A;31;31;31;7;China
 cn_ztz_96a_race;ZTZ96A race;26;26;26;6;China
-cn_wz_1001;WZ1001(E) LCT;30;30;30;7;China
+cn_wz_1001;WZ1001(E) LCT;31;31;31;7;China
 cn_type_69;Type 69;21;21;21;5;China
 cn_type_69_2g;T-69 II G;22;22;22;6;China
 cn_gmc_cckw_353_m45_quad;CCKW 353 (M45);4;4;4;2;China
@@ -2078,11 +2078,11 @@ cn_type_65_aa;Phòng không T-34;14;12;12;4;China
 cn_m42_duster;␗M42;13;10;11;3;China
 cn_wz_305;WZ305;23;21;21;5;China
 cn_pgz_09;PGZ09;22;22;22;6;China
-cn_tor_m1;Tor-M1;30;30;30;7;China
+cn_tor_m1;Tor-M1;31;31;31;7;China
 cn_pgz_04a;PGZ04A;26;25;25;7;China
-cn_ptl_02;PTL02;21;22;22;5;China
+cn_ptl_02;PTL02;22;23;23;5;China
 cn_ztl_11;ZLT11;25;25;25;7;China
-cn_wma_301;WMA301;22;22;22;6;China
+cn_wma_301;WMA301;22;23;23;6;China
 cn_type_63_I;Type 63-I;16;16;16;4;China
 cn_cm11;CM11;25;24;24;6;China
 ussr_1124_art;Pr.1124 early;3;3;3;2;USSR
