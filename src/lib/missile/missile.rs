@@ -1,8 +1,11 @@
+use std::cmp::Ordering;
 use std::fmt::{Display, Formatter};
+use std::fs;
 use get_size::GetSize;
 
 use crate::explosive::explosive::explosive_type_to_tnt;
 use crate::extraction_traits::core::ExtractCore;
+use crate::extraction_traits::known::KnownItem;
 use crate::lang::{Lang, name_to_local};
 use crate::util::parameter_to_data;
 
@@ -155,6 +158,12 @@ impl Missile {
 		}
 		None
 	}
+	// Compares ignoring the name only considering localized differences
+	pub fn eq_by_values(mut self, mut other: Self) -> bool {
+		self.name.clear();
+		other.name.clear();
+		self == other
+	}
 }
 
 impl ExtractCore for Missile {
@@ -304,5 +313,36 @@ impl ExtractCore for Missile {
 
 	fn sort(items: &mut Vec<Self>) where Self: Sized {
 		items.sort_by_key(|x| x.name.clone());
+	}
+
+	fn generate_from_index(index: impl KnownItem, write_path: &str) -> Vec<Self> {
+		let mut generated: Vec<Self> = vec![];
+		for i in index.get_index() {
+			if let Ok(file) = fs::read(format!("{write_path}{i}")) {
+				let name = i.split('.').collect::<Vec<&str>>()[0].to_owned();
+
+				let missile = Self::new_from_file(&file, name);
+
+				generated.push(missile);
+			}
+		}
+
+		let mut dedup: Vec<Self> = vec![];
+
+		for i in generated {
+			let mut is_contained = false;
+			for j in &dedup {
+				if j.clone().eq_by_values(i.clone()) {
+					is_contained = true;
+				}
+			}
+
+			if !is_contained {
+				dedup.push(i);
+			}
+		}
+
+		Self::sort(&mut dedup);
+		dedup
 	}
 }

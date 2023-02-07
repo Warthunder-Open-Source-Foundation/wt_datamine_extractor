@@ -13330,6 +13330,21 @@
     }
   },
   {
+    "name": "57mm_br_281sp",
+    "localized": "BR-281SP",
+    "shell_type": "ApSolid",
+    "caliber": 57,
+    "true_caliber": 57,
+    "velocity": 1000,
+    "penetration": [
+      [
+        0,
+        151
+      ]
+    ],
+    "explosive": "Inert"
+  },
+  {
     "name": "57mm_br_281u",
     "localized": "BR-281U",
     "shell_type": "ApHe",
@@ -13347,6 +13362,27 @@
         "name_type": "a_ix_2",
         "raw_mass": 13,
         "equiv_mass": 20
+      }
+    }
+  },
+  {
+    "name": "57mm_br_281u",
+    "localized": "BR-281U",
+    "shell_type": "He",
+    "caliber": 57,
+    "true_caliber": 57,
+    "velocity": 1000,
+    "penetration": [
+      [
+        0,
+        151
+      ]
+    ],
+    "explosive": {
+      "Energetic": {
+        "name_type": "a_ix_2",
+        "raw_mass": 153,
+        "equiv_mass": 236
       }
     }
   },
@@ -13431,27 +13467,6 @@
         "name_type": "tnt",
         "raw_mass": 220,
         "equiv_mass": 220
-      }
-    }
-  },
-  {
-    "name": "57mm_or_281u",
-    "localized": "OR-281U",
-    "shell_type": "He",
-    "caliber": 57,
-    "true_caliber": 57,
-    "velocity": 1000,
-    "penetration": [
-      [
-        0,
-        151
-      ]
-    ],
-    "explosive": {
-      "Energetic": {
-        "name_type": "a_ix_2",
-        "raw_mass": 153,
-        "equiv_mass": 236
       }
     }
   },
