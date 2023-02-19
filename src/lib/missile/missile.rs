@@ -7,6 +7,7 @@ use crate::explosive::explosive::explosive_type_to_tnt;
 use crate::extraction_traits::core::ExtractCore;
 use crate::extraction_traits::known::KnownItem;
 use crate::lang::{Lang, name_to_local};
+use crate::missile::visbands::Visband;
 use crate::util::parameter_to_data;
 
 #[allow(clippy::struct_excessive_bools)]
@@ -74,12 +75,8 @@ pub struct Missile {
 	/// maximum G during flight (assuming G = 9.81m/s²)
 	pub reqaccelmax: f64,
 
-	/// Range band distances for different spectrums (when infrared else its 0)
-	/// 0 = rear aspect engine
-	/// 1 = all aspect of target
-	/// 2 = infrared decoys
-	/// 3 = infrared countermeasures and sun
-	pub bands: [f64; 4],
+	/// seeker visibility ranges
+	pub bands: Option<Visband>,
 
 	/// size of the uncaged part of the seeker in degrees
 	pub fov: f64,
@@ -219,21 +216,19 @@ impl ExtractCore for Missile {
 			reqaccelmax = value.parse().unwrap();
 		}
 
-		let mut bands: [f64; 4] = [0.0, 0.0, 0.0, 0.0];
-		if seekertype == SeekerType::Ir {
-			if let Some(value) = parameter_to_data(&file, "rangeBand0") {
-				bands[0] = value.parse().unwrap();
-			}
-			if let Some(value) = parameter_to_data(&file, "rangeBand1") {
-				bands[1] = value.parse().unwrap();
-			}
-			if let Some(value) = parameter_to_data(&file, "rangeBand2") {
-				bands[2] = value.parse().unwrap();
-			}
-			if let Some(value) = parameter_to_data(&file, "rangeBand3") {
-				bands[3] = value.parse().unwrap();
-			}
-		}
+		let bands = if seekertype == SeekerType::Ir {
+			Some(Visband {
+				range_band0: parameter_to_data(&file, "rangeBand0").unwrap_or("0".to_owned()).parse::<f64>().unwrap() as usize,
+				range_band1: parameter_to_data(&file, "rangeBand1").unwrap_or("0".to_owned()).parse::<f64>().unwrap() as usize,
+				range_band2: parameter_to_data(&file, "rangeBand2").unwrap_or("0".to_owned()).parse::<f64>().unwrap() as usize,
+				range_band3: parameter_to_data(&file, "rangeBand3").unwrap_or("0".to_owned()).parse::<f64>().unwrap() as usize,
+				range_band6: parameter_to_data(&file, "rangeBand6").unwrap_or("0".to_owned()).parse::<f64>().unwrap() as usize,
+				range_band7: parameter_to_data(&file, "rangeBand7").unwrap_or("0".to_owned()).parse::<f64>().unwrap() as usize,
+				range_max: parameter_to_data(&file, "rangeMax").unwrap_or("0".to_owned()).parse::<f64>().unwrap() as usize,
+			})
+		} else {
+			None
+		};
 
 		let fov = parameter_to_data(&file, "fov").map_or(0.0, |value| value.parse().unwrap());
 

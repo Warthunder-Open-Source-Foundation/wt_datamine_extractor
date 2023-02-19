@@ -19,12 +19,15 @@
     "pfuse": true,
     "loadfactormax": 12.0,
     "reqaccelmax": 0.0,
-    "bands": [
-      11000.0,
-      6000.0,
-      11000.0,
-      0.0
-    ],
+    "bands": {
+      "range_band0": 11000,
+      "range_band1": 6000,
+      "range_band2": 11000,
+      "range_band3": 0,
+      "range_band6": 1000,
+      "range_band7": 6000,
+      "range_max": 6500
+    },
     "fov": 3.0,
     "gate": 1.5,
     "lockanglemax": 15.0,
@@ -62,12 +65,7 @@
     "pfuse": true,
     "loadfactormax": 35.0,
     "reqaccelmax": 25.0,
-    "bands": [
-      0.0,
-      0.0,
-      0.0,
-      0.0
-    ],
+    "bands": null,
     "fov": 0.0,
     "gate": 0.0,
     "lockanglemax": 15.0,
@@ -105,12 +103,15 @@
     "pfuse": true,
     "loadfactormax": 20.0,
     "reqaccelmax": 20.0,
-    "bands": [
-      11000.0,
-      6000.0,
-      11000.0,
-      0.0
-    ],
+    "bands": {
+      "range_band0": 11000,
+      "range_band1": 6000,
+      "range_band2": 11000,
+      "range_band3": 0,
+      "range_band6": 1000,
+      "range_band7": 6000,
+      "range_max": 6000
+    },
     "fov": 3.0,
     "gate": 1.25,
     "lockanglemax": 20.0,
@@ -148,12 +149,7 @@
     "pfuse": true,
     "loadfactormax": 30.0,
     "reqaccelmax": 30.0,
-    "bands": [
-      0.0,
-      0.0,
-      0.0,
-      0.0
-    ],
+    "bands": null,
     "fov": 0.0,
     "gate": 0.0,
     "lockanglemax": 15.0,
@@ -191,12 +187,7 @@
     "pfuse": true,
     "loadfactormax": 20.0,
     "reqaccelmax": 20.0,
-    "bands": [
-      0.0,
-      0.0,
-      0.0,
-      0.0
-    ],
+    "bands": null,
     "fov": 0.0,
     "gate": 0.0,
     "lockanglemax": 40.0,
@@ -234,12 +225,7 @@
     "pfuse": true,
     "loadfactormax": 12.0,
     "reqaccelmax": 15.0,
-    "bands": [
-      0.0,
-      0.0,
-      0.0,
-      0.0
-    ],
+    "bands": null,
     "fov": 0.0,
     "gate": 0.0,
     "lockanglemax": 10.0,
@@ -277,12 +263,15 @@
     "pfuse": true,
     "loadfactormax": 15.0,
     "reqaccelmax": 15.0,
-    "bands": [
-      5500.0,
-      0.0,
-      8000.0,
-      8000.0
-    ],
+    "bands": {
+      "range_band0": 5500,
+      "range_band1": 0,
+      "range_band2": 8000,
+      "range_band3": 8000,
+      "range_band6": 0,
+      "range_band7": 500,
+      "range_max": 18000
+    },
     "fov": 2.5,
     "gate": 0.0,
     "lockanglemax": 20.0,
@@ -320,12 +309,7 @@
     "pfuse": true,
     "loadfactormax": 15.0,
     "reqaccelmax": 15.0,
-    "bands": [
-      0.0,
-      0.0,
-      0.0,
-      0.0
-    ],
+    "bands": null,
     "fov": 0.0,
     "gate": 0.0,
     "lockanglemax": 40.0,
@@ -363,12 +347,15 @@
     "pfuse": true,
     "loadfactormax": 35.0,
     "reqaccelmax": 35.0,
-    "bands": [
-      5500.0,
-      0.0,
-      8000.0,
-      8000.0
-    ],
+    "bands": {
+      "range_band0": 5500,
+      "range_band1": 0,
+      "range_band2": 8000,
+      "range_band3": 8000,
+      "range_band6": 0,
+      "range_band7": 1000,
+      "range_max": 10000
+    },
     "fov": 2.5,
     "gate": 0.0,
     "lockanglemax": 17.0,
@@ -406,12 +393,15 @@
     "pfuse": true,
     "loadfactormax": 35.0,
     "reqaccelmax": 35.0,
-    "bands": [
-      11000.0,
-      3000.0,
-      11000.0,
-      11000.0
-    ],
+    "bands": {
+      "range_band0": 11000,
+      "range_band1": 3000,
+      "range_band2": 11000,
+      "range_band3": 11000,
+      "range_band6": 0,
+      "range_band7": 6000,
+      "range_max": 10000
+    },
     "fov": 2.5,
     "gate": 0.0,
     "lockanglemax": 17.0,
@@ -449,12 +439,15 @@
     "pfuse": true,
     "loadfactormax": 40.0,
     "reqaccelmax": 30.0,
-    "bands": [
-      11000.0,
-      3000.0,
-      11000.0,
-      11000.0
-    ],
+    "bands": {
+      "range_band0": 11000,
+      "range_band1": 3000,
+      "range_band2": 11000,
+      "range_band3": 11000,
+      "range_band6": 0,
+      "range_band7": 6000,
+      "range_max": 18000
+    },
     "fov": 2.5,
     "gate": 0.0,
     "lockanglemax": 30.0,
@@ -492,12 +485,15 @@
     "pfuse": true,
     "loadfactormax": 11.0,
     "reqaccelmax": 11.0,
-    "bands": [
-      4000.0,
-      0.0,
-      10000.0,
-      10000.0
-    ],
+    "bands": {
+      "range_band0": 4000,
+      "range_band1": 0,
+      "range_band2": 10000,
+      "range_band3": 10000,
+      "range_band6": 0,
+      "range_band7": 500,
+      "range_max": 10000
+    },
     "fov": 4.0,
     "gate": 0.0,
     "lockanglemax": 5.0,
@@ -535,12 +531,15 @@
     "pfuse": true,
     "loadfactormax": 18.0,
     "reqaccelmax": 18.0,
-    "bands": [
-      4000.0,
-      0.0,
-      10000.0,
-      10000.0
-    ],
+    "bands": {
+      "range_band0": 4000,
+      "range_band1": 0,
+      "range_band2": 10000,
+      "range_band3": 10000,
+      "range_band6": 0,
+      "range_band7": 1000,
+      "range_max": 20000
+    },
     "fov": 4.0,
     "gate": 0.0,
     "lockanglemax": 30.0,
@@ -578,12 +577,7 @@
     "pfuse": true,
     "loadfactormax": 25.0,
     "reqaccelmax": 25.0,
-    "bands": [
-      0.0,
-      0.0,
-      0.0,
-      0.0
-    ],
+    "bands": null,
     "fov": 0.0,
     "gate": 0.0,
     "lockanglemax": 15.0,
@@ -621,12 +615,15 @@
     "pfuse": true,
     "loadfactormax": 10.0,
     "reqaccelmax": 10.0,
-    "bands": [
-      11000.0,
-      6000.0,
-      11000.0,
-      0.0
-    ],
+    "bands": {
+      "range_band0": 11000,
+      "range_band1": 6000,
+      "range_band2": 11000,
+      "range_band3": 0,
+      "range_band6": 1000,
+      "range_band7": 6000,
+      "range_max": 5000
+    },
     "fov": 2.0,
     "gate": 1.0,
     "lockanglemax": 38.0,
@@ -664,12 +661,15 @@
     "pfuse": true,
     "loadfactormax": 10.0,
     "reqaccelmax": 10.0,
-    "bands": [
-      11000.0,
-      6000.0,
-      11000.0,
-      0.0
-    ],
+    "bands": {
+      "range_band0": 11000,
+      "range_band1": 6000,
+      "range_band2": 11000,
+      "range_band3": 0,
+      "range_band6": 1000,
+      "range_band7": 6000,
+      "range_max": 5000
+    },
     "fov": 2.0,
     "gate": 1.0,
     "lockanglemax": 38.0,
@@ -707,12 +707,15 @@
     "pfuse": true,
     "loadfactormax": 10.0,
     "reqaccelmax": 11.0,
-    "bands": [
-      3500.0,
-      0.0,
-      8700.0,
-      8700.0
-    ],
+    "bands": {
+      "range_band0": 3500,
+      "range_band1": 0,
+      "range_band2": 8700,
+      "range_band3": 8700,
+      "range_band6": 0,
+      "range_band7": 500,
+      "range_max": 9000
+    },
     "fov": 4.0,
     "gate": 0.0,
     "lockanglemax": 5.0,
@@ -750,12 +753,15 @@
     "pfuse": true,
     "loadfactormax": 30.0,
     "reqaccelmax": 30.0,
-    "bands": [
-      5500.0,
-      0.0,
-      8000.0,
-      8000.0
-    ],
+    "bands": {
+      "range_band0": 5500,
+      "range_band1": 0,
+      "range_band2": 8000,
+      "range_band3": 8000,
+      "range_band6": 0,
+      "range_band7": 1000,
+      "range_max": 16000
+    },
     "fov": 2.4,
     "gate": 0.0,
     "lockanglemax": 25.0,
@@ -793,12 +799,15 @@
     "pfuse": true,
     "loadfactormax": 35.0,
     "reqaccelmax": 35.0,
-    "bands": [
-      5500.0,
-      0.0,
-      8000.0,
-      8000.0
-    ],
+    "bands": {
+      "range_band0": 5500,
+      "range_band1": 0,
+      "range_band2": 8000,
+      "range_band3": 8000,
+      "range_band6": 0,
+      "range_band7": 1000,
+      "range_max": 10000
+    },
     "fov": 2.5,
     "gate": 0.0,
     "lockanglemax": 17.0,
@@ -836,12 +845,15 @@
     "pfuse": true,
     "loadfactormax": 40.0,
     "reqaccelmax": 30.0,
-    "bands": [
-      11000.0,
-      3000.0,
-      11000.0,
-      11000.0
-    ],
+    "bands": {
+      "range_band0": 11000,
+      "range_band1": 3000,
+      "range_band2": 11000,
+      "range_band3": 11000,
+      "range_band6": 0,
+      "range_band7": 6000,
+      "range_max": 18000
+    },
     "fov": 2.5,
     "gate": 0.0,
     "lockanglemax": 30.0,
@@ -879,12 +891,15 @@
     "pfuse": true,
     "loadfactormax": 15.0,
     "reqaccelmax": 15.0,
-    "bands": [
-      5500.0,
-      0.0,
-      8000.0,
-      8000.0
-    ],
+    "bands": {
+      "range_band0": 5500,
+      "range_band1": 0,
+      "range_band2": 8000,
+      "range_band3": 8000,
+      "range_band6": 0,
+      "range_band7": 1000,
+      "range_max": 16000
+    },
     "fov": 2.4,
     "gate": 0.0,
     "lockanglemax": 10.0,
@@ -922,12 +937,15 @@
     "pfuse": true,
     "loadfactormax": 20.0,
     "reqaccelmax": 20.0,
-    "bands": [
-      5500.0,
-      0.0,
-      8000.0,
-      8000.0
-    ],
+    "bands": {
+      "range_band0": 5500,
+      "range_band1": 0,
+      "range_band2": 8000,
+      "range_band3": 8000,
+      "range_band6": 0,
+      "range_band7": 1000,
+      "range_max": 16000
+    },
     "fov": 2.5,
     "gate": 0.0,
     "lockanglemax": 10.0,
@@ -965,12 +983,7 @@
     "pfuse": true,
     "loadfactormax": 20.0,
     "reqaccelmax": 20.0,
-    "bands": [
-      0.0,
-      0.0,
-      0.0,
-      0.0
-    ],
+    "bands": null,
     "fov": 0.0,
     "gate": 0.0,
     "lockanglemax": 50.0,
@@ -1008,12 +1021,15 @@
     "pfuse": true,
     "loadfactormax": 20.0,
     "reqaccelmax": 20.0,
-    "bands": [
-      12000.0,
-      2300.0,
-      12000.0,
-      12000.0
-    ],
+    "bands": {
+      "range_band0": 12000,
+      "range_band1": 2300,
+      "range_band2": 12000,
+      "range_band3": 12000,
+      "range_band6": 0,
+      "range_band7": 4000,
+      "range_max": 27000
+    },
     "fov": 2.6,
     "gate": 0.0,
     "lockanglemax": 60.0,
@@ -1051,12 +1067,7 @@
     "pfuse": true,
     "loadfactormax": 24.0,
     "reqaccelmax": 24.0,
-    "bands": [
-      0.0,
-      0.0,
-      0.0,
-      0.0
-    ],
+    "bands": null,
     "fov": 0.0,
     "gate": 0.0,
     "lockanglemax": 50.0,
@@ -1094,12 +1105,15 @@
     "pfuse": true,
     "loadfactormax": 24.0,
     "reqaccelmax": 24.0,
-    "bands": [
-      16000.0,
-      4300.0,
-      15000.0,
-      15000.0
-    ],
+    "bands": {
+      "range_band0": 16000,
+      "range_band1": 4300,
+      "range_band2": 15000,
+      "range_band3": 15000,
+      "range_band6": 0,
+      "range_band7": 8000,
+      "range_max": 50000
+    },
     "fov": 2.6,
     "gate": 0.0,
     "lockanglemax": 55.0,
@@ -1137,12 +1151,7 @@
     "pfuse": true,
     "loadfactormax": 30.0,
     "reqaccelmax": 30.0,
-    "bands": [
-      0.0,
-      0.0,
-      0.0,
-      0.0
-    ],
+    "bands": null,
     "fov": 0.0,
     "gate": 0.0,
     "lockanglemax": 55.0,
@@ -1180,12 +1189,15 @@
     "pfuse": true,
     "loadfactormax": 30.0,
     "reqaccelmax": 30.0,
-    "bands": [
-      18000.0,
-      4800.0,
-      16000.0,
-      16000.0
-    ],
+    "bands": {
+      "range_band0": 18000,
+      "range_band1": 4800,
+      "range_band2": 16000,
+      "range_band3": 16000,
+      "range_band6": 0,
+      "range_band7": 8400,
+      "range_max": 100000
+    },
     "fov": 2.0,
     "gate": 1.4,
     "lockanglemax": 50.0,
@@ -1223,12 +1235,7 @@
     "pfuse": true,
     "loadfactormax": 30.0,
     "reqaccelmax": 30.0,
-    "bands": [
-      0.0,
-      0.0,
-      0.0,
-      0.0
-    ],
+    "bands": null,
     "fov": 0.0,
     "gate": 0.0,
     "lockanglemax": 55.0,
@@ -1266,12 +1273,15 @@
     "pfuse": true,
     "loadfactormax": 30.0,
     "reqaccelmax": 30.0,
-    "bands": [
-      18000.0,
-      4800.0,
-      16000.0,
-      16000.0
-    ],
+    "bands": {
+      "range_band0": 18000,
+      "range_band1": 4800,
+      "range_band2": 16000,
+      "range_band3": 16000,
+      "range_band6": 0,
+      "range_band7": 8400,
+      "range_max": 50000
+    },
     "fov": 2.0,
     "gate": 1.4,
     "lockanglemax": 50.0,
@@ -1309,12 +1319,7 @@
     "pfuse": true,
     "loadfactormax": 10.0,
     "reqaccelmax": 11.0,
-    "bands": [
-      0.0,
-      0.0,
-      0.0,
-      0.0
-    ],
+    "bands": null,
     "fov": 0.0,
     "gate": 0.0,
     "lockanglemax": 30.0,
@@ -1352,12 +1357,15 @@
     "pfuse": true,
     "loadfactormax": 10.0,
     "reqaccelmax": 11.0,
-    "bands": [
-      3500.0,
-      0.0,
-      8700.0,
-      8700.0
-    ],
+    "bands": {
+      "range_band0": 3500,
+      "range_band1": 0,
+      "range_band2": 8700,
+      "range_band3": 8700,
+      "range_band6": 0,
+      "range_band7": 500,
+      "range_max": 9000
+    },
     "fov": 3.5,
     "gate": 0.0,
     "lockanglemax": 5.0,
@@ -1395,12 +1403,15 @@
     "pfuse": true,
     "loadfactormax": 30.0,
     "reqaccelmax": 30.0,
-    "bands": [
-      5000.0,
-      0.0,
-      7500.0,
-      7500.0
-    ],
+    "bands": {
+      "range_band0": 5000,
+      "range_band1": 0,
+      "range_band2": 7500,
+      "range_band3": 7500,
+      "range_band6": 0,
+      "range_band7": 500,
+      "range_max": 10000
+    },
     "fov": 5.0,
     "gate": 0.0,
     "lockanglemax": 12.0,
@@ -1438,12 +1449,15 @@
     "pfuse": true,
     "loadfactormax": 30.0,
     "reqaccelmax": 30.0,
-    "bands": [
-      7400.0,
-      2000.0,
-      7400.0,
-      7400.0
-    ],
+    "bands": {
+      "range_band0": 7400,
+      "range_band1": 2000,
+      "range_band2": 7400,
+      "range_band3": 7400,
+      "range_band6": 0,
+      "range_band7": 3000,
+      "range_max": 10000
+    },
     "fov": 5.0,
     "gate": 0.0,
     "lockanglemax": 17.0,
@@ -1481,12 +1495,15 @@
     "pfuse": true,
     "loadfactormax": 30.0,
     "reqaccelmax": 30.0,
-    "bands": [
-      7400.0,
-      2000.0,
-      7400.0,
-      7400.0
-    ],
+    "bands": {
+      "range_band0": 7400,
+      "range_band1": 2000,
+      "range_band2": 7400,
+      "range_band3": 7400,
+      "range_band6": 0,
+      "range_band7": 3000,
+      "range_max": 10000
+    },
     "fov": 5.0,
     "gate": 0.0,
     "lockanglemax": 17.0,
@@ -1524,12 +1541,15 @@
     "pfuse": true,
     "loadfactormax": 40.0,
     "reqaccelmax": 40.0,
-    "bands": [
-      11000.0,
-      3400.0,
-      11000.0,
-      300.0
-    ],
+    "bands": {
+      "range_band0": 11000,
+      "range_band1": 3400,
+      "range_band2": 11000,
+      "range_band3": 300,
+      "range_band6": 1000,
+      "range_band7": 6000,
+      "range_max": 8000
+    },
     "fov": 4.5,
     "gate": 1.5,
     "lockanglemax": 45.0,
@@ -1567,12 +1587,15 @@
     "pfuse": true,
     "loadfactormax": 10.0,
     "reqaccelmax": 11.0,
-    "bands": [
-      4000.0,
-      0.0,
-      10000.0,
-      10000.0
-    ],
+    "bands": {
+      "range_band0": 4000,
+      "range_band1": 0,
+      "range_band2": 10000,
+      "range_band3": 10000,
+      "range_band6": 0,
+      "range_band7": 500,
+      "range_max": 10000
+    },
     "fov": 4.0,
     "gate": 0.0,
     "lockanglemax": 5.0,
@@ -1610,12 +1633,15 @@
     "pfuse": true,
     "loadfactormax": 20.0,
     "reqaccelmax": 20.0,
-    "bands": [
-      5500.0,
-      0.0,
-      8000.0,
-      8000.0
-    ],
+    "bands": {
+      "range_band0": 5500,
+      "range_band1": 0,
+      "range_band2": 8000,
+      "range_band3": 8000,
+      "range_band6": 0,
+      "range_band7": 1000,
+      "range_max": 18000
+    },
     "fov": 2.5,
     "gate": 0.0,
     "lockanglemax": 10.0,
@@ -1653,12 +1679,7 @@
     "pfuse": true,
     "loadfactormax": 25.0,
     "reqaccelmax": 25.0,
-    "bands": [
-      0.0,
-      0.0,
-      0.0,
-      0.0
-    ],
+    "bands": null,
     "fov": 0.0,
     "gate": 0.0,
     "lockanglemax": 15.0,
@@ -1696,12 +1717,15 @@
     "pfuse": true,
     "loadfactormax": 30.0,
     "reqaccelmax": 30.0,
-    "bands": [
-      11000.0,
-      3000.0,
-      11000.0,
-      11000.0
-    ],
+    "bands": {
+      "range_band0": 11000,
+      "range_band1": 3000,
+      "range_band2": 11000,
+      "range_band3": 11000,
+      "range_band6": 0,
+      "range_band7": 6000,
+      "range_max": 18000
+    },
     "fov": 3.6,
     "gate": 0.0,
     "lockanglemax": 40.0,
@@ -1739,12 +1763,15 @@
     "pfuse": true,
     "loadfactormax": 15.0,
     "reqaccelmax": 15.0,
-    "bands": [
-      4000.0,
-      0.0,
-      8000.0,
-      8000.0
-    ],
+    "bands": {
+      "range_band0": 4000,
+      "range_band1": 0,
+      "range_band2": 8000,
+      "range_band3": 8000,
+      "range_band6": 0,
+      "range_band7": 1000,
+      "range_max": 7000
+    },
     "fov": 5.0,
     "gate": 0.0,
     "lockanglemax": 20.0,
@@ -1782,12 +1809,15 @@
     "pfuse": true,
     "loadfactormax": 16.0,
     "reqaccelmax": 16.0,
-    "bands": [
-      6000.0,
-      0.0,
-      7000.0,
-      7000.0
-    ],
+    "bands": {
+      "range_band0": 6000,
+      "range_band1": 0,
+      "range_band2": 7000,
+      "range_band3": 7000,
+      "range_band6": 0,
+      "range_band7": 2500,
+      "range_max": 12000
+    },
     "fov": 4.0,
     "gate": 0.0,
     "lockanglemax": 20.0,
@@ -1825,12 +1855,7 @@
     "pfuse": true,
     "loadfactormax": 25.0,
     "reqaccelmax": 25.0,
-    "bands": [
-      0.0,
-      0.0,
-      0.0,
-      0.0
-    ],
+    "bands": null,
     "fov": 0.0,
     "gate": 0.0,
     "lockanglemax": 15.0,
@@ -1868,12 +1893,7 @@
     "pfuse": true,
     "loadfactormax": 25.0,
     "reqaccelmax": 25.0,
-    "bands": [
-      0.0,
-      0.0,
-      0.0,
-      0.0
-    ],
+    "bands": null,
     "fov": 0.0,
     "gate": 0.0,
     "lockanglemax": 15.0,
@@ -1911,12 +1931,15 @@
     "pfuse": true,
     "loadfactormax": 20.0,
     "reqaccelmax": 0.0,
-    "bands": [
-      4000.0,
-      0.0,
-      6000.0,
-      6000.0
-    ],
+    "bands": {
+      "range_band0": 4000,
+      "range_band1": 0,
+      "range_band2": 6000,
+      "range_band3": 6000,
+      "range_band6": 0,
+      "range_band7": 500,
+      "range_max": 2000
+    },
     "fov": 5.0,
     "gate": 0.0,
     "lockanglemax": 40.0,
@@ -1954,12 +1977,7 @@
     "pfuse": true,
     "loadfactormax": 15.0,
     "reqaccelmax": 15.0,
-    "bands": [
-      0.0,
-      0.0,
-      0.0,
-      0.0
-    ],
+    "bands": null,
     "fov": 0.0,
     "gate": 0.0,
     "lockanglemax": 15.0,
@@ -1997,12 +2015,7 @@
     "pfuse": true,
     "loadfactormax": 15.0,
     "reqaccelmax": 15.0,
-    "bands": [
-      0.0,
-      0.0,
-      0.0,
-      0.0
-    ],
+    "bands": null,
     "fov": 0.0,
     "gate": 0.0,
     "lockanglemax": 15.0,
@@ -2040,12 +2053,7 @@
     "pfuse": true,
     "loadfactormax": 25.0,
     "reqaccelmax": 25.0,
-    "bands": [
-      0.0,
-      0.0,
-      0.0,
-      0.0
-    ],
+    "bands": null,
     "fov": 0.0,
     "gate": 0.0,
     "lockanglemax": 15.0,
@@ -2083,12 +2091,7 @@
     "pfuse": true,
     "loadfactormax": 25.0,
     "reqaccelmax": 25.0,
-    "bands": [
-      0.0,
-      0.0,
-      0.0,
-      0.0
-    ],
+    "bands": null,
     "fov": 0.0,
     "gate": 0.0,
     "lockanglemax": 15.0,
@@ -2126,12 +2129,7 @@
     "pfuse": true,
     "loadfactormax": 25.0,
     "reqaccelmax": 25.0,
-    "bands": [
-      0.0,
-      0.0,
-      0.0,
-      0.0
-    ],
+    "bands": null,
     "fov": 0.0,
     "gate": 0.0,
     "lockanglemax": 15.0,
@@ -2169,12 +2167,7 @@
     "pfuse": true,
     "loadfactormax": 25.0,
     "reqaccelmax": 25.0,
-    "bands": [
-      0.0,
-      0.0,
-      0.0,
-      0.0
-    ],
+    "bands": null,
     "fov": 0.0,
     "gate": 0.0,
     "lockanglemax": 15.0,
@@ -2212,12 +2205,15 @@
     "pfuse": false,
     "loadfactormax": 10.0,
     "reqaccelmax": 10.0,
-    "bands": [
-      11000.0,
-      6000.0,
-      11000.0,
-      0.0
-    ],
+    "bands": {
+      "range_band0": 11000,
+      "range_band1": 6000,
+      "range_band2": 11000,
+      "range_band3": 0,
+      "range_band6": 1000,
+      "range_band7": 6000,
+      "range_max": 5000
+    },
     "fov": 3.0,
     "gate": 1.25,
     "lockanglemax": 15.0,
@@ -2255,12 +2251,15 @@
     "pfuse": true,
     "loadfactormax": 10.0,
     "reqaccelmax": 11.0,
-    "bands": [
-      5500.0,
-      0.0,
-      8000.0,
-      8000.0
-    ],
+    "bands": {
+      "range_band0": 5500,
+      "range_band1": 0,
+      "range_band2": 8000,
+      "range_band3": 8000,
+      "range_band6": 0,
+      "range_band7": 500,
+      "range_max": 10000
+    },
     "fov": 4.0,
     "gate": 0.0,
     "lockanglemax": 5.0,
@@ -2298,12 +2297,15 @@
     "pfuse": true,
     "loadfactormax": 10.0,
     "reqaccelmax": 11.0,
-    "bands": [
-      4000.0,
-      0.0,
-      10000.0,
-      10000.0
-    ],
+    "bands": {
+      "range_band0": 4000,
+      "range_band1": 0,
+      "range_band2": 10000,
+      "range_band3": 10000,
+      "range_band6": 0,
+      "range_band7": 500,
+      "range_max": 10000
+    },
     "fov": 4.0,
     "gate": 0.0,
     "lockanglemax": 5.0,
@@ -2341,12 +2343,7 @@
     "pfuse": true,
     "loadfactormax": 18.0,
     "reqaccelmax": 18.0,
-    "bands": [
-      0.0,
-      0.0,
-      0.0,
-      0.0
-    ],
+    "bands": null,
     "fov": 0.0,
     "gate": 0.0,
     "lockanglemax": 30.0,
@@ -2384,12 +2381,15 @@
     "pfuse": true,
     "loadfactormax": 18.0,
     "reqaccelmax": 18.0,
-    "bands": [
-      5500.0,
-      0.0,
-      8000.0,
-      8000.0
-    ],
+    "bands": {
+      "range_band0": 5500,
+      "range_band1": 0,
+      "range_band2": 8000,
+      "range_band3": 8000,
+      "range_band6": 0,
+      "range_band7": 1000,
+      "range_max": 18000
+    },
     "fov": 2.5,
     "gate": 0.0,
     "lockanglemax": 10.0,
@@ -2427,12 +2427,15 @@
     "pfuse": true,
     "loadfactormax": 10.0,
     "reqaccelmax": 11.0,
-    "bands": [
-      5500.0,
-      0.0,
-      8000.0,
-      8000.0
-    ],
+    "bands": {
+      "range_band0": 5500,
+      "range_band1": 0,
+      "range_band2": 8000,
+      "range_band3": 8000,
+      "range_band6": 0,
+      "range_band7": 1000,
+      "range_max": 18000
+    },
     "fov": 2.5,
     "gate": 0.0,
     "lockanglemax": 10.0,
@@ -2470,12 +2473,15 @@
     "pfuse": true,
     "loadfactormax": 18.0,
     "reqaccelmax": 18.0,
-    "bands": [
-      5500.0,
-      0.0,
-      8000.0,
-      8000.0
-    ],
+    "bands": {
+      "range_band0": 5500,
+      "range_band1": 0,
+      "range_band2": 8000,
+      "range_band3": 8000,
+      "range_band6": 0,
+      "range_band7": 1000,
+      "range_max": 18000
+    },
     "fov": 2.5,
     "gate": 0.0,
     "lockanglemax": 40.0,
@@ -2513,12 +2519,15 @@
     "pfuse": true,
     "loadfactormax": 18.0,
     "reqaccelmax": 18.0,
-    "bands": [
-      5500.0,
-      0.0,
-      8000.0,
-      8000.0
-    ],
+    "bands": {
+      "range_band0": 5500,
+      "range_band1": 0,
+      "range_band2": 8000,
+      "range_band3": 8000,
+      "range_band6": 0,
+      "range_band7": 1000,
+      "range_max": 18000
+    },
     "fov": 2.5,
     "gate": 0.0,
     "lockanglemax": 40.0,
@@ -2556,12 +2565,15 @@
     "pfuse": true,
     "loadfactormax": 20.0,
     "reqaccelmax": 20.0,
-    "bands": [
-      5500.0,
-      0.0,
-      8000.0,
-      8000.0
-    ],
+    "bands": {
+      "range_band0": 5500,
+      "range_band1": 0,
+      "range_band2": 8000,
+      "range_band3": 8000,
+      "range_band6": 0,
+      "range_band7": 1000,
+      "range_max": 18000
+    },
     "fov": 2.5,
     "gate": 0.0,
     "lockanglemax": 10.0,
@@ -2599,12 +2611,15 @@
     "pfuse": true,
     "loadfactormax": 30.0,
     "reqaccelmax": 30.0,
-    "bands": [
-      11000.0,
-      3000.0,
-      11000.0,
-      11000.0
-    ],
+    "bands": {
+      "range_band0": 11000,
+      "range_band1": 3000,
+      "range_band2": 11000,
+      "range_band3": 11000,
+      "range_band6": 0,
+      "range_band7": 6000,
+      "range_max": 18000
+    },
     "fov": 3.6,
     "gate": 0.0,
     "lockanglemax": 40.0,
@@ -2642,12 +2657,15 @@
     "pfuse": true,
     "loadfactormax": 20.0,
     "reqaccelmax": 20.0,
-    "bands": [
-      5500.0,
-      0.0,
-      8000.0,
-      8000.0
-    ],
+    "bands": {
+      "range_band0": 5500,
+      "range_band1": 0,
+      "range_band2": 8000,
+      "range_band3": 8000,
+      "range_band6": 0,
+      "range_band7": 1000,
+      "range_max": 18000
+    },
     "fov": 2.5,
     "gate": 0.0,
     "lockanglemax": 10.0,
@@ -2685,12 +2703,7 @@
     "pfuse": true,
     "loadfactormax": 16.0,
     "reqaccelmax": 16.0,
-    "bands": [
-      0.0,
-      0.0,
-      0.0,
-      0.0
-    ],
+    "bands": null,
     "fov": 0.0,
     "gate": 0.0,
     "lockanglemax": 15.0,
@@ -2728,12 +2741,7 @@
     "pfuse": true,
     "loadfactormax": 16.0,
     "reqaccelmax": 16.0,
-    "bands": [
-      0.0,
-      0.0,
-      0.0,
-      0.0
-    ],
+    "bands": null,
     "fov": 0.0,
     "gate": 0.0,
     "lockanglemax": 15.0,
@@ -2771,12 +2779,15 @@
     "pfuse": false,
     "loadfactormax": 10.0,
     "reqaccelmax": 0.0,
-    "bands": [
-      11000.0,
-      6000.0,
-      11000.0,
-      0.0
-    ],
+    "bands": {
+      "range_band0": 11000,
+      "range_band1": 6000,
+      "range_band2": 11000,
+      "range_band3": 0,
+      "range_band6": 1000,
+      "range_band7": 6000,
+      "range_max": 5000
+    },
     "fov": 3.0,
     "gate": 1.25,
     "lockanglemax": 40.0,
