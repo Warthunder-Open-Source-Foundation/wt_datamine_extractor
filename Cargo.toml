@@ -40,3 +40,4 @@ const-gen = "^1.1.0"
 get-size = { version = "^0.1", features = ["derive"] }
 roman = "^0.1.6"
 csv = "^1.1.6"
+wt_blk = { git = "https://github.com/Warthunder-Open-Source-Foundation/wt_blk" }
