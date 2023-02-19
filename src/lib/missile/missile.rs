@@ -79,7 +79,7 @@ pub struct Missile {
 	pub bands: Option<Visband>,
 
 	/// size of the uncaged part of the seeker in degrees
-	pub fov: f64,
+	pub fov: Option<f64>,
 
 	/// size of the locked seeker center in degrees
 	pub gate: f64,
@@ -167,6 +167,8 @@ impl ExtractCore for Missile {
 	fn new_from_file(file: &[u8], name: String) -> Self {
 		let file = String::from_utf8(file.to_vec()).unwrap();
 
+		let blk = wt_blk::WTBlk::new(&file).unwrap();
+
 		let seekertype = {
 			if file.contains("irSeeker") {
 				SeekerType::Ir
@@ -181,56 +183,62 @@ impl ExtractCore for Missile {
 			}
 		};
 
-		let mass = parameter_to_data(&file, "mass").unwrap().parse().unwrap();
+		let mass = blk.float("/rocket/mass").unwrap();
 
-		let mass_end = parameter_to_data(&file, "massEnd").unwrap().parse().unwrap();
+		let mass_end = blk.float("/rocket/massEnd").unwrap();
 
-		let mass_end1 = parameter_to_data(&file, "massEnd1").unwrap_or("0.0".to_owned()).parse().unwrap();
+		let mass_end1 = blk.float("/rocket/massEnd1").unwrap_or(0.0);
 
-		let caliber = parameter_to_data(&file, "caliber").unwrap().parse().unwrap();
+		let caliber = blk.float("/rocket/caliber").unwrap();
 
-		let force0 = parameter_to_data(&file, "force").map_or_else(|| parameter_to_data(&file, "force0").unwrap().parse().unwrap(), |value| value.parse().unwrap());
+		// Add force0 if this starts to crash
+		let force0 = blk.float("/rocket/force").unwrap();
 
-		let force1 = parameter_to_data(&file, "force1").map_or(0.0, |value| value.parse().unwrap());
+		let force1 = blk.float("/rocket/force1").unwrap_or(0.0);
 
-		let timefire0 = parameter_to_data(&file, "timeFire").map_or_else(|| parameter_to_data(&file, "timeFire0").unwrap().parse().unwrap(), |value| value.parse().unwrap());
+		let timefire0 = blk.float("/rocket/timeFire").unwrap();
 
-		let timefire1 = parameter_to_data(&file, "timeFire1").map_or(0.0, |value| value.parse().unwrap());
+		let timefire1 = blk.float("/rocket/timeFire1").unwrap_or(0.0);
 
-		let cxk = parameter_to_data(&file, "CxK").unwrap().parse().unwrap();
+		let cxk = blk.float("/rocket/CxK").unwrap();
 
-		let dragcx = parameter_to_data(&file, "dragCx").unwrap().parse().unwrap();
+		let dragcx = blk.float("/rocket/dragCx").unwrap();
 
-		let timelife = parameter_to_data(&file, "timeLife").unwrap().parse().unwrap();
+		let timelife = blk.float("/rocket/timeLife").unwrap();
 
-		let endspeed = parameter_to_data(&file, "endSpeed").unwrap().parse().unwrap();
+		let endspeed = blk.float("/rocket/endSpeed").unwrap();
 
-		let exp_mass = explosive_type_to_tnt(&parameter_to_data(&file, "explosiveType").unwrap().replace('\"', ""), (parameter_to_data(&file, "explosiveMass").unwrap().parse::<f64>().unwrap() * 1000.0).round());
+		let exp_mass = explosive_type_to_tnt(
+			&blk.str("/rocket/explosiveType").unwrap().replace('\"', ""),
+			(blk.float("/rocket/explosiveMass").unwrap() * 1000.0).round(),
+		);
 
-		let pfuse = parameter_to_data(&file, "hasProximityFuse").map_or(false, |value| value.parse().unwrap());
+		let pfuse = blk.bool("/rocket/hasProximityFuse").unwrap_or(false);
 
-		let loadfactormax = parameter_to_data(&file, "loadFactorMax").unwrap().parse().unwrap();
+		let loadfactormax = blk.float("/rocket/loadFactorMax").unwrap();
 
-		let mut reqaccelmax = 0.0;
-		if let Some(value) = parameter_to_data(&file, "reqAccelMax") {
-			reqaccelmax = value.parse().unwrap();
-		}
+		let reqaccelmax = blk.float("/rocket/guidance/guidanceAutopilot/reqAccelMax").unwrap_or(0.0);
 
 		let bands = if seekertype == SeekerType::Ir {
 			Some(Visband {
-				range_band0: parameter_to_data(&file, "rangeBand0").unwrap_or("0".to_owned()).parse::<f64>().unwrap() as usize,
-				range_band1: parameter_to_data(&file, "rangeBand1").unwrap_or("0".to_owned()).parse::<f64>().unwrap() as usize,
-				range_band2: parameter_to_data(&file, "rangeBand2").unwrap_or("0".to_owned()).parse::<f64>().unwrap() as usize,
-				range_band3: parameter_to_data(&file, "rangeBand3").unwrap_or("0".to_owned()).parse::<f64>().unwrap() as usize,
-				range_band6: parameter_to_data(&file, "rangeBand6").unwrap_or("0".to_owned()).parse::<f64>().unwrap() as usize,
-				range_band7: parameter_to_data(&file, "rangeBand7").unwrap_or("0".to_owned()).parse::<f64>().unwrap() as usize,
-				range_max: parameter_to_data(&file, "rangeMax").unwrap_or("0".to_owned()).parse::<f64>().unwrap() as usize,
+				range_band0: blk.float("/rocket/guidance/irSeeker/rangeBand0").unwrap() as usize,
+				range_band1: blk.float("/rocket/guidance/irSeeker/rangeBand1").unwrap_or(0.0) as usize,
+				range_band2: blk.float("/rocket/guidance/irSeeker/rangeBand2").unwrap() as usize,
+				range_band3: blk.float("/rocket/guidance/irSeeker/rangeBand3").unwrap() as usize,
+				range_band6: blk.float("/rocket/guidance/irSeeker/rangeBand6").unwrap_or(0.0) as usize,
+				range_band7: blk.float("/rocket/guidance/irSeeker/rangeBand7").unwrap() as usize,
+				range_max: blk.float("/rocket/guidance/irSeeker/rangeMax").unwrap() as usize,
 			})
 		} else {
 			None
 		};
 
-		let fov = parameter_to_data(&file, "fov").map_or(0.0, |value| value.parse().unwrap());
+		println!("{}", name);
+		let fov = if seekertype == SeekerType::Ir {
+			Some(blk.float("/rocket/guidance/irSeeker/fov").unwrap())
+		} else {
+			None
+		};
 
 		let gate = parameter_to_data(&file, "gateWidth").map_or(0.0, |value| value.parse().unwrap());
 
