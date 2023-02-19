@@ -285,7 +285,7 @@ impl ExtractCore for Missile {
 
 		let reconnect_data_link = blk.bool(&format!("/rocket/guidance/inertialGuidance/reconnectDatalink")).unwrap_or(false);
 
-		let has_inertial_navigation = parameter_to_data(&file, "inertialNavigation").unwrap_or("false".to_owned()).parse().unwrap();
+		let has_inertial_navigation = blk.pointer("/rocket/guidance/inertialGuidance").is_ok();
 
 		Self {
 			// localized first as the borrow consumes name otherwise
