@@ -262,7 +262,7 @@ impl ExtractCore for Missile {
 			None
 		};
 
-		let timeout = parameter_to_data(&file, "timeOut").unwrap().parse().unwrap();
+		let timeout = blk.float(&format!("/rocket/guidance/guidanceAutopilot/timeOut")).unwrap_or(0.0);
 
 		let warmuptime = parameter_to_data(&file, "warmUpTime").unwrap().parse().unwrap();
 
