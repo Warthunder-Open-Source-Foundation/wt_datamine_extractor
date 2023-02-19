@@ -82,7 +82,7 @@ pub struct Missile {
 	pub fov: Option<f64>,
 
 	/// size of the locked seeker center in degrees
-	pub gate: f64,
+	pub gate: Option<f64>,
 
 	/// distance from bore before launch in degrees
 	pub lockanglemax: f64,
@@ -233,14 +233,13 @@ impl ExtractCore for Missile {
 			None
 		};
 
-		println!("{}", name);
 		let fov = if seekertype == SeekerType::Ir {
 			Some(blk.float("/rocket/guidance/irSeeker/fov").unwrap())
 		} else {
 			None
 		};
 
-		let gate = parameter_to_data(&file, "gateWidth").map_or(0.0, |value| value.parse().unwrap());
+		let gate = blk.float("/rocket/guidance/irSeeker/gateWidth").ok();
 
 		let lockanglemax = parameter_to_data(&file, "lockAngleMax").unwrap().parse().unwrap();
 
