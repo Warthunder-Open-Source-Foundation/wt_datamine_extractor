@@ -120,6 +120,9 @@ pub struct Missile {
 	/// permits the missile to link back data to other aircraft
 	pub has_data_link: bool,
 
+	/// permits the missile to regain datalink after loss of connection
+	pub reconnect_data_link: bool,
+
 	/// permits missile to accurately track without continous targeting data, prevents self destruction when main seeker looses sight
 	pub has_inertial_navigation: bool,
 
@@ -264,21 +267,23 @@ impl ExtractCore for Missile {
 
 		let timeout = blk.float(&format!("/rocket/guidance/guidanceAutopilot/timeOut")).unwrap_or(0.0);
 
-		let warmuptime = parameter_to_data(&file, "warmUpTime").unwrap().parse().unwrap();
+		let warmuptime = blk.float("/rocket/guidance/warmUpTime").unwrap();
 
-		let worktime = parameter_to_data(&file, "workTime").unwrap().parse().unwrap();
+		let worktime = blk.float("/rocket/guidance/workTime").unwrap();
 
-		let cageable = parameter_to_data(&file, "uncageBeforeLaunch").unwrap().parse::<bool>().unwrap();
+		let cageable = blk.bool("/rocket/guidance/uncageBeforeLaunch").unwrap();
 
-		let rate_max = parameter_to_data(&file, "rateMax").unwrap().parse::<f64>().unwrap();
+		let rate_max = blk.float(&format!("/rocket/guidance/{seeker_name}/rateMax")).unwrap();
 
-		let inertial_navigation = parameter_to_data(&file, "inertialNavigation").unwrap_or_else(|| "false".to_owned()).parse::<bool>().unwrap();
+		let inertial_navigation = blk.bool("/rocket/guidance/inertialNavigation").unwrap_or(false);
 
-		let use_target_vel = parameter_to_data(&file, "useTargetVel").unwrap_or_else(|| "false".to_owned()).parse::<bool>().unwrap();
+		let use_target_vel = blk.bool("/rocket/guidance/useTargetVel").unwrap_or(false);
 
-		let allow_radar_slave = file.contains("designationSourceTypeMask");
+		let allow_radar_slave = blk.float(&format!("/rocket/guidance/{seeker_name}/designationSourceTypeMask")).is_ok();
 
-		let has_data_link = parameter_to_data(&file, "datalink").unwrap_or("false".to_owned()).parse().unwrap();
+		let has_data_link = blk.bool(&format!("/rocket/guidance/inertialGuidance/datalink")).unwrap_or(false);
+
+		let reconnect_data_link = blk.bool(&format!("/rocket/guidance/inertialGuidance/reconnectDatalink")).unwrap_or(false);
 
 		let has_inertial_navigation = parameter_to_data(&file, "inertialNavigation").unwrap_or("false".to_owned()).parse().unwrap();
 
@@ -319,6 +324,7 @@ impl ExtractCore for Missile {
 			use_target_vel,
 			allow_radar_slave,
 			has_data_link,
+			reconnect_data_link,
 			has_inertial_navigation,
 			deltav: ((force0 / mass * timefire0) + (force1 / mass * timefire1)).round(),
 		}

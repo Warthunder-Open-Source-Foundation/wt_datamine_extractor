@@ -42,6 +42,7 @@
     "use_target_vel": false,
     "allow_radar_slave": false,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 973.0
   },
@@ -80,6 +81,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 553.0
   },
@@ -126,6 +128,7 @@
     "use_target_vel": false,
     "allow_radar_slave": false,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 1019.0
   },
@@ -164,6 +167,7 @@
     "use_target_vel": true,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 785.0
   },
@@ -202,6 +206,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 718.0
   },
@@ -240,6 +245,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 408.0
   },
@@ -286,6 +292,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 616.0
   },
@@ -324,6 +331,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 616.0
   },
@@ -370,6 +378,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 607.0
   },
@@ -416,6 +425,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 607.0
   },
@@ -462,6 +472,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 727.0
   },
@@ -508,6 +519,7 @@
     "use_target_vel": false,
     "allow_radar_slave": false,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 584.0
   },
@@ -554,6 +566,7 @@
     "use_target_vel": false,
     "allow_radar_slave": false,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 633.0
   },
@@ -592,6 +605,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 571.0
   },
@@ -638,6 +652,7 @@
     "use_target_vel": false,
     "allow_radar_slave": false,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 868.0
   },
@@ -684,6 +699,7 @@
     "use_target_vel": false,
     "allow_radar_slave": false,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 868.0
   },
@@ -730,6 +746,7 @@
     "use_target_vel": false,
     "allow_radar_slave": false,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 506.0
   },
@@ -776,6 +793,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 660.0
   },
@@ -822,6 +840,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 607.0
   },
@@ -868,6 +887,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 727.0
   },
@@ -914,6 +934,7 @@
     "use_target_vel": false,
     "allow_radar_slave": false,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 593.0
   },
@@ -960,6 +981,7 @@
     "use_target_vel": false,
     "allow_radar_slave": false,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 574.0
   },
@@ -998,6 +1020,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 498.0
   },
@@ -1044,6 +1067,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 516.0
   },
@@ -1082,6 +1106,7 @@
     "use_target_vel": true,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": true,
     "deltav": 615.0
   },
@@ -1128,6 +1153,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 633.0
   },
@@ -1166,6 +1192,7 @@
     "use_target_vel": true,
     "allow_radar_slave": true,
     "has_data_link": true,
+    "reconnect_data_link": true,
     "has_inertial_navigation": true,
     "deltav": 932.0
   },
@@ -1212,6 +1239,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 951.0
   },
@@ -1250,6 +1278,7 @@
     "use_target_vel": true,
     "allow_radar_slave": true,
     "has_data_link": true,
+    "reconnect_data_link": true,
     "has_inertial_navigation": true,
     "deltav": 617.0
   },
@@ -1296,6 +1325,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 635.0
   },
@@ -1334,6 +1364,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 506.0
   },
@@ -1380,6 +1411,7 @@
     "use_target_vel": false,
     "allow_radar_slave": false,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 506.0
   },
@@ -1426,6 +1458,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 655.0
   },
@@ -1472,6 +1505,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 648.0
   },
@@ -1518,6 +1552,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 648.0
   },
@@ -1564,6 +1599,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 720.0
   },
@@ -1610,6 +1646,7 @@
     "use_target_vel": false,
     "allow_radar_slave": false,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 523.0
   },
@@ -1656,6 +1693,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 518.0
   },
@@ -1694,6 +1732,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 508.0
   },
@@ -1740,6 +1779,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 678.0
   },
@@ -1786,6 +1826,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 531.0
   },
@@ -1832,6 +1873,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 539.0
   },
@@ -1870,6 +1912,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 508.0
   },
@@ -1908,6 +1951,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 508.0
   },
@@ -1954,6 +1998,7 @@
     "use_target_vel": false,
     "allow_radar_slave": false,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 699.0
   },
@@ -1992,6 +2037,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 382.0
   },
@@ -2030,6 +2076,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 472.0
   },
@@ -2068,6 +2115,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 506.0
   },
@@ -2106,6 +2154,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 478.0
   },
@@ -2144,6 +2193,7 @@
     "use_target_vel": true,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 826.0
   },
@@ -2182,6 +2232,7 @@
     "use_target_vel": true,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 826.0
   },
@@ -2228,6 +2279,7 @@
     "use_target_vel": false,
     "allow_radar_slave": false,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 1089.0
   },
@@ -2274,6 +2326,7 @@
     "use_target_vel": false,
     "allow_radar_slave": false,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 490.0
   },
@@ -2320,6 +2373,7 @@
     "use_target_vel": false,
     "allow_radar_slave": false,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 523.0
   },
@@ -2358,6 +2412,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 577.0
   },
@@ -2404,6 +2459,7 @@
     "use_target_vel": false,
     "allow_radar_slave": false,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 622.0
   },
@@ -2450,6 +2506,7 @@
     "use_target_vel": false,
     "allow_radar_slave": false,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 521.0
   },
@@ -2496,6 +2553,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 622.0
   },
@@ -2542,6 +2600,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 622.0
   },
@@ -2588,6 +2647,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 518.0
   },
@@ -2634,6 +2694,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 678.0
   },
@@ -2680,6 +2741,7 @@
     "use_target_vel": false,
     "allow_radar_slave": true,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 518.0
   },
@@ -2718,6 +2780,7 @@
     "use_target_vel": true,
     "allow_radar_slave": true,
     "has_data_link": true,
+    "reconnect_data_link": false,
     "has_inertial_navigation": true,
     "deltav": 1139.0
   },
@@ -2756,6 +2819,7 @@
     "use_target_vel": true,
     "allow_radar_slave": true,
     "has_data_link": true,
+    "reconnect_data_link": false,
     "has_inertial_navigation": true,
     "deltav": 1139.0
   },
@@ -2802,6 +2866,7 @@
     "use_target_vel": false,
     "allow_radar_slave": false,
     "has_data_link": false,
+    "reconnect_data_link": false,
     "has_inertial_navigation": false,
     "deltav": 1089.0
   }
