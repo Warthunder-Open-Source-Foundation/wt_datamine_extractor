@@ -91,7 +91,7 @@ pub struct Missile {
 	pub anglemax: f64,
 
 	/// distance from sun to be distracted in degrees
-	pub minangletosun: f64,
+	pub minangletosun: Option<f64>,
 
 	/// time missile does not manuever after launch
 	pub timeout: f64,
@@ -241,14 +241,25 @@ impl ExtractCore for Missile {
 
 		let gate = blk.float("/rocket/guidance/irSeeker/gateWidth").ok();
 
-		let lockanglemax = parameter_to_data(&file, "lockAngleMax").unwrap().parse().unwrap();
+		let seeker_name = match seekertype {
+			SeekerType::Ir => {
+				"irSeeker"
+			}
+			SeekerType::Sarh => {
+				"radarSeeker"
+			}
+			SeekerType::Arh => {
+				"radarSeeker"
+			}
+		};
+		let lockanglemax =  blk.float(&format!("/rocket/guidance/{seeker_name}/lockAngleMax")).unwrap();
 
-		let anglemax = parameter_to_data(&file, "angleMax").unwrap().parse().unwrap();
+		let anglemax =blk.float(&format!("/rocket/guidance/{seeker_name}/angleMax")).unwrap();
 
 		let minangletosun = if seekertype == SeekerType::Ir {
-			parameter_to_data(&file, "minAngleToSun").unwrap().parse().unwrap()
+			Some(blk.float(&format!("/rocket/guidance/irSeeker/minAngleToSun")).unwrap())
 		} else {
-			0.0
+			None
 		};
 
 		let timeout = parameter_to_data(&file, "timeOut").unwrap().parse().unwrap();
