@@ -24,6 +24,7 @@
       "range_band1": 6000,
       "range_band2": 11000,
       "range_band3": 0,
+      "range_band4": 0,
       "range_band6": 1000,
       "range_band7": 6000,
       "range_max": 11000
@@ -110,6 +111,7 @@
       "range_band1": 6000,
       "range_band2": 11000,
       "range_band3": 0,
+      "range_band4": 0,
       "range_band6": 1000,
       "range_band7": 6000,
       "range_max": 11000
@@ -274,6 +276,7 @@
       "range_band1": 0,
       "range_band2": 8000,
       "range_band3": 8000,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 500,
       "range_max": 10000
@@ -360,6 +363,7 @@
       "range_band1": 0,
       "range_band2": 8000,
       "range_band3": 8000,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 1000,
       "range_max": 10000
@@ -407,6 +411,7 @@
       "range_band1": 3000,
       "range_band2": 11000,
       "range_band3": 11000,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 6000,
       "range_max": 11000
@@ -454,6 +459,7 @@
       "range_band1": 3000,
       "range_band2": 11000,
       "range_band3": 11000,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 6000,
       "range_max": 11000
@@ -501,6 +507,7 @@
       "range_band1": 0,
       "range_band2": 10000,
       "range_band3": 10000,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 500,
       "range_max": 8000
@@ -548,6 +555,7 @@
       "range_band1": 0,
       "range_band2": 10000,
       "range_band3": 10000,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 1000,
       "range_max": 8000
@@ -634,6 +642,7 @@
       "range_band1": 6000,
       "range_band2": 11000,
       "range_band3": 0,
+      "range_band4": 0,
       "range_band6": 1000,
       "range_band7": 6000,
       "range_max": 11000
@@ -681,6 +690,7 @@
       "range_band1": 6000,
       "range_band2": 11000,
       "range_band3": 0,
+      "range_band4": 0,
       "range_band6": 1000,
       "range_band7": 6000,
       "range_max": 11000
@@ -728,6 +738,7 @@
       "range_band1": 0,
       "range_band2": 8700,
       "range_band3": 8700,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 500,
       "range_max": 8000
@@ -775,6 +786,7 @@
       "range_band1": 0,
       "range_band2": 8000,
       "range_band3": 8000,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 1000,
       "range_max": 11000
@@ -822,6 +834,7 @@
       "range_band1": 0,
       "range_band2": 8000,
       "range_band3": 8000,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 1000,
       "range_max": 10000
@@ -869,6 +882,7 @@
       "range_band1": 3000,
       "range_band2": 11000,
       "range_band3": 11000,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 6000,
       "range_max": 11000
@@ -916,6 +930,7 @@
       "range_band1": 0,
       "range_band2": 8000,
       "range_band3": 8000,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 1000,
       "range_max": 11000
@@ -963,6 +978,7 @@
       "range_band1": 0,
       "range_band2": 8000,
       "range_band3": 8000,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 1000,
       "range_max": 11000
@@ -1049,6 +1065,7 @@
       "range_band1": 2300,
       "range_band2": 12000,
       "range_band3": 12000,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 4000,
       "range_max": 20000
@@ -1135,6 +1152,7 @@
       "range_band1": 4300,
       "range_band2": 15000,
       "range_band3": 15000,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 8000,
       "range_max": 100000
@@ -1260,6 +1278,7 @@
       "range_band1": 4800,
       "range_band2": 16000,
       "range_band3": 16000,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 8400,
       "range_max": 100000
@@ -1385,6 +1404,7 @@
       "range_band1": 4800,
       "range_band2": 16000,
       "range_band3": 16000,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 8400,
       "range_max": 100000
@@ -1432,6 +1452,7 @@
       "range_band1": 4800,
       "range_band2": 16000,
       "range_band3": 16000,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 8400,
       "range_max": 100000
@@ -1518,6 +1539,7 @@
       "range_band1": 0,
       "range_band2": 8700,
       "range_band3": 8700,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 500,
       "range_max": 8000
@@ -1565,6 +1587,7 @@
       "range_band1": 0,
       "range_band2": 7500,
       "range_band3": 7500,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 500,
       "range_max": 10000
@@ -1612,6 +1635,7 @@
       "range_band1": 2000,
       "range_band2": 7400,
       "range_band3": 7400,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 3000,
       "range_max": 10000
@@ -1659,6 +1683,7 @@
       "range_band1": 2000,
       "range_band2": 7400,
       "range_band3": 7400,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 3000,
       "range_max": 10000
@@ -1706,6 +1731,7 @@
       "range_band1": 3400,
       "range_band2": 11000,
       "range_band3": 300,
+      "range_band4": 0,
       "range_band6": 1000,
       "range_band7": 6000,
       "range_max": 100000
@@ -1753,6 +1779,7 @@
       "range_band1": 0,
       "range_band2": 10000,
       "range_band3": 10000,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 500,
       "range_max": 8000
@@ -1800,6 +1827,7 @@
       "range_band1": 0,
       "range_band2": 8000,
       "range_band3": 8000,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 1000,
       "range_max": 11000
@@ -1886,6 +1914,7 @@
       "range_band1": 3000,
       "range_band2": 11000,
       "range_band3": 11000,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 6000,
       "range_max": 11000
@@ -1933,6 +1962,7 @@
       "range_band1": 0,
       "range_band2": 8000,
       "range_band3": 8000,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 1000,
       "range_max": 11000
@@ -1980,6 +2010,7 @@
       "range_band1": 0,
       "range_band2": 7000,
       "range_band3": 7000,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 2500,
       "range_max": 12000
@@ -2144,6 +2175,7 @@
       "range_band1": 0,
       "range_band2": 6000,
       "range_band3": 6000,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 500,
       "range_max": 11000
@@ -2425,6 +2457,7 @@
       "range_band1": 6000,
       "range_band2": 11000,
       "range_band3": 0,
+      "range_band4": 0,
       "range_band6": 1000,
       "range_band7": 6000,
       "range_max": 11000
@@ -2472,6 +2505,7 @@
       "range_band1": 0,
       "range_band2": 8000,
       "range_band3": 8000,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 500,
       "range_max": 8000
@@ -2519,6 +2553,7 @@
       "range_band1": 0,
       "range_band2": 10000,
       "range_band3": 10000,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 500,
       "range_max": 8000
@@ -2605,6 +2640,7 @@
       "range_band1": 0,
       "range_band2": 8000,
       "range_band3": 8000,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 1000,
       "range_max": 11000
@@ -2652,6 +2688,7 @@
       "range_band1": 0,
       "range_band2": 8000,
       "range_band3": 8000,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 1000,
       "range_max": 11000
@@ -2699,6 +2736,7 @@
       "range_band1": 0,
       "range_band2": 8000,
       "range_band3": 8000,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 1000,
       "range_max": 11000
@@ -2746,6 +2784,7 @@
       "range_band1": 0,
       "range_band2": 8000,
       "range_band3": 8000,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 1000,
       "range_max": 11000
@@ -2793,6 +2832,7 @@
       "range_band1": 0,
       "range_band2": 8000,
       "range_band3": 8000,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 1000,
       "range_max": 11000
@@ -2840,6 +2880,7 @@
       "range_band1": 3000,
       "range_band2": 11000,
       "range_band3": 11000,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 6000,
       "range_max": 11000
@@ -2887,6 +2928,7 @@
       "range_band1": 0,
       "range_band2": 8000,
       "range_band3": 8000,
+      "range_band4": 0,
       "range_band6": 0,
       "range_band7": 1000,
       "range_max": 11000
@@ -3012,6 +3054,7 @@
       "range_band1": 6000,
       "range_band2": 11000,
       "range_band3": 0,
+      "range_band4": 0,
       "range_band6": 1000,
       "range_band7": 6000,
       "range_max": 11000
