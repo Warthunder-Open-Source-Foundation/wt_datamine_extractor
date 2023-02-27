@@ -228,6 +228,18 @@
     ]
   },
   {
+    "name": "ah_6m",
+    "localized": "AH-6M",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
     "name": "ah_mk1",
     "localized": "AH Mk.1 Apache",
     "vehicle_type": "Helicopter",
@@ -1068,6 +1080,23 @@
     ]
   },
   {
+    "name": "il_merkava_mk_4_lic",
+    "localized": "Merkava Mk.4 LIC",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Commander",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
     "name": "il_merkava_mk_4b",
     "localized": "Merkava Mk.4B",
     "vehicle_type": "Tank",
@@ -1087,6 +1116,23 @@
   {
     "name": "il_merkava_mk_4m",
     "localized": "Merkava Mk.4M",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Commander",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "it_ariete_amv_pt1",
+    "localized": "Ariete AMV",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1338,6 +1384,23 @@
   {
     "name": "jp_type_16_mcv_prot",
     "localized": "Type 16 (P)",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      },
+      {
+        "crew": "Commander",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "jp_type_16_mod",
+    "localized": "Type 16 (FPS)",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1820,6 +1883,18 @@
     ]
   },
   {
+    "name": "tornado_f3",
+    "localized": "Tornado F.3",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "tornado_gr1",
     "localized": "Tornado GR.1",
     "vehicle_type": "Aircraft",
@@ -2095,6 +2170,23 @@
     "sights": [
       {
         "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "uk_challenger_2e",
+    "localized": "Challenger 2E",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Commander",
         "x": 800.0,
         "y": 600.0
       }
@@ -2674,6 +2766,18 @@
   {
     "name": "ussr_bmp_3",
     "localized": "BMP-3",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "ussr_pantsyr_s1",
+    "localized": "Pantsir-S1",
     "vehicle_type": "Tank",
     "sights": [
       {

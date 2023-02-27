@@ -33,7 +33,7 @@ fn uppercase_char(mut input: String, idx: usize) -> Option<String> {
 pub fn auto_localize(mut input: impl ToString) -> Option<String> {
 	let mut input: String = input.to_string();
 
-	input = input.chars().filter(|c| c.is_ascii()).collect::<String>();;
+	input = input.chars().filter(|c| c.is_ascii()).collect::<String>();
 
 	// Strip nation prefix
 	for NATION_PREFIX in NATION_PREFIXES {

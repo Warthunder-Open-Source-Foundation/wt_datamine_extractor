@@ -7,6 +7,7 @@ use crate::explosive::explosive::explosive_type_to_tnt;
 use crate::extraction_traits::core::ExtractCore;
 use crate::extraction_traits::known::KnownItem;
 use crate::lang::{Lang, name_to_local};
+use crate::missile::visbands::Visband;
 use crate::util::parameter_to_data;
 
 #[allow(clippy::struct_excessive_bools)]
@@ -74,18 +75,14 @@ pub struct Missile {
 	/// maximum G during flight (assuming G = 9.81m/s²)
 	pub reqaccelmax: f64,
 
-	/// Range band distances for different spectrums (when infrared else its 0)
-	/// 0 = rear aspect engine
-	/// 1 = all aspect of target
-	/// 2 = infrared decoys
-	/// 3 = infrared countermeasures and sun
-	pub bands: [f64; 4],
+	/// seeker visibility ranges
+	pub bands: Option<Visband>,
 
 	/// size of the uncaged part of the seeker in degrees
-	pub fov: f64,
+	pub fov: Option<f64>,
 
 	/// size of the locked seeker center in degrees
-	pub gate: f64,
+	pub gate: Option<f64>,
 
 	/// distance from bore before launch in degrees
 	pub lockanglemax: f64,
@@ -94,7 +91,7 @@ pub struct Missile {
 	pub anglemax: f64,
 
 	/// distance from sun to be distracted in degrees
-	pub minangletosun: f64,
+	pub minangletosun: Option<f64>,
 
 	/// time missile does not manuever after launch
 	pub timeout: f64,
@@ -122,6 +119,9 @@ pub struct Missile {
 
 	/// permits the missile to link back data to other aircraft
 	pub has_data_link: bool,
+
+	/// permits the missile to regain datalink after loss of connection
+	pub reconnect_data_link: bool,
 
 	/// permits missile to accurately track without continous targeting data, prevents self destruction when main seeker looses sight
 	pub has_inertial_navigation: bool,
@@ -170,6 +170,8 @@ impl ExtractCore for Missile {
 	fn new_from_file(file: &[u8], name: String) -> Self {
 		let file = String::from_utf8(file.to_vec()).unwrap();
 
+		let blk = wt_blk::WTBlk::new(&file).unwrap();
+
 		let seekertype = {
 			if file.contains("irSeeker") {
 				SeekerType::Ir
@@ -184,90 +186,106 @@ impl ExtractCore for Missile {
 			}
 		};
 
-		let mass = parameter_to_data(&file, "mass").unwrap().parse().unwrap();
+		let mass = blk.float("/rocket/mass").unwrap();
 
-		let mass_end = parameter_to_data(&file, "massEnd").unwrap().parse().unwrap();
+		let mass_end = blk.float("/rocket/massEnd").unwrap();
 
-		let mass_end1 = parameter_to_data(&file, "massEnd1").unwrap_or("0.0".to_owned()).parse().unwrap();
+		let mass_end1 = blk.float("/rocket/massEnd1").unwrap_or(0.0);
 
-		let caliber = parameter_to_data(&file, "caliber").unwrap().parse().unwrap();
+		let caliber = blk.float("/rocket/caliber").unwrap();
 
-		let force0 = parameter_to_data(&file, "force").map_or_else(|| parameter_to_data(&file, "force0").unwrap().parse().unwrap(), |value| value.parse().unwrap());
+		// Add force0 if this starts to crash
+		let force0 = blk.float("/rocket/force").unwrap();
 
-		let force1 = parameter_to_data(&file, "force1").map_or(0.0, |value| value.parse().unwrap());
+		let force1 = blk.float("/rocket/force1").unwrap_or(0.0);
 
-		let timefire0 = parameter_to_data(&file, "timeFire").map_or_else(|| parameter_to_data(&file, "timeFire0").unwrap().parse().unwrap(), |value| value.parse().unwrap());
+		let timefire0 = blk.float("/rocket/timeFire").unwrap();
 
-		let timefire1 = parameter_to_data(&file, "timeFire1").map_or(0.0, |value| value.parse().unwrap());
+		let timefire1 = blk.float("/rocket/timeFire1").unwrap_or(0.0);
 
-		let cxk = parameter_to_data(&file, "CxK").unwrap().parse().unwrap();
+		let cxk = blk.float("/rocket/CxK").unwrap();
 
-		let dragcx = parameter_to_data(&file, "dragCx").unwrap().parse().unwrap();
+		let dragcx = blk.float("/rocket/dragCx").unwrap();
 
-		let timelife = parameter_to_data(&file, "timeLife").unwrap().parse().unwrap();
+		let timelife = blk.float("/rocket/timeLife").unwrap();
 
-		let endspeed = parameter_to_data(&file, "endSpeed").unwrap().parse().unwrap();
+		let endspeed = blk.float("/rocket/endSpeed").unwrap();
 
-		let exp_mass = explosive_type_to_tnt(&parameter_to_data(&file, "explosiveType").unwrap().replace('\"', ""), (parameter_to_data(&file, "explosiveMass").unwrap().parse::<f64>().unwrap() * 1000.0).round());
+		let exp_mass = explosive_type_to_tnt(
+			&blk.str("/rocket/explosiveType").unwrap().replace('\"', ""),
+			(blk.float("/rocket/explosiveMass").unwrap() * 1000.0).round(),
+		);
 
-		let pfuse = parameter_to_data(&file, "hasProximityFuse").map_or(false, |value| value.parse().unwrap());
+		let pfuse = blk.bool("/rocket/hasProximityFuse").unwrap_or(false);
 
-		let loadfactormax = parameter_to_data(&file, "loadFactorMax").unwrap().parse().unwrap();
+		let loadfactormax = blk.float("/rocket/loadFactorMax").unwrap();
 
-		let mut reqaccelmax = 0.0;
-		if let Some(value) = parameter_to_data(&file, "reqAccelMax") {
-			reqaccelmax = value.parse().unwrap();
-		}
+		let reqaccelmax = blk.float("/rocket/guidance/guidanceAutopilot/reqAccelMax").unwrap_or(0.0);
 
-		let mut bands: [f64; 4] = [0.0, 0.0, 0.0, 0.0];
-		if seekertype == SeekerType::Ir {
-			if let Some(value) = parameter_to_data(&file, "rangeBand0") {
-				bands[0] = value.parse().unwrap();
-			}
-			if let Some(value) = parameter_to_data(&file, "rangeBand1") {
-				bands[1] = value.parse().unwrap();
-			}
-			if let Some(value) = parameter_to_data(&file, "rangeBand2") {
-				bands[2] = value.parse().unwrap();
-			}
-			if let Some(value) = parameter_to_data(&file, "rangeBand3") {
-				bands[3] = value.parse().unwrap();
-			}
-		}
-
-		let fov = parameter_to_data(&file, "fov").map_or(0.0, |value| value.parse().unwrap());
-
-		let gate = parameter_to_data(&file, "gateWidth").map_or(0.0, |value| value.parse().unwrap());
-
-		let lockanglemax = parameter_to_data(&file, "lockAngleMax").unwrap().parse().unwrap();
-
-		let anglemax = parameter_to_data(&file, "angleMax").unwrap().parse().unwrap();
-
-		let minangletosun = if seekertype == SeekerType::Ir {
-			parameter_to_data(&file, "minAngleToSun").unwrap().parse().unwrap()
+		let bands = if seekertype == SeekerType::Ir {
+			Some(Visband {
+				range_band0: blk.float("/rocket/guidance/irSeeker/rangeBand0").unwrap() as usize,
+				range_band1: blk.float("/rocket/guidance/irSeeker/rangeBand1").unwrap_or(0.0) as usize,
+				range_band2: blk.float("/rocket/guidance/irSeeker/rangeBand2").unwrap() as usize,
+				range_band3: blk.float("/rocket/guidance/irSeeker/rangeBand3").unwrap() as usize,
+				range_band6: blk.float("/rocket/guidance/irSeeker/rangeBand6").unwrap_or(0.0) as usize,
+				range_band7: blk.float("/rocket/guidance/irSeeker/rangeBand7").unwrap() as usize,
+				range_max: blk.float("/rocket/guidance/irSeeker/rangeMax").unwrap() as usize,
+			})
 		} else {
-			0.0
+			None
 		};
 
-		let timeout = parameter_to_data(&file, "timeOut").unwrap().parse().unwrap();
+		let fov = if seekertype == SeekerType::Ir {
+			Some(blk.float("/rocket/guidance/irSeeker/fov").unwrap())
+		} else {
+			None
+		};
 
-		let warmuptime = parameter_to_data(&file, "warmUpTime").unwrap().parse().unwrap();
+		let gate = blk.float("/rocket/guidance/irSeeker/gateWidth").ok();
 
-		let worktime = parameter_to_data(&file, "workTime").unwrap().parse().unwrap();
+		let seeker_name = match seekertype {
+			SeekerType::Ir => {
+				"irSeeker"
+			}
+			SeekerType::Sarh => {
+				"radarSeeker"
+			}
+			SeekerType::Arh => {
+				"radarSeeker"
+			}
+		};
+		let lockanglemax =  blk.float(&format!("/rocket/guidance/{seeker_name}/lockAngleMax")).unwrap();
 
-		let cageable = parameter_to_data(&file, "uncageBeforeLaunch").unwrap().parse::<bool>().unwrap();
+		let anglemax =blk.float(&format!("/rocket/guidance/{seeker_name}/angleMax")).unwrap();
 
-		let rate_max = parameter_to_data(&file, "rateMax").unwrap().parse::<f64>().unwrap();
+		let minangletosun = if seekertype == SeekerType::Ir {
+			Some(blk.float(&format!("/rocket/guidance/irSeeker/minAngleToSun")).unwrap())
+		} else {
+			None
+		};
 
-		let inertial_navigation = parameter_to_data(&file, "inertialNavigation").unwrap_or_else(|| "false".to_owned()).parse::<bool>().unwrap();
+		let timeout = blk.float(&format!("/rocket/guidance/guidanceAutopilot/timeOut")).unwrap_or(0.0);
 
-		let use_target_vel = parameter_to_data(&file, "useTargetVel").unwrap_or_else(|| "false".to_owned()).parse::<bool>().unwrap();
+		let warmuptime = blk.float("/rocket/guidance/warmUpTime").unwrap();
 
-		let allow_radar_slave = file.contains("designationSourceTypeMask");
+		let worktime = blk.float("/rocket/guidance/workTime").unwrap();
 
-		let has_data_link = parameter_to_data(&file, "datalink").unwrap_or("false".to_owned()).parse().unwrap();
+		let cageable = blk.bool("/rocket/guidance/uncageBeforeLaunch").unwrap();
 
-		let has_inertial_navigation = parameter_to_data(&file, "inertialNavigation").unwrap_or("false".to_owned()).parse().unwrap();
+		let rate_max = blk.float(&format!("/rocket/guidance/{seeker_name}/rateMax")).unwrap();
+
+		let inertial_navigation = blk.bool("/rocket/guidance/inertialNavigation").unwrap_or(false);
+
+		let use_target_vel = blk.bool("/rocket/guidance/useTargetVel").unwrap_or(false);
+
+		let allow_radar_slave = blk.float(&format!("/rocket/guidance/{seeker_name}/designationSourceTypeMask")).is_ok();
+
+		let has_data_link = blk.bool(&format!("/rocket/guidance/inertialGuidance/datalink")).unwrap_or(false);
+
+		let reconnect_data_link = blk.bool(&format!("/rocket/guidance/inertialGuidance/reconnectDatalink")).unwrap_or(false);
+
+		let has_inertial_navigation = blk.pointer("/rocket/guidance/inertialGuidance").is_ok();
 
 		Self {
 			// localized first as the borrow consumes name otherwise
@@ -306,6 +324,7 @@ impl ExtractCore for Missile {
 			use_target_vel,
 			allow_radar_slave,
 			has_data_link,
+			reconnect_data_link,
 			has_inertial_navigation,
 			deltav: ((force0 / mass * timefire0) + (force1 / mass * timefire1)).round(),
 		}
