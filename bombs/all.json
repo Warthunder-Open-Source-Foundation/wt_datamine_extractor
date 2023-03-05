@@ -1548,6 +1548,33 @@
     "can_kill_npc_ship": true
   },
   {
+    "name": "sws_200_kg_sprengbombe",
+    "weight": 200.0,
+    "explosive_mass": 105.0,
+    "explosive_type": "comp_b",
+    "explosive_equiv": 138.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
+    "name": "sws_400_kg_sprengbombe",
+    "weight": 400.0,
+    "explosive_mass": 169.0,
+    "explosive_type": "tnt",
+    "explosive_equiv": 169.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
+    "name": "sws_450_kg_sprengbombe_68_70",
+    "weight": 500.0,
+    "explosive_mass": 201.0,
+    "explosive_type": "tritonal",
+    "explosive_equiv": 237.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
     "name": "uk_1000lb_ld_he_mc_mk_1",
     "weight": 453.6,
     "explosive_mass": 201.8,
