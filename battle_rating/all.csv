@@ -577,7 +577,7 @@ lagg-3-66;LaGG-3-66;6;5;5;2;USSR
 lagg-3-8;LaGG-3-8;4;3;4;2;USSR
 p-36a;P-36A;2;1;2;1;USA
 p-36c;P-36C;3;2;4;1;USA
-p-36c_rb;P-36C RB;3;2;4;1;USA
+p-36c_rb;○P-36C RB;3;2;4;1;USA
 p-36g;P-36G;4;5;5;1;USA
 xp-50;XP-50;9;9;9;3;USA
 xp-55;XP-55;8;10;6;2;USA
@@ -1496,7 +1496,7 @@ us_m50_ontos;M50;17;17;17;5;USA
 us_t114;T114;18;19;19;5;USA
 us_m551;M551;20;21;21;6;USA
 us_m6a1;M6A1;11;12;12;3;USA
-us_t1e1;us_t1e1;12;12;12;3;USA
+us_t1e1;us_t1e1;11;12;12;3;USA
 us_m6a2e1;M6A2E1;17;17;17;4;USA
 us_m103;M103;20;20;20;5;USA
 us_m3_lee;M3 Lee;4;5;5;2;USA
@@ -1639,7 +1639,7 @@ germ_leopard_2pl;Leopard 2 PL;30;30;30;7;Germany
 germ_leopard_2a5;Leopard 2A5;31;31;31;7;Germany
 germ_leopard_2a6;Leopard 2A6;31;31;31;7;Germany
 germ_kpz_70;KPz-70;24;25;25;6;Germany
-germ_kpz_t72m1;T-72M1;25;25;25;6;Germany
+germ_kpz_t72m1;◊T-72M1;25;25;25;6;Germany
 us_m18_super_hellcat;Super Hellcat;15;16;16;4;USA
 ussr_t_34_100;T-34-100;16;16;16;4;USSR
 ussr_t_26_4;T-26-4;0;0;0;1;USSR
@@ -2076,7 +2076,7 @@ cn_ztz_96a_race;ZTZ96A race;26;26;26;6;China
 cn_wz_1001;WZ1001(E) LCT;31;31;31;7;China
 cn_type_69;Type 69;21;21;21;5;China
 cn_type_69_2g;T-69 II G;22;22;22;6;China
-cn_sdkfz_222_early;Sd.Kfz.222;1;1;1;1;China
+cn_sdkfz_222_early;␗Sd.Kfz.222;1;1;1;1;China
 cn_gmc_cckw_353_m45_quad;CCKW 353 (M45);4;4;4;2;China
 cn_zsd63_pg87;ZSD63/PG87;11;10;10;3;China
 cn_m4a1_76w_sherman;␗M4A1 (75) W;9;9;9;3;China
@@ -2480,3 +2480,4 @@ uk_frigate_whitby;HMS Whitby;8;8;8;4;Great Britain
 uk_destroyer_restigouche_class_terranova;HMCS Terra Nova;8;8;8;5;Great Britain
 ussr_mpk_204;MPK Pr.204;8;8;8;4;USSR
 germ_type153_pfeil;Motor Torpedo Boat;10;10;10;5;Germany
+us_battleship_nevada;USS Nevada;17;17;17;5;USA

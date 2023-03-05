@@ -9844,7 +9844,7 @@
   },
   {
     "name": "p-36c_rb",
-    "localized": "P-36C RB",
+    "localized": "○P-36C RB",
     "arcade": {
       "economic_rank": 3
     },
@@ -25469,7 +25469,7 @@
     "name": "us_t1e1",
     "localized": "us_t1e1",
     "arcade": {
-      "economic_rank": 12
+      "economic_rank": 11
     },
     "realistic": {
       "economic_rank": 12
@@ -27898,7 +27898,7 @@
   },
   {
     "name": "germ_kpz_t72m1",
-    "localized": "T-72M1",
+    "localized": "◊T-72M1",
     "arcade": {
       "economic_rank": 25
     },
@@ -35327,7 +35327,7 @@
   },
   {
     "name": "cn_sdkfz_222_early",
-    "localized": "Sd.Kfz.222",
+    "localized": "␗Sd.Kfz.222",
     "arcade": {
       "economic_rank": 1
     },
@@ -42191,6 +42191,23 @@
     "rank": 5,
     "tech_tree": {
       "nation": "Germany"
+    }
+  },
+  {
+    "name": "us_battleship_nevada",
+    "localized": "USS Nevada",
+    "arcade": {
+      "economic_rank": 17
+    },
+    "realistic": {
+      "economic_rank": 17
+    },
+    "simulator": {
+      "economic_rank": 17
+    },
+    "rank": 5,
+    "tech_tree": {
+      "nation": "USA"
     }
   }
 ]
