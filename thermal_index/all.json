@@ -73,7 +73,7 @@
   },
   {
     "name": "ah_1f_iaf",
-    "localized": "✡AH-1F",
+    "localized": "Tzefa D/E",
     "vehicle_type": "Helicopter",
     "sights": [
       {
@@ -157,7 +157,7 @@
   },
   {
     "name": "ah_64a_iaf",
-    "localized": "✡AH-64A",
+    "localized": "Peten",
     "vehicle_type": "Helicopter",
     "sights": [
       {
@@ -181,7 +181,7 @@
   },
   {
     "name": "ah_64a_peten_iaf",
-    "localized": "AH-64A Peten",
+    "localized": "✡AH-64A Peten",
     "vehicle_type": "Helicopter",
     "sights": [
       {
@@ -205,7 +205,7 @@
   },
   {
     "name": "ah_64d_i_saraph",
-    "localized": "✡AH-64D-I",
+    "localized": "Saraph",
     "vehicle_type": "Helicopter",
     "sights": [
       {
@@ -326,6 +326,18 @@
   {
     "name": "cn_pgz_09",
     "localized": "PGZ09",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "cn_pgz_88",
+    "localized": "cn_pgz_88",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -956,6 +968,18 @@
         "crew": "Global",
         "x": 1024.0,
         "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "il_centurion_shot_kal_d",
+    "localized": "Sho't Kal Dalet",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
       }
     ]
   },
@@ -2101,6 +2125,18 @@
   {
     "name": "uk_adats_m113a3",
     "localized": "ADATS (M113)",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "uk_centurion_shot_kal_d",
+    "localized": "⦿Sho't Kal Dalet",
     "vehicle_type": "Tank",
     "sights": [
       {

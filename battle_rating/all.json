@@ -1021,7 +1021,7 @@
   },
   {
     "name": "f_16a_block_10_iaf",
-    "localized": "✡F-16A Netz",
+    "localized": "Netz",
     "arcade": {
       "economic_rank": 33
     },
@@ -1361,7 +1361,7 @@
   },
   {
     "name": "f-4e_iaf",
-    "localized": "✡F-4E Phantom II",
+    "localized": "Kurnass",
     "arcade": {
       "economic_rank": 30
     },
@@ -1372,6 +1372,23 @@
       "economic_rank": 30
     },
     "rank": 7,
+    "tech_tree": {
+      "nation": "Israel"
+    }
+  },
+  {
+    "name": "f-4e_kurnass_2000",
+    "localized": "Kurnass 2000",
+    "arcade": {
+      "economic_rank": 31
+    },
+    "realistic": {
+      "economic_rank": 32
+    },
+    "simulator": {
+      "economic_rank": 30
+    },
+    "rank": 8,
     "tech_tree": {
       "nation": "Israel"
     }
@@ -2921,6 +2938,23 @@
     "rank": 6,
     "tech_tree": {
       "nation": "Sweden"
+    }
+  },
+  {
+    "name": "hunter_f58_switzerland",
+    "localized": "◌Hunter F.58",
+    "arcade": {
+      "economic_rank": 25
+    },
+    "realistic": {
+      "economic_rank": 25
+    },
+    "simulator": {
+      "economic_rank": 26
+    },
+    "rank": 6,
+    "tech_tree": {
+      "nation": "Germany"
     }
   },
   {
@@ -5355,23 +5389,6 @@
     }
   },
   {
-    "name": "lancaster_mr7_france",
-    "localized": "Lancaster MR.7",
-    "arcade": {
-      "economic_rank": 12
-    },
-    "realistic": {
-      "economic_rank": 14
-    },
-    "simulator": {
-      "economic_rank": 15
-    },
-    "rank": 4,
-    "tech_tree": {
-      "nation": "France"
-    }
-  },
-  {
     "name": "shackleton_mr_mk_2",
     "localized": "Shackleton MR.Mk.2",
     "arcade": {
@@ -6011,6 +6028,23 @@
     },
     "simulator": {
       "economic_rank": 1
+    },
+    "rank": 1,
+    "tech_tree": {
+      "nation": "Italy"
+    }
+  },
+  {
+    "name": "ro_44",
+    "localized": "Ro.44",
+    "arcade": {
+      "economic_rank": 0
+    },
+    "realistic": {
+      "economic_rank": 0
+    },
+    "simulator": {
+      "economic_rank": 0
     },
     "rank": 1,
     "tech_tree": {
@@ -9844,7 +9878,7 @@
   },
   {
     "name": "p-36c_rb",
-    "localized": "○P-36C RB",
+    "localized": "○P-36C",
     "arcade": {
       "economic_rank": 3
     },
@@ -17137,7 +17171,7 @@
   },
   {
     "name": "mirage_3cj",
-    "localized": "Mirage IIICJ",
+    "localized": "Shahak",
     "arcade": {
       "economic_rank": 27
     },
@@ -18394,6 +18428,23 @@
     }
   },
   {
+    "name": "f-84g-31-re_china",
+    "localized": "␗F-84G-31-RE",
+    "arcade": {
+      "economic_rank": 20
+    },
+    "realistic": {
+      "economic_rank": 20
+    },
+    "simulator": {
+      "economic_rank": 21
+    },
+    "rank": 5,
+    "tech_tree": {
+      "nation": "China"
+    }
+  },
+  {
     "name": "f-86f-30_china",
     "localized": "␗F-86F-30",
     "arcade": {
@@ -18667,7 +18718,7 @@
   },
   {
     "name": "a_4n",
-    "localized": "✡A-4N",
+    "localized": "Ayit",
     "arcade": {
       "economic_rank": 25
     },
@@ -18735,7 +18786,7 @@
   },
   {
     "name": "s_199",
-    "localized": "S-199",
+    "localized": "Sakeen",
     "arcade": {
       "economic_rank": 7
     },
@@ -18816,74 +18867,6 @@
     "rank": 6,
     "tech_tree": {
       "nation": "Israel"
-    }
-  },
-  {
-    "name": "dragonfly_a",
-    "localized": "TOPTER",
-    "arcade": {
-      "economic_rank": 29
-    },
-    "realistic": {
-      "economic_rank": 29
-    },
-    "simulator": {
-      "economic_rank": 29
-    },
-    "rank": 6,
-    "tech_tree": {
-      "nation": "USA"
-    }
-  },
-  {
-    "name": "dragonfly_h",
-    "localized": "TOPTER",
-    "arcade": {
-      "economic_rank": 29
-    },
-    "realistic": {
-      "economic_rank": 29
-    },
-    "simulator": {
-      "economic_rank": 29
-    },
-    "rank": 6,
-    "tech_tree": {
-      "nation": "USSR"
-    }
-  },
-  {
-    "name": "dragonfly_99_rda",
-    "localized": "Dragonfly AB-99 (R)",
-    "arcade": {
-      "economic_rank": 29
-    },
-    "realistic": {
-      "economic_rank": 29
-    },
-    "simulator": {
-      "economic_rank": 29
-    },
-    "rank": 6,
-    "tech_tree": {
-      "nation": "USA"
-    }
-  },
-  {
-    "name": "dragonfly_99_na",
-    "localized": "Dragonfly AB-99 (N)",
-    "arcade": {
-      "economic_rank": 29
-    },
-    "realistic": {
-      "economic_rank": 29
-    },
-    "simulator": {
-      "economic_rank": 29
-    },
-    "rank": 6,
-    "tech_tree": {
-      "nation": "USSR"
     }
   },
   {
@@ -19534,7 +19517,7 @@
   },
   {
     "name": "ah_1g_iaf",
-    "localized": "✡AH-1G",
+    "localized": "Tzefa A",
     "arcade": {
       "economic_rank": 23
     },
@@ -19551,7 +19534,7 @@
   },
   {
     "name": "ah_1q_iaf",
-    "localized": "✡AH-1Q",
+    "localized": "Tzefa B",
     "arcade": {
       "economic_rank": 24
     },
@@ -19568,7 +19551,7 @@
   },
   {
     "name": "ah_1f_iaf",
-    "localized": "✡AH-1F",
+    "localized": "Tzefa D/E",
     "arcade": {
       "economic_rank": 26
     },
@@ -19602,7 +19585,7 @@
   },
   {
     "name": "md_500_tow_late",
-    "localized": "MD500-TOW",
+    "localized": "Lahatut",
     "arcade": {
       "economic_rank": 23
     },
@@ -19789,7 +19772,7 @@
   },
   {
     "name": "ah_64a_peten_iaf",
-    "localized": "AH-64A Peten",
+    "localized": "✡AH-64A Peten",
     "arcade": {
       "economic_rank": 28
     },
@@ -19823,7 +19806,7 @@
   },
   {
     "name": "ah_64a_iaf",
-    "localized": "✡AH-64A",
+    "localized": "Peten",
     "arcade": {
       "economic_rank": 28
     },
@@ -19840,7 +19823,7 @@
   },
   {
     "name": "ah_64d_i_saraph",
-    "localized": "✡AH-64D-I",
+    "localized": "Saraph",
     "arcade": {
       "economic_rank": 29
     },
@@ -25467,7 +25450,7 @@
   },
   {
     "name": "us_t1e1",
-    "localized": "us_t1e1",
+    "localized": "T1E1",
     "arcade": {
       "economic_rank": 11
     },
@@ -26641,6 +26624,23 @@
   {
     "name": "us_lvt_a_1",
     "localized": "LVT(A)(1)",
+    "arcade": {
+      "economic_rank": 0
+    },
+    "realistic": {
+      "economic_rank": 0
+    },
+    "simulator": {
+      "economic_rank": 0
+    },
+    "rank": 1,
+    "tech_tree": {
+      "nation": "USA"
+    }
+  },
+  {
+    "name": "us_lvt_a_1_trb",
+    "localized": "○LVT(A)(1)",
     "arcade": {
       "economic_rank": 0
     },
@@ -30943,13 +30943,13 @@
     "name": "uk_centurion_shot_kal_d",
     "localized": "⦿Sho't Kal Dalet",
     "arcade": {
-      "economic_rank": 22
+      "economic_rank": 23
     },
     "realistic": {
-      "economic_rank": 22
+      "economic_rank": 23
     },
     "simulator": {
-      "economic_rank": 22
+      "economic_rank": 23
     },
     "rank": 6,
     "tech_tree": {
@@ -32337,13 +32337,13 @@
     "name": "fr_char_2c",
     "localized": "2C",
     "arcade": {
-      "economic_rank": 5
+      "economic_rank": 4
     },
     "realistic": {
-      "economic_rank": 5
+      "economic_rank": 4
     },
     "simulator": {
-      "economic_rank": 5
+      "economic_rank": 4
     },
     "rank": 2,
     "tech_tree": {
@@ -34105,13 +34105,13 @@
     "name": "il_centurion_shot_kal_d",
     "localized": "Sho't Kal Dalet",
     "arcade": {
-      "economic_rank": 22
+      "economic_rank": 23
     },
     "realistic": {
-      "economic_rank": 22
+      "economic_rank": 23
     },
     "simulator": {
-      "economic_rank": 22
+      "economic_rank": 23
     },
     "rank": 6,
     "tech_tree": {
@@ -42076,7 +42076,7 @@
   },
   {
     "name": "fr_destroyer_aigle_class_aigle",
-    "localized": "MN Aigle",
+    "localized": "Aigle",
     "arcade": {
       "economic_rank": 10
     },
@@ -42208,6 +42208,23 @@
     "rank": 5,
     "tech_tree": {
       "nation": "USA"
+    }
+  },
+  {
+    "name": "fr_cruiser_dugauy_class_dugauy_trouin",
+    "localized": "Duguay-Trouin",
+    "arcade": {
+      "economic_rank": 11
+    },
+    "realistic": {
+      "economic_rank": 11
+    },
+    "simulator": {
+      "economic_rank": 11
+    },
+    "rank": 3,
+    "tech_tree": {
+      "nation": "France"
     }
   }
 ]

@@ -181,8 +181,8 @@
   },
   {
     "name": "de_flam_250",
-    "weight": 250.0,
-    "explosive_mass": 74.0,
+    "weight": 110.0,
+    "explosive_mass": 50.0,
     "explosive_type": "fp_02",
     "explosive_equiv": 0.0,
     "can_kill_npc_tank": false,
@@ -290,9 +290,9 @@
   {
     "name": "de_sd50",
     "weight": 50.0,
-    "explosive_mass": 25.0,
+    "explosive_mass": 16.4,
     "explosive_type": "fp60_40",
-    "explosive_equiv": 25.0,
+    "explosive_equiv": 16.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -883,8 +883,8 @@
   },
   {
     "name": "it_250kg_napalm_aerea_559g1",
-    "weight": 253.0,
-    "explosive_mass": 260.0,
+    "weight": 260.0,
+    "explosive_mass": 253.0,
     "explosive_type": "aerea_64057",
     "explosive_equiv": 1.0,
     "can_kill_npc_tank": false,
@@ -1566,11 +1566,20 @@
     "can_kill_npc_ship": true
   },
   {
+    "name": "sws_400kg_febb_napalmbombe",
+    "weight": 400.0,
+    "explosive_mass": 358.3,
+    "explosive_type": "napalm",
+    "explosive_equiv": 1.0,
+    "can_kill_npc_tank": false,
+    "can_kill_npc_ship": false
+  },
+  {
     "name": "sws_450_kg_sprengbombe_68_70",
-    "weight": 500.0,
-    "explosive_mass": 201.0,
+    "weight": 446.8,
+    "explosive_mass": 200.0,
     "explosive_type": "tritonal",
-    "explosive_equiv": 237.0,
+    "explosive_equiv": 236.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1620,6 +1629,15 @@
     "can_kill_npc_ship": true
   },
   {
+    "name": "uk_1000lbs_mc_mk1_mk2_bomb",
+    "weight": 463.1,
+    "explosive_mass": 215.4,
+    "explosive_type": "amatol_tnt",
+    "explosive_equiv": 215.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
     "name": "uk_12000lb_hc_mki_n33_bomb",
     "weight": 5740.6,
     "explosive_mass": 3973.5,
@@ -1661,6 +1679,15 @@
     "explosive_mass": 30.7,
     "explosive_type": "tnt",
     "explosive_equiv": 31.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": false
+  },
+  {
+    "name": "uk_250lbs_mc_mk1_mk2_bomb",
+    "weight": 102.0,
+    "explosive_mass": 51.0,
+    "explosive_type": "amatol",
+    "explosive_equiv": 51.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": false
   },
@@ -1721,6 +1748,15 @@
   {
     "name": "uk_500lb_he_mc_mk2",
     "weight": 213.1,
+    "explosive_mass": 100.7,
+    "explosive_type": "rdx_tnt",
+    "explosive_equiv": 129.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
+    "name": "uk_500lb_mc_mk1_mk4_long_tail_bomb",
+    "weight": 231.7,
     "explosive_mass": 100.7,
     "explosive_type": "rdx_tnt",
     "explosive_equiv": 129.0,
@@ -2026,10 +2062,10 @@
   },
   {
     "name": "us_4000lb_anm56_box",
-    "weight": 1814.4,
-    "explosive_mass": 1471.8,
-    "explosive_type": "amatol_tnt",
-    "explosive_equiv": 1472.0,
+    "weight": 1981.3,
+    "explosive_mass": 1599.4,
+    "explosive_type": "tritonal",
+    "explosive_equiv": 1887.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
