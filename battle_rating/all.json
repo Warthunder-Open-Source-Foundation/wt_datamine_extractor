@@ -2930,7 +2930,7 @@
       "economic_rank": 25
     },
     "realistic": {
-      "economic_rank": 25
+      "economic_rank": 24
     },
     "simulator": {
       "economic_rank": 25
@@ -2947,7 +2947,7 @@
       "economic_rank": 25
     },
     "realistic": {
-      "economic_rank": 25
+      "economic_rank": 26
     },
     "simulator": {
       "economic_rank": 26
@@ -7107,7 +7107,7 @@
   },
   {
     "name": "saab_j35xs",
-    "localized": "Saab 35FS",
+    "localized": "Saab J35XS",
     "arcade": {
       "economic_rank": 27
     },
@@ -14626,7 +14626,7 @@
       "economic_rank": 27
     },
     "realistic": {
-      "economic_rank": 27
+      "economic_rank": 26
     },
     "simulator": {
       "economic_rank": 26

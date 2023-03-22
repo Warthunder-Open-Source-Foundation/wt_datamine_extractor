@@ -170,8 +170,8 @@ bf-109g-2_finland;⦿Bf 109 G-2;13;10;9;4;Sweden
 bf-109g-6_erla_finland;⦿Bf 109 G-6 Erla;13;11;11;4;Sweden
 vampire_fb52_finland;⦿Vampire FB 52A;20;21;20;5;Sweden
 ju-88a-4_finland;⦿Ju 88 A-4;6;6;5;2;Sweden
-hunter_f50_sweden;J34;25;25;25;6;Sweden
-hunter_f58_switzerland;◌Hunter F.58;25;25;26;6;Germany
+hunter_f50_sweden;J34;25;24;25;6;Sweden
+hunter_f58_switzerland;◌Hunter F.58;25;26;26;6;Germany
 mig-21_bis_lazur;"◊MiG-21 """"Lazur-M""""";29;30;30;7;Germany
 mig_21_bis_finland;⦿MiG-21bis;29;30;30;7;Sweden
 saab_b18a;B18A;3;5;4;2;Sweden
@@ -416,7 +416,7 @@ saab_b17bs;S17BS;1;0;1;1;Sweden
 saab_b17a;B17A;3;2;3;2;Sweden
 saab_b17b;B17B;1;1;1;1;Sweden
 saab_j32b;J32B;26;25;26;6;Sweden
-saab_j35xs;Saab 35FS;27;29;29;7;Sweden
+saab_j35xs;Saab J35XS;27;29;29;7;Sweden
 saab_j35d;J35D;27;28;29;7;Sweden
 saab_j35a;J35A;24;26;26;6;Sweden
 saab_a32a;A32A;24;25;24;6;Sweden
@@ -858,7 +858,7 @@ do_17z_7;Do 17 Z-7;2;1;1;1;Germany
 sb2c_4;SB2C-4;8;8;8;3;USA
 scimitar_f1;Scimitar F Mk.1;22;23;23;6;Great Britain
 hunter_f1;Hunter F.1;24;24;24;6;Great Britain
-hunter_f6;Hunter F.6;27;27;26;6;Great Britain
+hunter_f6;Hunter F.6;27;26;26;6;Great Britain
 hunter_f9_rhodesia;Hunter FGA.9;25;25;26;5;Great Britain
 p-38e;P-38E;5;6;7;2;USA
 p-38k;P-38K;12;13;13;4;USA

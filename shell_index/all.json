@@ -17774,7 +17774,7 @@
   },
   {
     "name": "football_jump",
-    "localized": "football_jump",
+    "localized": "Jump",
     "shell_type": "Football",
     "caliber": 152,
     "true_caliber": 152,
@@ -17862,7 +17862,7 @@
   },
   {
     "name": "napalm",
-    "localized": "Incendary mixture",
+    "localized": "Incendiary mixture",
     "shell_type": "Napalm",
     "caliber": 20,
     "true_caliber": 20,
