@@ -1128,7 +1128,7 @@
     "composite_armor_hull_05_dm": true
   },
   "sound": {
-    "EngineName": "engine_m60_patton",
+    "EngineName": "engine_leo2a5",
     "TrackSoundPath": "tanks/engines_tanks",
     "TrackSoundPathStudio": "ground/engines",
     "TrackSoundName": "tracks_mbt",
@@ -4193,6 +4193,19 @@
               }
             }
           ]
+        }
+      }
+    },
+    "mine_protection_improvement": {
+      "invertEnableLogic": false,
+      "turn_it_off": false,
+      "effects": {
+        "rcostAddParam": 0.92,
+        "changeMass": 3000.0
+      },
+      "disableModEffects": {
+        "hideNodes": {
+          "node": "turret_08_bottom"
         }
       }
     },
