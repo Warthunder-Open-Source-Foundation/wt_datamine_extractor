@@ -116,10 +116,6 @@
       "strengthEquivalent": 1.1,
       "brisanceEquivalent": 1.06
     },
-    "melinite": {
-      "strengthEquivalent": 1.1,
-      "brisanceEquivalent": 1.06
-    },
     "torpex": {
       "strengthEquivalent": 1.6,
       "brisanceEquivalent": 1.2
@@ -144,27 +140,11 @@
       "strengthEquivalent": 0.002,
       "brisanceEquivalent": 0.002
     },
-    "oktogel": {
-      "strengthEquivalent": 0.002,
-      "brisanceEquivalent": 0.002
-    },
     "sks": {
       "strengthEquivalent": 0.002,
       "brisanceEquivalent": 0.002
     },
     "fp_02": {
-      "strengthEquivalent": 0.002,
-      "brisanceEquivalent": 0.002
-    },
-    "octogel": {
-      "strengthEquivalent": 0.002,
-      "brisanceEquivalent": 0.002
-    },
-    "aerea_64057": {
-      "strengthEquivalent": 0.002,
-      "brisanceEquivalent": 0.002
-    },
-    "napalm_gel": {
       "strengthEquivalent": 0.002,
       "brisanceEquivalent": 0.002
     },
@@ -225,7 +205,7 @@
       "brisanceEquivalent": 1.4
     },
     "a_ix_1": {
-      "strengthEquivalent": 1.25,
+      "strengthEquivalent": 1.54,
       "brisanceEquivalent": 1.4
     },
     "h10": {
@@ -270,10 +250,6 @@
     },
     "shellite": {
       "strengthEquivalent": 0.94,
-      "brisanceEquivalent": 0.9
-    },
-    "mn_f_dn": {
-      "strengthEquivalent": 0.9,
       "brisanceEquivalent": 0.9
     },
     "dd": {
@@ -439,15 +415,7 @@
       ],
       "p23": [
         3500.0,
-        12.5
-      ],
-      "p24": [
-        5000.0,
         15.0
-      ],
-      "p25": [
-        6000.0,
-        16.0
       ]
     },
     "explosiveMassToOuterRadius": {
@@ -545,15 +513,7 @@
       ],
       "p23": [
         3500.0,
-        100.0
-      ],
-      "p24": [
-        5000.0,
         120.0
-      ],
-      "p25": [
-        6000.0,
-        130.0
       ]
     },
     "explosiveMassToPenetration": {
@@ -631,15 +591,7 @@
       ],
       "p18": [
         3500.0,
-        320.0
-      ],
-      "p19": [
-        5000.0,
         350.0
-      ],
-      "p20": [
-        6000.0,
-        365.0
       ]
     },
     "explosiveMassToDamage": {
@@ -730,14 +682,6 @@
       "p21": [
         3500.0,
         30000.0
-      ],
-      "p22": [
-        5000.0,
-        30500.0
-      ],
-      "p23": [
-        6000.0,
-        31000.0
       ]
     },
     "explosiveMassToExplosiveRadius": {
@@ -836,14 +780,6 @@
       "p23": [
         3500.0,
         10.0
-      ],
-      "p24": [
-        5000.0,
-        12.0
-      ],
-      "p25": [
-        6000.0,
-        13.0
       ]
     }
   },
@@ -1688,14 +1624,6 @@
         "p12": [
           3500.0,
           370.0
-        ],
-        "p13": [
-          5000.0,
-          375.0
-        ],
-        "p14": [
-          5000.0,
-          380.0
         ]
       },
       "explosiveMassToPenetration": {
@@ -1746,14 +1674,6 @@
         "p11": [
           3500.0,
           19.0
-        ],
-        "p12": [
-          5000.0,
-          20.0
-        ],
-        "p13": [
-          6000.0,
-          21.0
         ]
       },
       "explosiveMassToDamage": {
@@ -1804,14 +1724,6 @@
         "p11": [
           3500.0,
           22.0
-        ],
-        "p12": [
-          5000.0,
-          23.0
-        ],
-        "p13": [
-          6000.0,
-          24.0
         ]
       },
       "bodyMassToShattersCount": {

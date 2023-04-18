@@ -1,7 +1,7 @@
 {
   "model": "ah_mk1",
   "fmFile": "fm/ah_mk1.blk",
-  "viewDistKInSight": 6.0,
+  "viewDistKInSight": 4.0,
   "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/hellicopters_metaparts.blk",
   "haveCCIPForRocket": true,
   "haveCCIPForGun": true,
@@ -2694,7 +2694,7 @@
       "prevModification": "AMASE_heli_false_thermal_targets",
       "tier": 3,
       "modClass": "weapon",
-      "image": "#ui/gameuiskin#thermal_sight",
+      "image": "#ui/gameuiskin#thermal_sight.png",
       "effects": {
         "nightVision": {
           "gunnerIr": {
@@ -2739,7 +2739,13 @@
         "from": "ah_mk1_c*"
       },
       {
+        "from": "ah_mk1_c_dmg*"
+      },
+      {
         "from": "ah_mk1_n*"
+      },
+      {
+        "from": "ah_mk1_n_dmg*"
       }
     ]
   },

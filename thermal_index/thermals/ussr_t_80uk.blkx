@@ -146,7 +146,6 @@
         "armorThickness": 0.01,
         "genericArmorQuality": 0.0,
         "cumulativeArmorQuality": 0.0,
-        "secondaryShatterArmorQuality": 0.0,
         "createSecondaryShatters": false
       }
     },

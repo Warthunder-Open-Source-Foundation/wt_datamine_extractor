@@ -230,7 +230,7 @@ impl ExtractCore for Missile {
 				range_band3: blk.float("/rocket/guidance/irSeeker/rangeBand3").unwrap() as usize,
 				range_band4: blk.float("/rocket/guidance/irSeeker/rangeBand4").unwrap_or(0.0) as usize,
 				range_band6: blk.float("/rocket/guidance/irSeeker/rangeBand6").unwrap_or(0.0) as usize,
-				range_band7: blk.float("/rocket/guidance/irSeeker/rangeBand7").unwrap() as usize,
+				range_band7: blk.float("/rocket/guidance/irSeeker/rangeBand7").unwrap_or(0.0) as usize,
 				range_max: blk.float("/rocket/guidance/irSeeker/rangeMax").unwrap() as usize,
 			})
 		} else {

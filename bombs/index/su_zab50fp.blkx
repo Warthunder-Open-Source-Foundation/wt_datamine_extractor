@@ -14,7 +14,6 @@
     "length": 0.936,
     "distFromCmToStab": 0.3,
     "dragCx": 0.02,
-    "useDelayExplosion": false,
     "sound": [
       "weapon.bomb_std",
       "weapon.bomb_mid"

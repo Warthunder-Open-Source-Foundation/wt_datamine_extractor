@@ -2,7 +2,7 @@
   "model": "q_5l",
   "fmFile": "fm/q_5l.blk",
   "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/jet_fighter_metaparts.blk",
-  "viewDistKInSight": 6.0,
+  "viewDistKInSight": 4.0,
   "gearSinkRangeLR": 0.166,
   "gearSinkRangeC": 0.188,
   "haveCCIPForRocket": true,
@@ -23,7 +23,6 @@
   "standardExhaustFxType": "jet_exhaust",
   "afterburnerExhaustFxType": "jet_afterburner_exhaust",
   "startExhaustFxType": "jet_start_exhaust",
-  "disableExhaustFxIfContrailIsActive": true,
   "overheatBlk": "gameData/FlightModels/dm/overheat_supersonic.blk",
   "damagePartsToCollisionObjectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_collision_objects.blk",
   "damagePartsToFmPartsMapBlk": "gameData/FlightModels/DM/dm_parts_to_fm_parts_map.blk",
@@ -2199,7 +2198,7 @@
   "sensors": {
     "sensor": [
       {
-        "blk": "gameData/sensors/ir_tracker.blk",
+        "blk": "gameData/sensors/tv_tracker_tgp.blk",
         "node": "optic1_gun"
       },
       {
@@ -2532,7 +2531,6 @@
             "name": "k_pzs_01",
             "reqModification": "cn_k_pzs_01",
             "hasTargetingPod": true,
-            "removeGunnerOpticFps": 0,
             "ShowNodes": {
               "node": [
                 "bomb_pylon4",
@@ -3097,7 +3095,13 @@
         "from": "q_5l_c*"
       },
       {
+        "from": "q_5l_c_dmg*"
+      },
+      {
         "from": "q_5l_n*"
+      },
+      {
+        "from": "q_5l_n_dmg*"
       }
     ]
   },

@@ -299,11 +299,14 @@
         ]
       },
       "damage": {
+        "kinetic": {
+          "damageType": "generic"
+        },
         "shatter": {
           "useRealShatters": true,
-          "countPortion": 0.3,
+          "countPortion": 0.2,
           "segment": {
-            "radiusScale": 1.085,
+            "radiusScale": 1.0,
             "penetrationScale": 1.0,
             "damageScale": 1.0,
             "angles": [
@@ -313,9 +316,6 @@
             "countPortion": 1.0
           }
         }
-      },
-      "shatterDamage": {
-        "breachConeAngle": 45.0
       },
       "visual": {
         "range_percent_of_ammo": [
@@ -476,11 +476,14 @@
         ]
       },
       "damage": {
+        "kinetic": {
+          "damageType": "generic"
+        },
         "shatter": {
           "useRealShatters": true,
-          "countPortion": 0.3,
+          "countPortion": 0.2,
           "segment": {
-            "radiusScale": 1.085,
+            "radiusScale": 1.0,
             "penetrationScale": 1.0,
             "damageScale": 1.0,
             "angles": [
@@ -490,9 +493,6 @@
             "countPortion": 1.0
           }
         }
-      },
-      "shatterDamage": {
-        "breachConeAngle": 45.0
       },
       "visual": {
         "range_percent_of_ammo": [
@@ -653,11 +653,14 @@
         ]
       },
       "damage": {
+        "kinetic": {
+          "damageType": "generic"
+        },
         "shatter": {
           "useRealShatters": true,
-          "countPortion": 0.3,
+          "countPortion": 0.2,
           "segment": {
-            "radiusScale": 1.085,
+            "radiusScale": 1.0,
             "penetrationScale": 1.0,
             "damageScale": 1.0,
             "angles": [
@@ -667,9 +670,6 @@
             "countPortion": 1.0
           }
         }
-      },
-      "shatterDamage": {
-        "breachConeAngle": 45.0
       },
       "visual": {
         "range_percent_of_ammo": [
@@ -833,11 +833,14 @@
           ]
         },
         "damage": {
+          "kinetic": {
+            "damageType": "generic"
+          },
           "shatter": {
             "useRealShatters": true,
-            "countPortion": 0.3,
+            "countPortion": 0.2,
             "segment": {
-              "radiusScale": 1.085,
+              "radiusScale": 1.0,
               "penetrationScale": 1.0,
               "damageScale": 1.0,
               "angles": [
@@ -847,9 +850,6 @@
               "countPortion": 1.0
             }
           }
-        },
-        "shatterDamage": {
-          "breachConeAngle": 45.0
         },
         "visual": {
           "range_percent_of_ammo": [
@@ -1010,11 +1010,14 @@
           ]
         },
         "damage": {
+          "kinetic": {
+            "damageType": "generic"
+          },
           "shatter": {
             "useRealShatters": true,
-            "countPortion": 0.3,
+            "countPortion": 0.2,
             "segment": {
-              "radiusScale": 1.085,
+              "radiusScale": 1.0,
               "penetrationScale": 1.0,
               "damageScale": 1.0,
               "angles": [
@@ -1024,9 +1027,6 @@
               "countPortion": 1.0
             }
           }
-        },
-        "shatterDamage": {
-          "breachConeAngle": 45.0
         },
         "visual": {
           "range_percent_of_ammo": [
@@ -1187,11 +1187,14 @@
           ]
         },
         "damage": {
+          "kinetic": {
+            "damageType": "generic"
+          },
           "shatter": {
             "useRealShatters": true,
-            "countPortion": 0.3,
+            "countPortion": 0.2,
             "segment": {
-              "radiusScale": 1.085,
+              "radiusScale": 1.0,
               "penetrationScale": 1.0,
               "damageScale": 1.0,
               "angles": [
@@ -1201,9 +1204,6 @@
               "countPortion": 1.0
             }
           }
-        },
-        "shatterDamage": {
-          "breachConeAngle": 45.0
         },
         "visual": {
           "range_percent_of_ammo": [
@@ -2068,11 +2068,14 @@
           ]
         },
         "damage": {
+          "kinetic": {
+            "damageType": "generic"
+          },
           "shatter": {
             "useRealShatters": true,
-            "countPortion": 0.3,
+            "countPortion": 0.2,
             "segment": {
-              "radiusScale": 1.085,
+              "radiusScale": 1.0,
               "penetrationScale": 1.0,
               "damageScale": 1.0,
               "angles": [
@@ -2082,9 +2085,6 @@
               "countPortion": 1.0
             }
           }
-        },
-        "shatterDamage": {
-          "breachConeAngle": 45.0
         },
         "visual": {
           "range_percent_of_ammo": [
@@ -2205,6 +2205,7 @@
           2.0
         ],
         "shellAnimation": "video/shells_animations/apcr_t_shell.ivf",
+        "bulletName": "20mm_pzgr_40",
         "relativeVelHitShift": [
           300.0,
           1000.0

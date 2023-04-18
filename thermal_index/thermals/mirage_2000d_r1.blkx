@@ -2,7 +2,7 @@
   "model": "mirage_2000d_r1",
   "fmFile": "fm/mirage_2000d_r1.blk",
   "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/fighter_metaparts.blk",
-  "viewDistKInSight": 6.0,
+  "viewDistKInSight": 4.0,
   "gearSinkRangeLR": 0.17,
   "gearSinkRangeC": 0.18,
   "jetEnginePowerFullScale": true,
@@ -10,7 +10,6 @@
   "haveCCIPForBombs": true,
   "haveCCIPForGun": true,
   "haveCCRPForBombs": true,
-  "haveCCRPForGun": true,
   "ilsTCSFVE130": true,
   "isBwOpticSight": true,
   "hasOpticTurret": true,
@@ -18,7 +17,6 @@
   "standardExhaustFxType": "jet_exhaust",
   "afterburnerExhaustFxType": "jet_afterburner_exhaust",
   "startExhaustFxType": "jet_start_exhaust",
-  "disableExhaustFxIfContrailIsActive": true,
   "gyroscopicSightOverSensors": true,
   "type": "typeFighter",
   "paratrooper": "ally",
@@ -2320,14 +2318,6 @@
         "blk": "gameData/FlightModels/weaponPresets/mirage_2000d_r1_default.blk"
       },
       {
-        "name": "mirage_2000d_r1_cc_630_gunpod",
-        "blk": "gameData/FlightModels/weaponPresets/mirage_2000d_r1_cc_630_gunpod.blk"
-      },
-      {
-        "name": "mirage_2000d_r1_matra_super_250_samp_type_25_default",
-        "blk": "gameData/FlightModels/weaponPresets/mirage_2000d_r1_matra_super_250_samp_type_25_default.blk"
-      },
-      {
         "name": "mirage_2000d_r1_r_550_magic_2",
         "blk": "gameData/FlightModels/weaponPresets/mirage_2000d_r1_r_550_magic_2.blk"
       },
@@ -2387,7 +2377,6 @@
         "pylon_clb_503_001",
         "pylon_clb_503_002",
         "pylon_central",
-        "gunpod_cc_630",
         "pylon_eclair",
         "pylon_ddm_001",
         "pylon_ddm_002",
@@ -2403,7 +2392,6 @@
         "armor1_dm",
         "cannon1_dm",
         "cannon2_dm",
-        "cover2_dm",
         "tank10_dm"
       ]
     },
@@ -2580,7 +2568,8 @@
           },
           {
             "iconType": "bombs_middle",
-            "name": "bomb_250_default",
+            "name": "bomb_250",
+            "reqModification": "fr_250kg_type_25c",
             "ShowNodes": {
               "node": "pylon_clb_lat_001"
             },
@@ -2588,7 +2577,7 @@
               "trigger": "bombs",
               "external": true,
               "separate": true,
-              "blk": "gameData/Weapons/BombGuns/fr_250_samp_type_25_default.blk",
+              "blk": "gameData/Weapons/BombGuns/fr_250_samp_type_25.blk",
               "emitter": "bomb6",
               "bullets": 1
             }
@@ -2619,7 +2608,8 @@
         "WeaponPreset": [
           {
             "iconType": "bombs_middle",
-            "name": "bomb_250_default",
+            "name": "bomb_250",
+            "reqModification": "fr_250kg_type_25c",
             "ShowNodes": {
               "node": "pylon_clb_lat_002"
             },
@@ -2627,7 +2617,7 @@
               "trigger": "bombs",
               "external": true,
               "separate": true,
-              "blk": "gameData/Weapons/BombGuns/fr_250_samp_type_25_default.blk",
+              "blk": "gameData/Weapons/BombGuns/fr_250_samp_type_25.blk",
               "emitter": "bomb7",
               "bullets": 1
             }
@@ -2775,7 +2765,8 @@
         "WeaponPreset": [
           {
             "iconType": "bombs_middle",
-            "name": "bomb_250_default",
+            "name": "bomb_250",
+            "reqModification": "fr_250kg_type_25c",
             "ShowNodes": {
               "node": "pylon_central"
             },
@@ -2783,7 +2774,7 @@
               "trigger": "bombs",
               "external": true,
               "separate": true,
-              "blk": "gameData/Weapons/BombGuns/fr_250_samp_type_25_default.blk",
+              "blk": "gameData/Weapons/BombGuns/fr_250_samp_type_25.blk",
               "emitter": "bomb3",
               "bullets": 1
             }
@@ -2918,46 +2909,6 @@
               "external": true,
               "separate": true
             }
-          },
-          {
-            "iconType": "doublebarreled_box",
-            "name": "cc_630_gunpod",
-            "reqModification": "fr_cc630_gun_pod",
-            "ShowNodes": {
-              "node": [
-                "pylon_central",
-                "gunpod_cc_630"
-              ]
-            },
-            "ShowDmParts": {
-              "node": [
-                "cannon1_dm",
-                "cannon2_dm",
-                "cover2_dm"
-              ]
-            },
-            "Weapon": [
-              {
-                "trigger": "cannon",
-                "blk": "gameData/Weapons/cannonDEFA554.blk",
-                "emitter": "flare1",
-                "flash": "flare1",
-                "dm": "cannon1_dm",
-                "bullets": 300,
-                "spread": 1.1,
-                "traceOffset": 1
-              },
-              {
-                "trigger": "cannon",
-                "blk": "gameData/Weapons/cannonDEFA554.blk",
-                "emitter": "flare2",
-                "flash": "flare2",
-                "dm": "cannon2_dm",
-                "bullets": 300,
-                "spread": 1.1,
-                "traceOffset": 2
-              }
-            ]
           }
         ]
       },
@@ -3069,7 +3020,8 @@
         "WeaponPreset": [
           {
             "iconType": "bombs_middle",
-            "name": "bomb_250_default",
+            "name": "bomb_250",
+            "reqModification": "fr_250kg_type_25c",
             "ShowNodes": {
               "node": "pylon_clb_lat_003"
             },
@@ -3077,7 +3029,7 @@
               "trigger": "bombs",
               "external": true,
               "separate": true,
-              "blk": "gameData/Weapons/BombGuns/fr_250_samp_type_25_default.blk",
+              "blk": "gameData/Weapons/BombGuns/fr_250_samp_type_25.blk",
               "emitter": "bomb8",
               "bullets": 1
             }
@@ -3171,7 +3123,8 @@
           },
           {
             "iconType": "bombs_middle",
-            "name": "bomb_250_default",
+            "name": "bomb_250",
+            "reqModification": "fr_250kg_type_25c",
             "ShowNodes": {
               "node": "pylon_clb_lat_004"
             },
@@ -3179,7 +3132,7 @@
               "trigger": "bombs",
               "external": true,
               "separate": true,
-              "blk": "gameData/Weapons/BombGuns/fr_250_samp_type_25_default.blk",
+              "blk": "gameData/Weapons/BombGuns/fr_250_samp_type_25.blk",
               "emitter": "bomb9",
               "bullets": 1
             }
@@ -3369,16 +3322,6 @@
       "modClass": "armor",
       "invertEnableLogic": false
     },
-    "fr_cc630_gun_pod": {
-      "tier": 1
-    },
-    "aden_air_targets": {},
-    "aden_ground_targets": {},
-    "aden_stealth": {},
-    "aden_belt_pack": {
-      "reqModification": "fr_cc630_gun_pod",
-      "tier": 3
-    },
     "fr_250kg_type_25c": {
       "modClass": "weapon",
       "tier": 1
@@ -3426,7 +3369,13 @@
         "from": "mirage_2000d_r1_a*"
       },
       {
+        "from": "mirage_2000d_r1_a_dmg*"
+      },
+      {
         "from": "mirage_2000d_r1_n*"
+      },
+      {
+        "from": "mirage_2000d_r1_n_dmg*"
       }
     ]
   },

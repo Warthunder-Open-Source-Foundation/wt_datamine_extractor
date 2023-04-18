@@ -15,7 +15,7 @@
     0.0,
     1.0
   ],
-  "exhaustFx": "tank_exhaust_med",
+  "exhaustFx": "tank_exhaust",
   "damagedExhaustFx": "tank_broken_exhaust",
   "thermalExhaustFx": "tank_exhaust_nightvision",
   "dustFx": "",
@@ -156,7 +156,7 @@
     "turret": {
       "armorClass": "RHA_tank_modern",
       "turret_01_back_dm": {
-        "armorThickness": 10.0
+        "armorThickness": 25.0
       },
       "turret_08_bottom_dm": {
         "armorThickness": 40.0
@@ -165,8 +165,7 @@
         "armorThickness": 40.0
       },
       "turret_07_back_dm": {
-        "armorThickness": 20.0,
-        "ignoreSolidDimension": true
+        "armorThickness": 20.0
       },
       "turret_07_front_dm": {
         "armorThickness": 20.0,
@@ -185,8 +184,7 @@
         "armorThickness": 14.0
       },
       "turret_04_side_dm": {
-        "armorThickness": 20.0,
-        "ignoreSolidDimension": true
+        "armorThickness": 20.0
       },
       "turret_05_side_dm": {
         "armorThickness": 45.0,
@@ -383,9 +381,9 @@
       "ex_armor_turret_r_01_dm": {}
     },
     "body_screens": {
-      "armorClass": "tank_structural_steel",
-      "hp": 200.0,
-      "armorThickness": 4.0,
+      "armorClass": "RHA_tank_modern",
+      "hp": 300.0,
+      "armorThickness": 12.0,
       "ex_armor_body_r_01_dm": {},
       "ex_armor_body_r_02_dm": {},
       "ex_armor_body_r_03_dm": {},
@@ -2099,7 +2097,7 @@
     "Weapon": [
       {
         "trigger": "gunner0",
-        "blk": "gameData/Weapons/groundModels_weapons/120mm_OTO_Breda_120_44_Ariete_AMV_user_cannon.blk",
+        "blk": "gameData/Weapons/groundModels_weapons/120mm_OTO_Breda_120_44_Ariete_user_cannon.blk",
         "emitter": "bone_gun_barrel",
         "flash": "emtr_gun_flame",
         "shotFreq": 0.1667,
@@ -3280,7 +3278,7 @@
           "Weapon": [
             {
               "trigger": "gunner0",
-              "blk": "gameData/Weapons/groundModels_weapons/120mm_OTO_Breda_120_44_Ariete_AMV_user_cannon.blk",
+              "blk": "gameData/Weapons/groundModels_weapons/120mm_OTO_Breda_120_44_Ariete_user_cannon.blk",
               "emitter": "bone_gun_barrel",
               "flash": "emtr_gun_flame",
               "shotFreq": 0.1667,
