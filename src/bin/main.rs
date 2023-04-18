@@ -22,7 +22,6 @@ use wt_datamine_extractor_lib::thermal::thermals::Thermal;
 
 fn main() {
 	let start = Instant::now();
-
 	if fs::read_dir("resources/cache").is_ok() {
 		fs::write("meta_index/version.txt", &fs::read_to_string("resources/cache/aces.vromfs.bin_u/version").unwrap()).unwrap();
 		fs::write("explosive/explosive.blkx", &fs::read_to_string("resources/cache/aces.vromfs.bin_u/gamedata/damage_model/explosive.blkx").unwrap()).unwrap();

@@ -2,7 +2,7 @@
   "model": "z_11wa",
   "fmFile": "fm/z_11wa.blk",
   "harmonizationSuffix": "_tomoe",
-  "viewDistKInSight": 6.0,
+  "viewDistKInSight": 4.0,
   "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/hellicopters_metaparts.blk",
   "gearSinkRangeLR": 0.001,
   "gearSinkRangeC": 0.001,
@@ -1915,7 +1915,7 @@
     "heli_night_vision_system": {
       "modClass": "weapon",
       "tier": 3,
-      "image": "#ui/gameuiskin#thermal_sight",
+      "image": "#ui/gameuiskin#thermal_sight.png",
       "effects": {
         "nightVision": {
           "gunnerIr": {
@@ -1948,10 +1948,16 @@
     }
   },
   "default_skin_tomoe": {
-    "replace_tex": {
-      "from": "z_11wa_c*",
-      "to": "z_11wa_c_tomoe*"
-    }
+    "replace_tex": [
+      {
+        "from": "z_11wa_c*",
+        "to": "z_11wa_c_tomoe*"
+      },
+      {
+        "from": "z_11wa_c_dmg*",
+        "to": "z_11wa_c_tomoe_dmg*"
+      }
+    ]
   },
   "user_skin": {
     "name": "z_11wa",
@@ -1960,7 +1966,13 @@
         "from": "z_11wa_c*"
       },
       {
+        "from": "z_11wa_c_dmg*"
+      },
+      {
         "from": "z_11wa_n*"
+      },
+      {
+        "from": "z_11wa_n_dmg*"
       }
     ]
   },

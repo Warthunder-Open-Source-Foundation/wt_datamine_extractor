@@ -347,35 +347,23 @@
         ]
       },
       "damage": {
+        "kinetic": {
+          "damageType": "generic"
+        },
         "shatter": {
           "useRealShatters": true,
-          "countPortion": 0.5,
-          "segment": [
-            {
-              "radiusScale": 1.0,
-              "penetrationScale": 1.0,
-              "damageScale": 1.0,
-              "angles": [
-                0.0,
-                179.0
-              ],
-              "countPortion": 0.5
-            },
-            {
-              "radiusScale": 1.0,
-              "penetrationScale": 1.0,
-              "damageScale": 1.0,
-              "angles": [
-                180.0,
-                359.0
-              ],
-              "countPortion": 0.5
-            }
-          ]
+          "countPortion": 0.125,
+          "segment": {
+            "radiusScale": 3.0,
+            "penetrationScale": 1.0,
+            "damageScale": 1.0,
+            "angles": [
+              0.0,
+              180.0
+            ],
+            "countPortion": 1.0
+          }
         }
-      },
-      "shatterDamage": {
-        "breachConeAngle": 45.0
       },
       "visual": {
         "range_percent_of_ammo": [
@@ -550,12 +538,12 @@
         },
         "shatter": {
           "useRealShatters": true,
-          "countPortion": 0.8,
+          "countPortion": 1.0,
           "segment": [
             {
-              "radiusScale": 1.5,
-              "penetrationScale": 1.0,
-              "damageScale": 1.5,
+              "radiusScale": 1.0,
+              "penetrationScale": 1.6,
+              "damageScale": 2.5,
               "angles": [
                 0.0,
                 20.0
@@ -563,9 +551,9 @@
               "countPortion": 0.1
             },
             {
-              "radiusScale": 1.5,
-              "penetrationScale": 1.0,
-              "damageScale": 1.5,
+              "radiusScale": 1.0,
+              "penetrationScale": 2.0,
+              "damageScale": 3.0,
               "angles": [
                 20.0,
                 120.0
@@ -573,9 +561,9 @@
               "countPortion": 0.5
             },
             {
-              "radiusScale": 1.5,
+              "radiusScale": 1.0,
               "penetrationScale": 2.0,
-              "damageScale": 1.5,
+              "damageScale": 3.0,
               "angles": [
                 120.0,
                 180.0
@@ -584,9 +572,6 @@
             }
           ]
         }
-      },
-      "shatterDamage": {
-        "breachConeAngle": 45.0
       },
       "visual": {
         "range_percent_of_ammo": [

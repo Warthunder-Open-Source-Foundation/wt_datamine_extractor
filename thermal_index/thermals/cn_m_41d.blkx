@@ -15,7 +15,7 @@
     0.0,
     1.0
   ],
-  "exhaustFx": "tank_exhaust_med",
+  "exhaustFx": "tank_exhaust",
   "damagedExhaustFx": "tank_broken_exhaust",
   "thermalExhaustFx": "tank_exhaust_nightvision",
   "dustFx": "",
@@ -83,7 +83,7 @@
         "armorThickness": 10.0
       },
       "turret_01_top_dm": {
-        "armorThickness": 19.0
+        "armorThickness": 5.0
       },
       "turret_01_side_dm": {
         "armorThickness": 5.0
@@ -1593,7 +1593,7 @@
         "defaultPitch": 0.0,
         "barrelDP": "gun_barrel_dm",
         "breechDP": "cannon_breech_dm",
-        "speedYaw": 24.0,
+        "speedYaw": 36.0,
         "speedPitch": 4.0,
         "fireConeAngle": 1.0,
         "bullets": 65,
@@ -2832,7 +2832,7 @@
               "defaultPitch": 0.0,
               "barrelDP": "gun_barrel_dm",
               "breechDP": "cannon_breech_dm",
-              "speedYaw": 24.0,
+              "speedYaw": 36.0,
               "speedPitch": 4.0,
               "fireConeAngle": 1.0,
               "bullets": 65,

@@ -15,7 +15,7 @@
   "ilsHaveAVQ7CCIP": true,
   "ilsHaveAVQ7CCRP": true,
   "gyroscopicSightOverSensors": true,
-  "viewDistKInSight": 6.0,
+  "viewDistKInSight": 4.0,
   "type": "typeBomber",
   "paratrooper": "raf_para",
   "overheatBlk": "gameData/FlightModels/DM/overheat.blk",
@@ -2465,8 +2465,7 @@
         "us_lau_88a_001",
         "us_lau_88a_002",
         "flare_cover",
-        "flir_lana_pod",
-        "optic2_gun"
+        "flir_lana_pod"
       ]
     },
     "HideDmParts": {
@@ -3191,10 +3190,7 @@
             "name": "lana",
             "hasTargetingPod": true,
             "ShowNodes": {
-              "node": [
-                "flir_lana_pod",
-                "optic2_gun"
-              ]
+              "node": "flir_lana_pod"
             },
             "Weapon": {
               "trigger": "targetingPod",
@@ -3708,15 +3704,27 @@
         "from": "a_7e_c*"
       },
       {
+        "from": "a_7e_c_dmg*"
+      },
+      {
         "from": "a_7e_n*"
+      },
+      {
+        "from": "a_7e_n_dmg*"
       }
     ]
   },
   "default_skin_tomoe": {
-    "replace_tex": {
-      "from": "a_7e_c*",
-      "to": "a_7e_c_tomoe*"
-    }
+    "replace_tex": [
+      {
+        "from": "a_7e_c*",
+        "to": "a_7e_c_tomoe*"
+      },
+      {
+        "from": "a_7e_c_dmg*",
+        "to": "a_7e_c_tomoe_dmg*"
+      }
+    ]
   },
   "parachutes": {
     "emitterRange": [

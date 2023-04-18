@@ -15,7 +15,7 @@
     0.0,
     1.0
   ],
-  "exhaustFx": "tank_exhaust_med",
+  "exhaustFx": "tank_exhaust",
   "damagedExhaustFx": "tank_broken_exhaust",
   "thermalExhaustFx": "tank_exhaust_nightvision",
   "dustFx": "",
@@ -153,7 +153,7 @@
     "turret": {
       "armorClass": "RHA_tank_modern",
       "turret_01_back_dm": {
-        "armorThickness": 10.0
+        "armorThickness": 25.0
       },
       "turret_08_bottom_dm": {
         "armorThickness": 40.0
@@ -162,8 +162,7 @@
         "armorThickness": 40.0
       },
       "turret_07_back_dm": {
-        "armorThickness": 20.0,
-        "ignoreSolidDimension": true
+        "armorThickness": 20.0
       },
       "turret_07_front_dm": {
         "armorThickness": 20.0,
@@ -182,8 +181,7 @@
         "armorThickness": 14.0
       },
       "turret_04_side_dm": {
-        "armorThickness": 20.0,
-        "ignoreSolidDimension": true
+        "armorThickness": 20.0
       },
       "turret_05_side_dm": {
         "armorThickness": 45.0,
@@ -325,7 +323,7 @@
     },
     "tank_structural_steel_elements": {
       "armorClass": "tank_structural_steel",
-      "armorThickness": 4.0,
+      "armorThickness": 5.0,
       "hp": 200.0,
       "stopChanceOnDeadPart": 0.0,
       "createSecondaryShatters": false,

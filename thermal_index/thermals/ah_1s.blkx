@@ -1,7 +1,7 @@
 {
   "model": "ah_1s",
   "fmFile": "fm/ah_1s.blk",
-  "viewDistKInSight": 6.0,
+  "viewDistKInSight": 4.0,
   "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/hellicopters_metaparts.blk",
   "harmonizationSuffix": "_tomoe",
   "haveCCIPForRocket": true,
@@ -10,11 +10,6 @@
   "haveCCRPForRocket": false,
   "gearSinkRangeLR": 0.001,
   "gearSinkRangeC": 0.001,
-  "tpsCameraTargetOffsetAtZoom": [
-    80.0,
-    60.0,
-    0.0
-  ],
   "type": "typeFighter",
   "paratrooper": "usa_para",
   "advancedInstructor": true,
@@ -3181,7 +3176,7 @@
       "prevModification": "countermeasures_belt_pack",
       "tier": 3,
       "modClass": "weapon",
-      "image": "#ui/gameuiskin#thermal_sight",
+      "image": "#ui/gameuiskin#thermal_sight.png",
       "effects": {
         "nightVision": {
           "gunnerIr": {
@@ -3252,17 +3247,29 @@
     "finCut": false
   },
   "default_skin": {
-    "replace_tex": {
-      "from": "ah_1s_fuji_green_camo_c*",
-      "to": "ah_1s_fuji_wakana_c*"
-    }
+    "replace_tex": [
+      {
+        "from": "ah_1s_fuji_green_camo_c*",
+        "to": "ah_1s_fuji_wakana_c*"
+      },
+      {
+        "from": "ah_1s_fuji_green_camo_c_dmg*",
+        "to": "ah_1s_fuji_wakana_c_dmg*"
+      }
+    ]
   },
   "default_skin_tomoe": {
     "name": "default_tomoe",
-    "replace_tex": {
-      "from": "ah_1s_fuji_green_camo_c*",
-      "to": "ah_1s_fuji_wakana_c_tomoe*"
-    }
+    "replace_tex": [
+      {
+        "from": "ah_1s_fuji_green_camo_c*",
+        "to": "ah_1s_fuji_wakana_c_tomoe*"
+      },
+      {
+        "from": "ah_1s_fuji_green_camo_c_dmg*",
+        "to": "ah_1s_fuji_wakana_c_tomoe_dmg*"
+      }
+    ]
   },
   "user_skin": {
     "name": "ah_1s",
@@ -3271,24 +3278,42 @@
         "from": "ah_1s_fuji_green_camo_c*"
       },
       {
+        "from": "ah_1s_fuji_green_camo_c_dmg*"
+      },
+      {
         "from": "ah_1s_fuji_green_camo_n*"
+      },
+      {
+        "from": "ah_1s_fuji_green_camo_n_dmg*"
       }
     ]
   },
   "skin": [
     {
       "name": "green",
-      "replace_tex": {
-        "from": "ah_1s_fuji_green_camo_c*",
-        "to": "ah_1s_fuji_green_camo_c*"
-      }
+      "replace_tex": [
+        {
+          "from": "ah_1s_fuji_green_camo_c*",
+          "to": "ah_1s_fuji_green_camo_c*"
+        },
+        {
+          "from": "ah_1s_fuji_green_camo_c_dmg*",
+          "to": "ah_1s_fuji_green_camo_c_dmg*"
+        }
+      ]
     },
     {
       "name": "green_tomoe",
-      "replace_tex": {
-        "from": "ah_1s_fuji_green_camo_c*",
-        "to": "ah_1s_fuji_green_camo_c_tomoe*"
-      }
+      "replace_tex": [
+        {
+          "from": "ah_1s_fuji_green_camo_c*",
+          "to": "ah_1s_fuji_green_camo_c_tomoe*"
+        },
+        {
+          "from": "ah_1s_fuji_green_camo_c_dmg*",
+          "to": "ah_1s_fuji_green_camo_c_tomoe_dmg*"
+        }
+      ]
     }
   ]
 }

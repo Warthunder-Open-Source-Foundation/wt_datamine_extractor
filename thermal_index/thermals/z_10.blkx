@@ -2,7 +2,7 @@
   "model": "z_10",
   "fmFile": "fm/z_10.blk",
   "harmonizationSuffix": "_tomoe",
-  "viewDistKInSight": 6.0,
+  "viewDistKInSight": 4.0,
   "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/hellicopters_metaparts.blk",
   "haveCCIPForRocket": true,
   "haveCCRPForRocket": false,
@@ -2518,7 +2518,7 @@
       }
     },
     "heli_night_vision_system": {
-      "image": "#ui/gameuiskin#thermal_sight",
+      "image": "#ui/gameuiskin#thermal_sight.png",
       "prevModification": "countermeasures_belt_pack",
       "tier": 3,
       "modClass": "weapon",
@@ -2560,10 +2560,16 @@
     }
   },
   "default_skin_tomoe": {
-    "replace_tex": {
-      "from": "z_10_c*",
-      "to": "z_10_c_tomoe*"
-    }
+    "replace_tex": [
+      {
+        "from": "z_10_c*",
+        "to": "z_10_c_tomoe*"
+      },
+      {
+        "from": "z_10_c_dmg*",
+        "to": "z_10_c_tomoe_dmg*"
+      }
+    ]
   },
   "user_skin": {
     "name": "z_10",
@@ -2572,7 +2578,13 @@
         "from": "z_10_c*"
       },
       {
+        "from": "z_10_c_dmg*"
+      },
+      {
         "from": "z_10_n*"
+      },
+      {
+        "from": "z_10_n_dmg*"
       }
     ]
   },

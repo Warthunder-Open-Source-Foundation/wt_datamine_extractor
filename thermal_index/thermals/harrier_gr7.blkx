@@ -2,7 +2,7 @@
   "model": "harrier_gr7",
   "fmFile": "fm/harrier_gr7.blk",
   "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/2x_engine_bomber_metaparts.blk",
-  "viewDistKInSight": 6.0,
+  "viewDistKInSight": 4.0,
   "gearSinkRangeLR": 0.119,
   "gearSinkRangeC": 0.248,
   "gearSinkRange2C": 0.144,
@@ -22,7 +22,6 @@
   "standardExhaustFxType": "jet_exhaust",
   "afterburnerExhaustFxType": "jet_afterburner_exhaust",
   "startExhaustFxType": "jet_start_exhaust",
-  "disableExhaustFxIfContrailIsActive": true,
   "overheatBlk": "gameData/FlightModels/DM/overheat.blk",
   "damagePartsToCollisionObjectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_collision_objects.blk",
   "damagePartsToFmPartsMapBlk": "gameData/FlightModels/DM/dm_parts_to_fm_parts_map.blk",
@@ -1900,8 +1899,7 @@
   },
   "Sound": {
     "Engine": "engine05_pegasus_N1",
-    "gun": "gun_default",
-    "eventNozzleTurn": "nozzle_turning"
+    "gun": "gun_default"
   },
   "cockpit": {
     "targetingPodFov": [
@@ -2262,7 +2260,7 @@
   "sensors": {
     "sensor": [
       {
-        "blk": "gameData/sensors/ir_tracker.blk",
+        "blk": "gameData/sensors/tv_tracker_tgp.blk",
         "node": "optic1_gun"
       },
       {
@@ -2921,7 +2919,6 @@
             "name": "tiald",
             "reqModification": "uk_tiald_pod",
             "hasTargetingPod": true,
-            "removeGunnerOpticFps": 0,
             "ShowNodes": {
               "node": [
                 "uk_tiald_pod",
@@ -3679,7 +3676,13 @@
         "from": "harrier_gr7_c*"
       },
       {
+        "from": "harrier_gr7_c_dmg*"
+      },
+      {
         "from": "harrier_gr7_n*"
+      },
+      {
+        "from": "harrier_gr7_n_dmg*"
       }
     ]
   },

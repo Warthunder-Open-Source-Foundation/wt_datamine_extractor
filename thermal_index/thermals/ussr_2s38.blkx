@@ -15,7 +15,7 @@
     0.0,
     1.0
   ],
-  "exhaustFx": "tank_exhaust_med",
+  "exhaustFx": "tank_exhaust",
   "damagedExhaustFx": "tank_broken_exhaust",
   "thermalExhaustFx": "tank_exhaust_nightvision",
   "dustFx": "",
@@ -1856,6 +1856,16 @@
           "verDriveDm": "commander_panoramic_sight_dm",
           "horDriveDm": "commander_panoramic_sight_dm"
         },
+        "limits": {
+          "yaw": [
+            -180.0,
+            180.0
+          ],
+          "pitch": [
+            -10.0,
+            20.0
+          ]
+        },
         "gunStabilizer": {
           "hasVerticalGunFreeMode": false,
           "forceEnabled": true,
@@ -1882,16 +1892,6 @@
               ]
             ]
           }
-        },
-        "limits": {
-          "yaw": [
-            -180.0,
-            180.0
-          ],
-          "pitch": [
-            -15.0,
-            75.0
-          ]
         }
       }
     ]
@@ -1941,16 +1941,6 @@
         "type": "engineFan",
         "turnSpeed": 1.0,
         "node": "bone_roll_engine_04"
-      },
-      {
-        "type": "engineFan",
-        "turnSpeed": 1.0,
-        "node": "bone_roll_engine_05"
-      },
-      {
-        "type": "engineFan",
-        "turnSpeed": 1.0,
-        "node": "bone_roll_engine_06"
       },
       {
         "type": "waterJetShutter",
@@ -2022,7 +2012,7 @@
           -3.886,
           -5.0,
           0.0,
-          5.0,
+          4.259,
           3.31,
           1.934,
           1.132,
@@ -3245,6 +3235,16 @@
                 "verDriveDm": "commander_panoramic_sight_dm",
                 "horDriveDm": "commander_panoramic_sight_dm"
               },
+              "limits": {
+                "yaw": [
+                  -180.0,
+                  180.0
+                ],
+                "pitch": [
+                  -10.0,
+                  20.0
+                ]
+              },
               "gunStabilizer": {
                 "hasVerticalGunFreeMode": false,
                 "forceEnabled": true,
@@ -3271,16 +3271,6 @@
                     ]
                   ]
                 }
-              },
-              "limits": {
-                "yaw": [
-                  -180.0,
-                  180.0
-                ],
-                "pitch": [
-                  -15.0,
-                  75.0
-                ]
               }
             },
             {
