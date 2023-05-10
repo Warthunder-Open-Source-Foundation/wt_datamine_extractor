@@ -1,7 +1,7 @@
 {
   "model": "ahs",
   "fmFile": "fm/ahs.blk",
-  "viewDistKInSight": 4.0,
+  "viewDistKInSight": 6.0,
   "harmonizationSuffix": "_tomoe",
   "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/hellicopters_metaparts.blk",
   "haveCCIPForRocket": true,
@@ -1822,6 +1822,10 @@
       {
         "name": "ahs_16_hellfire",
         "blk": "gameData/flightModels/weaponPresets/ahs_16_hellfire.blk"
+      },
+      {
+        "name": "ahs_4_hellfire_default",
+        "blk": "gameData/flightModels/weaponPresets/ahs_4_hellfire_default.blk"
       }
     ]
   },
@@ -2319,11 +2323,10 @@
           },
           {
             "iconType": "atgm_type_helfire_x2",
-            "name": "114b_x2",
-            "reqModification": "ah_1_AGM_114_8",
+            "name": "114b_x2_default",
             "Weapon": {
               "trigger": "atgm",
-              "blk": "gameData/Weapons/containers/m279_hellfire_b_x2.blk",
+              "blk": "gameData/Weapons/containers/m279_hellfire_b_x2_default.blk",
               "emitter": "pylon_m279_001",
               "external": true,
               "separate": true,
@@ -2485,11 +2488,10 @@
           },
           {
             "iconType": "atgm_type_helfire_x2",
-            "name": "114b_x2",
-            "reqModification": "ah_1_AGM_114_8",
+            "name": "114b_x2_default",
             "Weapon": {
               "trigger": "atgm",
-              "blk": "gameData/Weapons/containers/m279_hellfire_b_x2.blk",
+              "blk": "gameData/Weapons/containers/m279_hellfire_b_x2_default.blk",
               "emitter": "pylon_m279_004",
               "external": true,
               "separate": true,
@@ -2636,7 +2638,7 @@
       "prevModification": "heli_counterMeasures",
       "tier": 3,
       "modClass": "weapon",
-      "image": "#ui/gameuiskin#thermal_sight.png",
+      "image": "#ui/gameuiskin#thermal_sight",
       "effects": {
         "nightVision": {
           "gunnerIr": {
@@ -2685,27 +2687,15 @@
         "from": "ahs_c*"
       },
       {
-        "from": "ahs_c_dmg*"
-      },
-      {
         "from": "ahs_n*"
-      },
-      {
-        "from": "ahs_n_dmg*"
       }
     ]
   },
   "default_skin_tomoe": {
-    "replace_tex": [
-      {
-        "from": "ahs_c*",
-        "to": "ahs_c_tomoe*"
-      },
-      {
-        "from": "ahs_c_dmg*",
-        "to": "ahs_c_tomoe_dmg*"
-      }
-    ]
+    "replace_tex": {
+      "from": "ahs_c*",
+      "to": "ahs_c_tomoe*"
+    }
   },
   "cutting": {
     "_emtr_break_wing0_l_from": [

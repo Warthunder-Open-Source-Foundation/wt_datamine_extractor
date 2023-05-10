@@ -72,7 +72,6 @@
         2.0
       ],
       "shellAnimation": "video/shells_animations/apcr_t_shell.ivf",
-      "bulletName": "20mm_m601",
       "relativeVelHitShift": [
         300.0,
         1000.0
@@ -226,7 +225,6 @@
       "explosiveMass": 0.016,
       "caliber": 0.02,
       "bulletType": "he_frag_i_t",
-      "bulletName": "20mm_m594",
       "speed": 1054.0,
       "maxDistance": 5000.0,
       "hitPowerMult": 1.5,
@@ -253,14 +251,11 @@
         ]
       },
       "damage": {
-        "kinetic": {
-          "damageType": "generic"
-        },
         "shatter": {
           "useRealShatters": true,
-          "countPortion": 0.2,
+          "countPortion": 0.3,
           "segment": {
-            "radiusScale": 1.0,
+            "radiusScale": 1.085,
             "penetrationScale": 1.0,
             "damageScale": 1.0,
             "angles": [
@@ -270,6 +265,9 @@
             "countPortion": 1.0
           }
         }
+      },
+      "shatterDamage": {
+        "breachConeAngle": 45.0
       },
       "visual": {
         "range_percent_of_ammo": [
@@ -371,7 +369,6 @@
         "explosiveMass": 0.016,
         "caliber": 0.02,
         "bulletType": "he_frag_i_t",
-        "bulletName": "20mm_m594",
         "speed": 1054.0,
         "maxDistance": 5000.0,
         "hitPowerMult": 1.5,
@@ -398,14 +395,11 @@
           ]
         },
         "damage": {
-          "kinetic": {
-            "damageType": "generic"
-          },
           "shatter": {
             "useRealShatters": true,
-            "countPortion": 0.2,
+            "countPortion": 0.3,
             "segment": {
-              "radiusScale": 1.0,
+              "radiusScale": 1.085,
               "penetrationScale": 1.0,
               "damageScale": 1.0,
               "angles": [
@@ -415,6 +409,9 @@
               "countPortion": 1.0
             }
           }
+        },
+        "shatterDamage": {
+          "breachConeAngle": 45.0
         },
         "visual": {
           "range_percent_of_ammo": [
@@ -513,7 +510,6 @@
         "explosiveMass": 0.016,
         "caliber": 0.02,
         "bulletType": "he_frag_i_t",
-        "bulletName": "20mm_m594",
         "speed": 1054.0,
         "maxDistance": 5000.0,
         "hitPowerMult": 1.5,
@@ -540,14 +536,11 @@
           ]
         },
         "damage": {
-          "kinetic": {
-            "damageType": "generic"
-          },
           "shatter": {
             "useRealShatters": true,
-            "countPortion": 0.2,
+            "countPortion": 0.3,
             "segment": {
-              "radiusScale": 1.0,
+              "radiusScale": 1.085,
               "penetrationScale": 1.0,
               "damageScale": 1.0,
               "angles": [
@@ -557,6 +550,9 @@
               "countPortion": 1.0
             }
           }
+        },
+        "shatterDamage": {
+          "breachConeAngle": 45.0
         },
         "visual": {
           "range_percent_of_ammo": [
@@ -671,7 +667,6 @@
           2.0
         ],
         "shellAnimation": "video/shells_animations/apcr_t_shell.ivf",
-        "bulletName": "20mm_m601",
         "relativeVelHitShift": [
           300.0,
           1000.0
@@ -845,7 +840,6 @@
           2.0
         ],
         "shellAnimation": "video/shells_animations/apcr_t_shell.ivf",
-        "bulletName": "20mm_m601",
         "relativeVelHitShift": [
           300.0,
           1000.0
@@ -1015,7 +1009,6 @@
           2.0
         ],
         "shellAnimation": "video/shells_animations/apcr_t_shell.ivf",
-        "bulletName": "20mm_m601",
         "relativeVelHitShift": [
           300.0,
           1000.0
@@ -1169,7 +1162,6 @@
         "explosiveMass": 0.016,
         "caliber": 0.02,
         "bulletType": "he_frag_i_t",
-        "bulletName": "20mm_m594",
         "speed": 1054.0,
         "maxDistance": 5000.0,
         "hitPowerMult": 1.5,
@@ -1196,14 +1188,11 @@
           ]
         },
         "damage": {
-          "kinetic": {
-            "damageType": "generic"
-          },
           "shatter": {
             "useRealShatters": true,
-            "countPortion": 0.2,
+            "countPortion": 0.3,
             "segment": {
-              "radiusScale": 1.0,
+              "radiusScale": 1.085,
               "penetrationScale": 1.0,
               "damageScale": 1.0,
               "angles": [
@@ -1213,6 +1202,9 @@
               "countPortion": 1.0
             }
           }
+        },
+        "shatterDamage": {
+          "breachConeAngle": 45.0
         },
         "visual": {
           "range_percent_of_ammo": [

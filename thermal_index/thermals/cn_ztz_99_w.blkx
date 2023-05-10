@@ -15,7 +15,7 @@
     0.0,
     1.0
   ],
-  "exhaustFx": "tank_exhaust",
+  "exhaustFx": "tank_exhaust_med",
   "damagedExhaustFx": "tank_broken_exhaust",
   "thermalExhaustFx": "tank_exhaust_nightvision",
   "dustFx": "",
@@ -133,7 +133,8 @@
         "armorThickness": 5.0
       },
       "turret_02_back_dm": {
-        "armorThickness": 45.0
+        "armorThickness": 45.0,
+        "ignoreSolidDimension": true
       },
       "turret_02_side_dm": {
         "armorThickness": 30.0
@@ -896,6 +897,16 @@
       "ammo_body_58_dm": {},
       "ammo_body_59_dm": {},
       "ammo_body_60_dm": {},
+      "ammo_body_61_dm": {},
+      "ammo_body_62_dm": {},
+      "ammo_body_63_dm": {},
+      "ammo_body_64_dm": {},
+      "ammo_body_65_dm": {},
+      "ammo_body_66_dm": {},
+      "ammo_body_67_dm": {},
+      "ammo_body_68_dm": {},
+      "ammo_body_69_dm": {},
+      "ammo_body_70_dm": {},
       "ammo_body_l_01_dm": {},
       "ammo_body_l_02_dm": {},
       "ammo_body_l_03_dm": {},
@@ -1145,6 +1156,16 @@
           "ammo_body_58_dm",
           "ammo_body_59_dm",
           "ammo_body_60_dm",
+          "ammo_body_61_dm",
+          "ammo_body_62_dm",
+          "ammo_body_63_dm",
+          "ammo_body_64_dm",
+          "ammo_body_65_dm",
+          "ammo_body_66_dm",
+          "ammo_body_67_dm",
+          "ammo_body_68_dm",
+          "ammo_body_69_dm",
+          "ammo_body_70_dm",
           "ammo_body_l_01_dm",
           "ammo_body_l_02_dm",
           "ammo_body_l_03_dm",
@@ -2245,8 +2266,8 @@
             180.0
           ],
           "pitch": [
-            -5.0,
-            60.0
+            -6.0,
+            85.0
           ]
         },
         "limitsTable": {
@@ -2254,13 +2275,13 @@
             -180.0,
             -110.0,
             5.0,
-            60.0
+            85.0
           ],
           "lim2": [
             -110.0,
             180.0,
-            -5.0,
-            60.0
+            -6.0,
+            85.0
           ]
         }
       },
@@ -3456,10 +3477,10 @@
     "art_support": {},
     "tank_engine_smoke_screen_system": {},
     "tank_medical_kit": {
-      "image": "#ui/gameuiskin#tank_reinforcement_cn.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_cn"
     },
     "tank_medical_kit_expendable": {
-      "image": "#ui/gameuiskin#tank_reinforcement_cn.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_cn"
     },
     "laser_rangefinder_lws": {
       "tier": 2
@@ -3692,8 +3713,8 @@
                   180.0
                 ],
                 "pitch": [
-                  -5.0,
-                  60.0
+                  -6.0,
+                  85.0
                 ]
               },
               "limitsTable": {
@@ -3701,13 +3722,13 @@
                   -180.0,
                   -110.0,
                   5.0,
-                  60.0
+                  85.0
                 ],
                 "lim2": [
                   -110.0,
                   180.0,
-                  -5.0,
-                  60.0
+                  -6.0,
+                  85.0
                 ]
               }
             },
@@ -3825,7 +3846,7 @@
       }
     },
     "night_vision_system": {
-      "image": "#ui/gameuiskin#thermal_sight.png",
+      "image": "#ui/gameuiskin#thermal_sight",
       "modClass": "protection",
       "tier": 3,
       "effects": {

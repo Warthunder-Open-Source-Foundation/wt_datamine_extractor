@@ -15,7 +15,7 @@
     0.0,
     1.0
   ],
-  "exhaustFx": "tank_exhaust",
+  "exhaustFx": "tank_exhaust_med",
   "damagedExhaustFx": "tank_broken_exhaust",
   "thermalExhaustFx": "tank_exhaust_nightvision",
   "dustFx": "",
@@ -533,6 +533,16 @@
       "ammo_body_58_dm": {},
       "ammo_body_59_dm": {},
       "ammo_body_60_dm": {},
+      "ammo_body_61_dm": {},
+      "ammo_body_62_dm": {},
+      "ammo_body_63_dm": {},
+      "ammo_body_64_dm": {},
+      "ammo_body_65_dm": {},
+      "ammo_body_66_dm": {},
+      "ammo_body_67_dm": {},
+      "ammo_body_68_dm": {},
+      "ammo_body_69_dm": {},
+      "ammo_body_70_dm": {},
       "ammo_body_l_01_dm": {},
       "ammo_body_l_02_dm": {},
       "ammo_body_l_03_dm": {},
@@ -690,6 +700,16 @@
           "ammo_body_58_dm",
           "ammo_body_59_dm",
           "ammo_body_60_dm",
+          "ammo_body_61_dm",
+          "ammo_body_62_dm",
+          "ammo_body_63_dm",
+          "ammo_body_64_dm",
+          "ammo_body_65_dm",
+          "ammo_body_66_dm",
+          "ammo_body_67_dm",
+          "ammo_body_68_dm",
+          "ammo_body_69_dm",
+          "ammo_body_70_dm",
           "ammo_body_l_01_dm",
           "ammo_body_l_02_dm",
           "ammo_body_l_03_dm",
@@ -1667,15 +1687,7 @@
                 85.0
               ]
             }
-          ],
-          "selfDirectedPart": {
-            "node": "antenna_target_tagging_mount",
-            "limits": [
-              -180.0,
-              180.0
-            ],
-            "turnSpeed": 80.0
-          }
+          ]
         },
         "limits": {
           "yaw": [
@@ -1776,9 +1788,7 @@
         "ex_armor_05",
         "antenna_target_location",
         "antenna_target_location_mount",
-        "ex_armor_04",
-        "antenna_target_tagging",
-        "antenna_target_tagging_mount"
+        "antenna_target_tagging"
       ]
     }
   },
@@ -2667,10 +2677,10 @@
     "art_support": {},
     "tank_new_gun": {},
     "tank_medical_kit": {
-      "image": "#ui/gameuiskin#tank_reinforcement_it.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_it"
     },
     "tank_medical_kit_expendable": {
-      "image": "#ui/gameuiskin#tank_reinforcement_it.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_it"
     },
     "modern_tank_laser_rangefinder": {
       "effects": {
@@ -2821,15 +2831,7 @@
                       85.0
                     ]
                   }
-                ],
-                "selfDirectedPart": {
-                  "node": "antenna_target_tagging_mount",
-                  "limits": [
-                    -180.0,
-                    180.0
-                  ],
-                  "turnSpeed": 80.0
-                }
+                ]
               },
               "limits": {
                 "yaw": [
@@ -2984,16 +2986,14 @@
               "ex_armor_05",
               "antenna_target_location",
               "antenna_target_location_mount",
-              "ex_armor_04",
-              "antenna_target_tagging",
-              "antenna_target_tagging_mount"
+              "antenna_target_tagging"
             ]
           }
         }
       }
     },
     "night_vision_system": {
-      "image": "#ui/gameuiskin#thermal_sight.png",
+      "image": "#ui/gameuiskin#thermal_sight",
       "tier": 3,
       "effects": {
         "nightVision": {

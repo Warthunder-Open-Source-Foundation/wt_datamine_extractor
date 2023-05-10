@@ -244,7 +244,9 @@ impl FromStr for ShellType {
 			r#""he_i""# |
 			r#""he_frag_t_ball""# |
 			r#""he_i_t_mine""# |
-			r#""he_grenade_tank""# => {
+			r#""he_grenade_tank""#|
+			r#""he_tf""# |
+			r#""grenade_mp_underbarrel_launcher""# => {
 				Ok(Self::He)
 			}
 			r#""aphe_tank""# |

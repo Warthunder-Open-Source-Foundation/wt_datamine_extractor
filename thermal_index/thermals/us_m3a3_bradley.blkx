@@ -16,7 +16,7 @@
     0.0,
     1.0
   ],
-  "exhaustFx": "tank_exhaust",
+  "exhaustFx": "tank_exhaust_med",
   "damagedExhaustFx": "tank_broken_exhaust",
   "thermalExhaustFx": "tank_exhaust_nightvision",
   "dustFx": "",
@@ -629,6 +629,16 @@
       "ammo_body_58_dm": {},
       "ammo_body_59_dm": {},
       "ammo_body_60_dm": {},
+      "ammo_body_61_dm": {},
+      "ammo_body_62_dm": {},
+      "ammo_body_63_dm": {},
+      "ammo_body_64_dm": {},
+      "ammo_body_65_dm": {},
+      "ammo_body_66_dm": {},
+      "ammo_body_67_dm": {},
+      "ammo_body_68_dm": {},
+      "ammo_body_69_dm": {},
+      "ammo_body_70_dm": {},
       "ammo_body_l_01_dm": {},
       "ammo_body_l_02_dm": {},
       "ammo_body_l_03_dm": {},
@@ -807,6 +817,16 @@
           "ammo_body_58_dm",
           "ammo_body_59_dm",
           "ammo_body_60_dm",
+          "ammo_body_61_dm",
+          "ammo_body_62_dm",
+          "ammo_body_63_dm",
+          "ammo_body_64_dm",
+          "ammo_body_65_dm",
+          "ammo_body_66_dm",
+          "ammo_body_67_dm",
+          "ammo_body_68_dm",
+          "ammo_body_69_dm",
+          "ammo_body_70_dm",
           "ammo_body_l_01_dm",
           "ammo_body_l_02_dm",
           "ammo_body_l_03_dm",
@@ -1526,9 +1546,6 @@
         "drive_turret_h_01_dm",
         "drive_turret_v_02_dm",
         "drive_turret_h_02_dm",
-        "ammo_turret_dm",
-        "ammo_turret_01_dm",
-        "ammo_turret_02_dm",
         "ammo_turret_03_dm",
         "ammo_turret_04_dm",
         "ammo_turret_05_dm",
@@ -1636,47 +1653,7 @@
         "ammo_body_52_dm",
         "ammo_body_53_dm",
         "ammo_body_54_dm",
-        "ammo_body_55_dm",
-        "ammo_body_l_01_dm",
-        "ammo_body_l_02_dm",
-        "ammo_body_l_03_dm",
-        "ammo_body_l_04_dm",
-        "ammo_body_l_05_dm",
-        "ammo_body_l_06_dm",
-        "ammo_body_l_07_dm",
-        "ammo_body_l_08_dm",
-        "ammo_body_l_09_dm",
-        "ammo_body_l_10_dm",
-        "ammo_body_l_11_dm",
-        "ammo_body_l_12_dm",
-        "ammo_body_l_13_dm",
-        "ammo_body_l_14_dm",
-        "ammo_body_l_15_dm",
-        "ammo_body_l_16_dm",
-        "ammo_body_l_17_dm",
-        "ammo_body_l_18_dm",
-        "ammo_body_l_19_dm",
-        "ammo_body_l_20_dm",
-        "ammo_body_r_01_dm",
-        "ammo_body_r_02_dm",
-        "ammo_body_r_03_dm",
-        "ammo_body_r_04_dm",
-        "ammo_body_r_05_dm",
-        "ammo_body_r_06_dm",
-        "ammo_body_r_07_dm",
-        "ammo_body_r_08_dm",
-        "ammo_body_r_09_dm",
-        "ammo_body_r_10_dm",
-        "ammo_body_r_11_dm",
-        "ammo_body_r_12_dm",
-        "ammo_body_r_13_dm",
-        "ammo_body_r_14_dm",
-        "ammo_body_r_15_dm",
-        "ammo_body_r_16_dm",
-        "ammo_body_r_17_dm",
-        "ammo_body_r_18_dm",
-        "ammo_body_r_19_dm",
-        "ammo_body_r_20_dm"
+        "ammo_body_55_dm"
       ],
       "effect": [
         {
@@ -2074,7 +2051,7 @@
       "cls_body": "convex_hull"
     },
     "engine": {
-      "horsePowers": 608.0,
+      "horsePowers": 600.0,
       "maxRPM": 2600.0,
       "minRPM": 700.0
     },
@@ -2082,7 +2059,7 @@
       "maxBrakeForce": 200000.0,
       "driveGearRadius": 0.23,
       "mainGearRatio": 1.0,
-      "sideGearRatio": 4.071,
+      "sideGearRatio": 4.1,
       "neutralGearRatio": 12.0,
       "gearRatios": {
         "ratio": [
@@ -2984,10 +2961,10 @@
     "airstrike": {},
     "improved_optics": {},
     "tank_medical_kit": {
-      "image": "#ui/gameuiskin#tank_reinforcement_us.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_us"
     },
     "tank_medical_kit_expendable": {
-      "image": "#ui/gameuiskin#tank_reinforcement_us.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_us"
     },
     "modern_tank_laser_rangefinder": {
       "tier": 1,
@@ -3443,11 +3420,15 @@
     "25mm_M242_APDS_FS_ammo_pack": {},
     "127mm_us_tow": {},
     "152mm_us_tow_2": {},
+    "152mm_us_tow_2a": {},
+    "152mm_us_tow_2a_ammo_pack": {
+      "tier": 1
+    },
     "152mm_us_tow_2_ammo_pack": {
-      "tier": 3
+      "tier": 4
     },
     "night_vision_system": {
-      "image": "#ui/gameuiskin#thermal_sight.png",
+      "image": "#ui/gameuiskin#thermal_sight",
       "tier": 2,
       "effects": {
         "nightVision": {

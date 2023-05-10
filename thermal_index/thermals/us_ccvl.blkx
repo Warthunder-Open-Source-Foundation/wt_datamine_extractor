@@ -15,7 +15,7 @@
     0.0,
     1.0
   ],
-  "exhaustFx": "tank_exhaust",
+  "exhaustFx": "tank_exhaust_med",
   "damagedExhaustFx": "tank_broken_exhaust",
   "thermalExhaustFx": "tank_exhaust_nightvision",
   "dustFx": "",
@@ -126,7 +126,7 @@
         "armorThickness": 38.1
       },
       "body_front_dm": {
-        "armorThickness": 70.25
+        "armorThickness": 38.1
       },
       "superstructure_top_dm": {
         "armorThickness": 25.4
@@ -141,10 +141,10 @@
         "armorThickness": 25.4
       },
       "superstructure_bottom_dm": {
-        "armorThickness": 13.0
+        "armorThickness": 25.4
       },
       "turret_03_side_dm": {
-        "armorThickness": 12.7
+        "armorThickness": 25.4
       },
       "turret_03_back_dm": {
         "armorThickness": 6.35
@@ -229,7 +229,7 @@
         "armorThickness": 25.4
       },
       "body_side_dm": {
-        "armorThickness": 25.4
+        "armorThickness": 44.0
       }
     },
     "hull_turret_spaced_armor": {
@@ -688,6 +688,16 @@
       "ammo_body_58_dm": {},
       "ammo_body_59_dm": {},
       "ammo_body_60_dm": {},
+      "ammo_body_61_dm": {},
+      "ammo_body_62_dm": {},
+      "ammo_body_63_dm": {},
+      "ammo_body_64_dm": {},
+      "ammo_body_65_dm": {},
+      "ammo_body_66_dm": {},
+      "ammo_body_67_dm": {},
+      "ammo_body_68_dm": {},
+      "ammo_body_69_dm": {},
+      "ammo_body_70_dm": {},
       "ammo_body_l_01_dm": {},
       "ammo_body_l_02_dm": {},
       "ammo_body_l_03_dm": {},
@@ -878,6 +888,16 @@
           "ammo_body_58_dm",
           "ammo_body_59_dm",
           "ammo_body_60_dm",
+          "ammo_body_61_dm",
+          "ammo_body_62_dm",
+          "ammo_body_63_dm",
+          "ammo_body_64_dm",
+          "ammo_body_65_dm",
+          "ammo_body_66_dm",
+          "ammo_body_67_dm",
+          "ammo_body_68_dm",
+          "ammo_body_69_dm",
+          "ammo_body_70_dm",
           "ammo_body_l_01_dm",
           "ammo_body_l_02_dm",
           "ammo_body_l_03_dm",
@@ -2921,10 +2941,10 @@
     "new_tank_vertical_aiming": {},
     "tank_new_gun": {},
     "tank_medical_kit": {
-      "image": "#ui/gameuiskin#tank_reinforcement_us.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_us"
     },
     "tank_medical_kit_expendable": {
-      "image": "#ui/gameuiskin#tank_reinforcement_us.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_us"
     },
     "airstrike": {},
     "art_support": {
@@ -3231,7 +3251,7 @@
       }
     },
     "night_vision_system": {
-      "image": "#ui/gameuiskin#thermal_sight.png",
+      "image": "#ui/gameuiskin#thermal_sight",
       "tier": 3,
       "effects": {
         "nightVision": {

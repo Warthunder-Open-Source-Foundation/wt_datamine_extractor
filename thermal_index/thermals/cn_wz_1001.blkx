@@ -15,7 +15,7 @@
     0.0,
     1.0
   ],
-  "exhaustFx": "tank_exhaust",
+  "exhaustFx": "tank_exhaust_med",
   "damagedExhaustFx": "tank_broken_exhaust",
   "thermalExhaustFx": "tank_exhaust_nightvision",
   "dustFx": "",
@@ -107,7 +107,8 @@
         "armorThickness": 45.0
       },
       "composite_armor_hull_02_dm": {
-        "armorThickness": 5.0
+        "armorThickness": 5.0,
+        "hidableInXrayViewer": true
       },
       "turret_03_back_dm": {
         "armorThickness": 20.0
@@ -748,6 +749,16 @@
       "ammo_body_58_dm": {},
       "ammo_body_59_dm": {},
       "ammo_body_60_dm": {},
+      "ammo_body_61_dm": {},
+      "ammo_body_62_dm": {},
+      "ammo_body_63_dm": {},
+      "ammo_body_64_dm": {},
+      "ammo_body_65_dm": {},
+      "ammo_body_66_dm": {},
+      "ammo_body_67_dm": {},
+      "ammo_body_68_dm": {},
+      "ammo_body_69_dm": {},
+      "ammo_body_70_dm": {},
       "ammo_body_l_01_dm": {},
       "ammo_body_l_02_dm": {},
       "ammo_body_l_03_dm": {},
@@ -1002,6 +1013,16 @@
           "ammo_body_58_dm",
           "ammo_body_59_dm",
           "ammo_body_60_dm",
+          "ammo_body_61_dm",
+          "ammo_body_62_dm",
+          "ammo_body_63_dm",
+          "ammo_body_64_dm",
+          "ammo_body_65_dm",
+          "ammo_body_66_dm",
+          "ammo_body_67_dm",
+          "ammo_body_68_dm",
+          "ammo_body_69_dm",
+          "ammo_body_70_dm",
           "ammo_body_l_01_dm",
           "ammo_body_l_02_dm",
           "ammo_body_l_03_dm",
@@ -1913,7 +1934,7 @@
         "breechDP": "cannon_breech_dm",
         "autoLoader": true,
         "speedYaw": 38.0,
-        "speedPitch": 7.0,
+        "speedPitch": 15.0,
         "fireConeAngle": 1.0,
         "bullets": 34,
         "salvoAmount": 100.0,
@@ -3318,10 +3339,10 @@
     "art_support": {},
     "tank_engine_smoke_screen_system": {},
     "tank_medical_kit": {
-      "image": "#ui/gameuiskin#tank_reinforcement_cn.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_cn"
     },
     "tank_medical_kit_expendable": {
-      "image": "#ui/gameuiskin#tank_reinforcement_cn.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_cn"
     },
     "laser_rangefinder_lws": {
       "tier": 2
@@ -3365,7 +3386,7 @@
               "breechDP": "cannon_breech_dm",
               "autoLoader": true,
               "speedYaw": 38.0,
-              "speedPitch": 7.0,
+              "speedPitch": 15.0,
               "fireConeAngle": 1.0,
               "bullets": 34,
               "salvoAmount": 100.0,
@@ -3705,7 +3726,7 @@
       }
     },
     "night_vision_system": {
-      "image": "#ui/gameuiskin#thermal_sight.png",
+      "image": "#ui/gameuiskin#thermal_sight",
       "modClass": "protection",
       "tier": 3,
       "effects": {

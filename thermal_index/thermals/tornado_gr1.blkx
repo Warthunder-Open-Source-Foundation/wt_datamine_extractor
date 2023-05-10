@@ -1,7 +1,7 @@
 {
   "model": "tornado_gr1",
   "fmFile": "/fm/tornado_gr1.blk",
-  "viewDistKInSight": 4.0,
+  "viewDistKInSight": 6.0,
   "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/jet_fighter_metaparts.blk",
   "gearSinkRangeLR": 0.1,
   "gearSinkRangeC": 0.212,
@@ -9,12 +9,14 @@
   "standardExhaustFxType": "jet_exhaust",
   "afterburnerExhaustFxType": "jet_afterburner_exhaust",
   "startExhaustFxType": "jet_start_exhaust",
+  "disableExhaustFxIfContrailIsActive": true,
   "haveCCIPForRocket": true,
   "haveCCIPForBombs": true,
   "haveCCIPForGun": true,
   "haveCCRPForBombs": true,
   "ilsTornado": true,
   "isBwOpticSight": true,
+  "haveCCRPForGun": true,
   "hasOpticTurret": true,
   "havePointOfInterestDesignator": true,
   "gyroscopicSightOverSensors": true,
@@ -2457,6 +2459,7 @@
       0.605,
       0.0
     ],
+    "hasAirCannonIlsMode": true,
     "mirror": true,
     "mirrorPos": [
       4.606,
@@ -2899,6 +2902,10 @@
       {
         "name": "tornado_gr1_1000lb_mk83_tsc",
         "blk": "gameData/FlightModels/weaponPresets/tornado_gr1_1000lb_mk83_tsc.blk"
+      },
+      {
+        "name": "tornado_gr1_1000lb_default",
+        "blk": "gameData/FlightModels/weaponPresets/tornado_gr1_1000lb_default.blk"
       }
     ]
   },
@@ -3195,6 +3202,21 @@
           },
           {
             "iconType": "bombs_large",
+            "name": "1000lbs_default",
+            "ShowNodes": {
+              "node": "pylon_bomb3"
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "external": true,
+              "separate": true,
+              "blk": "gameData/Weapons/BombGuns/uk_1000lbs_gp_default.blk",
+              "emitter": "bomb3",
+              "bullets": 1
+            }
+          },
+          {
+            "iconType": "bombs_large",
             "name": "1000lbs_mk83",
             "reqModification": "sea_hawk_2x1000lb",
             "ShowNodes": {
@@ -3259,6 +3281,21 @@
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/BombGuns/uk_1000lbs_gp.blk",
+              "emitter": "bomb5",
+              "bullets": 1
+            }
+          },
+          {
+            "iconType": "bombs_large",
+            "name": "1000lbs_default",
+            "ShowNodes": {
+              "node": "pylon_bomb3"
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "external": true,
+              "separate": true,
+              "blk": "gameData/Weapons/BombGuns/uk_1000lbs_gp_default.blk",
               "emitter": "bomb5",
               "bullets": 1
             }
@@ -3509,6 +3546,21 @@
           },
           {
             "iconType": "bombs_large",
+            "name": "1000lbs_default",
+            "ShowNodes": {
+              "node": "pylon_bomb5"
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "external": true,
+              "separate": true,
+              "blk": "gameData/Weapons/BombGuns/uk_1000lbs_gp_default.blk",
+              "emitter": "bomb6",
+              "bullets": 1
+            }
+          },
+          {
+            "iconType": "bombs_large",
             "name": "1000lbs_mk83",
             "reqModification": "sea_hawk_2x1000lb",
             "ShowNodes": {
@@ -3573,6 +3625,21 @@
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/BombGuns/uk_1000lbs_gp.blk",
+              "emitter": "bomb4",
+              "bullets": 1
+            }
+          },
+          {
+            "iconType": "bombs_large",
+            "name": "1000lbs_default",
+            "ShowNodes": {
+              "node": "pylon_bomb5"
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "external": true,
+              "separate": true,
+              "blk": "gameData/Weapons/BombGuns/uk_1000lbs_gp_default.blk",
               "emitter": "bomb4",
               "bullets": 1
             }
@@ -4133,8 +4200,7 @@
     "countermeasures_launcher_flare_priority": {},
     "countermeasures_belt_pack": {
       "modClass": "armor",
-      "turn_it_off": false,
-      "invertEnableLogic": false,
+      "deactivationIsAllowed": false,
       "group": "countermeasures",
       "tier": 1
     },
@@ -4199,13 +4265,7 @@
         "from": "tornado_gr1_c*"
       },
       {
-        "from": "tornado_gr1_c_dmg*"
-      },
-      {
         "from": "tornado_gr1_n*"
-      },
-      {
-        "from": "tornado_gr1_n_dmg*"
       }
     ]
   },

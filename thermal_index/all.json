@@ -60,6 +60,18 @@
     ]
   },
   {
+    "name": "a_7k",
+    "localized": "A-7K",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "ah_1f",
     "localized": "AH-1F",
     "vehicle_type": "Helicopter",
@@ -73,7 +85,7 @@
   },
   {
     "name": "ah_1f_iaf",
-    "localized": "✡AH-1F",
+    "localized": "Tzefa D/E",
     "vehicle_type": "Helicopter",
     "sights": [
       {
@@ -157,7 +169,7 @@
   },
   {
     "name": "ah_64a_iaf",
-    "localized": "✡AH-64A",
+    "localized": "Peten",
     "vehicle_type": "Helicopter",
     "sights": [
       {
@@ -181,7 +193,7 @@
   },
   {
     "name": "ah_64a_peten_iaf",
-    "localized": "AH-64A Peten",
+    "localized": "✡AH-64A Peten",
     "vehicle_type": "Helicopter",
     "sights": [
       {
@@ -205,7 +217,7 @@
   },
   {
     "name": "ah_64d_i_saraph",
-    "localized": "✡AH-64D-I",
+    "localized": "Saraph",
     "vehicle_type": "Helicopter",
     "sights": [
       {
@@ -218,6 +230,18 @@
   {
     "name": "ah_64d_japan",
     "localized": "AH-64DJP",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "ah_6m",
+    "localized": "AH-6M",
     "vehicle_type": "Helicopter",
     "sights": [
       {
@@ -324,12 +348,41 @@
     ]
   },
   {
+    "name": "cn_pgz_88",
+    "localized": "cn_pgz_88",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
     "name": "cn_ptl_02",
     "localized": "PTL02",
     "vehicle_type": "Tank",
     "sights": [
       {
         "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "cn_qn506",
+    "localized": "QN506",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Commander",
         "x": 800.0,
         "y": 600.0
       }
@@ -948,6 +1001,18 @@
     ]
   },
   {
+    "name": "il_centurion_shot_kal_d",
+    "localized": "Sho't Kal Dalet",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "il_machbet",
     "localized": "Machbet",
     "vehicle_type": "Tank",
@@ -1068,6 +1133,23 @@
     ]
   },
   {
+    "name": "il_merkava_mk_4_lic",
+    "localized": "Merkava Mk.4 LIC",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Commander",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
     "name": "il_merkava_mk_4b",
     "localized": "Merkava Mk.4B",
     "vehicle_type": "Tank",
@@ -1087,6 +1169,23 @@
   {
     "name": "il_merkava_mk_4m",
     "localized": "Merkava Mk.4M",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Commander",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "it_ariete_amv_pt1",
+    "localized": "Ariete AMV",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1338,6 +1437,23 @@
   {
     "name": "jp_type_16_mcv_prot",
     "localized": "Type 16 (P)",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      },
+      {
+        "crew": "Commander",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "jp_type_16_mod",
+    "localized": "Type 16 (FPS)",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1820,6 +1936,18 @@
     ]
   },
   {
+    "name": "tornado_f3",
+    "localized": "Tornado F.3",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "tornado_gr1",
     "localized": "Tornado GR.1",
     "vehicle_type": "Aircraft",
@@ -1852,6 +1980,18 @@
         "crew": "Global",
         "x": 500.0,
         "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "uav_quadcopter",
+    "localized": "UAV Raven's Eye",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
       }
     ]
   },
@@ -2036,6 +2176,18 @@
     ]
   },
   {
+    "name": "uk_centurion_shot_kal_d",
+    "localized": "⦿Sho't Kal Dalet",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "uk_challenger_1",
     "localized": "Challenger Mk.2",
     "vehicle_type": "Tank",
@@ -2095,6 +2247,23 @@
     "sights": [
       {
         "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "uk_challenger_2e",
+    "localized": "Challenger 2E",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Commander",
         "x": 800.0,
         "y": 600.0
       }
@@ -2554,6 +2723,54 @@
     ]
   },
   {
+    "name": "us_mk_5_aa_combat_exoskeleton",
+    "localized": "AA Gunner",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "us_mk_5_assault_combat_exoskeleton",
+    "localized": "Assault",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "us_mk_5_at_combat_exoskeleton",
+    "localized": "Antitank",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "us_mk_5_sniper_combat_exoskeleton",
+    "localized": "Sniper",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
     "name": "us_xm1_chrysler",
     "localized": "XM-1 (Chrysler)",
     "vehicle_type": "Tank",
@@ -2674,6 +2891,66 @@
   {
     "name": "ussr_bmp_3",
     "localized": "BMP-3",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "ussr_mk_5_aa_combat_exoskeleton",
+    "localized": "AA Gunner",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "ussr_mk_5_assault_combat_exoskeleton",
+    "localized": "Assault",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "ussr_mk_5_at_combat_exoskeleton",
+    "localized": "Antitank",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "ussr_mk_5_sniper_combat_exoskeleton",
+    "localized": "Sniper",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "ussr_pantsyr_s1",
+    "localized": "Pantsir-S1",
     "vehicle_type": "Tank",
     "sights": [
       {

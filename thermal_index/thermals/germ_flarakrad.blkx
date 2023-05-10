@@ -15,13 +15,12 @@
     0.0,
     1.0
   ],
-  "exhaustFx": "tank_exhaust",
+  "exhaustFx": "tank_exhaust_med",
   "damagedExhaustFx": "tank_broken_exhaust",
   "thermalExhaustFx": "tank_exhaust_nightvision",
   "dustFx": "",
   "useSimpleDeathConditionsAndEffects": false,
   "radarDeployTime": 3.0,
-  "autoSightDistanceCorrection": true,
   "subclass": "heavyVehicle",
   "onRadarAs": "tracked",
   "moveType": "vehicle",
@@ -86,6 +85,16 @@
         "type": "engineFan",
         "turnSpeed": 1.0,
         "node": "bone_roll_engine_04"
+      },
+      {
+        "type": "engineFan",
+        "turnSpeed": 1.0,
+        "node": "bone_roll_engine_05"
+      },
+      {
+        "type": "engineFan",
+        "turnSpeed": 1.0,
+        "node": "bone_roll_engine_06"
       },
       {
         "type": "waterJetShutter",
@@ -498,6 +507,16 @@
       "ammo_body_58_dm": {},
       "ammo_body_59_dm": {},
       "ammo_body_60_dm": {},
+      "ammo_body_61_dm": {},
+      "ammo_body_62_dm": {},
+      "ammo_body_63_dm": {},
+      "ammo_body_64_dm": {},
+      "ammo_body_65_dm": {},
+      "ammo_body_66_dm": {},
+      "ammo_body_67_dm": {},
+      "ammo_body_68_dm": {},
+      "ammo_body_69_dm": {},
+      "ammo_body_70_dm": {},
       "ammo_body_l_01_dm": {},
       "ammo_body_l_02_dm": {},
       "ammo_body_l_03_dm": {},
@@ -682,6 +701,16 @@
           "ammo_body_58_dm",
           "ammo_body_59_dm",
           "ammo_body_60_dm",
+          "ammo_body_61_dm",
+          "ammo_body_62_dm",
+          "ammo_body_63_dm",
+          "ammo_body_64_dm",
+          "ammo_body_65_dm",
+          "ammo_body_66_dm",
+          "ammo_body_67_dm",
+          "ammo_body_68_dm",
+          "ammo_body_69_dm",
+          "ammo_body_70_dm",
           "ammo_body_l_01_dm",
           "ammo_body_l_02_dm",
           "ammo_body_l_03_dm",
@@ -1426,62 +1455,6 @@
         "drive_turret_v_02_dm",
         "drive_turret_h_02_dm",
         "transmission_dm",
-        "ammo_turret_dm",
-        "ammo_turret_01_dm",
-        "ammo_turret_02_dm",
-        "ammo_turret_03_dm",
-        "ammo_turret_04_dm",
-        "ammo_turret_05_dm",
-        "ammo_turret_06_dm",
-        "ammo_turret_07_dm",
-        "ammo_turret_08_dm",
-        "ammo_turret_09_dm",
-        "ammo_turret_10_dm",
-        "ammo_turret_11_dm",
-        "ammo_turret_12_dm",
-        "ammo_turret_13_dm",
-        "ammo_turret_14_dm",
-        "ammo_turret_15_dm",
-        "ammo_turret_16_dm",
-        "ammo_turret_17_dm",
-        "ammo_turret_18_dm",
-        "ammo_turret_19_dm",
-        "ammo_turret_20_dm",
-        "ammo_turret_21_dm",
-        "ammo_turret_22_dm",
-        "ammo_turret_23_dm",
-        "ammo_turret_24_dm",
-        "ammo_turret_25_dm",
-        "ammo_turret_26_dm",
-        "ammo_turret_27_dm",
-        "ammo_turret_28_dm",
-        "ammo_turret_29_dm",
-        "ammo_turret_30_dm",
-        "ammo_turret_31_dm",
-        "ammo_turret_32_dm",
-        "ammo_turret_33_dm",
-        "ammo_turret_34_dm",
-        "ammo_turret_35_dm",
-        "ammo_turret_36_dm",
-        "ammo_turret_37_dm",
-        "ammo_turret_38_dm",
-        "ammo_turret_39_dm",
-        "ammo_turret_40_dm",
-        "ammo_turret_41_dm",
-        "ammo_turret_42_dm",
-        "ammo_turret_43_dm",
-        "ammo_turret_44_dm",
-        "ammo_turret_45_dm",
-        "ammo_turret_46_dm",
-        "ammo_turret_47_dm",
-        "ammo_turret_48_dm",
-        "ammo_turret_49_dm",
-        "ammo_turret_50_dm",
-        "ammo_turret_51_dm",
-        "ammo_turret_52_dm",
-        "ammo_turret_53_dm",
-        "ammo_turret_54_dm",
-        "ammo_turret_55_dm",
         "ammo_body_01_dm",
         "ammo_body_02_dm",
         "ammo_body_03_dm",
@@ -1489,94 +1462,7 @@
         "ammo_body_05_dm",
         "ammo_body_06_dm",
         "ammo_body_07_dm",
-        "ammo_body_08_dm",
-        "ammo_body_09_dm",
-        "ammo_body_10_dm",
-        "ammo_body_11_dm",
-        "ammo_body_12_dm",
-        "ammo_body_13_dm",
-        "ammo_body_14_dm",
-        "ammo_body_15_dm",
-        "ammo_body_16_dm",
-        "ammo_body_17_dm",
-        "ammo_body_18_dm",
-        "ammo_body_19_dm",
-        "ammo_body_20_dm",
-        "ammo_body_21_dm",
-        "ammo_body_22_dm",
-        "ammo_body_23_dm",
-        "ammo_body_24_dm",
-        "ammo_body_25_dm",
-        "ammo_body_26_dm",
-        "ammo_body_27_dm",
-        "ammo_body_28_dm",
-        "ammo_body_29_dm",
-        "ammo_body_30_dm",
-        "ammo_body_31_dm",
-        "ammo_body_32_dm",
-        "ammo_body_33_dm",
-        "ammo_body_34_dm",
-        "ammo_body_35_dm",
-        "ammo_body_36_dm",
-        "ammo_body_37_dm",
-        "ammo_body_38_dm",
-        "ammo_body_39_dm",
-        "ammo_body_40_dm",
-        "ammo_body_41_dm",
-        "ammo_body_42_dm",
-        "ammo_body_43_dm",
-        "ammo_body_44_dm",
-        "ammo_body_45_dm",
-        "ammo_body_46_dm",
-        "ammo_body_47_dm",
-        "ammo_body_48_dm",
-        "ammo_body_49_dm",
-        "ammo_body_50_dm",
-        "ammo_body_51_dm",
-        "ammo_body_52_dm",
-        "ammo_body_53_dm",
-        "ammo_body_54_dm",
-        "ammo_body_55_dm",
-        "ammo_body_l_01_dm",
-        "ammo_body_l_02_dm",
-        "ammo_body_l_03_dm",
-        "ammo_body_l_04_dm",
-        "ammo_body_l_05_dm",
-        "ammo_body_l_06_dm",
-        "ammo_body_l_07_dm",
-        "ammo_body_l_08_dm",
-        "ammo_body_l_09_dm",
-        "ammo_body_l_10_dm",
-        "ammo_body_l_11_dm",
-        "ammo_body_l_12_dm",
-        "ammo_body_l_13_dm",
-        "ammo_body_l_14_dm",
-        "ammo_body_l_15_dm",
-        "ammo_body_l_16_dm",
-        "ammo_body_l_17_dm",
-        "ammo_body_l_18_dm",
-        "ammo_body_l_19_dm",
-        "ammo_body_l_20_dm",
-        "ammo_body_r_01_dm",
-        "ammo_body_r_02_dm",
-        "ammo_body_r_03_dm",
-        "ammo_body_r_04_dm",
-        "ammo_body_r_05_dm",
-        "ammo_body_r_06_dm",
-        "ammo_body_r_07_dm",
-        "ammo_body_r_08_dm",
-        "ammo_body_r_09_dm",
-        "ammo_body_r_10_dm",
-        "ammo_body_r_11_dm",
-        "ammo_body_r_12_dm",
-        "ammo_body_r_13_dm",
-        "ammo_body_r_14_dm",
-        "ammo_body_r_15_dm",
-        "ammo_body_r_16_dm",
-        "ammo_body_r_17_dm",
-        "ammo_body_r_18_dm",
-        "ammo_body_r_19_dm",
-        "ammo_body_r_20_dm"
+        "ammo_body_08_dm"
       ],
       "effect": [
         {
@@ -1611,83 +1497,148 @@
   },
   "class_tags": {},
   "commonWeapons": {
-    "Weapon": {
-      "trigger": "gunner0",
-      "triggerGroup": "primary",
-      "blk": "gameData/Weapons/groundModels_weapons/163mm_roland_vt_1_launcher_user_cannon.blk",
-      "flash": "bone_rocket_01",
-      "useEmitter": true,
-      "emitter": "bone_rocket_01",
-      "emitterGenRange": [
-        1,
-        2
-      ],
-      "emitterGenFmt": "bone_rocket_%02d",
-      "ammoDpGenFmt": "ammo_turret_%02d_dm",
-      "recoilMultiplier": 0.1,
-      "stopForFire": true,
-      "maxSpeedForFire": 5.0,
-      "reloadAnimVar": "flarakrad_action",
-      "waitShellForPark": true,
-      "sleeveEmitter": "bone_rocket_%02d",
-      "sleeveMesh": "roland_rocket_container",
-      "sleeveEmitterRange": [
-        1,
-        2
-      ],
-      "openHatchTime": 0.0,
-      "sleevesLifeTime": 15.0,
-      "sleeveImpulse": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "linkSleeveToGun": true,
-      "needScaleSleeve": false,
-      "canChangeBulletInReload": false,
-      "createGunEffects": true,
-      "parkForReload": true,
-      "barrelDP": "gun_barrel_dm",
-      "defaultYaw": 0.0,
-      "defaultPitch": 0.0,
-      "autoLoader": true,
-      "speedYaw": 85.0,
-      "speedPitch": 40.0,
-      "bullets": 10,
-      "salvoAmount": 100.0,
-      "ChainfireTime": 0.0,
-      "DelayAfterShoot": 2.0,
-      "fireConeAngle": 1.0,
-      "targetAngularRateMax": 5.0,
-      "AttackMaxDistance": 10000.0,
-      "AttackMaxRadius": 10000.0,
-      "AttackMaxHeight": 4000.0,
-      "accuracyAir": 1.5,
-      "accuracyGnd": 0.0,
-      "errMeasureVel": 0.0,
-      "errMeasureVelFast": 0.0,
-      "errMeasureVelFwdShift": 0.0,
-      "errMeasureVelDir": 0.0,
-      "errTargettingOn100kmph": 0.0,
-      "errTargetting": 3.0,
-      "errExplTime": 0.0,
-      "turret": {
-        "head": "bone_turret",
-        "gun": "bone_gun_01",
-        "gunnerDm": "gunner_dm",
-        "rotatedTurret": "bone_turret"
+    "Weapon": [
+      {
+        "dummy": true,
+        "trigger": "gunner0",
+        "triggerGroup": "primary",
+        "blk": "gameData/Weapons/dummy_weapon.blk",
+        "emitter": "bone_gun",
+        "aimForOperatedShell": true,
+        "defaultYaw": 0.0,
+        "defaultPitch": 0.0,
+        "speedYaw": 0.0,
+        "speedPitch": 40.0,
+        "bullets": 1,
+        "turret": {
+          "head": "bone_camera_gunner",
+          "gun": "bone_camera_gunner",
+          "horDriveDm": "drive_turret_h_dm",
+          "rotatedTurret": "bone_turret"
+        },
+        "limits": {
+          "yaw": [
+            -0.0,
+            0.0
+          ],
+          "pitch": [
+            -8.0,
+            80.0
+          ]
+        },
+        "gunStabilizer": {
+          "hasVerticalGunFreeMode": false,
+          "hasHorizontal": true,
+          "horizontalOmegaMult": 1.0,
+          "horizontalSpeedLimitKPH": 75.0,
+          "hasVertical": true,
+          "verticalOmegaMult": 1.0,
+          "verticalSpeedLimitKPH": 75.0,
+          "speedFromVehicleVerticalMult": -1.0,
+          "errorKPHToDegrees": {
+            "row": [
+              [
+                5.0,
+                0.0
+              ],
+              [
+                25.0,
+                0.015
+              ],
+              [
+                35.0,
+                0.02
+              ],
+              [
+                45.0,
+                0.1
+              ],
+              [
+                50.0,
+                0.3
+              ]
+            ]
+          }
+        }
       },
-      "limits": {
-        "yaw": [
-          -180.0,
-          180.0
+      {
+        "trigger": "gunner1",
+        "triggerGroup": "primary",
+        "blk": "gameData/Weapons/groundModels_weapons/163mm_roland_vt_1_launcher_user_cannon.blk",
+        "flash": "bone_rocket_01",
+        "useEmitter": true,
+        "emitter": "bone_rocket_01",
+        "emitterGenRange": [
+          1,
+          2
         ],
-        "pitch": [
-          -10.0,
-          80.0
-        ]
+        "emitterGenFmt": "bone_rocket_%02d",
+        "ammoDpGenFmt": "ammo_turret_%02d_dm",
+        "recoilMultiplier": 0.1,
+        "stopForFire": true,
+        "maxSpeedForFire": 5.0,
+        "reloadAnimVar": "flarakrad_action",
+        "waitShellForPark": true,
+        "sleeveEmitter": "bone_rocket_%02d",
+        "sleeveMesh": "roland_rocket_container",
+        "sleeveEmitterRange": [
+          1,
+          2
+        ],
+        "openHatchTime": 0.0,
+        "sleevesLifeTime": 15.0,
+        "sleeveImpulse": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "linkSleeveToGun": true,
+        "needScaleSleeve": false,
+        "canChangeBulletInReload": false,
+        "createGunEffects": true,
+        "parkForReload": true,
+        "barrelDP": "gun_barrel_dm",
+        "defaultYaw": 0.0,
+        "defaultPitch": 0.0,
+        "autoLoader": true,
+        "speedYaw": 85.0,
+        "speedPitch": 40.0,
+        "bullets": 10,
+        "salvoAmount": 100.0,
+        "ChainfireTime": 0.0,
+        "DelayAfterShoot": 2.0,
+        "fireConeAngle": 1.0,
+        "targetAngularRateMax": 5.0,
+        "AttackMaxDistance": 10000.0,
+        "AttackMaxRadius": 10000.0,
+        "AttackMaxHeight": 4000.0,
+        "accuracyAir": 1.5,
+        "accuracyGnd": 0.0,
+        "errMeasureVel": 0.0,
+        "errMeasureVelFast": 0.0,
+        "errMeasureVelFwdShift": 0.0,
+        "errMeasureVelDir": 0.0,
+        "errTargettingOn100kmph": 0.0,
+        "errTargetting": 3.0,
+        "errExplTime": 0.0,
+        "turret": {
+          "head": "bone_turret",
+          "gun": "bone_gun_01",
+          "gunnerDm": "gunner_dm",
+          "rotatedTurret": "bone_turret"
+        },
+        "limits": {
+          "yaw": [
+            -180.0,
+            180.0
+          ],
+          "pitch": [
+            -10.0,
+            80.0
+          ]
+        }
       }
-    },
+    ],
     "animatedBones": {
       "node": [
         "antenna_target_location",
@@ -2553,10 +2504,10 @@
     "new_tank_vertical_aiming": {},
     "art_support": {},
     "tank_medical_kit": {
-      "image": "#ui/gameuiskin#tank_reinforcement_ger.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_ger"
     },
     "tank_medical_kit_expendable": {
-      "image": "#ui/gameuiskin#tank_reinforcement_ger.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_ger"
     },
     "modern_tank_laser_rangefinder": {
       "effects": {
@@ -2607,14 +2558,14 @@
           "sensor": [
             {
               "blk": "gameData/sensors/de_roland_sr.blk",
-              "turretIndex": 0,
+              "turretIndex": 1,
               "designationFromBody": true,
-              "designationTurretIndex": 0,
+              "designationTurretIndex": 1,
               "dmPart": "antenna_target_location_dm"
             },
             {
-              "blk": "gameData/sensors/de_roland_fr.blk",
-              "turretIndex": 0,
+              "blk": "gameData/sensors/de_flarakrad_fr.blk",
+              "turretIndex": 1,
               "dmPart": "antenna_target_tagging_dm"
             },
             {
@@ -2641,7 +2592,70 @@
         "commonWeapons": {
           "Weapon": [
             {
+              "dummy": true,
               "trigger": "gunner0",
+              "triggerGroup": "primary",
+              "blk": "gameData/Weapons/dummy_weapon.blk",
+              "emitter": "bone_gun",
+              "aimForOperatedShell": true,
+              "defaultYaw": 0.0,
+              "defaultPitch": 0.0,
+              "speedYaw": 0.0,
+              "speedPitch": 40.0,
+              "bullets": 1,
+              "turret": {
+                "head": "bone_camera_gunner",
+                "gun": "bone_camera_gunner",
+                "horDriveDm": "drive_turret_h_dm",
+                "rotatedTurret": "bone_turret"
+              },
+              "limits": {
+                "yaw": [
+                  -0.0,
+                  0.0
+                ],
+                "pitch": [
+                  -8.0,
+                  80.0
+                ]
+              },
+              "gunStabilizer": {
+                "hasVerticalGunFreeMode": false,
+                "hasHorizontal": true,
+                "horizontalOmegaMult": 1.0,
+                "horizontalSpeedLimitKPH": 75.0,
+                "hasVertical": true,
+                "verticalOmegaMult": 1.0,
+                "verticalSpeedLimitKPH": 75.0,
+                "speedFromVehicleVerticalMult": -1.0,
+                "errorKPHToDegrees": {
+                  "row": [
+                    [
+                      5.0,
+                      0.0
+                    ],
+                    [
+                      25.0,
+                      0.015
+                    ],
+                    [
+                      35.0,
+                      0.02
+                    ],
+                    [
+                      45.0,
+                      0.1
+                    ],
+                    [
+                      50.0,
+                      0.3
+                    ]
+                  ]
+                }
+              }
+            },
+            {
+              "trigger": "gunner1",
               "triggerGroup": "primary",
               "blk": "gameData/Weapons/groundModels_weapons/163mm_roland_vt_1_launcher_user_cannon.blk",
               "flash": "bone_rocket_01",
@@ -2718,7 +2732,7 @@
               }
             },
             {
-              "trigger": "gunner1",
+              "trigger": "gunner2",
               "triggerGroup": "smoke",
               "blk": "gameData/Weapons/groundModels_weapons/66mm_modern_smoke_grenade_launcher.blk",
               "weaponType": "rockets",
@@ -2787,7 +2801,7 @@
       }
     },
     "night_vision_system": {
-      "image": "#ui/gameuiskin#thermal_sight.png",
+      "image": "#ui/gameuiskin#thermal_sight",
       "tier": 3,
       "effects": {
         "nightVision": {
@@ -2814,7 +2828,7 @@
   "ammoStowages": {
     "ammo1": {
       "removeLoadedAmmo": false,
-      "weaponTrigger": "gunner0",
+      "weaponTrigger": "gunner1",
       "fatalFire": true,
       "fatalExplosion": true,
       "shells": {
@@ -2967,14 +2981,14 @@
     "sensor": [
       {
         "blk": "gameData/sensors/de_roland_sr.blk",
-        "turretIndex": 0,
+        "turretIndex": 1,
         "designationFromBody": true,
-        "designationTurretIndex": 0,
+        "designationTurretIndex": 1,
         "dmPart": "antenna_target_location_dm"
       },
       {
-        "blk": "gameData/sensors/de_roland_fr.blk",
-        "turretIndex": 0,
+        "blk": "gameData/sensors/de_flarakrad_fr.blk",
+        "turretIndex": 1,
         "dmPart": "antenna_target_tagging_dm"
       }
     ]

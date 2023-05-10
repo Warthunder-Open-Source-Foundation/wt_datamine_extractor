@@ -5,7 +5,7 @@
   "shotFreq": 1000.25,
   "sound": "weapon.rocketgun_132",
   "helicopterGroup": 2,
-  "mesh": "us_aim_7f",
+  "mesh": "us_aim_7m",
   "tags": {},
   "rocket": {
     "normalizationPreset": "heat",
@@ -424,7 +424,7 @@
       "radarSeeker": {
         "band": 8,
         "sideLobesAttenuation": -20.0,
-        "lockAngleMax": 15.0,
+        "lockAngleMax": 35.0,
         "angleMax": 45.0,
         "rateMax": 20.0,
         "prolongationTimeMax": 1.0,
