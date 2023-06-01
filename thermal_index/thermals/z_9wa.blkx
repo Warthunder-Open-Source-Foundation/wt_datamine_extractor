@@ -6,6 +6,7 @@
   "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/hellicopters_metaparts.blk",
   "haveCCIPForRocket": true,
   "haveCCRPForRocket": true,
+  "gyroSight": true,
   "haveCCIPForGun": true,
   "haveCCIPForTurret": true,
   "haveCCRPForGun": false,
@@ -183,6 +184,18 @@
             "fire": 0.005,
             "leak_oil": 0.95,
             "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 0.25,
+            "leak_oil": 0.95,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 0.5,
+            "leak_oil": 0.95,
+            "cut": 0.0
           }
         ],
         "onKill": [
@@ -194,6 +207,18 @@
           {
             "damage": 30.0,
             "fire": 30.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 40.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 50.0,
             "leak_oil": 10.0,
             "cut": 0.0
           }
@@ -212,6 +237,18 @@
             "fire": 0.005,
             "leak_oil": 0.95,
             "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 0.25,
+            "leak_oil": 0.95,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 0.5,
+            "leak_oil": 0.95,
+            "cut": 0.0
           }
         ],
         "onKill": [
@@ -223,6 +260,18 @@
           {
             "damage": 30.0,
             "fire": 30.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 40.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 50.0,
             "leak_oil": 10.0,
             "cut": 0.0
           }
@@ -592,6 +641,18 @@
             "fire": 0.005,
             "leak_oil": 0.95,
             "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 0.25,
+            "leak_oil": 0.95,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 0.5,
+            "leak_oil": 0.95,
+            "cut": 0.0
           }
         ],
         "onKill": [
@@ -603,6 +664,18 @@
           {
             "damage": 30.0,
             "fire": 30.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 40.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 50.0,
             "leak_oil": 10.0,
             "cut": 0.0
           }
@@ -1607,6 +1680,7 @@
           {
             "iconType": "missile_air_to_uni_group_x4",
             "name": "hj8_e_left_wing_default",
+            "remotelyGuidedWeaponsMax": 1,
             "ShowNodes": {
               "node": "pylon_1"
             },
@@ -1622,6 +1696,7 @@
             "iconType": "missile_air_to_uni_large_group_x4",
             "name": "hj8_h_left_wing",
             "reqModification": "cn_hj8_h",
+            "remotelyGuidedWeaponsMax": 1,
             "ShowNodes": {
               "node": "pylon_1"
             },
@@ -1655,7 +1730,6 @@
               "flash": "flare1",
               "dm": "gun1_dm",
               "bullets": 1000,
-              "mass": 130.0,
               "spread": 1.5,
               "traceOffset": 1,
               "counterIndex": 1,
@@ -1743,6 +1817,7 @@
             "iconType": "missile_air_to_uni_group_x4",
             "name": "hj8_e_right_wing",
             "reqModification": "cn_hj8_e",
+            "remotelyGuidedWeaponsMax": 1,
             "ShowNodes": {
               "node": "pylon_2"
             },
@@ -1758,6 +1833,7 @@
             "iconType": "missile_air_to_uni_large_group_x4",
             "name": "hj8_h_right_wing",
             "reqModification": "cn_hj8_h",
+            "remotelyGuidedWeaponsMax": 1,
             "ShowNodes": {
               "node": "pylon_2"
             },
@@ -1791,7 +1867,6 @@
               "flash": "flare2",
               "dm": "gun2_dm",
               "bullets": 1000,
-              "mass": 130.0,
               "spread": 1.5,
               "traceOffset": 1,
               "counterIndex": 1,

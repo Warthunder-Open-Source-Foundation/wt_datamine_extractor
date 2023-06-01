@@ -1096,6 +1096,7 @@
           }
         ],
         "onKill": {
+          "notDamageType": "overheat",
           "fire": 0.5,
           "nothing": 0.5,
           "fHitCritical": true
@@ -1435,7 +1436,6 @@
   "MetaParts": {
     "closed_fightning_compartment": {
       "part": [
-        "driver_dm",
         "loader_dm",
         "gunner_dm",
         "commander_dm",
@@ -1454,7 +1454,6 @@
         "drive_turret_h_01_dm",
         "drive_turret_v_02_dm",
         "drive_turret_h_02_dm",
-        "transmission_dm",
         "ammo_body_01_dm",
         "ammo_body_02_dm",
         "ammo_body_03_dm",
@@ -1464,6 +1463,21 @@
         "ammo_body_07_dm",
         "ammo_body_08_dm"
       ],
+      "effect": [
+        {
+          "conditionDamageType": "explosion",
+          "conditionDamage": 1.0,
+          "pressure": true
+        },
+        {
+          "conditionDamageType": "shatter",
+          "conditionDamage": 1.0,
+          "pressure": true
+        }
+      ]
+    },
+    "closed_control_compartment": {
+      "part": "driver_dm",
       "effect": [
         {
           "conditionDamageType": "explosion",
@@ -1497,6 +1511,7 @@
   },
   "class_tags": {},
   "commonWeapons": {
+    "remotelyGuidedWeaponsMax": 1,
     "Weapon": [
       {
         "dummy": true,
@@ -1579,21 +1594,21 @@
         "maxSpeedForFire": 5.0,
         "reloadAnimVar": "flarakrad_action",
         "waitShellForPark": true,
-        "sleeveEmitter": "bone_rocket_%02d",
-        "sleeveMesh": "roland_rocket_container",
-        "sleeveEmitterRange": [
+        "shellCasingEmitter": "bone_rocket_%02d",
+        "shellCasingMesh": "roland_rocket_container",
+        "shellCasingEmitterRange": [
           1,
           2
         ],
         "openHatchTime": 0.0,
-        "sleevesLifeTime": 15.0,
-        "sleeveImpulse": [
+        "shellCasingLifeTime": 15.0,
+        "shellCasingImpulse": [
           0.0,
           0.0,
           0.0
         ],
-        "linkSleeveToGun": true,
-        "needScaleSleeve": false,
+        "linkShellCasingToGun": true,
+        "needScaleShellCasing": false,
         "canChangeBulletInReload": false,
         "createGunEffects": true,
         "parkForReload": true,
@@ -2461,6 +2476,13 @@
           "name": "smoke_after_hit_tiny",
           "setOrientation": true
         }
+      },
+      {
+        "name": "engine_overheat",
+        "fx": {
+          "name": "tank_radiator_steam",
+          "centerDmgPart": false
+        }
       }
     ],
     "procedural": {
@@ -2590,6 +2612,7 @@
       "modClass": "protection",
       "effects": {
         "commonWeapons": {
+          "remotelyGuidedWeaponsMax": 1,
           "Weapon": [
             {
               "dummy": true,
@@ -2672,21 +2695,21 @@
               "maxSpeedForFire": 5.0,
               "reloadAnimVar": "flarakrad_action",
               "waitShellForPark": true,
-              "sleeveEmitter": "bone_rocket_%02d",
-              "sleeveMesh": "roland_rocket_container",
-              "sleeveEmitterRange": [
+              "shellCasingEmitter": "bone_rocket_%02d",
+              "shellCasingMesh": "roland_rocket_container",
+              "shellCasingEmitterRange": [
                 1,
                 2
               ],
               "openHatchTime": 0.0,
-              "sleevesLifeTime": 15.0,
-              "sleeveImpulse": [
+              "shellCasingLifeTime": 15.0,
+              "shellCasingImpulse": [
                 0.0,
                 0.0,
                 0.0
               ],
-              "linkSleeveToGun": true,
-              "needScaleSleeve": false,
+              "linkShellCasingToGun": true,
+              "needScaleShellCasing": false,
               "canChangeBulletInReload": false,
               "createGunEffects": true,
               "parkForReload": true,

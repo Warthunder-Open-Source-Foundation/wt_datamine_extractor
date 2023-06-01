@@ -2,6 +2,7 @@
   "path": [
     "atam_mistral.blkx",
     "cn_pf10.blkx",
+    "cn_pl11.blkx",
     "cn_ty_90.blkx",
     "fr_matra_super_530d.blkx",
     "fr_matra_super_530f.blkx",
@@ -61,6 +62,7 @@
     "uk_skyflash_aim_7_dogfight.blkx",
     "uk_skyflash_temp.blkx",
     "uk_sraam.blkx",
+    "uk_sraam_default.blkx",
     "us_aim7c_sparrow.blkx",
     "us_aim7d_sparrow.blkx",
     "us_aim7e2_dogfight_sparrow.blkx",
@@ -97,6 +99,7 @@
     "us_aim9p_sidewinder_default.blkx",
     "us_aim_54a.blkx",
     "us_aim_54b.blkx",
+    "us_aim_54c.blkx",
     "us_fim-92b.blkx"
   ]
 }

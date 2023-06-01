@@ -4,6 +4,7 @@
   "viewDistKInSight": 6.0,
   "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/hellicopters_metaparts.blk",
   "haveCCIPForRocket": true,
+  "gyroSight": true,
   "haveCCIPForGun": true,
   "haveCCIPForTurret": true,
   "haveCCIPForBombs": true,
@@ -338,6 +339,18 @@
             "fire": 0.005,
             "leak_oil": 0.95,
             "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 0.25,
+            "leak_oil": 0.95,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 0.5,
+            "leak_oil": 0.95,
+            "cut": 0.0
           }
         ],
         "onKill": [
@@ -349,6 +362,18 @@
           {
             "damage": 30.0,
             "fire": 30.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 40.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 50.0,
             "leak_oil": 10.0,
             "cut": 0.0
           }
@@ -367,6 +392,18 @@
             "fire": 0.005,
             "leak_oil": 0.95,
             "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 0.25,
+            "leak_oil": 0.95,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 0.5,
+            "leak_oil": 0.95,
+            "cut": 0.0
           }
         ],
         "onKill": [
@@ -378,6 +415,18 @@
           {
             "damage": 30.0,
             "fire": 30.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 40.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 50.0,
             "leak_oil": 10.0,
             "cut": 0.0
           }
@@ -780,6 +829,18 @@
             "fire": 0.005,
             "leak_oil": 0.95,
             "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 0.25,
+            "leak_oil": 0.95,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 0.5,
+            "leak_oil": 0.95,
+            "cut": 0.0
           }
         ],
         "onKill": [
@@ -791,6 +852,18 @@
           {
             "damage": 30.0,
             "fire": 30.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 40.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 50.0,
             "leak_oil": 10.0,
             "cut": 0.0
           }
@@ -809,6 +882,18 @@
             "fire": 0.005,
             "leak_oil": 0.95,
             "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 0.25,
+            "leak_oil": 0.95,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 0.5,
+            "leak_oil": 0.95,
+            "cut": 0.0
           }
         ],
         "onKill": [
@@ -820,6 +905,18 @@
           {
             "damage": 30.0,
             "fire": 30.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 40.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 50.0,
             "leak_oil": 10.0,
             "cut": 0.0
           }
@@ -2198,7 +2295,7 @@
     "maxloadMass": 2050.0,
     "maxloadMassLeftConsoles": 1025.0,
     "maxloadMassRightConsoles": 1025.0,
-    "maxDisbalance": 800.0,
+    "maxDisbalance": 1020.0,
     "HideNodes": {
       "node": [
         "bomb_pylon1",
@@ -2537,7 +2634,7 @@
             "Weapon": [
               {
                 "trigger": "atgm",
-                "blk": "gameData/Weapons/rocketGuns/su_9M127.blk",
+                "blk": "gameData/Weapons/rocketGuns/su_9m127_1.blk",
                 "emitter": "su_vyhr_rocket_001",
                 "parentNode": "su_vyihr_apu6_tpk_001",
                 "bullets": 1,
@@ -2554,7 +2651,7 @@
               },
               {
                 "trigger": "atgm",
-                "blk": "gameData/Weapons/rocketGuns/su_9M127.blk",
+                "blk": "gameData/Weapons/rocketGuns/su_9m127_1.blk",
                 "emitter": "su_vyhr_rocket_002",
                 "parentNode": "su_vyihr_apu6_tpk_001",
                 "bullets": 1,
@@ -2571,7 +2668,7 @@
               },
               {
                 "trigger": "atgm",
-                "blk": "gameData/Weapons/rocketGuns/su_9M127.blk",
+                "blk": "gameData/Weapons/rocketGuns/su_9m127_1.blk",
                 "emitter": "su_vyhr_rocket_005",
                 "parentNode": "su_vyihr_apu6_tpk_001",
                 "bullets": 1,
@@ -2588,7 +2685,7 @@
               },
               {
                 "trigger": "atgm",
-                "blk": "gameData/Weapons/rocketGuns/su_9M127.blk",
+                "blk": "gameData/Weapons/rocketGuns/su_9m127_1.blk",
                 "emitter": "su_vyhr_rocket_006",
                 "parentNode": "su_vyihr_apu6_tpk_001",
                 "bullets": 1,
@@ -2605,7 +2702,7 @@
               },
               {
                 "trigger": "atgm",
-                "blk": "gameData/Weapons/rocketGuns/su_9M127.blk",
+                "blk": "gameData/Weapons/rocketGuns/su_9m127_1.blk",
                 "emitter": "su_vyhr_rocket_007",
                 "parentNode": "su_vyihr_apu6_tpk_001",
                 "bullets": 1,
@@ -2622,7 +2719,7 @@
               },
               {
                 "trigger": "atgm",
-                "blk": "gameData/Weapons/rocketGuns/su_9M127.blk",
+                "blk": "gameData/Weapons/rocketGuns/su_9m127_1.blk",
                 "emitter": "su_vyhr_rocket_008",
                 "parentNode": "su_vyihr_apu6_tpk_001",
                 "bullets": 1,
@@ -2639,7 +2736,7 @@
               }
             ],
             "WeaponContainers": {
-              "blk": "gameData/Weapons/rocketGuns/su_9M127.blk",
+              "blk": "gameData/Weapons/rocketGuns/su_9m127_1.blk",
               "node": [
                 "su_vyihr_apu6_tpk_lower_001",
                 "su_vyihr_cap_001",
@@ -2978,7 +3075,7 @@
             "Weapon": [
               {
                 "trigger": "atgm",
-                "blk": "gameData/Weapons/rocketGuns/su_9M127.blk",
+                "blk": "gameData/Weapons/rocketGuns/su_9m127_1.blk",
                 "emitter": "su_vyhr_rocket_004",
                 "parentNode": "su_vyihr_apu6_tpk_002",
                 "bullets": 1,
@@ -2995,7 +3092,7 @@
               },
               {
                 "trigger": "atgm",
-                "blk": "gameData/Weapons/rocketGuns/su_9M127.blk",
+                "blk": "gameData/Weapons/rocketGuns/su_9m127_1.blk",
                 "emitter": "su_vyhr_rocket_003",
                 "parentNode": "su_vyihr_apu6_tpk_002",
                 "bullets": 1,
@@ -3012,7 +3109,7 @@
               },
               {
                 "trigger": "atgm",
-                "blk": "gameData/Weapons/rocketGuns/su_9M127.blk",
+                "blk": "gameData/Weapons/rocketGuns/su_9m127_1.blk",
                 "emitter": "su_vyhr_rocket_012",
                 "parentNode": "su_vyihr_apu6_tpk_002",
                 "bullets": 1,
@@ -3029,7 +3126,7 @@
               },
               {
                 "trigger": "atgm",
-                "blk": "gameData/Weapons/rocketGuns/su_9M127.blk",
+                "blk": "gameData/Weapons/rocketGuns/su_9m127_1.blk",
                 "emitter": "su_vyhr_rocket_011",
                 "parentNode": "su_vyihr_apu6_tpk_002",
                 "bullets": 1,
@@ -3046,7 +3143,7 @@
               },
               {
                 "trigger": "atgm",
-                "blk": "gameData/Weapons/rocketGuns/su_9M127.blk",
+                "blk": "gameData/Weapons/rocketGuns/su_9m127_1.blk",
                 "emitter": "su_vyhr_rocket_010",
                 "parentNode": "su_vyihr_apu6_tpk_002",
                 "bullets": 1,
@@ -3063,7 +3160,7 @@
               },
               {
                 "trigger": "atgm",
-                "blk": "gameData/Weapons/rocketGuns/su_9M127.blk",
+                "blk": "gameData/Weapons/rocketGuns/su_9m127_1.blk",
                 "emitter": "su_vyhr_rocket_009",
                 "parentNode": "su_vyihr_apu6_tpk_002",
                 "bullets": 1,
@@ -3080,7 +3177,7 @@
               }
             ],
             "WeaponContainers": {
-              "blk": "gameData/Weapons/rocketGuns/su_9M127.blk",
+              "blk": "gameData/Weapons/rocketGuns/su_9m127_1.blk",
               "node": [
                 "su_vyihr_apu6_tpk_lower_002",
                 "su_vyihr_cap_007",
@@ -3260,8 +3357,8 @@
           },
           "sightThermal": {
             "resolution": [
-              1024,
-              768
+              1920,
+              1080
             ],
             "noiseFactor": 0.05
           }

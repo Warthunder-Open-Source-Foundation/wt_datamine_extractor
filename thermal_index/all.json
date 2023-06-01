@@ -44,6 +44,11 @@
         "crew": "Global",
         "x": 500.0,
         "y": 300.0
+      },
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
       }
     ]
   },
@@ -126,8 +131,8 @@
     "sights": [
       {
         "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
+        "x": 1920.0,
+        "y": 1080.0
       }
     ]
   },
@@ -529,6 +534,23 @@
     ]
   },
   {
+    "name": "f_14b",
+    "localized": "F-14B",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
+      },
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "fr_amx_10rc",
     "localized": "AMX-10RC",
     "vehicle_type": "Tank",
@@ -690,6 +712,23 @@
     ]
   },
   {
+    "name": "fr_vbci2_mct30",
+    "localized": "VBCI-2 (MCT30)",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      },
+      {
+        "crew": "Commander",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
     "name": "fr_vcac_mephisto",
     "localized": "MEPHISTO",
     "vehicle_type": "Tank",
@@ -708,8 +747,8 @@
     "sights": [
       {
         "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
+        "x": 1920.0,
+        "y": 1080.0
       }
     ]
   },
@@ -1025,6 +1064,18 @@
     ]
   },
   {
+    "name": "il_magach_6b_gal",
+    "localized": "Magach 6B Gal",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "il_magach_6b_gal_batash",
     "localized": "Gal Batash",
     "vehicle_type": "Tank",
@@ -1300,6 +1351,18 @@
     ]
   },
   {
+    "name": "it_freccia",
+    "localized": "Freccia",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
     "name": "it_leopard_1a5",
     "localized": "⦿Leopard 1A5",
     "vehicle_type": "Tank",
@@ -1535,8 +1598,8 @@
     "sights": [
       {
         "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
+        "x": 1920.0,
+        "y": 1080.0
       }
     ]
   },
@@ -1547,8 +1610,8 @@
     "sights": [
       {
         "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
+        "x": 1920.0,
+        "y": 1080.0
       }
     ]
   },
@@ -1559,8 +1622,8 @@
     "sights": [
       {
         "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
+        "x": 1920.0,
+        "y": 1080.0
       }
     ]
   },
@@ -1571,8 +1634,8 @@
     "sights": [
       {
         "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
+        "x": 1920.0,
+        "y": 1080.0
       }
     ]
   },
@@ -1583,8 +1646,37 @@
     "sights": [
       {
         "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
+        "x": 1920.0,
+        "y": 1080.0
+      }
+    ]
+  },
+  {
+    "name": "mirage_2000_5f",
+    "localized": "Mirage 2000-5F",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1080.0,
+        "y": 720.0
+      },
+      {
+        "crew": "Global",
+        "x": 1080.0,
+        "y": 720.0
+      }
+    ]
+  },
+  {
+    "name": "mirage_2000c_s5",
+    "localized": "Mirage 2000C-S5",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1080.0,
+        "y": 720.0
       }
     ]
   },
@@ -1597,6 +1689,11 @@
         "crew": "Global",
         "x": 500.0,
         "y": 300.0
+      },
+      {
+        "crew": "Global",
+        "x": 1080.0,
+        "y": 720.0
       }
     ]
   },
@@ -1713,11 +1810,16 @@
   },
   {
     "name": "sw_cv_9030_fin",
-    "localized": "sw_cv_9030_fin",
+    "localized": "CV9030FIN",
     "vehicle_type": "Tank",
     "sights": [
       {
         "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Commander",
         "x": 800.0,
         "y": 600.0
       }
@@ -1932,6 +2034,18 @@
         "crew": "Global",
         "x": 1024.0,
         "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "tornado_adv",
+    "localized": "Tornado ADV",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
       }
     ]
   },
@@ -2535,6 +2649,18 @@
     ]
   },
   {
+    "name": "us_m1_abrams_kvt",
+    "localized": "M1 KVT",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "us_m1_ip_abrams",
     "localized": "IPM1",
     "vehicle_type": "Tank",
@@ -2723,54 +2849,6 @@
     ]
   },
   {
-    "name": "us_mk_5_aa_combat_exoskeleton",
-    "localized": "AA Gunner",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 1200.0,
-        "y": 800.0
-      }
-    ]
-  },
-  {
-    "name": "us_mk_5_assault_combat_exoskeleton",
-    "localized": "Assault",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 1200.0,
-        "y": 800.0
-      }
-    ]
-  },
-  {
-    "name": "us_mk_5_at_combat_exoskeleton",
-    "localized": "Antitank",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 1200.0,
-        "y": 800.0
-      }
-    ]
-  },
-  {
-    "name": "us_mk_5_sniper_combat_exoskeleton",
-    "localized": "Sniper",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 1200.0,
-        "y": 800.0
-      }
-    ]
-  },
-  {
     "name": "us_xm1_chrysler",
     "localized": "XM-1 (Chrysler)",
     "vehicle_type": "Tank",
@@ -2897,54 +2975,6 @@
         "crew": "Gunner",
         "x": 800.0,
         "y": 600.0
-      }
-    ]
-  },
-  {
-    "name": "ussr_mk_5_aa_combat_exoskeleton",
-    "localized": "AA Gunner",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 1200.0,
-        "y": 800.0
-      }
-    ]
-  },
-  {
-    "name": "ussr_mk_5_assault_combat_exoskeleton",
-    "localized": "Assault",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 1200.0,
-        "y": 800.0
-      }
-    ]
-  },
-  {
-    "name": "ussr_mk_5_at_combat_exoskeleton",
-    "localized": "Antitank",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 1200.0,
-        "y": 800.0
-      }
-    ]
-  },
-  {
-    "name": "ussr_mk_5_sniper_combat_exoskeleton",
-    "localized": "Sniper",
-    "vehicle_type": "Tank",
-    "sights": [
-      {
-        "crew": "Gunner",
-        "x": 1200.0,
-        "y": 800.0
       }
     ]
   },
@@ -3133,8 +3163,8 @@
     "sights": [
       {
         "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
+        "x": 1920.0,
+        "y": 1080.0
       }
     ]
   },

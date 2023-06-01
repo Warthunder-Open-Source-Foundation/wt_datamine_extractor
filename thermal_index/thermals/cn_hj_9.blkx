@@ -155,10 +155,6 @@
       "turret_01_side_dm": {
         "armorThickness": 8.0
       },
-      "turret_01_bottom_dm": {},
-      "turret_02_bottom_dm": {
-        "armorThickness": 5.0
-      },
       "turret_03_bottom_dm": {},
       "turret_04_bottom_dm": {
         "armorThickness": 5.0
@@ -192,6 +188,16 @@
       },
       "ex_armor_r_01_dm": {
         "armorThickness": 10.0
+      }
+    },
+    "inner_armor": {
+      "armorClass": "RHA_tank_modern",
+      "hidableInXrayViewer": true,
+      "composite_armor_hull_01_dm": {
+        "armorThickness": 5.0
+      },
+      "composite_armor_hull_02_dm": {
+        "armorThickness": 8.0
       }
     },
     "sensor": {
@@ -1087,6 +1093,7 @@
           }
         ],
         "onKill": {
+          "notDamageType": "overheat",
           "fire": 0.5,
           "nothing": 0.5,
           "fHitCritical": true
@@ -1446,6 +1453,28 @@
       ]
     }
   },
+  "xray_viewer_data": {
+    "armorArrayHullFront": [
+      {
+        "xrayDmPart": "composite_armor_hull_01_dm",
+        "titleLoc": "RHA_tank_modern",
+        "armorArrayText": {
+          "layer": {
+            "dmPart": "composite_armor_hull_01_dm"
+          }
+        }
+      },
+      {
+        "xrayDmPart": "composite_armor_hull_02_dm",
+        "titleLoc": "RHA_tank_modern",
+        "armorArrayText": {
+          "layer": {
+            "dmPart": "composite_armor_hull_02_dm"
+          }
+        }
+      }
+    ]
+  },
   "chainIK": {
     "points": {
       "point": [
@@ -1470,6 +1499,7 @@
   },
   "class_tags": {},
   "commonWeapons": {
+    "remotelyGuidedWeaponsMax": 1,
     "Weapon": {
       "trigger": "gunner0",
       "triggerGroup": "primary",
@@ -1494,6 +1524,7 @@
         0.23
       ],
       "waitShellForPark": true,
+      "staticElevation": 1.2,
       "canChangeBulletInReload": false,
       "createGunEffects": true,
       "parkForReload": true,
@@ -1697,13 +1728,13 @@
       "wheel": {
         "name": "bone_wheel_$1",
         "limitMin": [
-          -1000.0,
-          0.0,
+          -1.0,
+          -1.0,
           0.0
         ],
         "limitMax": [
-          1000.0,
-          0.0,
+          1.0,
+          1.0,
           0.0
         ]
       }
@@ -2440,6 +2471,13 @@
           "name": "smoke_after_hit_tiny",
           "setOrientation": true
         }
+      },
+      {
+        "name": "engine_overheat",
+        "fx": {
+          "name": "tank_radiator_steam",
+          "centerDmgPart": false
+        }
       }
     ],
     "procedural": {
@@ -2516,6 +2554,7 @@
       "tier": 4,
       "effects": {
         "commonWeapons": {
+          "remotelyGuidedWeaponsMax": 1,
           "Weapon": [
             {
               "trigger": "gunner0",
@@ -2541,6 +2580,7 @@
                 0.23
               ],
               "waitShellForPark": true,
+              "staticElevation": 1.2,
               "canChangeBulletInReload": false,
               "createGunEffects": true,
               "parkForReload": true,

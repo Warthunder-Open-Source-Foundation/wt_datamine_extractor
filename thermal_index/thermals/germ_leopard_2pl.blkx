@@ -228,9 +228,7 @@
         "armorEffectiveThicknessMax": 160.0
       },
       "turret_05_back_dm": {
-        "armorThickness": 250.0,
-        "armorClass": "CHA_tank_modern",
-        "armorEffectiveThicknessMax": 250.0
+        "armorThickness": 20.0
       },
       "turret_05_front_dm": {
         "armorThickness": 40.0
@@ -1425,6 +1423,7 @@
           }
         ],
         "onKill": {
+          "notDamageType": "overheat",
           "fire": 0.4,
           "nothing": 0.6,
           "fHitCritical": true
@@ -2620,13 +2619,13 @@
       "wheel": {
         "name": "bone_wheel_$1",
         "limitMin": [
-          -1000.0,
-          0.0,
+          -1.0,
+          -1.0,
           0.0
         ],
         "limitMax": [
-          1000.0,
-          0.0,
+          1.0,
+          1.0,
           0.0
         ]
       }
@@ -3320,6 +3319,13 @@
         "fx": {
           "name": "smoke_after_hit_tiny",
           "setOrientation": true
+        }
+      },
+      {
+        "name": "engine_overheat",
+        "fx": {
+          "name": "tank_radiator_steam",
+          "centerDmgPart": false
         }
       }
     ],

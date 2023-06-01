@@ -1190,6 +1190,7 @@
           }
         ],
         "onKill": {
+          "notDamageType": "overheat",
           "fire": 0.5,
           "nothing": 0.5,
           "fHitCritical": true
@@ -1558,6 +1559,7 @@
       "recoilMultiplier": 0.0,
       "stopForFire": true,
       "maxSpeedForFire": 5.0,
+      "staticElevation": 0.75,
       "maxAdditionalPitch": 0.0,
       "createGunEffects": true,
       "defaultYaw": 0.0,
@@ -1704,13 +1706,13 @@
       "wheel": {
         "name": "bone_wheel_$1",
         "limitMin": [
-          -1000.0,
-          0.0,
+          -1.0,
+          -1.0,
           0.0
         ],
         "limitMax": [
-          1000.0,
-          0.0,
+          1.0,
+          1.0,
           0.0
         ]
       }
@@ -2405,6 +2407,13 @@
           "name": "smoke_after_hit_tiny",
           "setOrientation": true
         }
+      },
+      {
+        "name": "engine_overheat",
+        "fx": {
+          "name": "tank_radiator_steam",
+          "centerDmgPart": false
+        }
       }
     ],
     "procedural": {
@@ -2476,6 +2485,7 @@
               "recoilMultiplier": 0.0,
               "stopForFire": true,
               "maxSpeedForFire": 5.0,
+              "staticElevation": 0.75,
               "maxAdditionalPitch": 0.0,
               "createGunEffects": true,
               "defaultYaw": 0.0,
@@ -2696,6 +2706,8 @@
   "smokeScreenExhaustEmitters": {
     "emitter": [
       "emtr_exhaust_01",
+      "emtr_exhaust_02",
+      "emtr_exhaust_03",
       "emtr_exhaust_04"
     ]
   }
