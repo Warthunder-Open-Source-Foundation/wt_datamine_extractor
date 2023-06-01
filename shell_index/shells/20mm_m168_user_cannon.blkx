@@ -84,7 +84,6 @@
       "speed": 1030.0,
       "maxDistance": 6250.0,
       "Cx": 0.45,
-      "bulletName": "20mm_m53",
       "normalizationPreset": "default",
       "ricochetPreset": "defaultExt",
       "secondaryShattersPreset": "ap",
@@ -208,7 +207,7 @@
           "fx": "hit_28_38mm_snow_ap"
         },
         "glass": {
-          "fx": "hit_28_38mm_metal_ap"
+          "fx": "armoured_glass"
         },
         "wood": {
           "fx": "hit_28_38mm_wood_ap"
@@ -264,7 +263,6 @@
       ],
       "explodeOnRendinst": true,
       "shellAnimation": "video/shells_animations/he_i_t_shell.ivf",
-      "bulletName": "20mm_m242a1",
       "speed": 1030.0,
       "maxDistance": 5150.0,
       "Cx": 0.417,
@@ -309,14 +307,11 @@
         ]
       },
       "damage": {
-        "kinetic": {
-          "damageType": "generic"
-        },
         "shatter": {
           "useRealShatters": true,
-          "countPortion": 0.2,
+          "countPortion": 0.3,
           "segment": {
-            "radiusScale": 1.0,
+            "radiusScale": 1.085,
             "penetrationScale": 1.0,
             "damageScale": 1.0,
             "angles": [
@@ -326,6 +321,9 @@
             "countPortion": 1.0
           }
         }
+      },
+      "shatterDamage": {
+        "breachConeAngle": 45.0
       },
       "visual": {
         "range_percent_of_ammo": [
@@ -383,7 +381,7 @@
           "fx": "hit_19_27mm_snow_he"
         },
         "glass": {
-          "fx": "hit_19_27mm_metal_he"
+          "fx": "armoured_glass"
         },
         "wood": {
           "fx": "hit_19_27mm_wood_he"
@@ -424,7 +422,6 @@
       "speed": 1030.0,
       "maxDistance": 6250.0,
       "Cx": 0.45,
-      "bulletName": "20mm_m52a1",
       "normalizationPreset": "ap",
       "ricochetPreset": "ap",
       "secondaryShattersPreset": "ap",
@@ -550,7 +547,7 @@
           "fx": "hit_28_38mm_snow_ap"
         },
         "glass": {
-          "fx": "hit_28_38mm_metal_ap"
+          "fx": "armoured_glass"
         },
         "wood": {
           "fx": "hit_28_38mm_wood_ap"
@@ -609,7 +606,6 @@
         ],
         "explodeOnRendinst": true,
         "shellAnimation": "video/shells_animations/he_i_t_shell.ivf",
-        "bulletName": "20mm_m242a1",
         "speed": 1030.0,
         "maxDistance": 5150.0,
         "Cx": 0.417,
@@ -654,14 +650,11 @@
           ]
         },
         "damage": {
-          "kinetic": {
-            "damageType": "generic"
-          },
           "shatter": {
             "useRealShatters": true,
-            "countPortion": 0.2,
+            "countPortion": 0.3,
             "segment": {
-              "radiusScale": 1.0,
+              "radiusScale": 1.085,
               "penetrationScale": 1.0,
               "damageScale": 1.0,
               "angles": [
@@ -671,6 +664,9 @@
               "countPortion": 1.0
             }
           }
+        },
+        "shatterDamage": {
+          "breachConeAngle": 45.0
         },
         "visual": {
           "range_percent_of_ammo": [
@@ -728,7 +724,7 @@
             "fx": "hit_19_27mm_snow_he"
           },
           "glass": {
-            "fx": "hit_19_27mm_metal_he"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_19_27mm_wood_he"
@@ -769,7 +765,6 @@
         "explosiveMass": 0.0107,
         "caliber": 0.02,
         "bulletType": "he_frag_i",
-        "bulletName": "20mm_m56a3",
         "speed": 1030.0,
         "maxDistance": 6250.0,
         "Cx": 0.46,
@@ -798,14 +793,11 @@
           ]
         },
         "damage": {
-          "kinetic": {
-            "damageType": "generic"
-          },
           "shatter": {
             "useRealShatters": true,
-            "countPortion": 0.2,
+            "countPortion": 0.3,
             "segment": {
-              "radiusScale": 1.0,
+              "radiusScale": 1.085,
               "penetrationScale": 1.0,
               "damageScale": 1.0,
               "angles": [
@@ -815,6 +807,9 @@
               "countPortion": 1.0
             }
           }
+        },
+        "shatterDamage": {
+          "breachConeAngle": 45.0
         },
         "visual": {
           "range_percent_of_ammo": [
@@ -871,7 +866,7 @@
             "fx": "hit_19_27mm_snow_he"
           },
           "glass": {
-            "fx": "hit_19_27mm_metal_he"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_19_27mm_wood_he"
@@ -912,7 +907,6 @@
         "speed": 1030.0,
         "maxDistance": 6250.0,
         "Cx": 0.45,
-        "bulletName": "20mm_m52a1",
         "normalizationPreset": "ap",
         "ricochetPreset": "ap",
         "secondaryShattersPreset": "ap",
@@ -1038,7 +1032,7 @@
             "fx": "hit_28_38mm_snow_ap"
           },
           "glass": {
-            "fx": "hit_28_38mm_metal_ap"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_28_38mm_wood_ap"
@@ -1079,7 +1073,6 @@
         "explosiveMass": 0.0107,
         "caliber": 0.02,
         "bulletType": "he_frag_i",
-        "bulletName": "20mm_m56a3",
         "speed": 1030.0,
         "maxDistance": 6250.0,
         "Cx": 0.46,
@@ -1108,14 +1101,11 @@
           ]
         },
         "damage": {
-          "kinetic": {
-            "damageType": "generic"
-          },
           "shatter": {
             "useRealShatters": true,
-            "countPortion": 0.2,
+            "countPortion": 0.3,
             "segment": {
-              "radiusScale": 1.0,
+              "radiusScale": 1.085,
               "penetrationScale": 1.0,
               "damageScale": 1.0,
               "angles": [
@@ -1125,6 +1115,9 @@
               "countPortion": 1.0
             }
           }
+        },
+        "shatterDamage": {
+          "breachConeAngle": 45.0
         },
         "visual": {
           "range_percent_of_ammo": [
@@ -1181,7 +1174,7 @@
             "fx": "hit_19_27mm_snow_he"
           },
           "glass": {
-            "fx": "hit_19_27mm_metal_he"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_19_27mm_wood_he"
@@ -1226,7 +1219,6 @@
         "speed": 1030.0,
         "maxDistance": 6250.0,
         "Cx": 0.45,
-        "bulletName": "20mm_m53",
         "normalizationPreset": "default",
         "ricochetPreset": "defaultExt",
         "secondaryShattersPreset": "ap",
@@ -1350,7 +1342,7 @@
             "fx": "hit_28_38mm_snow_ap"
           },
           "glass": {
-            "fx": "hit_28_38mm_metal_ap"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_28_38mm_wood_ap"
@@ -1391,7 +1383,6 @@
         "speed": 1030.0,
         "maxDistance": 6250.0,
         "Cx": 0.45,
-        "bulletName": "20mm_m52a1",
         "normalizationPreset": "ap",
         "ricochetPreset": "ap",
         "secondaryShattersPreset": "ap",
@@ -1517,7 +1508,7 @@
             "fx": "hit_28_38mm_snow_ap"
           },
           "glass": {
-            "fx": "hit_28_38mm_metal_ap"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_28_38mm_wood_ap"
@@ -1558,7 +1549,6 @@
         "explosiveMass": 0.0107,
         "caliber": 0.02,
         "bulletType": "he_frag_i",
-        "bulletName": "20mm_m56a3",
         "speed": 1030.0,
         "maxDistance": 6250.0,
         "Cx": 0.46,
@@ -1587,14 +1577,11 @@
           ]
         },
         "damage": {
-          "kinetic": {
-            "damageType": "generic"
-          },
           "shatter": {
             "useRealShatters": true,
-            "countPortion": 0.2,
+            "countPortion": 0.3,
             "segment": {
-              "radiusScale": 1.0,
+              "radiusScale": 1.085,
               "penetrationScale": 1.0,
               "damageScale": 1.0,
               "angles": [
@@ -1604,6 +1591,9 @@
               "countPortion": 1.0
             }
           }
+        },
+        "shatterDamage": {
+          "breachConeAngle": 45.0
         },
         "visual": {
           "range_percent_of_ammo": [
@@ -1660,7 +1650,7 @@
             "fx": "hit_19_27mm_snow_he"
           },
           "glass": {
-            "fx": "hit_19_27mm_metal_he"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_19_27mm_wood_he"
@@ -1701,7 +1691,6 @@
         "speed": 1030.0,
         "maxDistance": 6250.0,
         "Cx": 0.45,
-        "bulletName": "20mm_m52a1",
         "normalizationPreset": "ap",
         "ricochetPreset": "ap",
         "secondaryShattersPreset": "ap",
@@ -1827,7 +1816,7 @@
             "fx": "hit_28_38mm_snow_ap"
           },
           "glass": {
-            "fx": "hit_28_38mm_metal_ap"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_28_38mm_wood_ap"

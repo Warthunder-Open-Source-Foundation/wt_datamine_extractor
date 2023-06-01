@@ -2,8 +2,9 @@
   "model": "tiger_hap_france",
   "fmFile": "fm/tiger_hap_france.blk",
   "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/hellicopters_metaparts.blk",
-  "viewDistKInSight": 4.0,
+  "viewDistKInSight": 6.0,
   "haveCCIPForRocket": true,
+  "gyroSight": true,
   "haveCCIPForGun": true,
   "haveCCIPForTurret": true,
   "haveCCRPForGun": false,
@@ -192,6 +193,18 @@
             "fire": 0.005,
             "leak_oil": 0.95,
             "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 0.25,
+            "leak_oil": 0.95,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 0.5,
+            "leak_oil": 0.95,
+            "cut": 0.0
           }
         ],
         "onKill": [
@@ -203,6 +216,18 @@
           {
             "damage": 30.0,
             "fire": 30.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 40.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 50.0,
             "leak_oil": 10.0,
             "cut": 0.0
           }
@@ -221,6 +246,18 @@
             "fire": 0.005,
             "leak_oil": 0.95,
             "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 0.25,
+            "leak_oil": 0.95,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 0.5,
+            "leak_oil": 0.95,
+            "cut": 0.0
           }
         ],
         "onKill": [
@@ -232,6 +269,18 @@
           {
             "damage": 30.0,
             "fire": 30.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 40.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 50.0,
             "leak_oil": 10.0,
             "cut": 0.0
           }
@@ -676,6 +725,18 @@
             "fire": 0.005,
             "leak_oil": 0.95,
             "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 0.25,
+            "leak_oil": 0.95,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 0.5,
+            "leak_oil": 0.95,
+            "cut": 0.0
           }
         ],
         "onKill": [
@@ -687,6 +748,18 @@
           {
             "damage": 30.0,
             "fire": 30.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 40.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 50.0,
             "leak_oil": 10.0,
             "cut": 0.0
           }
@@ -2302,7 +2375,7 @@
                 "startFx": "",
                 "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher.blk",
                 "emitter": "emtr_flare1",
-                "bullets": 30,
+                "bullets": 32,
                 "external": true,
                 "separate": false
               },
@@ -2311,7 +2384,7 @@
                 "startFx": "",
                 "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher.blk",
                 "emitter": "emtr_flare2",
-                "bullets": 30,
+                "bullets": 32,
                 "external": true,
                 "separate": false
               }
@@ -2390,6 +2463,7 @@
           {
             "iconType": "atgm_type2_x2",
             "name": "hot3_x2",
+            "remotelyGuidedWeaponsMax": 1,
             "Weapon": {
               "trigger": "atgm",
               "external": true,
@@ -2403,6 +2477,7 @@
             "iconType": "atgm_type1_x4",
             "name": "hot3_x4",
             "reqModification": "tiger_hot3",
+            "remotelyGuidedWeaponsMax": 1,
             "Weapon": {
               "trigger": "atgm",
               "external": true,
@@ -2433,6 +2508,7 @@
           {
             "iconType": "atgm_type2_x2",
             "name": "hot3_x2",
+            "remotelyGuidedWeaponsMax": 1,
             "Weapon": {
               "trigger": "atgm",
               "external": true,
@@ -2446,6 +2522,7 @@
             "iconType": "atgm_type1_x4",
             "name": "hot3_x4",
             "reqModification": "tiger_hot3",
+            "remotelyGuidedWeaponsMax": 1,
             "Weapon": {
               "trigger": "atgm",
               "external": true,
@@ -2618,7 +2695,7 @@
       "prevModification": "MAW_system_heli_false_thermal_targets",
       "tier": 3,
       "modClass": "weapon",
-      "image": "#ui/gameuiskin#thermal_sight.png",
+      "image": "#ui/gameuiskin#thermal_sight",
       "effects": {
         "nightVision": {
           "gunnerIr": {
@@ -2657,40 +2734,22 @@
         "from": "tiger_hap_france_c*"
       },
       {
-        "from": "tiger_hap_france_c_dmg*"
-      },
-      {
         "from": "tiger_hap_france_n*"
-      },
-      {
-        "from": "tiger_hap_france_n_dmg*"
       }
     ]
   },
   "default_skin": {
-    "replace_tex": [
-      {
-        "from": "tiger_hap_france_c*",
-        "to": "tiger_hap_france_tiger_c*"
-      },
-      {
-        "from": "tiger_hap_france_c_dmg*",
-        "to": "tiger_hap_france_tiger_c_dmg*"
-      }
-    ]
+    "replace_tex": {
+      "from": "tiger_hap_france_c*",
+      "to": "tiger_hap_france_tiger_c*"
+    }
   },
   "skin": {
     "name": "tricolor",
-    "replace_tex": [
-      {
-        "from": "tiger_hap_france_c*",
-        "to": "tiger_hap_france_c*"
-      },
-      {
-        "from": "tiger_hap_france_c_dmg*",
-        "to": "tiger_hap_france_c_dmg*"
-      }
-    ]
+    "replace_tex": {
+      "from": "tiger_hap_france_c*",
+      "to": "tiger_hap_france_c*"
+    }
   },
   "cutting": {
     "_emtr_break_wing0_l_from": [

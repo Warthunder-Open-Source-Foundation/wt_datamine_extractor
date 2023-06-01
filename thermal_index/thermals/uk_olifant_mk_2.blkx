@@ -15,7 +15,7 @@
     0.0,
     1.0
   ],
-  "exhaustFx": "tank_exhaust",
+  "exhaustFx": "tank_exhaust_med",
   "damagedExhaustFx": "tank_broken_exhaust",
   "thermalExhaustFx": "tank_exhaust_nightvision",
   "dustFx": "",
@@ -157,12 +157,14 @@
         "armorThickness": 25.0
       },
       "composite_armor_hull_02_dm": {
-        "armorThickness": 25.0,
-        "hidableInXrayViewer": true
+        "armorThickness": 17.0,
+        "hidableInXrayViewer": true,
+        "armorClass": "tank_structural_steel"
       },
       "composite_armor_hull_03_dm": {
-        "armorThickness": 25.0,
-        "hidableInXrayViewer": true
+        "armorThickness": 17.0,
+        "hidableInXrayViewer": true,
+        "armorClass": "tank_structural_steel"
       },
       "turret_04_side_dm": {
         "armorThickness": 25.4
@@ -784,6 +786,16 @@
       "ammo_body_58_dm": {},
       "ammo_body_59_dm": {},
       "ammo_body_60_dm": {},
+      "ammo_body_61_dm": {},
+      "ammo_body_62_dm": {},
+      "ammo_body_63_dm": {},
+      "ammo_body_64_dm": {},
+      "ammo_body_65_dm": {},
+      "ammo_body_66_dm": {},
+      "ammo_body_67_dm": {},
+      "ammo_body_68_dm": {},
+      "ammo_body_69_dm": {},
+      "ammo_body_70_dm": {},
       "ammo_body_l_01_dm": {},
       "ammo_body_l_02_dm": {},
       "ammo_body_l_03_dm": {},
@@ -890,7 +902,7 @@
     "armorArrayHull": [
       {
         "xrayDmPart": "composite_armor_hull_02_dm",
-        "titleLoc": "RHA_tank_modern",
+        "titleLoc": "tank_structural_steel",
         "armorArrayText": {
           "layer": {
             "dmPart": "composite_armor_hull_02_dm"
@@ -899,7 +911,7 @@
       },
       {
         "xrayDmPart": "composite_armor_hull_03_dm",
-        "titleLoc": "RHA_tank_modern",
+        "titleLoc": "tank_structural_steel",
         "armorArrayText": {
           "layer": {
             "dmPart": "composite_armor_hull_03_dm"
@@ -1000,6 +1012,16 @@
           "ammo_body_58_dm",
           "ammo_body_59_dm",
           "ammo_body_60_dm",
+          "ammo_body_61_dm",
+          "ammo_body_62_dm",
+          "ammo_body_63_dm",
+          "ammo_body_64_dm",
+          "ammo_body_65_dm",
+          "ammo_body_66_dm",
+          "ammo_body_67_dm",
+          "ammo_body_68_dm",
+          "ammo_body_69_dm",
+          "ammo_body_70_dm",
           "ammo_body_l_01_dm",
           "ammo_body_l_02_dm",
           "ammo_body_l_03_dm",
@@ -1385,6 +1407,7 @@
           }
         ],
         "onKill": {
+          "notDamageType": "overheat",
           "fire": 0.5,
           "nothing": 0.5,
           "fHitCritical": true
@@ -2238,13 +2261,13 @@
       "wheel": {
         "name": "bone_wheel_$1",
         "limitMin": [
-          -1000.0,
-          0.0,
+          -1.0,
+          -1.0,
           0.0
         ],
         "limitMax": [
-          1000.0,
-          0.0,
+          1.0,
+          1.0,
           0.0
         ]
       }
@@ -2939,6 +2962,13 @@
           "name": "smoke_after_hit_tiny",
           "setOrientation": true
         }
+      },
+      {
+        "name": "engine_overheat",
+        "fx": {
+          "name": "tank_radiator_steam",
+          "centerDmgPart": false
+        }
       }
     ],
     "procedural": {
@@ -3202,10 +3232,10 @@
     },
     "tank_new_gun": {},
     "tank_medical_kit": {
-      "image": "#ui/gameuiskin#tank_reinforcement_uk.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_uk"
     },
     "tank_medical_kit_expendable": {
-      "image": "#ui/gameuiskin#tank_reinforcement_uk.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_uk"
     },
     "modern_tank_laser_rangefinder": {
       "tier": 3
@@ -3489,7 +3519,7 @@
       }
     },
     "night_vision_system": {
-      "image": "#ui/gameuiskin#thermal_sight.png",
+      "image": "#ui/gameuiskin#thermal_sight",
       "tier": 2,
       "effects": {
         "nightVision": {
@@ -3542,7 +3572,7 @@
       "descLocId": "skin/rsa_camo_modern_three_color/desc",
       "replace_tex": {
         "from": "uk_camo_very_dark_drab*",
-        "to": "rsa_camo_modern_three_color*"
+        "to": "rsa_camo_modern_three_color_v2*"
       }
     },
     {
@@ -3564,6 +3594,8 @@
   "smokeScreenExhaustEmitters": {
     "emitter": [
       "emtr_exhaust_01",
+      "emtr_exhaust_02",
+      "emtr_exhaust_03",
       "emtr_exhaust_04"
     ]
   }

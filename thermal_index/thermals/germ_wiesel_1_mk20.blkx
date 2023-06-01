@@ -15,7 +15,7 @@
     0.0,
     1.0
   ],
-  "exhaustFx": "tank_exhaust",
+  "exhaustFx": "tank_exhaust_med",
   "damagedExhaustFx": "tank_broken_exhaust",
   "thermalExhaustFx": "tank_exhaust_nightvision",
   "dustFx": "",
@@ -517,6 +517,16 @@
       "ammo_body_58_dm": {},
       "ammo_body_59_dm": {},
       "ammo_body_60_dm": {},
+      "ammo_body_61_dm": {},
+      "ammo_body_62_dm": {},
+      "ammo_body_63_dm": {},
+      "ammo_body_64_dm": {},
+      "ammo_body_65_dm": {},
+      "ammo_body_66_dm": {},
+      "ammo_body_67_dm": {},
+      "ammo_body_68_dm": {},
+      "ammo_body_69_dm": {},
+      "ammo_body_70_dm": {},
       "ammo_body_l_01_dm": {},
       "ammo_body_l_02_dm": {},
       "ammo_body_l_03_dm": {},
@@ -725,6 +735,16 @@
           "ammo_body_58_dm",
           "ammo_body_59_dm",
           "ammo_body_60_dm",
+          "ammo_body_61_dm",
+          "ammo_body_62_dm",
+          "ammo_body_63_dm",
+          "ammo_body_64_dm",
+          "ammo_body_65_dm",
+          "ammo_body_66_dm",
+          "ammo_body_67_dm",
+          "ammo_body_68_dm",
+          "ammo_body_69_dm",
+          "ammo_body_70_dm",
           "ammo_body_l_01_dm",
           "ammo_body_l_02_dm",
           "ammo_body_l_03_dm",
@@ -1110,6 +1130,7 @@
           }
         ],
         "onKill": {
+          "notDamageType": "overheat",
           "fire": 0.5,
           "nothing": 0.5,
           "fHitCritical": true
@@ -1614,17 +1635,17 @@
       "emitter": "bone_gun_barrel",
       "flash": "emtr_gun_flame",
       "useEmitter": true,
-      "sleeveEmitter": "emtr_shell_01",
-      "sleeveMesh": "auto_cannon_cartridge_case",
+      "shellCasingEmitter": "emtr_shell_01",
+      "shellCasingMesh": "auto_cannon_cartridge_case",
       "openHatchTime": 0.0,
-      "sleevesLifeTime": 5.0,
-      "sleeveImpulse": [
+      "shellCasingLifeTime": 5.0,
+      "shellCasingImpulse": [
         1.0,
         -1.0,
         -1.0
       ],
-      "linkSleeveToGun": true,
-      "sleevesImpulseOffset": 0.1,
+      "linkShellCasingToGun": true,
+      "shellCasingImpulseOffset": 0.1,
       "aimingFromBoneGun": true,
       "recoilOffset": 0.02,
       "recoilMultiplier": 0.3,
@@ -1777,13 +1798,13 @@
       "wheel": {
         "name": "bone_wheel_$1",
         "limitMin": [
-          -1000.0,
-          0.0,
+          -1.0,
+          -1.0,
           0.0
         ],
         "limitMax": [
-          1000.0,
-          0.0,
+          1.0,
+          1.0,
           0.0
         ]
       }
@@ -2478,6 +2499,13 @@
           "name": "smoke_after_hit_tiny",
           "setOrientation": true
         }
+      },
+      {
+        "name": "engine_overheat",
+        "fx": {
+          "name": "tank_radiator_steam",
+          "centerDmgPart": false
+        }
       }
     ],
     "procedural": {
@@ -2555,10 +2583,10 @@
     "tank_new_gun": {},
     "art_support": {},
     "tank_medical_kit": {
-      "image": "#ui/gameuiskin#tank_reinforcement_ger.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_ger"
     },
     "tank_medical_kit_expendable": {
-      "image": "#ui/gameuiskin#tank_reinforcement_ger.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_ger"
     },
     "airstrike": {},
     "improved_optics": {},
@@ -2574,7 +2602,7 @@
     "20mm_rh202_APDS_ammo_pack": {},
     "night_vision_system": {
       "tier": 1,
-      "image": "#ui/gameuiskin#thermal_sight.png",
+      "image": "#ui/gameuiskin#thermal_sight",
       "effects": {
         "nightVision": {
           "gunnerThermal": {

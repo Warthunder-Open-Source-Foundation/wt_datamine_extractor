@@ -72,7 +72,6 @@
       ],
       "explodeOnRendinst": true,
       "shellAnimation": "video/shells_animations/he_belt.ivf",
-      "bulletName": "20mm_brgr",
       "hitPowerMult": 1.0,
       "nearHitPower": [
         1.0,
@@ -218,7 +217,7 @@
           "fx": "hit_19_27mm_snow_he"
         },
         "glass": {
-          "fx": "hit_19_27mm_metal_he"
+          "fx": "armoured_glass"
         },
         "wood": {
           "fx": "hit_19_27mm_wood_he"
@@ -265,7 +264,6 @@
       "stabilityReductionAfterPenetration": 0.15,
       "bulletType": "ap_i",
       "shellAnimation": "video/shells_animations/ap_belt.ivf",
-      "bulletName": "20mm_pzbrgr_ph",
       "speed": 705.0,
       "Cx": 0.59471,
       "maxDistance": 3000.0,
@@ -381,7 +379,7 @@
           "fx": "hit_19_27mm_snow_ap"
         },
         "glass": {
-          "fx": "hit_19_27mm_metal_ap"
+          "fx": "armoured_glass"
         },
         "wood": {
           "fx": "hit_19_27mm_wood_ap"

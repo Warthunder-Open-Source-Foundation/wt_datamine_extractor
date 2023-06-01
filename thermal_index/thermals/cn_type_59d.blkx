@@ -15,7 +15,7 @@
     0.0,
     1.0
   ],
-  "exhaustFx": "tank_exhaust",
+  "exhaustFx": "tank_exhaust_med",
   "damagedExhaustFx": "tank_broken_exhaust",
   "thermalExhaustFx": "tank_exhaust_nightvision",
   "dustFx": "",
@@ -123,6 +123,16 @@
           "ammo_body_58_dm",
           "ammo_body_59_dm",
           "ammo_body_60_dm",
+          "ammo_body_61_dm",
+          "ammo_body_62_dm",
+          "ammo_body_63_dm",
+          "ammo_body_64_dm",
+          "ammo_body_65_dm",
+          "ammo_body_66_dm",
+          "ammo_body_67_dm",
+          "ammo_body_68_dm",
+          "ammo_body_69_dm",
+          "ammo_body_70_dm",
           "ammo_body_l_01_dm",
           "ammo_body_l_02_dm",
           "ammo_body_l_03_dm",
@@ -509,6 +519,7 @@
           }
         ],
         "onKill": {
+          "notDamageType": "overheat",
           "fire": 0.4,
           "nothing": 0.6,
           "fHitCritical": true
@@ -1025,13 +1036,13 @@
       "wheel": {
         "name": "bone_wheel_$1",
         "limitMin": [
-          -1000.0,
-          0.0,
+          -1.0,
+          -1.0,
           0.0
         ],
         "limitMax": [
-          1000.0,
-          0.0,
+          1.0,
+          1.0,
           0.0
         ]
       }
@@ -1730,6 +1741,13 @@
           "name": "smoke_after_hit_tiny",
           "setOrientation": true
         }
+      },
+      {
+        "name": "engine_overheat",
+        "fx": {
+          "name": "tank_radiator_steam",
+          "centerDmgPart": false
+        }
       }
     ],
     "procedural": {
@@ -1806,7 +1824,7 @@
         "armorThickness": 5.0
       },
       "turret_04_top_dm": {
-        "armorThickness": 5.0
+        "armorThickness": 10.0
       }
     },
     "turret": {
@@ -1971,7 +1989,6 @@
       "ex_decor_l_06_dm": {},
       "ex_decor_l_07_dm": {},
       "ex_armor_06_dm": {},
-      "ex_decor_01_dm": {},
       "timber": {
         "armorClass": "ship_wood",
         "armorThickness": 100.0,
@@ -2376,6 +2393,16 @@
       "ammo_body_58_dm": {},
       "ammo_body_59_dm": {},
       "ammo_body_60_dm": {},
+      "ammo_body_61_dm": {},
+      "ammo_body_62_dm": {},
+      "ammo_body_63_dm": {},
+      "ammo_body_64_dm": {},
+      "ammo_body_65_dm": {},
+      "ammo_body_66_dm": {},
+      "ammo_body_67_dm": {},
+      "ammo_body_68_dm": {},
+      "ammo_body_69_dm": {},
+      "ammo_body_70_dm": {},
       "ammo_body_l_01_dm": {},
       "ammo_body_l_02_dm": {},
       "ammo_body_l_03_dm": {},
@@ -2659,7 +2686,7 @@
       {
         "trigger": "gunner2",
         "triggerGroup": "machinegun",
-        "blk": "gameData/Weapons/groundModels_weapons/12_7mm_DShK_user_machinegun.blk",
+        "blk": "gameData/Weapons/groundModels_weapons/12_7mm_Type_54_user_machinegun.blk",
         "emitter": "bone_mg_aa_v_01",
         "flash": "emtr_mg_aa_flame_01",
         "barrelDP": "gun_barrel_02_dm",
@@ -2694,8 +2721,8 @@
             180.0
           ],
           "pitch": [
-            -10.0,
-            60.0
+            -4.5,
+            82.0
           ]
         }
       },
@@ -2844,10 +2871,10 @@
     "art_support": {},
     "tank_new_gun": {},
     "tank_medical_kit": {
-      "image": "#ui/gameuiskin#tank_reinforcement_cn.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_cn"
     },
     "tank_medical_kit_expendable": {
-      "image": "#ui/gameuiskin#tank_reinforcement_cn.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_cn"
     },
     "tank_smoke_screen_system_mod": {
       "tier": 3,
@@ -2980,7 +3007,7 @@
             {
               "trigger": "gunner2",
               "triggerGroup": "machinegun",
-              "blk": "gameData/Weapons/groundModels_weapons/12_7mm_DShK_user_machinegun.blk",
+              "blk": "gameData/Weapons/groundModels_weapons/12_7mm_Type_54_user_machinegun.blk",
               "emitter": "bone_mg_aa_v_01",
               "flash": "emtr_mg_aa_flame_01",
               "barrelDP": "gun_barrel_02_dm",
@@ -3015,8 +3042,8 @@
                   180.0
                 ],
                 "pitch": [
-                  -10.0,
-                  60.0
+                  -4.5,
+                  82.0
                 ]
               }
             },
@@ -3114,7 +3141,7 @@
     },
     "modern_tank_laser_rangefinder": {},
     "night_vision_system": {
-      "image": "#ui/gameuiskin#thermal_sight.png",
+      "image": "#ui/gameuiskin#thermal_sight",
       "effects": {
         "nightVision": {
           "gunnerThermal": {

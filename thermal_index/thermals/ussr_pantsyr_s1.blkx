@@ -205,7 +205,8 @@
     },
     "hull_decor": {
       "armorClass": "tank_structural_steel",
-      "armorThickness": 5.0,
+      "armorThickness": 3.0,
+      "body_top_dm": {},
       "ex_decor_turret_01_dm": {},
       "ex_armor_02_dm": {},
       "ex_armor_03_dm": {},
@@ -223,7 +224,6 @@
       "armorThickness": 6.6,
       "turret_01_front_dm": {},
       "turret_02_side_dm": {},
-      "body_top_dm": {},
       "turret_01_back_dm": {},
       "superstructure_front_dm": {},
       "turret_02_top_dm": {},
@@ -568,6 +568,16 @@
       "ammo_body_58_dm": {},
       "ammo_body_59_dm": {},
       "ammo_body_60_dm": {},
+      "ammo_body_61_dm": {},
+      "ammo_body_62_dm": {},
+      "ammo_body_63_dm": {},
+      "ammo_body_64_dm": {},
+      "ammo_body_65_dm": {},
+      "ammo_body_66_dm": {},
+      "ammo_body_67_dm": {},
+      "ammo_body_68_dm": {},
+      "ammo_body_69_dm": {},
+      "ammo_body_70_dm": {},
       "ammo_body_l_01_dm": {},
       "ammo_body_l_02_dm": {},
       "ammo_body_l_03_dm": {},
@@ -735,6 +745,16 @@
           "ammo_body_58_dm",
           "ammo_body_59_dm",
           "ammo_body_60_dm",
+          "ammo_body_61_dm",
+          "ammo_body_62_dm",
+          "ammo_body_63_dm",
+          "ammo_body_64_dm",
+          "ammo_body_65_dm",
+          "ammo_body_66_dm",
+          "ammo_body_67_dm",
+          "ammo_body_68_dm",
+          "ammo_body_69_dm",
+          "ammo_body_70_dm",
           "ammo_body_l_01_dm",
           "ammo_body_l_02_dm",
           "ammo_body_l_03_dm",
@@ -1120,6 +1140,7 @@
           }
         ],
         "onKill": {
+          "notDamageType": "overheat",
           "fire": 0.5,
           "nothing": 0.5,
           "fHitCritical": true
@@ -1491,16 +1512,16 @@
         "flash": "emtr_gun_flame_01",
         "backFlash": "emtr_shell_01",
         "useEmitter": true,
-        "sleeveEmitter": "emtr_shell_01",
-        "sleeveMesh": "auto_cannon_cartridge_case",
+        "shellCasingEmitter": "emtr_shell_01",
+        "shellCasingMesh": "auto_cannon_cartridge_case",
         "openHatchTime": 0.0,
-        "sleevesLifeTime": 2.0,
-        "sleeveImpulse": [
+        "shellCasingLifeTime": 2.0,
+        "shellCasingImpulse": [
           5.0,
           0.0,
           0.0
         ],
-        "linkSleeveToGun": true,
+        "linkShellCasingToGun": true,
         "aimingFromBoneGun": true,
         "recoilMultiplier": 0.3,
         "recoilOffset": 0.02,
@@ -1591,16 +1612,16 @@
         "flash": "emtr_gun_flame_03",
         "backFlash": "emtr_shell_02",
         "useEmitter": true,
-        "sleeveEmitter": "emtr_shell_02",
-        "sleeveMesh": "auto_cannon_cartridge_case",
+        "shellCasingEmitter": "emtr_shell_02",
+        "shellCasingMesh": "auto_cannon_cartridge_case",
         "openHatchTime": 0.0,
-        "sleevesLifeTime": 2.0,
-        "sleeveImpulse": [
+        "shellCasingLifeTime": 2.0,
+        "shellCasingImpulse": [
           5.0,
           0.0,
           0.0
         ],
-        "linkSleeveToGun": true,
+        "linkShellCasingToGun": true,
         "aimingFromBoneGun": true,
         "recoilMultiplier": 0.3,
         "recoilOffset": 0.02,
@@ -1692,16 +1713,16 @@
         "emitter": "bone_gun_barrel_04",
         "flash": "emtr_gun_flame_04",
         "useEmitter": true,
-        "sleeveEmitter": "emtr_shell_02",
-        "sleeveMesh": "auto_cannon_cartridge_case",
+        "shellCasingEmitter": "emtr_shell_02",
+        "shellCasingMesh": "auto_cannon_cartridge_case",
         "openHatchTime": 0.0,
-        "sleevesLifeTime": 2.0,
-        "sleeveImpulse": [
+        "shellCasingLifeTime": 2.0,
+        "shellCasingImpulse": [
           5.5,
           0.0,
           0.0
         ],
-        "linkSleeveToGun": true,
+        "linkShellCasingToGun": true,
         "aimingFromBoneGun": true,
         "recoilMultiplier": 0.3,
         "recoilOffset": 0.02,
@@ -1793,16 +1814,16 @@
         "emitter": "bone_gun_barrel_02",
         "flash": "emtr_gun_flame_02",
         "useEmitter": true,
-        "sleeveEmitter": "emtr_shell_02",
-        "sleeveMesh": "auto_cannon_cartridge_case",
+        "shellCasingEmitter": "emtr_shell_02",
+        "shellCasingMesh": "auto_cannon_cartridge_case",
         "openHatchTime": 0.0,
-        "sleevesLifeTime": 2.0,
-        "sleeveImpulse": [
+        "shellCasingLifeTime": 2.0,
+        "shellCasingImpulse": [
           5.5,
           0.0,
           0.0
         ],
-        "linkSleeveToGun": true,
+        "linkShellCasingToGun": true,
         "aimingFromBoneGun": true,
         "recoilMultiplier": 0.3,
         "recoilOffset": 0.02,
@@ -2807,6 +2828,13 @@
           "name": "smoke_after_hit_tiny",
           "setOrientation": true
         }
+      },
+      {
+        "name": "engine_overheat",
+        "fx": {
+          "name": "tank_radiator_steam",
+          "centerDmgPart": false
+        }
       }
     ],
     "procedural": {
@@ -2848,19 +2876,20 @@
     "tank_tool_kit": {},
     "new_tank_horizontal_aiming": {},
     "new_tank_vertical_aiming": {},
+    "tank_new_gun": {},
     "art_support": {},
     "tank_medical_kit": {
-      "image": "#ui/gameuiskin#tank_reinforcement_ussr.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_ussr"
     },
     "tank_medical_kit_expendable": {
-      "image": "#ui/gameuiskin#tank_reinforcement_ussr.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_ussr"
     },
     "30mm_2a38_HE": {},
     "30mm_2a42_AP": {},
     "30mm_2a42_AP_ammo_pack": {},
     "30mm_2a38_HE_ammo_pack": {},
     "night_vision_system": {
-      "image": "#ui/gameuiskin#thermal_sight.png",
+      "image": "#ui/gameuiskin#thermal_sight",
       "tier": 3,
       "effects": {
         "nightVision": {

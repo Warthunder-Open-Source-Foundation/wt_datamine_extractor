@@ -41,7 +41,6 @@
         200.0,
         1000.0
       ],
-      "bulletName": "ap_i_ball_b32",
       "normalizationPreset": "default",
       "ricochetPreset": "default",
       "stabilityThreshold": 0.05,
@@ -170,7 +169,7 @@
           "fx": "hit_12_18mm_snow_ap"
         },
         "glass": {
-          "fx": "hit_12_18mm_metal_ap"
+          "fx": "armoured_glass"
         },
         "wood": {
           "fx": "hit_12_18mm_wood_ap"
@@ -210,7 +209,6 @@
       "speed": 865.0,
       "Cx": 0.34135,
       "maxDistance": 3400.0,
-      "bulletName": "t_ball_t_38",
       "normalizationPreset": "default",
       "ricochetPreset": "default",
       "stabilityThreshold": 0.05,
@@ -361,7 +359,7 @@
           "fx": "hit_12_18mm_snow_ap"
         },
         "glass": {
-          "fx": "hit_12_18mm_metal_ap"
+          "fx": "armoured_glass"
         },
         "wood": {
           "fx": "hit_12_18mm_wood_ap"
@@ -403,7 +401,6 @@
       "maxDistance": 3400.0,
       "explosiveType": "petn",
       "explosiveMass": 0.0019,
-      "bulletName": "i_ball_mdz",
       "normalizationPreset": "default",
       "ricochetPreset": "default",
       "stabilityThreshold": 0.05,
@@ -566,7 +563,7 @@
           "fx": "hit_12_18mm_snow_he"
         },
         "glass": {
-          "fx": "hit_12_18mm_metal_he"
+          "fx": "armoured_glass"
         },
         "wood": {
           "fx": "hit_12_18mm_wood_he"
@@ -612,7 +609,6 @@
         "ballisticCaliber": 0.0127,
         "damageCaliber": 0.01095,
         "maxDistance": 3400.0,
-        "bulletName": "apcr_i_ball_bs41",
         "normalizationPreset": "default",
         "ricochetPreset": "default",
         "stabilityThreshold": 0.05,
@@ -741,7 +737,7 @@
             "fx": "hit_12_18mm_snow_ap"
           },
           "glass": {
-            "fx": "hit_12_18mm_metal_ap"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_12_18mm_wood_ap"
@@ -781,7 +777,6 @@
         "speed": 865.0,
         "Cx": 0.34135,
         "maxDistance": 3400.0,
-        "bulletName": "ap_i_t_ball_bzt_44",
         "normalizationPreset": "default",
         "ricochetPreset": "default",
         "stabilityThreshold": 0.05,
@@ -911,7 +906,7 @@
             "fx": "hit_12_18mm_snow_ap"
           },
           "glass": {
-            "fx": "hit_12_18mm_metal_ap"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_12_18mm_wood_ap"
@@ -954,7 +949,6 @@
         "ballisticCaliber": 0.0127,
         "damageCaliber": 0.01095,
         "maxDistance": 3400.0,
-        "bulletName": "apcr_i_ball_bs41",
         "normalizationPreset": "default",
         "ricochetPreset": "default",
         "stabilityThreshold": 0.05,
@@ -1083,7 +1077,7 @@
             "fx": "hit_12_18mm_snow_ap"
           },
           "glass": {
-            "fx": "hit_12_18mm_metal_ap"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_12_18mm_wood_ap"
@@ -1123,7 +1117,6 @@
         "speed": 865.0,
         "Cx": 0.34135,
         "maxDistance": 3400.0,
-        "bulletName": "ap_i_t_ball_bzt_44",
         "normalizationPreset": "default",
         "ricochetPreset": "default",
         "stabilityThreshold": 0.05,
@@ -1253,7 +1246,7 @@
             "fx": "hit_12_18mm_snow_ap"
           },
           "glass": {
-            "fx": "hit_12_18mm_metal_ap"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_12_18mm_wood_ap"
@@ -1300,7 +1293,6 @@
         "ballisticCaliber": 0.0127,
         "damageCaliber": 0.01095,
         "maxDistance": 3400.0,
-        "bulletName": "apcr_i_ball_bs41",
         "normalizationPreset": "default",
         "ricochetPreset": "default",
         "stabilityThreshold": 0.05,
@@ -1429,7 +1421,7 @@
             "fx": "hit_12_18mm_snow_ap"
           },
           "glass": {
-            "fx": "hit_12_18mm_metal_ap"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_12_18mm_wood_ap"
@@ -1472,7 +1464,6 @@
         "ballisticCaliber": 0.0127,
         "damageCaliber": 0.01095,
         "maxDistance": 3400.0,
-        "bulletName": "apcr_i_ball_bs41",
         "normalizationPreset": "default",
         "ricochetPreset": "default",
         "stabilityThreshold": 0.05,
@@ -1601,7 +1592,7 @@
             "fx": "hit_12_18mm_snow_ap"
           },
           "glass": {
-            "fx": "hit_12_18mm_metal_ap"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_12_18mm_wood_ap"
@@ -1641,7 +1632,6 @@
         "speed": 865.0,
         "Cx": 0.34135,
         "maxDistance": 3400.0,
-        "bulletName": "ap_i_t_ball_bzt_44",
         "normalizationPreset": "default",
         "ricochetPreset": "default",
         "stabilityThreshold": 0.05,
@@ -1771,7 +1761,7 @@
             "fx": "hit_12_18mm_snow_ap"
           },
           "glass": {
-            "fx": "hit_12_18mm_metal_ap"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_12_18mm_wood_ap"
@@ -1815,7 +1805,6 @@
         "speed": 865.0,
         "Cx": 0.34135,
         "maxDistance": 3400.0,
-        "bulletName": "ap_i_t_ball_bzt_44",
         "normalizationPreset": "default",
         "ricochetPreset": "default",
         "stabilityThreshold": 0.05,
@@ -1945,7 +1934,7 @@
             "fx": "hit_12_18mm_snow_ap"
           },
           "glass": {
-            "fx": "hit_12_18mm_metal_ap"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_12_18mm_wood_ap"
@@ -1985,7 +1974,6 @@
         "speed": 865.0,
         "Cx": 0.34135,
         "maxDistance": 3400.0,
-        "bulletName": "ap_i_t_ball_bzt_44",
         "normalizationPreset": "default",
         "ricochetPreset": "default",
         "stabilityThreshold": 0.05,
@@ -2115,7 +2103,7 @@
             "fx": "hit_12_18mm_snow_ap"
           },
           "glass": {
-            "fx": "hit_12_18mm_metal_ap"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_12_18mm_wood_ap"
@@ -2158,7 +2146,6 @@
         "ballisticCaliber": 0.0127,
         "damageCaliber": 0.01095,
         "maxDistance": 3400.0,
-        "bulletName": "apcr_i_ball_bs41",
         "normalizationPreset": "default",
         "ricochetPreset": "default",
         "stabilityThreshold": 0.05,
@@ -2287,7 +2274,7 @@
             "fx": "hit_12_18mm_snow_ap"
           },
           "glass": {
-            "fx": "hit_12_18mm_metal_ap"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_12_18mm_wood_ap"

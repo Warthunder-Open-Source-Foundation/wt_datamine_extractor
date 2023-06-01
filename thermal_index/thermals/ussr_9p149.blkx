@@ -15,7 +15,7 @@
     0.0,
     1.0
   ],
-  "exhaustFx": "tank_exhaust",
+  "exhaustFx": "tank_exhaust_med",
   "damagedExhaustFx": "tank_broken_exhaust",
   "thermalExhaustFx": "tank_exhaust_nightvision",
   "dustFx": "",
@@ -465,6 +465,16 @@
       "ammo_body_58_dm": {},
       "ammo_body_59_dm": {},
       "ammo_body_60_dm": {},
+      "ammo_body_61_dm": {},
+      "ammo_body_62_dm": {},
+      "ammo_body_63_dm": {},
+      "ammo_body_64_dm": {},
+      "ammo_body_65_dm": {},
+      "ammo_body_66_dm": {},
+      "ammo_body_67_dm": {},
+      "ammo_body_68_dm": {},
+      "ammo_body_69_dm": {},
+      "ammo_body_70_dm": {},
       "ammo_body_l_01_dm": {},
       "ammo_body_l_02_dm": {},
       "ammo_body_l_03_dm": {},
@@ -1025,6 +1035,7 @@
           }
         ],
         "onKill": {
+          "notDamageType": "overheat",
           "fire": 0.4,
           "nothing": 0.6,
           "fHitCritical": true
@@ -1512,6 +1523,7 @@
   },
   "class_tags": {},
   "commonWeapons": {
+    "remotelyGuidedWeaponsMax": 1,
     "Weapon": [
       {
         "dummy": true,
@@ -1552,25 +1564,25 @@
         "emitter": "bone_rocket_01",
         "reloadAnimVar": "9p149_action",
         "recoilMultiplier": 0.01,
-        "sleeveEmitter": "bone_rocket_01",
-        "sleeveMesh": "9m114_rocket_container",
+        "shellCasingEmitter": "bone_rocket_01",
+        "shellCasingMesh": "9m114_rocket_container",
         "openHatchTime": 0.0,
-        "sleevesLifeTime": 15.0,
-        "sleeveImpulse": [
+        "shellCasingLifeTime": 15.0,
+        "shellCasingImpulse": [
           0.0,
           1.0,
           0.0
         ],
-        "linkSleeveToGun": true,
-        "needScaleSleeve": false,
+        "linkShellCasingToGun": true,
+        "needScaleShellCasing": false,
         "stopForFire": true,
         "readyToFireVar": "9p149_close_action",
         "readyToFireTime": 2.5,
         "maxSpeedForFire": 6.0,
         "battlePositionSpeed": 20.0,
         "lagStopForFireTime": 1.0,
+        "staticElevation": 2.125,
         "parkForReload": true,
-        "circleAim": true,
         "createGunEffects": true,
         "defaultYaw": 0.0,
         "defaultPitch": 0.0,
@@ -1667,6 +1679,16 @@
         "type": "engineFan",
         "turnSpeed": 1.0,
         "node": "bone_roll_engine_04"
+      },
+      {
+        "type": "engineFan",
+        "turnSpeed": 1.0,
+        "node": "bone_roll_engine_05"
+      },
+      {
+        "type": "engineFan",
+        "turnSpeed": 1.0,
+        "node": "bone_roll_engine_06"
       },
       {
         "type": "waterJetShutter",
@@ -1860,13 +1882,13 @@
       "wheel": {
         "name": "bone_wheel_$1",
         "limitMin": [
-          -1000.0,
-          0.0,
+          -1.0,
+          -1.0,
           0.0
         ],
         "limitMax": [
-          1000.0,
-          0.0,
+          1.0,
+          1.0,
           0.0
         ]
       }
@@ -2551,6 +2573,13 @@
           "name": "smoke_after_hit_tiny",
           "setOrientation": true
         }
+      },
+      {
+        "name": "engine_overheat",
+        "fx": {
+          "name": "tank_radiator_steam",
+          "centerDmgPart": false
+        }
       }
     ],
     "procedural": {
@@ -2668,10 +2697,10 @@
     "new_tank_horizontal_aiming": {},
     "tank_engine_smoke_screen_system": {},
     "tank_medical_kit": {
-      "image": "#ui/gameuiskin#tank_reinforcement_ussr.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_ussr"
     },
     "tank_medical_kit_expendable": {
-      "image": "#ui/gameuiskin#tank_reinforcement_ussr.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_ussr"
     },
     "130mm_9m114_ATGM": {},
     "130mm_9m120_ATGM": {},
@@ -2687,6 +2716,7 @@
       "turn_it_off": false,
       "effects": {
         "rcostAddParam": 0.92,
+        "changeMass": 500.0,
         "irProjectorNode": "",
         "nightVision": {
           "gunnerThermal": {
@@ -2790,6 +2820,8 @@
   "smokeScreenExhaustEmitters": {
     "emitter": [
       "emtr_exhaust_01",
+      "emtr_exhaust_02",
+      "emtr_exhaust_03",
       "emtr_exhaust_04"
     ]
   }

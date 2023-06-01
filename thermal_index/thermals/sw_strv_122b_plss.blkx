@@ -15,7 +15,7 @@
     0.0,
     1.0
   ],
-  "exhaustFx": "tank_exhaust",
+  "exhaustFx": "tank_exhaust_med",
   "damagedExhaustFx": "tank_broken_exhaust",
   "thermalExhaustFx": "tank_exhaust_nightvision",
   "dustFx": "",
@@ -1052,6 +1052,16 @@
       "ammo_body_58_dm": {},
       "ammo_body_59_dm": {},
       "ammo_body_60_dm": {},
+      "ammo_body_61_dm": {},
+      "ammo_body_62_dm": {},
+      "ammo_body_63_dm": {},
+      "ammo_body_64_dm": {},
+      "ammo_body_65_dm": {},
+      "ammo_body_66_dm": {},
+      "ammo_body_67_dm": {},
+      "ammo_body_68_dm": {},
+      "ammo_body_69_dm": {},
+      "ammo_body_70_dm": {},
       "ammo_body_l_01_dm": {},
       "ammo_body_l_02_dm": {},
       "ammo_body_l_03_dm": {},
@@ -1250,6 +1260,16 @@
           "ammo_body_58_dm",
           "ammo_body_59_dm",
           "ammo_body_60_dm",
+          "ammo_body_61_dm",
+          "ammo_body_62_dm",
+          "ammo_body_63_dm",
+          "ammo_body_64_dm",
+          "ammo_body_65_dm",
+          "ammo_body_66_dm",
+          "ammo_body_67_dm",
+          "ammo_body_68_dm",
+          "ammo_body_69_dm",
+          "ammo_body_70_dm",
           "ammo_body_l_01_dm",
           "ammo_body_l_02_dm",
           "ammo_body_l_03_dm",
@@ -1636,6 +1656,7 @@
           }
         ],
         "onKill": {
+          "notDamageType": "overheat",
           "fire": 0.4,
           "nothing": 0.6,
           "fHitCritical": true
@@ -2409,6 +2430,7 @@
   },
   "class_tags": {},
   "commonWeapons": {
+    "updateAnimBonesAlways": true,
     "Weapon": [
       {
         "trigger": "gunner0",
@@ -2654,6 +2676,7 @@
         "parkInDeadzone": false,
         "speedYaw": 120.0,
         "speedPitch": 90.0,
+        "animatedEmitter": "bone_commander_sight_v",
         "limits": {
           "yaw": [
             -180.0,
@@ -2705,6 +2728,9 @@
         "ex_decor_r_06",
         "ex_decor_l_09"
       ]
+    },
+    "animatedBones": {
+      "node": "bone_gun_01"
     }
   },
   "weapon_presets": {
@@ -2818,13 +2844,13 @@
       "wheel": {
         "name": "bone_wheel_$1",
         "limitMin": [
-          -1000.0,
-          0.0,
+          -1.0,
+          -1.0,
           0.0
         ],
         "limitMax": [
-          1000.0,
-          0.0,
+          1.0,
+          1.0,
           0.0
         ]
       }
@@ -3522,6 +3548,13 @@
           "name": "smoke_after_hit_tiny",
           "setOrientation": true
         }
+      },
+      {
+        "name": "engine_overheat",
+        "fx": {
+          "name": "tank_radiator_steam",
+          "centerDmgPart": false
+        }
       }
     ],
     "procedural": {
@@ -3573,10 +3606,10 @@
     "art_support": {},
     "tank_new_gun": {},
     "tank_medical_kit": {
-      "image": "#ui/gameuiskin#tank_reinforcement_sw.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_sw"
     },
     "tank_medical_kit_expendable": {
-      "image": "#ui/gameuiskin#tank_reinforcement_sw.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_sw"
     },
     "120mm_DM_APDS_FS": {},
     "120mm_DM_HE_FS": {},
@@ -3593,6 +3626,7 @@
       "tier": 3,
       "effects": {
         "commonWeapons": {
+          "updateAnimBonesAlways": true,
           "Weapon": [
             {
               "trigger": "gunner0",
@@ -3838,6 +3872,7 @@
               "parkInDeadzone": false,
               "speedYaw": 120.0,
               "speedPitch": 90.0,
+              "animatedEmitter": "bone_commander_sight_v",
               "limits": {
                 "yaw": [
                   -180.0,
@@ -3943,13 +3978,16 @@
               "ex_decor_r_06",
               "ex_decor_l_09"
             ]
+          },
+          "animatedBones": {
+            "node": "bone_gun_01"
           }
         }
       }
     },
     "night_vision_system": {
       "tier": 3,
-      "image": "#ui/gameuiskin#thermal_sight.png",
+      "image": "#ui/gameuiskin#thermal_sight",
       "effects": {
         "nightVision": {
           "gunnerThermal": {

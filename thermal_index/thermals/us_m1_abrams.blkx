@@ -870,6 +870,16 @@
       "ammo_body_58_dm": {},
       "ammo_body_59_dm": {},
       "ammo_body_60_dm": {},
+      "ammo_body_61_dm": {},
+      "ammo_body_62_dm": {},
+      "ammo_body_63_dm": {},
+      "ammo_body_64_dm": {},
+      "ammo_body_65_dm": {},
+      "ammo_body_66_dm": {},
+      "ammo_body_67_dm": {},
+      "ammo_body_68_dm": {},
+      "ammo_body_69_dm": {},
+      "ammo_body_70_dm": {},
       "ammo_body_l_01_dm": {},
       "ammo_body_l_02_dm": {},
       "ammo_body_l_03_dm": {},
@@ -1068,6 +1078,52 @@
           "fatalFire": false,
           "fatalExplosion": false,
           "reloadTimeMult": 2.0,
+          "fireParamsPreset": "hull_bustle",
+          "ammo_body_04_dm": {
+            "count": 1
+          },
+          "ammo_body_05_dm": {
+            "count": 1
+          },
+          "ammo_body_06_dm": {
+            "count": 1
+          },
+          "ammo_body_07_dm": {
+            "count": 1
+          },
+          "ammo_body_08_dm": {
+            "count": 1
+          },
+          "ammo_body_09_dm": {
+            "count": 1
+          },
+          "ammo_body_10_dm": {
+            "count": 1
+          },
+          "ammo_body_11_dm": {
+            "count": 1
+          }
+        },
+        {
+          "fatalFire": true,
+          "fatalExplosion": true,
+          "fireEvent": "ammo_fire",
+          "explosionEvent": "ammo_explosion",
+          "wreckedPartId": 0,
+          "ammo_body_01_dm": {
+            "count": 1
+          },
+          "ammo_body_02_dm": {
+            "count": 1
+          },
+          "ammo_body_03_dm": {
+            "count": 1
+          }
+        },
+        {
+          "fatalFire": false,
+          "fatalExplosion": false,
+          "reloadTimeMult": 2.0,
           "fireParamsPreset": "turret_bustle",
           "ammo_turret_14_dm": {
             "count": 1
@@ -1133,52 +1189,6 @@
             "count": 1
           },
           "ammo_turret_44_dm": {
-            "count": 1
-          }
-        },
-        {
-          "fatalFire": false,
-          "fatalExplosion": false,
-          "reloadTimeMult": 2.0,
-          "fireParamsPreset": "hull_bustle",
-          "ammo_body_04_dm": {
-            "count": 1
-          },
-          "ammo_body_05_dm": {
-            "count": 1
-          },
-          "ammo_body_06_dm": {
-            "count": 1
-          },
-          "ammo_body_07_dm": {
-            "count": 1
-          },
-          "ammo_body_08_dm": {
-            "count": 1
-          },
-          "ammo_body_09_dm": {
-            "count": 1
-          },
-          "ammo_body_10_dm": {
-            "count": 1
-          },
-          "ammo_body_11_dm": {
-            "count": 1
-          }
-        },
-        {
-          "fatalFire": true,
-          "fatalExplosion": true,
-          "fireEvent": "ammo_fire",
-          "explosionEvent": "ammo_explosion",
-          "wreckedPartId": 0,
-          "ammo_body_01_dm": {
-            "count": 1
-          },
-          "ammo_body_02_dm": {
-            "count": 1
-          },
-          "ammo_body_03_dm": {
             "count": 1
           }
         }
@@ -1462,6 +1472,7 @@
           }
         ],
         "onKill": {
+          "notDamageType": "overheat",
           "fire": 0.4,
           "nothing": 0.6,
           "fHitCritical": true
@@ -2317,9 +2328,9 @@
   },
   "VehiclePhys": {
     "Mass": {
-      "Empty": 55700.0,
+      "Empty": 54700.0,
       "Fuel": 1000.0,
-      "TakeOff": 56700.0,
+      "TakeOff": 55700.0,
       "momentOfInertia": [
         3.0,
         2.5,
@@ -2420,13 +2431,13 @@
       "wheel": {
         "name": "bone_wheel_$1",
         "limitMin": [
-          -1000.0,
-          0.0,
+          -1.0,
+          -1.0,
           0.0
         ],
         "limitMax": [
-          1000.0,
-          0.0,
+          1.0,
+          1.0,
           0.0
         ]
       }
@@ -3121,6 +3132,13 @@
           "name": "smoke_after_hit_tiny",
           "setOrientation": true
         }
+      },
+      {
+        "name": "engine_overheat",
+        "fx": {
+          "name": "tank_radiator_steam",
+          "centerDmgPart": false
+        }
       }
     ],
     "procedural": {
@@ -3164,10 +3182,10 @@
     "art_support": {},
     "tank_engine_smoke_screen_system": {},
     "tank_medical_kit": {
-      "image": "#ui/gameuiskin#tank_reinforcement_us.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_us"
     },
     "tank_medical_kit_expendable": {
-      "image": "#ui/gameuiskin#tank_reinforcement_us.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_us"
     },
     "modern_tank_laser_rangefinder": {},
     "105mm_usa_HESH": {},
@@ -3516,7 +3534,7 @@
       }
     },
     "night_vision_system": {
-      "image": "#ui/gameuiskin#thermal_sight.png",
+      "image": "#ui/gameuiskin#thermal_sight",
       "tier": 3,
       "effects": {
         "nightVision": {
@@ -3631,6 +3649,8 @@
   "smokeScreenExhaustEmitters": {
     "emitter": [
       "emtr_exhaust_01",
+      "emtr_exhaust_02",
+      "emtr_exhaust_03",
       "emtr_exhaust_04"
     ]
   }

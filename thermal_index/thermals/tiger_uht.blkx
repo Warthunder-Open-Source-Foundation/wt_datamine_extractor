@@ -1,10 +1,11 @@
 {
   "model": "tiger_uht",
   "fmFile": "fm/tiger_uht.blk",
-  "viewDistKInSight": 4.0,
+  "viewDistKInSight": 6.0,
   "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/hellicopters_metaparts.blk",
   "harmonizationSuffix": "_tomoe",
   "haveCCIPForRocket": true,
+  "gyroSight": true,
   "haveCCIPForGun": true,
   "haveCCIPForTurret": true,
   "haveCCRPForGun": false,
@@ -218,6 +219,18 @@
             "fire": 0.005,
             "leak_oil": 0.95,
             "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 0.25,
+            "leak_oil": 0.95,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 0.5,
+            "leak_oil": 0.95,
+            "cut": 0.0
           }
         ],
         "onKill": [
@@ -229,6 +242,18 @@
           {
             "damage": 30.0,
             "fire": 30.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 40.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 50.0,
             "leak_oil": 10.0,
             "cut": 0.0
           }
@@ -247,6 +272,18 @@
             "fire": 0.005,
             "leak_oil": 0.95,
             "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 0.25,
+            "leak_oil": 0.95,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 0.5,
+            "leak_oil": 0.95,
+            "cut": 0.0
           }
         ],
         "onKill": [
@@ -258,6 +295,18 @@
           {
             "damage": 30.0,
             "fire": 30.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 40.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 50.0,
             "leak_oil": 10.0,
             "cut": 0.0
           }
@@ -708,6 +757,18 @@
             "fire": 0.005,
             "leak_oil": 0.95,
             "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 0.25,
+            "leak_oil": 0.95,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 0.5,
+            "leak_oil": 0.95,
+            "cut": 0.0
           }
         ],
         "onKill": [
@@ -719,6 +780,18 @@
           {
             "damage": 30.0,
             "fire": 30.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 40.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 50.0,
             "leak_oil": 10.0,
             "cut": 0.0
           }
@@ -2133,7 +2206,7 @@
                 "startFx": "",
                 "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher.blk",
                 "emitter": "emtr_flare1",
-                "bullets": 30,
+                "bullets": 32,
                 "external": true,
                 "separate": false
               },
@@ -2142,7 +2215,7 @@
                 "startFx": "",
                 "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher.blk",
                 "emitter": "emtr_flare2",
-                "bullets": 30,
+                "bullets": 32,
                 "external": true,
                 "separate": false
               }
@@ -2224,6 +2297,7 @@
           {
             "iconType": "atgm_type2_x2",
             "name": "hot3_x2",
+            "remotelyGuidedWeaponsMax": 1,
             "ShowNodes": {
               "node": "pylon_l_atgw3"
             },
@@ -2240,6 +2314,7 @@
             "iconType": "atgm_type1_x4",
             "name": "hot3_x4",
             "reqModification": "tiger_hot3",
+            "remotelyGuidedWeaponsMax": 1,
             "ShowNodes": {
               "node": "pylon_l_atgw3"
             },
@@ -2288,8 +2363,8 @@
               "emitter": "flare1",
               "flash": "flare1",
               "dm": "mgun1_dm",
-              "bullets": 400,
-              "mass": 89.4,
+              "bullets": 250,
+              "mass": 0.4,
               "spread": 1.5,
               "traceOffset": 1,
               "counterIndex": 1,
@@ -2317,8 +2392,8 @@
                 "emitter": "flare4",
                 "flash": "flare4",
                 "dm": "mgun1_dm",
-                "bullets": 400,
-                "mass": 120.6,
+                "bullets": 250,
+                "mass": 7.2,
                 "spread": 1.5,
                 "traceOffset": 1,
                 "counterIndex": 1,
@@ -2337,7 +2412,6 @@
                   1.0,
                   1.0
                 ],
-                "mass": 12.2,
                 "dragCx": 0.06
               },
               {
@@ -2353,7 +2427,6 @@
                   1.0,
                   1.0
                 ],
-                "mass": 12.2,
                 "dragCx": 0.06
               },
               {
@@ -2369,7 +2442,6 @@
                   1.0,
                   1.0
                 ],
-                "mass": 12.2,
                 "dragCx": 0.06
               }
             ]
@@ -2430,6 +2502,7 @@
           {
             "iconType": "atgm_type2_x2",
             "name": "hot3_x2",
+            "remotelyGuidedWeaponsMax": 1,
             "ShowNodes": {
               "node": "pylon_r_atgw3"
             },
@@ -2446,6 +2519,7 @@
             "iconType": "atgm_type1_x4",
             "name": "hot3_x4",
             "reqModification": "tiger_hot3",
+            "remotelyGuidedWeaponsMax": 1,
             "ShowNodes": {
               "node": "pylon_r_atgw3"
             },
@@ -2494,8 +2568,8 @@
               "emitter": "flare2",
               "flash": "flare2",
               "dm": "mgun2_dm",
-              "bullets": 400,
-              "mass": 89.4,
+              "bullets": 250,
+              "mass": 0.4,
               "spread": 1.5,
               "traceOffset": 1,
               "counterIndex": 1,
@@ -2523,8 +2597,8 @@
                 "emitter": "flare3",
                 "flash": "flare3",
                 "dm": "mgun2_dm",
-                "bullets": 400,
-                "mass": 120.6,
+                "bullets": 250,
+                "mass": 7.2,
                 "spread": 1.5,
                 "traceOffset": 1,
                 "counterIndex": 1,
@@ -2543,7 +2617,6 @@
                   1.0,
                   1.0
                 ],
-                "mass": 12.2,
                 "dragCx": 0.06
               },
               {
@@ -2559,7 +2632,6 @@
                   1.0,
                   1.0
                 ],
-                "mass": 12.2,
                 "dragCx": 0.06
               },
               {
@@ -2575,7 +2647,6 @@
                   1.0,
                   1.0
                 ],
-                "mass": 12.2,
                 "dragCx": 0.06
               }
             ]
@@ -2730,7 +2801,7 @@
       "prevModification": "MAW_system_heli_false_thermal_targets",
       "modClass": "weapon",
       "tier": 3,
-      "image": "#ui/gameuiskin#thermal_sight.png",
+      "image": "#ui/gameuiskin#thermal_sight",
       "effects": {
         "nightVision": {
           "gunnerIr": {
@@ -2764,16 +2835,10 @@
   },
   "default_skin_tomoe": {
     "name": "default_tomoe",
-    "replace_tex": [
-      {
-        "from": "tiger_uht_germany_camo_c*",
-        "to": "tiger_uht_germany_camo_c_tomoe*"
-      },
-      {
-        "from": "tiger_uht_germany_camo_c_dmg*",
-        "to": "tiger_uht_germany_camo_c_tomoe_dmg*"
-      }
-    ]
+    "replace_tex": {
+      "from": "tiger_uht_germany_camo_c*",
+      "to": "tiger_uht_germany_camo_c_tomoe*"
+    }
   },
   "user_skin": {
     "name": "tiger_uht",
@@ -2782,13 +2847,7 @@
         "from": "tiger_uht_germany_camo_c*"
       },
       {
-        "from": "tiger_uht_germany_camo_c_dmg*"
-      },
-      {
         "from": "tiger_uht_germany_camo_n*"
-      },
-      {
-        "from": "tiger_uht_germany_camo_n_dmg*"
       }
     ]
   },

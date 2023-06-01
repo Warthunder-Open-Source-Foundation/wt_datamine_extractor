@@ -15,7 +15,7 @@
     0.0,
     1.0
   ],
-  "exhaustFx": "tank_exhaust",
+  "exhaustFx": "tank_exhaust_med",
   "damagedExhaustFx": "tank_broken_exhaust",
   "thermalExhaustFx": "tank_exhaust_nightvision",
   "dustFx": "",
@@ -84,6 +84,16 @@
         "type": "engineFan",
         "turnSpeed": 1.0,
         "node": "bone_roll_engine_04"
+      },
+      {
+        "type": "engineFan",
+        "turnSpeed": 1.0,
+        "node": "bone_roll_engine_05"
+      },
+      {
+        "type": "engineFan",
+        "turnSpeed": 1.0,
+        "node": "bone_roll_engine_06"
       },
       {
         "type": "waterJetShutter",
@@ -168,6 +178,16 @@
           "ammo_body_58_dm",
           "ammo_body_59_dm",
           "ammo_body_60_dm",
+          "ammo_body_61_dm",
+          "ammo_body_62_dm",
+          "ammo_body_63_dm",
+          "ammo_body_64_dm",
+          "ammo_body_65_dm",
+          "ammo_body_66_dm",
+          "ammo_body_67_dm",
+          "ammo_body_68_dm",
+          "ammo_body_69_dm",
+          "ammo_body_70_dm",
           "ammo_body_l_01_dm",
           "ammo_body_l_02_dm",
           "ammo_body_l_03_dm",
@@ -553,6 +573,7 @@
           }
         ],
         "onKill": {
+          "notDamageType": "overheat",
           "fire": 0.5,
           "nothing": 0.5,
           "fHitCritical": true
@@ -898,6 +919,15 @@
               "dmPart": "composite_armor_hull_03_dm"
             }
           }
+        },
+        {
+          "xrayDmPart": "composite_armor_hull_04_dm",
+          "titleLoc": "RHA_tank_modern",
+          "armorArrayText": {
+            "layer": {
+              "dmPart": "composite_armor_hull_04_dm"
+            }
+          }
         }
       ]
     },
@@ -1149,6 +1179,15 @@
           "armorArrayText": {
             "layer": {
               "dmPart": "composite_armor_hull_03_dm"
+            }
+          }
+        },
+        {
+          "xrayDmPart": "composite_armor_hull_05_dm",
+          "titleLoc": "RHA_tank_modern",
+          "armorArrayText": {
+            "layer": {
+              "dmPart": "composite_armor_hull_05_dm"
             }
           }
         }
@@ -1459,13 +1498,13 @@
       "wheel": {
         "name": "bone_wheel_$1",
         "limitMin": [
-          -1000.0,
-          0.0,
+          -1.0,
+          -1.0,
           0.0
         ],
         "limitMax": [
-          1000.0,
-          0.0,
+          1.0,
+          1.0,
           0.0
         ]
       }
@@ -2150,6 +2189,13 @@
           "name": "smoke_after_hit_tiny",
           "setOrientation": true
         }
+      },
+      {
+        "name": "engine_overheat",
+        "fx": {
+          "name": "tank_radiator_steam",
+          "centerDmgPart": false
+        }
       }
     ],
     "procedural": {
@@ -2496,6 +2542,10 @@
         "hidableInXrayViewer": true
       },
       "composite_armor_hull_03_dm": {
+        "armorThickness": 5.0,
+        "hidableInXrayViewer": true
+      },
+      "composite_armor_hull_05_dm": {
         "armorThickness": 5.0,
         "hidableInXrayViewer": true
       }
@@ -2918,6 +2968,16 @@
       "ammo_body_58_dm": {},
       "ammo_body_59_dm": {},
       "ammo_body_60_dm": {},
+      "ammo_body_61_dm": {},
+      "ammo_body_62_dm": {},
+      "ammo_body_63_dm": {},
+      "ammo_body_64_dm": {},
+      "ammo_body_65_dm": {},
+      "ammo_body_66_dm": {},
+      "ammo_body_67_dm": {},
+      "ammo_body_68_dm": {},
+      "ammo_body_69_dm": {},
+      "ammo_body_70_dm": {},
       "ammo_body_l_01_dm": {},
       "ammo_body_l_02_dm": {},
       "ammo_body_l_03_dm": {},
@@ -3429,10 +3489,10 @@
       "tier": 4
     },
     "tank_medical_kit": {
-      "image": "#ui/gameuiskin#tank_reinforcement_it.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_it"
     },
     "tank_medical_kit_expendable": {
-      "image": "#ui/gameuiskin#tank_reinforcement_it.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_it"
     },
     "airstrike": {},
     "improved_optics": {
@@ -3451,7 +3511,7 @@
     "105mm_NATO_APDS_FS_ammo_pack": {},
     "105mm_DM33_APDS_FS_ammo_pack": {},
     "night_vision_system": {
-      "image": "#ui/gameuiskin#thermal_sight.png",
+      "image": "#ui/gameuiskin#thermal_sight",
       "tier": 2,
       "effects": {
         "nightVision": {

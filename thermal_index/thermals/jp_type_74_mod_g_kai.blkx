@@ -15,7 +15,7 @@
     0.0,
     1.0
   ],
-  "exhaustFx": "tank_exhaust",
+  "exhaustFx": "tank_exhaust_med",
   "damagedExhaustFx": "tank_broken_exhaust",
   "thermalExhaustFx": "tank_exhaust_nightvision",
   "dustFx": "",
@@ -140,6 +140,16 @@
           "ammo_body_58_dm",
           "ammo_body_59_dm",
           "ammo_body_60_dm",
+          "ammo_body_61_dm",
+          "ammo_body_62_dm",
+          "ammo_body_63_dm",
+          "ammo_body_64_dm",
+          "ammo_body_65_dm",
+          "ammo_body_66_dm",
+          "ammo_body_67_dm",
+          "ammo_body_68_dm",
+          "ammo_body_69_dm",
+          "ammo_body_70_dm",
           "ammo_body_l_01_dm",
           "ammo_body_l_02_dm",
           "ammo_body_l_03_dm",
@@ -525,6 +535,7 @@
           }
         ],
         "onKill": {
+          "notDamageType": "overheat",
           "fire": 0.5,
           "nothing": 0.5,
           "fHitCritical": true
@@ -1180,13 +1191,13 @@
       "wheel": {
         "name": "bone_wheel_$1",
         "limitMin": [
-          -1000.0,
-          0.0,
+          -1.0,
+          -1.0,
           0.0
         ],
         "limitMax": [
-          1000.0,
-          0.0,
+          1.0,
+          1.0,
           0.0
         ]
       }
@@ -1881,6 +1892,13 @@
           "name": "smoke_after_hit_tiny",
           "setOrientation": true
         }
+      },
+      {
+        "name": "engine_overheat",
+        "fx": {
+          "name": "tank_radiator_steam",
+          "centerDmgPart": false
+        }
       }
     ],
     "procedural": {
@@ -2289,12 +2307,6 @@
       "turret_01_front_dm": {
         "armorThickness": 65.0
       },
-      "turret_01_back_dm": {
-        "armorThickness": 40.0
-      },
-      "turret_01_bottom_dm": {
-        "armorThickness": 38.0
-      },
       "turret_03_bottom_dm": {
         "armorThickness": 52.0
       },
@@ -2352,7 +2364,9 @@
       "armorThickness": 4.0,
       "createSecondaryShatters": false,
       "turret_03_top_dm": {},
-      "turret_03_side_dm": {}
+      "turret_03_side_dm": {},
+      "turret_01_bottom_dm": {},
+      "turret_01_back_dm": {}
     },
     "body_shields": {
       "armorClass": "tank_structural_steel",
@@ -2375,7 +2389,9 @@
       "ex_decor_18_dm": {},
       "turret_02_bottom_dm": {},
       "turret_02_top_dm": {},
-      "turret_03_front_dm": {}
+      "turret_03_front_dm": {},
+      "ex_decor_r_05_dm": {},
+      "ex_decor_16_dm": {}
     },
     "optics": {
       "armorClass": "optics_tank",
@@ -2795,6 +2811,16 @@
       "ammo_body_58_dm": {},
       "ammo_body_59_dm": {},
       "ammo_body_60_dm": {},
+      "ammo_body_61_dm": {},
+      "ammo_body_62_dm": {},
+      "ammo_body_63_dm": {},
+      "ammo_body_64_dm": {},
+      "ammo_body_65_dm": {},
+      "ammo_body_66_dm": {},
+      "ammo_body_67_dm": {},
+      "ammo_body_68_dm": {},
+      "ammo_body_69_dm": {},
+      "ammo_body_70_dm": {},
       "ammo_body_l_01_dm": {},
       "ammo_body_l_02_dm": {},
       "ammo_body_l_03_dm": {},
@@ -3194,10 +3220,10 @@
     "art_support": {},
     "tank_new_gun": {},
     "tank_medical_kit": {
-      "image": "#ui/gameuiskin#tank_reinforcement_jp.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_jp"
     },
     "tank_medical_kit_expendable": {
-      "image": "#ui/gameuiskin#tank_reinforcement_jp.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_jp"
     },
     "105mm_NATO_APDS_FS": {},
     "105mm_NATO_APDS_FS_ammo_pack": {},
@@ -3552,7 +3578,7 @@
       }
     },
     "night_vision_system": {
-      "image": "#ui/gameuiskin#thermal_sight.png",
+      "image": "#ui/gameuiskin#thermal_sight",
       "effects": {
         "nightVision": {
           "gunnerThermal": {

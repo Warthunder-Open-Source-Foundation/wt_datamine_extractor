@@ -140,7 +140,7 @@
         ],
         "traceFreq": 1,
         "tracer": "30mmRed",
-        "trail": "noTrail"
+        "trail": "thin"
       },
       "collisions": {
         "default": {
@@ -189,7 +189,7 @@
           "fx": "hit_28_38mm_snow_ap_rapid"
         },
         "glass": {
-          "fx": "hit_28_38mm_metal_ap_rapid"
+          "fx": "armoured_glass"
         },
         "wood": {
           "fx": "hit_28_38mm_wood_ap_rapid"
@@ -298,10 +298,10 @@
       "damage": {
         "shatter": {
           "useRealShatters": true,
-          "countPortion": 0.1,
+          "countPortion": 0.3,
           "segment": [
             {
-              "radiusScale": 1.0,
+              "radiusScale": 1.065,
               "penetrationScale": 1.0,
               "damageScale": 1.0,
               "angles": [
@@ -311,7 +311,7 @@
               "countPortion": 0.5
             },
             {
-              "radiusScale": 1.0,
+              "radiusScale": 1.065,
               "penetrationScale": 1.0,
               "damageScale": 1.0,
               "angles": [
@@ -381,7 +381,7 @@
           "fx": "hit_28_38mm_snow_he_rapid"
         },
         "glass": {
-          "fx": "hit_28_38mm_metal_he_rapid"
+          "fx": "armoured_glass"
         },
         "wood": {
           "fx": "hit_28_38mm_wood_he_rapid"
@@ -493,10 +493,10 @@
         "damage": {
           "shatter": {
             "useRealShatters": true,
-            "countPortion": 0.1,
+            "countPortion": 0.3,
             "segment": [
               {
-                "radiusScale": 1.0,
+                "radiusScale": 1.065,
                 "penetrationScale": 1.0,
                 "damageScale": 1.0,
                 "angles": [
@@ -506,7 +506,7 @@
                 "countPortion": 0.5
               },
               {
-                "radiusScale": 1.0,
+                "radiusScale": 1.065,
                 "penetrationScale": 1.0,
                 "damageScale": 1.0,
                 "angles": [
@@ -576,7 +576,7 @@
             "fx": "hit_28_38mm_snow_he_rapid"
           },
           "glass": {
-            "fx": "hit_28_38mm_metal_he_rapid"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_28_38mm_wood_he_rapid"
@@ -688,10 +688,10 @@
         "damage": {
           "shatter": {
             "useRealShatters": true,
-            "countPortion": 0.1,
+            "countPortion": 0.3,
             "segment": [
               {
-                "radiusScale": 1.0,
+                "radiusScale": 1.065,
                 "penetrationScale": 1.0,
                 "damageScale": 1.0,
                 "angles": [
@@ -701,7 +701,7 @@
                 "countPortion": 0.5
               },
               {
-                "radiusScale": 1.0,
+                "radiusScale": 1.065,
                 "penetrationScale": 1.0,
                 "damageScale": 1.0,
                 "angles": [
@@ -723,7 +723,7 @@
           ],
           "traceFreq": 1,
           "tracer": "30mmBrightRed",
-          "trail": "noTrail"
+          "trail": "thin"
         },
         "collisions": {
           "default": {
@@ -772,7 +772,7 @@
             "fx": "hit_28_38mm_snow_he_rapid"
           },
           "glass": {
-            "fx": "hit_28_38mm_metal_he_rapid"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_28_38mm_wood_he_rapid"
@@ -881,10 +881,10 @@
         "damage": {
           "shatter": {
             "useRealShatters": true,
-            "countPortion": 0.1,
+            "countPortion": 0.3,
             "segment": [
               {
-                "radiusScale": 1.0,
+                "radiusScale": 1.065,
                 "penetrationScale": 1.0,
                 "damageScale": 1.0,
                 "angles": [
@@ -894,7 +894,7 @@
                 "countPortion": 0.5
               },
               {
-                "radiusScale": 1.0,
+                "radiusScale": 1.065,
                 "penetrationScale": 1.0,
                 "damageScale": 1.0,
                 "angles": [
@@ -964,7 +964,7 @@
             "fx": "hit_28_38mm_snow_he_rapid"
           },
           "glass": {
-            "fx": "hit_28_38mm_metal_he_rapid"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_28_38mm_wood_he_rapid"
@@ -1087,7 +1087,7 @@
           ],
           "traceFreq": 1,
           "tracer": "30mmRed",
-          "trail": "noTrail"
+          "trail": "thin"
         },
         "collisions": {
           "default": {
@@ -1136,7 +1136,7 @@
             "fx": "hit_28_38mm_snow_ap_rapid"
           },
           "glass": {
-            "fx": "hit_28_38mm_metal_ap_rapid"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_28_38mm_wood_ap_rapid"
@@ -1263,7 +1263,7 @@
           ],
           "traceFreq": 1,
           "tracer": "30mmRed",
-          "trail": "noTrail"
+          "trail": "thin"
         },
         "collisions": {
           "default": {
@@ -1312,7 +1312,7 @@
             "fx": "hit_28_38mm_snow_ap_rapid"
           },
           "glass": {
-            "fx": "hit_28_38mm_metal_ap_rapid"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_28_38mm_wood_ap_rapid"
@@ -1435,7 +1435,7 @@
           ],
           "traceFreq": 1,
           "tracer": "30mmRed",
-          "trail": "noTrail"
+          "trail": "thin"
         },
         "collisions": {
           "default": {
@@ -1484,7 +1484,7 @@
             "fx": "hit_28_38mm_snow_ap_rapid"
           },
           "glass": {
-            "fx": "hit_28_38mm_metal_ap_rapid"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_28_38mm_wood_ap_rapid"
@@ -1607,7 +1607,7 @@
           ],
           "traceFreq": 1,
           "tracer": "30mmRed",
-          "trail": "noTrail"
+          "trail": "thin"
         },
         "collisions": {
           "default": {
@@ -1656,7 +1656,7 @@
             "fx": "hit_28_38mm_snow_ap_rapid"
           },
           "glass": {
-            "fx": "hit_28_38mm_metal_ap_rapid"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_28_38mm_wood_ap_rapid"
@@ -1765,10 +1765,10 @@
         "damage": {
           "shatter": {
             "useRealShatters": true,
-            "countPortion": 0.1,
+            "countPortion": 0.3,
             "segment": [
               {
-                "radiusScale": 1.0,
+                "radiusScale": 1.065,
                 "penetrationScale": 1.0,
                 "damageScale": 1.0,
                 "angles": [
@@ -1778,7 +1778,7 @@
                 "countPortion": 0.5
               },
               {
-                "radiusScale": 1.0,
+                "radiusScale": 1.065,
                 "penetrationScale": 1.0,
                 "damageScale": 1.0,
                 "angles": [
@@ -1848,7 +1848,7 @@
             "fx": "hit_28_38mm_snow_he_rapid"
           },
           "glass": {
-            "fx": "hit_28_38mm_metal_he_rapid"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_28_38mm_wood_he_rapid"

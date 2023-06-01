@@ -15,7 +15,7 @@
     0.0,
     1.0
   ],
-  "exhaustFx": "tank_exhaust",
+  "exhaustFx": "tank_exhaust_med",
   "damagedExhaustFx": "tank_broken_exhaust",
   "thermalExhaustFx": "tank_exhaust_nightvision",
   "dustFx": "",
@@ -86,6 +86,16 @@
         "node": "bone_roll_engine_04"
       },
       {
+        "type": "engineFan",
+        "turnSpeed": 1.0,
+        "node": "bone_roll_engine_05"
+      },
+      {
+        "type": "engineFan",
+        "turnSpeed": 1.0,
+        "node": "bone_roll_engine_06"
+      },
+      {
         "type": "waterJetShutter",
         "turnSpeed": 1.5,
         "maxValue": -1.7,
@@ -140,6 +150,7 @@
       "turret_05_side_dm": {},
       "turret_03_front_dm": {},
       "superstructure_back_dm": {},
+      "turret_01_bottom_dm": {},
       "composite_armor_hull_16_dm": {
         "armorThickness": 5.0,
         "armorClass": "RHA_tank",
@@ -188,8 +199,7 @@
       "turret_01_front_dm": {},
       "turret_08_side_dm": {},
       "turret_07_bottom_dm": {},
-      "turret_01_back_dm": {},
-      "turret_01_bottom_dm": {}
+      "turret_01_back_dm": {}
     },
     "heavy_scirts": {
       "armorClass": "hull_side_special_armor",
@@ -333,7 +343,6 @@
       "hp": 500.0,
       "stopChanceOnDeadPart": 0.0,
       "createSecondaryShatters": false,
-      "ex_decor_07_dm": {},
       "ex_decor_l_07_dm": {},
       "ex_decor_l_08_dm": {},
       "ex_decor_r_08_dm": {},
@@ -650,6 +659,16 @@
       "ammo_body_58_dm": {},
       "ammo_body_59_dm": {},
       "ammo_body_60_dm": {},
+      "ammo_body_61_dm": {},
+      "ammo_body_62_dm": {},
+      "ammo_body_63_dm": {},
+      "ammo_body_64_dm": {},
+      "ammo_body_65_dm": {},
+      "ammo_body_66_dm": {},
+      "ammo_body_67_dm": {},
+      "ammo_body_68_dm": {},
+      "ammo_body_69_dm": {},
+      "ammo_body_70_dm": {},
       "ammo_body_l_01_dm": {},
       "ammo_body_l_02_dm": {},
       "ammo_body_l_03_dm": {},
@@ -807,6 +826,16 @@
           "ammo_body_58_dm",
           "ammo_body_59_dm",
           "ammo_body_60_dm",
+          "ammo_body_61_dm",
+          "ammo_body_62_dm",
+          "ammo_body_63_dm",
+          "ammo_body_64_dm",
+          "ammo_body_65_dm",
+          "ammo_body_66_dm",
+          "ammo_body_67_dm",
+          "ammo_body_68_dm",
+          "ammo_body_69_dm",
+          "ammo_body_70_dm",
           "ammo_body_l_01_dm",
           "ammo_body_l_02_dm",
           "ammo_body_l_03_dm",
@@ -1192,6 +1221,7 @@
           }
         ],
         "onKill": {
+          "notDamageType": "overheat",
           "fire": 0.5,
           "nothing": 0.5,
           "fHitCritical": true
@@ -1905,18 +1935,18 @@
         "blk": "gameData/Weapons/groundModels_weapons/105mm_M68A1_E8_user_cannon.blk",
         "emitter": "bone_gun_barrel",
         "flash": "emtr_gun_flame",
-        "sleeveEmitter": "emtr_shell",
-        "sleeveMesh": "cartridge_case",
+        "shellCasingEmitter": "emtr_shell",
+        "shellCasingMesh": "cartridge_case",
         "hatchAnimVar": "hatch_toggle",
         "openHatchTime": 1.0,
-        "sleevesLifeTime": 10.0,
-        "sleeveImpulse": [
+        "shellCasingLifeTime": 10.0,
+        "shellCasingImpulse": [
           5.0,
           0.0,
           0.0
         ],
-        "sleeveExtractSound": "shell_eject_hatch",
-        "linkSleeveToGun": true,
+        "shellCasingExtractSound": "shell_eject_hatch",
+        "linkShellCasingToGun": true,
         "maxAdditionalPitch": 0.0,
         "barrelDP": "gun_barrel_dm",
         "breechDP": "cannon_breech_dm",
@@ -2972,6 +3002,13 @@
           "name": "smoke_after_hit_tiny",
           "setOrientation": true
         }
+      },
+      {
+        "name": "engine_overheat",
+        "fx": {
+          "name": "tank_radiator_steam",
+          "centerDmgPart": false
+        }
       }
     ],
     "procedural": {
@@ -3103,10 +3140,10 @@
       "tier": 4
     },
     "tank_medical_kit": {
-      "image": "#ui/gameuiskin#tank_reinforcement_us.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_us"
     },
     "tank_medical_kit_expendable": {
-      "image": "#ui/gameuiskin#tank_reinforcement_us.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_us"
     },
     "airstrike": {},
     "improved_optics": {
@@ -3131,18 +3168,18 @@
               "blk": "gameData/Weapons/groundModels_weapons/105mm_M68A1_E8_user_cannon.blk",
               "emitter": "bone_gun_barrel",
               "flash": "emtr_gun_flame",
-              "sleeveEmitter": "emtr_shell",
-              "sleeveMesh": "cartridge_case",
+              "shellCasingEmitter": "emtr_shell",
+              "shellCasingMesh": "cartridge_case",
               "hatchAnimVar": "hatch_toggle",
               "openHatchTime": 1.0,
-              "sleevesLifeTime": 10.0,
-              "sleeveImpulse": [
+              "shellCasingLifeTime": 10.0,
+              "shellCasingImpulse": [
                 5.0,
                 0.0,
                 0.0
               ],
-              "sleeveExtractSound": "shell_eject_hatch",
-              "linkSleeveToGun": true,
+              "shellCasingExtractSound": "shell_eject_hatch",
+              "linkShellCasingToGun": true,
               "maxAdditionalPitch": 0.0,
               "barrelDP": "gun_barrel_dm",
               "breechDP": "cannon_breech_dm",
@@ -3393,7 +3430,7 @@
             {
               "trigger": "gunner4",
               "triggerGroup": "smoke",
-              "blk": "gameData/Weapons/groundModels_weapons/66mm_smoke_grenade_launcher_m60a2.blk",
+              "blk": "gameData/Weapons/groundModels_weapons/66mm_modern_smoke_grenade_launcher.blk",
               "weaponType": "rockets",
               "startFx": "",
               "useEmitter": true,
@@ -3449,7 +3486,7 @@
       }
     },
     "night_vision_system": {
-      "image": "#ui/gameuiskin#thermal_sight.png",
+      "image": "#ui/gameuiskin#thermal_sight",
       "tier": 1,
       "effects": {
         "nightVision": {

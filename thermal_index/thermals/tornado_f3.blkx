@@ -14,6 +14,7 @@
   "haveCCIPForGun": true,
   "ilsTornado": true,
   "haveCCRPForGun": true,
+  "needTpsNightVision": true,
   "type": "typeFighter",
   "simplifiedJoyAileronMult": 1.0,
   "simplifiedJoyElevatorMult": 1.0,
@@ -528,6 +529,18 @@
             "fire": 0.005,
             "leak_oil": 0.95,
             "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 0.25,
+            "leak_oil": 0.95,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 0.5,
+            "leak_oil": 0.95,
+            "cut": 0.0
           }
         ],
         "onKill": [
@@ -539,6 +552,18 @@
           {
             "damage": 30.0,
             "fire": 30.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 40.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 50.0,
             "leak_oil": 10.0,
             "cut": 0.0
           }
@@ -557,6 +582,18 @@
             "fire": 0.005,
             "leak_oil": 0.95,
             "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 0.25,
+            "leak_oil": 0.95,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 0.5,
+            "leak_oil": 0.95,
+            "cut": 0.0
           }
         ],
         "onKill": [
@@ -568,6 +605,18 @@
           {
             "damage": 30.0,
             "fire": 30.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 40.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 50.0,
             "leak_oil": 10.0,
             "cut": 0.0
           }
@@ -954,6 +1003,12 @@
             "damage": 50.0,
             "wing_r_dm": 0.5,
             "wing_l_dm": 0.5
+          },
+          {
+            "damage": 200.0,
+            "wingcontrol_dm": 0.2,
+            "wingcontrol_l_dm": 0.2,
+            "wingcontrol_r_dm": 0.2
           }
         ],
         "onKill": [
@@ -991,6 +1046,12 @@
             "fire": 5.0,
             "wing_l_dm": 1.0,
             "wing_r_dm": 1.0
+          },
+          {
+            "damage": 200.0,
+            "wingcontrol_dm": 0.4,
+            "wingcontrol_l_dm": 0.4,
+            "wingcontrol_r_dm": 0.4
           }
         ]
       },
@@ -1012,6 +1073,12 @@
           {
             "damage": 50.0,
             "tail_dm": 1.0
+          },
+          {
+            "damage": 200.0,
+            "wingcontrol_dm": 0.2,
+            "wingcontrol_l_dm": 0.2,
+            "wingcontrol_r_dm": 0.2
           }
         ],
         "onKill": [
@@ -1053,6 +1120,12 @@
             "damage": 50.0,
             "tail_dm": 1.0,
             "nothing": 1.0
+          },
+          {
+            "damage": 200.0,
+            "wingcontrol_dm": 0.4,
+            "wingcontrol_l_dm": 0.4,
+            "wingcontrol_r_dm": 0.4
           }
         ]
       },
@@ -2770,9 +2843,15 @@
             0.5,
             0.5
           ],
-          "page": {
-            "type": "map"
-          }
+          "page": [
+            {
+              "type": "radar",
+              "hideRadarBackground": true
+            },
+            {
+              "type": "map"
+            }
+          ]
         },
         {
           "textureArea": [
@@ -3005,7 +3084,7 @@
           },
           {
             "iconType": "missile_type_b_air_to_air_ltc_pod",
-            "name": "aim9l_bol",
+            "name": "aim9l_bol_slot1",
             "reqModification": "uk_ltc_bol",
             "ShowNodes": {
               "node": [
@@ -3030,13 +3109,14 @@
                 "emitter": "aim_9_5",
                 "bullets": 1,
                 "external": true,
-                "separate": true
+                "separate": true,
+                "order": 1
               }
             ]
           },
           {
             "iconType": "missile_type_b_air_to_air_ltc_pod_group",
-            "name": "aim_9l_x2_bol",
+            "name": "aim_9l_x2_bol_slot1",
             "reqModification": "us_aim_9l",
             "ShowNodes": {
               "node": [
@@ -3063,7 +3143,8 @@
                 "emitter": "aim_9_5",
                 "bullets": 1,
                 "external": true,
-                "separate": true
+                "separate": true,
+                "order": 3
               },
               {
                 "trigger": "aam",
@@ -3071,7 +3152,8 @@
                 "emitter": "aim_9_1",
                 "bullets": 1,
                 "external": true,
-                "separate": true
+                "separate": true,
+                "order": 5
               }
             ]
           },
@@ -3130,6 +3212,10 @@
             "bullets": 1,
             "external": true,
             "separate": true
+          },
+          "DependentWeaponPreset": {
+            "slot": 4,
+            "preset": "ptb_2"
           }
         }
       },
@@ -3314,7 +3400,7 @@
           },
           {
             "iconType": "missile_type_b_air_to_air_ltc_pod",
-            "name": "aim9l_bol",
+            "name": "aim9l_bol_slot5",
             "reqModification": "uk_ltc_bol",
             "ShowNodes": {
               "node": [
@@ -3339,13 +3425,14 @@
                 "emitter": "aim_9_6",
                 "bullets": 1,
                 "external": true,
-                "separate": true
+                "separate": true,
+                "order": 2
               }
             ]
           },
           {
             "iconType": "missile_type_b_air_to_air_ltc_pod_group",
-            "name": "aim_9l_x2_bol",
+            "name": "aim_9l_x2_bol_slot5",
             "reqModification": "us_aim_9l",
             "ShowNodes": {
               "node": [
@@ -3372,7 +3459,8 @@
                 "emitter": "aim_9_6",
                 "bullets": 1,
                 "external": true,
-                "separate": true
+                "separate": true,
+                "order": 4
               },
               {
                 "trigger": "aam",
@@ -3380,7 +3468,8 @@
                 "emitter": "aim_9_4",
                 "bullets": 1,
                 "external": true,
-                "separate": true
+                "separate": true,
+                "order": 6
               }
             ]
           },
@@ -3430,14 +3519,7 @@
   "sensors": {
     "sensor": [
       {
-        "blk": "gameData/sensors/LaserDesignatorSensor.blk"
-      },
-      {
-        "blk": "gameData/sensors/ir_tracker_tgp.blk",
-        "node": "optic1_gun"
-      },
-      {
-        "blk": "gameData/sensors/uk_marconi_ai_mk24w.blk",
+        "blk": "gameData/sensors/uk_marconi_ai_mk24_stage_2g.blk",
         "dmPart": "radar_dm"
       },
       {
@@ -3731,8 +3813,34 @@
       "tier": 2,
       "modClass": "armor"
     },
-    "air_extinguisher": {
+    "heli_night_vision_system": {
       "prevModification": "f_4c_g_suit",
+      "tier": 3,
+      "effects": {
+        "nightVision": {
+          "gunnerIr": {
+            "resolution": [
+              800,
+              600
+            ],
+            "lightMult": 8.0,
+            "ghosting": 0.75,
+            "noiseFactor": 0.2
+          },
+          "pilotIr": {
+            "resolution": [
+              800,
+              600
+            ],
+            "lightMult": 8.0,
+            "ghosting": 0.75,
+            "noiseFactor": 0.2
+          }
+        }
+      }
+    },
+    "air_extinguisher": {
+      "prevModification": "heli_night_vision_system",
       "tier": 4,
       "modClass": "armor",
       "invertEnableLogic": false
@@ -3766,31 +3874,6 @@
       "reqModification": "uk_skyflash",
       "tier": 4,
       "modClass": "weapon"
-    },
-    "heli_night_vision_system": {
-      "tier": 4,
-      "effects": {
-        "nightVision": {
-          "gunnerIr": {
-            "resolution": [
-              800,
-              600
-            ],
-            "lightMult": 8.0,
-            "ghosting": 0.75,
-            "noiseFactor": 0.2
-          },
-          "pilotIr": {
-            "resolution": [
-              800,
-              600
-            ],
-            "lightMult": 8.0,
-            "ghosting": 0.75,
-            "noiseFactor": 0.2
-          }
-        }
-      }
     }
   },
   "parachutes": {

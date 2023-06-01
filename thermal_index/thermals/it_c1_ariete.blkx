@@ -15,7 +15,7 @@
     0.0,
     1.0
   ],
-  "exhaustFx": "tank_exhaust",
+  "exhaustFx": "tank_exhaust_med",
   "damagedExhaustFx": "tank_broken_exhaust",
   "thermalExhaustFx": "tank_exhaust_nightvision",
   "dustFx": "",
@@ -156,7 +156,7 @@
     "turret": {
       "armorClass": "RHA_tank_modern",
       "turret_01_back_dm": {
-        "armorThickness": 25.0
+        "armorThickness": 10.0
       },
       "turret_08_bottom_dm": {
         "armorThickness": 40.0
@@ -165,7 +165,8 @@
         "armorThickness": 40.0
       },
       "turret_07_back_dm": {
-        "armorThickness": 20.0
+        "armorThickness": 20.0,
+        "ignoreSolidDimension": true
       },
       "turret_07_front_dm": {
         "armorThickness": 20.0,
@@ -184,7 +185,8 @@
         "armorThickness": 14.0
       },
       "turret_04_side_dm": {
-        "armorThickness": 20.0
+        "armorThickness": 20.0,
+        "ignoreSolidDimension": true
       },
       "turret_05_side_dm": {
         "armorThickness": 45.0,
@@ -380,10 +382,12 @@
       "ex_armor_turret_l_01_dm": {},
       "ex_armor_turret_r_01_dm": {}
     },
-    "body_screens": {
-      "armorClass": "RHA_tank_modern",
-      "hp": 300.0,
-      "armorThickness": 12.0,
+    "composite_screen": {
+      "armorClass": "hull_side_special_armor",
+      "armorThickness": 30.0,
+      "hp": 800.0,
+      "stopChanceOnDeadPart": 0.0,
+      "createSecondaryShatters": false,
       "ex_armor_body_r_01_dm": {},
       "ex_armor_body_r_02_dm": {},
       "ex_armor_body_r_03_dm": {},
@@ -799,6 +803,16 @@
       "ammo_body_58_dm": {},
       "ammo_body_59_dm": {},
       "ammo_body_60_dm": {},
+      "ammo_body_61_dm": {},
+      "ammo_body_62_dm": {},
+      "ammo_body_63_dm": {},
+      "ammo_body_64_dm": {},
+      "ammo_body_65_dm": {},
+      "ammo_body_66_dm": {},
+      "ammo_body_67_dm": {},
+      "ammo_body_68_dm": {},
+      "ammo_body_69_dm": {},
+      "ammo_body_70_dm": {},
       "ammo_body_l_01_dm": {},
       "ammo_body_l_02_dm": {},
       "ammo_body_l_03_dm": {},
@@ -956,6 +970,16 @@
           "ammo_body_58_dm",
           "ammo_body_59_dm",
           "ammo_body_60_dm",
+          "ammo_body_61_dm",
+          "ammo_body_62_dm",
+          "ammo_body_63_dm",
+          "ammo_body_64_dm",
+          "ammo_body_65_dm",
+          "ammo_body_66_dm",
+          "ammo_body_67_dm",
+          "ammo_body_68_dm",
+          "ammo_body_69_dm",
+          "ammo_body_70_dm",
           "ammo_body_l_01_dm",
           "ammo_body_l_02_dm",
           "ammo_body_l_03_dm",
@@ -1342,6 +1366,7 @@
           }
         ],
         "onKill": {
+          "notDamageType": "overheat",
           "fire": 0.4,
           "nothing": 0.6,
           "fHitCritical": true
@@ -2097,7 +2122,7 @@
     "Weapon": [
       {
         "trigger": "gunner0",
-        "blk": "gameData/Weapons/groundModels_weapons/120mm_OTO_Breda_120_44_Ariete_user_cannon.blk",
+        "blk": "gameData/Weapons/groundModels_weapons/120mm_OTO_Breda_120_44_Ariete_AMV_user_cannon.blk",
         "emitter": "bone_gun_barrel",
         "flash": "emtr_gun_flame",
         "shotFreq": 0.1667,
@@ -2509,13 +2534,13 @@
       "wheel": {
         "name": "bone_wheel_$1",
         "limitMin": [
-          -1000.0,
-          0.0,
+          -1.0,
+          -1.0,
           0.0
         ],
         "limitMax": [
-          1000.0,
-          0.0,
+          1.0,
+          1.0,
           0.0
         ]
       }
@@ -3210,6 +3235,13 @@
           "name": "smoke_after_hit_tiny",
           "setOrientation": true
         }
+      },
+      {
+        "name": "engine_overheat",
+        "fx": {
+          "name": "tank_radiator_steam",
+          "centerDmgPart": false
+        }
       }
     ],
     "procedural": {
@@ -3260,10 +3292,10 @@
     "art_support": {},
     "tank_new_gun": {},
     "tank_medical_kit": {
-      "image": "#ui/gameuiskin#tank_reinforcement_it.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_it"
     },
     "tank_medical_kit_expendable": {
-      "image": "#ui/gameuiskin#tank_reinforcement_it.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_it"
     },
     "120mm_NATO_APDS_FS": {},
     "120mm_DM_APDS_FS": {},
@@ -3278,7 +3310,7 @@
           "Weapon": [
             {
               "trigger": "gunner0",
-              "blk": "gameData/Weapons/groundModels_weapons/120mm_OTO_Breda_120_44_Ariete_user_cannon.blk",
+              "blk": "gameData/Weapons/groundModels_weapons/120mm_OTO_Breda_120_44_Ariete_AMV_user_cannon.blk",
               "emitter": "bone_gun_barrel",
               "flash": "emtr_gun_flame",
               "shotFreq": 0.1667,
@@ -3662,7 +3694,7 @@
       }
     },
     "night_vision_system": {
-      "image": "#ui/gameuiskin#thermal_sight.png",
+      "image": "#ui/gameuiskin#thermal_sight",
       "tier": 3,
       "effects": {
         "nightVision": {

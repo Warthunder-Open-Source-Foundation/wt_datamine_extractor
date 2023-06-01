@@ -2,10 +2,11 @@
   "model": "z_19",
   "fmFile": "fm/z_19.blk",
   "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/hellicopters_metaparts.blk",
-  "viewDistKInSight": 4.0,
+  "viewDistKInSight": 6.0,
   "harmonizationSuffix": "_tomoe",
   "haveCCIPForRocket": true,
   "haveCCRPForRocket": false,
+  "gyroSight": true,
   "haveCCIPForGun": true,
   "haveCCIPForTurret": true,
   "haveCCRPForGun": false,
@@ -205,6 +206,18 @@
             "fire": 0.005,
             "leak_oil": 0.95,
             "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 0.25,
+            "leak_oil": 0.95,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 0.5,
+            "leak_oil": 0.95,
+            "cut": 0.0
           }
         ],
         "onKill": [
@@ -216,6 +229,18 @@
           {
             "damage": 30.0,
             "fire": 30.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 40.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 50.0,
             "leak_oil": 10.0,
             "cut": 0.0
           }
@@ -234,6 +259,18 @@
             "fire": 0.005,
             "leak_oil": 0.95,
             "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 0.25,
+            "leak_oil": 0.95,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 0.5,
+            "leak_oil": 0.95,
+            "cut": 0.0
           }
         ],
         "onKill": [
@@ -245,6 +282,18 @@
           {
             "damage": 30.0,
             "fire": 30.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 40.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 50.0,
             "leak_oil": 10.0,
             "cut": 0.0
           }
@@ -635,6 +684,18 @@
             "fire": 0.005,
             "leak_oil": 0.95,
             "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 0.25,
+            "leak_oil": 0.95,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 0.5,
+            "leak_oil": 0.95,
+            "cut": 0.0
           }
         ],
         "onKill": [
@@ -646,6 +707,18 @@
           {
             "damage": 30.0,
             "fire": 30.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 40.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 50.0,
             "leak_oil": 10.0,
             "cut": 0.0
           }
@@ -1269,6 +1342,9 @@
             },
             {
               "type": "map"
+            },
+            {
+              "type": "radar"
             },
             {
               "type": "devices",
@@ -2117,7 +2193,7 @@
               {
                 "trigger": "countermeasures",
                 "startFx": "",
-                "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
+                "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher.blk",
                 "emitter": "emtr_flare1",
                 "bullets": 48,
                 "external": true,
@@ -2470,11 +2546,11 @@
       "modClass": "weapon",
       "tier": 4
     },
-    "countermeasures_launcher_chaff_only": {},
-    "countermeasures_launcher_flare_only": {},
-    "countermeasures_launcher_chaff_priority": {},
-    "countermeasures_launcher_flare_priority": {},
-    "countermeasures_belt_pack": {
+    "maw_countermeasures_launcher_chaff_only": {},
+    "maw_countermeasures_launcher_flare_only": {},
+    "maw_countermeasures_launcher_chaff_priority": {},
+    "maw_countermeasures_launcher_flare_priority": {},
+    "MAW_system_heli_false_thermal_targets": {
       "modClass": "weapon",
       "turn_it_off": false,
       "tier": 1,
@@ -2514,9 +2590,9 @@
       }
     },
     "heli_night_vision_system": {
-      "image": "#ui/gameuiskin#thermal_sight.png",
+      "image": "#ui/gameuiskin#thermal_sight",
       "tier": 3,
-      "prevModification": "countermeasures_belt_pack",
+      "prevModification": "MAW_system_heli_false_thermal_targets",
       "effects": {
         "nightVision": {
           "gunnerIr": {
@@ -2550,16 +2626,10 @@
   },
   "default_skin_tomoe": {
     "name": "default_tomoe",
-    "replace_tex": [
-      {
-        "from": "z_19_c*",
-        "to": "z_19_c_tomoe*"
-      },
-      {
-        "from": "z_19_c_dmg*",
-        "to": "z_19_c_tomoe_dmg*"
-      }
-    ]
+    "replace_tex": {
+      "from": "z_19_c*",
+      "to": "z_19_c_tomoe*"
+    }
   },
   "user_skin": {
     "name": "z_19",
@@ -2568,13 +2638,7 @@
         "from": "z_19_c*"
       },
       {
-        "from": "z_19_c_dmg*"
-      },
-      {
         "from": "z_19_n*"
-      },
-      {
-        "from": "z_19_n_dmg*"
       }
     ]
   },

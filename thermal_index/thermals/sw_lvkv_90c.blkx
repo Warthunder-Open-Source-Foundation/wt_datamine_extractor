@@ -15,7 +15,7 @@
     0.0,
     1.0
   ],
-  "exhaustFx": "tank_exhaust",
+  "exhaustFx": "tank_exhaust_med",
   "damagedExhaustFx": "tank_broken_exhaust",
   "thermalExhaustFx": "tank_exhaust_nightvision",
   "dustFx": "",
@@ -794,6 +794,16 @@
       "ammo_body_58_dm": {},
       "ammo_body_59_dm": {},
       "ammo_body_60_dm": {},
+      "ammo_body_61_dm": {},
+      "ammo_body_62_dm": {},
+      "ammo_body_63_dm": {},
+      "ammo_body_64_dm": {},
+      "ammo_body_65_dm": {},
+      "ammo_body_66_dm": {},
+      "ammo_body_67_dm": {},
+      "ammo_body_68_dm": {},
+      "ammo_body_69_dm": {},
+      "ammo_body_70_dm": {},
       "ammo_body_l_01_dm": {},
       "ammo_body_l_02_dm": {},
       "ammo_body_l_03_dm": {},
@@ -975,6 +985,16 @@
           "ammo_body_58_dm",
           "ammo_body_59_dm",
           "ammo_body_60_dm",
+          "ammo_body_61_dm",
+          "ammo_body_62_dm",
+          "ammo_body_63_dm",
+          "ammo_body_64_dm",
+          "ammo_body_65_dm",
+          "ammo_body_66_dm",
+          "ammo_body_67_dm",
+          "ammo_body_68_dm",
+          "ammo_body_69_dm",
+          "ammo_body_70_dm",
           "ammo_body_l_01_dm",
           "ammo_body_l_02_dm",
           "ammo_body_l_03_dm",
@@ -1360,6 +1380,7 @@
           }
         ],
         "onKill": {
+          "notDamageType": "overheat",
           "fire": 0.5,
           "nothing": 0.5,
           "fHitCritical": true
@@ -1918,16 +1939,16 @@
         "blk": "gameData/Weapons/groundModels_weapons/40mm_Kan_Strf_user_cannon.blk",
         "emitter": "bone_gun_barrel",
         "flash": "emtr_gun_flame",
-        "sleeveEmitter": "emtr_shell",
-        "sleeveMesh": "auto_cannon_cartridge_case",
-        "sleevesLifeTime": 7.0,
-        "sleeveImpulse": [
+        "shellCasingEmitter": "emtr_shell",
+        "shellCasingMesh": "auto_cannon_cartridge_case",
+        "shellCasingLifeTime": 7.0,
+        "shellCasingImpulse": [
           12.0,
           0.0,
           -5.0
         ],
-        "linkSleeveToGun": false,
-        "sleevesImpulseOffset": 0.05,
+        "linkShellCasingToGun": false,
+        "shellCasingImpulseOffset": 0.05,
         "defaultYaw": 0.0,
         "defaultPitch": 0.0,
         "barrelDP": "gun_barrel_dm",
@@ -2181,13 +2202,13 @@
       "wheel": {
         "name": "bone_wheel_$1",
         "limitMin": [
-          -1000.0,
-          0.0,
+          -1.0,
+          -1.0,
           0.0
         ],
         "limitMax": [
-          1000.0,
-          0.0,
+          1.0,
+          1.0,
           0.0
         ]
       }
@@ -2882,6 +2903,13 @@
           "name": "smoke_after_hit_tiny",
           "setOrientation": true
         }
+      },
+      {
+        "name": "engine_overheat",
+        "fx": {
+          "name": "tank_radiator_steam",
+          "centerDmgPart": false
+        }
       }
     ],
     "procedural": {
@@ -3246,10 +3274,10 @@
     "art_support": {},
     "tank_new_gun": {},
     "tank_medical_kit": {
-      "image": "#ui/gameuiskin#tank_reinforcement_sw.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_sw"
     },
     "tank_medical_kit_expendable": {
-      "image": "#ui/gameuiskin#tank_reinforcement_sw.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_sw"
     },
     "modern_tank_laser_rangefinder": {
       "tier": 1,
@@ -3304,7 +3332,7 @@
               "turretIndex": 0,
               "designationFromBody": true,
               "designationTurretIndex": 0,
-              "dmPart": "antenna_target_tagging_dm"
+              "dmPart": "antenna_target_location_dm"
             },
             {
               "blk": "gameData/sensors/sw_utaas_track.blk",
@@ -3332,16 +3360,16 @@
               "blk": "gameData/Weapons/groundModels_weapons/40mm_Kan_Strf_user_cannon.blk",
               "emitter": "bone_gun_barrel",
               "flash": "emtr_gun_flame",
-              "sleeveEmitter": "emtr_shell",
-              "sleeveMesh": "auto_cannon_cartridge_case",
-              "sleevesLifeTime": 7.0,
-              "sleeveImpulse": [
+              "shellCasingEmitter": "emtr_shell",
+              "shellCasingMesh": "auto_cannon_cartridge_case",
+              "shellCasingLifeTime": 7.0,
+              "shellCasingImpulse": [
                 12.0,
                 0.0,
                 -5.0
               ],
-              "linkSleeveToGun": false,
-              "sleevesImpulseOffset": 0.05,
+              "linkShellCasingToGun": false,
+              "shellCasingImpulseOffset": 0.05,
               "defaultYaw": 0.0,
               "defaultPitch": 0.0,
               "barrelDP": "gun_barrel_dm",
@@ -3554,7 +3582,7 @@
     },
     "night_vision_system": {
       "tier": 3,
-      "image": "#ui/gameuiskin#thermal_sight.png",
+      "image": "#ui/gameuiskin#thermal_sight",
       "effects": {
         "nightVision": {
           "gunnerThermal": {

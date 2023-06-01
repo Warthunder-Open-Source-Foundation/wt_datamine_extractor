@@ -39,7 +39,6 @@
       "speed": 800.0,
       "Cx": 0.46031,
       "maxDistance": 2500.0,
-      "bulletName": "13mm_p",
       "normalizationPreset": "default",
       "ricochetPreset": "default",
       "stabilityThreshold": 0.0,
@@ -167,7 +166,7 @@
           "fx": "hit_12_18mm_snow_ap"
         },
         "glass": {
-          "fx": "hit_12_18mm_metal_ap"
+          "fx": "armoured_glass"
         },
         "wood": {
           "fx": "hit_12_18mm_wood_ap"
@@ -207,7 +206,6 @@
       "speed": 800.0,
       "Cx": 0.46031,
       "maxDistance": 2500.0,
-      "bulletName": "13mm_tp",
       "normalizationPreset": "default",
       "ricochetPreset": "default",
       "stabilityThreshold": 0.05,
@@ -336,7 +334,7 @@
           "fx": "hit_12_18mm_snow_ap"
         },
         "glass": {
-          "fx": "hit_12_18mm_metal_ap"
+          "fx": "armoured_glass"
         },
         "wood": {
           "fx": "hit_12_18mm_wood_ap"
@@ -379,7 +377,6 @@
         "speed": 800.0,
         "Cx": 0.46031,
         "maxDistance": 2500.0,
-        "bulletName": "13mm_p",
         "normalizationPreset": "default",
         "ricochetPreset": "default",
         "stabilityThreshold": 0.0,
@@ -507,7 +504,7 @@
             "fx": "hit_12_18mm_snow_ap"
           },
           "glass": {
-            "fx": "hit_12_18mm_metal_ap"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_12_18mm_wood_ap"
@@ -547,7 +544,6 @@
         "speed": 800.0,
         "Cx": 0.46031,
         "maxDistance": 2500.0,
-        "bulletName": "13mm_tp",
         "normalizationPreset": "default",
         "ricochetPreset": "default",
         "stabilityThreshold": 0.05,
@@ -676,7 +672,7 @@
             "fx": "hit_12_18mm_snow_ap"
           },
           "glass": {
-            "fx": "hit_12_18mm_metal_ap"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_12_18mm_wood_ap"

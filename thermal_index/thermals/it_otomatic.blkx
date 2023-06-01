@@ -15,7 +15,7 @@
     0.0,
     1.0
   ],
-  "exhaustFx": "tank_exhaust",
+  "exhaustFx": "tank_exhaust_med",
   "damagedExhaustFx": "tank_broken_exhaust",
   "thermalExhaustFx": "tank_exhaust_nightvision",
   "dustFx": "",
@@ -533,6 +533,16 @@
       "ammo_body_58_dm": {},
       "ammo_body_59_dm": {},
       "ammo_body_60_dm": {},
+      "ammo_body_61_dm": {},
+      "ammo_body_62_dm": {},
+      "ammo_body_63_dm": {},
+      "ammo_body_64_dm": {},
+      "ammo_body_65_dm": {},
+      "ammo_body_66_dm": {},
+      "ammo_body_67_dm": {},
+      "ammo_body_68_dm": {},
+      "ammo_body_69_dm": {},
+      "ammo_body_70_dm": {},
       "ammo_body_l_01_dm": {},
       "ammo_body_l_02_dm": {},
       "ammo_body_l_03_dm": {},
@@ -690,6 +700,16 @@
           "ammo_body_58_dm",
           "ammo_body_59_dm",
           "ammo_body_60_dm",
+          "ammo_body_61_dm",
+          "ammo_body_62_dm",
+          "ammo_body_63_dm",
+          "ammo_body_64_dm",
+          "ammo_body_65_dm",
+          "ammo_body_66_dm",
+          "ammo_body_67_dm",
+          "ammo_body_68_dm",
+          "ammo_body_69_dm",
+          "ammo_body_70_dm",
           "ammo_body_l_01_dm",
           "ammo_body_l_02_dm",
           "ammo_body_l_03_dm",
@@ -1075,6 +1095,7 @@
           }
         ],
         "onKill": {
+          "notDamageType": "overheat",
           "fire": 0.5,
           "nothing": 0.5,
           "fHitCritical": true
@@ -1602,16 +1623,16 @@
         "emitter": "bone_gun_barrel",
         "flash": "emtr_gun_flame_01",
         "shotFreq": 2.0,
-        "sleeveEmitter": "emtr_shell",
-        "sleeveMesh": "cartridge_case",
+        "shellCasingEmitter": "emtr_shell",
+        "shellCasingMesh": "cartridge_case",
         "openHatchTime": 0.0,
-        "sleevesLifeTime": 10.0,
-        "sleeveImpulse": [
+        "shellCasingLifeTime": 10.0,
+        "shellCasingImpulse": [
           8.0,
           0.0,
           0.0
         ],
-        "linkSleeveToGun": true,
+        "linkShellCasingToGun": true,
         "maxAdditionalPitch": 0.0,
         "defaultYaw": 0.0,
         "defaultPitch": 0.0,
@@ -1667,15 +1688,7 @@
                 85.0
               ]
             }
-          ],
-          "selfDirectedPart": {
-            "node": "antenna_target_tagging_mount",
-            "limits": [
-              -180.0,
-              180.0
-            ],
-            "turnSpeed": 80.0
-          }
+          ]
         },
         "limits": {
           "yaw": [
@@ -1776,9 +1789,7 @@
         "ex_armor_05",
         "antenna_target_location",
         "antenna_target_location_mount",
-        "ex_armor_04",
-        "antenna_target_tagging",
-        "antenna_target_tagging_mount"
+        "antenna_target_tagging"
       ]
     }
   },
@@ -1852,7 +1863,7 @@
       "cls_body": "convex_hull"
     },
     "engine": {
-      "horsePowers": 830.0,
+      "horsePowers": 1100.0,
       "maxRPM": 2200.0,
       "minRPM": 800.0
     },
@@ -1908,13 +1919,13 @@
       "wheel": {
         "name": "bone_wheel_$1",
         "limitMin": [
-          -1000.0,
-          0.0,
+          -1.0,
+          -1.0,
           0.0
         ],
         "limitMax": [
-          1000.0,
-          0.0,
+          1.0,
+          1.0,
           0.0
         ]
       }
@@ -2609,6 +2620,13 @@
           "name": "smoke_after_hit_tiny",
           "setOrientation": true
         }
+      },
+      {
+        "name": "engine_overheat",
+        "fx": {
+          "name": "tank_radiator_steam",
+          "centerDmgPart": false
+        }
       }
     ],
     "procedural": {
@@ -2667,10 +2685,10 @@
     "art_support": {},
     "tank_new_gun": {},
     "tank_medical_kit": {
-      "image": "#ui/gameuiskin#tank_reinforcement_it.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_it"
     },
     "tank_medical_kit_expendable": {
-      "image": "#ui/gameuiskin#tank_reinforcement_it.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_it"
     },
     "modern_tank_laser_rangefinder": {
       "effects": {
@@ -2756,16 +2774,16 @@
               "emitter": "bone_gun_barrel",
               "flash": "emtr_gun_flame_01",
               "shotFreq": 2.0,
-              "sleeveEmitter": "emtr_shell",
-              "sleeveMesh": "cartridge_case",
+              "shellCasingEmitter": "emtr_shell",
+              "shellCasingMesh": "cartridge_case",
               "openHatchTime": 0.0,
-              "sleevesLifeTime": 10.0,
-              "sleeveImpulse": [
+              "shellCasingLifeTime": 10.0,
+              "shellCasingImpulse": [
                 8.0,
                 0.0,
                 0.0
               ],
-              "linkSleeveToGun": true,
+              "linkShellCasingToGun": true,
               "maxAdditionalPitch": 0.0,
               "defaultYaw": 0.0,
               "defaultPitch": 0.0,
@@ -2821,15 +2839,7 @@
                       85.0
                     ]
                   }
-                ],
-                "selfDirectedPart": {
-                  "node": "antenna_target_tagging_mount",
-                  "limits": [
-                    -180.0,
-                    180.0
-                  ],
-                  "turnSpeed": 80.0
-                }
+                ]
               },
               "limits": {
                 "yaw": [
@@ -2984,16 +2994,14 @@
               "ex_armor_05",
               "antenna_target_location",
               "antenna_target_location_mount",
-              "ex_armor_04",
-              "antenna_target_tagging",
-              "antenna_target_tagging_mount"
+              "antenna_target_tagging"
             ]
           }
         }
       }
     },
     "night_vision_system": {
-      "image": "#ui/gameuiskin#thermal_sight.png",
+      "image": "#ui/gameuiskin#thermal_sight",
       "tier": 3,
       "effects": {
         "nightVision": {

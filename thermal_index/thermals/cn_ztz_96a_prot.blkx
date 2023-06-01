@@ -15,7 +15,7 @@
     0.0,
     1.0
   ],
-  "exhaustFx": "tank_exhaust",
+  "exhaustFx": "tank_exhaust_med",
   "damagedExhaustFx": "tank_broken_exhaust",
   "thermalExhaustFx": "tank_exhaust_nightvision",
   "dustFx": "",
@@ -135,11 +135,14 @@
       "turret_back_dm": {
         "armorThickness": 20.0
       },
+      "turret_03_back_dm": {
+        "armorThickness": 80.0
+      },
       "turret_02_side_dm": {
         "armorThickness": 30.0
       },
-      "turret_02_bottom_dm": {
-        "armorThickness": 30.0
+      "turret_side_dm": {
+        "armorThickness": 50.0
       },
       "ex_armor_turret_08_dm": {
         "armorThickness": 50.0,
@@ -267,9 +270,6 @@
         "armorThickness": 110.0,
         "armorEffectiveThicknessMax": 122.0
       },
-      "turret_side_dm": {
-        "armorThickness": 50.0
-      },
       "turret_front_dm": {
         "armorThickness": 160.0,
         "variableThickness": true
@@ -311,10 +311,10 @@
       "turret_03_bottom_dm": {
         "armorThickness": 20.0
       },
-      "turret_03_back_dm": {
-        "armorThickness": 80.0
-      },
       "ex_armor_turret_12_dm": {
+        "armorThickness": 30.0
+      },
+      "turret_02_bottom_dm": {
         "armorThickness": 30.0
       }
     },
@@ -897,6 +897,16 @@
       "ammo_body_58_dm": {},
       "ammo_body_59_dm": {},
       "ammo_body_60_dm": {},
+      "ammo_body_61_dm": {},
+      "ammo_body_62_dm": {},
+      "ammo_body_63_dm": {},
+      "ammo_body_64_dm": {},
+      "ammo_body_65_dm": {},
+      "ammo_body_66_dm": {},
+      "ammo_body_67_dm": {},
+      "ammo_body_68_dm": {},
+      "ammo_body_69_dm": {},
+      "ammo_body_70_dm": {},
       "ammo_body_l_01_dm": {},
       "ammo_body_l_02_dm": {},
       "ammo_body_l_03_dm": {},
@@ -1161,6 +1171,16 @@
           "ammo_body_58_dm",
           "ammo_body_59_dm",
           "ammo_body_60_dm",
+          "ammo_body_61_dm",
+          "ammo_body_62_dm",
+          "ammo_body_63_dm",
+          "ammo_body_64_dm",
+          "ammo_body_65_dm",
+          "ammo_body_66_dm",
+          "ammo_body_67_dm",
+          "ammo_body_68_dm",
+          "ammo_body_69_dm",
+          "ammo_body_70_dm",
           "ammo_body_l_01_dm",
           "ammo_body_l_02_dm",
           "ammo_body_l_03_dm",
@@ -1547,6 +1567,7 @@
           }
         ],
         "onKill": {
+          "notDamageType": "overheat",
           "fire": 0.4,
           "nothing": 0.6,
           "fHitCritical": true
@@ -2055,17 +2076,17 @@
         "blk": "gameData/Weapons/groundModels_weapons/125mm_Type_88C_user_cannon.blk",
         "emitter": "bone_gun_barrel",
         "flash": "emtr_gun_flame",
-        "sleeveEmitter": "emtr_shell",
-        "sleeveMesh": "semi_combustible_cartridge_case",
+        "shellCasingEmitter": "emtr_shell",
+        "shellCasingMesh": "semi_combustible_cartridge_case",
         "hatchAnimVar": "hatch_toggle",
         "openHatchTime": 1.3,
-        "sleevesLifeTime": 10.0,
-        "sleeveImpulse": [
+        "shellCasingLifeTime": 10.0,
+        "shellCasingImpulse": [
           5.0,
           0.0,
           0.0
         ],
-        "sleeveExtractSound": "shell_eject_hatch",
+        "shellCasingExtractSound": "shell_eject_hatch",
         "defaultYaw": 0.0,
         "defaultPitch": 0.0,
         "barrelDP": "gun_barrel_dm",
@@ -2261,8 +2282,8 @@
             180.0
           ],
           "pitch": [
-            -5.0,
-            60.0
+            -6.0,
+            85.0
           ]
         }
       },
@@ -2439,13 +2460,13 @@
       "wheel": {
         "name": "bone_wheel_$1",
         "limitMin": [
-          -1000.0,
-          0.0,
+          -1.0,
+          -1.0,
           0.0
         ],
         "limitMax": [
-          1000.0,
-          0.0,
+          1.0,
+          1.0,
           0.0
         ]
       }
@@ -3140,6 +3161,13 @@
           "name": "smoke_after_hit_tiny",
           "setOrientation": true
         }
+      },
+      {
+        "name": "engine_overheat",
+        "fx": {
+          "name": "tank_radiator_steam",
+          "centerDmgPart": false
+        }
       }
     ],
     "procedural": {
@@ -3191,10 +3219,10 @@
     "art_support": {},
     "tank_engine_smoke_screen_system": {},
     "tank_medical_kit": {
-      "image": "#ui/gameuiskin#tank_reinforcement_cn.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_cn"
     },
     "tank_medical_kit_expendable": {
-      "image": "#ui/gameuiskin#tank_reinforcement_cn.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_cn"
     },
     "modern_tank_laser_rangefinder": {
       "tier": 2
@@ -3215,17 +3243,17 @@
               "blk": "gameData/Weapons/groundModels_weapons/125mm_Type_88C_user_cannon.blk",
               "emitter": "bone_gun_barrel",
               "flash": "emtr_gun_flame",
-              "sleeveEmitter": "emtr_shell",
-              "sleeveMesh": "semi_combustible_cartridge_case",
+              "shellCasingEmitter": "emtr_shell",
+              "shellCasingMesh": "semi_combustible_cartridge_case",
               "hatchAnimVar": "hatch_toggle",
               "openHatchTime": 1.3,
-              "sleevesLifeTime": 10.0,
-              "sleeveImpulse": [
+              "shellCasingLifeTime": 10.0,
+              "shellCasingImpulse": [
                 5.0,
                 0.0,
                 0.0
               ],
-              "sleeveExtractSound": "shell_eject_hatch",
+              "shellCasingExtractSound": "shell_eject_hatch",
               "defaultYaw": 0.0,
               "defaultPitch": 0.0,
               "barrelDP": "gun_barrel_dm",
@@ -3421,8 +3449,8 @@
                   180.0
                 ],
                 "pitch": [
-                  -5.0,
-                  60.0
+                  -6.0,
+                  85.0
                 ]
               }
             },
@@ -3513,7 +3541,7 @@
       }
     },
     "night_vision_system": {
-      "image": "#ui/gameuiskin#thermal_sight.png",
+      "image": "#ui/gameuiskin#thermal_sight",
       "tier": 2,
       "modClass": "protection",
       "effects": {
@@ -3873,6 +3901,8 @@
   "smokeScreenExhaustEmitters": {
     "emitter": [
       "emtr_exhaust_01",
+      "emtr_exhaust_02",
+      "emtr_exhaust_03",
       "emtr_exhaust_04"
     ]
   }

@@ -183,7 +183,7 @@
           "fx": "hit_28_38mm_snow_ap"
         },
         "glass": {
-          "fx": "hit_28_38mm_metal_ap"
+          "fx": "armoured_glass"
         },
         "wood": {
           "fx": "hit_28_38mm_wood_ap"
@@ -286,23 +286,35 @@
         ]
       },
       "damage": {
-        "kinetic": {
-          "damageType": "generic"
-        },
         "shatter": {
           "useRealShatters": true,
-          "countPortion": 0.125,
-          "segment": {
-            "radiusScale": 3.0,
-            "penetrationScale": 1.0,
-            "damageScale": 1.0,
-            "angles": [
-              0.0,
-              180.0
-            ],
-            "countPortion": 1.0
-          }
+          "countPortion": 0.5,
+          "segment": [
+            {
+              "radiusScale": 1.0,
+              "penetrationScale": 1.0,
+              "damageScale": 1.0,
+              "angles": [
+                0.0,
+                179.0
+              ],
+              "countPortion": 0.5
+            },
+            {
+              "radiusScale": 1.0,
+              "penetrationScale": 1.0,
+              "damageScale": 1.0,
+              "angles": [
+                180.0,
+                359.0
+              ],
+              "countPortion": 0.5
+            }
+          ]
         }
+      },
+      "shatterDamage": {
+        "breachConeAngle": 45.0
       },
       "visual": {
         "range_percent_of_ammo": [
@@ -360,7 +372,7 @@
           "fx": "hit_28_38mm_snow_he"
         },
         "glass": {
-          "fx": "hit_28_38mm_metal_he"
+          "fx": "armoured_glass"
         },
         "wood": {
           "fx": "hit_28_38mm_wood_he"
@@ -466,23 +478,35 @@
           ]
         },
         "damage": {
-          "kinetic": {
-            "damageType": "generic"
-          },
           "shatter": {
             "useRealShatters": true,
-            "countPortion": 0.125,
-            "segment": {
-              "radiusScale": 3.0,
-              "penetrationScale": 1.0,
-              "damageScale": 1.0,
-              "angles": [
-                0.0,
-                180.0
-              ],
-              "countPortion": 1.0
-            }
+            "countPortion": 0.5,
+            "segment": [
+              {
+                "radiusScale": 1.0,
+                "penetrationScale": 1.0,
+                "damageScale": 1.0,
+                "angles": [
+                  0.0,
+                  179.0
+                ],
+                "countPortion": 0.5
+              },
+              {
+                "radiusScale": 1.0,
+                "penetrationScale": 1.0,
+                "damageScale": 1.0,
+                "angles": [
+                  180.0,
+                  359.0
+                ],
+                "countPortion": 0.5
+              }
+            ]
           }
+        },
+        "shatterDamage": {
+          "breachConeAngle": 45.0
         },
         "visual": {
           "range_percent_of_ammo": [
@@ -540,7 +564,7 @@
             "fx": "hit_28_38mm_snow_he"
           },
           "glass": {
-            "fx": "hit_28_38mm_metal_he"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_28_38mm_wood_he"
@@ -643,23 +667,35 @@
           ]
         },
         "damage": {
-          "kinetic": {
-            "damageType": "generic"
-          },
           "shatter": {
             "useRealShatters": true,
-            "countPortion": 0.125,
-            "segment": {
-              "radiusScale": 3.0,
-              "penetrationScale": 1.0,
-              "damageScale": 1.0,
-              "angles": [
-                0.0,
-                180.0
-              ],
-              "countPortion": 1.0
-            }
+            "countPortion": 0.5,
+            "segment": [
+              {
+                "radiusScale": 1.0,
+                "penetrationScale": 1.0,
+                "damageScale": 1.0,
+                "angles": [
+                  0.0,
+                  179.0
+                ],
+                "countPortion": 0.5
+              },
+              {
+                "radiusScale": 1.0,
+                "penetrationScale": 1.0,
+                "damageScale": 1.0,
+                "angles": [
+                  180.0,
+                  359.0
+                ],
+                "countPortion": 0.5
+              }
+            ]
           }
+        },
+        "shatterDamage": {
+          "breachConeAngle": 45.0
         },
         "visual": {
           "range_percent_of_ammo": [
@@ -717,7 +753,7 @@
             "fx": "hit_28_38mm_snow_he"
           },
           "glass": {
-            "fx": "hit_28_38mm_metal_he"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_28_38mm_wood_he"
@@ -820,23 +856,35 @@
           ]
         },
         "damage": {
-          "kinetic": {
-            "damageType": "generic"
-          },
           "shatter": {
             "useRealShatters": true,
-            "countPortion": 0.125,
-            "segment": {
-              "radiusScale": 3.0,
-              "penetrationScale": 1.0,
-              "damageScale": 1.0,
-              "angles": [
-                0.0,
-                180.0
-              ],
-              "countPortion": 1.0
-            }
+            "countPortion": 0.5,
+            "segment": [
+              {
+                "radiusScale": 1.0,
+                "penetrationScale": 1.0,
+                "damageScale": 1.0,
+                "angles": [
+                  0.0,
+                  179.0
+                ],
+                "countPortion": 0.5
+              },
+              {
+                "radiusScale": 1.0,
+                "penetrationScale": 1.0,
+                "damageScale": 1.0,
+                "angles": [
+                  180.0,
+                  359.0
+                ],
+                "countPortion": 0.5
+              }
+            ]
           }
+        },
+        "shatterDamage": {
+          "breachConeAngle": 45.0
         },
         "visual": {
           "range_percent_of_ammo": [
@@ -894,7 +942,7 @@
             "fx": "hit_28_38mm_snow_he"
           },
           "glass": {
-            "fx": "hit_28_38mm_metal_he"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_28_38mm_wood_he"
@@ -1062,7 +1110,7 @@
             "fx": "hit_28_38mm_snow_ap"
           },
           "glass": {
-            "fx": "hit_28_38mm_metal_ap"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_28_38mm_wood_ap"
@@ -1234,7 +1282,7 @@
             "fx": "hit_28_38mm_snow_ap"
           },
           "glass": {
-            "fx": "hit_28_38mm_metal_ap"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_28_38mm_wood_ap"
@@ -1402,7 +1450,7 @@
             "fx": "hit_28_38mm_snow_ap"
           },
           "glass": {
-            "fx": "hit_28_38mm_metal_ap"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_28_38mm_wood_ap"
@@ -1570,7 +1618,7 @@
             "fx": "hit_28_38mm_snow_ap"
           },
           "glass": {
-            "fx": "hit_28_38mm_metal_ap"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_28_38mm_wood_ap"
@@ -1673,23 +1721,35 @@
           ]
         },
         "damage": {
-          "kinetic": {
-            "damageType": "generic"
-          },
           "shatter": {
             "useRealShatters": true,
-            "countPortion": 0.125,
-            "segment": {
-              "radiusScale": 3.0,
-              "penetrationScale": 1.0,
-              "damageScale": 1.0,
-              "angles": [
-                0.0,
-                180.0
-              ],
-              "countPortion": 1.0
-            }
+            "countPortion": 0.5,
+            "segment": [
+              {
+                "radiusScale": 1.0,
+                "penetrationScale": 1.0,
+                "damageScale": 1.0,
+                "angles": [
+                  0.0,
+                  179.0
+                ],
+                "countPortion": 0.5
+              },
+              {
+                "radiusScale": 1.0,
+                "penetrationScale": 1.0,
+                "damageScale": 1.0,
+                "angles": [
+                  180.0,
+                  359.0
+                ],
+                "countPortion": 0.5
+              }
+            ]
           }
+        },
+        "shatterDamage": {
+          "breachConeAngle": 45.0
         },
         "visual": {
           "range_percent_of_ammo": [
@@ -1747,7 +1807,7 @@
             "fx": "hit_28_38mm_snow_he"
           },
           "glass": {
-            "fx": "hit_28_38mm_metal_he"
+            "fx": "armoured_glass"
           },
           "wood": {
             "fx": "hit_28_38mm_wood_he"

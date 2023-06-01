@@ -44,12 +44,29 @@
         "crew": "Global",
         "x": 500.0,
         "y": 300.0
+      },
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
       }
     ]
   },
   {
     "name": "a_7e",
     "localized": "A-7E",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "a_7k",
+    "localized": "A-7K",
     "vehicle_type": "Aircraft",
     "sights": [
       {
@@ -73,7 +90,7 @@
   },
   {
     "name": "ah_1f_iaf",
-    "localized": "✡AH-1F",
+    "localized": "Tzefa D/E",
     "vehicle_type": "Helicopter",
     "sights": [
       {
@@ -114,8 +131,8 @@
     "sights": [
       {
         "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
+        "x": 1920.0,
+        "y": 1080.0
       }
     ]
   },
@@ -157,7 +174,7 @@
   },
   {
     "name": "ah_64a_iaf",
-    "localized": "✡AH-64A",
+    "localized": "Peten",
     "vehicle_type": "Helicopter",
     "sights": [
       {
@@ -181,7 +198,7 @@
   },
   {
     "name": "ah_64a_peten_iaf",
-    "localized": "AH-64A Peten",
+    "localized": "✡AH-64A Peten",
     "vehicle_type": "Helicopter",
     "sights": [
       {
@@ -205,7 +222,7 @@
   },
   {
     "name": "ah_64d_i_saraph",
-    "localized": "✡AH-64D-I",
+    "localized": "Saraph",
     "vehicle_type": "Helicopter",
     "sights": [
       {
@@ -218,6 +235,18 @@
   {
     "name": "ah_64d_japan",
     "localized": "AH-64DJP",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "ah_6m",
+    "localized": "AH-6M",
     "vehicle_type": "Helicopter",
     "sights": [
       {
@@ -324,12 +353,41 @@
     ]
   },
   {
+    "name": "cn_pgz_88",
+    "localized": "cn_pgz_88",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
     "name": "cn_ptl_02",
     "localized": "PTL02",
     "vehicle_type": "Tank",
     "sights": [
       {
         "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "cn_qn506",
+    "localized": "QN506",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Commander",
         "x": 800.0,
         "y": 600.0
       }
@@ -472,6 +530,23 @@
         "crew": "Commander",
         "x": 800.0,
         "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "f_14b",
+    "localized": "F-14B",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
+      },
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
       }
     ]
   },
@@ -637,6 +712,23 @@
     ]
   },
   {
+    "name": "fr_vbci2_mct30",
+    "localized": "VBCI-2 (MCT30)",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      },
+      {
+        "crew": "Commander",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
     "name": "fr_vcac_mephisto",
     "localized": "MEPHISTO",
     "vehicle_type": "Tank",
@@ -655,8 +747,8 @@
     "sights": [
       {
         "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
+        "x": 1920.0,
+        "y": 1080.0
       }
     ]
   },
@@ -948,8 +1040,32 @@
     ]
   },
   {
+    "name": "il_centurion_shot_kal_d",
+    "localized": "Sho't Kal Dalet",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "il_machbet",
     "localized": "Machbet",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "il_magach_6b_gal",
+    "localized": "Magach 6B Gal",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1068,6 +1184,23 @@
     ]
   },
   {
+    "name": "il_merkava_mk_4_lic",
+    "localized": "Merkava Mk.4 LIC",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Commander",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
     "name": "il_merkava_mk_4b",
     "localized": "Merkava Mk.4B",
     "vehicle_type": "Tank",
@@ -1087,6 +1220,23 @@
   {
     "name": "il_merkava_mk_4m",
     "localized": "Merkava Mk.4M",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Commander",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "it_ariete_amv_pt1",
+    "localized": "Ariete AMV",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1197,6 +1347,18 @@
         "crew": "Gunner",
         "x": 500.0,
         "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "it_freccia",
+    "localized": "Freccia",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
       }
     ]
   },
@@ -1353,6 +1515,23 @@
     ]
   },
   {
+    "name": "jp_type_16_mod",
+    "localized": "Type 16 (FPS)",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      },
+      {
+        "crew": "Commander",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
     "name": "jp_type_74_mod_g_kai",
     "localized": "Type 74 (G)",
     "vehicle_type": "Tank",
@@ -1419,8 +1598,8 @@
     "sights": [
       {
         "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
+        "x": 1920.0,
+        "y": 1080.0
       }
     ]
   },
@@ -1431,8 +1610,8 @@
     "sights": [
       {
         "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
+        "x": 1920.0,
+        "y": 1080.0
       }
     ]
   },
@@ -1443,8 +1622,8 @@
     "sights": [
       {
         "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
+        "x": 1920.0,
+        "y": 1080.0
       }
     ]
   },
@@ -1455,8 +1634,8 @@
     "sights": [
       {
         "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
+        "x": 1920.0,
+        "y": 1080.0
       }
     ]
   },
@@ -1467,8 +1646,37 @@
     "sights": [
       {
         "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
+        "x": 1920.0,
+        "y": 1080.0
+      }
+    ]
+  },
+  {
+    "name": "mirage_2000_5f",
+    "localized": "Mirage 2000-5F",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1080.0,
+        "y": 720.0
+      },
+      {
+        "crew": "Global",
+        "x": 1080.0,
+        "y": 720.0
+      }
+    ]
+  },
+  {
+    "name": "mirage_2000c_s5",
+    "localized": "Mirage 2000C-S5",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1080.0,
+        "y": 720.0
       }
     ]
   },
@@ -1481,6 +1689,11 @@
         "crew": "Global",
         "x": 500.0,
         "y": 300.0
+      },
+      {
+        "crew": "Global",
+        "x": 1080.0,
+        "y": 720.0
       }
     ]
   },
@@ -1597,11 +1810,16 @@
   },
   {
     "name": "sw_cv_9030_fin",
-    "localized": "sw_cv_9030_fin",
+    "localized": "CV9030FIN",
     "vehicle_type": "Tank",
     "sights": [
       {
         "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Commander",
         "x": 800.0,
         "y": 600.0
       }
@@ -1820,6 +2038,30 @@
     ]
   },
   {
+    "name": "tornado_adv",
+    "localized": "Tornado ADV",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "tornado_f3",
+    "localized": "Tornado F.3",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "tornado_gr1",
     "localized": "Tornado GR.1",
     "vehicle_type": "Aircraft",
@@ -1852,6 +2094,18 @@
         "crew": "Global",
         "x": 500.0,
         "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "uav_quadcopter",
+    "localized": "UAV Raven's Eye",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
       }
     ]
   },
@@ -2036,6 +2290,18 @@
     ]
   },
   {
+    "name": "uk_centurion_shot_kal_d",
+    "localized": "⦿Sho't Kal Dalet",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "uk_challenger_1",
     "localized": "Challenger Mk.2",
     "vehicle_type": "Tank",
@@ -2095,6 +2361,23 @@
     "sights": [
       {
         "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "uk_challenger_2e",
+    "localized": "Challenger 2E",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Commander",
         "x": 800.0,
         "y": 600.0
       }
@@ -2356,6 +2639,18 @@
   {
     "name": "us_m1_abrams",
     "localized": "M1 Abrams",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "us_m1_abrams_kvt",
+    "localized": "M1 KVT",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -2684,6 +2979,18 @@
     ]
   },
   {
+    "name": "ussr_pantsyr_s1",
+    "localized": "Pantsir-S1",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
     "name": "ussr_t_72av_turms",
     "localized": "T-72AV (TURMS-T)",
     "vehicle_type": "Tank",
@@ -2856,8 +3163,8 @@
     "sights": [
       {
         "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
+        "x": 1920.0,
+        "y": 1080.0
       }
     ]
   },

@@ -15,7 +15,7 @@
     0.0,
     1.0
   ],
-  "exhaustFx": "tank_exhaust",
+  "exhaustFx": "tank_exhaust_med",
   "damagedExhaustFx": "tank_broken_exhaust",
   "thermalExhaustFx": "tank_exhaust_nightvision",
   "dustFx": "",
@@ -69,8 +69,8 @@
       ],
       "suffix": "1",
       "dmName": "gunner_dm",
-      "deadHeadAttitudeMin": -40.0,
-      "deadHeadAttitudeMax": -55.0,
+      "deadHeadAttitudeMin": -55.0,
+      "deadHeadAttitudeMax": -40.0,
       "ikNode": [
         {
           "downNode": "Bip01 L Hand",
@@ -133,8 +133,8 @@
       ],
       "suffix": "3",
       "dmName": "loader_dm",
-      "deadHeadAttitudeMin": -40.0,
-      "deadHeadAttitudeMax": -55.0,
+      "deadHeadAttitudeMin": -55.0,
+      "deadHeadAttitudeMax": -40.0,
       "ikNode": [
         {
           "downNode": "Bip01 L Hand",
@@ -197,8 +197,8 @@
       ],
       "suffix": "2",
       "dmName": "commander_dm",
-      "deadHeadAttitudeMin": -40.0,
-      "deadHeadAttitudeMax": -55.0,
+      "deadHeadAttitudeMin": -55.0,
+      "deadHeadAttitudeMax": -40.0,
       "ikNode": [
         {
           "downNode": "Bip01 L Hand",
@@ -261,8 +261,8 @@
       ],
       "suffix": "4",
       "dmName": "driver_dm",
-      "deadHeadAttitudeMin": -40.0,
-      "deadHeadAttitudeMax": -55.0,
+      "deadHeadAttitudeMin": -55.0,
+      "deadHeadAttitudeMax": -40.0,
       "ikNode": [
         {
           "downNode": "Bip01 L Hand",
@@ -350,6 +350,16 @@
         "type": "engineFan",
         "turnSpeed": 1.0,
         "node": "bone_roll_engine_04"
+      },
+      {
+        "type": "engineFan",
+        "turnSpeed": 1.0,
+        "node": "bone_roll_engine_05"
+      },
+      {
+        "type": "engineFan",
+        "turnSpeed": 1.0,
+        "node": "bone_roll_engine_06"
       },
       {
         "type": "waterJetShutter",
@@ -741,6 +751,16 @@
       "ammo_body_58_dm": {},
       "ammo_body_59_dm": {},
       "ammo_body_60_dm": {},
+      "ammo_body_61_dm": {},
+      "ammo_body_62_dm": {},
+      "ammo_body_63_dm": {},
+      "ammo_body_64_dm": {},
+      "ammo_body_65_dm": {},
+      "ammo_body_66_dm": {},
+      "ammo_body_67_dm": {},
+      "ammo_body_68_dm": {},
+      "ammo_body_69_dm": {},
+      "ammo_body_70_dm": {},
       "ammo_body_l_01_dm": {},
       "ammo_body_l_02_dm": {},
       "ammo_body_l_03_dm": {},
@@ -908,6 +928,16 @@
           "ammo_body_58_dm",
           "ammo_body_59_dm",
           "ammo_body_60_dm",
+          "ammo_body_61_dm",
+          "ammo_body_62_dm",
+          "ammo_body_63_dm",
+          "ammo_body_64_dm",
+          "ammo_body_65_dm",
+          "ammo_body_66_dm",
+          "ammo_body_67_dm",
+          "ammo_body_68_dm",
+          "ammo_body_69_dm",
+          "ammo_body_70_dm",
           "ammo_body_l_01_dm",
           "ammo_body_l_02_dm",
           "ammo_body_l_03_dm",
@@ -1293,6 +1323,7 @@
           }
         ],
         "onKill": {
+          "notDamageType": "overheat",
           "fire": 0.5,
           "nothing": 0.5,
           "fHitCritical": true
@@ -1753,6 +1784,16 @@
         "ammo_body_58_dm",
         "ammo_body_59_dm",
         "ammo_body_60_dm",
+        "ammo_body_61_dm",
+        "ammo_body_62_dm",
+        "ammo_body_63_dm",
+        "ammo_body_64_dm",
+        "ammo_body_65_dm",
+        "ammo_body_66_dm",
+        "ammo_body_67_dm",
+        "ammo_body_68_dm",
+        "ammo_body_69_dm",
+        "ammo_body_70_dm",
         "ammo_body_l_01_dm",
         "ammo_body_l_02_dm",
         "ammo_body_l_03_dm",
@@ -1887,6 +1928,7 @@
       "emittersHierarchy": true,
       "ammoDpGenFmt": "ammo_turret_%02d_dm",
       "recoilMultiplier": 0.0,
+      "staticElevation": 8.0,
       "createGunEffects": true,
       "barrelDP": "gun_barrel_dm",
       "defaultYaw": 0.0,
@@ -2148,13 +2190,13 @@
       "wheel": {
         "name": "bone_wheel_$1",
         "limitMin": [
-          -1000.0,
-          0.0,
+          -1.0,
+          -1.0,
           0.0
         ],
         "limitMax": [
-          1000.0,
-          0.0,
+          1.0,
+          1.0,
           0.0
         ]
       }
@@ -2901,6 +2943,13 @@
           "name": "smoke_after_hit_tiny",
           "setOrientation": true
         }
+      },
+      {
+        "name": "engine_overheat",
+        "fx": {
+          "name": "tank_radiator_steam",
+          "centerDmgPart": false
+        }
       }
     ],
     "procedural": {
@@ -2943,10 +2992,10 @@
     "new_tank_horizontal_aiming": {},
     "new_tank_vertical_aiming": {},
     "tank_medical_kit": {
-      "image": "#ui/gameuiskin#tank_reinforcement_fr.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_fr"
     },
     "tank_medical_kit_expendable": {
-      "image": "#ui/gameuiskin#tank_reinforcement_fr.png"
+      "image": "#ui/gameuiskin#tank_reinforcement_fr"
     },
     "90mm_mistral_aam": {},
     "tank_smoke_screen_system_mod": {
@@ -2970,6 +3019,7 @@
               "emittersHierarchy": true,
               "ammoDpGenFmt": "ammo_turret_%02d_dm",
               "recoilMultiplier": 0.0,
+              "staticElevation": 8.0,
               "createGunEffects": true,
               "barrelDP": "gun_barrel_dm",
               "defaultYaw": 0.0,
@@ -3078,7 +3128,7 @@
     "airstrike": {},
     "improved_optics": {},
     "night_vision_system": {
-      "image": "#ui/gameuiskin#thermal_sight.png",
+      "image": "#ui/gameuiskin#thermal_sight",
       "tier": 1,
       "effects": {
         "nightVision": {

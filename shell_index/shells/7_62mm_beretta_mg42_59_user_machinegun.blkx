@@ -13,7 +13,7 @@
   "aimMinDist": 0.1,
   "aimMaxDist": 1500.0,
   "maxDeltaAngle": 0.1,
-  "shotFreq": 20.0,
+  "shotFreq": 13.334,
   "traceFreq": 5,
   "bEnablePause": false,
   "bullets": 200,
@@ -193,7 +193,7 @@
           "fx": "hit_8_11mm_snow_ap"
         },
         "glass": {
-          "fx": "hit_8_11mm_metal_ap"
+          "fx": "armoured_glass"
         },
         "wood": {
           "fx": "hit_8_11mm_wood_ap"
@@ -389,7 +389,7 @@
           "fx": "hit_8_11mm_snow_ap"
         },
         "glass": {
-          "fx": "hit_8_11mm_metal_ap"
+          "fx": "armoured_glass"
         },
         "wood": {
           "fx": "hit_8_11mm_wood_ap"

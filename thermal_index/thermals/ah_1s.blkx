@@ -1,15 +1,22 @@
 {
   "model": "ah_1s",
   "fmFile": "fm/ah_1s.blk",
-  "viewDistKInSight": 4.0,
+  "viewDistKInSight": 6.0,
   "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/hellicopters_metaparts.blk",
   "harmonizationSuffix": "_tomoe",
   "haveCCIPForRocket": true,
   "haveCCIPForTurret": true,
+  "gyroSight": true,
   "haveCCIPForGun": true,
   "haveCCRPForRocket": false,
+  "hasPointOfInterestMemory": false,
   "gearSinkRangeLR": 0.001,
   "gearSinkRangeC": 0.001,
+  "tpsCameraTargetOffsetAtZoom": [
+    80.0,
+    60.0,
+    0.0
+  ],
   "type": "typeFighter",
   "paratrooper": "usa_para",
   "advancedInstructor": true,
@@ -251,6 +258,18 @@
             "fire": 0.005,
             "leak_oil": 0.95,
             "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 0.25,
+            "leak_oil": 0.95,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 0.5,
+            "leak_oil": 0.95,
+            "cut": 0.0
           }
         ],
         "onKill": [
@@ -262,6 +281,18 @@
           {
             "damage": 30.0,
             "fire": 30.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 40.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 50.0,
             "leak_oil": 10.0,
             "cut": 0.0
           }
@@ -649,6 +680,18 @@
             "fire": 0.005,
             "leak_oil": 0.95,
             "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 0.25,
+            "leak_oil": 0.95,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 0.5,
+            "leak_oil": 0.95,
+            "cut": 0.0
           }
         ],
         "onKill": [
@@ -660,6 +703,18 @@
           {
             "damage": 30.0,
             "fire": 30.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 60.0,
+            "fire": 40.0,
+            "leak_oil": 10.0,
+            "cut": 0.0
+          },
+          {
+            "damage": 100.0,
+            "fire": 50.0,
             "leak_oil": 10.0,
             "cut": 0.0
           }
@@ -1157,6 +1212,18 @@
         -1.0,
         1.0
       ],
+      "throttle_1": [
+        0.0,
+        1.0
+      ],
+      "throttle_2": [
+        0.0,
+        1.0
+      ],
+      "throttle_3": [
+        0.0,
+        1.0
+      ],
       "prop_pitch": [
         -1.0,
         1.0
@@ -1225,6 +1292,14 @@
       "rpm": [
         0.0,
         10000.0
+      ],
+      "rpm_hour": [
+        0.0,
+        11000.0
+      ],
+      "rpm_min": [
+        0.0,
+        1000.0
       ],
       "fuel": [
         0.0,
@@ -1446,12 +1521,12 @@
                 "parkInDeadzone": false,
                 "limits": {
                   "yaw": [
-                    -115.0,
-                    115.0
+                    -110.0,
+                    110.0
                   ],
                   "pitch": [
                     -50.0,
-                    25.0
+                    21.0
                   ]
                 },
                 "limitsTable": {
@@ -1588,12 +1663,12 @@
                 "parkInDeadzone": false,
                 "limits": {
                   "yaw": [
-                    -115.0,
-                    115.0
+                    -110.0,
+                    110.0
                   ],
                   "pitch": [
                     -50.0,
-                    25.0
+                    21.0
                   ]
                 },
                 "limitsTable": {
@@ -1695,7 +1770,8 @@
               "blk": "gameData/Weapons/containers/aero_6a_2_75_in_ffar_mighty_mouse.blk",
               "emitter": "aero_6_b1",
               "mass": 0.01,
-              "dragCx": 0.01
+              "dragCx": 0.01,
+              "jettisonable": false
             }
           },
           {
@@ -1708,13 +1784,15 @@
               "blk": "gameData/Weapons/containers/aero_7a_not_cup_2_75_in_ffar_mighty_mouse.blk",
               "emitter": "aero_7_l_b001",
               "mass": 0.01,
-              "dragCx": 0.01
+              "dragCx": 0.01,
+              "jettisonable": false
             }
           },
           {
             "iconType": "atgm_type2_x2_late",
             "name": "tow2_x2",
             "reqModification": "ah_1_TOW2",
+            "remotelyGuidedWeaponsMax": 1,
             "Weapon": {
               "trigger": "atgm",
               "external": true,
@@ -1727,6 +1805,7 @@
             "iconType": "atgm_type1_x4_late",
             "name": "tow2_x4",
             "reqModification": "ah_1_TOW2_2",
+            "remotelyGuidedWeaponsMax": 1,
             "Weapon": {
               "trigger": "atgm",
               "external": true,
@@ -1751,7 +1830,8 @@
               "blk": "gameData/Weapons/containers/aero_6a_2_75_in_ffar_mighty_mouse.blk",
               "emitter": "aero_6_b2",
               "mass": 0.01,
-              "dragCx": 0.01
+              "dragCx": 0.01,
+              "jettisonable": false
             }
           },
           {
@@ -1764,7 +1844,8 @@
               "blk": "gameData/Weapons/containers/aero_7a_not_cup_2_75_in_ffar_mighty_mouse.blk",
               "emitter": "aero_7_l_b002",
               "mass": 0.01,
-              "dragCx": 0.01
+              "dragCx": 0.01,
+              "jettisonable": false
             }
           },
           {
@@ -1813,7 +1894,8 @@
               "blk": "gameData/Weapons/containers/aero_6a_2_75_in_ffar_mighty_mouse.blk",
               "emitter": "aero_6_b3",
               "mass": 0.01,
-              "dragCx": 0.01
+              "dragCx": 0.01,
+              "jettisonable": false
             }
           },
           {
@@ -1826,7 +1908,8 @@
               "blk": "gameData/Weapons/containers/aero_7a_not_cup_2_75_in_ffar_mighty_mouse.blk",
               "emitter": "aero_7_l_b003",
               "mass": 0.01,
-              "dragCx": 0.01
+              "dragCx": 0.01,
+              "jettisonable": false
             }
           },
           {
@@ -1875,7 +1958,8 @@
               "blk": "gameData/Weapons/containers/aero_6a_2_75_in_ffar_mighty_mouse.blk",
               "emitter": "aero_6_b4",
               "mass": 0.01,
-              "dragCx": 0.01
+              "dragCx": 0.01,
+              "jettisonable": false
             }
           },
           {
@@ -1888,13 +1972,15 @@
               "blk": "gameData/Weapons/containers/aero_7a_not_cup_2_75_in_ffar_mighty_mouse.blk",
               "emitter": "aero_7_l_b004",
               "mass": 0.01,
-              "dragCx": 0.01
+              "dragCx": 0.01,
+              "jettisonable": false
             }
           },
           {
             "iconType": "atgm_type2_x2_late",
             "name": "tow2_x2",
             "reqModification": "ah_1_TOW2",
+            "remotelyGuidedWeaponsMax": 1,
             "Weapon": {
               "trigger": "atgm",
               "external": true,
@@ -1907,6 +1993,7 @@
             "iconType": "atgm_type1_x4_late",
             "name": "tow2_x4",
             "reqModification": "ah_1_TOW2_2",
+            "remotelyGuidedWeaponsMax": 1,
             "Weapon": {
               "trigger": "atgm",
               "external": true,
@@ -3176,7 +3263,7 @@
       "prevModification": "countermeasures_belt_pack",
       "tier": 3,
       "modClass": "weapon",
-      "image": "#ui/gameuiskin#thermal_sight.png",
+      "image": "#ui/gameuiskin#thermal_sight",
       "effects": {
         "nightVision": {
           "gunnerIr": {
@@ -3247,29 +3334,17 @@
     "finCut": false
   },
   "default_skin": {
-    "replace_tex": [
-      {
-        "from": "ah_1s_fuji_green_camo_c*",
-        "to": "ah_1s_fuji_wakana_c*"
-      },
-      {
-        "from": "ah_1s_fuji_green_camo_c_dmg*",
-        "to": "ah_1s_fuji_wakana_c_dmg*"
-      }
-    ]
+    "replace_tex": {
+      "from": "ah_1s_fuji_green_camo_c*",
+      "to": "ah_1s_fuji_wakana_c*"
+    }
   },
   "default_skin_tomoe": {
     "name": "default_tomoe",
-    "replace_tex": [
-      {
-        "from": "ah_1s_fuji_green_camo_c*",
-        "to": "ah_1s_fuji_wakana_c_tomoe*"
-      },
-      {
-        "from": "ah_1s_fuji_green_camo_c_dmg*",
-        "to": "ah_1s_fuji_wakana_c_tomoe_dmg*"
-      }
-    ]
+    "replace_tex": {
+      "from": "ah_1s_fuji_green_camo_c*",
+      "to": "ah_1s_fuji_wakana_c_tomoe*"
+    }
   },
   "user_skin": {
     "name": "ah_1s",
@@ -3278,42 +3353,24 @@
         "from": "ah_1s_fuji_green_camo_c*"
       },
       {
-        "from": "ah_1s_fuji_green_camo_c_dmg*"
-      },
-      {
         "from": "ah_1s_fuji_green_camo_n*"
-      },
-      {
-        "from": "ah_1s_fuji_green_camo_n_dmg*"
       }
     ]
   },
   "skin": [
     {
       "name": "green",
-      "replace_tex": [
-        {
-          "from": "ah_1s_fuji_green_camo_c*",
-          "to": "ah_1s_fuji_green_camo_c*"
-        },
-        {
-          "from": "ah_1s_fuji_green_camo_c_dmg*",
-          "to": "ah_1s_fuji_green_camo_c_dmg*"
-        }
-      ]
+      "replace_tex": {
+        "from": "ah_1s_fuji_green_camo_c*",
+        "to": "ah_1s_fuji_green_camo_c*"
+      }
     },
     {
       "name": "green_tomoe",
-      "replace_tex": [
-        {
-          "from": "ah_1s_fuji_green_camo_c*",
-          "to": "ah_1s_fuji_green_camo_c_tomoe*"
-        },
-        {
-          "from": "ah_1s_fuji_green_camo_c_dmg*",
-          "to": "ah_1s_fuji_green_camo_c_tomoe_dmg*"
-        }
-      ]
+      "replace_tex": {
+        "from": "ah_1s_fuji_green_camo_c*",
+        "to": "ah_1s_fuji_green_camo_c_tomoe*"
+      }
     }
   ]
 }
