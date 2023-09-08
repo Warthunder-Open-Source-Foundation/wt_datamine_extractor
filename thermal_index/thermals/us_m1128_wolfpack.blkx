@@ -1917,7 +1917,7 @@
     "horizontal": true
   },
   "sound": {
-    "EngineName": "engine_m3_bradley",
+    "EngineName": "engine_mctav6",
     "TrackSoundPath": "tanks/engines_tanks",
     "TrackSoundPathStudio": "ground/engines",
     "TrackSoundName": "tracks_wheels",
@@ -3153,10 +3153,8 @@
     "105mm_NATO_APDS_FS_ammo_pack": {
       "tier": 1
     },
-    "105mm_usa_M833_APDS_FS": {},
-    "105mm_usa_M833_APDS_FS_ammo_pack": {
-      "tier": 4
-    },
+    "105mm_usa_M900_APDS_FS": {},
+    "105mm_usa_M900_APDS_FS_ammo_pack": {},
     "tank_smoke_screen_system_mod": {
       "tier": 4,
       "modClass": "protection",
@@ -3525,6 +3523,7 @@
   },
   "supportPlane": {
     "supportPlaneClass": "ucav_recon_micro",
+    "behTreeName": "recon_micro",
     "planeStartSpeed": 80.0,
     "count": 1
   },

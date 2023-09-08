@@ -316,10 +316,10 @@
   },
   {
     "name": "de_sd70",
-    "weight": 70.0,
-    "explosive_mass": 25.0,
+    "weight": 66.0,
+    "explosive_mass": 21.0,
     "explosive_type": "fp60_40",
-    "explosive_equiv": 25.0,
+    "explosive_equiv": 21.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -550,7 +550,7 @@
   },
   {
     "name": "fr_1000kg_samp_mk84",
-    "weight": 1000.0,
+    "weight": 893.6,
     "explosive_mass": 550.0,
     "explosive_type": "tritonal",
     "explosive_equiv": 649.0,

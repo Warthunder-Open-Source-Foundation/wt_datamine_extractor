@@ -305,8 +305,10 @@
       "wheel_r_top_03_dm": {},
       "submodule": {
         "armorClass": "tank_traks",
-        "armorThickness": 10.0,
+        "armorThickness": 15.0,
         "hp": 150.0,
+        "ex_armor_l_06_dm": {},
+        "ex_armor_r_06_dm": {},
         "wheel_support_dm": {}
       }
     },
@@ -1265,6 +1267,7 @@
   },
   "class_tags": {},
   "commonWeapons": {
+    "maxMissileSalvoTimeInterval": 5.0,
     "Weapon": [
       {
         "trigger": "gunner0",
@@ -2978,6 +2981,7 @@
       "tier": 4,
       "effects": {
         "commonWeapons": {
+          "maxMissileSalvoTimeInterval": 5.0,
           "Weapon": [
             {
               "trigger": "gunner0",
@@ -3423,6 +3427,7 @@
   },
   "supportPlane": {
     "supportPlaneClass": "ucav_recon_micro",
+    "behTreeName": "recon_micro",
     "planeStartSpeed": 80.0,
     "count": 1
   },
