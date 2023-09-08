@@ -8,6 +8,22 @@
     "antiTankBomb": true
   },
   "bomb": {
+    "normalizationPreset": "heat",
+    "ricochetPreset": "he",
+    "secondaryShattersPreset": "ap",
+    "stabilityThreshold": 0.5,
+    "stabilityCaliberToArmorThreshold": 5.0,
+    "stabilityReductionAfterRicochet": 0.3,
+    "stabilityReductionAfterPenetration": 0.15,
+    "bulletType": "he_bomb",
+    "slopeEffectPreset": "ap",
+    "fresnel": [
+      0.23,
+      0.1,
+      2.0
+    ],
+    "useEffectiveArmorThicknessForShatter": true,
+    "explodeOnRendinst": true,
     "mass": 103.5,
     "explosiveType": "tnt",
     "explosiveMass": 49.93,
@@ -78,6 +94,20 @@
     "shutterArmorPower": 12.0,
     "shutterHit": 12.0,
     "iconType": "bombs_middle",
+    "stabilityRicochetModifier": {
+      "mod1": [
+        0.0,
+        0.5
+      ],
+      "mod2": [
+        15.0,
+        0.7
+      ],
+      "mod3": [
+        30.0,
+        0.99
+      ]
+    },
     "pressureDamage": {
       "damageType": "pressure"
     },
@@ -141,6 +171,15 @@
       "metal": {
         "fx": "hit_12_18mm_metal_ap"
       },
+      "tank_structural_steel": {
+        "fx": "hit_12_18mm_metal_ap"
+      },
+      "aluminum_armor": {
+        "fx": "hit_12_18mm_metal_ap"
+      },
+      "tank_rubber_screens": {
+        "fx": "hit_12_18mm_stone_ap"
+      },
       "buildings": {
         "fx": "hit_12_18mm_stone_ap"
       },
@@ -161,6 +200,24 @@
       },
       "stone_snow": {
         "fx": "hit_12_18mm_snow_ap"
+      },
+      "armorPierceLowCal": {
+        "fx": "hit_12_18mm_metal_ap"
+      },
+      "armorPierceMedCal": {
+        "fx": "hit_12_18mm_metal_ap"
+      },
+      "armorPierceHiCal": {
+        "fx": "hit_12_18mm_metal_ap"
+      },
+      "armorNPLowCal": {
+        "fx": "hit_12_18mm_metal_ap"
+      },
+      "armorNPMedCal": {
+        "fx": "hit_12_18mm_metal_ap"
+      },
+      "armorNPHiCal": {
+        "fx": "hit_12_18mm_metal_ap"
       }
     },
     "DamageParts": {

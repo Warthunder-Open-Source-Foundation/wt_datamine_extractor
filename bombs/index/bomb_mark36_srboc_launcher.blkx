@@ -75,7 +75,7 @@
     "smokeFx": "smokescreen_big",
     "smokeExplosionFx": "smoke_shell_explosion",
     "smokeExplosionFxVolsmoke": "smoke_shell_explosion_old",
-    "smokeShellRad": 25.0,
+    "smokeShellRad": 21.0,
     "smokeActivateTime": 1.1,
     "smokeTime": 30.0,
     "groundCollisionEffect": "smoke_shell_explosion",
@@ -206,6 +206,15 @@
       "metal": {
         "fx": "hit_12_18mm_metal_ap"
       },
+      "tank_structural_steel": {
+        "fx": "hit_12_18mm_metal_ap"
+      },
+      "aluminum_armor": {
+        "fx": "hit_12_18mm_metal_ap"
+      },
+      "tank_rubber_screens": {
+        "fx": "hit_12_18mm_stone_ap"
+      },
       "buildings": {
         "fx": "hit_12_18mm_stone_ap"
       },
@@ -226,6 +235,24 @@
       },
       "stone_snow": {
         "fx": "hit_12_18mm_snow_ap"
+      },
+      "armorPierceLowCal": {
+        "fx": "hit_12_18mm_metal_ap"
+      },
+      "armorPierceMedCal": {
+        "fx": "hit_12_18mm_metal_ap"
+      },
+      "armorPierceHiCal": {
+        "fx": "hit_12_18mm_metal_ap"
+      },
+      "armorNPLowCal": {
+        "fx": "hit_12_18mm_metal_ap"
+      },
+      "armorNPMedCal": {
+        "fx": "hit_12_18mm_metal_ap"
+      },
+      "armorNPHiCal": {
+        "fx": "hit_12_18mm_metal_ap"
       }
     },
     "collisions": {

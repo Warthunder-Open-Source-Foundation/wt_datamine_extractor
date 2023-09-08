@@ -46,6 +46,7 @@
   "rearmSmokeTimeOnField": 60.0,
   "rearmTimeOnField": 120.0,
   "canReloadNonGuns": true,
+  "drowningCheckHeightMultiplier": 0.825,
   "controlDevices": {
     "device": [
       {
@@ -160,28 +161,18 @@
       "turret_05_bottom_dm": {
         "armorThickness": 15.0
       },
-      "turret_05_back_dm": {
-        "armorThickness": 20.0
-      },
       "superstructure_top_dm": {
         "armorThickness": 6.0
-      },
-      "turret_06_back_dm": {
-        "armorThickness": 15.0
       }
     },
     "RHA_parts": {
       "armorClass": "RHA_tank",
-      "hp": 1000.0,
+      "hp": 10000.0,
       "stopChanceOnDeadPart": 0.0,
       "createSecondaryShatters": false,
       "hidableInViewer": true,
       "turret_03_back_dm": {
         "armorThickness": 10.0
-      },
-      "turret_05_top_dm": {
-        "armorThickness": 10.0,
-        "hidableInViewer": false
       },
       "turret_10_side_dm": {
         "armorThickness": 8.0
@@ -214,9 +205,6 @@
       "turret_12_side_dm": {
         "armorThickness": 3.0
       },
-      "turret_12_back_dm": {
-        "armorThickness": 40.0
-      },
       "turret_13_front_dm": {
         "armorThickness": 10.0
       },
@@ -231,6 +219,12 @@
       },
       "turret_14_front_dm": {
         "armorThickness": 6.0
+      },
+      "turret_09_side_dm": {
+        "armorThickness": 3.0
+      },
+      "turret_14_top_dm": {
+        "armorThickness": 20.0
       }
     },
     "hull": {
@@ -316,8 +310,12 @@
       "turret_01_bottom_dm": {},
       "turret_10_back_dm": {},
       "turret_11_front_dm": {},
-      "turret_03_side_dm": {},
-      "turret_13_back_dm": {},
+      "turret_03_side_dm": {
+        "armorThickness": 20.0
+      },
+      "turret_13_back_dm": {
+        "armorThickness": 20.0
+      },
       "turret_09_front_dm": {
         "armorThickness": 20.0
       },
@@ -379,9 +377,6 @@
       },
       "gun_mask_05_dm": {
         "armorThickness": 8.0
-      },
-      "turret_09_side_dm": {
-        "armorThickness": 10.0
       }
     },
     "hull_alloy_5083": {
@@ -416,15 +411,23 @@
       "gun_mask_03_dm": {
         "armorThickness": 25.0,
         "armorClass": "aluminum_armor_7039"
+      },
+      "turret_05_back_dm": {
+        "armorThickness": 10.0,
+        "armorClass": "aluminum_armor_7039"
+      },
+      "turret_06_back_dm": {
+        "armorThickness": 10.0,
+        "armorClass": "aluminum_armor_7039"
+      },
+      "turret_12_back_dm": {
+        "armorThickness": 25.0,
+        "armorClass": "aluminum_armor_7039"
       }
     },
     "optics": {
       "armorClass": "optics_tank",
       "optic_turret_dm": {
-        "armorThickness": 3.0,
-        "hp": 20.0
-      },
-      "optic_turret_01_dm": {
         "armorThickness": 3.0,
         "hp": 20.0
       },
@@ -482,6 +485,29 @@
         "armorThickness": 60.0
       }
     },
+    "gun": {
+      "armorClass": "tank_barrel",
+      "hp": 100.0,
+      "armorThickness": 10.0,
+      "gun_barrel_dm": {},
+      "gun_barrel_01_dm": {
+        "armorThrough": 10.0,
+        "armorThickness": 10.0,
+        "hp": 50.0,
+        "armorClass": "aluminum_armor_7039",
+        "createSecondaryShatters": false
+      },
+      "gun_barrel_02_dm": {
+        "armorThrough": 10.0,
+        "armorThickness": 5.0,
+        "hp": 50.0
+      },
+      "gun_barrel_03_dm": {
+        "armorThrough": 10.0,
+        "armorThickness": 5.0,
+        "hp": 50.0
+      }
+    },
     "chassis": {
       "hp": 250.0,
       "armorThickness": 10.0,
@@ -498,43 +524,6 @@
       "wheel_r_drive_dm": {},
       "wheel_support_dm": {},
       "ex_armor_10_dm": {}
-    },
-    "dmgAngles": {
-      "hatch_09": [
-        50.0,
-        50.0
-      ]
-    },
-    "gun": {
-      "armorClass": "tank_barrel",
-      "hp": 100.0,
-      "armorThickness": 10.0,
-      "gun_barrel_dm": {},
-      "gun_barrel_01_dm": {
-        "armorThrough": 10.0,
-        "armorThickness": 5.0,
-        "hp": 50.0
-      },
-      "gun_barrel_02_dm": {
-        "armorThrough": 10.0,
-        "armorThickness": 5.0,
-        "hp": 50.0
-      },
-      "gun_barrel_03_dm": {
-        "armorThrough": 10.0,
-        "armorThickness": 5.0,
-        "hp": 50.0
-      },
-      "gun_barrel_04_dm": {
-        "armorThrough": 10.0,
-        "armorThickness": 5.0,
-        "hp": 50.0
-      },
-      "gun_barrel_05_dm": {
-        "armorThrough": 10.0,
-        "armorThickness": 5.0,
-        "hp": 50.0
-      }
     },
     "crew": {
       "armorClass": "steel_tankman",
@@ -886,6 +875,12 @@
         "hp": 100.0
       }
     }
+  },
+  "dmgAngles": {
+    "hatch_09": [
+      50.0,
+      50.0
+    ]
   },
   "attachables": {
     "ex_armor_body_r_01_dm": true,
@@ -1859,21 +1854,21 @@
           "rotatedTurret": "bone_turret",
           "linkedAnimPart": [
             {
-              "verNode": "bone_gun_roller_02",
+              "verNode": "roll_01",
               "verLimits": [
-                -8.0,
-                68.0
+                3.0,
+                -67.0
               ],
               "verOriginLimits": [
-                -9.0,
-                59.0
+                -10.0,
+                60.0
               ]
             },
             {
-              "verNode": "bone_gun_roller_01",
+              "verNode": "roll_02",
               "verLimits": [
-                6.0,
-                -46.0
+                -3.0,
+                60.0
               ],
               "verOriginLimits": [
                 -9.0,
@@ -1955,7 +1950,7 @@
           1.0,
           15.0
         ],
-        "bullets": 4600,
+        "bullets": 1200,
         "isBulletBelt": true,
         "ChainfireTime": 3.0,
         "DelayAfterShoot": 3.0,
@@ -1999,7 +1994,7 @@
         "parkInDeadzone": false,
         "speedYaw": 90.0,
         "speedPitch": 90.0,
-        "bullets": 2000,
+        "bullets": 1200,
         "isBulletBelt": true,
         "fireConeAngle": 5.0,
         "ChainfireTime": 0.5,
@@ -2086,8 +2081,8 @@
             0.0
           ],
           "pitch": [
-            -6.0,
-            30.0
+            -3.0,
+            20.0
           ]
         }
       }
@@ -2945,10 +2940,10 @@
     }
   },
   "cockpit": {
-    "zoomOutFov": 37.49,
-    "zoomInFov": 9.217,
-    "sightFov": 12.0,
-    "sightName": "type_89_sight",
+    "zoomOutFov": 8.2,
+    "zoomInFov": 3.68,
+    "sightFov": 3.0,
+    "sightName": "freccia_sight",
     "openedCockpit": false,
     "headPos": [
       0.0,
@@ -3169,21 +3164,21 @@
                 "rotatedTurret": "bone_turret",
                 "linkedAnimPart": [
                   {
-                    "verNode": "bone_gun_roller_02",
+                    "verNode": "roll_01",
                     "verLimits": [
-                      -8.0,
-                      68.0
+                      3.0,
+                      -67.0
                     ],
                     "verOriginLimits": [
-                      -9.0,
-                      59.0
+                      -10.0,
+                      60.0
                     ]
                   },
                   {
-                    "verNode": "bone_gun_roller_01",
+                    "verNode": "roll_02",
                     "verLimits": [
-                      6.0,
-                      -46.0
+                      -3.0,
+                      60.0
                     ],
                     "verOriginLimits": [
                       -9.0,
@@ -3265,7 +3260,7 @@
                 1.0,
                 15.0
               ],
-              "bullets": 4600,
+              "bullets": 1200,
               "isBulletBelt": true,
               "ChainfireTime": 3.0,
               "DelayAfterShoot": 3.0,
@@ -3309,7 +3304,7 @@
               "parkInDeadzone": false,
               "speedYaw": 90.0,
               "speedPitch": 90.0,
-              "bullets": 2000,
+              "bullets": 1200,
               "isBulletBelt": true,
               "fireConeAngle": 5.0,
               "ChainfireTime": 0.5,
@@ -3396,8 +3391,8 @@
                   0.0
                 ],
                 "pitch": [
-                  -6.0,
-                  30.0
+                  -3.0,
+                  20.0
                 ]
               }
             },
@@ -3493,7 +3488,8 @@
     }
   },
   "supportPlane": {
-    "supportPlaneClass": "ucav_recon_micro",
+    "supportPlaneClass": "ucav_recon_micro_flir",
+    "behTreeName": "recon_micro",
     "planeStartSpeed": 80.0,
     "count": 1
   },

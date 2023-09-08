@@ -21,7 +21,12 @@
     "caliber": 100,
     "true_caliber": 100,
     "velocity": 900,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        35
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -162,7 +167,12 @@
     "caliber": 100,
     "true_caliber": 100,
     "velocity": 250,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        6
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "a_ix_2",
@@ -178,7 +188,12 @@
     "caliber": 100,
     "true_caliber": 100,
     "velocity": 355,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        9
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "a_ix_2",
@@ -226,6 +241,27 @@
         "name_type": "a_ix_1",
         "raw_mass": 3000,
         "equiv_mass": 3750
+      }
+    }
+  },
+  {
+    "name": "100mm_atomic_hedgie_missile",
+    "localized": "Power core",
+    "shell_type": "Atgm",
+    "caliber": 100,
+    "true_caliber": 100,
+    "velocity": 0,
+    "penetration": [
+      [
+        0,
+        200
+      ]
+    ],
+    "explosive": {
+      "Energetic": {
+        "name_type": "comp_b",
+        "raw_mass": 350,
+        "equiv_mass": 459
       }
     }
   },
@@ -374,7 +410,12 @@
     "caliber": 100,
     "true_caliber": 100,
     "velocity": 399,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        10
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -450,7 +491,12 @@
     "caliber": 100,
     "true_caliber": 100,
     "velocity": 900,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        36
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -481,7 +527,12 @@
     "caliber": 100,
     "true_caliber": 100,
     "velocity": 1000,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        41
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -492,7 +543,7 @@
   },
   {
     "name": "100mm_type1959",
-    "localized": "Type 1959 APDS",
+    "localized": "Type 59 APDS",
     "shell_type": "ApFsDs",
     "caliber": 100,
     "true_caliber": 56,
@@ -986,7 +1037,12 @@
     "caliber": 105,
     "true_caliber": 105,
     "velocity": 825,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        31
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -1083,7 +1139,12 @@
     "caliber": 105,
     "true_caliber": 105,
     "velocity": 920,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        36
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -1103,13 +1164,39 @@
     "explosive": "Inert"
   },
   {
+    "name": "105mm_falaric",
+    "localized": "Falaric 105",
+    "shell_type": "Atgm",
+    "caliber": 105,
+    "true_caliber": 105,
+    "velocity": 0,
+    "penetration": [
+      [
+        0,
+        550
+      ]
+    ],
+    "explosive": {
+      "Energetic": {
+        "name_type": "ocfol",
+        "raw_mass": 3200,
+        "equiv_mass": 5088
+      }
+    }
+  },
+  {
     "name": "105mm_fhgr",
     "localized": "F.H.Gr.",
     "shell_type": "He",
     "caliber": 105,
     "true_caliber": 105,
     "velocity": 472,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        13
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "fp02",
@@ -1146,7 +1233,12 @@
     "caliber": 105,
     "true_caliber": 105,
     "velocity": 835,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        30
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "fp02",
@@ -1381,7 +1473,12 @@
     "caliber": 105,
     "true_caliber": 105,
     "velocity": 472,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        13
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -1824,7 +1921,12 @@
     "caliber": 105,
     "true_caliber": 105,
     "velocity": 700,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        20
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -1840,7 +1942,12 @@
     "caliber": 105,
     "true_caliber": 105,
     "velocity": 800,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        24
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -1856,7 +1963,12 @@
     "caliber": 105,
     "true_caliber": 105,
     "velocity": 800,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        17
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -2226,7 +2338,12 @@
     "caliber": 105,
     "true_caliber": 105,
     "velocity": 400,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        9
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -2242,7 +2359,12 @@
     "caliber": 105,
     "true_caliber": 105,
     "velocity": 475,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        11
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -2432,7 +2554,12 @@
     "caliber": 105,
     "true_caliber": 105,
     "velocity": 650,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        22
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -2448,7 +2575,12 @@
     "caliber": 105,
     "true_caliber": 105,
     "velocity": 680,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        23
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -2506,7 +2638,12 @@
     "caliber": 105,
     "true_caliber": 105,
     "velocity": 900,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        34
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "fp02",
@@ -2609,7 +2746,12 @@
     "caliber": 105,
     "true_caliber": 105,
     "velocity": 945,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        36
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -2712,8 +2854,8 @@
     "explosive": {
       "Energetic": {
         "name_type": "comp_b",
-        "raw_mass": 970,
-        "equiv_mass": 1271
+        "raw_mass": 1200,
+        "equiv_mass": 1572
       }
     }
   },
@@ -2847,7 +2989,12 @@
     "caliber": 107,
     "true_caliber": 107,
     "velocity": 720,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        26
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -2884,7 +3031,12 @@
     "caliber": 114,
     "true_caliber": 114,
     "velocity": 350,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        8
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "amatol",
@@ -3191,11 +3343,7 @@
     "penetration": [
       [
         0,
-        20
-      ],
-      [
-        4000,
-        16
+        30
       ]
     ],
     "explosive": {
@@ -3216,11 +3364,7 @@
     "penetration": [
       [
         0,
-        20
-      ],
-      [
-        4000,
-        16
+        29
       ]
     ],
     "explosive": {
@@ -3280,7 +3424,12 @@
     "caliber": 120,
     "true_caliber": 120,
     "velocity": 940,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        33
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -3853,7 +4002,12 @@
     "caliber": 120,
     "true_caliber": 120,
     "velocity": 950,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        37
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "comp_b",
@@ -3869,7 +4023,12 @@
     "caliber": 120,
     "true_caliber": 120,
     "velocity": 900,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        35
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -4507,11 +4666,7 @@
     "penetration": [
       [
         0,
-        20
-      ],
-      [
-        4000,
-        16
+        31
       ]
     ],
     "explosive": {
@@ -4599,11 +4754,7 @@
     "penetration": [
       [
         0,
-        20
-      ],
-      [
-        4000,
-        16
+        18
       ]
     ],
     "explosive": {
@@ -4624,11 +4775,7 @@
     "penetration": [
       [
         0,
-        20
-      ],
-      [
-        4000,
-        16
+        41
       ]
     ],
     "explosive": {
@@ -4848,11 +4995,7 @@
     "penetration": [
       [
         0,
-        20
-      ],
-      [
-        4000,
-        16
+        31
       ]
     ],
     "explosive": {
@@ -5032,11 +5175,7 @@
     "penetration": [
       [
         0,
-        20
-      ],
-      [
-        4000,
-        16
+        32
       ]
     ],
     "explosive": {
@@ -5075,7 +5214,12 @@
     "caliber": 120,
     "true_caliber": 120,
     "velocity": 580,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        19
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "picric_acid",
@@ -5169,7 +5313,12 @@
     "caliber": 120,
     "true_caliber": 120,
     "velocity": 736,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        24
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "comp_b",
@@ -5185,7 +5334,12 @@
     "caliber": 120,
     "true_caliber": 120,
     "velocity": 754,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        25
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "comp_b",
@@ -5435,11 +5589,7 @@
     "penetration": [
       [
         0,
-        20
-      ],
-      [
-        4000,
-        16
+        17
       ]
     ],
     "explosive": {
@@ -5460,11 +5610,7 @@
     "penetration": [
       [
         0,
-        20
-      ],
-      [
-        4000,
-        16
+        34
       ]
     ],
     "explosive": {
@@ -5485,11 +5631,7 @@
     "penetration": [
       [
         0,
-        20
-      ],
-      [
-        4000,
-        16
+        41
       ]
     ],
     "explosive": {
@@ -5996,11 +6138,7 @@
     "penetration": [
       [
         0,
-        20
-      ],
-      [
-        4000,
-        16
+        35
       ]
     ],
     "explosive": {
@@ -6021,11 +6159,7 @@
     "penetration": [
       [
         0,
-        20
-      ],
-      [
-        4000,
-        16
+        35
       ]
     ],
     "explosive": {
@@ -6046,11 +6180,7 @@
     "penetration": [
       [
         0,
-        20
-      ],
-      [
-        4000,
-        16
+        35
       ]
     ],
     "explosive": {
@@ -6218,11 +6348,7 @@
     "penetration": [
       [
         0,
-        20
-      ],
-      [
-        4000,
-        16
+        35
       ]
     ],
     "explosive": {
@@ -6243,11 +6369,7 @@
     "penetration": [
       [
         0,
-        20
-      ],
-      [
-        4000,
-        16
+        36
       ]
     ],
     "explosive": {
@@ -6268,11 +6390,7 @@
     "penetration": [
       [
         0,
-        20
-      ],
-      [
-        4000,
-        16
+        35
       ]
     ],
     "explosive": {
@@ -6293,11 +6411,7 @@
     "penetration": [
       [
         0,
-        20
-      ],
-      [
-        4000,
-        16
+        36
       ]
     ],
     "explosive": {
@@ -6401,9 +6515,9 @@
     ],
     "explosive": {
       "Energetic": {
-        "name_type": "rdx_tnt",
+        "name_type": "jh_2",
         "raw_mass": 1710,
-        "equiv_mass": 2189
+        "equiv_mass": 2616
       }
     }
   },
@@ -6422,9 +6536,9 @@
     ],
     "explosive": {
       "Energetic": {
-        "name_type": "rdx_tnt",
+        "name_type": "jh_2",
         "raw_mass": 1710,
-        "equiv_mass": 2189
+        "equiv_mass": 2616
       }
     }
   },
@@ -6645,27 +6759,6 @@
     }
   },
   {
-    "name": "127mm_rb_55",
-    "localized": "RB 55",
-    "shell_type": "Atgm",
-    "caliber": 127,
-    "true_caliber": 127,
-    "velocity": 0,
-    "penetration": [
-      [
-        0,
-        430
-      ]
-    ],
-    "explosive": {
-      "Energetic": {
-        "name_type": "octol",
-        "raw_mass": 2360,
-        "equiv_mass": 3752
-      }
-    }
-  },
-  {
     "name": "127mm_rb_55_b",
     "localized": "RB 55B",
     "shell_type": "Atgm",
@@ -6843,11 +6936,7 @@
     "penetration": [
       [
         0,
-        20
-      ],
-      [
-        4000,
-        16
+        33
       ]
     ],
     "explosive": {
@@ -6868,11 +6957,7 @@
     "penetration": [
       [
         0,
-        20
-      ],
-      [
-        4000,
-        16
+        41
       ]
     ],
     "explosive": {
@@ -7019,11 +7104,7 @@
     "penetration": [
       [
         0,
-        20
-      ],
-      [
-        4000,
-        16
+        45
       ]
     ],
     "explosive": {
@@ -7044,11 +7125,7 @@
     "penetration": [
       [
         0,
-        20
-      ],
-      [
-        4000,
-        16
+        47
       ]
     ],
     "explosive": {
@@ -7312,7 +7389,12 @@
     "caliber": 150,
     "true_caliber": 150,
     "velocity": 285,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        8
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -7328,7 +7410,12 @@
     "caliber": 150,
     "true_caliber": 150,
     "velocity": 290,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        8
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -7426,11 +7513,7 @@
     "penetration": [
       [
         0,
-        20
-      ],
-      [
-        4000,
-        16
+        31
       ]
     ],
     "explosive": {
@@ -7523,9 +7606,9 @@
     ],
     "explosive": {
       "Energetic": {
-        "name_type": "a_ix_2",
+        "name_type": "ocfol",
         "raw_mass": 4000,
-        "equiv_mass": 6160
+        "equiv_mass": 6360
       }
     }
   },
@@ -7750,10 +7833,6 @@
       [
         0,
         20
-      ],
-      [
-        4000,
-        16
       ]
     ],
     "explosive": {
@@ -7813,11 +7892,7 @@
     "penetration": [
       [
         0,
-        20
-      ],
-      [
-        4000,
-        16
+        53
       ]
     ],
     "explosive": {
@@ -7864,9 +7939,9 @@
     ],
     "explosive": {
       "Energetic": {
-        "name_type": "tnt",
+        "name_type": "octol",
         "raw_mass": 3600,
-        "equiv_mass": 3600
+        "equiv_mass": 5724
       }
     }
   },
@@ -7885,9 +7960,9 @@
     ],
     "explosive": {
       "Energetic": {
-        "name_type": "tnt",
+        "name_type": "octol",
         "raw_mass": 3600,
-        "equiv_mass": 3600
+        "equiv_mass": 5724
       }
     }
   },
@@ -7919,7 +7994,12 @@
     "caliber": 152,
     "true_caliber": 152,
     "velocity": 530,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        21
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -7935,7 +8015,12 @@
     "caliber": 152,
     "true_caliber": 152,
     "velocity": 655,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        31
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -7951,7 +8036,12 @@
     "caliber": 152,
     "true_caliber": 152,
     "velocity": 750,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        37
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -8076,7 +8166,12 @@
     "caliber": 152,
     "true_caliber": 152,
     "velocity": 530,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        21
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -8266,11 +8361,7 @@
     "penetration": [
       [
         0,
-        20
-      ],
-      [
-        4000,
-        16
+        48
       ]
     ],
     "explosive": {
@@ -8341,11 +8432,7 @@
     "penetration": [
       [
         0,
-        20
-      ],
-      [
-        4000,
-        16
+        34
       ]
     ],
     "explosive": {
@@ -8436,7 +8523,12 @@
     "caliber": 155,
     "true_caliber": 155,
     "velocity": 240,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        7
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -8452,7 +8544,12 @@
     "caliber": 155,
     "true_caliber": 155,
     "velocity": 810,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        41
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -8468,7 +8565,12 @@
     "caliber": 155,
     "true_caliber": 155,
     "velocity": 850,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        47
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -8508,11 +8610,7 @@
     "penetration": [
       [
         0,
-        20
-      ],
-      [
-        4000,
-        16
+        34
       ]
     ],
     "explosive": {
@@ -8974,7 +9072,7 @@
     "penetration": [
       [
         0,
-        65
+        15
       ]
     ],
     "explosive": {
@@ -9010,25 +9108,9 @@
     "penetration": [
       [
         0,
-        37
+        6
       ]
     ],
-    "explosive": {
-      "Energetic": {
-        "name_type": "tnt",
-        "raw_mass": 3,
-        "equiv_mass": 3
-      }
-    }
-  },
-  {
-    "name": "20mm_granata_m35",
-    "localized": "Granata mod.35",
-    "shell_type": "ApHe",
-    "caliber": 20,
-    "true_caliber": 20,
-    "velocity": 830,
-    "penetration": [],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -9059,12 +9141,17 @@
     "caliber": 20,
     "true_caliber": 20,
     "velocity": 838,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        6
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
-        "raw_mass": 100,
-        "equiv_mass": 100
+        "raw_mass": 5,
+        "equiv_mass": 5
       }
     }
   },
@@ -9075,12 +9162,17 @@
     "caliber": 20,
     "true_caliber": 20,
     "velocity": 838,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        7
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
-        "raw_mass": 5,
-        "equiv_mass": 5
+        "raw_mass": 100,
+        "equiv_mass": 100
       }
     }
   },
@@ -9187,7 +9279,12 @@
     "caliber": 20,
     "true_caliber": 20,
     "velocity": 855,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        6
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -9203,7 +9300,12 @@
     "caliber": 20,
     "true_caliber": 20,
     "velocity": 845,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        6
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "petn",
@@ -9255,7 +9357,12 @@
     "caliber": 20,
     "true_caliber": 20,
     "velocity": 950,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        7
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -9396,7 +9503,7 @@
     "penetration": [
       [
         0,
-        75
+        17
       ]
     ],
     "explosive": {
@@ -9414,7 +9521,12 @@
     "caliber": 25,
     "true_caliber": 25,
     "velocity": 1100,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        9
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "hexal",
@@ -9484,7 +9596,12 @@
     "caliber": 25,
     "true_caliber": 25,
     "velocity": 910,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        9
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -9518,7 +9635,7 @@
     "penetration": [
       [
         0,
-        348
+        21
       ]
     ],
     "explosive": {
@@ -9590,7 +9707,12 @@
     "caliber": 25,
     "true_caliber": 25,
     "velocity": 1050,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        10
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -9745,7 +9867,7 @@
     "penetration": [
       [
         0,
-        70
+        12
       ]
     ],
     "explosive": {
@@ -9965,7 +10087,7 @@
   },
   {
     "name": "30mm_UOF8",
-    "localized": "30 mm HE",
+    "localized": "30 mm HEI",
     "shell_type": "He",
     "caliber": 30,
     "true_caliber": 30,
@@ -9973,7 +10095,7 @@
     "penetration": [
       [
         0,
-        62
+        10
       ]
     ],
     "explosive": {
@@ -9991,7 +10113,12 @@
     "caliber": 30,
     "true_caliber": 30,
     "velocity": 1000,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        12
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "a_ix_2",
@@ -10076,7 +10203,12 @@
     "caliber": 30,
     "true_caliber": 30,
     "velocity": 1080,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        12
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "hexal",
@@ -10201,7 +10333,12 @@
     "caliber": 30,
     "true_caliber": 30,
     "velocity": 185,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        1
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "a_ix_2",
@@ -10235,7 +10372,7 @@
     "penetration": [
       [
         0,
-        77
+        18
       ]
     ],
     "explosive": {
@@ -10292,25 +10429,9 @@
     "penetration": [
       [
         0,
-        90
+        15
       ]
     ],
-    "explosive": {
-      "Energetic": {
-        "name_type": "hexal",
-        "raw_mass": 120,
-        "equiv_mass": 204
-      }
-    }
-  },
-  {
-    "name": "35_228mm_he_i_t",
-    "localized": "DM11A1",
-    "shell_type": "He",
-    "caliber": 35,
-    "true_caliber": 35,
-    "velocity": 1175,
-    "penetration": [],
     "explosive": {
       "Energetic": {
         "name_type": "hexal",
@@ -10329,7 +10450,7 @@
     "penetration": [
       [
         0,
-        90
+        15
       ]
     ],
     "explosive": {
@@ -10383,7 +10504,12 @@
     "caliber": 37,
     "true_caliber": 37,
     "velocity": 900,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        12
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -10444,7 +10570,12 @@
     "caliber": 37,
     "true_caliber": 37,
     "velocity": 1000,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        14
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "a_ix_2",
@@ -10460,7 +10591,12 @@
     "caliber": 37,
     "true_caliber": 37,
     "velocity": 866,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        11
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "a_ix_2",
@@ -10563,7 +10699,12 @@
     "caliber": 37,
     "true_caliber": 37,
     "velocity": 792,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        9
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tetryl",
@@ -10717,7 +10858,12 @@
     "caliber": 37,
     "true_caliber": 37,
     "velocity": 914,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        10
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "hta",
@@ -11087,7 +11233,12 @@
     "caliber": 37,
     "true_caliber": 37,
     "velocity": 745,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        8
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "np_10",
@@ -11103,7 +11254,12 @@
     "caliber": 37,
     "true_caliber": 37,
     "velocity": 820,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        9
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "np_10",
@@ -11119,7 +11275,12 @@
     "caliber": 37,
     "true_caliber": 37,
     "velocity": 687,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        7
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "fp02",
@@ -11135,7 +11296,12 @@
     "caliber": 37,
     "true_caliber": 37,
     "velocity": 745,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        8
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "fp02",
@@ -11246,7 +11412,12 @@
     "caliber": 40,
     "true_caliber": 40,
     "velocity": 800,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        11
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -11280,25 +11451,9 @@
     "penetration": [
       [
         0,
-        69
+        11
       ]
     ],
-    "explosive": {
-      "Energetic": {
-        "name_type": "tnt",
-        "raw_mass": 63,
-        "equiv_mass": 63
-      }
-    }
-  },
-  {
-    "name": "40mm_HF_MKII_TL",
-    "localized": "40 mm HET",
-    "shell_type": "ApHe",
-    "caliber": 40,
-    "true_caliber": 40,
-    "velocity": 874,
-    "penetration": [],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -11344,7 +11499,12 @@
     "caliber": 40,
     "true_caliber": 40,
     "velocity": 874,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        11
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -11360,7 +11520,12 @@
     "caliber": 40,
     "true_caliber": 40,
     "velocity": 1015,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        15
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "octol",
@@ -11394,7 +11559,7 @@
     "penetration": [
       [
         0,
-        93
+        15
       ]
     ],
     "explosive": {
@@ -11415,25 +11580,9 @@
     "penetration": [
       [
         0,
-        98
+        16
       ]
     ],
-    "explosive": {
-      "Energetic": {
-        "name_type": "octol",
-        "raw_mass": 165,
-        "equiv_mass": 262
-      }
-    }
-  },
-  {
-    "name": "40mm_m811",
-    "localized": "M811",
-    "shell_type": "He",
-    "caliber": 40,
-    "true_caliber": 40,
-    "velocity": 1100,
-    "penetration": [],
     "explosive": {
       "Energetic": {
         "name_type": "octol",
@@ -11494,25 +11643,9 @@
     "penetration": [
       [
         0,
-        98
+        16
       ]
     ],
-    "explosive": {
-      "Energetic": {
-        "name_type": "octol",
-        "raw_mass": 120,
-        "equiv_mass": 191
-      }
-    }
-  },
-  {
-    "name": "40mm_m822",
-    "localized": "M822",
-    "shell_type": "He",
-    "caliber": 40,
-    "true_caliber": 40,
-    "velocity": 1100,
-    "penetration": [],
     "explosive": {
       "Energetic": {
         "name_type": "octol",
@@ -11570,7 +11703,12 @@
     "caliber": 40,
     "true_caliber": 40,
     "velocity": 687,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        11
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -11769,7 +11907,7 @@
     "penetration": [
       [
         0,
-        75
+        13
       ]
     ],
     "explosive": {
@@ -11787,7 +11925,12 @@
     "caliber": 40,
     "true_caliber": 40,
     "velocity": 988,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        15
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "torpex",
@@ -11803,7 +11946,12 @@
     "caliber": 40,
     "true_caliber": 40,
     "velocity": 988,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        15
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "torpex",
@@ -11865,39 +12013,15 @@
   },
   {
     "name": "45mm_o_243",
-    "localized": "O-243",
+    "localized": "O-240",
     "shell_type": "He",
     "caliber": 45,
     "true_caliber": 45,
-    "velocity": 343,
+    "velocity": 335,
     "penetration": [
       [
         0,
-        4
-      ],
-      [
-        100,
-        3
-      ],
-      [
-        500,
-        2
-      ],
-      [
-        1000,
-        1
-      ],
-      [
-        1500,
-        1
-      ],
-      [
-        1800,
-        1
-      ],
-      [
-        2500,
-        1
+        5
       ]
     ],
     "explosive": {
@@ -11965,35 +12089,11 @@
     "shell_type": "He",
     "caliber": 45,
     "true_caliber": 45,
-    "velocity": 343,
+    "velocity": 335,
     "penetration": [
       [
         0,
-        4
-      ],
-      [
-        100,
-        3
-      ],
-      [
-        500,
-        2
-      ],
-      [
-        1000,
-        1
-      ],
-      [
-        1500,
-        1
-      ],
-      [
-        1800,
-        1
-      ],
-      [
-        2500,
-        1
+        5
       ]
     ],
     "explosive": {
@@ -12053,7 +12153,12 @@
     "caliber": 47,
     "true_caliber": 47,
     "velocity": 250,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        3
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -12069,7 +12174,12 @@
     "caliber": 47,
     "true_caliber": 47,
     "velocity": 364,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        6
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -12163,7 +12273,12 @@
     "caliber": 47,
     "true_caliber": 47,
     "velocity": 590,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        8
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -12251,7 +12366,12 @@
     "caliber": 47,
     "true_caliber": 47,
     "velocity": 822,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        13
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "picric_acid_tnt",
@@ -12369,7 +12489,12 @@
     "caliber": 47,
     "true_caliber": 47,
     "velocity": 400,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        5
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "fp02",
@@ -12385,7 +12510,12 @@
     "caliber": 50,
     "true_caliber": 50,
     "velocity": 870,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        16
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "fp02_np10",
@@ -12416,7 +12546,12 @@
     "caliber": 57,
     "true_caliber": 57,
     "velocity": 1020,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        21
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "hexal",
@@ -12529,7 +12664,12 @@
     "caliber": 57,
     "true_caliber": 57,
     "velocity": 1000,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        23
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "a_ix_2",
@@ -12713,7 +12853,7 @@
     "penetration": [
       [
         0,
-        151
+        23
       ]
     ],
     "explosive": {
@@ -12731,7 +12871,12 @@
     "caliber": 57,
     "true_caliber": 57,
     "velocity": 1012,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        23
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "a_ix_2",
@@ -12783,7 +12928,12 @@
     "caliber": 57,
     "true_caliber": 57,
     "velocity": 695,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        16
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -12799,7 +12949,12 @@
     "caliber": 57,
     "true_caliber": 57,
     "velocity": 700,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        17
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -12815,7 +12970,12 @@
     "caliber": 57,
     "true_caliber": 57,
     "velocity": 1000,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        23
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "a_ix_2",
@@ -12831,7 +12991,12 @@
     "caliber": 57,
     "true_caliber": 57,
     "velocity": 600,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        11
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -12847,7 +13012,12 @@
     "caliber": 57,
     "true_caliber": 57,
     "velocity": 655,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        12
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -13061,7 +13231,12 @@
     "caliber": 57,
     "true_caliber": 57,
     "velocity": 300,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        4
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -13201,7 +13376,12 @@
     "caliber": 60,
     "true_caliber": 60,
     "velocity": 1000,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        23
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "hexal",
@@ -13217,7 +13397,12 @@
     "caliber": 60,
     "true_caliber": 60,
     "velocity": 1000,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        23
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "hexal",
@@ -13356,7 +13541,12 @@
     "caliber": 70,
     "true_caliber": 70,
     "velocity": 348,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        5
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -13418,7 +13608,12 @@
     "caliber": 73,
     "true_caliber": 73,
     "velocity": 290,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        4
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -13476,7 +13671,12 @@
     "caliber": 75,
     "true_caliber": 75,
     "velocity": 552,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        13
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -13513,7 +13713,12 @@
     "caliber": 75,
     "true_caliber": 75,
     "velocity": 450,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        8
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -13571,7 +13776,12 @@
     "caliber": 75,
     "true_caliber": 75,
     "velocity": 550,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        12
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -13795,7 +14005,12 @@
     "caliber": 75,
     "true_caliber": 75,
     "velocity": 450,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        10
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -13811,7 +14026,12 @@
     "caliber": 75,
     "true_caliber": 75,
     "velocity": 490,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        11
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -13858,7 +14078,12 @@
     "caliber": 75,
     "true_caliber": 75,
     "velocity": 381,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        8
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -13874,7 +14099,12 @@
     "caliber": 75,
     "true_caliber": 75,
     "velocity": 448,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        10
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -13890,7 +14120,12 @@
     "caliber": 75,
     "true_caliber": 75,
     "velocity": 463,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        10
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -13906,7 +14141,12 @@
     "caliber": 75,
     "true_caliber": 75,
     "velocity": 594,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        14
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -14138,7 +14378,12 @@
     "caliber": 75,
     "true_caliber": 75,
     "velocity": 500,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        10
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -14175,7 +14420,12 @@
     "caliber": 75,
     "true_caliber": 75,
     "velocity": 577,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        13
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -14191,7 +14441,12 @@
     "caliber": 75,
     "true_caliber": 75,
     "velocity": 500,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        10
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -14222,7 +14477,12 @@
     "caliber": 75,
     "true_caliber": 75,
     "velocity": 700,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        18
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -14467,7 +14727,12 @@
     "caliber": 75,
     "true_caliber": 75,
     "velocity": 753,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        20
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -14483,7 +14748,12 @@
     "caliber": 75,
     "true_caliber": 75,
     "velocity": 496,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        11
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -14499,7 +14769,12 @@
     "caliber": 75,
     "true_caliber": 75,
     "velocity": 840,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        24
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -14515,7 +14790,12 @@
     "caliber": 75,
     "true_caliber": 75,
     "velocity": 570,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        14
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -14735,7 +15015,12 @@
     "caliber": 75,
     "true_caliber": 75,
     "velocity": 420,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        8
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -14751,7 +15036,12 @@
     "caliber": 75,
     "true_caliber": 75,
     "velocity": 550,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        12
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -14767,7 +15057,12 @@
     "caliber": 75,
     "true_caliber": 75,
     "velocity": 700,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        17
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "fp60_40",
@@ -14903,7 +15198,12 @@
     "caliber": 75,
     "true_caliber": 75,
     "velocity": 830,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        23
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -14919,7 +15219,12 @@
     "caliber": 75,
     "true_caliber": 75,
     "velocity": 830,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        23
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -14945,7 +15250,12 @@
     "caliber": 75,
     "true_caliber": 75,
     "velocity": 522,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        11
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -15411,7 +15721,12 @@
     "caliber": 76,
     "true_caliber": 76,
     "velocity": 915,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        26
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "comp_a",
@@ -15427,7 +15742,12 @@
     "caliber": 76,
     "true_caliber": 76,
     "velocity": 910,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        26
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "comp_a",
@@ -15443,7 +15763,12 @@
     "caliber": 76,
     "true_caliber": 76,
     "velocity": 210,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        3
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -15514,7 +15839,12 @@
     "caliber": 76,
     "true_caliber": 76,
     "velocity": 732,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        20
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "comp_b",
@@ -15530,7 +15860,12 @@
     "caliber": 76,
     "true_caliber": 76,
     "velocity": 823,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        21
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -15546,7 +15881,12 @@
     "caliber": 76,
     "true_caliber": 76,
     "velocity": 853,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        22
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -15677,7 +16017,12 @@
     "caliber": 76,
     "true_caliber": 76,
     "velocity": 813,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        23
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -16008,7 +16353,12 @@
     "caliber": 76,
     "true_caliber": 76,
     "velocity": 609,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        16
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -16024,7 +16374,12 @@
     "caliber": 76,
     "true_caliber": 76,
     "velocity": 754,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        21
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -16040,7 +16395,12 @@
     "caliber": 76,
     "true_caliber": 76,
     "velocity": 883,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        27
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -16285,7 +16645,12 @@
     "caliber": 76,
     "true_caliber": 76,
     "velocity": 550,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        12
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "fp60_40",
@@ -16434,7 +16799,12 @@
     "caliber": 83,
     "true_caliber": 83,
     "velocity": 600,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        15
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -16505,7 +16875,12 @@
     "caliber": 83,
     "true_caliber": 83,
     "velocity": 600,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        15
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -16715,8 +17090,13 @@
     "shell_type": "He",
     "caliber": 85,
     "true_caliber": 85,
-    "velocity": 793,
-    "penetration": [],
+    "velocity": 785,
+    "penetration": [
+      [
+        0,
+        25
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -16732,7 +17112,12 @@
     "caliber": 85,
     "true_caliber": 85,
     "velocity": 1010,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        36
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -16743,7 +17128,7 @@
   },
   {
     "name": "85mm_type1956",
-    "localized": "Type 1956 HEAT-FS",
+    "localized": "Type 56 HEAT-FS",
     "shell_type": "HeatFs",
     "caliber": 85,
     "true_caliber": 85,
@@ -17016,7 +17401,12 @@
     "caliber": 88,
     "true_caliber": 88,
     "velocity": 820,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        25
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "fp02",
@@ -17032,7 +17422,12 @@
     "caliber": 88,
     "true_caliber": 88,
     "velocity": 820,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        25
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "fp02",
@@ -17048,7 +17443,12 @@
     "caliber": 88,
     "true_caliber": 88,
     "velocity": 1000,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        34
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "fp60_40",
@@ -17099,13 +17499,18 @@
     "shell_type": "He",
     "caliber": 90,
     "true_caliber": 90,
-    "velocity": 850,
-    "penetration": [],
+    "velocity": 830,
+    "penetration": [
+      [
+        0,
+        27
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
-        "raw_mass": 1000,
-        "equiv_mass": 1000
+        "raw_mass": 871,
+        "equiv_mass": 871
       }
     }
   },
@@ -17140,14 +17545,14 @@
     "penetration": [
       [
         0,
-        171
+        172
       ]
     ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
-        "raw_mass": 180,
-        "equiv_mass": 180
+        "raw_mass": 347,
+        "equiv_mass": 347
       }
     }
   },
@@ -17158,7 +17563,12 @@
     "caliber": 90,
     "true_caliber": 90,
     "velocity": 975,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        35
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -17466,7 +17876,12 @@
     "caliber": 90,
     "true_caliber": 90,
     "velocity": 823,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        27
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -17482,7 +17897,12 @@
     "caliber": 90,
     "true_caliber": 90,
     "velocity": 823,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        27
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -17498,7 +17918,12 @@
     "caliber": 90,
     "true_caliber": 90,
     "velocity": 732,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        23
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -17514,7 +17939,12 @@
     "caliber": 90,
     "true_caliber": 90,
     "velocity": 800,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        26
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -17707,7 +18137,12 @@
     "caliber": 90,
     "true_caliber": 90,
     "velocity": 640,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        19
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -17723,7 +18158,12 @@
     "caliber": 90,
     "true_caliber": 90,
     "velocity": 750,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        23
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -17803,7 +18243,7 @@
   },
   {
     "name": "90mm_sa45_apc",
-    "localized": "90 mm Obus de rupture",
+    "localized": "PCO-50",
     "shell_type": "ApSolid",
     "caliber": 90,
     "true_caliber": 90,
@@ -17811,7 +18251,7 @@
     "penetration": [
       [
         0,
-        215
+        241
       ]
     ],
     "explosive": "Inert"
@@ -17823,7 +18263,12 @@
     "caliber": 90,
     "true_caliber": 90,
     "velocity": 700,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        22
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -17860,7 +18305,12 @@
     "caliber": 90,
     "true_caliber": 90,
     "velocity": 600,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        12
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "torpex",
@@ -17997,7 +18447,12 @@
     "caliber": 90,
     "true_caliber": 90,
     "velocity": 1143,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        36
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -18034,7 +18489,12 @@
     "caliber": 90,
     "true_caliber": 90,
     "velocity": 975,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        35
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -18163,7 +18623,12 @@
     "caliber": 95,
     "true_caliber": 95,
     "velocity": 320,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        7
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "amatol",
@@ -18338,7 +18803,12 @@
     "caliber": 75,
     "true_caliber": 75,
     "velocity": 550,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        12
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -18431,7 +18901,12 @@
     "caliber": 100,
     "true_caliber": 100,
     "velocity": 900,
-    "penetration": [],
+    "penetration": [
+      [
+        0,
+        36
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -18441,8 +18916,50 @@
     }
   },
   {
-    "name": "type_56_apc",
+    "name": "type_56_ap",
     "localized": "Type 56 AP",
+    "shell_type": "ApHe",
+    "caliber": 85,
+    "true_caliber": 85,
+    "velocity": 792,
+    "penetration": [
+      [
+        0,
+        148
+      ]
+    ],
+    "explosive": {
+      "Energetic": {
+        "name_type": "a_ix_2",
+        "raw_mass": 48,
+        "equiv_mass": 74
+      }
+    }
+  },
+  {
+    "name": "type_56_apbc",
+    "localized": "Type 56 APBC",
+    "shell_type": "ApHe",
+    "caliber": 85,
+    "true_caliber": 85,
+    "velocity": 792,
+    "penetration": [
+      [
+        0,
+        148
+      ]
+    ],
+    "explosive": {
+      "Energetic": {
+        "name_type": "tnt",
+        "raw_mass": 164,
+        "equiv_mass": 164
+      }
+    }
+  },
+  {
+    "name": "type_56_apc",
+    "localized": "Type 56 APCBC",
     "shell_type": "ApHe",
     "caliber": 85,
     "true_caliber": 85,
@@ -18462,13 +18979,33 @@
     }
   },
   {
+    "name": "type_56_apcr",
+    "localized": "Type 56 APCR",
+    "shell_type": "ApCr",
+    "caliber": 85,
+    "true_caliber": 28,
+    "velocity": 1050,
+    "penetration": [
+      [
+        0,
+        336
+      ]
+    ],
+    "explosive": "Inert"
+  },
+  {
     "name": "type_56_he",
     "localized": "Type 56 HE",
     "shell_type": "He",
     "caliber": 85,
     "true_caliber": 85,
-    "velocity": 793,
-    "penetration": [],
+    "velocity": 785,
+    "penetration": [
+      [
+        0,
+        25
+      ]
+    ],
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
@@ -18476,6 +19013,21 @@
         "equiv_mass": 741
       }
     }
+  },
+  {
+    "name": "type_56_hvap",
+    "localized": "Type 56 HVAP",
+    "shell_type": "ApCr",
+    "caliber": 85,
+    "true_caliber": 30,
+    "velocity": 1020,
+    "penetration": [
+      [
+        0,
+        313
+      ]
+    ],
+    "explosive": "Inert"
   },
   {
     "name": "type_59_apcbc",
@@ -18508,25 +19060,9 @@
     "penetration": [
       [
         0,
-        151
+        23
       ]
     ],
-    "explosive": {
-      "Energetic": {
-        "name_type": "a_ix_2",
-        "raw_mass": 153,
-        "equiv_mass": 236
-      }
-    }
-  },
-  {
-    "name": "type_59_he",
-    "localized": "Type 59 HE",
-    "shell_type": "He",
-    "caliber": 57,
-    "true_caliber": 57,
-    "velocity": 1000,
-    "penetration": [],
     "explosive": {
       "Energetic": {
         "name_type": "a_ix_2",

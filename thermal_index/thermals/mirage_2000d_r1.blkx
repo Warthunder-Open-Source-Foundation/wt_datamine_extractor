@@ -15,6 +15,7 @@
   "ilsTCSFVE130": true,
   "isBwOpticSight": true,
   "hasOpticTurret": true,
+  "needTpsNightVision": true,
   "havePointOfInterestDesignator": true,
   "hasPointOfInterestMemory": true,
   "standardExhaustFxType": "jet_exhaust",
@@ -22,7 +23,6 @@
   "startExhaustFxType": "jet_start_exhaust",
   "disableExhaustFxIfContrailIsActive": true,
   "type": "typeFighter",
-  "paratrooper": "ally",
   "advancedInstructor": true,
   "advancedMouseAim": true,
   "instructorCritMult": [
@@ -49,6 +49,7 @@
   "fightAiBehaviour": "assault",
   "laserDesignator": true,
   "autopilotImpl": "FBW",
+  "paratrooper": "usa_irvin_5000_ejection_para",
   "DamageParts": {
     "armor10": {
       "cannon1_dm": {
@@ -2477,34 +2478,54 @@
                 "chute2"
               ]
             },
-            "Weapon": {
-              "dummy": true,
-              "trigger": "gunner0",
-              "triggerGroup": "primary",
-              "blk": "gameData/Weapons/dummy_weapon.blk",
-              "emitter": "optic1_gun",
-              "defaultYaw": 0.0,
-              "defaultPitch": 0.0,
-              "speedYaw": 200.0,
-              "speedPitch": 200.0,
-              "parkInDeadzone": true,
-              "aimForOperatedShell": true,
-              "turret": {
-                "head": "optic1_turret",
-                "gun": "optic1_gun",
-                "mainTurret": true
+            "Weapon": [
+              {
+                "dummy": true,
+                "trigger": "gunner0",
+                "triggerGroup": "primary",
+                "blk": "gameData/Weapons/dummy_weapon.blk",
+                "emitter": "optic1_gun",
+                "defaultYaw": 0.0,
+                "defaultPitch": 0.0,
+                "speedYaw": 200.0,
+                "speedPitch": 200.0,
+                "parkInDeadzone": true,
+                "aimForOperatedShell": true,
+                "turret": {
+                  "head": "optic1_turret",
+                  "gun": "optic1_gun",
+                  "mainTurret": true
+                },
+                "limits": {
+                  "yaw": [
+                    -90.0,
+                    90.0
+                  ],
+                  "pitch": [
+                    -90.0,
+                    90.0
+                  ]
+                }
               },
-              "limits": {
-                "yaw": [
-                  -90.0,
-                  90.0
-                ],
-                "pitch": [
-                  -90.0,
-                  90.0
-                ]
+              {
+                "trigger": "countermeasures",
+                "startFx": "",
+                "blk": "gameData/Weapons/rocketGuns/countermeasure_large_launcher_jet.blk",
+                "emitter": "emtr_flare1",
+                "bullets": 8,
+                "external": true,
+                "separate": true
+              },
+              {
+                "trigger": "countermeasures",
+                "startFx": "",
+                "blk": "gameData/Weapons/rocketGuns/countermeasure_large_launcher_jet.blk",
+                "emitter": "emtr_flare2",
+                "bullets": 8,
+                "external": true,
+                "separate": true
               }
-            }
+            ]
           },
           {
             "name": "ltc_common",
@@ -2547,11 +2568,7 @@
                 "emitter": "emtr_flare1",
                 "bullets": 8,
                 "external": true,
-                "separate": true,
-                "brakeChuteRange": [
-                  0.0,
-                  0.0
-                ]
+                "separate": true
               },
               {
                 "trigger": "countermeasures",
@@ -2560,11 +2577,7 @@
                 "emitter": "emtr_flare2",
                 "bullets": 8,
                 "external": true,
-                "separate": true,
-                "brakeChuteRange": [
-                  0.0,
-                  0.0
-                ]
+                "separate": true
               },
               {
                 "trigger": "countermeasures",
@@ -3044,7 +3057,7 @@
             }
           },
           {
-            "iconType": "bombs_middle_group_high_drag_x2",
+            "iconType": "bombs_middle_high_drag_group_x2",
             "name": "us_500lb_mk_82_ldgp_x2_snakeye",
             "reqModification": "fr_250kg_type_25c",
             "ShowNodes": {
@@ -3846,6 +3859,35 @@
     "chuteFlapVarName": "fire_chute",
     "chuteTimeScaleParam": "chute_time_scale",
     "chuteFallSpeed": 1.9
+  },
+  "bailout": {
+    "buttonHoldTime": 1.0,
+    "wreckSpeed": 10.0,
+    "wreckDir": [
+      -3.0,
+      1.0,
+      0.0
+    ],
+    "seatEjectDelay": 0.5,
+    "ejectInterval": 0.7,
+    "seatVel": [
+      -10.0,
+      20.0,
+      0.0
+    ],
+    "minHeight": 0.0,
+    "minSpeed": 0.0,
+    "hasSafeExit": true,
+    "wreck": [
+      "blister1",
+      "blister2"
+    ],
+    "seat": [
+      "seat_01",
+      "seat_02"
+    ],
+    "fxEmitter": "blister1",
+    "fxType": "catapult_expl_ejection"
   },
   "cutting": {
     "_emtr_break_wing0_l_from": [

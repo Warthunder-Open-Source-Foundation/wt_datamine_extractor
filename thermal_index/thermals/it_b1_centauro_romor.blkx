@@ -113,6 +113,12 @@
       }
     ]
   },
+  "dmgAngles": {
+    "hatch_08": [
+      50.0,
+      50.0
+    ]
+  },
   "DamageEffects": {
     "part": [
       {
@@ -3554,6 +3560,7 @@
   },
   "supportPlane": {
     "supportPlaneClass": "ucav_recon_micro",
+    "behTreeName": "recon_micro",
     "planeStartSpeed": 80.0,
     "count": 1
   },

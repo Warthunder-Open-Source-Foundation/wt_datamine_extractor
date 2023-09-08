@@ -105,6 +105,9 @@
       0.4,
       0.8
     ],
+    "fuseOnWater": true,
+    "fuseOnWaterProbability": 1.0,
+    "ricochetTimeToLive": 0.085,
     "fuseDelayDist": 0.4,
     "shutterDamage": true,
     "shutterDamageRadius": 18.5,
@@ -115,7 +118,7 @@
     "smokeFx": "smokescreen_big",
     "smokeExplosionFx": "smoke_shell_explosion",
     "smokeExplosionFxVolsmoke": "smoke_shell_explosion_old",
-    "smokeShellRad": 20.0,
+    "smokeShellRad": 16.0,
     "smokeActivateTime": 5.0,
     "smokeTime": 25.0,
     "groundCollisionEffect": "smoke_shell_explosion",
