@@ -26,14 +26,14 @@ jobs:
       - name: Set vars
         id: compare-files
         run: |
-          self_file=$(cat self.txt)
-          other_file=$(cat other.txt)
+          self_file=$(cat self.txt) >> $GITHUB_ENV
+          other_file=$(cat other.txt) >> $GITHUB_ENV
 
   run-update:
     runs-on: ubuntu-latest
 
     needs: check-update
-    if: "${{ self_file }} != ${{ other_file }}"
+    if: "${{ env.self_file }} != ${{ env.other_file }}"
 
     steps:
 
