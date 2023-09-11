@@ -1,0 +1,41 @@
+name: Datamine update
+
+on:
+  schedule:
+    - cron:  '0 * * * *'
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  check-update:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout self
+      - name: Download current own version
+        id: set-self
+        run: curl https://raw.githubusercontent.com/Warthunder-Open-Source-Foundation/wt_datamine_extractor/nightly/meta_index/version.txt >> self.txt
+
+      # Checkout datamine repo
+      - name: Download other version
+        id: set-other
+        run: curl -L https://api.github.com/repos/gszabi99/War-Thunder-Datamine/commits/master | jq '.commit.message' >> other.txt
+
+      - name: Set vars
+        id: compare-files
+        run: |
+          self_file=$(cat self.txt)
+          other_file=$(cat other.txt)
+
+  run-update:
+    runs-on: ubuntu-latest
+
+    needs: check-update
+    if: "${{ self_file }} != ${{ other_file }}"
+
+    steps:
+
+      - name: yeet
+        run: echo yeet
