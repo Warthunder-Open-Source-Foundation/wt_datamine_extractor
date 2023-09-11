@@ -14,26 +14,20 @@ jobs:
 
     steps:
       # Checkout self
-      - name: Download current own version
+      - name: Download self version
         id: set-self
-        run: curl https://raw.githubusercontent.com/Warthunder-Open-Source-Foundation/wt_datamine_extractor/nightly/meta_index/version.txt >> self.txt
+        run: echo "::set-output name=SELF_FILE::${{ curl https://raw.githubusercontent.com/Warthunder-Open-Source-Foundation/wt_datamine_extractor/nightly/meta_index/version.txt }}"
 
       # Checkout datamine repo
       - name: Download other version
         id: set-other
-        run: curl -L https://api.github.com/repos/gszabi99/War-Thunder-Datamine/commits/master | jq '.commit.message' >> other.txt
-
-      - name: Set vars
-        id: compare-files
-        run: |
-          self_file=$(cat self.txt) >> $GITHUB_ENV
-          other_file=$(cat other.txt) >> $GITHUB_ENV
+        run: echo "::set-output name=OTHER_FILE:: ${{  curl -L https://api.github.com/repos/gszabi99/War-Thunder-Datamine/commits/master | jq '.commit.message'}}"
 
   run-update:
     runs-on: ubuntu-latest
 
     needs: check-update
-    if: "${{ env.self_file }} != ${{ env.other_file }}"
+    if: "${{ steps.set-self.outputs.SELF_FILE }} != ${{ steps.set-other.outputs.OTHER_FILE }}"
 
     steps:
 
