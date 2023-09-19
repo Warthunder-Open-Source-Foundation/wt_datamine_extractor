@@ -217,9 +217,9 @@
     ],
     "explosive": {
       "Energetic": {
-        "name_type": "a_ix_1",
+        "name_type": "ocfol",
         "raw_mass": 3000,
-        "equiv_mass": 3750
+        "equiv_mass": 4770
       }
     }
   },
@@ -238,9 +238,9 @@
     ],
     "explosive": {
       "Energetic": {
-        "name_type": "a_ix_1",
+        "name_type": "ocfol",
         "raw_mass": 3000,
-        "equiv_mass": 3750
+        "equiv_mass": 4770
       }
     }
   },
@@ -323,8 +323,8 @@
     "explosive": {
       "Energetic": {
         "name_type": "a_ix_2",
-        "raw_mass": 61,
-        "equiv_mass": 94
+        "raw_mass": 65,
+        "equiv_mass": 100
       }
     }
   },
@@ -593,8 +593,8 @@
     "explosive": {
       "Energetic": {
         "name_type": "a_ix_1",
-        "raw_mass": 935,
-        "equiv_mass": 1169
+        "raw_mass": 995,
+        "equiv_mass": 1244
       }
     }
   },
@@ -631,6 +631,48 @@
         "name_type": "comp_b",
         "raw_mass": 1400,
         "equiv_mass": 1834
+      }
+    }
+  },
+  {
+    "name": "105mm_38_33m",
+    "localized": "105mm 38/33M",
+    "shell_type": "He",
+    "caliber": 100,
+    "true_caliber": 100,
+    "velocity": 471,
+    "penetration": [
+      [
+        0,
+        14
+      ]
+    ],
+    "explosive": {
+      "Energetic": {
+        "name_type": "tnt",
+        "raw_mass": 2218,
+        "equiv_mass": 2218
+      }
+    }
+  },
+  {
+    "name": "105mm_42m",
+    "localized": "105mm 42M",
+    "shell_type": "Heat",
+    "caliber": 105,
+    "true_caliber": 105,
+    "velocity": 444,
+    "penetration": [
+      [
+        0,
+        120
+      ]
+    ],
+    "explosive": {
+      "Energetic": {
+        "name_type": "rdx_tnt",
+        "raw_mass": 1800,
+        "equiv_mass": 2304
       }
     }
   },
@@ -1165,7 +1207,7 @@
   },
   {
     "name": "105mm_falaric",
-    "localized": "Falaric 105",
+    "localized": "Falarick 105",
     "shell_type": "Atgm",
     "caliber": 105,
     "true_caliber": 105,
@@ -1220,9 +1262,9 @@
     ],
     "explosive": {
       "Energetic": {
-        "name_type": "a_ix_1",
+        "name_type": "ocfol",
         "raw_mass": 3000,
-        "equiv_mass": 3750
+        "equiv_mass": 4770
       }
     }
   },
@@ -3004,6 +3046,27 @@
     }
   },
   {
+    "name": "110mm_spike_lr2",
+    "localized": "Spike-LR2",
+    "shell_type": "Atgm",
+    "caliber": 110,
+    "true_caliber": 110,
+    "velocity": 0,
+    "penetration": [
+      [
+        0,
+        700
+      ]
+    ],
+    "explosive": {
+      "Energetic": {
+        "name_type": "lx14",
+        "raw_mass": 900,
+        "equiv_mass": 1269
+      }
+    }
+  },
+  {
     "name": "110mm_spike_mr",
     "localized": "Spike-MR",
     "shell_type": "Atgm",
@@ -3390,9 +3453,9 @@
     ],
     "explosive": {
       "Energetic": {
-        "name_type": "a_ix_1",
+        "name_type": "ocfol",
         "raw_mass": 3000,
-        "equiv_mass": 3750
+        "equiv_mass": 4770
       }
     }
   },
@@ -4001,11 +4064,11 @@
     "shell_type": "He",
     "caliber": 120,
     "true_caliber": 120,
-    "velocity": 950,
+    "velocity": 970,
     "penetration": [
       [
         0,
-        37
+        38
       ]
     ],
     "explosive": {
@@ -5465,6 +5528,69 @@
     "explosive": "Inert"
   },
   {
+    "name": "122mm_3of24",
+    "localized": "122mm 3OF24",
+    "shell_type": "He",
+    "caliber": 122,
+    "true_caliber": 122,
+    "velocity": 686,
+    "penetration": [
+      [
+        0,
+        30
+      ]
+    ],
+    "explosive": {
+      "Energetic": {
+        "name_type": "a_ix_2",
+        "raw_mass": 3970,
+        "equiv_mass": 6114
+      }
+    }
+  },
+  {
+    "name": "122mm_3of56",
+    "localized": "122mm 3OF56",
+    "shell_type": "He",
+    "caliber": 122,
+    "true_caliber": 122,
+    "velocity": 690,
+    "penetration": [
+      [
+        0,
+        25
+      ]
+    ],
+    "explosive": {
+      "Energetic": {
+        "name_type": "a_ix_2",
+        "raw_mass": 3970,
+        "equiv_mass": 6114
+      }
+    }
+  },
+  {
+    "name": "122mm_3of7_vt",
+    "localized": "122mm 3OF7",
+    "shell_type": "He",
+    "caliber": 122,
+    "true_caliber": 122,
+    "velocity": 686,
+    "penetration": [
+      [
+        0,
+        30
+      ]
+    ],
+    "explosive": {
+      "Energetic": {
+        "name_type": "a_ix_2",
+        "raw_mass": 3970,
+        "equiv_mass": 6114
+      }
+    }
+  },
+  {
     "name": "122mm_bp_462",
     "localized": "BP-460A",
     "shell_type": "Heat",
@@ -5648,6 +5774,27 @@
     "shell_type": "HeatFs",
     "caliber": 122,
     "true_caliber": 122,
+    "velocity": 726,
+    "penetration": [
+      [
+        0,
+        400
+      ]
+    ],
+    "explosive": {
+      "Energetic": {
+        "name_type": "a_ix_1",
+        "raw_mass": 1334,
+        "equiv_mass": 1668
+      }
+    }
+  },
+  {
+    "name": "122mm_zbk_10",
+    "localized": "3BK-10",
+    "shell_type": "HeatFs",
+    "caliber": 122,
+    "true_caliber": 122,
     "velocity": 820,
     "penetration": [
       [
@@ -5678,9 +5825,9 @@
     ],
     "explosive": {
       "Energetic": {
-        "name_type": "a_ix_2",
+        "name_type": "a_ix_1",
         "raw_mass": 1698,
-        "equiv_mass": 2615
+        "equiv_mass": 2123
       }
     }
   },
@@ -5808,8 +5955,8 @@
     "explosive": {
       "Energetic": {
         "name_type": "a_ix_1",
-        "raw_mass": 1640,
-        "equiv_mass": 2050
+        "raw_mass": 1650,
+        "equiv_mass": 2063
       }
     }
   },
@@ -6206,9 +6353,9 @@
     ],
     "explosive": {
       "Energetic": {
-        "name_type": "a_ix_1",
+        "name_type": "ocfol",
         "raw_mass": 2750,
-        "equiv_mass": 3438
+        "equiv_mass": 4373
       }
     }
   },
@@ -6248,9 +6395,9 @@
     ],
     "explosive": {
       "Energetic": {
-        "name_type": "a_ix_1",
+        "name_type": "ocfol",
         "raw_mass": 3600,
-        "equiv_mass": 4500
+        "equiv_mass": 5724
       }
     }
   },
@@ -6269,9 +6416,9 @@
     ],
     "explosive": {
       "Energetic": {
-        "name_type": "a_ix_1",
+        "name_type": "ocfol",
         "raw_mass": 3600,
-        "equiv_mass": 4500
+        "equiv_mass": 5724
       }
     }
   },
@@ -6290,9 +6437,9 @@
     ],
     "explosive": {
       "Energetic": {
-        "name_type": "comp_b",
+        "name_type": "ocfol",
         "raw_mass": 3600,
-        "equiv_mass": 4716
+        "equiv_mass": 5724
       }
     }
   },
@@ -6311,9 +6458,9 @@
     ],
     "explosive": {
       "Energetic": {
-        "name_type": "comp_b",
+        "name_type": "ocfol",
         "raw_mass": 3600,
-        "equiv_mass": 4716
+        "equiv_mass": 5724
       }
     }
   },
@@ -6332,9 +6479,9 @@
     ],
     "explosive": {
       "Energetic": {
-        "name_type": "comp_b",
+        "name_type": "ocfol",
         "raw_mass": 3600,
-        "equiv_mass": 4716
+        "equiv_mass": 5724
       }
     }
   },
@@ -6759,6 +6906,106 @@
     }
   },
   {
+    "name": "127mm_mim72a",
+    "localized": "MIM-72A",
+    "shell_type": "Sam",
+    "caliber": 127,
+    "true_caliber": 127,
+    "velocity": 0,
+    "penetration": [
+      [
+        0,
+        28
+      ],
+      [
+        100,
+        25
+      ]
+    ],
+    "explosive": {
+      "Energetic": {
+        "name_type": "pbxn_3",
+        "raw_mass": 2767,
+        "equiv_mass": 3542
+      }
+    }
+  },
+  {
+    "name": "127mm_mim72c",
+    "localized": "MIM-72C",
+    "shell_type": "Sam",
+    "caliber": 127,
+    "true_caliber": 127,
+    "velocity": 0,
+    "penetration": [
+      [
+        0,
+        28
+      ],
+      [
+        100,
+        25
+      ]
+    ],
+    "explosive": {
+      "Energetic": {
+        "name_type": "octol_tnt",
+        "raw_mass": 2767,
+        "equiv_mass": 3984
+      }
+    }
+  },
+  {
+    "name": "127mm_mim72e",
+    "localized": "MIM-72E",
+    "shell_type": "Sam",
+    "caliber": 127,
+    "true_caliber": 127,
+    "velocity": 0,
+    "penetration": [
+      [
+        0,
+        28
+      ],
+      [
+        100,
+        25
+      ]
+    ],
+    "explosive": {
+      "Energetic": {
+        "name_type": "octol_tnt",
+        "raw_mass": 2767,
+        "equiv_mass": 3984
+      }
+    }
+  },
+  {
+    "name": "127mm_mim72g",
+    "localized": "MIM-72G",
+    "shell_type": "Sam",
+    "caliber": 127,
+    "true_caliber": 127,
+    "velocity": 0,
+    "penetration": [
+      [
+        0,
+        28
+      ],
+      [
+        100,
+        25
+      ]
+    ],
+    "explosive": {
+      "Energetic": {
+        "name_type": "octol_tnt",
+        "raw_mass": 2767,
+        "equiv_mass": 3984
+      }
+    }
+  },
+  {
     "name": "127mm_rb_55_b",
     "localized": "RB 55B",
     "shell_type": "Atgm",
@@ -7068,8 +7315,8 @@
     "explosive": {
       "Energetic": {
         "name_type": "a_ix_2",
-        "raw_mass": 125,
-        "equiv_mass": 193
+        "raw_mass": 115,
+        "equiv_mass": 177
       }
     }
   },
@@ -7089,8 +7336,8 @@
     "explosive": {
       "Energetic": {
         "name_type": "a_ix_2",
-        "raw_mass": 125,
-        "equiv_mass": 193
+        "raw_mass": 115,
+        "equiv_mass": 177
       }
     }
   },
@@ -7712,8 +7959,8 @@
     "explosive": {
       "Energetic": {
         "name_type": "a_ix_2",
-        "raw_mass": 660,
-        "equiv_mass": 1016
+        "raw_mass": 480,
+        "equiv_mass": 739
       }
     }
   },
@@ -7733,8 +7980,8 @@
     "explosive": {
       "Energetic": {
         "name_type": "a_ix_2",
-        "raw_mass": 660,
-        "equiv_mass": 1016
+        "raw_mass": 480,
+        "equiv_mass": 739
       }
     }
   },
@@ -8559,6 +8806,27 @@
     }
   },
   {
+    "name": "155mm_oe_f3",
+    "localized": "155mm OE F3",
+    "shell_type": "He",
+    "caliber": 155,
+    "true_caliber": 155,
+    "velocity": 935,
+    "penetration": [
+      [
+        0,
+        51
+      ]
+    ],
+    "explosive": {
+      "Energetic": {
+        "name_type": "tnt",
+        "raw_mass": 9000,
+        "equiv_mass": 9000
+      }
+    }
+  },
+  {
     "name": "155mm_sgr_m60",
     "localized": "sgr m/60",
     "shell_type": "He",
@@ -8623,7 +8891,7 @@
   },
   {
     "name": "155mm_zonar_m65",
-    "localized": "zonar m/65",
+    "localized": "sgr m/60 (PF)",
     "shell_type": "He",
     "caliber": 155,
     "true_caliber": 155,
@@ -9044,6 +9312,27 @@
         "name_type": "rdx_pwx",
         "raw_mass": 17000,
         "equiv_mass": 21760
+      }
+    }
+  },
+  {
+    "name": "20mm_36M_pancelgranat",
+    "localized": "20 mm 36M pancelgranat",
+    "shell_type": "ApHe",
+    "caliber": 20,
+    "true_caliber": 20,
+    "velocity": 762,
+    "penetration": [
+      [
+        0,
+        35
+      ]
+    ],
+    "explosive": {
+      "Energetic": {
+        "name_type": "petn",
+        "raw_mass": 1,
+        "equiv_mass": 2
       }
     }
   },
@@ -11400,8 +11689,29 @@
     "explosive": {
       "Energetic": {
         "name_type": "tnt",
-        "raw_mass": 15,
-        "equiv_mass": 15
+        "raw_mass": 17,
+        "equiv_mass": 17
+      }
+    }
+  },
+  {
+    "name": "40mm_36m",
+    "localized": "36M",
+    "shell_type": "ApHe",
+    "caliber": 40,
+    "true_caliber": 40,
+    "velocity": 812,
+    "penetration": [
+      [
+        0,
+        69
+      ]
+    ],
+    "explosive": {
+      "Energetic": {
+        "name_type": "tnt",
+        "raw_mass": 17,
+        "equiv_mass": 17
       }
     }
   },
@@ -11427,6 +11737,27 @@
     }
   },
   {
+    "name": "40mm_39m",
+    "localized": "39M",
+    "shell_type": "He",
+    "caliber": 40,
+    "true_caliber": 40,
+    "velocity": 812,
+    "penetration": [
+      [
+        0,
+        11
+      ]
+    ],
+    "explosive": {
+      "Energetic": {
+        "name_type": "tnt",
+        "raw_mass": 63,
+        "equiv_mass": 63
+      }
+    }
+  },
+  {
     "name": "40mm_43m",
     "localized": "43M",
     "shell_type": "ApSolid",
@@ -11437,6 +11768,21 @@
       [
         0,
         71
+      ]
+    ],
+    "explosive": "Inert"
+  },
+  {
+    "name": "40mm_43m",
+    "localized": "43M",
+    "shell_type": "ApSolid",
+    "caliber": 40,
+    "true_caliber": 40,
+    "velocity": 812,
+    "penetration": [
+      [
+        0,
+        73
       ]
     ],
     "explosive": "Inert"
@@ -13183,6 +13529,21 @@
     "explosive": "Inert"
   },
   {
+    "name": "57mm_slpprj_m49",
+    "localized": "57mm_slpprj_m49",
+    "shell_type": "ApFsDs",
+    "caliber": 57,
+    "true_caliber": 37,
+    "velocity": 1150,
+    "penetration": [
+      [
+        0,
+        206
+      ]
+    ],
+    "explosive": "Inert"
+  },
+  {
     "name": "57mm_type3",
     "localized": "Type 3 HEAT",
     "shell_type": "Heat",
@@ -13640,6 +14001,48 @@
         "name_type": "a_ix_1",
         "raw_mass": 735,
         "equiv_mass": 919
+      }
+    }
+  },
+  {
+    "name": "73mm_type_85_he",
+    "localized": "Type 85 HE",
+    "shell_type": "He",
+    "caliber": 73,
+    "true_caliber": 73,
+    "velocity": 290,
+    "penetration": [
+      [
+        0,
+        4
+      ]
+    ],
+    "explosive": {
+      "Energetic": {
+        "name_type": "tnt",
+        "raw_mass": 735,
+        "equiv_mass": 735
+      }
+    }
+  },
+  {
+    "name": "73mm_type_85_heat",
+    "localized": "Type 85 HEAT",
+    "shell_type": "Heat",
+    "caliber": 73,
+    "true_caliber": 73,
+    "velocity": 665,
+    "penetration": [
+      [
+        0,
+        300
+      ]
+    ],
+    "explosive": {
+      "Energetic": {
+        "name_type": "jh_2",
+        "raw_mass": 315,
+        "equiv_mass": 482
       }
     }
   },
@@ -15383,8 +15786,8 @@
     "explosive": {
       "Energetic": {
         "name_type": "a_ix_1",
-        "raw_mass": 740,
-        "equiv_mass": 925
+        "raw_mass": 440,
+        "equiv_mass": 550
       }
     }
   },
@@ -16582,6 +16985,16 @@
     "name": "76mm_smoke_grenade",
     "localized": "Smoke grenade",
     "shell_type": "Smoke",
+    "caliber": 40,
+    "true_caliber": 40,
+    "velocity": 0,
+    "penetration": [],
+    "explosive": "Inert"
+  },
+  {
+    "name": "76mm_smoke_grenade",
+    "localized": "Smoke grenade",
+    "shell_type": "Smoke",
     "caliber": 50,
     "true_caliber": 50,
     "velocity": 0,
@@ -16968,8 +17381,8 @@
     "explosive": {
       "Energetic": {
         "name_type": "a_ix_2",
-        "raw_mass": 48,
-        "equiv_mass": 74
+        "raw_mass": 50,
+        "equiv_mass": 77
       }
     }
   },
@@ -17004,8 +17417,8 @@
     "explosive": {
       "Energetic": {
         "name_type": "a_ix_2",
-        "raw_mass": 44,
-        "equiv_mass": 68
+        "raw_mass": 50,
+        "equiv_mass": 77
       }
     }
   },
@@ -18257,6 +18670,21 @@
     "explosive": "Inert"
   },
   {
+    "name": "90mm_sa45_apc",
+    "localized": "PCO-50",
+    "shell_type": "ApSolid",
+    "caliber": 90,
+    "true_caliber": 90,
+    "velocity": 1030,
+    "penetration": [
+      [
+        0,
+        251
+      ]
+    ],
+    "explosive": "Inert"
+  },
+  {
     "name": "90mm_sa45_he",
     "localized": "90 mm Obus explosif",
     "shell_type": "He",
@@ -18889,8 +19317,8 @@
     "explosive": {
       "Energetic": {
         "name_type": "a_ix_2",
-        "raw_mass": 61,
-        "equiv_mass": 94
+        "raw_mass": 65,
+        "equiv_mass": 100
       }
     }
   },
@@ -18931,8 +19359,8 @@
     "explosive": {
       "Energetic": {
         "name_type": "a_ix_2",
-        "raw_mass": 48,
-        "equiv_mass": 74
+        "raw_mass": 50,
+        "equiv_mass": 77
       }
     }
   },
@@ -18973,8 +19401,8 @@
     "explosive": {
       "Energetic": {
         "name_type": "a_ix_2",
-        "raw_mass": 44,
-        "equiv_mass": 68
+        "raw_mass": 50,
+        "equiv_mass": 77
       }
     }
   },

@@ -227,7 +227,8 @@ impl FromStr for ShellType {
 			r#""apds_fs_tungsten_caliber_fins_tank""# => {
 				Ok(Self::ApFsDs)
 			}
-			r#""heat_fs_tank""# => {
+			r#""heat_fs_tank""# |
+			r#""heat_mp_vt_tank""# => {
 				Ok(Self::HeatFs)
 			}
 			r#""he_frag""# |
