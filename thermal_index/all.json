@@ -281,6 +281,23 @@
     ]
   },
   {
+    "name": "av_8b_plus_italy",
+    "localized": "⦿AV-8B Plus",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
+      },
+      {
+        "crew": "Global",
+        "x": 1080.0,
+        "y": 720.0
+      }
+    ]
+  },
+  {
     "name": "cn_cm11",
     "localized": "CM11",
     "vehicle_type": "Tank",
@@ -319,6 +336,18 @@
   {
     "name": "cn_m_41d",
     "localized": "M41D",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "cn_mbt2000",
+    "localized": "MBT2000",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -558,6 +587,40 @@
     ]
   },
   {
+    "name": "f_16c_block_50",
+    "localized": "F-16C",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
+      },
+      {
+        "crew": "Global",
+        "x": 1080.0,
+        "y": 720.0
+      }
+    ]
+  },
+  {
+    "name": "f_16d_block_40_barak_2",
+    "localized": "Barak II",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
+      },
+      {
+        "crew": "Global",
+        "x": 1080.0,
+        "y": 720.0
+      }
+    ]
+  },
+  {
     "name": "fr_amx_10rc",
     "localized": "AMX-10RC",
     "vehicle_type": "Tank",
@@ -650,6 +713,18 @@
         "crew": "Gunner",
         "x": 1200.0,
         "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "fr_leclerc_azur",
+    "localized": "Leclerc AZUR",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
       }
     ]
   },
@@ -822,6 +897,23 @@
   {
     "name": "germ_leopard_2a5",
     "localized": "Leopard 2A5",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      },
+      {
+        "crew": "Commander",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "germ_leopard_2a5_pso",
+    "localized": "Leopard 2 PSO",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1242,6 +1334,18 @@
     ]
   },
   {
+    "name": "il_mim_72_chaparral",
+    "localized": "✡Imp.Chaparral",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "it_ariete_amv_pt1",
     "localized": "Ariete AMV",
     "vehicle_type": "Tank",
@@ -1370,8 +1474,37 @@
     ]
   },
   {
+    "name": "it_kf_41",
+    "localized": "KF41",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      },
+      {
+        "crew": "Commander",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
     "name": "it_leopard_1a5",
     "localized": "⦿Leopard 1A5",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "it_leopard_2a4",
+    "localized": "◔Leopard 2A4",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1473,6 +1606,23 @@
   {
     "name": "jp_type_10",
     "localized": "Type 10",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      },
+      {
+        "crew": "Commander",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "jp_type_10_prototype",
+    "localized": "TKX (P)",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1717,6 +1867,30 @@
     ]
   },
   {
+    "name": "oh_58d",
+    "localized": "OH-58D",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "oh_58d_china",
+    "localized": "␗OH-58D",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
     "name": "q_5l",
     "localized": "Q-5L",
     "vehicle_type": "Aircraft",
@@ -1827,6 +2001,18 @@
       },
       {
         "crew": "Commander",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "sw_k9_vidar",
+    "localized": "VIDAR",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
         "x": 800.0,
         "y": 600.0
       }
@@ -2528,6 +2714,18 @@
     ]
   },
   {
+    "name": "uk_t_90s_bheeshma",
+    "localized": "Bhishma TWMP",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
     "name": "uk_ttd",
     "localized": "TTD",
     "vehicle_type": "Tank",
@@ -2858,6 +3056,18 @@
   {
     "name": "us_merkava_mk_3d",
     "localized": "✪Merkava Mk.3D",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "us_mim_72_chaparral",
+    "localized": "Imp.Chaparral",
     "vehicle_type": "Tank",
     "sights": [
       {
