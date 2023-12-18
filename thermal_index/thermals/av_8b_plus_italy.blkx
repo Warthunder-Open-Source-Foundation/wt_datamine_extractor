@@ -28,7 +28,7 @@
   "damagePartsToCollisionObjectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_collision_objects.blk",
   "damagePartsToFmPartsMapBlk": "gameData/FlightModels/DM/dm_parts_to_fm_parts_map.blk",
   "damagePartsToHudPartsMapBlk": "gameData/FlightModels/DM/dm_parts_to_hud_parts_map.blk",
-  "damagePartsDependencyMapBlk": "gameData/FlightModels/DM/dm_parts_dependency_map.blk",
+  "damagePartsDependencyMapBlk": "gameData/FlightModels/DM/dm_parts_additional_dependency_map.blk",
   "damagePartsToCollisionPointsMapBlk": "gameData/FlightModels/DM/dm_parts_to_collision_points_map.blk",
   "damagePartsToWeaponsMapBlk": "gameData/FlightModels/DM/dm_parts_to_weapons_map.blk",
   "damagePartsToVisualEffectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_visual_effects_map.blk",
@@ -2260,7 +2260,10 @@
           "page": [
             {
               "type": "rwr",
-              "scale": 1.35
+              "scale": 1.15
+            },
+            {
+              "type": "radar"
             },
             {
               "type": "map"
@@ -2338,16 +2341,16 @@
   "nightVision": {
     "sightThermal": {
       "resolution": [
-        1080,
-        720
+        500,
+        300
       ],
       "noiseFactor": 0.05,
       "index": 2
     },
     "sightTPodThermal": {
       "resolution": [
-        500,
-        300
+        800,
+        600
       ],
       "noiseFactor": 0.05,
       "index": 1
@@ -2825,10 +2828,11 @@
             "reqModification": "us_gbu_16",
             "Weapon": {
               "trigger": "guided bombs",
-              "blk": "gameData/Weapons/containers/ter_us_gbu_16_paveway_2.blk",
+              "blk": "gameData/Weapons/BombGuns/us_gbu_16_paveway_2.blk",
               "emitter": "1000lb_gp_001",
               "external": true,
-              "separate": true
+              "separate": true,
+              "bullets": 1
             },
             "DependentWeaponPreset": {
               "slot": 5,
@@ -2983,10 +2987,11 @@
             "reqModification": "us_gbu_16",
             "Weapon": {
               "trigger": "guided bombs",
-              "blk": "gameData/Weapons/containers/ter_us_gbu_16_paveway_2.blk",
+              "blk": "gameData/Weapons/BombGuns/us_gbu_16_paveway_2.blk",
               "emitter": "1000lb_gp_003",
               "external": true,
-              "separate": true
+              "separate": true,
+              "bullets": 1
             },
             "DependentWeaponPreset": {
               "slot": 5,
@@ -3077,6 +3082,7 @@
         "index": 4,
         "tier": 7,
         "order": 7,
+        "notUseforDisbalanceCalculation": true,
         "WeaponPreset": {
           "iconType": "multibarrel_box",
           "name": "gau_12",
@@ -3276,10 +3282,11 @@
             "reqModification": "us_gbu_16",
             "Weapon": {
               "trigger": "guided bombs",
-              "blk": "gameData/Weapons/containers/ter_us_gbu_16_paveway_2.blk",
+              "blk": "gameData/Weapons/BombGuns/us_gbu_16_paveway_2.blk",
               "emitter": "1000lb_gp_004",
               "external": true,
-              "separate": true
+              "separate": true,
+              "bullets": 1
             },
             "DependentWeaponPreset": {
               "slot": 5,
@@ -3465,10 +3472,11 @@
             "reqModification": "us_gbu_16",
             "Weapon": {
               "trigger": "guided bombs",
-              "blk": "gameData/Weapons/containers/ter_us_gbu_16_paveway_2.blk",
+              "blk": "gameData/Weapons/BombGuns/us_gbu_16_paveway_2.blk",
               "emitter": "1000lb_gp_002",
               "external": true,
-              "separate": true
+              "separate": true,
+              "bullets": 1
             },
             "DependentWeaponPreset": {
               "slot": 5,
@@ -3924,16 +3932,16 @@
           },
           "sightThermal": {
             "resolution": [
-              1080,
-              720
+              500,
+              300
             ],
             "noiseFactor": 0.05,
             "index": 2
           },
           "sightTPodThermal": {
             "resolution": [
-              500,
-              300
+              800,
+              600
             ],
             "noiseFactor": 0.05,
             "index": 1

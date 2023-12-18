@@ -224,6 +224,7 @@ impl FromStr for ShellType {
 			r#""apds_fs_full_body_steel_tank""# |
 			r#""apds_fs_long_l30_tank""# |
 			r#""apds_early_tank""# |
+			r#""atgm_ke_tank""# |
 			r#""apds_fs_tungsten_caliber_fins_tank""# => {
 				Ok(Self::ApFsDs)
 			}

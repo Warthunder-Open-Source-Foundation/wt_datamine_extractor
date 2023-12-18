@@ -32,12 +32,12 @@ rpath = false
 serde = { version = "1.*", features = ["derive"] }
 serde_json = "1.*"
 lazy_static = "1.4.*"
-strum = "^0.24.1"
-strum_macros = "^0.24.3"
+strum = "^0.25"
+strum_macros = "^0.25"
 wt_csv = "^0.10.0"
 fs_extra = "1.2.0"
 const-gen = "^1.1.0"
 get-size = { version = "^0.1", features = ["derive"] }
 roman = "^0.1.6"
-csv = "^1.1.6"
+csv = "^1.2"
 wt_blk = "0.0.5"

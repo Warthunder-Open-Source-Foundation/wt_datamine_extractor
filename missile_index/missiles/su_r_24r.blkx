@@ -120,8 +120,9 @@
         "lockAngleMax": 50.0,
         "angleMax": 50.0,
         "rateMax": 20.0,
+        "angleGateRate": 90.0,
         "prolongationTimeMax": 1.0,
-        "designationSourceTypeMask": 2,
+        "designationSourceTypeMask": 4,
         "transmitter": {
           "power": 200.0,
           "antenna": {
@@ -150,6 +151,11 @@
         "dopplerSpeedGate": {
           "filterAlpha": 0.25,
           "filterBetta": 0.03,
+          "rateLimit": [
+            100.0,
+            50.0
+          ],
+          "limitTimeOut": 1.0,
           "dopplerSpeedGateSearchRange": 150.0
         }
       },

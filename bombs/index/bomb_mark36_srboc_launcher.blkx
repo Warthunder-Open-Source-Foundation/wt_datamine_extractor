@@ -65,12 +65,6 @@
       1.9
     ],
     "waterExplosionEffect": "hit_39_58mm_water",
-    "fallToUnitFx": "hit_81_105mm_metal_ap",
-    "fallToWaterFx": "bomb_reflection",
-    "fallFx": "hit_59_80mm_dirt_ap",
-    "shatterPatchRadius": 0.0,
-    "visualShattersWaterOffset": 1.2,
-    "visualShattersGroundOffset": 1.2,
     "fireEffect": "",
     "smokeEffect": "",
     "startFx": "",
@@ -168,20 +162,17 @@
           {
             "expl": 0.1,
             "fire": 0.9,
-            "damage": 5.0,
-            "fHitCritical": true
+            "damage": 5.0
           },
           {
             "expl": 0.2,
             "fire": 0.8,
-            "damage": 15.0,
-            "fHitCritical": true
+            "damage": 15.0
           }
         ],
         "onKill": {
           "expl": 0.4,
-          "fire": 0.6,
-          "fHitCritical": true
+          "fire": 0.6
         }
       }
     },
