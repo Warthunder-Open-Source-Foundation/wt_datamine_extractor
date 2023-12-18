@@ -138,13 +138,22 @@
     "name": "china_250kg_mk_82",
     "weight": 216.5,
     "explosive_mass": 91.4,
-    "explosive_type": "comp_h6",
-    "explosive_equiv": 123.0,
+    "explosive_type": "tnt",
+    "explosive_equiv": 91.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
   {
     "name": "cn_gp_250_3",
+    "weight": 216.5,
+    "explosive_mass": 91.4,
+    "explosive_type": "tnt",
+    "explosive_equiv": 91.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
+    "name": "cn_gp_250_3_default",
     "weight": 216.5,
     "explosive_mass": 91.4,
     "explosive_type": "tnt",
@@ -178,6 +187,15 @@
     "explosive_equiv": 325.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
+  },
+  {
+    "name": "cn_ls_1000j",
+    "weight": 1090.0,
+    "explosive_mass": 420.0,
+    "explosive_type": "rdx_tnt",
+    "explosive_equiv": 538.0,
+    "can_kill_npc_tank": false,
+    "can_kill_npc_ship": false
   },
   {
     "name": "cn_ls_500j",
@@ -230,6 +248,69 @@
     "explosive_mass": 320.0,
     "explosive_type": "amatol",
     "explosive_equiv": 320.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
+    "name": "de_pc1000_ap",
+    "weight": 988.0,
+    "explosive_mass": 158.08,
+    "explosive_type": "amatol",
+    "explosive_equiv": 158.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
+    "name": "de_pc1000_rs_ap",
+    "weight": 987.0,
+    "explosive_mass": 54.0,
+    "explosive_type": "amatol",
+    "explosive_equiv": 54.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
+    "name": "de_pc1600_ap",
+    "weight": 1600.0,
+    "explosive_mass": 230.4,
+    "explosive_type": "rdx_pwx",
+    "explosive_equiv": 295.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
+    "name": "de_pc1800_rs_ap",
+    "weight": 2057.0,
+    "explosive_mass": 359.97,
+    "explosive_type": "rdx_pwx",
+    "explosive_equiv": 461.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
+    "name": "de_pc500_ap",
+    "weight": 500.0,
+    "explosive_mass": 75.0,
+    "explosive_type": "amatol",
+    "explosive_equiv": 75.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
+    "name": "de_pc500_rs_ap",
+    "weight": 490.0,
+    "explosive_mass": 14.0,
+    "explosive_type": "amatol",
+    "explosive_equiv": 14.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
+    "name": "de_pd500_ap",
+    "weight": 500.0,
+    "explosive_mass": 32.0,
+    "explosive_type": "rdx_pwx",
+    "explosive_equiv": 41.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1044,6 +1125,15 @@
     "can_kill_npc_ship": false
   },
   {
+    "name": "jp_ijnaf_type_3_number_150_1500kg_ap",
+    "weight": 1498.6,
+    "explosive_mass": 89.81,
+    "explosive_type": "tp_91",
+    "explosive_equiv": 94.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
     "name": "jp_navy_mod25mark2_250kg",
     "weight": 253.0,
     "explosive_mass": 104.0,
@@ -1053,8 +1143,17 @@
     "can_kill_npc_ship": true
   },
   {
+    "name": "jp_navy_mod25mark2_250kg_default",
+    "weight": 253.0,
+    "explosive_mass": 104.0,
+    "explosive_type": "shimose",
+    "explosive_equiv": 114.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
     "name": "jp_navy_mod50mark1_500kg",
-    "weight": 500.0,
+    "weight": 498.95,
     "explosive_mass": 67.13,
     "explosive_type": "tp_97",
     "explosive_equiv": 86.0,
@@ -1170,6 +1269,60 @@
     "can_kill_npc_ship": false
   },
   {
+    "name": "su_brab_1000_1938_ap",
+    "weight": 1046.0,
+    "explosive_mass": 261.0,
+    "explosive_type": "mc",
+    "explosive_equiv": 402.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
+    "name": "su_brab_1000m43_ap",
+    "weight": 1012.0,
+    "explosive_mass": 130.8,
+    "explosive_type": "mc",
+    "explosive_equiv": 201.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
+    "name": "su_brab_220_1930_ap",
+    "weight": 240.0,
+    "explosive_mass": 38.2,
+    "explosive_type": "tnt",
+    "explosive_equiv": 38.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
+    "name": "su_brab_250_ap",
+    "weight": 255.0,
+    "explosive_mass": 31.3,
+    "explosive_type": "mc",
+    "explosive_equiv": 48.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
+    "name": "su_brab_500_1938_ap",
+    "weight": 531.3,
+    "explosive_mass": 105.1,
+    "explosive_type": "mc",
+    "explosive_equiv": 162.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
+    "name": "su_brab_500m43_ap",
+    "weight": 510.0,
+    "explosive_mass": 65.5,
+    "explosive_type": "mc",
+    "explosive_equiv": 101.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
     "name": "su_fab100",
     "weight": 103.5,
     "explosive_mass": 36.02,
@@ -1211,6 +1364,15 @@
     "explosive_mass": 122.25,
     "explosive_type": "tnt",
     "explosive_equiv": 122.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
+    "name": "su_fab250_270",
+    "weight": 268.0,
+    "explosive_mass": 94.0,
+    "explosive_type": "tnt",
+    "explosive_equiv": 94.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },
@@ -1522,7 +1684,7 @@
   },
   {
     "name": "su_ofab250_olive",
-    "weight": 250.0,
+    "weight": 236.92,
     "explosive_mass": 97.0,
     "explosive_type": "tnt",
     "explosive_equiv": 97.0,
@@ -1809,6 +1971,15 @@
     "can_kill_npc_ship": false
   },
   {
+    "name": "uk_2000lb_ap_mki",
+    "weight": 877.2,
+    "explosive_mass": 75.3,
+    "explosive_type": "shellite",
+    "explosive_equiv": 71.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
     "name": "uk_250lbs",
     "weight": 104.3,
     "explosive_mass": 30.7,
@@ -1819,6 +1990,15 @@
   },
   {
     "name": "uk_250lbs_43",
+    "weight": 104.3,
+    "explosive_mass": 30.7,
+    "explosive_type": "tnt",
+    "explosive_equiv": 31.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": false
+  },
+  {
+    "name": "uk_250lbs_default",
     "weight": 104.3,
     "explosive_mass": 30.7,
     "explosive_type": "tnt",
@@ -1917,6 +2097,15 @@
     "can_kill_npc_ship": true
   },
   {
+    "name": "uk_500lb_sap_mkii_ap",
+    "weight": 222.3,
+    "explosive_mass": 40.01,
+    "explosive_type": "tnt",
+    "explosive_equiv": 40.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
     "name": "uk_500lbs",
     "weight": 213.1,
     "explosive_mass": 65.5,
@@ -1967,6 +2156,15 @@
     "explosive_mass": 2653.5,
     "explosive_type": "torpex",
     "explosive_equiv": 4246.0,
+    "can_kill_npc_tank": false,
+    "can_kill_npc_ship": false
+  },
+  {
+    "name": "uk_depth_charge_hedgehog_mortar",
+    "weight": 29.5,
+    "explosive_mass": 15.9,
+    "explosive_type": "torpex",
+    "explosive_equiv": 25.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },
@@ -2052,6 +2250,24 @@
     "can_kill_npc_ship": true
   },
   {
+    "name": "us_1000lb_anmk33_box_ap",
+    "weight": 457.22,
+    "explosive_mass": 63.5,
+    "explosive_type": "explosive_d",
+    "explosive_equiv": 62.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
+    "name": "us_1000lb_anmk33_box_ap_45",
+    "weight": 457.22,
+    "explosive_mass": 63.5,
+    "explosive_type": "explosive_d",
+    "explosive_equiv": 62.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
     "name": "us_1000lb_gp_mk9",
     "weight": 450.9,
     "explosive_mass": 335.65,
@@ -2115,6 +2331,15 @@
     "can_kill_npc_ship": false
   },
   {
+    "name": "us_1400lb_m63_ap",
+    "weight": 640.5,
+    "explosive_mass": 15.87,
+    "explosive_type": "explosive_d",
+    "explosive_equiv": 16.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
     "name": "us_1600lb_ap_an_mk1",
     "weight": 721.2,
     "explosive_mass": 97.5,
@@ -2143,6 +2368,24 @@
   },
   {
     "name": "us_2000lb_gbu_15v2",
+    "weight": 1140.8,
+    "explosive_mass": 428.6,
+    "explosive_type": "tritonal",
+    "explosive_equiv": 506.0,
+    "can_kill_npc_tank": false,
+    "can_kill_npc_ship": false
+  },
+  {
+    "name": "us_2000lb_gbu_15v21",
+    "weight": 1140.8,
+    "explosive_mass": 428.6,
+    "explosive_type": "tritonal",
+    "explosive_equiv": 506.0,
+    "can_kill_npc_tank": false,
+    "can_kill_npc_ship": false
+  },
+  {
+    "name": "us_2000lb_gbu_15v22",
     "weight": 1140.8,
     "explosive_mass": 428.6,
     "explosive_type": "tritonal",
@@ -2408,6 +2651,15 @@
     "explosive_mass": 118.8,
     "explosive_type": "amatol",
     "explosive_equiv": 119.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
+    "name": "us_600lb_m62_ap",
+    "weight": 287.6,
+    "explosive_mass": 15.24,
+    "explosive_type": "explosive_d",
+    "explosive_equiv": 15.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
   },

@@ -38,7 +38,7 @@
   "damagePartsToCollisionObjectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_collision_objects.blk",
   "damagePartsToFmPartsMapBlk": "gameData/FlightModels/DM/dm_parts_to_fm_parts_map_tailless.blk",
   "damagePartsToHudPartsMapBlk": "gameData/FlightModels/DM/dm_parts_to_hud_parts_map.blk",
-  "damagePartsDependencyMapBlk": "gameData/FlightModels/DM/dm_parts_dependency_map_canard.blk",
+  "damagePartsDependencyMapBlk": "gameData/FlightModels/DM/dm_parts_additional_dependency_map.blk",
   "damagePartsToCollisionPointsMapBlk": "gameData/FlightModels/DM/dm_parts_to_collision_points_map.blk",
   "damagePartsToWeaponsMapBlk": "gameData/FlightModels/DM/dm_parts_to_weapons_map.blk",
   "damagePartsToVisualEffectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_visual_effects_map.blk",
@@ -2212,7 +2212,7 @@
           ],
           "page": {
             "type": "rwr",
-            "scale": 1.35
+            "scale": 1.15
           }
         },
         {
@@ -2339,7 +2339,10 @@
       ]
     },
     "HideDmParts": {
-      "node": "armor1_dm"
+      "node": [
+        "armor1_dm",
+        "tank10_dm"
+      ]
     },
     "WeaponSlot": [
       {
@@ -2430,7 +2433,12 @@
                 "emitter": "emtr_flare1",
                 "bullets": 18,
                 "external": true,
-                "separate": true
+                "separate": true,
+                "brakeChuteRange": [
+                  0.0,
+                  0.0
+                ],
+                "ammoMechRange": false
               },
               {
                 "trigger": "countermeasures",
@@ -2439,7 +2447,12 @@
                 "emitter": "emtr_flare2",
                 "bullets": 18,
                 "external": true,
-                "separate": true
+                "separate": true,
+                "brakeChuteRange": [
+                  0.0,
+                  0.0
+                ],
+                "ammoMechRange": false
               },
               {
                 "trigger": "countermeasures",
@@ -2452,7 +2465,8 @@
                 "brakeChuteRange": [
                   0.0,
                   0.0
-                ]
+                ],
+                "ammoMechRange": false
               }
             ]
           }
@@ -2711,6 +2725,25 @@
               "blk": "gameData/Weapons/BombGuns/fr_250_samp_type_25_200.blk",
               "emitter": "bomb3",
               "bullets": 1
+            }
+          },
+          {
+            "iconType": "ptb",
+            "name": "ptb",
+            "showInWeaponMenu": true,
+            "ShowNodes": {
+              "node": "pylon_central"
+            },
+            "ShowDmParts": {
+              "node": "tank10_dm"
+            },
+            "Weapon": {
+              "trigger": "fuel tanks",
+              "blk": "gameData/Weapons/drop_tank/fr_1300l_rp522_mirage_2000d_r1.blk",
+              "emitter": "fr_1300l_rp522_drop_tank",
+              "bullets": 1,
+              "external": true,
+              "separate": true
             }
           }
         ]
