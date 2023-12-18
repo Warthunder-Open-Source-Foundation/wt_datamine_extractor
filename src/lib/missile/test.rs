@@ -58,6 +58,8 @@ mod tests {
 		}
 	}
 
+	/*
+	Disabled because mistral breaks this "rule"
 	#[test]
 	fn has_force0_and_time_fire0() {
 		for missile in MISSILES.iter() {
@@ -66,6 +68,7 @@ mod tests {
 			}
 		}
 	}
+	 */
 
 	#[test]
 	fn time_fire1_require_force1() {
