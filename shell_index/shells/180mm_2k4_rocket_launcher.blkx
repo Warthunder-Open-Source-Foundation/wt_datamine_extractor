@@ -46,7 +46,7 @@
     "endSpeed": 224.0,
     "maxDistance": 3000.0,
     "minDistance": 30.0,
-    "rangeMax": 3000.0,
+    "rangeMax": 3300.0,
     "visRotationFreqX": 5.0,
     "guidanceType": "saclos",
     "explosiveType": "a_ix_1",
@@ -108,9 +108,9 @@
     "price": 3000.0,
     "hasTracerTrail": true,
     "tracerTrailEmitter": [
-      0.7,
-      -0.04,
-      0.09
+      0.0,
+      0.0,
+      0.0
     ],
     "guidance": {
       "controlConeFov": 10.0,

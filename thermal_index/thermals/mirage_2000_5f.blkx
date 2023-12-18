@@ -67,7 +67,7 @@
   "damagePartsToCollisionObjectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_collision_objects.blk",
   "damagePartsToFmPartsMapBlk": "gameData/FlightModels/DM/dm_parts_to_fm_parts_map_tailless.blk",
   "damagePartsToHudPartsMapBlk": "gameData/FlightModels/DM/dm_parts_to_hud_parts_map.blk",
-  "damagePartsDependencyMapBlk": "gameData/FlightModels/DM/dm_parts_dependency_map_canard.blk",
+  "damagePartsDependencyMapBlk": "gameData/FlightModels/DM/dm_parts_additional_dependency_map.blk",
   "damagePartsToCollisionPointsMapBlk": "gameData/FlightModels/DM/dm_parts_to_collision_points_map.blk",
   "damagePartsToWeaponsMapBlk": "gameData/FlightModels/DM/dm_parts_to_weapons_map.blk",
   "damagePartsToVisualEffectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_visual_effects_map.blk",
@@ -2000,9 +2000,8 @@
       12.0,
       0.75
     ],
-    "sightInFov": 3.2,
-    "sightOutFov": 12.0,
-    "sightFov": 0.01,
+    "sightInFov": 1.0,
+    "sightOutFov": 4.0,
     "headPos": [
       4.0,
       0.54,
@@ -2786,9 +2785,11 @@
         "pylon_central",
         "pylon_central_fuel",
         "pylon_eclair",
+        "pylon_eclair_m",
         "gunpod_cc_630",
         "chute1",
         "chute2",
+        "fuse1",
         "pylon_damocles",
         "damocles_pod"
       ]
@@ -2812,7 +2813,8 @@
             "ShowNodes": {
               "node": [
                 "chute1",
-                "chute2"
+                "chute2",
+                "fuse1"
               ]
             },
             "Weapon": [
@@ -2888,7 +2890,7 @@
           {
             "name": "defa_554_ltc",
             "ShowNodes": {
-              "node": "pylon_eclair"
+              "node": "pylon_eclair_m"
             },
             "Weapon": [
               {
@@ -2947,7 +2949,12 @@
                 "emitter": "emtr_flare1",
                 "bullets": 18,
                 "external": true,
-                "separate": true
+                "separate": true,
+                "brakeChuteRange": [
+                  0.0,
+                  0.0
+                ],
+                "ammoMechRange": false
               },
               {
                 "trigger": "countermeasures",
@@ -2956,20 +2963,26 @@
                 "emitter": "emtr_flare2",
                 "bullets": 18,
                 "external": true,
-                "separate": true
+                "separate": true,
+                "brakeChuteRange": [
+                  0.0,
+                  0.0
+                ],
+                "ammoMechRange": false
               },
               {
                 "trigger": "countermeasures",
                 "startFx": "",
                 "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
                 "emitter": "emtr_flare3",
-                "bullets": 54,
+                "bullets": 132,
                 "external": true,
                 "separate": true,
                 "brakeChuteRange": [
                   0.0,
                   0.0
-                ]
+                ],
+                "ammoMechRange": false
               }
             ]
           }
@@ -3832,23 +3845,27 @@
             "Weapon": [
               {
                 "trigger": "additional gun",
-                "blk": "gameData/Weapons/cannonDEFA554.blk",
+                "blk": "gameData/Weapons/cannonDEFA554_gunpod.blk",
                 "emitter": "flare3",
                 "flash": "flare3",
                 "dm": "cannon3_dm",
                 "bullets": 300,
                 "spread": 1.1,
-                "traceOffset": 1
+                "traceOffset": 1,
+                "mass": 382.5,
+                "dragCx": 0.001
               },
               {
                 "trigger": "additional gun",
-                "blk": "gameData/Weapons/cannonDEFA554.blk",
+                "blk": "gameData/Weapons/cannonDEFA554_gunpod.blk",
                 "emitter": "flare4",
                 "flash": "flare4",
                 "dm": "cannon4_dm",
                 "bullets": 300,
                 "spread": 1.1,
-                "traceOffset": 2
+                "traceOffset": 2,
+                "mass": 382.5,
+                "dragCx": 0.001
               }
             ],
             "BannedWeaponPreset": {
@@ -4557,8 +4574,8 @@
           },
           "sightThermal": {
             "resolution": [
-              1080,
-              720
+              1200,
+              800
             ],
             "noiseFactor": 0.05,
             "index": 2

@@ -13,7 +13,7 @@
   "haveCCRPForGun": true,
   "ilsElbit967": true,
   "hasPointOfInterestMemory": true,
-  "hmdShelZoom": true,
+  "hmdF16c": true,
   "hasMissileCommandLine": false,
   "havePointOfInterestDesignator": true,
   "isBwOpticSight": true,
@@ -66,7 +66,7 @@
   "damagePartsToCollisionObjectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_collision_objects.blk",
   "damagePartsToFmPartsMapBlk": "gameData/FlightModels/DM/dm_parts_to_fm_parts_map.blk",
   "damagePartsToHudPartsMapBlk": "gameData/FlightModels/DM/dm_parts_to_hud_parts_map.blk",
-  "damagePartsDependencyMapBlk": "gameData/FlightModels/DM/dm_parts_dependency_map.blk",
+  "damagePartsDependencyMapBlk": "gameData/FlightModels/DM/dm_parts_additional_dependency_map.blk",
   "damagePartsToCollisionPointsMapBlk": "gameData/FlightModels/DM/dm_parts_to_collision_points_map.blk",
   "damagePartsToWeaponsMapBlk": "gameData/FlightModels/DM/dm_parts_to_weapons_map.blk",
   "damagePartsToVisualEffectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_visual_effects_map.blk",
@@ -1949,6 +1949,12 @@
     "sightOutFov": 12.299,
     "sightFov": 1.0,
     "isDoubleBulletImpactLine": true,
+    "hmdBlockIlsArea": [
+      0.37,
+      0.37,
+      0.63,
+      0.63
+    ],
     "headPos": [
       4.25,
       0.85,
@@ -2322,13 +2328,21 @@
     }
   },
   "nightVision": {
-    "sightTPodThermal": {
+    "sightThermal": {
       "resolution": [
         500,
         300
       ],
       "noiseFactor": 0.05,
       "index": 2
+    },
+    "sightTPodThermal": {
+      "resolution": [
+        800,
+        600
+      ],
+      "noiseFactor": 0.05,
+      "index": 1
     }
   },
   "sensors": {
@@ -2374,7 +2388,7 @@
         -0.2,
         0.0
       ],
-      "head": "optic1_turret",
+      "head": "optic2_turret",
       "crosshairPreset": "test_crosshair",
       "angularLimits": [
         -90.0,
@@ -2937,6 +2951,22 @@
             }
           },
           {
+            "iconType": "bombs_middle_group_x6",
+            "name": "mer_mk82_x6",
+            "reqModification": "us_500lb_mk82",
+            "ShowNodes": {
+              "node": "pylon4"
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/containers/mer_us_500lb_mk_82_x6.blk",
+              "emitter": "mer_001",
+              "external": true,
+              "separate": true,
+              "machLimit": 1.01
+            }
+          },
+          {
             "iconType": "bombs_heavy_middle",
             "name": "us_mk84",
             "reqModification": "us_2000lb_mk84",
@@ -3131,6 +3161,22 @@
               "trigger": "bombs",
               "blk": "gameData/Weapons/containers/ter_us_500lb_mk_82.blk",
               "emitter": "ter_003",
+              "external": true,
+              "separate": true,
+              "machLimit": 1.01
+            }
+          },
+          {
+            "iconType": "bombs_middle_group_x6",
+            "name": "mer_mk82_x6",
+            "reqModification": "us_500lb_mk82",
+            "ShowNodes": {
+              "node": "pylon5"
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/containers/mer_us_500lb_mk_82_x6.blk",
+              "emitter": "mer_002",
               "external": true,
               "separate": true,
               "machLimit": 1.01
@@ -3769,10 +3815,18 @@
             "ghosting": 0.7,
             "noiseFactor": 0.15
           },
+          "sightTPodThermal": {
+            "resolution": [
+              800,
+              600
+            ],
+            "noiseFactor": 0.05,
+            "index": 1
+          },
           "sightThermal": {
             "resolution": [
-              1080,
-              720
+              500,
+              300
             ],
             "noiseFactor": 0.05,
             "index": 2

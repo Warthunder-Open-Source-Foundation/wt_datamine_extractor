@@ -26,8 +26,8 @@
   "sfxReloadBullet": "grd_cannon_belt_reload",
   "sound_path": "tanks/weapon_tanks/mguns",
   "sound_pathStudio": "ground/weapon/mguns",
-  "sound": "8mm_sgmt",
-  "sound_inside": "8mm_sgmt_interior",
+  "sound": "8mm_pkt",
+  "sound_inside": "8mm_pkt_interior",
   "soundLoop": true,
   "bullet": [
     {
@@ -36,7 +36,6 @@
       "speed": 817.5,
       "Cx": 0.35262,
       "maxDistance": 2000.0,
-      "modelName": "tank_bullet_ball",
       "recoilMultiplier": 0.2,
       "normalizationPreset": "default",
       "ricochetPreset": "default",
@@ -276,7 +275,6 @@
       "speed": 865.0,
       "Cx": 0.35262,
       "maxDistance": 2000.0,
-      "modelName": "tank_bullet_ball",
       "recoilMultiplier": 0.2,
       "normalizationPreset": "default",
       "ricochetPreset": "default",

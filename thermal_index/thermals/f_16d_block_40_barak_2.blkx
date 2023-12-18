@@ -12,7 +12,7 @@
   "haveCCRPForBombs": true,
   "haveCCRPForGun": true,
   "ilsElbit967": true,
-  "hmdShelZoom": true,
+  "hmdF16c": true,
   "hasMissileCommandLine": false,
   "havePointOfInterestDesignator": true,
   "isBwOpticSight": true,
@@ -66,7 +66,7 @@
   "damagePartsToCollisionObjectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_collision_objects.blk",
   "damagePartsToFmPartsMapBlk": "gameData/FlightModels/DM/dm_parts_to_fm_parts_map.blk",
   "damagePartsToHudPartsMapBlk": "gameData/FlightModels/DM/dm_parts_to_hud_parts_map.blk",
-  "damagePartsDependencyMapBlk": "gameData/FlightModels/DM/dm_parts_dependency_map.blk",
+  "damagePartsDependencyMapBlk": "gameData/FlightModels/DM/dm_parts_additional_dependency_map.blk",
   "damagePartsToCollisionPointsMapBlk": "gameData/FlightModels/DM/dm_parts_to_collision_points_map.blk",
   "damagePartsToWeaponsMapBlk": "gameData/FlightModels/DM/dm_parts_to_weapons_map.blk",
   "damagePartsToVisualEffectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_visual_effects_map.blk",
@@ -1966,7 +1966,58 @@
     "voiceWarningSystem": "betty",
     "gun": "gun_default",
     "nozzleMoveSfx": "nozzle_moving",
-    "nozzleAngleThreshold": 0.3
+    "nozzleAngleThreshold": 0.3,
+    "voiceWarningSystemOverride": {
+      "vws_missile": {},
+      "vws_counter": {},
+      "vws_lock": {},
+      "vws_chaff_flare": {},
+      "vws_chaff_flare_low": {},
+      "vws_out": {},
+      "vws_jammer": {},
+      "vws_critical_angle": {},
+      "vws_over_g": {},
+      "vws_critical_speed": {},
+      "vws_dangerous_close": {},
+      "vws_gear_down": {},
+      "vws_check_gear": {},
+      "vws_altitude": {},
+      "vws_pull_up": {},
+      "vws_roll_left": {},
+      "vws_roll_right": {},
+      "vws_fire": {},
+      "vws_engine_fire": {},
+      "vws_engine_fire_left": {},
+      "vws_engine_fire_right": {},
+      "vws_decrease_engine_rpm": {},
+      "vws_decrease_left_engine_rpm": {},
+      "vws_decrease_right_engine_rpm": {},
+      "vws_critical_engine_vibration": {},
+      "vws_critical_left_engine_vibration": {},
+      "vws_critical_right_engine_vibration": {},
+      "vws_caution": {},
+      "vws_engine_overheat": {},
+      "vws_left_engine_overheat": {},
+      "vws_right_engine_overheat": {},
+      "vws_engine_failure": {},
+      "vws_left_engine_failure": {},
+      "vws_right_engine_failure": {},
+      "vws_warning": {},
+      "vws_generator_failure": {},
+      "vws_left_generator_failure": {},
+      "vws_right_generator_failure": {},
+      "vws_main_gearbox_failure": {},
+      "vws_tailrotor_gearbox_failure": {},
+      "vws_airbrake": {},
+      "vws_bingo": {},
+      "vws_check_fuel": {},
+      "vws_fuel_low": {},
+      "vws_lock_cockpit": {},
+      "vws_hydrosystem_failure": {},
+      "vws_eject": {},
+      "vws_increase_engine_rpm": {},
+      "vws_check_mech": {}
+    }
   },
   "propellers": {
     "prop0": -1,
@@ -2013,6 +2064,12 @@
       3.2
     ],
     "isDoubleBulletImpactLine": true,
+    "hmdBlockIlsArea": [
+      0.37,
+      0.37,
+      0.63,
+      0.63
+    ],
     "headPos": [
       4.25,
       0.85,
@@ -2354,7 +2411,7 @@
           ],
           "page": {
             "type": "rwr",
-            "scale": 1.3
+            "scale": 1.1
           }
         },
         {
@@ -2391,13 +2448,21 @@
     }
   },
   "nightVision": {
-    "sightTPodThermal": {
+    "sightThermal": {
       "resolution": [
         500,
         300
       ],
       "noiseFactor": 0.05,
       "index": 2
+    },
+    "sightTPodThermal": {
+      "resolution": [
+        800,
+        600
+      ],
+      "noiseFactor": 0.05,
+      "index": 1
     }
   },
   "sensors": {
@@ -2411,7 +2476,7 @@
       },
       {
         "blk": "gameData/sensors/ir_tracker_tgp.blk",
-        "node": "optic2_gun"
+        "node": "optic1_gun"
       },
       {
         "blk": "gameData/sensors/LaserDesignatorSensor.blk"
@@ -4150,10 +4215,18 @@
             "ghosting": 0.7,
             "noiseFactor": 0.15
           },
+          "sightTPodThermal": {
+            "resolution": [
+              800,
+              600
+            ],
+            "noiseFactor": 0.05,
+            "index": 1
+          },
           "sightThermal": {
             "resolution": [
-              1080,
-              720
+              500,
+              300
             ],
             "noiseFactor": 0.05,
             "index": 2
