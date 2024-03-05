@@ -11,7 +11,7 @@
     "antiShipBomb": true
   },
   "bomb": {
-    "bombName": "us_4000lb_anm56_box",
+    "bulletName": "us_4000lb_anm56_box",
     "mass": 1981.3,
     "mass_lbs": 4368.8,
     "caliber": 1.209,
@@ -37,7 +37,7 @@
     "explodeOnRendinst": true,
     "explosiveType": "tritonal",
     "explosiveMass": 1599.4,
-    "explodeTreshold": 1E-05,
+    "explodeTreshold": 0.00001,
     "hitPowerMult": 1.0,
     "nearHitPower": [
       1.0,

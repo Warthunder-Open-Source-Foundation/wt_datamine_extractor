@@ -9,7 +9,7 @@
     "antiShipBomb": true
   },
   "bomb": {
-    "bombName": "it_500kg_ap",
+    "bulletName": "fr_500kg_3",
     "mass": 542.0,
     "caliber": 0.49,
     "length": 2.4,
@@ -34,7 +34,7 @@
     "explodeOnRendinst": true,
     "explosiveType": "dd",
     "explosiveMass": 272.0,
-    "explodeTreshold": 1E-05,
+    "explodeTreshold": 0.00001,
     "hitPowerMult": [
       1.0,
       1.0

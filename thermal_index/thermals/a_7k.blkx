@@ -2707,7 +2707,12 @@
             ],
             "ilsOffsetForce": 0.0,
             "brightnessMult": 3.5,
-            "ilsColor": "Cv8KZA=="
+            "ilsColor": [
+              10,
+              255,
+              10,
+              100
+            ]
           }
         }
       ]
@@ -2948,7 +2953,6 @@
             },
             {
               "trigger": "countermeasures",
-              "startFx": "",
               "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
               "emitter": "emtr_flare1",
               "bullets": 60,
@@ -2957,7 +2961,6 @@
             },
             {
               "trigger": "countermeasures",
-              "startFx": "",
               "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
               "emitter": "emtr_flare2",
               "bullets": 60,
@@ -3332,7 +3335,8 @@
               "emitter": "bomb_mk84_3",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.01
             }
           },
           {
@@ -3431,7 +3435,8 @@
               "emitter": "bomb_mk84_5",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.01
             }
           },
           {
@@ -3643,7 +3648,8 @@
               "emitter": "bomb_mk84_6",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.01
             }
           },
           {
@@ -3870,7 +3876,8 @@
               "emitter": "bomb_mk84_4",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.01
             }
           },
           {
@@ -4479,12 +4486,12 @@
     "emtr_break_fin_from": [
       -4.22386,
       1.14305,
-      7.75096E-06
+      0.00000775096
     ],
     "emtr_break_fin_to": [
       -4.22386,
       3.00085,
-      7.75096E-06
+      0.00000775096
     ]
   }
 }

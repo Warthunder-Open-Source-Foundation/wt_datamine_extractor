@@ -831,23 +831,7 @@
     }
   },
   "attachables": {
-    "ex_decor_r_11_dm": true,
-    "ex_decor_l_11_dm": true,
-    "ex_decor_02_dm": true,
-    "ex_decor_03_dm": true,
-    "ex_armor_turret_l_02_dm": true,
-    "ex_armor_turret_r_02_dm": true,
-    "ex_armor_turret_l_03_dm": true,
-    "ex_armor_turret_r_03_dm": true,
-    "ex_decor_05_dm": true,
-    "ex_decor_06_dm": true,
-    "ex_decor_07_dm": true,
-    "ex_decor_08_dm": true,
-    "ex_decor_r_12_dm": true,
-    "ex_decor_l_12_dm": true,
-    "ex_decor_r_13_dm": true,
-    "ex_decor_l_14_dm": true,
-    "ex_decor_r_14_dm": true
+    "ex_armor_02_dm": false
   },
   "MetaParts": {
     "closed_fightning_compartment": {
@@ -863,7 +847,6 @@
         "gunner_02_dm",
         "loader_01_dm",
         "loader_02_dm",
-        "cannon_breech_dm",
         "radio_station_dm",
         "drive_turret_v_dm",
         "drive_turret_h_dm",
@@ -2952,7 +2935,6 @@
               "triggerGroup": "smoke",
               "blk": "gameData/Weapons/groundModels_weapons/76mm_modern_smoke_grenade_launcher.blk",
               "weaponType": "rockets",
-              "startFx": "",
               "useEmitter": true,
               "emitter": "emtr_mortar_flame_01",
               "emitterGenRange": [
@@ -3236,7 +3218,7 @@
     "replace_tex": [
       {
         "from": "ger_camo_bronzegruen*",
-        "to": "it_camo_olive_dab*"
+        "to": "it_camo_green*"
       },
       {
         "from": "leopard_1_a1_body_c*",

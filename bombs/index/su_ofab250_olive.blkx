@@ -9,7 +9,7 @@
     "antiShipBomb": true
   },
   "bomb": {
-    "bombName": "ofab250_270",
+    "bulletName": "su_ofab250_olive",
     "mass": 236.92,
     "caliber": 0.325,
     "length": 1.456,
@@ -34,7 +34,7 @@
     "explodeOnRendinst": true,
     "explosiveType": "tnt",
     "explosiveMass": 97.0,
-    "explodeTreshold": 1E-05,
+    "explodeTreshold": 0.00001,
     "hitPowerMult": 1.0,
     "nearHitPower": [
       1.0,

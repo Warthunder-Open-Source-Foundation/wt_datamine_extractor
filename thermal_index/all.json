@@ -137,6 +137,30 @@
     ]
   },
   {
+    "name": "ah_1w",
+    "localized": "AH-1W",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
+    "name": "ah_1w_china",
+    "localized": "␗AH-1W",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1024.0,
+        "y": 768.0
+      }
+    ]
+  },
+  {
     "name": "ah_1z",
     "localized": "AH-1Z",
     "vehicle_type": "Helicopter",
@@ -151,6 +175,18 @@
   {
     "name": "ah_2_rooivalk",
     "localized": "Rooivalk Mk1F CSH",
+    "vehicle_type": "Helicopter",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1920.0,
+        "y": 1080.0
+      }
+    ]
+  },
+  {
+    "name": "ah_60_iaf",
+    "localized": "✡AH-60",
     "vehicle_type": "Helicopter",
     "sights": [
       {
@@ -493,6 +529,18 @@
     ]
   },
   {
+    "name": "cn_zbd_04a",
+    "localized": "ZBD04A",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
     "name": "cn_ztl_11",
     "localized": "ZLT11",
     "vehicle_type": "Tank",
@@ -633,7 +681,41 @@
     ]
   },
   {
+    "name": "f_16c_block_50_missile_test",
+    "localized": "F-16C",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "f_16d_block_40_barak_2",
+    "localized": "Barak II",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "f_16d_block_40_barak_2_missile_test",
     "localized": "Barak II",
     "vehicle_type": "Aircraft",
     "sights": [
@@ -1322,6 +1404,18 @@
     ]
   },
   {
+    "name": "il_merkava_mk_3_raam_segol",
+    "localized": "Raam Segol",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "il_merkava_mk_3b",
     "localized": "Merkava Mk.3B",
     "vehicle_type": "Tank",
@@ -1513,6 +1607,18 @@
     ]
   },
   {
+    "name": "it_centauro_rgo_120",
+    "localized": "Centauro RGO",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
     "name": "it_dardo_vcc",
     "localized": "Dardo",
     "vehicle_type": "Tank",
@@ -1646,6 +1752,18 @@
         "crew": "Global",
         "x": 500.0,
         "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "jaguar_is",
+    "localized": "Jaguar IS",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 800.0,
+        "y": 600.0
       }
     ]
   },
@@ -1824,6 +1942,18 @@
     ]
   },
   {
+    "name": "jp_type_90b_camo",
+    "localized": "Type 90B \"\"Fuji\"\"",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "jp_type_93",
     "localized": "Type 93",
     "vehicle_type": "Tank",
@@ -1914,8 +2044,25 @@
     "sights": [
       {
         "crew": "Global",
-        "x": 1080.0,
-        "y": 720.0
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Global",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "mirage_2000_5f_missile_test",
+    "localized": "Mirage 2000-5F",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 800.0,
+        "y": 600.0
       },
       {
         "crew": "Global",
@@ -2050,7 +2197,36 @@
     ]
   },
   {
+    "name": "saab_jas39c_hungary",
+    "localized": "◔JAS39EBS HU C",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "saab_jas39c_south_africa",
+    "localized": "JAS39C",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "saab_jas39c_south_africa_missile_test",
     "localized": "JAS39C",
     "vehicle_type": "Aircraft",
     "sights": [
@@ -2075,6 +2251,18 @@
         "crew": "Commander",
         "x": 1200.0,
         "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "su_25sm3",
+    "localized": "Su-25SM3",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 640.0,
+        "y": 512.0
       }
     ]
   },
@@ -2167,7 +2355,7 @@
   },
   {
     "name": "sw_leopard_1a5no",
-    "localized": "Leopard 1A5NO",
+    "localized": "Leopard 1A5NO2",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -2268,6 +2456,18 @@
         "crew": "Gunner",
         "x": 800.0,
         "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "sw_strv121b_christian2",
+    "localized": "Christian II",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
       }
     ]
   },
@@ -2961,7 +3161,7 @@
   },
   {
     "name": "us_adats_bradley",
-    "localized": "XM1069",
+    "localized": "ADATS",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -3252,6 +3452,18 @@
     ]
   },
   {
+    "name": "us_m60_120s",
+    "localized": "120S",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "us_m60a3_slep",
     "localized": "M60 AMBT",
     "vehicle_type": "Tank",
@@ -3330,7 +3542,7 @@
   },
   {
     "name": "us_xm1_chrysler",
-    "localized": "XM-1 (Chrysler)",
+    "localized": "XM1 (Chrysler)",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -3342,7 +3554,7 @@
   },
   {
     "name": "us_xm1_gm",
-    "localized": "XM-1 (GM)",
+    "localized": "XM1 (GM)",
     "vehicle_type": "Tank",
     "sights": [
       {

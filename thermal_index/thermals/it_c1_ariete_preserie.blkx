@@ -86,8 +86,7 @@
       },
       "superstructure_front_dm": {
         "armorThickness": 35.0,
-        "armorClass": "RHAHH_tank",
-        "createSecondaryShatters": false
+        "armorClass": "RHAHH_tank"
       },
       "superstructure_side_dm": {
         "armorThickness": 10.0,
@@ -1885,7 +1884,6 @@
         "gunner_02_dm",
         "loader_01_dm",
         "loader_02_dm",
-        "cannon_breech_dm",
         "radio_station_dm",
         "drive_turret_v_dm",
         "drive_turret_h_dm",
@@ -2067,7 +2065,7 @@
     "horizontal": true
   },
   "sound": {
-    "EngineName": "engine_leo2a5",
+    "EngineName": "engine_c1_ariete",
     "TrackSoundPath": "tanks/engines_tanks",
     "TrackSoundPathStudio": "ground/engines",
     "TrackSoundName": "tracks_mbt",
@@ -3366,7 +3364,6 @@
               "triggerGroup": "smoke",
               "blk": "gameData/Weapons/groundModels_weapons/76mm_modern_smoke_grenade_launcher.blk",
               "weaponType": "rockets",
-              "startFx": "",
               "useEmitter": true,
               "emitter": "emtr_mortar_flame_01",
               "emitterGenRange": [
@@ -3521,8 +3518,6 @@
       "replenishmentDelay": 4.0,
       "shells": [
         {
-          "fatalFire": false,
-          "fatalExplosion": false,
           "firstStage": true,
           "ammo_turret_05_dm": {
             "count": 1

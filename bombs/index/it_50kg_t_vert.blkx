@@ -5,7 +5,7 @@
   "sound": "weapon.bombgun",
   "mesh": "it_50kg_t_vert",
   "bomb": {
-    "bombName": "it_50kg_t",
+    "bulletName": "it_50kg_t_vert",
     "mass": 58.0,
     "caliber": 0.252,
     "length": 1.03,
@@ -30,7 +30,7 @@
     "explodeOnRendinst": true,
     "explosiveType": "tnt",
     "explosiveMass": 25.0,
-    "explodeTreshold": 1E-05,
+    "explodeTreshold": 0.00001,
     "hitPowerMult": 1.0,
     "nearHitPower": [
       1.0,

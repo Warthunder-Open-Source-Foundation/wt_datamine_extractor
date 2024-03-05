@@ -9,7 +9,7 @@
     "antiShipBomb": true
   },
   "bomb": {
-    "bombName": "it_100kg_m",
+    "bulletName": "it_100kg_m",
     "mass": 109.0,
     "caliber": 0.25,
     "length": 1.26,
@@ -34,7 +34,7 @@
     "explodeOnRendinst": true,
     "explosiveType": "tnt",
     "explosiveMass": 27.3,
-    "explodeTreshold": 1E-05,
+    "explodeTreshold": 0.00001,
     "hitPowerMult": 1.0,
     "nearHitPower": [
       1.0,

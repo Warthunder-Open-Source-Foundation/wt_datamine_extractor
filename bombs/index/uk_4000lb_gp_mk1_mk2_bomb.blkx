@@ -7,7 +7,7 @@
   "sound": "weapon.bombgun",
   "mesh": "uk_4000lb_gp_mk1_mk2_bomb",
   "bomb": {
-    "bombName": "uk_4000lb_gp_mk1_mk2_bomb",
+    "bulletName": "uk_4000lb_gp_mk1_mk2_bomb",
     "mass": 1627.6,
     "mass_lbs": 3587.0,
     "caliber": 0.762,
@@ -33,7 +33,7 @@
     "explodeOnRendinst": true,
     "explosiveType": "amatol",
     "explosiveMass": 485.3,
-    "explodeTreshold": 1E-05,
+    "explodeTreshold": 0.00001,
     "hitPowerMult": 1.0,
     "nearHitPower": [
       1.0,

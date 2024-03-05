@@ -9,7 +9,7 @@
     "antiShipBomb": true
   },
   "bomb": {
-    "bombName": "il_360_50",
+    "bulletName": "il_360_50_kg_gp",
     "mass": 362.42,
     "caliber": 0.409,
     "length": 2.134,
@@ -34,7 +34,7 @@
     "explodeOnRendinst": true,
     "explosiveType": "tritonal",
     "explosiveMass": 175.1,
-    "explodeTreshold": 1E-05,
+    "explodeTreshold": 0.00001,
     "hitPowerMult": 1.0,
     "nearHitPower": [
       1.0,

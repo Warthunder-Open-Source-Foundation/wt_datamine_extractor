@@ -9,7 +9,7 @@
     "antiShipBomb": true
   },
   "bomb": {
-    "bombName": "type50_mod2",
+    "bulletName": "jp_navy_mod50mark2_500kg",
     "mass": 507.0,
     "caliber": 0.45,
     "length": 2.356,
@@ -34,7 +34,7 @@
     "explodeOnRendinst": true,
     "explosiveType": "shimose",
     "explosiveMass": 207.0,
-    "explodeTreshold": 1E-05,
+    "explodeTreshold": 0.00001,
     "hitPowerMult": 1.0,
     "nearHitPower": [
       1.0,

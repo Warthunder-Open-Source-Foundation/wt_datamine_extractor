@@ -9,7 +9,7 @@
     "antiShipBomb": true
   },
   "bomb": {
-    "bombName": "type92_mod25",
+    "bulletName": "jp_type92mod50",
     "mass": 500.0,
     "caliber": 0.381,
     "length": 2.533,
@@ -34,7 +34,7 @@
     "explodeOnRendinst": true,
     "explosiveType": "shimose",
     "explosiveMass": 223.0,
-    "explodeTreshold": 1E-05,
+    "explodeTreshold": 0.00001,
     "hitPowerMult": 1.0,
     "nearHitPower": [
       1.0,

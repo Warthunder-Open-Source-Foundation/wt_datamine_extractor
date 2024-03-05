@@ -9,7 +9,7 @@
     "antiShipBomb": true
   },
   "bomb": {
-    "bombName": "an_mk_83_ldgp",
+    "bulletName": "us_1000lb_gp_mk9",
     "mass": 450.9,
     "mass_lbs": 994.0,
     "caliber": 0.483,
@@ -35,7 +35,7 @@
     "explodeOnRendinst": true,
     "explosiveType": "tnt",
     "explosiveMass": 335.65,
-    "explodeTreshold": 1E-05,
+    "explodeTreshold": 0.00001,
     "hitPowerMult": 1.0,
     "nearHitPower": [
       1.0,

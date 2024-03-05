@@ -134,7 +134,7 @@
         "armorThickness": 15.0
       },
       "ex_armor_08_dm": {
-        "armorThickness": 5.0,
+        "armorThickness": 10.0,
         "armorClass": "RHA_tank"
       },
       "turret_01_front_dm": {
@@ -743,7 +743,6 @@
         "gunner_02_dm",
         "loader_01_dm",
         "loader_02_dm",
-        "cannon_breech_dm",
         "radio_station_dm",
         "drive_turret_v_dm",
         "drive_turret_h_dm",
@@ -942,7 +941,7 @@
     ]
   },
   "sound": {
-    "EngineName": "engine_t64a",
+    "EngineName": "engine_bmd4",
     "TrackSoundPath": "tanks/engines_tanks",
     "TrackSoundPathStudio": "ground/engines",
     "TrackSoundName": "tracks_bmp_modern",
@@ -3506,7 +3505,6 @@
               "triggerGroup": "smoke",
               "blk": "gameData/Weapons/groundModels_weapons/81mm_tucha_launcher.blk",
               "weaponType": "rockets",
-              "startFx": "",
               "useEmitter": true,
               "emitter": "emtr_mortar_flame_01",
               "emitterGenRange": [

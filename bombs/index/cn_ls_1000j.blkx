@@ -8,7 +8,7 @@
   "mesh_deployed": "ch_lgb_tg_1000_deployed",
   "tags": {},
   "bomb": {
-    "bombName": "cn_ls_1000j",
+    "bulletName": "cn_ls_1000j",
     "mass": 1090.0,
     "caliber": 0.377,
     "CxK": 1.775,
@@ -45,7 +45,7 @@
     "guidanceType": "laser",
     "isHasLaserChannel": true,
     "timeLife": 105.0,
-    "explodeTreshold": 1E-05,
+    "explodeTreshold": 0.00001,
     "hitPowerMult": 1.0,
     "nearHitPower": [
       1.0,

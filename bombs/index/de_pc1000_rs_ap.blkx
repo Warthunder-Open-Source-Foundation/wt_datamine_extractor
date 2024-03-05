@@ -30,7 +30,7 @@
     "explosiveType": "amatol",
     "explosiveMass": 54.0,
     "bombType": "he_bomb",
-    "bombName": "de_pc1000_rs_ap",
+    "bulletName": "de_pc1000_rs_ap",
     "dragCx": 0.097,
     "caliber": 0.398,
     "length": 2.2,
@@ -88,7 +88,7 @@
     ],
     "explosionFx": "bomb_expl_1000kg",
     "explosionPatchRadius": 17.0,
-    "explodeTreshold": 1E-05,
+    "explodeTreshold": 0.00001,
     "explodeHitPower": 1000.0,
     "explodeArmorPower": 160.0,
     "explodeRadius": [

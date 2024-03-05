@@ -1702,7 +1702,6 @@
         "gunner_02_dm",
         "loader_01_dm",
         "loader_02_dm",
-        "cannon_breech_dm",
         "radio_station_dm",
         "drive_turret_v_dm",
         "drive_turret_h_dm",
@@ -2220,20 +2219,20 @@
           ],
           "lim2": [
             -140.0,
-            -120.0,
-            -1.0,
+            -128.0,
+            -2.5,
             20.0
           ],
           "lim3": [
-            -120.0,
-            120.0,
+            -128.0,
+            128.0,
             -10.0,
             20.0
           ],
           "lim4": [
-            120.0,
+            128.0,
             140.0,
-            -1.0,
+            -2.5,
             20.0
           ],
           "lim5": [
@@ -2377,7 +2376,6 @@
         "triggerGroup": "smoke",
         "blk": "gameData/Weapons/groundModels_weapons/66mm_modern_smoke_grenade_launcher.blk",
         "weaponType": "rockets",
-        "startFx": "",
         "useEmitter": true,
         "emitter": "emtr_mortar_flame_01",
         "emitterGenRange": [
@@ -2559,14 +2557,14 @@
           -5.015,
           -10.03,
           0.0,
-          14.348,
-          7.174,
-          6.022,
-          4.87,
-          3.26,
-          2.207,
-          1.498,
-          1.02
+          13.0,
+          4.11,
+          3.27,
+          2.43,
+          2.0,
+          1.57,
+          1.27,
+          1.021
         ]
       }
     },
@@ -2577,8 +2575,8 @@
       ],
       "suspensionOffsets": [
         -0.17,
-        -0.14,
-        0.13
+        -0.03,
+        0.01
       ],
       "defaultGearRadius": 0.44,
       "topGearRadius": 0.12,
@@ -3343,20 +3341,20 @@
                 ],
                 "lim2": [
                   -140.0,
-                  -120.0,
-                  -1.0,
+                  -128.0,
+                  -2.5,
                   20.0
                 ],
                 "lim3": [
-                  -120.0,
-                  120.0,
+                  -128.0,
+                  128.0,
                   -10.0,
                   20.0
                 ],
                 "lim4": [
-                  120.0,
+                  128.0,
                   140.0,
-                  -1.0,
+                  -2.5,
                   20.0
                 ],
                 "lim5": [
@@ -3440,7 +3438,7 @@
             {
               "trigger": "gunner2",
               "triggerGroup": "machinegun",
-              "blk": "gameData/Weapons/groundModels_weapons/7_62mm_L37A2_user_machinegun.blk",
+              "blk": "gameData/Weapons/groundModels_weapons/7_62mm_l37a2_enforcer_user_machinegun.blk",
               "emitter": "bone_mg_aa_v_02",
               "flash": "emtr_mg_flame_03",
               "barrelDP": "gun_barrel_03_dm",
@@ -3449,7 +3447,7 @@
               "parkInDeadzone": false,
               "speedYaw": 90.0,
               "speedPitch": 90.0,
-              "bullets": 1700,
+              "bullets": 1600,
               "isBulletBelt": true,
               "fireConeAngle": 5.0,
               "ChainfireTime": 0.5,
@@ -3553,7 +3551,6 @@
               "triggerGroup": "smoke",
               "blk": "gameData/Weapons/groundModels_weapons/66mm_modern_smoke_grenade_launcher.blk",
               "weaponType": "rockets",
-              "startFx": "",
               "useEmitter": true,
               "emitter": "emtr_mortar_flame_01",
               "emitterGenRange": [

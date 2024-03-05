@@ -397,7 +397,7 @@
   },
   {
     "name": "de_sd10a",
-    "weight": 7.0,
+    "weight": 10.0,
     "explosive_mass": 0.75,
     "explosive_type": "tnt",
     "explosive_equiv": 1.0,
@@ -1350,6 +1350,15 @@
     "can_kill_npc_ship": true
   },
   {
+    "name": "su_fab100_default",
+    "weight": 103.5,
+    "explosive_mass": 36.02,
+    "explosive_type": "tnt",
+    "explosive_equiv": 36.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": false
+  },
+  {
     "name": "su_fab100x",
     "weight": 103.5,
     "explosive_mass": 36.02,
@@ -1456,6 +1465,15 @@
     "explosive_equiv": 325.0,
     "can_kill_npc_tank": true,
     "can_kill_npc_ship": true
+  },
+  {
+    "name": "su_fab50_default",
+    "weight": 49.76,
+    "explosive_mass": 26.35,
+    "explosive_type": "tnt",
+    "explosive_equiv": 26.0,
+    "can_kill_npc_tank": false,
+    "can_kill_npc_ship": false
   },
   {
     "name": "su_fab50x",
@@ -2062,10 +2080,10 @@
   },
   {
     "name": "uk_4000lb_hc_mk4_bomb",
-    "weight": 1782.6,
-    "explosive_mass": 1339.9,
-    "explosive_type": "amatol",
-    "explosive_equiv": 1340.0,
+    "weight": 1835.2,
+    "explosive_mass": 1392.52,
+    "explosive_type": "rdx_tnt",
+    "explosive_equiv": 1782.0,
     "can_kill_npc_tank": false,
     "can_kill_npc_ship": false
   },

@@ -9,7 +9,7 @@
   "mesh_deployed": "us_2000_lb_gbu_10_paveway_2_deployed",
   "tags": {},
   "bomb": {
-    "bombName": "us_2000_lb_gbu_10_paveway_1",
+    "bulletName": "us_gbu_10_paveway_2",
     "mass": 957.0,
     "caliber": 0.4572,
     "length": 4.318,
@@ -50,7 +50,7 @@
       5.0
     ],
     "timeLife": 60.0,
-    "explodeTreshold": 1E-05,
+    "explodeTreshold": 0.00001,
     "hitPowerMult": 1.0,
     "nearHitPower": [
       1.0,

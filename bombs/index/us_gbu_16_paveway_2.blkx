@@ -9,7 +9,7 @@
   "mesh_deployed": "us_gbu_16_deployed",
   "tags": {},
   "bomb": {
-    "bombName": "uk_1000lb_gbu_16_mk13_paveway_2",
+    "bulletName": "us_gbu_16_paveway_2",
     "mass": 495.3,
     "mass_lbs": 1092.0,
     "caliber": 0.3556,
@@ -51,7 +51,7 @@
       5.0
     ],
     "timeLife": 60.0,
-    "explodeTreshold": 1E-05,
+    "explodeTreshold": 0.00001,
     "hitPowerMult": 1.0,
     "nearHitPower": [
       1.0,

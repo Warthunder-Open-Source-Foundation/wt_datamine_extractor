@@ -1779,7 +1779,7 @@
       "cls_body": "convex_hull"
     },
     "engine": {
-      "horsePowers": 290.0,
+      "horsePowers": 320.0,
       "maxRPM": 2500.0,
       "minRPM": 600.0
     },
@@ -2754,7 +2754,6 @@
               "triggerGroup": "smoke",
               "blk": "gameData/Weapons/groundModels_weapons/76mm_modern_smoke_grenade_launcher.blk",
               "weaponType": "rockets",
-              "startFx": "",
               "useEmitter": true,
               "emitter": "emtr_mortar_flame_01",
               "emitterGenRange": [
@@ -2865,26 +2864,23 @@
   "ammoStowages": {
     "ammo1": {
       "weaponTrigger": "gunner0",
-      "removeLoadedAmmo": false,
       "fatalFire": true,
       "fatalExplosion": true,
-      "replenishmentDelay": 4.0,
-      "replenishmentTime": 15.0,
       "shells": [
         {
           "ammoLoadedInGun": true,
           "fatalFire": false,
           "fatalExplosion": false,
-          "ammo_turret_01_dm": {
+          "ammo_turret_04_dm": {
             "count": 1
           },
-          "ammo_turret_02_dm": {
+          "ammo_turret_01_dm": {
             "count": 1
           },
           "ammo_turret_03_dm": {
             "count": 1
           },
-          "ammo_turret_04_dm": {
+          "ammo_turret_02_dm": {
             "count": 1
           }
         },

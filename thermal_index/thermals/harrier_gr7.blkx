@@ -2288,7 +2288,12 @@
             ],
             "ilsOffsetForce": 0.0,
             "brightnessMult": 3.5,
-            "ilsColor": "Cv8KZA=="
+            "ilsColor": [
+              10,
+              255,
+              10,
+              100
+            ]
           }
         }
       ]
@@ -2316,6 +2321,9 @@
       },
       {
         "blk": "gameData/sensors/LaserDesignatorSensor.blk"
+      },
+      {
+        "blk": "gameData/sensors/uk_pvs2000_maw.blk"
       }
     ]
   },
@@ -2524,7 +2532,6 @@
             },
             {
               "trigger": "countermeasures",
-              "startFx": "",
               "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
               "emitter": "emtr_flare1",
               "bullets": 30,
@@ -2533,7 +2540,6 @@
             },
             {
               "trigger": "countermeasures",
-              "startFx": "",
               "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
               "emitter": "emtr_flare2",
               "bullets": 30,
@@ -2572,8 +2578,7 @@
             },
             "Weapon": {
               "trigger": "countermeasures",
-              "startFx": "",
-              "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
+              "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet_bol_pod.blk",
               "emitter": "emtr_inversion_l",
               "bullets": 160,
               "external": true,
@@ -2590,8 +2595,7 @@
             "Weapon": [
               {
                 "trigger": "countermeasures",
-                "startFx": "",
-                "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
+                "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet_bol_pod.blk",
                 "emitter": "emtr_inversion_l",
                 "bullets": 160,
                 "external": true,
@@ -2633,7 +2637,6 @@
               {
                 "reqModification": "us_aim_9m",
                 "trigger": "countermeasures",
-                "startFx": "",
                 "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet_bol_pod_aim9m.blk",
                 "emitter": "emtr_inversion_l",
                 "bullets": 160,
@@ -2697,7 +2700,8 @@
               "emitter": "500lb_he_mc_mk2_001",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.01
             },
             "DependentWeaponPreset": {
               "slot": 5,
@@ -2787,7 +2791,8 @@
               "emitter": "1000lb_gp_001",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.01
             },
             "DependentWeaponPreset": {
               "slot": 5,
@@ -2843,8 +2848,7 @@
             },
             "Weapon": {
               "trigger": "countermeasures",
-              "startFx": "",
-              "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
+              "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet_bol_pod.blk",
               "emitter": "jet_flame",
               "bullets": 160,
               "external": true,
@@ -2861,7 +2865,6 @@
               {
                 "reqModification": "uk_ltc_bol",
                 "trigger": "countermeasures",
-                "startFx": "",
                 "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet_bol_pod_aim9l.blk",
                 "emitter": "jet_flame",
                 "bullets": 160,
@@ -2905,7 +2908,6 @@
               {
                 "reqModification": "us_aim_9m",
                 "trigger": "countermeasures",
-                "startFx": "",
                 "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet_bol_pod_aim9m.blk",
                 "emitter": "jet_flame",
                 "bullets": 160,
@@ -3006,7 +3008,8 @@
               "emitter": "1000lb_gp_003",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.01
             },
             "DependentWeaponPreset": {
               "slot": 5,
@@ -3040,7 +3043,8 @@
               "emitter": "1000lb_gbu_16_003",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.01
             },
             "DependentWeaponPreset": {
               "slot": 5,
@@ -3102,8 +3106,6 @@
               "blk": "gameData/Weapons/equipment/uk_tiald_targeting_pod.blk",
               "emitter": "uk_tiald_pod",
               "bullets": 1,
-              "mass": 120.0,
-              "mass_lbs": 260.0,
               "dragCx": 0.1
             },
             "sensors": {
@@ -3263,7 +3265,8 @@
               "emitter": "1000lb_gp_004",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.01
             },
             "DependentWeaponPreset": {
               "slot": 5,
@@ -3297,7 +3300,8 @@
               "emitter": "1000lb_gbu_16_004",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.01
             },
             "DependentWeaponPreset": {
               "slot": 5,
@@ -3336,8 +3340,7 @@
             },
             "Weapon": {
               "trigger": "countermeasures",
-              "startFx": "",
-              "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
+              "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet_bol_pod.blk",
               "emitter": "jet_flame1",
               "bullets": 160,
               "external": true,
@@ -3354,7 +3357,6 @@
               {
                 "reqModification": "uk_ltc_bol",
                 "trigger": "countermeasures",
-                "startFx": "",
                 "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet_bol_pod_aim9l.blk",
                 "emitter": "jet_flame1",
                 "bullets": 160,
@@ -3398,7 +3400,6 @@
               {
                 "reqModification": "us_aim_9m",
                 "trigger": "countermeasures",
-                "startFx": "",
                 "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet_bol_pod_aim9m.blk",
                 "emitter": "jet_flame1",
                 "bullets": 160,
@@ -3499,7 +3500,8 @@
               "emitter": "1000lb_gp_002",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.01
             },
             "DependentWeaponPreset": {
               "slot": 5,
@@ -3554,8 +3556,7 @@
             },
             "Weapon": {
               "trigger": "countermeasures",
-              "startFx": "",
-              "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
+              "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet_bol_pod.blk",
               "emitter": "emtr_inversion_r",
               "bullets": 160,
               "external": true,
@@ -3572,8 +3573,7 @@
             "Weapon": [
               {
                 "trigger": "countermeasures",
-                "startFx": "",
-                "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
+                "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet_bol_pod.blk",
                 "emitter": "emtr_inversion_r",
                 "bullets": 160,
                 "external": true,
@@ -3615,7 +3615,6 @@
               {
                 "reqModification": "us_aim_9m",
                 "trigger": "countermeasures",
-                "startFx": "",
                 "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet_bol_pod_aim9m.blk",
                 "emitter": "emtr_inversion_r",
                 "bullets": 160,
@@ -3679,7 +3678,8 @@
               "emitter": "500lb_he_mc_mk2_002",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.01
             },
             "DependentWeaponPreset": {
               "slot": 5,

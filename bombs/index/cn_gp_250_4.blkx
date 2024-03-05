@@ -11,7 +11,7 @@
     "antiShipBomb": true
   },
   "bomb": {
-    "bombName": "an_mk_82_ldgp",
+    "bulletName": "cn_gp_250_4",
     "mass": 240.0,
     "mass_lbs": 529.1,
     "caliber": 0.273,
@@ -43,7 +43,7 @@
     "explodeOnRendinst": true,
     "explosiveType": "tnt",
     "explosiveMass": 91.4,
-    "explodeTreshold": 1E-05,
+    "explodeTreshold": 0.00001,
     "hitPowerMult": 1.0,
     "nearHitPower": [
       1.0,

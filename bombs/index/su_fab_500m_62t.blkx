@@ -9,7 +9,7 @@
     "antiShipBomb": true
   },
   "bomb": {
-    "bombName": "fab500sv_39",
+    "bulletName": "su_fab_500m_62t",
     "mass": 508.3,
     "caliber": 0.45,
     "length": 2.4,
@@ -35,7 +35,7 @@
     "explodeOnRendinst": true,
     "explosiveType": "tgaf_5",
     "explosiveMass": 213.0,
-    "explodeTreshold": 1E-05,
+    "explodeTreshold": 0.00001,
     "hitPowerMult": 1.0,
     "nearHitPower": [
       1.0,

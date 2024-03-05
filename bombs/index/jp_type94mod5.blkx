@@ -5,7 +5,7 @@
   "sound": "weapon.bombgun",
   "mesh": "jp_type94mod5",
   "bomb": {
-    "bombName": "type94_mod5",
+    "bulletName": "jp_type94mod5",
     "mass": 50.0,
     "caliber": 0.18,
     "length": 1.01,
@@ -30,7 +30,7 @@
     "explodeOnRendinst": true,
     "explosiveType": "tp_97",
     "explosiveMass": 19.6,
-    "explodeTreshold": 1E-05,
+    "explodeTreshold": 0.00001,
     "hitPowerMult": 1.0,
     "nearHitPower": [
       1.0,

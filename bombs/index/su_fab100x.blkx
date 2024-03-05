@@ -8,7 +8,7 @@
     "antiTankBomb": true
   },
   "bomb": {
-    "bombName": "fab100_43",
+    "bulletName": "su_fab100x",
     "mass": 103.5,
     "caliber": 0.183,
     "length": 1.033,
@@ -33,7 +33,7 @@
     "explodeOnRendinst": true,
     "explosiveType": "tnt",
     "explosiveMass": 36.02,
-    "explodeTreshold": 1E-05,
+    "explodeTreshold": 0.00001,
     "hitPowerMult": 1.0,
     "nearHitPower": [
       1.0,

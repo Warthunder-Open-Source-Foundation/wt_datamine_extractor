@@ -5,7 +5,7 @@
   "sound": "weapon.bombgun",
   "mesh": "jp_navy_type97mod6_60kg",
   "bomb": {
-    "bombName": "type94_mod6",
+    "bulletName": "jp_navy_type97mod6_60kg",
     "mass": 60.0,
     "caliber": 0.199,
     "length": 1.016,
@@ -30,7 +30,7 @@
     "explodeOnRendinst": true,
     "explosiveType": "shimose",
     "explosiveMass": 23.0,
-    "explodeTreshold": 1E-05,
+    "explodeTreshold": 0.00001,
     "hitPowerMult": 1.0,
     "nearHitPower": [
       1.0,

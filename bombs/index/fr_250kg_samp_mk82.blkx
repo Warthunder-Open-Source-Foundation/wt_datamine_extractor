@@ -12,7 +12,7 @@
     "antiShipBomb": true
   },
   "bomb": {
-    "bombName": "an_mk_82_ldgp",
+    "bulletName": "fr_250kg_samp_mk82",
     "mass": 240.9,
     "mass_lbs": 531.0,
     "caliber": 0.273,
@@ -38,7 +38,7 @@
     "explodeOnRendinst": true,
     "explosiveType": "tritonal",
     "explosiveMass": 90.0,
-    "explodeTreshold": 1E-05,
+    "explodeTreshold": 0.00001,
     "hitPowerMult": 1.0,
     "nearHitPower": [
       1.0,
