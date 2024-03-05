@@ -9,7 +9,7 @@
     "antiShipBomb": true
   },
   "bomb": {
-    "bombName": "fab250_43",
+    "bulletName": "cn_gp_250_3",
     "mass": 216.5,
     "caliber": 0.32,
     "length": 1.766,
@@ -34,7 +34,7 @@
     "explodeOnRendinst": true,
     "explosiveType": "tnt",
     "explosiveMass": 91.4,
-    "explodeTreshold": 1E-05,
+    "explodeTreshold": 0.00001,
     "hitPowerMult": 1.0,
     "nearHitPower": [
       1.0,

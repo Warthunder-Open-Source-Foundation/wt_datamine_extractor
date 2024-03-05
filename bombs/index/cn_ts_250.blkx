@@ -8,7 +8,7 @@
   "mesh": "ch_lgb_tg250",
   "tags": {},
   "bomb": {
-    "bombName": "cn_ts_250_bomb",
+    "bulletName": "cn_ts_250",
     "mass": 260.0,
     "caliber": 0.299,
     "dragCx": 0.0257,
@@ -49,7 +49,7 @@
       5.0
     ],
     "timeLife": 80.0,
-    "explodeTreshold": 1E-05,
+    "explodeTreshold": 0.00001,
     "hitPowerMult": 1.0,
     "nearHitPower": [
       1.0,

@@ -151,11 +151,13 @@
       },
       "composite_armor_hull_13_dm": {
         "armorThickness": 0.01,
-        "hidableInXrayViewer": true
+        "hidableInXrayViewer": true,
+        "armorClass": "hull_side_special_armor"
       },
       "composite_armor_hull_14_dm": {
         "armorThickness": 0.01,
-        "hidableInXrayViewer": true
+        "hidableInXrayViewer": true,
+        "armorClass": "hull_side_special_armor"
       },
       "composite_armor_hull_03_dm": {
         "armorThickness": 5.0,
@@ -452,28 +454,35 @@
       "ex_armor_l_01_dm": {
         "armorThickness": 80.0,
         "armorQuality": 0.635
-      },
-      "ex_armor_l_04_dm": {
-        "armorThickness": 110.0,
-        "armorQuality": 0.23
-      },
-      "ex_armor_r_04_dm": {
-        "armorThickness": 110.0,
-        "armorQuality": 0.23
       }
+    },
+    "composite_upper_side_frame": {
+      "armorClass": "aluminum_armor_7020",
+      "hp": 800.0,
+      "armorThickness": 40.0,
+      "stopChanceOnDeadPart": 0.0,
+      "createSecondaryShatters": false,
+      "hidableInViewer": true,
+      "variableThickness": true,
+      "ex_armor_l_04_dm": {},
+      "ex_armor_r_04_dm": {},
+      "turret_09_back_dm": {},
+      "turret_10_side_dm": {}
     },
     "composite_lower_side_shields": {
       "armorClass": "hull_side_special_armor",
       "hp": 800.0,
-      "armorThickness": 250.0,
+      "armorThickness": 40.0,
       "stopChanceOnDeadPart": 0.0,
       "cumulativeArmorQuality": 0.95,
       "genericArmorQuality": 0.235,
       "createSecondaryShatters": false,
       "hidableInViewer": true,
       "variableThickness": true,
-      "ex_armor_l_05_dm": {},
-      "ex_armor_r_05_dm": {}
+      "ex_armor_l_06_dm": {},
+      "ex_armor_l_11_dm": {},
+      "ex_armor_r_06_dm": {},
+      "ex_armor_r_11_dm": {}
     },
     "turret_additional_plate": {
       "armorClass": "tank_structural_steel",
@@ -498,9 +507,10 @@
       "stopChanceOnDeadPart": 0.0,
       "createSecondaryShatters": false,
       "hidableInViewer": true,
-      "ex_armor_l_06_dm": {},
-      "ex_armor_r_06_dm": {},
+      "ex_armor_l_05_dm": {},
+      "ex_armor_r_05_dm": {},
       "turret_08_back_dm": {},
+      "turret_05_bottom_dm": {},
       "ex_decor_03_dm": {},
       "ex_decor_06_dm": {},
       "ex_decor_02_dm": {},
@@ -511,9 +521,7 @@
       "ex_decor_13_dm": {},
       "ex_decor_l_08_dm": {},
       "ex_decor_r_05_dm": {},
-      "ex_decor_l_10_dm": {},
-      "turret_09_back_dm": {},
-      "turret_10_side_dm": {}
+      "ex_decor_l_10_dm": {}
     },
     "body_rubber_screens": {
       "armorClass": "t_90_rubber_fabric_screens",
@@ -1779,7 +1787,6 @@
         "gunner_02_dm",
         "loader_01_dm",
         "loader_02_dm",
-        "cannon_breech_dm",
         "radio_station_dm",
         "drive_turret_v_dm",
         "drive_turret_h_dm",
@@ -1787,7 +1794,6 @@
         "drive_turret_h_01_dm",
         "drive_turret_v_02_dm",
         "drive_turret_h_02_dm",
-        "transmission_dm",
         "ammo_turret_dm",
         "ammo_turret_01_dm",
         "ammo_turret_02_dm",
@@ -2089,14 +2095,21 @@
       },
       {
         "xrayDmPart": "composite_armor_hull_13_dm",
-        "titleLoc": "RHA_tank_modern",
+        "titleLoc": "hull_side_special_armor",
         "armorArrayText": {
           "layer": {
             "dmPart": "composite_armor_hull_13_dm",
-            "xrayTextThickness": [
-              40.0,
-              60.0
-            ]
+            "xrayTextThickness": 200.0
+          }
+        }
+      },
+      {
+        "xrayDmPart": "composite_armor_hull_14_dm",
+        "titleLoc": "hull_side_special_armor",
+        "armorArrayText": {
+          "layer": {
+            "dmPart": "composite_armor_hull_14_dm",
+            "xrayTextThickness": 200.0
           }
         }
       }
@@ -2331,20 +2344,20 @@
           ],
           "lim2": [
             -140.0,
-            -120.0,
-            -1.0,
+            -128.0,
+            -2.5,
             20.0
           ],
           "lim3": [
-            -120.0,
-            120.0,
+            -128.0,
+            128.0,
             -10.0,
             20.0
           ],
           "lim4": [
-            120.0,
+            128.0,
             140.0,
-            -1.0,
+            -2.5,
             20.0
           ],
           "lim5": [
@@ -2399,7 +2412,7 @@
           1.0,
           15.0
         ],
-        "bullets": 2300,
+        "bullets": 2000,
         "ChainfireTime": 3.0,
         "DelayAfterShoot": 3.0,
         "accuracyAir": 0.0,
@@ -2458,7 +2471,7 @@
         "turret": {
           "head": "bone_mg_aa_h_01",
           "gun": "bone_mg_aa_v_01",
-          "gunnerDm": "commander_dm",
+          "gunnerDm": "loader_dm",
           "rotatedTurret": "bone_mg_aa_h_01"
         },
         "limits": {
@@ -2638,14 +2651,14 @@
           -5.015,
           -10.03,
           0.0,
-          14.348,
-          7.174,
-          6.022,
-          4.87,
-          3.26,
-          2.207,
-          1.498,
-          1.02
+          13.0,
+          4.11,
+          3.27,
+          2.43,
+          2.0,
+          1.57,
+          1.27,
+          1.021
         ]
       }
     },
@@ -3417,20 +3430,20 @@
                 ],
                 "lim2": [
                   -140.0,
-                  -120.0,
-                  -1.0,
+                  -128.0,
+                  -2.5,
                   20.0
                 ],
                 "lim3": [
-                  -120.0,
-                  120.0,
+                  -128.0,
+                  128.0,
                   -10.0,
                   20.0
                 ],
                 "lim4": [
-                  120.0,
+                  128.0,
                   140.0,
-                  -1.0,
+                  -2.5,
                   20.0
                 ],
                 "lim5": [
@@ -3485,7 +3498,7 @@
                 1.0,
                 15.0
               ],
-              "bullets": 2300,
+              "bullets": 2000,
               "ChainfireTime": 3.0,
               "DelayAfterShoot": 3.0,
               "accuracyAir": 0.0,
@@ -3544,7 +3557,7 @@
               "turret": {
                 "head": "bone_mg_aa_h_01",
                 "gun": "bone_mg_aa_v_01",
-                "gunnerDm": "commander_dm",
+                "gunnerDm": "loader_dm",
                 "rotatedTurret": "bone_mg_aa_h_01"
               },
               "limits": {
@@ -3652,7 +3665,6 @@
               "triggerGroup": "smoke",
               "blk": "gameData/Weapons/groundModels_weapons/66mm_modern_smoke_grenade_launcher.blk",
               "weaponType": "rockets",
-              "startFx": "",
               "useEmitter": true,
               "emitter": "emtr_mortar_flame_01",
               "emitterGenRange": [

@@ -29,7 +29,7 @@
     "explosiveType": "comp_b",
     "explosiveMass": 201.8,
     "bombType": "he_bomb",
-    "bombName": "us_agm_62a_bomb",
+    "bulletName": "us_agm_62a",
     "dragCx": 0.025,
     "caliber": 0.381,
     "length": 3.4544,
@@ -102,7 +102,7 @@
       200.0,
       1000.0
     ],
-    "explodeTreshold": 1E-05,
+    "explodeTreshold": 0.00001,
     "explodeHitPower": 1000.0,
     "explodeArmorPower": 160.0,
     "explodeRadius": [
@@ -139,6 +139,8 @@
       "warmUpTime": 1.0,
       "acquisitionTime": 0.1,
       "workTime": 3600.0,
+      "useTrippleClickLockInTpv": true,
+      "applyExtraDifficultyParameters": true,
       "uncageBeforeLaunch": true,
       "breakLockMaxTime": 2.0,
       "irSeeker": {

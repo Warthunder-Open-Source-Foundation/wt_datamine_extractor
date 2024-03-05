@@ -11,7 +11,7 @@
     "antiShipBomb": true
   },
   "bomb": {
-    "bombName": "sc2500",
+    "bulletName": "de_sc2500",
     "mass": 2400.0,
     "caliber": 0.829,
     "dragCx": 0.134,
@@ -36,7 +36,7 @@
     "explodeOnRendinst": true,
     "explosiveType": "trialen_105",
     "explosiveMass": 1700.0,
-    "explodeTreshold": 1E-05,
+    "explodeTreshold": 0.00001,
     "hitPowerMult": 1.0,
     "nearHitPower": [
       1.0,

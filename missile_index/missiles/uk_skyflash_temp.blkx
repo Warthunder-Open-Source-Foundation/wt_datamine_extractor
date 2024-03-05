@@ -110,27 +110,27 @@
       "lockAfterLaunch": true,
       "lockTimeOut": 0.75,
       "afterLaunchSpeedUp": 170.0,
-      "breakLockMaxTime": 5.0,
+      "breakLockMaxTime": 15.0,
       "radarSeeker": {
         "band": 8,
         "sideLobesAttenuation": -20.0,
         "lockAngleMax": 35.0,
         "angleMax": 46.0,
         "rateMax": 44.0,
-        "angleGateRate": 90.0,
+        "angleGateRate": 30.0,
         "prolongationTimeMax": 1.0,
         "designationSourceTypeMask": 4,
         "transmitter": {
           "power": 200.0,
           "antenna": {
-            "angleHalfSens": 10.0,
+            "angleHalfSens": 2.6,
             "sideLobesSensitivity": -30.0
           }
         },
         "receiver": {
           "rcs": 2.0,
           "range": 37000.0,
-          "rangeMax": 42000.0,
+          "rangeMax": 60000.0,
           "timeGainControl": false,
           "antenna": {
             "angleHalfSens": 10.0,
@@ -150,7 +150,7 @@
           "filterBetta": 0.02,
           "rateLimit": [
             100.0,
-            50.0
+            250.0
           ],
           "limitTimeOut": 1.0,
           "dopplerSpeedGateSearchRange": 150.0

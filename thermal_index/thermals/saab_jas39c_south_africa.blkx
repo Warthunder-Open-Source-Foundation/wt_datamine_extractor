@@ -235,6 +235,12 @@
       },
       "tank4_dm": {
         "hp": 120.5
+      },
+      "tank5_dm": {
+        "hp": 120.5
+      },
+      "tank6_dm": {
+        "hp": 120.5
       }
     }
   },
@@ -1049,6 +1055,88 @@
       },
       {
         "name": "tank4_dm",
+        "onHit": [
+          {
+            "fire": 0.0001,
+            "leak": 0.3
+          },
+          {
+            "damage": 3.0,
+            "fire": 0.001,
+            "leak": 0.5
+          },
+          {
+            "damage": 20.0,
+            "fire": 0.005,
+            "leak": 0.7
+          },
+          {
+            "damage": 80.0,
+            "expl": 0.5,
+            "fire": 0.01,
+            "leak": 0.9
+          }
+        ],
+        "onKill": [
+          {
+            "fire": 0.01,
+            "leak": 9.99
+          },
+          {
+            "damage": 50.0,
+            "fire": 50.0,
+            "leak": 15.0
+          },
+          {
+            "damage": 80.0,
+            "fire": 50.0,
+            "leak": 10.0
+          }
+        ]
+      },
+      {
+        "name": "tank5_dm",
+        "onHit": [
+          {
+            "fire": 0.0001,
+            "leak": 0.3
+          },
+          {
+            "damage": 3.0,
+            "fire": 0.001,
+            "leak": 0.5
+          },
+          {
+            "damage": 20.0,
+            "fire": 0.005,
+            "leak": 0.7
+          },
+          {
+            "damage": 80.0,
+            "expl": 0.5,
+            "fire": 0.01,
+            "leak": 0.9
+          }
+        ],
+        "onKill": [
+          {
+            "fire": 0.01,
+            "leak": 9.99
+          },
+          {
+            "damage": 50.0,
+            "fire": 50.0,
+            "leak": 15.0
+          },
+          {
+            "damage": 80.0,
+            "fire": 50.0,
+            "leak": 10.0
+          }
+        ]
+      },
+      {
+        "name": "tank6_dm",
         "onHit": [
           {
             "fire": 0.0001,
@@ -1981,7 +2069,7 @@
             },
             {
               "type": "radar",
-              "scale": 0.81,
+              "scale": 0.75,
               "hideRadarBackground": true
             },
             {
@@ -2013,7 +2101,7 @@
             },
             {
               "type": "radar",
-              "scale": 0.81,
+              "scale": 0.75,
               "hideRadarBackground": true
             }
           ]
@@ -2055,7 +2143,12 @@
             ],
             "ilsOffsetForce": 0.0,
             "brightnessMult": 2.5,
-            "ilsColor": "Cv8KZA=="
+            "ilsColor": [
+              10,
+              255,
+              10,
+              100
+            ]
           }
         }
       ]
@@ -2352,39 +2445,35 @@
             },
             {
               "trigger": "countermeasures",
-              "startFx": "",
               "blk": "gameData/Weapons/rocketGuns/countermeasure_large_launcher_jet.blk",
               "emitter": "emtr_flare1",
               "bullets": 20,
               "external": true,
-              "separate": true
+              "separate": false
             },
             {
               "trigger": "countermeasures",
-              "startFx": "",
               "blk": "gameData/Weapons/rocketGuns/countermeasure_large_launcher_jet.blk",
               "emitter": "emtr_flare2",
               "bullets": 60,
               "external": true,
-              "separate": true
+              "separate": false
             },
             {
               "trigger": "countermeasures",
-              "startFx": "",
               "blk": "gameData/Weapons/rocketGuns/countermeasure_large_launcher_jet.blk",
               "emitter": "emtr_flare3",
               "bullets": 6,
               "external": true,
-              "separate": true
+              "separate": false
             },
             {
               "trigger": "countermeasures",
-              "startFx": "",
               "blk": "gameData/Weapons/rocketGuns/countermeasure_large_launcher_jet.blk",
               "emitter": "emtr_flare4",
               "bullets": 6,
               "external": true,
-              "separate": true
+              "separate": false
             }
           ]
         }
@@ -2476,7 +2565,6 @@
             },
             "Weapon": {
               "trigger": "countermeasures",
-              "startFx": "",
               "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
               "emitter": "emtr_flare3",
               "bullets": 160,
@@ -2498,8 +2586,7 @@
               {
                 "reqModification": "uk_ltc_bol",
                 "trigger": "countermeasures",
-                "startFx": "",
-                "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
+                "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet_bol_pod.blk",
                 "emitter": "emtr_flare3",
                 "bullets": 160,
                 "external": true,
@@ -2530,8 +2617,7 @@
               {
                 "reqModification": "uk_ltc_bol",
                 "trigger": "countermeasures",
-                "startFx": "",
-                "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
+                "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet_bol_pod.blk",
                 "emitter": "emtr_flare3",
                 "bullets": 160,
                 "external": true,
@@ -2600,7 +2686,8 @@
               "emitter": "bomblavett_m71_001",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.01
             },
             "DependentWeaponPreset": {
               "slot": 5,
@@ -2620,7 +2707,8 @@
               "emitter": "bomblavett_m71_001",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.01
             },
             "DependentWeaponPreset": {
               "slot": 5,
@@ -2734,7 +2822,6 @@
             },
             "Weapon": {
               "trigger": "countermeasures",
-              "startFx": "",
               "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
               "emitter": "emtr_flare5",
               "bullets": 160,
@@ -2756,8 +2843,7 @@
               {
                 "reqModification": "uk_ltc_bol",
                 "trigger": "countermeasures",
-                "startFx": "",
-                "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
+                "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet_bol_pod.blk",
                 "emitter": "emtr_flare5",
                 "bullets": 160,
                 "external": true,
@@ -2788,9 +2874,8 @@
               {
                 "reqModification": "uk_ltc_bol",
                 "trigger": "countermeasures",
-                "startFx": "",
-                "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
-                "emitter": "emtr_flar",
+                "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet_bol_pod.blk",
+                "emitter": "emtr_flare5",
                 "bullets": 160,
                 "external": true,
                 "separate": false,
@@ -2858,7 +2943,8 @@
               "emitter": "bomblavett_m71_002",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.01
             },
             "DependentWeaponPreset": {
               "slot": 5,
@@ -2878,7 +2964,8 @@
               "emitter": "bomblavett_m71_002",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.01
             },
             "DependentWeaponPreset": {
               "slot": 5,
@@ -2898,7 +2985,8 @@
               "emitter": "bomblavett_m71_002",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.01
             },
             "DependentWeaponPreset": {
               "slot": 5,
@@ -2918,7 +3006,8 @@
               "emitter": "bomblavett_m71_002",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.01
             },
             "DependentWeaponPreset": {
               "slot": 5,
@@ -2974,6 +3063,25 @@
               "external": true,
               "separate": true
             }
+          },
+          {
+            "iconType": "ptb",
+            "name": "ptb_1",
+            "showInWeaponMenu": true,
+            "ShowNodes": {
+              "node": "pylon_2"
+            },
+            "ShowDmParts": {
+              "node": "tank5_dm"
+            },
+            "Weapon": {
+              "trigger": "fuel tanks",
+              "blk": "gameData/Weapons/drop_tank/sw_1100_gal_fuse_saab_jas39_left_wing.blk",
+              "emitter": "drop_tank_1100l_001",
+              "bullets": 1,
+              "external": true,
+              "separate": true
+            }
           }
         ]
       },
@@ -2984,7 +3092,7 @@
         "notUseforDisbalanceCalculation": true,
         "WeaponPreset": {
           "iconType": "ptb",
-          "name": "ptb",
+          "name": "ptb_2",
           "showInWeaponMenu": true,
           "ShowNodes": {
             "node": "pylon_3"
@@ -3089,7 +3197,6 @@
             },
             "Weapon": {
               "trigger": "countermeasures",
-              "startFx": "",
               "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
               "emitter": "emtr_flare6",
               "bullets": 160,
@@ -3111,8 +3218,7 @@
               {
                 "reqModification": "uk_ltc_bol",
                 "trigger": "countermeasures",
-                "startFx": "",
-                "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
+                "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet_bol_pod.blk",
                 "emitter": "emtr_flare6",
                 "bullets": 160,
                 "external": true,
@@ -3143,8 +3249,7 @@
               {
                 "reqModification": "uk_ltc_bol",
                 "trigger": "countermeasures",
-                "startFx": "",
-                "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
+                "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet_bol_pod.blk",
                 "emitter": "emtr_flare6",
                 "bullets": 160,
                 "external": true,
@@ -3213,7 +3318,8 @@
               "emitter": "bomblavett_m71_003",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.01
             },
             "DependentWeaponPreset": {
               "slot": 5,
@@ -3233,7 +3339,8 @@
               "emitter": "bomblavett_m71_003",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.01
             },
             "DependentWeaponPreset": {
               "slot": 5,
@@ -3253,7 +3360,8 @@
               "emitter": "bomblavett_m71_003",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.01
             },
             "DependentWeaponPreset": {
               "slot": 5,
@@ -3273,7 +3381,8 @@
               "emitter": "bomblavett_m71_003",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.01
             },
             "DependentWeaponPreset": {
               "slot": 5,
@@ -3325,6 +3434,25 @@
               "trigger": "bombs",
               "blk": "gameData/Weapons/BombGuns/us_1000lb_mk_83_ldgp.blk",
               "emitter": "bomblavett_m71_003",
+              "bullets": 1,
+              "external": true,
+              "separate": true
+            }
+          },
+          {
+            "iconType": "ptb",
+            "name": "ptb_3",
+            "showInWeaponMenu": true,
+            "ShowNodes": {
+              "node": "pylon_4"
+            },
+            "ShowDmParts": {
+              "node": "tank6_dm"
+            },
+            "Weapon": {
+              "trigger": "fuel tanks",
+              "blk": "gameData/Weapons/drop_tank/sw_1100_gal_fuse_saab_jas39_right_wing.blk",
+              "emitter": "drop_tank_1100l_002",
               "bullets": 1,
               "external": true,
               "separate": true
@@ -3387,7 +3515,6 @@
             },
             "Weapon": {
               "trigger": "countermeasures",
-              "startFx": "",
               "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
               "emitter": "emtr_flare4",
               "bullets": 160,
@@ -3409,8 +3536,7 @@
               {
                 "reqModification": "uk_ltc_bol",
                 "trigger": "countermeasures",
-                "startFx": "",
-                "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
+                "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet_bol_pod.blk",
                 "emitter": "emtr_flare4",
                 "bullets": 160,
                 "external": true,
@@ -3441,8 +3567,7 @@
               {
                 "reqModification": "uk_ltc_bol",
                 "trigger": "countermeasures",
-                "startFx": "",
-                "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
+                "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet_bol_pod.blk",
                 "emitter": "emtr_flare4",
                 "bullets": 160,
                 "external": true,
@@ -3511,7 +3636,8 @@
               "emitter": "bomblavett_m71_004",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.01
             },
             "DependentWeaponPreset": {
               "slot": 5,
@@ -3531,7 +3657,8 @@
               "emitter": "bomblavett_m71_004",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.01
             },
             "DependentWeaponPreset": {
               "slot": 5,

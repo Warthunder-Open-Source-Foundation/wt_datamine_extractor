@@ -863,7 +863,6 @@
         "gunner_02_dm",
         "loader_01_dm",
         "loader_02_dm",
-        "cannon_breech_dm",
         "radio_station_dm",
         "drive_turret_v_dm",
         "drive_turret_h_dm",
@@ -3114,7 +3113,7 @@
     "Weapon": [
       {
         "trigger": "gunner0",
-        "blk": "gameData/Weapons/groundModels_weapons/105mm_M68_M60A1_user_cannon.blk",
+        "blk": "gameData/Weapons/groundModels_weapons/105mm_M68_XM_user_cannon.blk",
         "emitter": "bone_gun_barrel",
         "flash": "emtr_gun_flame",
         "defaultYaw": 0.0,
@@ -3473,18 +3472,19 @@
       "image": "#ui/gameuiskin#tank_reinforcement_cn"
     },
     "art_support": {},
+    "105mm_usa_M456A2_HEAT_MP_FS": {},
     "105mm_usa_HESH": {},
     "105mm_usa_HESH_ammo_pack": {
       "tier": 1
     },
-    "105mm_usa_HEAT_FS": {},
-    "105mm_usa_HEAT_FS_ammo_pack": {
-      "tier": 2
-    },
     "105mm_us_M416_Smoke": {},
-    "105mm_us_M416_Smoke_ammo_pack": {},
+    "105mm_us_M416_Smoke_ammo_pack": {
+      "tier": 1
+    },
     "105mm_usa_M735_APDS_FS": {},
-    "105mm_usa_M735_APDS_FS_ammo_pack": {},
+    "105mm_usa_M735_APDS_FS_ammo_pack": {
+      "tier": 3
+    },
     "modern_tank_laser_rangefinder": {},
     "tank_smoke_screen_system_mod": {
       "tier": 3,
@@ -3493,7 +3493,7 @@
           "Weapon": [
             {
               "trigger": "gunner0",
-              "blk": "gameData/Weapons/groundModels_weapons/105mm_M68_M60A1_user_cannon.blk",
+              "blk": "gameData/Weapons/groundModels_weapons/105mm_M68_XM_user_cannon.blk",
               "emitter": "bone_gun_barrel",
               "flash": "emtr_gun_flame",
               "defaultYaw": 0.0,
@@ -3744,7 +3744,6 @@
               "triggerGroup": "smoke",
               "blk": "gameData/Weapons/groundModels_weapons/66mm_modern_smoke_grenade_launcher.blk",
               "weaponType": "rockets",
-              "startFx": "",
               "useEmitter": true,
               "emitter": "emtr_mortar_flame_01",
               "emitterGenRange": [

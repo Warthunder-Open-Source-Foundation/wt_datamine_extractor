@@ -124,6 +124,9 @@
       },
       "turret_03_top_dm": {
         "armorThickness": 12.7
+      },
+      "turret_03_front_dm": {
+        "armorThickness": 25.4
       }
     },
     "armor_steel": {
@@ -1670,7 +1673,7 @@
         "breechDP": "cannon_breech_dm",
         "autoLoader": true,
         "speedYaw": 40.0,
-        "speedPitch": 8.0,
+        "speedPitch": 40.0,
         "fireConeAngle": 1.0,
         "bullets": 30,
         "salvoAmount": 100.0,
@@ -2711,15 +2714,19 @@
     "105mm_us_M416_Smoke": {},
     "105mm_usa_HESH": {},
     "105mm_usa_M774_APDS_FS": {},
-    "105mm_NATO_APDS_FS": {},
+    "105mm_usa_M833_APDS_FS": {},
     "105mm_us_M416_Smoke_ammo_pack": {
       "tier": 1
     },
     "105mm_usa_HESH_ammo_pack": {
       "tier": 2
     },
-    "105mm_NATO_APDS_FS_ammo_pack": {},
-    "105mm_usa_M774_APDS_FS_ammo_pack": {},
+    "105mm_usa_M774_APDS_FS_ammo_pack": {
+      "tier": 1
+    },
+    "105mm_usa_M833_APDS_FS_ammo_pack": {
+      "tier": 4
+    },
     "tank_smoke_screen_system_mod": {
       "modClass": "protection",
       "tier": 4,
@@ -2751,7 +2758,7 @@
               "breechDP": "cannon_breech_dm",
               "autoLoader": true,
               "speedYaw": 40.0,
-              "speedPitch": 8.0,
+              "speedPitch": 40.0,
               "fireConeAngle": 1.0,
               "bullets": 30,
               "salvoAmount": 100.0,
@@ -2928,7 +2935,6 @@
               "triggerGroup": "smoke",
               "blk": "gameData/Weapons/groundModels_weapons/66mm_modern_smoke_grenade_launcher.blk",
               "weaponType": "rockets",
-              "startFx": "",
               "useEmitter": true,
               "emitter": "emtr_mortar_flame_01",
               "emitterGenRange": [

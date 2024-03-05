@@ -9,7 +9,7 @@
     "antiShipBomb": true
   },
   "bomb": {
-    "bombName": "sws_200_kg_sprengbombe",
+    "bulletName": "sws_200_kg_sprengbombe",
     "mass": 200.0,
     "caliber": 0.36,
     "length": 1.503,
@@ -34,7 +34,7 @@
     "explodeOnRendinst": true,
     "explosiveType": "comp_b",
     "explosiveMass": 105.0,
-    "explodeTreshold": 1E-05,
+    "explodeTreshold": 0.00001,
     "hitPowerMult": 1.0,
     "nearHitPower": [
       1.0,

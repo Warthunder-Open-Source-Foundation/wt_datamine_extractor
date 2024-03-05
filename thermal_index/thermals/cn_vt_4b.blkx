@@ -537,6 +537,8 @@
       "turret_06_bottom_dm": {},
       "ex_decor_l_03_dm": {},
       "ex_decor_r_03_dm": {},
+      "ex_decor_06_dm": {},
+      "ex_decor_07_dm": {},
       "ex_decor_09_dm": {},
       "ex_decor_08_dm": {},
       "turret_08_front_dm": {},
@@ -1960,7 +1962,6 @@
         "gunner_02_dm",
         "loader_01_dm",
         "loader_02_dm",
-        "cannon_breech_dm",
         "radio_station_dm",
         "drive_turret_v_dm",
         "drive_turret_h_dm",
@@ -2161,6 +2162,7 @@
           0.0
         ],
         "shellCasingExtractSound": "shell_eject_hatch",
+        "maxAdditionalPitch": 0.0,
         "defaultYaw": 0.0,
         "defaultPitch": 0.0,
         "barrelDP": "gun_barrel_dm",
@@ -2211,30 +2213,30 @@
           ],
           "lim2": [
             -102.0,
-            -50.0,
+            -45.0,
             -5.0,
             13.0
           ],
           "lim3": [
-            -50.0,
+            -45.0,
             -27.0,
-            -3.0,
+            -4.0,
             13.0
           ],
           "lim4": [
             -27.0,
             27.0,
-            -3.0,
+            -4.0,
             13.0
           ],
           "lim5": [
             27.0,
-            50.0,
-            -3.0,
+            42.0,
+            -4.0,
             13.0
           ],
           "lim6": [
-            50.0,
+            42.0,
             112.0,
             -5.0,
             13.0
@@ -3358,6 +3360,7 @@
                 0.0
               ],
               "shellCasingExtractSound": "shell_eject_hatch",
+              "maxAdditionalPitch": 0.0,
               "defaultYaw": 0.0,
               "defaultPitch": 0.0,
               "barrelDP": "gun_barrel_dm",
@@ -3408,30 +3411,30 @@
                 ],
                 "lim2": [
                   -102.0,
-                  -50.0,
+                  -45.0,
                   -5.0,
                   13.0
                 ],
                 "lim3": [
-                  -50.0,
+                  -45.0,
                   -27.0,
-                  -3.0,
+                  -4.0,
                   13.0
                 ],
                 "lim4": [
                   -27.0,
                   27.0,
-                  -3.0,
+                  -4.0,
                   13.0
                 ],
                 "lim5": [
                   27.0,
-                  50.0,
-                  -3.0,
+                  42.0,
+                  -4.0,
                   13.0
                 ],
                 "lim6": [
-                  50.0,
+                  42.0,
                   112.0,
                   -5.0,
                   13.0
@@ -3759,7 +3762,6 @@
               "triggerGroup": "smoke",
               "blk": "gameData/Weapons/groundModels_weapons/76mm_modern_smoke_grenade_launcher.blk",
               "weaponType": "rockets",
-              "startFx": "",
               "useEmitter": true,
               "emitter": "emtr_mortar_flame_10",
               "emitterGenRange": [
@@ -3841,14 +3843,12 @@
             ],
             "noiseFactor": 0.04
           },
-          "driverIr": {
+          "driverThermal": {
             "resolution": [
-              1200,
-              800
+              800,
+              600
             ],
-            "lightMult": 7.0,
-            "ghosting": 0.6,
-            "noiseFactor": 0.2
+            "noiseFactor": 0.04
           },
           "commanderIr": {
             "resolution": [

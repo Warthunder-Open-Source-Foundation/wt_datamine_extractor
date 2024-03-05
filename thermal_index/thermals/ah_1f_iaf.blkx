@@ -1121,8 +1121,8 @@
         "transition": 10.0
       },
       "descendant": {
-        "start": 1E+10,
-        "transition": 1E+10
+        "start": 10000000000.0,
+        "transition": 10000000000.0
       }
     }
   },
@@ -1342,7 +1342,12 @@
             ],
             "ilsOffsetForce": 0.0,
             "brightnessMult": 3.5,
-            "ilsColor": "yh4KeA=="
+            "ilsColor": [
+              10,
+              30,
+              202,
+              120
+            ]
           }
         }
       }
@@ -1479,7 +1484,10 @@
           {
             "name": "m197_common",
             "ShowNodes": {
-              "node": "fuse2"
+              "node": [
+                "fuse2",
+                "fuse3"
+              ]
             },
             "Weapon": [
               {
@@ -1615,7 +1623,6 @@
               },
               {
                 "trigger": "countermeasures",
-                "startFx": "",
                 "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
                 "emitter": "emtr_flare1",
                 "bullets": 30,
@@ -1624,7 +1631,6 @@
               },
               {
                 "trigger": "countermeasures",
-                "startFx": "",
                 "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
                 "emitter": "emtr_flare2",
                 "bullets": 30,
@@ -1776,7 +1782,6 @@
               },
               {
                 "trigger": "countermeasures",
-                "startFx": "",
                 "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
                 "emitter": "emtr_flare1",
                 "bullets": 30,
@@ -1785,7 +1790,6 @@
               },
               {
                 "trigger": "countermeasures",
-                "startFx": "",
                 "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
                 "emitter": "emtr_flare2",
                 "bullets": 30,

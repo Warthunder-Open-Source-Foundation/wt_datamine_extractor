@@ -30,7 +30,7 @@
     "explosiveType": "rdx_pwx",
     "explosiveMass": 359.97,
     "bombType": "he_bomb",
-    "bombName": "de_pc1800_rs_ap",
+    "bulletName": "de_pc1800_rs_ap",
     "dragCx": 0.097,
     "caliber": 0.536,
     "length": 2.69,
@@ -88,7 +88,7 @@
       200.0,
       1000.0
     ],
-    "explodeTreshold": 1E-05,
+    "explodeTreshold": 0.00001,
     "explodeHitPower": 1000.0,
     "explodeArmorPower": 160.0,
     "explodeRadius": [

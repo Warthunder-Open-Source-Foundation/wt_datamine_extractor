@@ -8,7 +8,7 @@
   "mesh": "ch_lgb_ls_500j",
   "tags": {},
   "bomb": {
-    "bombName": "cn_ls_500j_bomb",
+    "bulletName": "cn_ls_500j",
     "mass": 570.0,
     "caliber": 0.377,
     "dragCx": 0.0257,
@@ -49,7 +49,7 @@
       5.0
     ],
     "timeLife": 60.0,
-    "explodeTreshold": 1E-05,
+    "explodeTreshold": 0.00001,
     "hitPowerMult": 1.0,
     "nearHitPower": [
       1.0,

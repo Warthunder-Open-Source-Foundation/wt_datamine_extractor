@@ -1366,8 +1366,8 @@
         "transition": 10.0
       },
       "descendant": {
-        "start": 1E+10,
-        "transition": 1E+10
+        "start": 10000000000.0,
+        "transition": 10000000000.0
       }
     }
   },
@@ -1676,7 +1676,12 @@
                   192.0,
                   192.0
                 ],
-                "color": "//8A/w==",
+                "color": [
+                  0,
+                  255,
+                  255,
+                  255
+                ],
                 "valueTextSize": 30.0,
                 "ranges": {
                   "limits": [
@@ -1735,7 +1740,12 @@
                   192.0,
                   192.0
                 ],
-                "color": "Hh7//w==",
+                "color": [
+                  255,
+                  30,
+                  30,
+                  255
+                ],
                 "valueTextSize": 30.0,
                 "ranges": {
                   "limits": [
@@ -1813,7 +1823,12 @@
                   192.0,
                   192.0
                 ],
-                "color": "Hh7//w==",
+                "color": [
+                  255,
+                  30,
+                  30,
+                  255
+                ],
                 "valueTextSize": 30.0,
                 "notDrawBackground": true,
                 "ranges": {
@@ -1895,7 +1910,7 @@
             },
             {
               "type": "radar",
-              "scale": 0.85
+              "scale": 0.95
             }
           ]
         },
@@ -1934,7 +1949,12 @@
                   192.0,
                   192.0
                 ],
-                "color": "//8A/w==",
+                "color": [
+                  0,
+                  255,
+                  255,
+                  255
+                ],
                 "valueTextSize": 30.0,
                 "ranges": {
                   "limits": [
@@ -1993,7 +2013,12 @@
                   192.0,
                   192.0
                 ],
-                "color": "Hh7//w==",
+                "color": [
+                  255,
+                  30,
+                  30,
+                  255
+                ],
                 "valueTextSize": 30.0,
                 "ranges": {
                   "limits": [
@@ -2071,7 +2096,12 @@
                   192.0,
                   192.0
                 ],
-                "color": "Hh7//w==",
+                "color": [
+                  255,
+                  30,
+                  30,
+                  255
+                ],
                 "valueTextSize": 30.0,
                 "notDrawBackground": true,
                 "ranges": {
@@ -2158,7 +2188,7 @@
             },
             {
               "type": "radar",
-              "scale": 0.85
+              "scale": 0.95
             }
           ]
         },
@@ -2172,7 +2202,7 @@
           "page": [
             {
               "type": "radar",
-              "scale": 0.85
+              "scale": 0.95
             },
             {
               "type": "devices",
@@ -2198,7 +2228,12 @@
                   192.0,
                   192.0
                 ],
-                "color": "//8A/w==",
+                "color": [
+                  0,
+                  255,
+                  255,
+                  255
+                ],
                 "valueTextSize": 30.0,
                 "ranges": {
                   "limits": [
@@ -2257,7 +2292,12 @@
                   192.0,
                   192.0
                 ],
-                "color": "Hh7//w==",
+                "color": [
+                  255,
+                  30,
+                  30,
+                  255
+                ],
                 "valueTextSize": 30.0,
                 "ranges": {
                   "limits": [
@@ -2335,7 +2375,12 @@
                   192.0,
                   192.0
                 ],
-                "color": "Hh7//w==",
+                "color": [
+                  255,
+                  30,
+                  30,
+                  255
+                ],
                 "valueTextSize": 30.0,
                 "notDrawBackground": true,
                 "ranges": {
@@ -2465,7 +2510,12 @@
                   192.0,
                   192.0
                 ],
-                "color": "//8A/w==",
+                "color": [
+                  0,
+                  255,
+                  255,
+                  255
+                ],
                 "valueTextSize": 30.0,
                 "ranges": {
                   "limits": [
@@ -2524,7 +2574,12 @@
                   192.0,
                   192.0
                 ],
-                "color": "Hh7//w==",
+                "color": [
+                  255,
+                  30,
+                  30,
+                  255
+                ],
                 "valueTextSize": 30.0,
                 "ranges": {
                   "limits": [
@@ -2602,7 +2657,12 @@
                   192.0,
                   192.0
                 ],
-                "color": "Hh7//w==",
+                "color": [
+                  255,
+                  30,
+                  30,
+                  255
+                ],
                 "valueTextSize": 30.0,
                 "notDrawBackground": true,
                 "ranges": {
@@ -2684,7 +2744,7 @@
             },
             {
               "type": "radar",
-              "scale": 0.85
+              "scale": 0.95
             }
           ]
         },
@@ -2975,10 +3035,6 @@
               },
               {
                 "trigger": "countermeasures",
-                "startFx": [
-                  "",
-                  ""
-                ],
                 "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher.blk",
                 "emitter": "emtr_flare1",
                 "bullets": 64,
@@ -2987,10 +3043,6 @@
               },
               {
                 "trigger": "countermeasures",
-                "startFx": [
-                  "",
-                  ""
-                ],
                 "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher.blk",
                 "emitter": "emtr_flare2",
                 "bullets": 64,
@@ -3083,10 +3135,6 @@
               },
               {
                 "trigger": "countermeasures",
-                "startFx": [
-                  "",
-                  ""
-                ],
                 "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher.blk",
                 "emitter": "emtr_flare1",
                 "bullets": 64,
@@ -3095,10 +3143,6 @@
               },
               {
                 "trigger": "countermeasures",
-                "startFx": [
-                  "",
-                  ""
-                ],
                 "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher.blk",
                 "emitter": "emtr_flare2",
                 "bullets": 64,
@@ -4266,12 +4310,12 @@
     "emtr_break_fin_from": [
       -7.07425,
       -0.218057,
-      7.45058E-08
+      7.45058e-8
     ],
     "emtr_break_fin_to": [
       -7.07425,
       0.543784,
-      7.45058E-08
+      7.45058e-8
     ]
   }
 }
