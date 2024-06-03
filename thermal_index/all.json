@@ -54,8 +54,8 @@
     "sights": [
       {
         "crew": "Global",
-        "x": 500.0,
-        "y": 300.0
+        "x": 1024.0,
+        "y": 768.0
       },
       {
         "crew": "Global",
@@ -341,6 +341,18 @@
     ]
   },
   {
+    "name": "amx_a_1a_brazil",
+    "localized": "AMX A-1A",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
     "name": "av_8b_plus_italy",
     "localized": "⦿AV-8B Plus",
     "vehicle_type": "Aircraft",
@@ -407,7 +419,7 @@
   },
   {
     "name": "cn_mbt2000",
-    "localized": "MBT2000",
+    "localized": "MBT-2000",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -484,7 +496,7 @@
   },
   {
     "name": "cn_vt_4b",
-    "localized": "VT-4A1",
+    "localized": "VT4A1",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -535,6 +547,11 @@
     "sights": [
       {
         "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Commander",
         "x": 800.0,
         "y": 600.0
       }
@@ -656,6 +673,23 @@
     "localized": "F-14B",
     "vehicle_type": "Aircraft",
     "sights": [
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "f_16am_block_15_mlu_belgium",
+    "localized": "⦿F-16AM",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 800.0,
+        "y": 600.0
+      },
       {
         "crew": "Global",
         "x": 500.0,
@@ -1002,6 +1036,23 @@
         "crew": "Gunner",
         "x": 500.0,
         "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "germ_leopard_2a4m_can",
+    "localized": "Leopard 2A4M",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      },
+      {
+        "crew": "Commander",
+        "x": 1200.0,
+        "y": 800.0
       }
     ]
   },
@@ -1503,6 +1554,23 @@
     ]
   },
   {
+    "name": "il_namer_rcws_30",
+    "localized": "Namer 30",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      },
+      {
+        "crew": "Commander",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
     "name": "it_ariete_amv_pt1",
     "localized": "Ariete AMV",
     "vehicle_type": "Tank",
@@ -1615,6 +1683,11 @@
         "crew": "Gunner",
         "x": 800.0,
         "y": 600.0
+      },
+      {
+        "crew": "Commander",
+        "x": 800.0,
+        "y": 600.0
       }
     ]
   },
@@ -1680,6 +1753,23 @@
         "crew": "Gunner",
         "x": 500.0,
         "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "it_leopard_2a7_hungary",
+    "localized": "Leopard 2A7HU",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      },
+      {
+        "crew": "Commander",
+        "x": 1200.0,
+        "y": 800.0
       }
     ]
   },
@@ -1943,7 +2033,7 @@
   },
   {
     "name": "jp_type_90b_camo",
-    "localized": "Type 90B \"\"Fuji\"\"",
+    "localized": "Type 90 (B) \"\"Fuji\"\"",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -2157,6 +2247,11 @@
         "crew": "Global",
         "x": 500.0,
         "y": 300.0
+      },
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
       }
     ]
   },
@@ -2197,6 +2292,18 @@
     ]
   },
   {
+    "name": "saab_jas39c",
+    "localized": "JAS39C",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
     "name": "saab_jas39c_hungary",
     "localized": "◔JAS39EBS HU C",
     "vehicle_type": "Aircraft",
@@ -2215,7 +2322,7 @@
   },
   {
     "name": "saab_jas39c_south_africa",
-    "localized": "JAS39C",
+    "localized": "⦿JAS39C",
     "vehicle_type": "Aircraft",
     "sights": [
       {
@@ -2633,6 +2740,18 @@
   {
     "name": "tornado_f3",
     "localized": "Tornado F.3",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "tornado_f3_late",
+    "localized": "Tornado F.3 Late",
     "vehicle_type": "Aircraft",
     "sights": [
       {
@@ -3458,8 +3577,8 @@
     "sights": [
       {
         "crew": "Gunner",
-        "x": 500.0,
-        "y": 300.0
+        "x": 800.0,
+        "y": 600.0
       }
     ]
   },

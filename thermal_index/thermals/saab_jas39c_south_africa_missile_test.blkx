@@ -54,11 +54,11 @@
   "disableExhaustFxIfContrailIsActive": true,
   "overheatBlk": "gameData/FlightModels/dm/overheat.blk",
   "damagePartsToCollisionObjectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_collision_objects.blk",
-  "damagePartsToFmPartsMapBlk": "gameData/FlightModels/DM/dm_parts_to_fm_parts_map_tailless.blk",
+  "damagePartsToFmPartsMapBlk": "gameData/FlightModels/DM/dm_parts_to_fm_parts_map_jac.blk",
   "damagePartsToHudPartsMapBlk": "gameData/FlightModels/DM/dm_parts_to_hud_parts_map.blk",
   "damagePartsDependencyMapBlk": "gameData/FlightModels/DM/dm_parts_additional_dependency_map.blk",
-  "damagePartsToCollisionPointsMapBlk": "gameData/FlightModels/DM/dm_parts_to_collision_points_map_canard.blk",
-  "damagePartsToWeaponsMapBlk": "gameData/FlightModels/DM/dm_parts_to_weapons_map_canard.blk",
+  "damagePartsToCollisionPointsMapBlk": "gameData/FlightModels/DM/dm_parts_to_collision_points_map_jac.blk",
+  "damagePartsToWeaponsMapBlk": "gameData/FlightModels/DM/dm_parts_to_weapons_map_jac.blk",
   "damagePartsToVisualEffectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_visual_effects_map.blk",
   "damagePartsExcludeFromHoleBlk": "gameData/FlightModels/DM/dm_parts_exclude_from_hole.blk",
   "explosion_dmBlk": "gameData/FlightModels/DM/commonExplosion.blk",
@@ -101,11 +101,11 @@
       },
       "elevon_l_dm": {
         "genericDamageMult": 0.3,
-        "hp": 16.1
+        "hp": 17.4
       },
       "elevon_r_dm": {
         "genericDamageMult": 0.3,
-        "hp": 17.8
+        "hp": 17.4
       },
       "fin_dm": {
         "hp": 30.5
@@ -217,7 +217,7 @@
     },
     "steel_cooling_sys": {
       "oil1_dm": {
-        "hp": 15.5
+        "hp": 13.4
       }
     },
     "steel_pilot": {
@@ -227,23 +227,37 @@
       }
     },
     "steel_tank_armor": {
-      "tank1_dm": {
+      "tank10_dm": {
         "hp": 120.5
+      },
+      "tank1_dm": {
+        "hp": 85.5
       },
       "tank2_dm": {
         "hp": 120.5
       },
       "tank3_dm": {
+        "hp": 85.5
+      },
+      "tank7_dm": {
         "hp": 120.5
       },
+      "tank8_dm": {
+        "hp": 111.3
+      },
+      "tank9_dm": {
+        "hp": 98.3
+      }
+    },
+    "steel_tank_s": {
       "tank4_dm": {
-        "hp": 120.5
+        "hp": 80.5
       },
       "tank5_dm": {
-        "hp": 120.5
+        "hp": 80.5
       },
       "tank6_dm": {
-        "hp": 120.5
+        "hp": 80.5
       }
     }
   },
@@ -934,6 +948,47 @@
         "name": "tailcontrol_dm"
       },
       {
+        "name": "tank10_dm",
+        "onHit": [
+          {
+            "fire": 0.0001,
+            "leak": 0.3
+          },
+          {
+            "damage": 3.0,
+            "fire": 0.001,
+            "leak": 0.5
+          },
+          {
+            "damage": 20.0,
+            "fire": 0.005,
+            "leak": 0.7
+          },
+          {
+            "damage": 80.0,
+            "expl": 0.5,
+            "fire": 0.01,
+            "leak": 0.9
+          }
+        ],
+        "onKill": [
+          {
+            "fire": 0.01,
+            "leak": 9.99
+          },
+          {
+            "damage": 50.0,
+            "fire": 50.0,
+            "leak": 15.0
+          },
+          {
+            "damage": 80.0,
+            "fire": 50.0,
+            "leak": 10.0
+          }
+        ]
+      },
+      {
         "name": "tank1_dm",
         "onHit": [
           {
@@ -1060,45 +1115,130 @@
         "name": "tank4_dm",
         "onHit": [
           {
-            "fire": 0.0001,
-            "leak": 0.3
-          },
-          {
-            "damage": 3.0,
-            "fire": 0.001,
-            "leak": 0.5
+            "fire": 0.05,
+            "leak": 0.7
           },
           {
             "damage": 20.0,
-            "fire": 0.005,
-            "leak": 0.7
+            "fire": 0.3,
+            "leak": 0.8
+          },
+          {
+            "damage": 50.0,
+            "fire": 0.9,
+            "leak": 0.9
           },
           {
             "damage": 80.0,
             "expl": 0.5,
-            "fire": 0.01,
+            "fire": 0.9,
             "leak": 0.9
           }
         ],
         "onKill": [
           {
-            "fire": 0.01,
-            "leak": 9.99
+            "fire": 10.0,
+            "leak": 10.0,
+            "nothing": 80.0
           },
           {
             "damage": 50.0,
-            "fire": 50.0,
-            "leak": 15.0
+            "fire": 25.0,
+            "leak": 35.0
           },
           {
             "damage": 80.0,
             "fire": 50.0,
-            "leak": 10.0
+            "leak": 30.0
           }
         ]
       },
       {
         "name": "tank5_dm",
+        "onHit": [
+          {
+            "fire": 0.05,
+            "leak": 0.7
+          },
+          {
+            "damage": 20.0,
+            "fire": 0.3,
+            "leak": 0.8
+          },
+          {
+            "damage": 50.0,
+            "fire": 0.9,
+            "leak": 0.9
+          },
+          {
+            "damage": 80.0,
+            "expl": 0.5,
+            "fire": 0.9,
+            "leak": 0.9
+          }
+        ],
+        "onKill": [
+          {
+            "fire": 10.0,
+            "leak": 10.0,
+            "nothing": 80.0
+          },
+          {
+            "damage": 50.0,
+            "fire": 25.0,
+            "leak": 35.0
+          },
+          {
+            "damage": 80.0,
+            "fire": 50.0,
+            "leak": 30.0
+          }
+        ]
+      },
+      {
+        "name": "tank6_dm",
+        "onHit": [
+          {
+            "fire": 0.05,
+            "leak": 0.7
+          },
+          {
+            "damage": 20.0,
+            "fire": 0.3,
+            "leak": 0.8
+          },
+          {
+            "damage": 50.0,
+            "fire": 0.9,
+            "leak": 0.9
+          },
+          {
+            "damage": 80.0,
+            "expl": 0.5,
+            "fire": 0.9,
+            "leak": 0.9
+          }
+        ],
+        "onKill": [
+          {
+            "fire": 10.0,
+            "leak": 10.0,
+            "nothing": 80.0
+          },
+          {
+            "damage": 50.0,
+            "fire": 25.0,
+            "leak": 35.0
+          },
+          {
+            "damage": 80.0,
+            "fire": 50.0,
+            "leak": 30.0
+          }
+        ]
+      },
+      {
+        "name": "tank7_dm",
         "onHit": [
           {
             "fire": 0.0001,
@@ -1139,7 +1279,48 @@
         ]
       },
       {
-        "name": "tank6_dm",
+        "name": "tank8_dm",
+        "onHit": [
+          {
+            "fire": 0.0001,
+            "leak": 0.3
+          },
+          {
+            "damage": 3.0,
+            "fire": 0.001,
+            "leak": 0.5
+          },
+          {
+            "damage": 20.0,
+            "fire": 0.005,
+            "leak": 0.7
+          },
+          {
+            "damage": 80.0,
+            "expl": 0.5,
+            "fire": 0.01,
+            "leak": 0.9
+          }
+        ],
+        "onKill": [
+          {
+            "fire": 0.01,
+            "leak": 9.99
+          },
+          {
+            "damage": 50.0,
+            "fire": 50.0,
+            "leak": 15.0
+          },
+          {
+            "damage": 80.0,
+            "fire": 50.0,
+            "leak": 10.0
+          }
+        ]
+      },
+      {
+        "name": "tank9_dm",
         "onHit": [
           {
             "fire": 0.0001,
@@ -1776,6 +1957,13 @@
       }
     ]
   },
+  "default_skin": {
+    "name": "saab_jas39c_south_africa",
+    "replace_tex": {
+      "from": "saab_jas39c_c*",
+      "to": "saab_jas39c_south_africa_c*"
+    }
+  },
   "ikPilot": {
     "model": "pilot_sweden_late_char",
     "maxHeadHorAngle": 60.0,
@@ -2055,11 +2243,6 @@
             0.5,
             0.5
           ],
-          "monoDisplayColor": [
-            0.37,
-            0.45,
-            0.4
-          ],
           "cameraFromShell": true,
           "page": [
             {
@@ -2072,8 +2255,8 @@
             },
             {
               "type": "radar",
-              "scale": 0.75,
-              "hideRadarBackground": true
+              "scale": 0.7,
+              "hideBackground": true
             },
             {
               "type": "rwr",
@@ -2091,10 +2274,6 @@
           "cameraFromTargetingPod": true,
           "page": [
             {
-              "type": "rwr",
-              "scale": 1.0
-            },
-            {
               "type": "thermal",
               "turretIdx": 0
             },
@@ -2103,9 +2282,13 @@
               "turretIdx": 0
             },
             {
+              "type": "rwr",
+              "scale": 1.0
+            },
+            {
               "type": "radar",
-              "scale": 0.75,
-              "hideRadarBackground": true
+              "scale": 0.7,
+              "hideBackground": true
             }
           ]
         },
@@ -2116,9 +2299,20 @@
             0.5,
             1.0
           ],
-          "page": {
-            "type": "map"
-          }
+          "page": [
+            {
+              "type": "map"
+            },
+            {
+              "type": "radar",
+              "scale": 0.7,
+              "hideBackground": true
+            },
+            {
+              "type": "rwr",
+              "scale": 1.0
+            }
+          ]
         },
         {
           "textureArea": [
@@ -2272,6 +2466,10 @@
       },
       {
         "blk": "gameData/sensors/ir_tracker_tgp.blk"
+      },
+      {
+        "blk": "gameData/sensors/LaserDesignatorSensor.blk",
+        "node": "optic2_gun"
       }
     ]
   },
@@ -2512,27 +2710,32 @@
       "tier": 1,
       "modClass": "weapon"
     },
-    "uk_skyflash": {
-      "tier": 2,
-      "modClass": "weapon",
-      "reqModification": "us_aim_9l"
-    },
     "us_aim_9m": {
       "tier": 3,
       "modClass": "weapon",
-      "reqModification": "uk_skyflash"
+      "reqModification": "us_aim_9l"
+    },
+    "sa_r_darter": {
+      "reqModification": "us_aim_9m",
+      "tier": 4,
+      "modClass": "weapon"
     },
     "us_500lb_mk82": {
       "modClass": "weapon",
-      "tier": 2
+      "tier": 1
     },
     "us_1000lb_mk83": {
       "reqModification": "us_500lb_mk82",
       "modClass": "weapon",
-      "tier": 3
+      "tier": 2
     },
     "us_agm_65b": {
       "reqModification": "us_1000lb_mk83",
+      "modClass": "weapon",
+      "tier": 3
+    },
+    "us_agm_65g": {
+      "reqModification": "us_agm_65b",
       "modClass": "weapon",
       "tier": 4
     },
@@ -2658,7 +2861,7 @@
       -3.52002
     ],
     "emtr_break_wing_tail": [
-      1.95921,
+      -1.95921,
       0.0,
       0.0
     ],

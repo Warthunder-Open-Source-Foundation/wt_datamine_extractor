@@ -5,7 +5,7 @@
   "shotFreq": 1000.25,
   "sound": "weapon.rocketgun_132",
   "helicopterGroup": 2,
-  "mesh": "us_aim_9p_sidewinder",
+  "mesh": "us_aim_9p4_sidewinder",
   "tags": {},
   "rocket": {
     "bulletName": "us_aim9p4_sidewinder",
@@ -46,7 +46,7 @@
     ],
     "normalizationPreset": "heat",
     "ricochetPreset": "he",
-    "groundRicochetPreset": "he",
+    "groundRicochetPreset": "he_ground",
     "secondaryShattersPreset": "ap",
     "stabilityThreshold": 0.05,
     "stabilityCaliberToArmorThreshold": 5.0,

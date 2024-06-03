@@ -968,7 +968,7 @@
       "maxDistance": 10000.0,
       "normalizationPreset": "heat",
       "ricochetPreset": "hesh",
-      "groundRicochetPreset": "hesh",
+      "groundRicochetPreset": "hesh_ground",
       "secondaryShattersPreset": "ap",
       "stabilityThreshold": 0.5,
       "stabilityCaliberToArmorThreshold": 5.0,
@@ -1162,6 +1162,9 @@
         "armorPower": 152.0,
         "distance": 0.152,
         "damage": 400.0
+      },
+      "splashDamage": {
+        "squashArmorThickness": 152.0
       },
       "visual": {
         "range_percent_of_ammo": [

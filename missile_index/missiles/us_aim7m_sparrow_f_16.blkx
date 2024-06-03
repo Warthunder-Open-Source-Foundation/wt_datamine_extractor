@@ -49,7 +49,7 @@
     ],
     "normalizationPreset": "heat",
     "ricochetPreset": "he",
-    "groundRicochetPreset": "he",
+    "groundRicochetPreset": "he_ground",
     "secondaryShattersPreset": "ap",
     "stabilityThreshold": 0.05,
     "stabilityCaliberToArmorThreshold": 5.0,
@@ -116,22 +116,22 @@
         "band": 8,
         "sideLobesAttenuation": -20.0,
         "lockAngleMax": 35.0,
-        "angleMax": 55.0,
+        "angleMax": 60.0,
         "rateMax": 20.0,
         "angleGateRate": 30.0,
         "prolongationTimeMax": 1.0,
         "designationSourceTypeMask": 4,
         "transmitter": {
-          "power": 200.0,
+          "power": 530.0,
           "antenna": {
-            "angleHalfSens": 12.0,
-            "sideLobesSensitivity": -30.0
+            "angleHalfSens": 4.0,
+            "sideLobesSensitivity": -32.0
           }
         },
         "receiver": {
           "rcs": 2.0,
-          "range": 40000.0,
-          "rangeMax": 70000.0,
+          "range": 50000.0,
+          "rangeMax": 75000.0,
           "timeGainControl": false,
           "antenna": {
             "angleHalfSens": 13.0,

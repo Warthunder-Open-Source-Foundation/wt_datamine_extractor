@@ -3,7 +3,7 @@ use std::str::FromStr;
 use crate::shell::demarre::{DemarreMod, penetration_from_demarre};
 use crate::util::{get_sep, parameter_to_data};
 
-pub fn shell_to_penetration(shell: &str) -> Vec<(u32, u32)> {
+pub fn shell_to_penetration(shell: &str, name: &str) -> Vec<(u32, u32)> {
 	// X axis represents ranges from 0, 100, 500, 1000, 1500, 2000, 3000, 10000 and 20000
 	let mut penetration: Vec<(u32, u32)> = vec![];
 	if shell.contains("cumulativeDamage") {
@@ -20,7 +20,14 @@ pub fn shell_to_penetration(shell: &str) -> Vec<(u32, u32)> {
 			}
 		}
 	} else if shell.contains("demarre") {
-		let speed = f64::from_str(&parameter_to_data(shell, "speed").unwrap()).unwrap();
+		let speed = f64::from_str(&parameter_to_data(shell, "speed").or({
+			match name {
+				"70mm_m247_md" => {Some("0.0".to_owned())},
+				_ => {
+					None
+				}
+			}
+		}).unwrap()).unwrap();
 
 		let caliber = f64::from_str(
 			#[allow(clippy::option_if_let_else)]

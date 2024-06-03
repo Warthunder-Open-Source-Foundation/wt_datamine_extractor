@@ -2846,7 +2846,7 @@
           "page": {
             "type": "radar",
             "scale": 0.95,
-            "hideRadarBackground": true
+            "hideBackground": true
           }
         },
         {
@@ -3668,7 +3668,8 @@
               "blk": "gameData/Weapons/containers/lau_88a_agm_65d_x_3.blk",
               "emitter": "lau_88a_1",
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.4
             },
             "BannedWeaponPreset": {
               "slot": 3,
@@ -4474,7 +4475,8 @@
               "blk": "gameData/Weapons/containers/lau_88a_agm_65d_x_3.blk",
               "emitter": "lau_88a_2",
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.4
             },
             "BannedWeaponPreset": {
               "slot": 9,
@@ -4713,10 +4715,14 @@
         "dmPart": "radar_dm"
       },
       {
-        "blk": "gameData/sensors/us_an_alr_46.blk"
+        "blk": "gameData/sensors/us_an_alr_46_v3.blk"
       },
       {
         "blk": "gameData/sensors/tv_tracker_tgp.blk",
+        "node": "optic1_gun"
+      },
+      {
+        "blk": "gameData/sensors/LaserDesignatorSensor.blk",
         "node": "optic1_gun"
       }
     ]
@@ -5152,13 +5158,13 @@
       -4.78873
     ],
     "emtr_break_wing_tail": [
-      -4.72282,
+      -5.43957,
       0.0,
       0.0
     ],
     "finCut": true,
     "emtr_break_tail_from": [
-      -4.33957,
+      -5.43957,
       -0.0996002,
       4.57764e-7
     ],

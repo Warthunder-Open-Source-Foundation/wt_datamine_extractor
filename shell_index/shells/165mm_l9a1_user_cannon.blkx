@@ -34,8 +34,8 @@
   "shouldCollideWithRendinsts": true,
   "sound_path": "tanks/weapon_tanks/cannons",
   "sound_pathStudio": "ground/weapon/cannons",
-  "sound": "152mm_ml20",
-  "sound_inside": "152mm_ml20_interior",
+  "sound": "183mm_qf_l4",
+  "sound_inside": "183mm_qf_l4_interior",
   "sfxReloadBullet": "grd_cannon_reload_heavy",
   "fxMultipleSpawn": true,
   "isBulletBelt": false,
@@ -51,7 +51,7 @@
     "Cx": 0.70234,
     "normalizationPreset": "heat",
     "ricochetPreset": "hesh",
-    "groundRicochetPreset": "hesh",
+    "groundRicochetPreset": "hesh_ground",
     "secondaryShattersPreset": "ap",
     "stabilityThreshold": 0.5,
     "stabilityCaliberToArmorThreshold": 5.0,
@@ -245,6 +245,9 @@
       "armorPower": 203.0,
       "distance": 0.203,
       "damage": 800.0
+    },
+    "splashDamage": {
+      "squashArmorThickness": 203.0
     },
     "visual": {
       "range_percent_of_ammo": [
@@ -495,7 +498,7 @@
       "Cx": 0.70234,
       "normalizationPreset": "heat",
       "ricochetPreset": "hesh",
-      "groundRicochetPreset": "hesh",
+      "groundRicochetPreset": "hesh_ground",
       "secondaryShattersPreset": "ap",
       "stabilityThreshold": 0.5,
       "stabilityCaliberToArmorThreshold": 5.0,
@@ -689,6 +692,9 @@
         "armorPower": 203.0,
         "distance": 0.203,
         "damage": 800.0
+      },
+      "splashDamage": {
+        "squashArmorThickness": 203.0
       },
       "visual": {
         "range_percent_of_ammo": [

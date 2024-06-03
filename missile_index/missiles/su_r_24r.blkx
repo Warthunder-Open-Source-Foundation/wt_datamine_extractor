@@ -8,7 +8,7 @@
   "mesh": "su_r_24r_rocket",
   "tags": {},
   "rocket": {
-    "bulletName": "su_r24r",
+    "bulletName": "su_r_24r",
     "statType": "hydra",
     "caliber": 0.2,
     "length": 4.487,
@@ -46,7 +46,7 @@
     ],
     "normalizationPreset": "heat",
     "ricochetPreset": "he",
-    "groundRicochetPreset": "he",
+    "groundRicochetPreset": "he_ground",
     "secondaryShattersPreset": "ap",
     "stabilityThreshold": 0.05,
     "stabilityCaliberToArmorThreshold": 5.0,

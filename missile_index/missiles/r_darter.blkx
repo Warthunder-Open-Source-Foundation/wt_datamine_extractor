@@ -5,7 +5,7 @@
   "shotFreq": 1000.25,
   "sound": "weapon.rocketgun_132",
   "helicopterGroup": 2,
-  "mesh": "us_aim_120b_missile",
+  "mesh": "r_darter",
   "tags": {},
   "rocket": {
     "bulletName": "r_darter",
@@ -49,7 +49,7 @@
     ],
     "normalizationPreset": "heat",
     "ricochetPreset": "he",
-    "groundRicochetPreset": "he",
+    "groundRicochetPreset": "he_ground",
     "secondaryShattersPreset": "ap",
     "stabilityThreshold": 0.05,
     "stabilityCaliberToArmorThreshold": 5.0,
@@ -117,8 +117,7 @@
       "breakLockMaxTime": 100.0,
       "inertialGuidance": {
         "inertialNavigationDriftSpeed": 2.0,
-        "datalink": true,
-        "reconnectDatalink": true
+        "datalink": true
       },
       "radarSeeker": {
         "band": 8,
@@ -132,7 +131,7 @@
         "transmitter": {
           "power": 100.0,
           "antenna": {
-            "angleHalfSens": 7.5,
+            "angleHalfSens": 15.0,
             "sideLobesSensitivity": -30.0
           }
         },
@@ -142,7 +141,7 @@
           "rangeMax": 25000.0,
           "timeGainControl": false,
           "antenna": {
-            "angleHalfSens": 7.5,
+            "angleHalfSens": 15.0,
             "sideLobesSensitivity": -30.0
           }
         },
@@ -151,7 +150,7 @@
           "minValue": -3000.0,
           "maxValue": 3000.0,
           "width": 20.0,
-          "refWidth": 100.0,
+          "refWidth": 80.0,
           "signalWidthMin": 5.0
         },
         "dopplerSpeedGate": {

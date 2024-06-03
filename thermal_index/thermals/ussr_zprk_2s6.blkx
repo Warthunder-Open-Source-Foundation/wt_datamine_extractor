@@ -101,6 +101,9 @@
       "ex_armor_02_dm": {
         "armorThickness": 9.0
       },
+      "ex_armor_03_dm": {
+        "armorThickness": 9.0
+      },
       "ex_decor_12_dm": {
         "armorThickness": 10.0
       },
@@ -141,6 +144,30 @@
         "armorThickness": 5.0
       },
       "ex_decor_l_07_dm": {
+        "armorClass": "tank_structural_steel",
+        "armorThickness": 5.0
+      },
+      "ex_decor_r_02_dm": {
+        "armorClass": "tank_structural_steel",
+        "armorThickness": 5.0
+      },
+      "ex_decor_l_02_dm": {
+        "armorClass": "tank_structural_steel",
+        "armorThickness": 5.0
+      },
+      "ex_armor_l_01_dm": {
+        "armorClass": "tank_structural_steel",
+        "armorThickness": 5.0
+      },
+      "ex_armor_r_01_dm": {
+        "armorClass": "tank_structural_steel",
+        "armorThickness": 5.0
+      },
+      "ex_armor_l_02_dm": {
+        "armorClass": "tank_structural_steel",
+        "armorThickness": 5.0
+      },
+      "ex_armor_r_02_dm": {
         "armorClass": "tank_structural_steel",
         "armorThickness": 5.0
       }
@@ -323,6 +350,12 @@
       "wheel_l_drive_dm": {},
       "wheel_r_front_dm": {},
       "wheel_l_front_dm": {},
+      "wheel_l_top_01_dm": {},
+      "wheel_l_top_02_dm": {},
+      "wheel_l_top_03_dm": {},
+      "wheel_r_top_01_dm": {},
+      "wheel_r_top_02_dm": {},
+      "wheel_r_top_03_dm": {},
       "wheel_support_dm": {
         "armorThickness": 22.0
       }
@@ -376,11 +409,12 @@
       "fireProtectionHp": 5.0,
       "hidableInViewer": false,
       "drive_turret_v_dm": {
-        "hp": 150.0,
         "armorThrough": 15.0
       },
       "drive_turret_h_dm": {
-        "hp": 150.0,
+        "armorThrough": 15.0
+      },
+      "driver_controls_dm": {
         "armorThrough": 15.0
       },
       "drive_turret_v_01_dm": {
@@ -399,20 +433,52 @@
         "hp": 40.0,
         "armorThrough": 15.0
       },
-      "radiator_dm": {
+      "drive_turret_v_03_dm": {
         "hp": 40.0,
+        "armorThrough": 15.0
+      },
+      "drive_turret_h_03_dm": {
+        "hp": 40.0,
+        "armorThrough": 15.0
+      },
+      "drive_turret_v_04_dm": {
+        "hp": 40.0,
+        "armorThrough": 15.0
+      },
+      "drive_turret_h_04_dm": {
+        "hp": 40.0,
+        "armorThrough": 15.0
+      },
+      "drive_turret_v_05_dm": {
+        "hp": 40.0,
+        "armorThrough": 15.0
+      },
+      "drive_turret_h_05_dm": {
+        "hp": 40.0,
+        "armorThrough": 15.0
+      },
+      "radiator_dm": {
+        "hp": 50.0,
         "armorThrough": 5.0
       },
       "radiator_l_dm": {
-        "hp": 40.0,
+        "hp": 50.0,
         "armorThrough": 5.0
       },
       "radiator_r_dm": {
-        "hp": 40.0,
+        "hp": 50.0,
         "armorThrough": 5.0
       },
       "radio_station_dm": {
-        "hp": 20.0,
+        "hp": 50.0,
+        "armorThrough": 3.0
+      },
+      "electronic_equipment_dm": {
+        "hp": 50.0,
+        "armorThrough": 3.0
+      },
+      "fire_control_system_dm": {
+        "hp": 50.0,
         "armorThrough": 3.0
       }
     },
@@ -428,18 +494,18 @@
       "cannon_breech_01_dm": {
         "armorThickness": [
           10.0,
-          15.0
+          150.0
         ],
         "restrainDamage": 0.5,
-        "armorThrough": 15.0
+        "armorThrough": 150.0
       },
       "cannon_breech_02_dm": {
         "armorThickness": [
           10.0,
-          15.0
+          150.0
         ],
         "restrainDamage": 0.5,
-        "armorThrough": 15.0
+        "armorThrough": 150.0
       },
       "cannon_breech_03_dm": {
         "armorThickness": 10.0
@@ -449,6 +515,10 @@
       },
       "cannon_breech_05_dm": {
         "armorThickness": 10.0
+      },
+      "autoloader_dm": {
+        "armorThickness": 5.0,
+        "armorThrough": 5.0
       }
     },
     "power_block": {
@@ -458,10 +528,13 @@
       "fireProtectionHp": 5.0,
       "restrainDamage": 0.5,
       "engine_dm": {},
-      "transmission_dm": {}
+      "transmission_dm": {},
+      "power_system_dm": {}
     },
     "ammo": {
       "armorClass": "tank_structural_steel",
+      "genericDamageMult": 2.0,
+      "cumulativeDamageMult": 1.25,
       "hp": 300.0,
       "armorThickness": 2.0,
       "armorThrough": 10.0,
@@ -681,6 +754,7 @@
       "armorThickness": 2.0,
       "armorThrough": 12.0,
       "fireProtectionHp": 15.0,
+      "createSecondaryShatters": false,
       "fireParamsPreset": "fuel_exterior",
       "stopChanceOnDeadPart": 0.0,
       "fuel_tank_exterior_r_01_dm": {},
@@ -2185,13 +2259,21 @@
       "gearRatios": {
         "ratio": [
           -1.0,
+          -1.3385,
           -1.677,
+          -2.427,
           -3.177,
+          -4.7085,
           -6.24,
+          -12.48,
           0.0,
-          10.0,
+          12.48,
+          6.24,
+          4.7085,
           3.177,
+          2.427,
           1.677,
+          1.3385,
           1.0
         ]
       }
@@ -2665,6 +2747,13 @@
         }
       },
       {
+        "name": "hydraulic_internal",
+        "fx": {
+          "name": "tank_ex_fuel_explosion",
+          "centerDmgPart": true
+        }
+      },
+      {
         "name": "big_bang",
         "lifetime": 10.0,
         "fx": [
@@ -2920,15 +3009,6 @@
       "effects": {
         "nightVision": {
           "commanderViewIr": {
-            "resolution": [
-              800,
-              600
-            ],
-            "lightMult": 8.0,
-            "ghosting": 0.75,
-            "noiseFactor": 0.2
-          },
-          "commanderIr": {
             "resolution": [
               800,
               600
@@ -3493,6 +3573,7 @@
           }
         },
         "nightVision": {
+          "nightVisionDmPart": "fire_control_system_dm",
           "gunnerThermal": {
             "resolution": [
               1200,
@@ -3501,15 +3582,6 @@
             "noiseFactor": 0.04
           },
           "commanderViewIr": {
-            "resolution": [
-              1600,
-              1200
-            ],
-            "lightMult": 9.0,
-            "ghosting": 0.6,
-            "noiseFactor": 0.2
-          },
-          "commanderIr": {
             "resolution": [
               1600,
               1200

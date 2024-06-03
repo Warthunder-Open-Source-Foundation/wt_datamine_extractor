@@ -49,7 +49,7 @@
     ],
     "normalizationPreset": "heat",
     "ricochetPreset": "he",
-    "groundRicochetPreset": "he",
+    "groundRicochetPreset": "he_ground",
     "secondaryShattersPreset": "ap",
     "stabilityThreshold": 0.05,
     "stabilityCaliberToArmorThreshold": 5.0,
@@ -124,7 +124,7 @@
         "transmitter": {
           "power": 200.0,
           "antenna": {
-            "angleHalfSens": 12.0,
+            "angleHalfSens": 10.0,
             "sideLobesSensitivity": -30.0
           }
         },
