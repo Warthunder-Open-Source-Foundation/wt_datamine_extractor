@@ -8,7 +8,7 @@
   "mesh": "pl_5b",
   "tags": {},
   "rocket": {
-    "bulletName": "us_pl5b",
+    "bulletName": "su_pl5b",
     "statType": "hydra",
     "caliber": 0.127,
     "length": 2.892,
@@ -46,7 +46,7 @@
     ],
     "normalizationPreset": "heat",
     "ricochetPreset": "he",
-    "groundRicochetPreset": "he",
+    "groundRicochetPreset": "he_ground",
     "secondaryShattersPreset": "ap",
     "stabilityThreshold": 0.05,
     "stabilityCaliberToArmorThreshold": 5.0,

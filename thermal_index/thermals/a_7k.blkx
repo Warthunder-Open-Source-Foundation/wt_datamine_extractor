@@ -16,6 +16,10 @@
   "ilsHaveAVQ7CCIP": true,
   "ilsHaveAVQ7CCRP": true,
   "type": "typeBomber",
+  "standardExhaustFxType": "jet_exhaust",
+  "afterburnerExhaustFxType": "jet_afterburner_exhaust",
+  "startExhaustFxType": "jet_start_exhaust",
+  "disableExhaustFxIfContrailIsActive": true,
   "overheatBlk": "gameData/FlightModels/DM/overheat.blk",
   "damagePartsToCollisionObjectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_collision_objects.blk",
   "damagePartsToFmPartsMapBlk": "gameData/FlightModels/DM/dm_parts_to_fm_parts_map.blk",
@@ -3348,7 +3352,8 @@
               "blk": "gameData/Weapons/containers/lau_88a_agm_65b_x_3.blk",
               "emitter": "lau_88a_1",
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.4
             }
           }
         ]
@@ -3889,7 +3894,8 @@
               "blk": "gameData/Weapons/containers/lau_88a_agm_65b_x_3.blk",
               "emitter": "lau_88a_2",
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.4
             }
           }
         ]

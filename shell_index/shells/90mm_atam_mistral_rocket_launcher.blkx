@@ -39,7 +39,7 @@
   "bullet": {
     "normalizationPreset": "heat",
     "ricochetPreset": "he",
-    "groundRicochetPreset": "he",
+    "groundRicochetPreset": "he_ground",
     "secondaryShattersPreset": "ap_rocket",
     "stabilityThreshold": 0.5,
     "stabilityCaliberToArmorThreshold": 5.0,
@@ -107,7 +107,6 @@
       "useStartSpeed": true,
       "startSpeed": 35.0,
       "machMax": 2.5,
-      "endSpeed": 0.0,
       "maxDistance": 10000.0,
       "minDistance": 30.0,
       "rangeMax": 6000.0,
@@ -122,7 +121,7 @@
       ],
       "normalizationPreset": "heat",
       "ricochetPreset": "he",
-      "groundRicochetPreset": "he",
+      "groundRicochetPreset": "he_ground",
       "secondaryShattersPreset": "ap",
       "stabilityThreshold": 0.05,
       "stabilityCaliberToArmorThreshold": 5.0,
@@ -170,6 +169,7 @@
       "price": 3000.0,
       "amountPerTier": 2.0,
       "iconType": "missile_air_to_air_group",
+      "endSpeed": 850.0,
       "shellAnimation": "video/shells_animations/ir_homing_sam.ivf",
       "mesh": "atam_mistral_rocket_deployed",
       "guidance": {

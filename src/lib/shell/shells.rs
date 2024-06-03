@@ -85,7 +85,7 @@ impl Shell {
 				ExplosiveType::Inert
 			};
 
-			let penetration: Vec<(u32, u32)> = shell_to_penetration(bullet);
+			let penetration: Vec<(u32, u32)> = shell_to_penetration(bullet, &name);
 
 			shells.push(
 				Self {
@@ -162,12 +162,15 @@ pub fn get_shell_type(bullet: &str, name: &str, shell_type: ShellType) -> Explos
 		"40mm_m822" => {
 			explosive_type = "octol".to_owned();
 		}
+		"70mm_m247_md" => {
+			return ExplosiveType::Inert;
+		}
 		_ => {}
 	}
 	/// End edge-case-catching
 
 	if explosive_type == "" {
-		dbg!(bullet);
+		println!("{}", bullet);
 		panic!("No Explosive type! {}, {:?}", name, shell_type)
 	}
 	ExplosiveType::Energetic(
@@ -288,7 +291,8 @@ impl FromStr for ShellType {
 				Ok(Self::Practice)
 			}
 			r#""sap_hei_tank""# |
-			r#""sap_tank""# => {
+			r#""sap_tank""# |
+			r#""sap_hei_t""# => {
 				Ok(Self::SapHei)
 			}
 			r#""apcr_tank""# |
@@ -345,7 +349,7 @@ impl FromStr for ShellType {
 			r#""ahead_tank""# => {
 				Ok(Self::Ahead)
 			}
-			r#""napalm_tank""# => {
+			r#""napalm_tank""# | r#""incendiary_tank""# => {
 				Ok(Self::Napalm)
 			}
 			// This is an edge-case, apcbc can both resolve to APHE or solid AP

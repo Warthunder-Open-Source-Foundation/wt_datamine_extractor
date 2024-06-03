@@ -50,7 +50,7 @@
     "maxDistance": 10000.0,
     "normalizationPreset": "heat",
     "ricochetPreset": "he",
-    "groundRicochetPreset": "he",
+    "groundRicochetPreset": "he_ground",
     "secondaryShattersPreset": "ap",
     "stabilityThreshold": 0.5,
     "stabilityCaliberToArmorThreshold": 5.0,
@@ -481,7 +481,7 @@
       "maxDistance": 10000.0,
       "normalizationPreset": "ap",
       "ricochetPreset": "ap",
-      "groundRicochetPreset": "ap",
+      "groundRicochetPreset": "ap_ground",
       "secondaryShattersPreset": "ap",
       "stabilityThreshold": 0.05,
       "stabilityCaliberToArmorThreshold": 5.0,
@@ -701,7 +701,7 @@
       "Cx": 0.70234,
       "normalizationPreset": "heat",
       "ricochetPreset": "hesh",
-      "groundRicochetPreset": "hesh",
+      "groundRicochetPreset": "hesh_ground",
       "secondaryShattersPreset": "ap",
       "stabilityThreshold": 0.5,
       "stabilityCaliberToArmorThreshold": 5.0,
@@ -895,6 +895,9 @@
         "armorPower": 75.0,
         "distance": 0.07,
         "damage": 400.0
+      },
+      "splashDamage": {
+        "squashArmorThickness": 75.0
       },
       "visual": {
         "range_percent_of_ammo": [

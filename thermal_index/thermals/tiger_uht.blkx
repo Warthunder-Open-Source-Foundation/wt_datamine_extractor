@@ -2057,11 +2057,14 @@
   "sensors": {
     "sensor": [
       {
-        "blk": "gameData/sensors/ir_tracker.blk",
+        "blk": "gameData/sensors/ir_tracker_360.blk",
         "node": "optic1_gun"
       },
       {
         "blk": "gameData/sensors/us_alr_400.blk"
+      },
+      {
+        "blk": "gameData/sensors/LaserDesignatorSensor.blk"
       }
     ]
   },
@@ -2352,7 +2355,7 @@
               "emitter": "flare1",
               "flash": "flare1",
               "dm": "mgun1_dm",
-              "bullets": 250,
+              "bullets": 400,
               "mass": 0.4,
               "spread": 1.5,
               "traceOffset": 1,
@@ -2557,7 +2560,7 @@
               "emitter": "flare2",
               "flash": "flare2",
               "dm": "mgun2_dm",
-              "bullets": 250,
+              "bullets": 400,
               "mass": 0.4,
               "spread": 1.5,
               "traceOffset": 1,
@@ -2764,7 +2767,7 @@
         "sensors": {
           "sensor": [
             {
-              "blk": "gameData/sensors/ir_tracker.blk",
+              "blk": "gameData/sensors/ir_tracker_360.blk",
               "node": "optic1_gun"
             },
             {
@@ -2861,7 +2864,7 @@
       0.0
     ],
     "emtr_break_wing_tail": [
-      -7.30788,
+      -7.00788,
       0.0,
       0.0
     ],

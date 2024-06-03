@@ -2266,7 +2266,7 @@
           "page": [
             {
               "type": "rwr",
-              "scale": 1.15
+              "scale": 1.0
             },
             {
               "type": "map"
@@ -2431,6 +2431,10 @@
         "blk": "gameData/FlightModels/weaponPresets/harrier_gr7_uk_500lb.blk"
       },
       {
+        "name": "harrier_gr7_uk_500lb_retarded",
+        "blk": "gameData/FlightModels/weaponPresets/harrier_gr7_uk_500lb_retarded.blk"
+      },
+      {
         "name": "harrier_gr7_uk_1000lb",
         "blk": "gameData/FlightModels/weaponPresets/harrier_gr7_uk_1000lb.blk"
       },
@@ -2453,6 +2457,10 @@
       {
         "name": "harrier_gr7_agm_65d",
         "blk": "gameData/FlightModels/weaponPresets/harrier_gr7_agm_65d.blk"
+      },
+      {
+        "name": "harrier_gr7_agm_65g",
+        "blk": "gameData/FlightModels/weaponPresets/harrier_gr7_agm_65g.blk"
       },
       {
         "name": "harrier_gr7_tiald",
@@ -2582,7 +2590,8 @@
               "emitter": "emtr_inversion_l",
               "bullets": 160,
               "external": true,
-              "separate": false
+              "separate": false,
+              "mass": 25.0
             }
           },
           {
@@ -2599,7 +2608,8 @@
                 "emitter": "emtr_inversion_l",
                 "bullets": 160,
                 "external": true,
-                "separate": false
+                "separate": false,
+                "mass": 25.0
               },
               {
                 "trigger": "aam",
@@ -2641,7 +2651,8 @@
                 "emitter": "emtr_inversion_l",
                 "bullets": 160,
                 "external": true,
-                "separate": false
+                "separate": false,
+                "mass": 25.0
               },
               {
                 "reqModification": "uk_ltc_bol",
@@ -2691,6 +2702,20 @@
             }
           },
           {
+            "iconType": "bombs_middle_high_drag",
+            "name": "uk_500lbs_retard",
+            "reqModification": "uk_mk_n1_540lb",
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/uk_540lb_mc_mk2_retarded.blk",
+              "emitter": "500lb_he_mc_mk2_001",
+              "bullets": 1,
+              "external": true,
+              "separate": true,
+              "machLimit": 1.01
+            }
+          },
+          {
             "iconType": "guided_bomb_middle_laser",
             "name": "gbu_12",
             "reqModification": "us_gbu_12",
@@ -2728,7 +2753,25 @@
               "emitter": "agm_65b_001",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.4
+            }
+          },
+          {
+            "iconType": "missile_air_to_uni_large",
+            "name": "agm_65g",
+            "reqModification": "us_agm_65g",
+            "ShowNodes": {
+              "node": "lau_117_1"
+            },
+            "Weapon": {
+              "trigger": "atgm",
+              "blk": "gameData/Weapons/rocketGuns/us_agm_65g.blk",
+              "emitter": "agm_65b_001",
+              "bullets": 1,
+              "external": true,
+              "separate": true,
+              "machLimit": 1.4
             }
           },
           {
@@ -2751,6 +2794,34 @@
               "external": true,
               "blk": "gameData/Weapons/containers/fr_matra_type_155_sneb_type23.blk",
               "emitter": "matra_155_pod_dlt_b003"
+            }
+          },
+          {
+            "iconType": "bombs_middle",
+            "name": "uk_500lbs",
+            "reqModification": "uk_mk_n1_540lb",
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/uk_540lbs.blk",
+              "emitter": "1000lb_gp_001",
+              "bullets": 1,
+              "external": true,
+              "separate": true,
+              "machLimit": 1.01
+            }
+          },
+          {
+            "iconType": "bombs_middle_high_drag",
+            "name": "uk_500lbs_retard",
+            "reqModification": "uk_mk_n1_540lb",
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/uk_540lb_mc_mk2_retarded.blk",
+              "emitter": "1000lb_gp_001",
+              "bullets": 1,
+              "external": true,
+              "separate": true,
+              "machLimit": 1.01
             }
           },
           {
@@ -2852,7 +2923,8 @@
               "emitter": "jet_flame",
               "bullets": 160,
               "external": true,
-              "separate": false
+              "separate": false,
+              "mass": 25.0
             }
           },
           {
@@ -2869,7 +2941,8 @@
                 "emitter": "jet_flame",
                 "bullets": 160,
                 "external": true,
-                "separate": false
+                "separate": false,
+                "mass": 25.0
               },
               {
                 "reqModification": "us_aim_9l",
@@ -2912,7 +2985,8 @@
                 "emitter": "jet_flame",
                 "bullets": 160,
                 "external": true,
-                "separate": false
+                "separate": false,
+                "mass": 25.0
               },
               {
                 "reqModification": "uk_ltc_bol",
@@ -2945,7 +3019,25 @@
               "emitter": "agm_65b_003",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.4
+            }
+          },
+          {
+            "iconType": "missile_air_to_uni_large",
+            "name": "agm_65g",
+            "reqModification": "us_agm_65g",
+            "ShowNodes": {
+              "node": "lau_117_3"
+            },
+            "Weapon": {
+              "trigger": "atgm",
+              "blk": "gameData/Weapons/rocketGuns/us_agm_65g.blk",
+              "emitter": "agm_65b_003",
+              "bullets": 1,
+              "external": true,
+              "separate": true,
+              "machLimit": 1.4
             }
           },
           {
@@ -2968,6 +3060,34 @@
               "external": true,
               "blk": "gameData/Weapons/containers/fr_matra_type_155_sneb_type23.blk",
               "emitter": "matra_155_pod_dlt_b005"
+            }
+          },
+          {
+            "iconType": "bombs_middle",
+            "name": "uk_500lbs",
+            "reqModification": "uk_mk_n1_540lb",
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/uk_540lbs.blk",
+              "emitter": "1000lb_gp_003",
+              "bullets": 1,
+              "external": true,
+              "separate": true,
+              "machLimit": 1.01
+            }
+          },
+          {
+            "iconType": "bombs_middle_high_drag",
+            "name": "uk_500lbs_retard",
+            "reqModification": "uk_mk_n1_540lb",
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/uk_540lb_mc_mk2_retarded.blk",
+              "emitter": "1000lb_gp_003",
+              "bullets": 1,
+              "external": true,
+              "separate": true,
+              "machLimit": 1.01
             }
           },
           {
@@ -3057,6 +3177,7 @@
         "index": 5,
         "tier": 7,
         "order": 9,
+        "notUseforDisbalanceCalculation": true,
         "WeaponPreset": [
           {
             "iconType": "machine_gun",
@@ -3124,6 +3245,34 @@
         "notUseforDisbalanceCalculation": true,
         "WeaponPreset": [
           {
+            "iconType": "bombs_middle",
+            "name": "uk_500lbs",
+            "reqModification": "uk_mk_n1_540lb",
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/uk_540lbs.blk",
+              "emitter": "1000lb_gp_005",
+              "bullets": 1,
+              "external": true,
+              "separate": true,
+              "machLimit": 1.01
+            }
+          },
+          {
+            "iconType": "bombs_middle_high_drag",
+            "name": "uk_500lbs_retard",
+            "reqModification": "uk_mk_n1_540lb",
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/uk_540lb_mc_mk2_retarded.blk",
+              "emitter": "1000lb_gp_005",
+              "bullets": 1,
+              "external": true,
+              "separate": true,
+              "machLimit": 1.01
+            }
+          },
+          {
             "iconType": "bombs_large",
             "name": "uk_1000lbs",
             "reqModification": "uk_mk_10_1000lb",
@@ -3157,6 +3306,7 @@
         "index": 7,
         "tier": 5,
         "order": 10,
+        "notUseforDisbalanceCalculation": true,
         "WeaponPreset": {
           "iconType": "machine_gun",
           "name": "aden_25_right",
@@ -3202,7 +3352,25 @@
               "emitter": "agm_65b_004",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.4
+            }
+          },
+          {
+            "iconType": "missile_air_to_uni_large",
+            "name": "agm_65g",
+            "reqModification": "us_agm_65g",
+            "ShowNodes": {
+              "node": "lau_117_4"
+            },
+            "Weapon": {
+              "trigger": "atgm",
+              "blk": "gameData/Weapons/rocketGuns/us_agm_65g.blk",
+              "emitter": "agm_65b_004",
+              "bullets": 1,
+              "external": true,
+              "separate": true,
+              "machLimit": 1.4
             }
           },
           {
@@ -3225,6 +3393,34 @@
               "external": true,
               "blk": "gameData/Weapons/containers/fr_matra_type_155_sneb_type23.blk",
               "emitter": "matra_155_pod_dlt_b006"
+            }
+          },
+          {
+            "iconType": "bombs_middle",
+            "name": "uk_500lbs",
+            "reqModification": "uk_mk_n1_540lb",
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/uk_540lbs.blk",
+              "emitter": "1000lb_gp_004",
+              "bullets": 1,
+              "external": true,
+              "separate": true,
+              "machLimit": 1.01
+            }
+          },
+          {
+            "iconType": "bombs_middle_high_drag",
+            "name": "uk_500lbs_retard",
+            "reqModification": "uk_mk_n1_540lb",
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/uk_540lb_mc_mk2_retarded.blk",
+              "emitter": "1000lb_gp_004",
+              "bullets": 1,
+              "external": true,
+              "separate": true,
+              "machLimit": 1.01
             }
           },
           {
@@ -3344,7 +3540,8 @@
               "emitter": "jet_flame1",
               "bullets": 160,
               "external": true,
-              "separate": false
+              "separate": false,
+              "mass": 25.0
             }
           },
           {
@@ -3361,7 +3558,8 @@
                 "emitter": "jet_flame1",
                 "bullets": 160,
                 "external": true,
-                "separate": false
+                "separate": false,
+                "mass": 25.0
               },
               {
                 "reqModification": "us_aim_9l",
@@ -3404,7 +3602,8 @@
                 "emitter": "jet_flame1",
                 "bullets": 160,
                 "external": true,
-                "separate": false
+                "separate": false,
+                "mass": 25.0
               },
               {
                 "reqModification": "uk_ltc_bol",
@@ -3437,7 +3636,25 @@
               "emitter": "agm_65b_002",
               "bullets": 1,
               "external": true,
-              "separate": true
+              "separate": true,
+              "machLimit": 1.4
+            }
+          },
+          {
+            "iconType": "missile_air_to_uni_large",
+            "name": "agm_65g",
+            "reqModification": "us_agm_65g",
+            "ShowNodes": {
+              "node": "lau_117_2"
+            },
+            "Weapon": {
+              "trigger": "atgm",
+              "blk": "gameData/Weapons/rocketGuns/us_agm_65g.blk",
+              "emitter": "agm_65b_002",
+              "bullets": 1,
+              "external": true,
+              "separate": true,
+              "machLimit": 1.4
             }
           },
           {
@@ -3460,6 +3677,34 @@
               "external": true,
               "blk": "gameData/Weapons/containers/fr_matra_type_155_sneb_type23.blk",
               "emitter": "matra_155_pod_dlt_b004"
+            }
+          },
+          {
+            "iconType": "bombs_middle",
+            "name": "uk_500lbs",
+            "reqModification": "uk_mk_n1_540lb",
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/uk_540lbs.blk",
+              "emitter": "1000lb_gp_002",
+              "bullets": 1,
+              "external": true,
+              "separate": true,
+              "machLimit": 1.01
+            }
+          },
+          {
+            "iconType": "bombs_middle_high_drag",
+            "name": "uk_500lbs_retard",
+            "reqModification": "uk_mk_n1_540lb",
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/uk_540lb_mc_mk2_retarded.blk",
+              "emitter": "1000lb_gp_002",
+              "bullets": 1,
+              "external": true,
+              "separate": true,
+              "machLimit": 1.01
             }
           },
           {
@@ -3560,7 +3805,8 @@
               "emitter": "emtr_inversion_r",
               "bullets": 160,
               "external": true,
-              "separate": false
+              "separate": false,
+              "mass": 25.0
             }
           },
           {
@@ -3577,7 +3823,8 @@
                 "emitter": "emtr_inversion_r",
                 "bullets": 160,
                 "external": true,
-                "separate": false
+                "separate": false,
+                "mass": 25.0
               },
               {
                 "trigger": "aam",
@@ -3619,7 +3866,8 @@
                 "emitter": "emtr_inversion_r",
                 "bullets": 160,
                 "external": true,
-                "separate": false
+                "separate": false,
+                "mass": 25.0
               },
               {
                 "reqModification": "uk_ltc_bol",
@@ -3661,6 +3909,20 @@
             "Weapon": {
               "trigger": "bombs",
               "blk": "gameData/Weapons/BombGuns/uk_540lbs.blk",
+              "emitter": "500lb_he_mc_mk2_002",
+              "bullets": 1,
+              "external": true,
+              "separate": true,
+              "machLimit": 1.01
+            }
+          },
+          {
+            "iconType": "bombs_middle_high_drag",
+            "name": "uk_500lbs_retard",
+            "reqModification": "uk_mk_n1_540lb",
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/uk_540lb_mc_mk2_retarded.blk",
               "emitter": "500lb_he_mc_mk2_002",
               "bullets": 1,
               "external": true,
@@ -3881,6 +4143,11 @@
     "us_agm_65d": {
       "prevModification": "uk_mk_10_1000lb",
       "tier": 3,
+      "modClass": "weapon"
+    },
+    "us_agm_65g": {
+      "reqModification": "us_agm_65d",
+      "tier": 4,
       "modClass": "weapon"
     },
     "uk_tiald_pod": {
