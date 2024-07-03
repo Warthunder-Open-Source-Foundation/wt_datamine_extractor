@@ -2076,11 +2076,11 @@
   },
   "cockpit": {
     "targetingPodFov": [
-      10.0,
-      2.4
+      18.0,
+      1.5
     ],
-    "sightInFov": 50.5,
-    "sightOutFov": 40.5,
+    "sightInFov": 1.5,
+    "sightOutFov": 18.0,
     "sightFov": 1.0,
     "headPos": [
       4.2,
@@ -2574,19 +2574,21 @@
             },
             {
               "trigger": "countermeasures",
-              "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
+              "blk": "gameData/Weapons/rocketGuns/countermeasure_split_launcher_jet.blk",
               "emitter": "emtr_flare1",
               "bullets": 30,
               "external": true,
-              "separate": false
+              "separate": false,
+              "bulletsCartridge": 1
             },
             {
               "trigger": "countermeasures",
-              "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher_jet.blk",
+              "blk": "gameData/Weapons/rocketGuns/countermeasure_split_launcher_jet.blk",
               "emitter": "emtr_flare2",
               "bullets": 30,
               "external": true,
-              "separate": false
+              "separate": false,
+              "bulletsCartridge": 1
             }
           ]
         }
@@ -2794,10 +2796,6 @@
               "emitter": "uk_264gal_drop_tank_001",
               "bullets": 1,
               "external": true
-            },
-            "DependentWeaponPreset": {
-              "slot": 7,
-              "preset": "ptb_slot7"
             }
           }
         ]
@@ -3140,10 +3138,6 @@
               "emitter": "uk_264gal_drop_tank_003",
               "bullets": 1,
               "external": true
-            },
-            "DependentWeaponPreset": {
-              "slot": 2,
-              "preset": "ptb_slot2"
             }
           }
         ]
@@ -3413,10 +3407,7 @@
       "tier": 3,
       "modClass": "armor"
     },
-    "countermeasures_launcher_chaff_only": {},
-    "countermeasures_launcher_flare_only": {},
-    "countermeasures_launcher_chaff_priority": {},
-    "countermeasures_launcher_flare_priority": {},
+    "countermeasures_launcher_chaff": {},
     "countermeasures_belt_pack": {
       "modClass": "armor",
       "turn_it_off": false,

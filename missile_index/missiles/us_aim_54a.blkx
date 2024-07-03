@@ -119,6 +119,12 @@
         "band": 8,
         "active": true,
         "sideLobesAttenuation": -20.0,
+        "multipathEffect": [
+          0.0,
+          1.0,
+          60.0,
+          0.0
+        ],
         "lockAngleMax": 60.0,
         "angleMax": 60.0,
         "rateMax": 20.0,
@@ -209,16 +215,6 @@
         "rangeMaxAltDiff": [
           500.0,
           1200.0
-        ],
-        "timeMax": [
-          41.3418,
-          159.915,
-          41.5793,
-          159.966
-        ],
-        "timeMaxAltDiff": [
-          500.0,
-          1.4
         ]
       },
       "table1": {
@@ -247,16 +243,6 @@
         "rangeMaxAltDiff": [
           500.0,
           1200.0
-        ],
-        "timeMax": [
-          53.8126,
-          159.979,
-          54.4037,
-          159.985
-        ],
-        "timeMaxAltDiff": [
-          500.0,
-          1.4
         ]
       },
       "table2": {
@@ -285,16 +271,6 @@
         "rangeMaxAltDiff": [
           500.0,
           1200.0
-        ],
-        "timeMax": [
-          88.5278,
-          159.939,
-          91.0764,
-          159.915
-        ],
-        "timeMaxAltDiff": [
-          500.0,
-          1.4
         ]
       },
       "table3": {
@@ -323,16 +299,6 @@
         "rangeMaxAltDiff": [
           500.0,
           1200.0
-        ],
-        "timeMax": [
-          160.0,
-          159.985,
-          159.93,
-          159.927
-        ],
-        "timeMaxAltDiff": [
-          500.0,
-          1.4
         ]
       }
     },

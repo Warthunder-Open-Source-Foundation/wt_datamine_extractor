@@ -67,7 +67,7 @@ impl Shell {
 				Ok(s) => { s }
 				Err(e) => {
 					match e {
-						ShellError::UnknownType(u) => { panic!("Unknown shell type {u}") }
+						ShellError::UnknownType(u) => { panic!("Unknown shell type {u} for {name}") }
 						ShellError::NonDeterministic(_) => {
 							if bullet.contains("explosiveType") && bullet.contains("explosiveMass") {
 								ShellType::ApHe
@@ -251,6 +251,7 @@ impl FromStr for ShellType {
 			r#""he_i_t_mine""# |
 			r#""he_grenade_tank""#|
 			r#""he_tf""# |
+			r#""he_or_tank""# |
 			r#""grenade_mp_underbarrel_launcher""# => {
 				Ok(Self::He)
 			}

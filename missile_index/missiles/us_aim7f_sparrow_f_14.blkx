@@ -36,7 +36,7 @@
     "startSpeed": 0.0,
     "machMax": 4.0,
     "endSpeed": 1500.0,
-    "maxDistance": 50000.0,
+    "maxDistance": 70000.0,
     "minDistance": 30.0,
     "rangeMax": 100000.0,
     "loadFactorMax": 25.0,
@@ -115,6 +115,12 @@
       "radarSeeker": {
         "band": 8,
         "sideLobesAttenuation": -20.0,
+        "multipathEffect": [
+          0.0,
+          1.0,
+          60.0,
+          0.0
+        ],
         "lockAngleMax": 35.0,
         "angleMax": 55.0,
         "rateMax": 20.0,
@@ -236,16 +242,6 @@
         "rangeMaxDogfightAltDiff": [
           500.0,
           50.0
-        ],
-        "timeMax": [
-          22.3751,
-          46.0829,
-          22.9053,
-          46.6637
-        ],
-        "timeMaxAltDiff": [
-          500.0,
-          0.5
         ]
       },
       "table1": {
@@ -290,16 +286,6 @@
         "rangeMaxDogfightAltDiff": [
           500.0,
           50.0
-        ],
-        "timeMax": [
-          31.417,
-          53.1241,
-          32.3545,
-          54.0824
-        ],
-        "timeMaxAltDiff": [
-          500.0,
-          0.5
         ]
       },
       "table2": {
@@ -344,16 +330,6 @@
         "rangeMaxDogfightAltDiff": [
           500.0,
           50.0
-        ],
-        "timeMax": [
-          52.9366,
-          65.5809,
-          54.808,
-          67.4529
-        ],
-        "timeMaxAltDiff": [
-          500.0,
-          0.5
         ]
       },
       "table3": {
@@ -398,16 +374,6 @@
         "rangeMaxDogfightAltDiff": [
           500.0,
           50.0
-        ],
-        "timeMax": [
-          74.9502,
-          74.9486,
-          74.9868,
-          74.9305
-        ],
-        "timeMaxAltDiff": [
-          500.0,
-          0.5
         ]
       }
     },
