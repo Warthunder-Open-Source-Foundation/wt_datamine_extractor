@@ -1157,7 +1157,7 @@
   },
   {
     "name": "f_15j_kai",
-    "localized": "F-15J Kai",
+    "localized": "F-15J(M)",
     "arcade": {
       "economic_rank": 36
     },
@@ -1191,7 +1191,7 @@
   },
   {
     "name": "f_15c_baz_msip",
-    "localized": "Improved Baz",
+    "localized": "Baz Meshupar",
     "arcade": {
       "economic_rank": 36
     },
@@ -1281,7 +1281,7 @@
       "economic_rank": 33
     },
     "realistic": {
-      "economic_rank": 33
+      "economic_rank": 34
     },
     "simulator": {
       "economic_rank": 33
@@ -1542,6 +1542,23 @@
       "economic_rank": 26
     },
     "rank": 6,
+    "tech_tree": {
+      "nation": "USA"
+    }
+  },
+  {
+    "name": "av_8b_plus",
+    "localized": "AV-8B Plus",
+    "arcade": {
+      "economic_rank": 34
+    },
+    "realistic": {
+      "economic_rank": 34
+    },
+    "simulator": {
+      "economic_rank": 34
+    },
+    "rank": 8,
     "tech_tree": {
       "nation": "USA"
     }
@@ -3386,13 +3403,13 @@
     "name": "mig-21_bison",
     "localized": "⦿MiG-21 Bison",
     "arcade": {
-      "economic_rank": 33
+      "economic_rank": 32
     },
     "realistic": {
-      "economic_rank": 33
+      "economic_rank": 32
     },
     "simulator": {
-      "economic_rank": 33
+      "economic_rank": 32
     },
     "rank": 8,
     "tech_tree": {
@@ -15626,13 +15643,13 @@
     "name": "hunter_f6_holland",
     "localized": "◘Hunter F.6",
     "arcade": {
-      "economic_rank": 27
+      "economic_rank": 25
     },
     "realistic": {
-      "economic_rank": 26
+      "economic_rank": 24
     },
     "simulator": {
-      "economic_rank": 26
+      "economic_rank": 24
     },
     "rank": 6,
     "tech_tree": {
@@ -23614,7 +23631,7 @@
   },
   {
     "name": "ussr_t_80ue1",
-    "localized": "Т-80У-Е1",
+    "localized": "Т-80U-Е1",
     "arcade": {
       "economic_rank": 31
     },
@@ -25858,15 +25875,15 @@
   },
   {
     "name": "fr_vextra_105",
-    "localized": "VEXTRA 105",
+    "localized": "Vextra 105",
     "arcade": {
-      "economic_rank": 23
+      "economic_rank": 26
     },
     "realistic": {
-      "economic_rank": 23
+      "economic_rank": 26
     },
     "simulator": {
-      "economic_rank": 23
+      "economic_rank": 26
     },
     "rank": 6,
     "tech_tree": {
@@ -31759,15 +31776,15 @@
     "name": "sw_cv_9035_dk",
     "localized": "CV9035DK",
     "arcade": {
-      "economic_rank": 27
+      "economic_rank": 26
     },
     "realistic": {
-      "economic_rank": 27
+      "economic_rank": 26
     },
     "simulator": {
-      "economic_rank": 27
+      "economic_rank": 26
     },
-    "rank": 7,
+    "rank": 6,
     "tech_tree": {
       "nation": "Sweden"
     }
@@ -32199,7 +32216,7 @@
   },
   {
     "name": "sw_itpsv_90",
-    "localized": "ItPsV 90",
+    "localized": "ItPsV Leopard",
     "arcade": {
       "economic_rank": 23
     },
@@ -37690,7 +37707,7 @@
   },
   {
     "name": "il_merkava_mk_3_raam_segol",
-    "localized": "Raam Segol",
+    "localized": "Ra'am Sagol",
     "arcade": {
       "economic_rank": 30
     },
@@ -47036,6 +47053,40 @@
     "rank": 5,
     "tech_tree": {
       "nation": "Italy"
+    }
+  },
+  {
+    "name": "ussr_mpk_pr11451",
+    "localized": "MPK Pr.11451",
+    "arcade": {
+      "economic_rank": 11
+    },
+    "realistic": {
+      "economic_rank": 11
+    },
+    "simulator": {
+      "economic_rank": 11
+    },
+    "rank": 5,
+    "tech_tree": {
+      "nation": "USSR"
+    }
+  },
+  {
+    "name": "us_frigate_buckley_class_coolbaugh",
+    "localized": "USS Coolbaugh",
+    "arcade": {
+      "economic_rank": 9
+    },
+    "realistic": {
+      "economic_rank": 9
+    },
+    "simulator": {
+      "economic_rank": 9
+    },
+    "rank": 5,
+    "tech_tree": {
+      "nation": "USA"
     }
   }
 ]

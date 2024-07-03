@@ -135,6 +135,69 @@
     "can_kill_npc_ship": false
   },
   {
+    "name": "br_bafg_230",
+    "weight": 248.0,
+    "explosive_mass": 87.1,
+    "explosive_type": "tritonal",
+    "explosive_equiv": 103.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
+    "name": "br_bafg_230_2",
+    "weight": 250.0,
+    "explosive_mass": 87.1,
+    "explosive_type": "tritonal",
+    "explosive_equiv": 103.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
+    "name": "br_bafg_230_2_default",
+    "weight": 250.0,
+    "explosive_mass": 87.1,
+    "explosive_type": "tritonal",
+    "explosive_equiv": 103.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
+    "name": "br_bafg_230_default",
+    "weight": 248.0,
+    "explosive_mass": 87.1,
+    "explosive_type": "tritonal",
+    "explosive_equiv": 103.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
+    "name": "br_bafg_460",
+    "weight": 452.0,
+    "explosive_mass": 201.8,
+    "explosive_type": "tritonal",
+    "explosive_equiv": 238.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
+    "name": "br_bafg_460_2",
+    "weight": 486.0,
+    "explosive_mass": 201.8,
+    "explosive_type": "tritonal",
+    "explosive_equiv": 238.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
+    "name": "br_bafg_920",
+    "weight": 930.0,
+    "explosive_mass": 467.0,
+    "explosive_type": "tritonal",
+    "explosive_equiv": 551.0,
+    "can_kill_npc_tank": true,
+    "can_kill_npc_ship": true
+  },
+  {
     "name": "br_binc_300",
     "weight": 401.4,
     "explosive_mass": 358.3,
