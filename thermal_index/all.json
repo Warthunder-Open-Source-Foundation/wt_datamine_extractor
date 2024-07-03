@@ -54,13 +54,13 @@
     "sights": [
       {
         "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
+        "x": 500.0,
+        "y": 300.0
       },
       {
         "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
+        "x": 500.0,
+        "y": 300.0
       }
     ]
   },
@@ -349,6 +349,23 @@
         "crew": "Global",
         "x": 800.0,
         "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "av_8b_plus",
+    "localized": "AV-8B Plus",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
       }
     ]
   },
@@ -669,6 +686,18 @@
     ]
   },
   {
+    "name": "f-4f_kws_lv",
+    "localized": "◄F-4F KWS LV",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 640.0,
+        "y": 512.0
+      }
+    ]
+  },
+  {
     "name": "f_14b",
     "localized": "F-14B",
     "vehicle_type": "Aircraft",
@@ -964,6 +993,18 @@
         "crew": "Gunner",
         "x": 500.0,
         "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "fr_vextra_105",
+    "localized": "Vextra 105",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
       }
     ]
   },
@@ -1456,7 +1497,7 @@
   },
   {
     "name": "il_merkava_mk_3_raam_segol",
-    "localized": "Raam Segol",
+    "localized": "Ra'am Sagol",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -2062,8 +2103,8 @@
     "sights": [
       {
         "crew": "Global",
-        "x": 1024.0,
-        "y": 768.0
+        "x": 1920.0,
+        "y": 1080.0
       }
     ]
   },
@@ -2434,6 +2475,23 @@
   {
     "name": "sw_cv_9030_fin",
     "localized": "CV9030FIN",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Commander",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
+    "name": "sw_cv_9035_dk",
+    "localized": "CV9035DK",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -3154,6 +3212,18 @@
     ]
   },
   {
+    "name": "uk_desert_warrior",
+    "localized": "Desert Warrior",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
     "name": "uk_fv102_striker",
     "localized": "Striker",
     "vehicle_type": "Tank",
@@ -3172,8 +3242,8 @@
     "sights": [
       {
         "crew": "Gunner",
-        "x": 1200.0,
-        "y": 800.0
+        "x": 800.0,
+        "y": 600.0
       }
     ]
   },
@@ -3916,6 +3986,18 @@
         "crew": "Gunner",
         "x": 500.0,
         "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "ussr_t_80ue1",
+    "localized": "Т-80U-Е1",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 800.0,
+        "y": 600.0
       }
     ]
   },

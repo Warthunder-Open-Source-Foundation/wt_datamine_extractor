@@ -66,14 +66,14 @@ f_14b;F-14B;33;33;33;8;USA
 f_15a;F-15A;34;34;34;8;USA
 f_15a_iaf;Baz;34;34;34;8;Israel
 f_15j;F-15J;34;34;34;8;Japan
-f_15j_kai;F-15J Kai;36;36;36;8;Japan
+f_15j_kai;F-15J(M);36;36;36;8;Japan
 f_15c_msip2;F-15C MSIP II;36;36;36;8;USA
-f_15c_baz_msip;Improved Baz;36;36;36;8;Israel
+f_15c_baz_msip;Baz Meshupar;36;36;36;8;Israel
 f_16a_block_10;F-16A;33;33;33;8;USA
 f_16a_block_15_adf;F-16A ADF;33;33;33;8;USA
 f_16a_block_15_adf_italy;⦿F-16A ADF;33;33;33;8;Italy
 f_16a_block_10_iaf;Netz;33;34;33;8;Israel
-f_16a_block_15_belgium;⦿F-16A;33;33;33;8;France
+f_16a_block_15_belgium;⦿F-16A;33;34;33;8;France
 f_16am_block_15_mlu_belgium;⦿F-16AM;36;36;36;8;France
 f_16d_block_40_barak_2;Barak II;36;36;36;8;Israel
 f_16d_block_40_barak_2_missile_test;Barak II;34;35;35;8;Israel
@@ -89,6 +89,7 @@ f11f_1_late;F11F-1;24;24;24;6;USA
 f3h-2;F3H-2;25;25;25;6;USA
 av_8a;AV-8A;25;26;26;6;USA
 av_8c;AV-8C;26;26;26;6;USA
+av_8b_plus;AV-8B Plus;34;34;34;8;USA
 av_8b_plus_italy;⦿AV-8B Plus;34;34;34;8;Italy
 a_6e_tram;A-6E TRAM;27;28;28;7;USA
 a_7d;A-7D;29;27;26;7;USA
@@ -197,7 +198,7 @@ ju-88a-4_finland;⦿Ju 88 A-4;6;6;5;2;Sweden
 hunter_f50_sweden;J34;25;24;25;6;Sweden
 hunter_f58_switzerland;◌Hunter F.58;25;26;26;6;Germany
 mig-21_bis_lazur;"◊MiG-21 """"Lazur-M""""";29;30;30;7;Germany
-mig-21_bison;⦿MiG-21 Bison;33;33;33;8;Great Britain
+mig-21_bison;⦿MiG-21 Bison;32;32;32;8;Great Britain
 mig_21_bis_finland;⦿MiG-21bis;29;30;30;7;Sweden
 saab_b18a;B18A;3;5;4;2;Sweden
 saab_b18b;B18B;8;9;6;3;Sweden
@@ -917,7 +918,7 @@ sb2c_4;SB2C-4;8;8;8;2;USA
 scimitar_f1;Scimitar F Mk.1;22;23;23;6;Great Britain
 hunter_f1;Hunter F.1;24;24;24;6;Great Britain
 hunter_f6;Hunter F.6;27;26;26;6;Great Britain
-hunter_f6_holland;◘Hunter F.6;27;26;26;6;France
+hunter_f6_holland;◘Hunter F.6;25;24;24;6;France
 hunter_f9_rhodesia;Hunter FGA.9;25;25;26;6;Great Britain
 p-38e;P-38E;5;6;7;2;USA
 p-38k;P-38K;12;13;13;4;USA
@@ -1387,7 +1388,7 @@ ussr_t_72a;T-72A;25;25;25;6;USSR
 ussr_t_80b;T-80B;28;28;28;7;USSR
 ussr_t_80um2;T-80UM2;30;30;30;7;USSR
 ussr_t_80ud;T-80UD;27;27;27;7;USSR
-ussr_t_80ue1;Т-80У-Е1;31;31;31;7;USSR
+ussr_t_80ue1;Т-80U-Е1;31;31;31;7;USSR
 ussr_9a35_m2;Strela-10M2;28;28;28;7;USSR
 ussr_t_80u;T-80U;31;31;31;7;USSR
 ussr_t_80uk;T-80UK;31;31;31;7;USSR
@@ -1519,7 +1520,7 @@ fr_leclerc_azur;Leclerc AZUR;32;32;32;8;France
 fr_vab_santal;SANTAL;25;25;25;6;France
 fr_vcac_mephisto;MEPHISTO;23;23;23;6;France
 fr_amx_10rc;AMX-10RC;22;22;22;6;France
-fr_vextra_105;VEXTRA 105;23;23;23;6;France
+fr_vextra_105;Vextra 105;26;26;26;6;France
 it_as_42_metropolitana;AS 42;1;1;1;1;Italy
 it_fiat_cm52;CM52;4;4;4;2;Italy
 it_as_42_47;AS 42/47;2;3;3;1;Italy
@@ -1866,7 +1867,7 @@ sw_strf_90b;Strf 9040B;25;26;26;6;Sweden
 sw_strf_9056;Strf 9040 BILL;29;27;27;7;Sweden
 sw_strf_90c;Strf 9040C;27;27;27;7;Sweden
 sw_cv_9030_fin;CV9030FIN;25;25;25;6;Sweden
-sw_cv_9035_dk;CV9035DK;27;27;27;7;Sweden
+sw_cv_9035_dk;CV9035DK;26;26;26;6;Sweden
 sw_patria_amv_ctcv_105;CT-CV 105HP;26;27;27;7;Sweden
 sw_cv_90105_tml;CV 90105;26;27;27;7;Sweden
 sw_cv_90120;CV 90120;31;31;31;8;Sweden
@@ -1892,7 +1893,7 @@ sw_sav_m43_1944;Sav m/43 (1944);2;2;2;1;Sweden
 sw_sav_m43_1946;Sav m/43 (1946);6;6;6;2;Sweden
 sw_landsverk_ush_405;U-SH 405;20;21;21;5;Sweden
 sw_zsu_57_2;⦿ZSU-57-2;18;18;18;5;Sweden
-sw_itpsv_90;ItPsV 90;23;23;23;6;Sweden
+sw_itpsv_90;ItPsV Leopard;23;23;23;6;Sweden
 sw_veak_40;VEAK 40;20;20;20;5;Sweden
 sw_lvkv_90c;Lvkv 9040C;27;27;27;7;Sweden
 sw_pbil_m40;Pbil m/40;3;3;3;1;Sweden
@@ -2215,7 +2216,7 @@ il_centurion_shot_kal_alef;Sho't Kal Alef;21;21;21;5;Israel
 il_centurion_mk_5_shot;Sho't;20;20;20;4;Israel
 il_merkava_mk_1b;Merkava Mk.1B;25;25;25;6;Israel
 il_merkava_mk_3b;Merkava Mk.3B;30;30;30;7;Israel
-il_merkava_mk_3_raam_segol;Raam Segol;30;30;30;7;Israel
+il_merkava_mk_3_raam_segol;Ra'am Sagol;30;30;30;7;Israel
 il_merkava_mk_3c;Merkava Mk.3C;30;30;30;7;Israel
 il_merkava_mk_2b_early;Merkava Mk.2B;25;25;25;6;Israel
 il_merkava_mk_4_lic;Merkava Mk.4 LIC;31;31;31;8;Israel
@@ -2765,3 +2766,5 @@ us_frigate_dealey;USS Dealey;8;8;8;5;USA
 us_flagstaff_pgh1;USS Flagstaff;6;6;6;3;USA
 germ_kondor2_class;Bernau;7;7;7;4;Germany
 it_alano_9851;Alano;8;8;8;5;Italy
+ussr_mpk_pr11451;MPK Pr.11451;11;11;11;5;USSR
+us_frigate_buckley_class_coolbaugh;USS Coolbaugh;9;9;9;5;USA
