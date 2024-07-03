@@ -1210,6 +1210,19 @@
             "fHitCritical": true
           },
           {
+            "damageType": "cumulative",
+            "expl": 0.5,
+            "fire": 0.5,
+            "damage": 400.0,
+            "fHitCritical": true
+          },
+          {
+            "damageType": "cumulative",
+            "expl": 1.0,
+            "damage": 800.0,
+            "fHitCritical": true
+          },
+          {
             "damageType": "explosion",
             "expl": 0.125,
             "fire": 0.225,
@@ -1243,22 +1256,21 @@
           },
           {
             "damageType": "generic",
-            "fire": 0.7,
-            "expl": 0.1,
+            "fire": 0.5,
+            "expl": 0.5,
+            "damage": 250.0,
+            "fHitCritical": true
+          },
+          {
+            "damageType": "generic",
+            "fire": 0.3,
+            "expl": 0.7,
             "damage": 300.0,
             "fHitCritical": true
           },
           {
             "damageType": "generic",
-            "fire": 0.5,
-            "expl": 0.5,
-            "damage": 400.0,
-            "fHitCritical": true
-          },
-          {
-            "damageType": "generic",
-            "fire": 0.2,
-            "expl": 0.8,
+            "expl": 1.0,
             "damage": 600.0,
             "fHitCritical": true
           },
@@ -1268,9 +1280,7 @@
           }
         ],
         "onKill": {
-          "fire": 0.5,
-          "expl": 0.3,
-          "nothing": 0.2,
+          "fire": 1.0,
           "fHitCritical": true
         }
       },
@@ -2236,6 +2246,20 @@
       },
       {
         "name": "hydraulic_internal",
+        "fx": {
+          "name": "tank_ex_fuel_explosion",
+          "centerDmgPart": true
+        }
+      },
+      {
+        "name": "powersystem_internal",
+        "fx": {
+          "name": "tank_ex_fuel_explosion",
+          "centerDmgPart": true
+        }
+      },
+      {
+        "name": "powersystem_exterior",
         "fx": {
           "name": "tank_ex_fuel_explosion",
           "centerDmgPart": true

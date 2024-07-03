@@ -477,12 +477,16 @@
         "armorThrough": 3.0
       },
       "electronic_equipment_dm": {
-        "hp": 50.0,
+        "hp": 60.0,
         "armorThrough": 3.0
       },
       "fire_control_system_dm": {
-        "hp": 50.0,
+        "hp": 60.0,
         "armorThrough": 3.0
+      },
+      "power_system_dm": {
+        "hp": 60.0,
+        "armorThrough": 15.0
       }
     },
     "cannon_breech": {
@@ -521,8 +525,7 @@
       "fireProtectionHp": 5.0,
       "restrainDamage": 0.5,
       "engine_dm": {},
-      "transmission_dm": {},
-      "power_system_dm": {}
+      "transmission_dm": {}
     },
     "ammo": {
       "armorClass": "tank_structural_steel",
@@ -717,7 +720,7 @@
     },
     "fuel_tanks": {
       "armorClass": "tank_structural_steel",
-      "hp": 250.0,
+      "hp": 400.0,
       "armorThickness": 2.0,
       "armorThrough": 12.0,
       "fireProtectionHp": 15.0,
@@ -1131,6 +1134,19 @@
             "fHitCritical": true
           },
           {
+            "damageType": "cumulative",
+            "expl": 0.5,
+            "fire": 0.5,
+            "damage": 400.0,
+            "fHitCritical": true
+          },
+          {
+            "damageType": "cumulative",
+            "expl": 1.0,
+            "damage": 800.0,
+            "fHitCritical": true
+          },
+          {
             "damageType": "explosion",
             "expl": 0.125,
             "fire": 0.225,
@@ -1164,22 +1180,21 @@
           },
           {
             "damageType": "generic",
-            "fire": 0.7,
-            "expl": 0.1,
+            "fire": 0.5,
+            "expl": 0.5,
+            "damage": 250.0,
+            "fHitCritical": true
+          },
+          {
+            "damageType": "generic",
+            "fire": 0.3,
+            "expl": 0.7,
             "damage": 300.0,
             "fHitCritical": true
           },
           {
             "damageType": "generic",
-            "fire": 0.5,
-            "expl": 0.5,
-            "damage": 400.0,
-            "fHitCritical": true
-          },
-          {
-            "damageType": "generic",
-            "fire": 0.2,
-            "expl": 0.8,
+            "expl": 1.0,
             "damage": 600.0,
             "fHitCritical": true
           },
@@ -1189,9 +1204,7 @@
           }
         ],
         "onKill": {
-          "fire": 0.5,
-          "expl": 0.3,
-          "nothing": 0.2,
+          "fire": 1.0,
           "fHitCritical": true
         }
       },
@@ -2106,6 +2119,18 @@
         "wheel_r_03": 0.4,
         "wheel_r_04": 0.4
       },
+      "wheelsDamageWeight": {
+        "wheel_l_01": 0.05,
+        "wheel_r_01": 0.05,
+        "wheel_l_02": 0.05,
+        "wheel_r_02": 0.05,
+        "wheel_l_03": 0.05,
+        "wheel_r_03": 0.05,
+        "wheel_l_04": 0.05,
+        "wheel_r_04": 0.05,
+        "wheel_r_drive": 0.25,
+        "wheel_l_drive": 0.25
+      },
       "driven": {
         "wheel_l_01": true,
         "wheel_r_01": true,
@@ -2125,16 +2150,6 @@
         "wheel_l_03": true,
         "wheel_r_04": true,
         "wheel_l_04": true
-      },
-      "wheelsDamageWeight": {
-        "wheel_l_01": 0.2,
-        "wheel_r_01": 0.2,
-        "wheel_l_02": 0.2,
-        "wheel_r_02": 0.2,
-        "wheel_l_03": 0.2,
-        "wheel_r_03": 0.2,
-        "wheel_l_04": 0.2,
-        "wheel_r_04": 0.2
       }
     },
     "floats": {
@@ -3071,6 +3086,20 @@
         }
       },
       {
+        "name": "powersystem_internal",
+        "fx": {
+          "name": "tank_ex_fuel_explosion",
+          "centerDmgPart": true
+        }
+      },
+      {
+        "name": "powersystem_exterior",
+        "fx": {
+          "name": "tank_ex_fuel_explosion",
+          "centerDmgPart": true
+        }
+      },
+      {
         "name": "big_bang",
         "lifetime": 10.0,
         "fx": [
@@ -3515,6 +3544,8 @@
     "105mm_china_DTW_APDS_FS_ammo_pack": {
       "tier": 4
     },
+    "105mm_SAP": {},
+    "105mm_SAP_ammo_pack": {},
     "105mm_china_HE_VT": {},
     "105mm_china_HE_VT_ammo_pack": {
       "tier": 3

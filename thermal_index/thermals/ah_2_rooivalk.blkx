@@ -10,6 +10,8 @@
   "haveCCRPForRocket": false,
   "haveCCRPForGun": false,
   "haveCCRPForTurret": true,
+  "hmdAH64": true,
+  "hasHelmetDesignator": true,
   "gearSinkRangeLR": 0.199,
   "gearSinkRangeC": 0.167,
   "enginesInfraRedBrightnessMult": 0.7,
@@ -1184,6 +1186,7 @@
     "lightRadius": 0.4,
     "zoomOutFov": 18.0,
     "zoomInFov": 0.9,
+    "hmdEnabledByDefault": true,
     "sightInFov": 1.2,
     "sightOutFov": -1.0,
     "sightFov": 0.001,
@@ -2117,33 +2120,19 @@
             },
             {
               "trigger": "countermeasures",
-              "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher.blk",
+              "blk": "gameData/Weapons/rocketGuns/countermeasure_split_launcher_jet_maw.blk",
               "emitter": "emtr_flare1",
-              "bullets": 50,
+              "bullets": 85,
+              "bulletsCartridge": 1,
               "external": true,
               "separate": false
             },
             {
               "trigger": "countermeasures",
-              "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher.blk",
+              "blk": "gameData/Weapons/rocketGuns/countermeasure_split_launcher_jet_maw.blk",
               "emitter": "emtr_flare3",
-              "bullets": 50,
-              "external": true,
-              "separate": false
-            },
-            {
-              "trigger": "countermeasures",
-              "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher.blk",
-              "emitter": "emtr_flare2",
-              "bullets": 28,
-              "external": true,
-              "separate": false
-            },
-            {
-              "trigger": "countermeasures",
-              "blk": "gameData/Weapons/rocketGuns/countermeasure_launcher.blk",
-              "emitter": "emtr_flare4",
-              "bullets": 28,
+              "bullets": 85,
+              "bulletsCartridge": 1,
               "external": true,
               "separate": false
             }
@@ -2375,11 +2364,8 @@
       "modClass": "weapon",
       "tier": 4
     },
-    "maw_countermeasures_launcher_chaff_only": {},
-    "maw_countermeasures_launcher_flare_only": {},
-    "maw_countermeasures_launcher_chaff_priority": {},
-    "maw_countermeasures_launcher_flare_priority": {},
-    "MAW_system_heli_false_thermal_targets": {
+    "maw_countermeasures_launcher_chaff": {},
+    "MAW_system_heli_false_thermal_targets_large": {
       "modClass": "weapon",
       "turn_it_off": false,
       "tier": 1,
@@ -2410,7 +2396,7 @@
       }
     },
     "heli_night_vision_system": {
-      "prevModification": "MAW_system_heli_false_thermal_targets",
+      "prevModification": "MAW_system_heli_false_thermal_targets_large",
       "tier": 3,
       "image": "#ui/gameuiskin#thermal_sight",
       "effects": {
