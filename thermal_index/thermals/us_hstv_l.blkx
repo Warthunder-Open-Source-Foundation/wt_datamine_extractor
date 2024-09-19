@@ -45,6 +45,7 @@
   "destroysRendInstances": true,
   "destroysTrees": true,
   "type": "typeLightTank",
+  "radarCanLockTargetFromTPV": false,
   "rearmSmokeTimeOnField": 60.0,
   "canReloadNonGuns": true,
   "DamageParts": {
@@ -378,6 +379,10 @@
         "hp": 60.0,
         "armorThrough": 3.0
       },
+      "electronic_equipment_01_dm": {
+        "hp": 60.0,
+        "armorThrough": 3.0
+      },
       "fire_control_system_dm": {
         "hp": 60.0,
         "armorThrough": 3.0
@@ -412,8 +417,9 @@
         "armorThickness": 10.0
       },
       "autoloader_dm": {
-        "armorThickness": 5.0,
-        "armorThrough": 5.0
+        "armorThickness": 2.0,
+        "armorThrough": 1.0,
+        "ignoreSolidDimension": true
       }
     },
     "power_block": {
@@ -596,6 +602,11 @@
       "ammo_body_l_13_dm": {},
       "ammo_body_l_14_dm": {},
       "ammo_body_l_15_dm": {},
+      "ammo_body_l_16_dm": {},
+      "ammo_body_l_17_dm": {},
+      "ammo_body_l_18_dm": {},
+      "ammo_body_l_19_dm": {},
+      "ammo_body_l_20_dm": {},
       "ammo_body_r_01_dm": {},
       "ammo_body_r_02_dm": {},
       "ammo_body_r_03_dm": {},
@@ -614,7 +625,8 @@
       "ammo_body_r_16_dm": {},
       "ammo_body_r_17_dm": {},
       "ammo_body_r_18_dm": {},
-      "ammo_body_r_19_dm": {}
+      "ammo_body_r_19_dm": {},
+      "ammo_body_r_20_dm": {}
     },
     "fuel_tanks": {
       "armorClass": "tank_structural_steel",
@@ -2691,6 +2703,7 @@
         "explosionEvent": "ammo_explosion",
         "wreckedPartId": 0,
         "autoLoad": true,
+        "autoloader": "autoloader_dm",
         "ammo_turret_26_dm": {
           "count": 1
         },
@@ -2772,6 +2785,14 @@
       }
     }
   },
+  "sensors": {
+    "sensor": {
+      "blk": "gameData/sensors/su_bmp_auto_target_tracker.blk",
+      "turretIndex": 0,
+      "designationTurretIndex": 0,
+      "dmPart": "optic_gun_dm"
+    }
+  },
   "modifications": {
     "new_tank_tracks": {},
     "new_tank_suspension": {},
@@ -2794,9 +2815,65 @@
     "airstrike": {},
     "improved_optics": {},
     "modern_tank_laser_rangefinder": {
-      "tier": 3
+      "tier": 3,
+      "effects": {
+        "rangefinderMounted": true,
+        "isLaser": true,
+        "rangefinderDmPart": "fire_control_system_dm",
+        "distanceError": [
+          1.0,
+          1.0,
+          5.0,
+          10.0
+        ],
+        "distanceThresholdMin": [
+          1000.0,
+          3000.0,
+          5000.0,
+          14999.0
+        ],
+        "distanceThresholdMax": [
+          1000.0,
+          3000.0,
+          5000.0,
+          14999.0
+        ],
+        "distanceErrorRealistic": [
+          1.0,
+          1.0,
+          5.0,
+          10.0
+        ],
+        "distanceThresholdMinRealistic": [
+          1000.0,
+          3000.0,
+          5000.0,
+          14999.0
+        ],
+        "distanceThresholdMaxRealistic": [
+          1000.0,
+          3000.0,
+          5000.0,
+          14999.0
+        ],
+        "timeMeasurementRange": [
+          0.5,
+          0.5
+        ],
+        "rcostAddParam": 0.98,
+        "sensors": {
+          "sensor": {
+            "blk": "gameData/sensors/su_bmp_auto_target_tracker.blk",
+            "turretIndex": 0,
+            "designationTurretIndex": 0,
+            "dmPart": "optic_gun_01_dm"
+          }
+        }
+      }
     },
     "75mm_usa_APDSFS": {},
+    "75mm_usa_HE_VT": {},
+    "75mm_usa_HE_VT_ammo_pack": {},
     "tank_smoke_screen_system_mod": {
       "tier": 3,
       "effects": {

@@ -250,13 +250,11 @@
       },
       "turret_02_side_dm": {
         "armorClass": "tank_structural_steel",
-        "armorThickness": 6.0,
-        "secondaryShatterArmorQuality": 0.8
+        "armorThickness": 2.0
       },
       "turret_05_back_dm": {
         "armorClass": "tank_structural_steel",
-        "armorThickness": 6.0,
-        "secondaryShatterArmorQuality": 0.8
+        "armorThickness": 2.0
       },
       "turret_08_back_dm": {
         "armorThickness": 20.0
@@ -747,6 +745,10 @@
       "electronic_equipment_dm": {
         "hp": 60.0,
         "armorThrough": 3.0
+      },
+      "electronic_equipment_01_dm": {
+        "hp": 60.0,
+        "armorThrough": 3.0
       }
     },
     "cannon_breech": {
@@ -774,8 +776,9 @@
         "armorThickness": 10.0
       },
       "autoloader_dm": {
-        "armorThickness": 5.0,
-        "armorThrough": 5.0
+        "armorThickness": 2.0,
+        "armorThrough": 1.0,
+        "ignoreSolidDimension": true
       }
     },
     "power_block": {
@@ -958,6 +961,11 @@
       "ammo_body_l_13_dm": {},
       "ammo_body_l_14_dm": {},
       "ammo_body_l_15_dm": {},
+      "ammo_body_l_16_dm": {},
+      "ammo_body_l_17_dm": {},
+      "ammo_body_l_18_dm": {},
+      "ammo_body_l_19_dm": {},
+      "ammo_body_l_20_dm": {},
       "ammo_body_r_01_dm": {},
       "ammo_body_r_02_dm": {},
       "ammo_body_r_03_dm": {},
@@ -976,7 +984,8 @@
       "ammo_body_r_16_dm": {},
       "ammo_body_r_17_dm": {},
       "ammo_body_r_18_dm": {},
-      "ammo_body_r_19_dm": {}
+      "ammo_body_r_19_dm": {},
+      "ammo_body_r_20_dm": {}
     },
     "fuel_tanks": {
       "armorClass": "tank_structural_steel",
@@ -2616,7 +2625,13 @@
       "trackFadeTime": 1.5,
       "trackConnector": true,
       "trackStartOffset": 0.08,
-      "trackMaxHeight": 1.17
+      "trackMaxHeight": 1.17,
+      "fricSideRot": [
+        5.0,
+        0.0,
+        0.6,
+        0.3
+      ]
     },
     "collisionProps": {
       "cls_turret": "convex_hull",
@@ -3703,6 +3718,23 @@
     "new_tank_brakes": {},
     "new_tank_transmission": {},
     "new_tank_engine": {},
+    "camouflage_net": {
+      "invertEnableLogic": false,
+      "turn_it_off": false,
+      "effects": {
+        "rcostAddParam": 0.98
+      },
+      "disableModEffects": {
+        "hideNodes": {
+          "node": [
+            "turret_net",
+            "gun_barrel_net",
+            "ex_armor_turret_08_net",
+            "ex_decor_02_net"
+          ]
+        }
+      }
+    },
     "manual_extinguisher": {},
     "tank_tool_kit": {},
     "new_tank_horizontal_aiming": {},

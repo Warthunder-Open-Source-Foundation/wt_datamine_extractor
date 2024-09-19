@@ -40,6 +40,7 @@
   "damagePartsDependencyMapBlk": "gameData/FlightModels/DM/dm_parts_additional_dependency_map.blk",
   "damagePartsToCollisionPointsMapBlk": "gameData/FlightModels/DM/dm_parts_to_collision_points_map.blk",
   "damagePartsToWeaponsMapBlk": "gameData/FlightModels/DM/dm_parts_to_weapons_map.blk",
+  "damagePartsToAvionicsPartsMapBlk": "gameData/FlightModels/DM/dm_parts_to_avionics_parts_map.blk",
   "damagePartsToVisualEffectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_visual_effects_map.blk",
   "damagePartsExcludeFromHoleBlk": "gameData/FlightModels/DM/dm_parts_exclude_from_hole.blk",
   "explosion_dmBlk": "gameData/FlightModels/DM/commonExplosion.blk",
@@ -2473,7 +2474,7 @@
               "emitter": "emtr_flare3",
               "bullets": 16,
               "external": true,
-              "separate": false,
+              "separate": true,
               "brakeChuteRange": [
                 0.0,
                 0.0
@@ -2544,7 +2545,6 @@
           {
             "iconType": "missile_air_to_air_midrange",
             "name": "matra_super_530f",
-            "reqModification": "fr_matra_r_530_f",
             "ShowNodes": {
               "node": "pylon_alkan_6045_001"
             },
@@ -2860,7 +2860,6 @@
           {
             "iconType": "missile_air_to_air_midrange",
             "name": "matra_super_530f",
-            "reqModification": "fr_matra_r_530_f",
             "ShowNodes": {
               "node": "pylon_alkan_6045_002"
             },
@@ -3203,12 +3202,7 @@
       "tier": 3,
       "modClass": "weapon"
     },
-    "fr_matra_r_530_f": {
-      "tier": 2,
-      "modClass": "weapon"
-    },
     "fr_matra_r_530_d": {
-      "reqModification": "fr_matra_r_530_f",
       "tier": 3,
       "modClass": "weapon"
     },

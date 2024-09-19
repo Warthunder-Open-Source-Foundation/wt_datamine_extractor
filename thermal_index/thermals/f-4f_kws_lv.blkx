@@ -30,6 +30,7 @@
   "damagePartsDependencyMapBlk": "gameData/FlightModels/DM/dm_parts_additional_dependency_map.blk",
   "damagePartsToCollisionPointsMapBlk": "gameData/FlightModels/DM/dm_parts_to_collision_points_map.blk",
   "damagePartsToWeaponsMapBlk": "gameData/FlightModels/DM/dm_parts_to_weapons_map.blk",
+  "damagePartsToAvionicsPartsMapBlk": "gameData/FlightModels/DM/dm_parts_to_avionics_parts_map.blk",
   "damagePartsToVisualEffectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_visual_effects_map.blk",
   "damagePartsExcludeFromHoleBlk": "gameData/FlightModels/DM/dm_parts_exclude_from_hole.blk",
   "explosion_dmBlk": "gameData/FlightModels/DM/commonExplosion.blk",
@@ -3630,11 +3631,10 @@
         "notUseforDisbalanceCalculation": true,
         "WeaponPreset": {
           "iconType": "missile_type_f_air_to_air_midrange",
-          "name": "aim_120a_slot4",
-          "reqModification": "us_aim_120a",
+          "name": "aim_120a_slot4_default",
           "Weapon": {
             "trigger": "aam",
-            "blk": "gameData/Weapons/rocketGuns/us_aim_120a.blk",
+            "blk": "gameData/Weapons/rocketGuns/us_aim_120a_default.blk",
             "emitter": "aim_7e_003",
             "bullets": 1,
             "external": true,
@@ -3871,11 +3871,10 @@
         "notUseforDisbalanceCalculation": true,
         "WeaponPreset": {
           "iconType": "missile_type_f_air_to_air_midrange",
-          "name": "aim_120a_slot8",
-          "reqModification": "us_aim_120a",
+          "name": "aim_120a_slot8_default",
           "Weapon": {
             "trigger": "aam",
-            "blk": "gameData/Weapons/rocketGuns/us_aim_120a.blk",
+            "blk": "gameData/Weapons/rocketGuns/us_aim_120a_default.blk",
             "emitter": "aim_7e_004",
             "bullets": 1,
             "external": true,

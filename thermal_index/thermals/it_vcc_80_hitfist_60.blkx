@@ -47,7 +47,6 @@
   "destroysTrees": true,
   "type": "typeLightTank",
   "rearmSmokeTimeOnField": 60.0,
-  "rearmTimeOnField": 120.0,
   "canReloadNonGuns": true,
   "DamageParts": {
     "formatVersion": 2,
@@ -526,6 +525,10 @@
         "hp": 60.0,
         "armorThrough": 3.0
       },
+      "electronic_equipment_01_dm": {
+        "hp": 60.0,
+        "armorThrough": 3.0
+      },
       "fire_control_system_dm": {
         "hp": 60.0,
         "armorThrough": 3.0
@@ -560,8 +563,9 @@
         "armorThickness": 10.0
       },
       "autoloader_dm": {
-        "armorThickness": 5.0,
-        "armorThrough": 5.0
+        "armorThickness": 2.0,
+        "armorThrough": 1.0,
+        "ignoreSolidDimension": true
       }
     },
     "power_block": {
@@ -744,6 +748,11 @@
       "ammo_body_l_13_dm": {},
       "ammo_body_l_14_dm": {},
       "ammo_body_l_15_dm": {},
+      "ammo_body_l_16_dm": {},
+      "ammo_body_l_17_dm": {},
+      "ammo_body_l_18_dm": {},
+      "ammo_body_l_19_dm": {},
+      "ammo_body_l_20_dm": {},
       "ammo_body_r_01_dm": {},
       "ammo_body_r_02_dm": {},
       "ammo_body_r_03_dm": {},
@@ -762,7 +771,8 @@
       "ammo_body_r_16_dm": {},
       "ammo_body_r_17_dm": {},
       "ammo_body_r_18_dm": {},
-      "ammo_body_r_19_dm": {}
+      "ammo_body_r_19_dm": {},
+      "ammo_body_r_20_dm": {}
     },
     "fuel_tanks": {
       "armorClass": "tank_structural_steel",
@@ -2124,8 +2134,9 @@
         -0.11,
         0.05
       ],
-      "defaultGearRadius": 0.3,
+      "defaultGearRadius": 0.29,
       "frontBackGearRadius": 0.26,
+      "topGearRadius": 0.11,
       "defaultDampeningForce": [
         150000.0,
         150000.0
@@ -3271,7 +3282,7 @@
       "descLocId": "skin/it_camo_modern_three_color/desc",
       "replace_tex": {
         "from": "it_camo_olive_green*",
-        "to": "it_camo_threecolor_modern*"
+        "to": "it_camo_modern_three_color*"
       }
     },
     {

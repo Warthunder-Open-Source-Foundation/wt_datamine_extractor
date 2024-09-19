@@ -70,6 +70,7 @@
   "damagePartsDependencyMapBlk": "gameData/FlightModels/DM/dm_parts_additional_dependency_map.blk",
   "damagePartsToCollisionPointsMapBlk": "gameData/FlightModels/DM/dm_parts_to_collision_points_map.blk",
   "damagePartsToWeaponsMapBlk": "gameData/FlightModels/DM/dm_parts_to_weapons_map.blk",
+  "damagePartsToAvionicsPartsMapBlk": "gameData/FlightModels/DM/dm_parts_to_avionics_parts_map.blk",
   "damagePartsToVisualEffectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_visual_effects_map.blk",
   "damagePartsExcludeFromHoleBlk": "gameData/FlightModels/DM/dm_parts_exclude_from_hole.blk",
   "explosion_dmBlk": "gameData/FlightModels/DM/commonExplosion.blk",
@@ -3163,16 +3164,10 @@
     ]
   },
   "weapon_presets": {
-    "preset": [
-      {
-        "name": "mirage_2000_5f_6x_mica_em_default",
-        "blk": "gameData/FlightModels/weaponPresets/mirage_2000_5f_6x_mica_em.blk"
-      },
-      {
-        "name": "mirage_2000_5f_4x_mica_em_2x_r_550_magic_2",
-        "blk": "gameData/FlightModels/weaponPresets/mirage_2000_5f_4x_mica_em_2x_r_550_magic_2.blk"
-      }
-    ]
+    "preset": {
+      "name": "mirage_2000_5f_4x_mica_em_2x_r_550_magic_2_default",
+      "blk": "gameData/FlightModels/weaponPresets/mirage_2000_5f_4x_mica_em_2x_r_550_magic_2.blk"
+    }
   },
   "WeaponSlots": {
     "maxloadMass": 6200.0,
@@ -3538,7 +3533,7 @@
         "notUseforDisbalanceCalculation": true,
         "WeaponPreset": {
           "iconType": "missile_type_b_air_to_air_midrange",
-          "name": "mica_em",
+          "name": "mica_em_default",
           "ShowNodes": {
             "node": "pylon_mica_003"
           },
@@ -3601,7 +3596,7 @@
         "notUseforDisbalanceCalculation": true,
         "WeaponPreset": {
           "iconType": "missile_type_b_air_to_air_midrange",
-          "name": "mica_em",
+          "name": "mica_em_default",
           "ShowNodes": {
             "node": "pylon_mica_004"
           },

@@ -30,9 +30,9 @@
     "iconType": "napalm_large",
     "splash": {
       "innerRadius": 9.0,
-      "outerRadius": 15.0,
-      "penetration": 29.0,
-      "damage": 6200.0,
+      "outerRadius": 16.0,
+      "penetration": 24.0,
+      "damage": 15700.0,
       "damageType": "napalm"
     },
     "fireDamage": {
@@ -56,9 +56,9 @@
     },
     "DamageParts": {
       "body": {
-        "hp": 100.0,
+        "hp": 25.0,
         "armorClass": "tank_structural_steel",
-        "armorThickness": 15.0,
+        "armorThickness": 5.0,
         "explosionArmorQuality": 1.0,
         "shatterArmorQuality": 1.0
       }

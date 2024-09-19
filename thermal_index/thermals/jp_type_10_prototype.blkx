@@ -582,6 +582,10 @@
         "hp": 60.0,
         "armorThrough": 3.0
       },
+      "electronic_equipment_01_dm": {
+        "hp": 60.0,
+        "armorThrough": 3.0
+      },
       "fire_control_system_dm": {
         "hp": 60.0,
         "armorThrough": 3.0
@@ -616,8 +620,9 @@
         "armorThickness": 10.0
       },
       "autoloader_dm": {
-        "armorThickness": 5.0,
-        "armorThrough": 5.0
+        "armorThickness": 2.0,
+        "armorThrough": 1.0,
+        "ignoreSolidDimension": true
       }
     },
     "power_block": {
@@ -800,6 +805,11 @@
       "ammo_body_l_13_dm": {},
       "ammo_body_l_14_dm": {},
       "ammo_body_l_15_dm": {},
+      "ammo_body_l_16_dm": {},
+      "ammo_body_l_17_dm": {},
+      "ammo_body_l_18_dm": {},
+      "ammo_body_l_19_dm": {},
+      "ammo_body_l_20_dm": {},
       "ammo_body_r_01_dm": {},
       "ammo_body_r_02_dm": {},
       "ammo_body_r_03_dm": {},
@@ -818,7 +828,8 @@
       "ammo_body_r_16_dm": {},
       "ammo_body_r_17_dm": {},
       "ammo_body_r_18_dm": {},
-      "ammo_body_r_19_dm": {}
+      "ammo_body_r_19_dm": {},
+      "ammo_body_r_20_dm": {}
     },
     "fuel_tanks": {
       "armorClass": "tank_structural_steel",
@@ -2431,7 +2442,8 @@
     "engine": {
       "horsePowers": 1200.0,
       "maxRPM": 2300.0,
-      "minRPM": 600.0
+      "minRPM": 600.0,
+      "model": "8va_34twk"
     },
     "mechanics": {
       "steerType": "clutch_braking",
@@ -3684,10 +3696,10 @@
     "120mm_NATO_HEAT_FS": {},
     "120mm_NATO_APDS_FS": {},
     "120mm_NATO_APDS_FS_ammo_pack": {
-      "tier": 3
+      "tier": 2
     },
     "laser_rangefinder_lws": {
-      "tier": 2,
+      "tier": 3,
       "modClass": "firepower",
       "effects": {
         "rangefinderMounted": true,
@@ -4117,14 +4129,12 @@
             ],
             "noiseFactor": 0.04
           },
-          "driverIr": {
+          "driverThermal": {
             "resolution": [
-              1200,
-              800
+              500,
+              300
             ],
-            "lightMult": 7.0,
-            "ghosting": 0.6,
-            "noiseFactor": 0.2
+            "noiseFactor": 0.05
           }
         }
       }

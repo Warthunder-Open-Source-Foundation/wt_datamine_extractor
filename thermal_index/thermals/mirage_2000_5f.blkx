@@ -70,6 +70,7 @@
   "damagePartsDependencyMapBlk": "gameData/FlightModels/DM/dm_parts_additional_dependency_map.blk",
   "damagePartsToCollisionPointsMapBlk": "gameData/FlightModels/DM/dm_parts_to_collision_points_map.blk",
   "damagePartsToWeaponsMapBlk": "gameData/FlightModels/DM/dm_parts_to_weapons_map.blk",
+  "damagePartsToAvionicsPartsMapBlk": "gameData/FlightModels/DM/dm_parts_to_avionics_parts_map.blk",
   "damagePartsToVisualEffectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_visual_effects_map.blk",
   "damagePartsExcludeFromHoleBlk": "gameData/FlightModels/DM/dm_parts_exclude_from_hole.blk",
   "explosion_dmBlk": "gameData/FlightModels/DM/commonExplosion.blk",
@@ -2960,7 +2961,7 @@
                 "emitter": "emtr_flare1",
                 "bullets": 8,
                 "external": true,
-                "separate": false,
+                "separate": true,
                 "bulletsCartridge": 1
               },
               {
@@ -2969,7 +2970,7 @@
                 "emitter": "emtr_flare2",
                 "bullets": 8,
                 "external": true,
-                "separate": false,
+                "separate": true,
                 "bulletsCartridge": 1
               }
             ]
@@ -3063,7 +3064,7 @@
                 "emitter": "emtr_flare1",
                 "bullets": 10,
                 "external": true,
-                "separate": false,
+                "separate": true,
                 "brakeChuteRange": [
                   0.0,
                   0.0
@@ -3077,7 +3078,7 @@
                 "emitter": "emtr_flare2",
                 "bullets": 10,
                 "external": true,
-                "separate": false,
+                "separate": true,
                 "brakeChuteRange": [
                   0.0,
                   0.0
@@ -3091,7 +3092,7 @@
                 "emitter": "nozzle1_112",
                 "bullets": 10,
                 "external": true,
-                "separate": false,
+                "separate": true,
                 "brakeChuteRange": [
                   0.0,
                   0.0
@@ -3105,7 +3106,7 @@
                 "emitter": "nozzle1_65",
                 "bullets": 10,
                 "external": true,
-                "separate": false,
+                "separate": true,
                 "brakeChuteRange": [
                   0.0,
                   0.0
@@ -3119,7 +3120,7 @@
                 "emitter": "emtr_flare3",
                 "bullets": 24,
                 "external": true,
-                "separate": false,
+                "separate": true,
                 "brakeChuteRange": [
                   0.0,
                   0.0
@@ -3133,7 +3134,7 @@
                 "emitter": "emtr_chute",
                 "bullets": 48,
                 "external": true,
-                "separate": false,
+                "separate": true,
                 "brakeChuteRange": [
                   0.0,
                   0.0
@@ -3503,8 +3504,7 @@
         "WeaponPreset": [
           {
             "iconType": "missile_type_f_air_to_air_midrange",
-            "name": "mica_em",
-            "reqModification": "fr_mica_em",
+            "name": "mica_em_default",
             "ShowNodes": {
               "node": "pylon_mica_003"
             },
@@ -3512,7 +3512,7 @@
               "trigger": "aam",
               "external": true,
               "separate": true,
-              "blk": "gameData/Weapons/rocketGuns/fr_mica_em.blk",
+              "blk": "gameData/Weapons/rocketGuns/fr_mica_em_default.blk",
               "emitter": "rocket_mica_003",
               "bullets": 1
             }
@@ -4217,8 +4217,7 @@
         "WeaponPreset": [
           {
             "iconType": "missile_type_f_air_to_air_midrange",
-            "name": "mica_em",
-            "reqModification": "fr_mica_em",
+            "name": "mica_em_default",
             "ShowNodes": {
               "node": "pylon_mica_004"
             },
@@ -4226,7 +4225,7 @@
               "trigger": "aam",
               "external": true,
               "separate": true,
-              "blk": "gameData/Weapons/rocketGuns/fr_mica_em.blk",
+              "blk": "gameData/Weapons/rocketGuns/fr_mica_em_default.blk",
               "emitter": "rocket_mica_004",
               "bullets": 1
             }

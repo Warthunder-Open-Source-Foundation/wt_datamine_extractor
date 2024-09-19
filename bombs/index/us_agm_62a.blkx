@@ -141,8 +141,8 @@
       "workTime": 3600.0,
       "useTrippleClickLockInTpv": true,
       "applyExtraDifficultyParameters": true,
+      "breakLockMaxTime": 120.0,
       "uncageBeforeLaunch": true,
-      "breakLockMaxTime": 2.0,
       "irSeeker": {
         "visibilityType": "optic",
         "rangeBand0": 6000.0,
@@ -296,9 +296,9 @@
     },
     "DamageParts": {
       "body": {
-        "hp": 100.0,
+        "hp": 25.0,
         "armorClass": "tank_structural_steel",
-        "armorThickness": 15.0,
+        "armorThickness": 5.0,
         "explosionArmorQuality": 1.0,
         "shatterArmorQuality": 1.0
       }

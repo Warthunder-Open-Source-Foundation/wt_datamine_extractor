@@ -559,6 +559,10 @@
         "hp": 60.0,
         "armorThrough": 3.0
       },
+      "electronic_equipment_01_dm": {
+        "hp": 60.0,
+        "armorThrough": 3.0
+      },
       "fire_control_system_dm": {
         "hp": 60.0,
         "armorThrough": 3.0
@@ -594,8 +598,9 @@
         "armorThickness": 10.0
       },
       "autoloader_dm": {
-        "armorThickness": 5.0,
-        "armorThrough": 5.0
+        "armorThickness": 2.0,
+        "armorThrough": 1.0,
+        "ignoreSolidDimension": true
       }
     },
     "power_block": {
@@ -1912,8 +1917,8 @@
             180.0
           ],
           "pitch": [
-            -8.0,
-            60.0
+            -7.0,
+            59.0
           ]
         },
         "limitsTable": {
@@ -1921,19 +1926,19 @@
             -180.0,
             -150.0,
             -6.0,
-            60.0
+            59.0
           ],
           "lim2": [
             -150.0,
             125.0,
-            -8.0,
-            60.0
+            -7.0,
+            59.0
           ],
           "lim3": [
             125.0,
             180.0,
             -6.0,
-            60.0
+            59.0
           ]
         },
         "gunStabilizer": {

@@ -362,6 +362,10 @@
         "hp": 60.0,
         "armorThrough": 3.0
       },
+      "electronic_equipment_01_dm": {
+        "hp": 60.0,
+        "armorThrough": 3.0
+      },
       "fire_control_system_dm": {
         "hp": 60.0,
         "armorThrough": 3.0
@@ -396,8 +400,9 @@
         "armorThickness": 10.0
       },
       "autoloader_dm": {
-        "armorThickness": 5.0,
-        "armorThrough": 5.0
+        "armorThickness": 2.0,
+        "armorThrough": 1.0,
+        "ignoreSolidDimension": true
       }
     },
     "power_block": {
@@ -580,6 +585,11 @@
       "ammo_body_l_13_dm": {},
       "ammo_body_l_14_dm": {},
       "ammo_body_l_15_dm": {},
+      "ammo_body_l_16_dm": {},
+      "ammo_body_l_17_dm": {},
+      "ammo_body_l_18_dm": {},
+      "ammo_body_l_19_dm": {},
+      "ammo_body_l_20_dm": {},
       "ammo_body_r_01_dm": {},
       "ammo_body_r_02_dm": {},
       "ammo_body_r_03_dm": {},
@@ -598,7 +608,8 @@
       "ammo_body_r_16_dm": {},
       "ammo_body_r_17_dm": {},
       "ammo_body_r_18_dm": {},
-      "ammo_body_r_19_dm": {}
+      "ammo_body_r_19_dm": {},
+      "ammo_body_r_20_dm": {}
     },
     "fuel_tanks": {
       "armorClass": "tank_structural_steel",
@@ -1667,33 +1678,6 @@
             -10.0,
             20.0
           ]
-        },
-        "gunStabilizer": {
-          "hasVerticalGunFreeMode": false,
-          "forceEnabled": true,
-          "hasHorizontal": true,
-          "horizontalOmegaMult": 1.0,
-          "horizontalSpeedLimitKPH": 75.0,
-          "hasVertical": true,
-          "verticalOmegaMult": 1.0,
-          "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
-          "errorKPHToDegrees": {
-            "row": [
-              [
-                5.0,
-                0.0
-              ],
-              [
-                45.0,
-                0.00015
-              ],
-              [
-                80.0,
-                0.0002
-              ]
-            ]
-          }
         }
       }
     ],
@@ -2625,33 +2609,6 @@
                   -10.0,
                   20.0
                 ]
-              },
-              "gunStabilizer": {
-                "hasVerticalGunFreeMode": false,
-                "forceEnabled": true,
-                "hasHorizontal": true,
-                "horizontalOmegaMult": 1.0,
-                "horizontalSpeedLimitKPH": 75.0,
-                "hasVertical": true,
-                "verticalOmegaMult": 1.0,
-                "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
-                "errorKPHToDegrees": {
-                  "row": [
-                    [
-                      5.0,
-                      0.0
-                    ],
-                    [
-                      45.0,
-                      0.00015
-                    ],
-                    [
-                      80.0,
-                      0.0002
-                    ]
-                  ]
-                }
               }
             },
             {

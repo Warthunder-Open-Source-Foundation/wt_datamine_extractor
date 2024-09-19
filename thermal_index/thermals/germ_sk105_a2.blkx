@@ -170,7 +170,7 @@
     "RHA_hull": {
       "armorClass": "RHA_tank",
       "superstructure_front_dm": {
-        "armorThickness": 20.0
+        "armorThickness": 25.0
       },
       "superstructure_bottom_dm": {
         "armorThickness": 5.0
@@ -179,19 +179,19 @@
         "armorThickness": 8.0
       },
       "superstructure_back_dm": {
-        "armorThickness": 12.0
+        "armorThickness": 15.0
       },
       "superstructure_top_dm": {
         "armorThickness": 8.0
       },
       "body_front_dm": {
-        "armorThickness": 20.0
+        "armorThickness": 25.0
       },
       "body_side_dm": {
-        "armorThickness": 14.0
+        "armorThickness": 15.0
       },
       "body_top_dm": {
-        "armorThickness": 10.0
+        "armorThickness": 8.0
       },
       "body_bottom_dm": {
         "armorThickness": 10.0
@@ -206,13 +206,13 @@
         "armorThickness": 10.0
       },
       "body_back_dm": {
-        "armorThickness": 12.0
+        "armorThickness": 15.0
       },
       "ex_armor_09_dm": {
         "armorThickness": 8.0
       },
       "turret_03_front_dm": {
-        "armorThickness": 10.0
+        "armorThickness": 8.0
       },
       "turret_top_dm": {
         "armorThickness": 10.0
@@ -235,6 +235,9 @@
       },
       "turret_02_back_dm": {
         "armorThickness": 5.0
+      },
+      "turret_01_front_dm": {
+        "armorThickness": 25.0
       }
     },
     "turret": {
@@ -246,12 +249,9 @@
         "armorThickness": 20.0
       },
       "turret_02_side_dm": {
-        "armorThickness": 10.0
+        "armorThickness": 8.0
       },
       "turret_front_dm": {
-        "armorThickness": 40.0
-      },
-      "turret_01_front_dm": {
         "armorThickness": 40.0
       },
       "turret_02_front_dm": {
@@ -574,6 +574,10 @@
         "hp": 60.0,
         "armorThrough": 3.0
       },
+      "electronic_equipment_01_dm": {
+        "hp": 60.0,
+        "armorThrough": 3.0
+      },
       "fire_control_system_dm": {
         "hp": 60.0,
         "armorThrough": 3.0
@@ -608,8 +612,9 @@
         "armorThickness": 10.0
       },
       "autoloader_dm": {
-        "armorThickness": 5.0,
-        "armorThrough": 5.0
+        "armorThickness": 2.0,
+        "armorThrough": 1.0,
+        "ignoreSolidDimension": true
       }
     },
     "power_block": {
@@ -792,6 +797,11 @@
       "ammo_body_l_13_dm": {},
       "ammo_body_l_14_dm": {},
       "ammo_body_l_15_dm": {},
+      "ammo_body_l_16_dm": {},
+      "ammo_body_l_17_dm": {},
+      "ammo_body_l_18_dm": {},
+      "ammo_body_l_19_dm": {},
+      "ammo_body_l_20_dm": {},
       "ammo_body_r_01_dm": {},
       "ammo_body_r_02_dm": {},
       "ammo_body_r_03_dm": {},
@@ -810,7 +820,8 @@
       "ammo_body_r_16_dm": {},
       "ammo_body_r_17_dm": {},
       "ammo_body_r_18_dm": {},
-      "ammo_body_r_19_dm": {}
+      "ammo_body_r_19_dm": {},
+      "ammo_body_r_20_dm": {}
     },
     "fuel_tanks": {
       "armorClass": "tank_structural_steel",
@@ -892,7 +903,7 @@
     }
   },
   "sound": {
-    "EngineName": "engine_amx30",
+    "EngineName": "engine_chaffee_m24",
     "TrackSoundPath": "tanks/engines_tanks",
     "TrackSoundPathStudio": "ground/engines",
     "TrackSoundName": "tracks_amx30",
@@ -1903,7 +1914,7 @@
         "speedYaw": 30.0,
         "speedPitch": 10.0,
         "fireConeAngle": 1.0,
-        "bullets": 38,
+        "bullets": 42,
         "salvoAmount": 100.0,
         "ChainfireTime": 0.0,
         "DelayAfterShoot": 5.0,
@@ -1954,7 +1965,7 @@
           1.0,
           15.0
         ],
-        "bullets": 1000,
+        "bullets": 2000,
         "ChainfireTime": 3.0,
         "DelayAfterShoot": 3.0,
         "accuracyAir": 0.0,
@@ -2084,7 +2095,7 @@
       "maxBrakeForce": 80000.0,
       "driveGearRadius": 0.3,
       "mainGearRatio": 0.92,
-      "sideGearRatio": 8.5,
+      "sideGearRatio": 7.4,
       "neutralGearRatio": 8.7,
       "gearRatios": {
         "ratio": [
@@ -2112,8 +2123,8 @@
         -0.05,
         0.1
       ],
-      "defaultGearRadius": 0.25,
-      "topGearRadius": 0.1,
+      "defaultGearRadius": 0.29,
+      "topGearRadius": 0.14,
       "frontBackGearRadius": 0.3,
       "defaultDampeningForce": [
         90000.0,
@@ -2999,7 +3010,7 @@
               "speedYaw": 30.0,
               "speedPitch": 10.0,
               "fireConeAngle": 1.0,
-              "bullets": 38,
+              "bullets": 42,
               "salvoAmount": 100.0,
               "ChainfireTime": 0.0,
               "DelayAfterShoot": 5.0,
@@ -3050,7 +3061,7 @@
                 1.0,
                 15.0
               ],
-              "bullets": 1000,
+              "bullets": 2000,
               "ChainfireTime": 3.0,
               "DelayAfterShoot": 3.0,
               "accuracyAir": 0.0,

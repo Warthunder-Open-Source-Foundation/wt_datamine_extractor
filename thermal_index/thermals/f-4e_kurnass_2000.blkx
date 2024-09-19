@@ -31,6 +31,7 @@
   "damagePartsDependencyMapBlk": "gameData/FlightModels/DM/dm_parts_additional_dependency_map.blk",
   "damagePartsToCollisionPointsMapBlk": "gameData/FlightModels/DM/dm_parts_to_collision_points_map.blk",
   "damagePartsToWeaponsMapBlk": "gameData/FlightModels/DM/dm_parts_to_weapons_map.blk",
+  "damagePartsToAvionicsPartsMapBlk": "gameData/FlightModels/DM/dm_parts_to_avionics_parts_map.blk",
   "damagePartsToVisualEffectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_visual_effects_map.blk",
   "damagePartsExcludeFromHoleBlk": "gameData/FlightModels/DM/dm_parts_exclude_from_hole.blk",
   "explosion_dmBlk": "gameData/FlightModels/DM/commonExplosion.blk",
@@ -3729,6 +3730,24 @@
             }
           },
           {
+            "iconType": "missile_type_b_air_to_air",
+            "name": "aim_9l_slot3_default",
+            "ShowNodes": {
+              "node": "pylon_l_in"
+            },
+            "Weapon": {
+              "trigger": "aam",
+              "blk": "gameData/Weapons/containers/aero_3b_aim9l_left_wing_default.blk",
+              "emitter": "aero_3b_001",
+              "external": true,
+              "separate": true
+            },
+            "BannedWeaponPreset": {
+              "slot": 2,
+              "preset": "agm_65d_x3"
+            }
+          },
+          {
             "iconType": "missile_type_b_air_to_air_group",
             "name": "aim_9l",
             "reqModification": "us_aim_9l",
@@ -3795,7 +3814,8 @@
         "WeaponPreset": [
           {
             "iconType": "missile_air_to_air",
-            "name": "aim_9g_default",
+            "name": "aim_9g_fuse",
+            "reqModification": "us_aim_9g",
             "ShowNodes": {
               "node": [
                 "f_4e_iaf_pylon1",
@@ -3806,7 +3826,7 @@
             },
             "Weapon": {
               "trigger": "aam",
-              "blk": "gameData/Weapons/rocketGuns/us_aim9g_sidewinder_default.blk",
+              "blk": "gameData/Weapons/rocketGuns/us_aim9g_sidewinder.blk",
               "emitter": "lau_7_001_aim_9",
               "bullets": 1,
               "external": true,
@@ -3845,8 +3865,7 @@
           },
           {
             "iconType": "missile_type_f_air_to_air",
-            "name": "python3_fuse",
-            "reqModification": "il_python_3",
+            "name": "python3_fuse_default",
             "ShowNodes": {
               "node": [
                 "f_4e_iaf_pylon1",
@@ -3858,7 +3877,7 @@
             },
             "Weapon": {
               "trigger": "aam",
-              "blk": "gameData/Weapons/rocketGuns/il_pyton_3.blk",
+              "blk": "gameData/Weapons/rocketGuns/il_pyton_3_default.blk",
               "emitter": "lau_7_001_aim_9",
               "bullets": 1,
               "external": true,
@@ -4104,7 +4123,8 @@
         "WeaponPreset": [
           {
             "iconType": "missile_air_to_air",
-            "name": "aim_9g_default",
+            "name": "aim_9g_fuse",
+            "reqModification": "us_aim_9g",
             "ShowNodes": {
               "node": [
                 "f_4e_iaf_pylon3",
@@ -4115,7 +4135,7 @@
             },
             "Weapon": {
               "trigger": "aam",
-              "blk": "gameData/Weapons/rocketGuns/us_aim9g_sidewinder_default.blk",
+              "blk": "gameData/Weapons/rocketGuns/us_aim9g_sidewinder.blk",
               "emitter": "lau_7_002_aim_9",
               "bullets": 1,
               "external": true,
@@ -4154,8 +4174,7 @@
           },
           {
             "iconType": "missile_type_f_air_to_air",
-            "name": "python3_fuse",
-            "reqModification": "il_python_3",
+            "name": "python3_fuse_default",
             "ShowNodes": {
               "node": [
                 "f_4e_iaf_pylon3",
@@ -4167,7 +4186,7 @@
             },
             "Weapon": {
               "trigger": "aam",
-              "blk": "gameData/Weapons/rocketGuns/il_pyton_3.blk",
+              "blk": "gameData/Weapons/rocketGuns/il_pyton_3_default.blk",
               "emitter": "lau_7_002_aim_9",
               "bullets": 1,
               "external": true,
@@ -4218,6 +4237,24 @@
             "Weapon": {
               "trigger": "aam",
               "blk": "gameData/Weapons/containers/lau_7a_aim9g.blk",
+              "emitter": "aero_3b_002",
+              "external": true,
+              "separate": true
+            },
+            "BannedWeaponPreset": {
+              "slot": 10,
+              "preset": "agm_65d_x3"
+            }
+          },
+          {
+            "iconType": "missile_type_b_air_to_air",
+            "name": "aim_9l_slot9_default",
+            "ShowNodes": {
+              "node": "pylon_r_in"
+            },
+            "Weapon": {
+              "trigger": "aam",
+              "blk": "gameData/Weapons/containers/aero_3b_aim9l_right_wing_default.blk",
               "emitter": "aero_3b_002",
               "external": true,
               "separate": true

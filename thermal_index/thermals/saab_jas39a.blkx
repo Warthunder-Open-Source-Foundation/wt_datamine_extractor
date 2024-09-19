@@ -18,7 +18,9 @@
   "havePointOfInterestDesignator": true,
   "hasPointOfInterestMemory": true,
   "needTpsNightVision": true,
-  "hmdF16c": true,
+  "hmdJas39": true,
+  "isMetricHmd": false,
+  "isMetricIls": false,
   "hasHelmetDesignator": true,
   "helmetDesignatorZone0": [
     -40.0,
@@ -59,6 +61,7 @@
   "damagePartsDependencyMapBlk": "gameData/FlightModels/DM/dm_parts_additional_dependency_map.blk",
   "damagePartsToCollisionPointsMapBlk": "gameData/FlightModels/DM/dm_parts_to_collision_points_map_jac.blk",
   "damagePartsToWeaponsMapBlk": "gameData/FlightModels/DM/dm_parts_to_weapons_map_jac.blk",
+  "damagePartsToAvionicsPartsMapBlk": "gameData/FlightModels/DM/dm_parts_to_avionics_parts_map.blk",
   "damagePartsToVisualEffectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_visual_effects_map.blk",
   "damagePartsExcludeFromHoleBlk": "gameData/FlightModels/DM/dm_parts_exclude_from_hole.blk",
   "explosion_dmBlk": "gameData/FlightModels/DM/commonExplosion.blk",
@@ -2426,10 +2429,10 @@
       "head": "optic2_turret",
       "crosshairPreset": "test_crosshair",
       "angularLimits": [
-        -90.0,
-        90.0,
-        -155.0,
-        35.0
+        -89.0,
+        89.0,
+        -154.0,
+        34.0
       ],
       "opticType": "targeting",
       "turretNo": 0,
@@ -2850,8 +2853,7 @@
           },
           {
             "iconType": "missile_air_to_air_midrange_special",
-            "name": "rb71",
-            "reqModification": "swe_rb71",
+            "name": "rb71_default",
             "ShowNodes": {
               "node": [
                 "lavett_71_001",
@@ -2862,7 +2864,7 @@
               "trigger": "aam",
               "external": true,
               "separate": true,
-              "blk": "gameData/Weapons/rocketGuns/swd_rb71.blk",
+              "blk": "gameData/Weapons/rocketGuns/swd_rb71_default.blk",
               "emitter": "rb74_002",
               "bullets": 1
             }
@@ -3916,8 +3918,7 @@
           },
           {
             "iconType": "missile_air_to_air_midrange_special",
-            "name": "rb71",
-            "reqModification": "swe_rb71",
+            "name": "rb71_default",
             "ShowNodes": {
               "node": [
                 "lavett_71_002",
@@ -3928,7 +3929,7 @@
               "trigger": "aam",
               "external": true,
               "separate": true,
-              "blk": "gameData/Weapons/rocketGuns/swd_rb71.blk",
+              "blk": "gameData/Weapons/rocketGuns/swd_rb71_default.blk",
               "emitter": "rb71_002",
               "bullets": 1
             }

@@ -30,6 +30,7 @@
   "damagePartsDependencyMapBlk": "gameData/FlightModels/DM/dm_parts_additional_dependency_map.blk",
   "damagePartsToCollisionPointsMapBlk": "gameData/FlightModels/DM/dm_parts_to_collision_points_map.blk",
   "damagePartsToWeaponsMapBlk": "gameData/FlightModels/DM/dm_parts_to_weapons_map.blk",
+  "damagePartsToAvionicsPartsMapBlk": "gameData/FlightModels/DM/dm_parts_to_avionics_parts_map.blk",
   "damagePartsToVisualEffectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_visual_effects_map.blk",
   "damagePartsExcludeFromHoleBlk": "gameData/FlightModels/DM/dm_parts_exclude_from_hole.blk",
   "explosion_dmBlk": "gameData/FlightModels/DM/commonExplosion.blk",
@@ -2934,10 +2935,10 @@
       "head": "optic1_turret",
       "crosshairPreset": "test_crosshair",
       "angularLimits": [
-        -90.0,
-        90.0,
-        -155.0,
-        35.0
+        -89.0,
+        89.0,
+        -154.0,
+        34.0
       ],
       "opticType": "targeting",
       "turretNo": 0
@@ -3109,15 +3110,26 @@
               "boz_101_1"
             ]
           },
-          "Weapon": {
-            "trigger": "countermeasures",
-            "blk": "gameData/Weapons/rocketGuns/countermeasure_large_split_launcher_jet.blk",
-            "emitter": "emtr_flare1",
-            "bullets": 28,
-            "external": true,
-            "separate": false,
-            "bulletsCartridge": 1
-          }
+          "Weapon": [
+            {
+              "trigger": "countermeasures",
+              "blk": "gameData/Weapons/rocketGuns/countermeasure_large_split_launcher_jet.blk",
+              "emitter": "emtr_flare1",
+              "bullets": 28,
+              "external": true,
+              "separate": false,
+              "bulletsCartridge": 1
+            },
+            {
+              "trigger": "countermeasures",
+              "blk": "gameData/Weapons/rocketGuns/countermeasure_chaff_only_large.blk",
+              "emitter": "emtr_inversion_r",
+              "bullets": 340,
+              "external": true,
+              "separate": false,
+              "bulletsCartridge": 1
+            }
+          ]
         }
       },
       {
@@ -3161,6 +3173,7 @@
             },
             "Weapon": {
               "trigger": "bombs",
+              "machLimit": 1.01,
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/BombGuns/us_1000lb_mk_83_ldgp.blk",
@@ -3177,6 +3190,7 @@
             },
             "Weapon": {
               "trigger": "bombs",
+              "machLimit": 1.01,
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/containers/uk_tsc_1000_mk83_x2.blk",
@@ -3195,6 +3209,7 @@
             },
             "Weapon": {
               "trigger": "bombs",
+              "machLimit": 1.01,
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/BombGuns/us_1000lb_mk_83_ldgp_air.blk",
@@ -3211,6 +3226,7 @@
             },
             "Weapon": {
               "trigger": "bombs",
+              "machLimit": 1.01,
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/containers/uk_tsc_1000_mk83_air_x2.blk",
@@ -3301,6 +3317,7 @@
             },
             "Weapon": {
               "trigger": "bombs",
+              "machLimit": 1.01,
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/BombGuns/us_1000lb_mk_83_ldgp.blk",
@@ -3319,6 +3336,7 @@
             },
             "Weapon": {
               "trigger": "bombs",
+              "machLimit": 1.01,
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/BombGuns/us_1000lb_mk_83_ldgp_default.blk",
@@ -3335,6 +3353,7 @@
             },
             "Weapon": {
               "trigger": "bombs",
+              "machLimit": 1.01,
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/containers/uk_tsc_1000_mk83_x2.blk",
@@ -3353,6 +3372,7 @@
             },
             "Weapon": {
               "trigger": "bombs",
+              "machLimit": 1.01,
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/BombGuns/us_1000lb_mk_83_ldgp_air.blk",
@@ -3369,6 +3389,7 @@
             },
             "Weapon": {
               "trigger": "bombs",
+              "machLimit": 1.01,
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/containers/uk_tsc_1000_mk83_air_x2.blk",
@@ -3395,6 +3416,7 @@
             },
             "Weapon": {
               "trigger": "bombs",
+              "machLimit": 1.01,
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/BombGuns/us_1000lb_mk_83_ldgp.blk",
@@ -3413,6 +3435,7 @@
             },
             "Weapon": {
               "trigger": "bombs",
+              "machLimit": 1.01,
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/BombGuns/us_1000lb_mk_83_ldgp_default.blk",
@@ -3429,6 +3452,7 @@
             },
             "Weapon": {
               "trigger": "bombs",
+              "machLimit": 1.01,
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/containers/uk_tsc_1000_mk83_x2.blk",
@@ -3447,6 +3471,7 @@
             },
             "Weapon": {
               "trigger": "bombs",
+              "machLimit": 1.01,
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/BombGuns/us_1000lb_mk_83_ldgp_air.blk",
@@ -3463,6 +3488,7 @@
             },
             "Weapon": {
               "trigger": "bombs",
+              "machLimit": 1.01,
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/containers/uk_tsc_1000_mk83_air_x2.blk",
@@ -3489,6 +3515,7 @@
             },
             "Weapon": {
               "trigger": "bombs",
+              "machLimit": 1.01,
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/BombGuns/us_1000lb_mk_83_ldgp.blk",
@@ -3550,6 +3577,7 @@
             },
             "Weapon": {
               "trigger": "bombs",
+              "machLimit": 1.01,
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/BombGuns/us_1000lb_mk_83_ldgp_air.blk",
@@ -3677,6 +3705,7 @@
             },
             "Weapon": {
               "trigger": "bombs",
+              "machLimit": 1.01,
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/BombGuns/us_1000lb_mk_83_ldgp.blk",
@@ -3699,6 +3728,7 @@
             },
             "Weapon": {
               "trigger": "bombs",
+              "machLimit": 1.01,
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/BombGuns/us_1000lb_mk_83_ldgp_default.blk",
@@ -3719,6 +3749,7 @@
             },
             "Weapon": {
               "trigger": "bombs",
+              "machLimit": 1.01,
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/containers/uk_tsc_1000_mk83_x2.blk",
@@ -3741,6 +3772,7 @@
             },
             "Weapon": {
               "trigger": "bombs",
+              "machLimit": 1.01,
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/BombGuns/us_1000lb_mk_83_ldgp_air.blk",
@@ -3761,6 +3793,7 @@
             },
             "Weapon": {
               "trigger": "bombs",
+              "machLimit": 1.01,
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/containers/uk_tsc_1000_mk83_air_x2.blk",
@@ -3791,6 +3824,7 @@
             },
             "Weapon": {
               "trigger": "bombs",
+              "machLimit": 1.01,
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/BombGuns/us_1000lb_mk_83_ldgp.blk",
@@ -3809,6 +3843,7 @@
             },
             "Weapon": {
               "trigger": "bombs",
+              "machLimit": 1.01,
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/BombGuns/us_1000lb_mk_83_ldgp_default.blk",
@@ -3825,6 +3860,7 @@
             },
             "Weapon": {
               "trigger": "bombs",
+              "machLimit": 1.01,
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/containers/uk_tsc_1000_mk83_x2.blk",
@@ -3843,6 +3879,7 @@
             },
             "Weapon": {
               "trigger": "bombs",
+              "machLimit": 1.01,
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/BombGuns/us_1000lb_mk_83_ldgp_air.blk",
@@ -3859,6 +3896,7 @@
             },
             "Weapon": {
               "trigger": "bombs",
+              "machLimit": 1.01,
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/containers/uk_tsc_1000_mk83_air_x2.blk",
@@ -3887,17 +3925,7 @@
             "DependentWeaponPreset": {
               "slot": 4,
               "preset": "litening_pod"
-            },
-            "BannedWeaponPreset": [
-              {
-                "slot": 7,
-                "preset": "1000lbs_mk83_slot7"
-              },
-              {
-                "slot": 7,
-                "preset": "1000lbs_mk83_x2_slot7"
-              }
-            ]
+            }
           },
           {
             "iconType": "guided_bomb_special_laser",
@@ -3968,6 +3996,7 @@
             },
             "Weapon": {
               "trigger": "bombs",
+              "machLimit": 1.01,
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/BombGuns/us_1000lb_mk_83_ldgp.blk",
@@ -3984,6 +4013,7 @@
             },
             "Weapon": {
               "trigger": "bombs",
+              "machLimit": 1.01,
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/containers/uk_tsc_1000_mk83_x2.blk",
@@ -4002,6 +4032,7 @@
             },
             "Weapon": {
               "trigger": "bombs",
+              "machLimit": 1.01,
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/BombGuns/us_1000lb_mk_83_ldgp_air.blk",
@@ -4018,6 +4049,7 @@
             },
             "Weapon": {
               "trigger": "bombs",
+              "machLimit": 1.01,
               "external": true,
               "separate": true,
               "blk": "gameData/Weapons/containers/uk_tsc_1000_mk83_air_x2.blk",
@@ -4107,15 +4139,26 @@
               "boz_101_2"
             ]
           },
-          "Weapon": {
-            "trigger": "countermeasures",
-            "blk": "gameData/Weapons/rocketGuns/countermeasure_large_split_launcher_jet.blk",
-            "emitter": "emtr_flare2",
-            "bullets": 28,
-            "external": true,
-            "separate": false,
-            "bulletsCartridge": 1
-          }
+          "Weapon": [
+            {
+              "trigger": "countermeasures",
+              "blk": "gameData/Weapons/rocketGuns/countermeasure_large_split_launcher_jet.blk",
+              "emitter": "emtr_flare2",
+              "bullets": 28,
+              "external": true,
+              "separate": false,
+              "bulletsCartridge": 1
+            },
+            {
+              "trigger": "countermeasures",
+              "blk": "gameData/Weapons/rocketGuns/countermeasure_chaff_only_large.blk",
+              "emitter": "emtr_inversion_l",
+              "bullets": 340,
+              "external": true,
+              "separate": false,
+              "bulletsCartridge": 1
+            }
+          ]
         }
       }
     ]

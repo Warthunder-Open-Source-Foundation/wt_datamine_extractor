@@ -12,6 +12,23 @@
     ]
   },
   {
+    "name": "a_10c",
+    "localized": "A-10C",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "a_129_a",
     "localized": "A-129 International (p)",
     "vehicle_type": "Helicopter",
@@ -353,6 +370,23 @@
     ]
   },
   {
+    "name": "av_8b_na",
+    "localized": "AV-8B (NA)",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 800.0,
+        "y": 600.0
+      },
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "av_8b_plus",
     "localized": "AV-8B Plus",
     "vehicle_type": "Aircraft",
@@ -381,6 +415,35 @@
       },
       {
         "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "cn_al_khalid_1",
+    "localized": "Al-Khalid-I",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      },
+      {
+        "crew": "Commander",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "cn_antelope_tc_1l_ads",
+    "localized": "Antelope",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
         "x": 500.0,
         "y": 300.0
       }
@@ -698,6 +761,30 @@
     ]
   },
   {
+    "name": "f_111c_raaf",
+    "localized": "F-111C",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "f_111f",
+    "localized": "F-111F",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "f_14b",
     "localized": "F-14B",
     "vehicle_type": "Aircraft",
@@ -723,6 +810,18 @@
         "crew": "Global",
         "x": 500.0,
         "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "f_16c_block_40_barak_2",
+    "localized": "F-16C Barak II",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 800.0,
+        "y": 600.0
       }
     ]
   },
@@ -762,7 +861,7 @@
   },
   {
     "name": "f_16d_block_40_barak_2",
-    "localized": "Barak II",
+    "localized": "F-16D Barak II",
     "vehicle_type": "Aircraft",
     "sights": [
       {
@@ -779,7 +878,7 @@
   },
   {
     "name": "f_16d_block_40_barak_2_missile_test",
-    "localized": "Barak II",
+    "localized": "F-16D Barak II",
     "vehicle_type": "Aircraft",
     "sights": [
       {
@@ -885,6 +984,23 @@
     "sights": [
       {
         "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "fr_cv_9035_nl",
+    "localized": "CV 9035NL",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      },
+      {
+        "crew": "Commander",
         "x": 1200.0,
         "y": 800.0
       }
@@ -1250,6 +1366,23 @@
   {
     "name": "germ_schutzenpanzer_puma",
     "localized": "PUMA",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      },
+      {
+        "crew": "Commander",
+        "x": 1200.0,
+        "y": 800.0
+      }
+    ]
+  },
+  {
+    "name": "germ_schutzenpanzer_puma_vjtf",
+    "localized": "PUMA VJTF",
     "vehicle_type": "Tank",
     "sights": [
       {
@@ -1875,6 +2008,18 @@
     ]
   },
   {
+    "name": "j_10a",
+    "localized": "J-10A",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 800.0,
+        "y": 600.0
+      }
+    ]
+  },
+  {
     "name": "jaguar_gr1a",
     "localized": "Jaguar GR.1A",
     "vehicle_type": "Aircraft",
@@ -1899,6 +2044,18 @@
     ]
   },
   {
+    "name": "jf_17",
+    "localized": "JF-17",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 1080.0,
+        "y": 720.0
+      }
+    ]
+  },
+  {
     "name": "jh_7a",
     "localized": "JH-7A",
     "vehicle_type": "Aircraft",
@@ -1907,6 +2064,23 @@
         "crew": "Global",
         "x": 1080.0,
         "y": 720.0
+      }
+    ]
+  },
+  {
+    "name": "jp_icv_prototype",
+    "localized": "CTWV RCV",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 1200.0,
+        "y": 800.0
+      },
+      {
+        "crew": "Commander",
+        "x": 1200.0,
+        "y": 800.0
       }
     ]
   },
@@ -2849,6 +3023,18 @@
     ]
   },
   {
+    "name": "tornado_ids_it",
+    "localized": "⦿Tornado IDS",
+    "vehicle_type": "Aircraft",
+    "sights": [
+      {
+        "crew": "Global",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
     "name": "tornado_ids_it_mod95",
     "localized": "⦿Tornado IDS (1995)",
     "vehicle_type": "Aircraft",
@@ -3291,6 +3477,18 @@
   {
     "name": "uk_rooikat_mttd",
     "localized": "Rooikat MTTD",
+    "vehicle_type": "Tank",
+    "sights": [
+      {
+        "crew": "Gunner",
+        "x": 500.0,
+        "y": 300.0
+      }
+    ]
+  },
+  {
+    "name": "uk_stormer_air_defence",
+    "localized": "Stormer AD",
     "vehicle_type": "Tank",
     "sights": [
       {
