@@ -70,17 +70,20 @@
       },
       "superstructure_front_dm": {
         "armorThickness": 20.0,
-        "createSecondaryShatters": false
+        "createSecondaryShatters": false,
+        "ignoreSolidDimension": true
       },
       "turret_02_side_dm": {
-        "armorThickness": 50.0
+        "armorThickness": 50.0,
+        "ignoreSolidDimension": true
       },
       "composite_armor_hull_01_dm": {
         "armorClass": "leopard_2a5_turret_nera",
-        "armorThickness": 125.0,
+        "armorThickness": 215.0,
         "genericArmorQuality": 1.0,
         "cumulativeArmorQuality": 1.02,
-        "createSecondaryShatters": false
+        "createSecondaryShatters": false,
+        "ignoreSolidDimension": true
       },
       "turret_04_back_dm": {
         "armorThickness": 30.0
@@ -165,6 +168,10 @@
       },
       "turret_06_side_dm": {
         "armorThickness": 10.0
+      },
+      "turret_09_side_dm": {
+        "armorClass": "CHA_tank_modern",
+        "armorThickness": 60.0
       }
     },
     "turret_composite_armor": {
@@ -202,16 +209,16 @@
       }
     },
     "turret": {
-      "gun_mask_01_dm": {
-        "armorClass": "CHA_tank_modern",
-        "armorThickness": 50.0
-      },
       "gun_mask_02_dm": {
         "armorClass": "CHA_tank_modern",
         "armorThickness": 50.0,
         "variableThickness": true
       },
-      "gun_mask_03_dm": {
+      "gun_mask_04_dm": {
+        "armorClass": "CHA_tank_modern",
+        "armorThickness": 50.0
+      },
+      "gun_mask_05_dm": {
         "armorClass": "CHA_tank_modern",
         "armorThickness": 50.0
       },
@@ -260,10 +267,8 @@
       "turret_07_front_dm": {
         "armorThickness": 20.0
       },
-      "turret_08_side_dm": {
-        "armorClass": "tank_structural_steel",
-        "armorThickness": 6.0,
-        "secondaryShatterArmorQuality": 0.8
+      "turret_08_top_dm": {
+        "armorThickness": 20.0
       }
     },
     "ufp_era": {
@@ -681,6 +686,10 @@
         "hp": 60.0,
         "armorThrough": 3.0
       },
+      "electronic_equipment_01_dm": {
+        "hp": 60.0,
+        "armorThrough": 3.0
+      },
       "fire_control_system_dm": {
         "hp": 60.0,
         "armorThrough": 3.0
@@ -715,8 +724,9 @@
         "armorThickness": 10.0
       },
       "autoloader_dm": {
-        "armorThickness": 5.0,
-        "armorThrough": 5.0
+        "armorThickness": 2.0,
+        "armorThrough": 1.0,
+        "ignoreSolidDimension": true
       }
     },
     "power_block": {
@@ -899,6 +909,11 @@
       "ammo_body_l_13_dm": {},
       "ammo_body_l_14_dm": {},
       "ammo_body_l_15_dm": {},
+      "ammo_body_l_16_dm": {},
+      "ammo_body_l_17_dm": {},
+      "ammo_body_l_18_dm": {},
+      "ammo_body_l_19_dm": {},
+      "ammo_body_l_20_dm": {},
       "ammo_body_r_01_dm": {},
       "ammo_body_r_02_dm": {},
       "ammo_body_r_03_dm": {},
@@ -917,7 +932,8 @@
       "ammo_body_r_16_dm": {},
       "ammo_body_r_17_dm": {},
       "ammo_body_r_18_dm": {},
-      "ammo_body_r_19_dm": {}
+      "ammo_body_r_19_dm": {},
+      "ammo_body_r_20_dm": {}
     },
     "fuel_tanks": {
       "armorClass": "tank_structural_steel",
@@ -2359,7 +2375,9 @@
     "hideNodes": {
       "node": [
         "ex_decor_l_05",
-        "ex_decor_r_05"
+        "ex_decor_r_05",
+        "ex_decor_l_05_dm",
+        "ex_decor_r_05_dm"
       ]
     }
   },
@@ -3884,7 +3902,9 @@
           "hideNodes": {
             "node": [
               "ex_decor_l_05",
-              "ex_decor_r_05"
+              "ex_decor_r_05",
+              "ex_decor_l_05_dm",
+              "ex_decor_r_05_dm"
             ]
           }
         }

@@ -70,6 +70,7 @@
   "damagePartsDependencyMapBlk": "gameData/FlightModels/DM/dm_parts_additional_dependency_map.blk",
   "damagePartsToCollisionPointsMapBlk": "gameData/FlightModels/DM/dm_parts_to_collision_points_map.blk",
   "damagePartsToWeaponsMapBlk": "gameData/FlightModels/DM/dm_parts_to_weapons_map.blk",
+  "damagePartsToAvionicsPartsMapBlk": "gameData/FlightModels/DM/dm_parts_to_avionics_parts_map.blk",
   "damagePartsToVisualEffectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_visual_effects_map.blk",
   "damagePartsExcludeFromHoleBlk": "gameData/FlightModels/DM/dm_parts_exclude_from_hole.blk",
   "explosion_dmBlk": "gameData/FlightModels/DM/commonExplosion.blk",
@@ -2177,6 +2178,7 @@
       0.85,
       0.0
     ],
+    "hmdEnabledByDefault": true,
     "lightPos": [
       4.95,
       0.5,
@@ -2671,7 +2673,8 @@
         30.0
       ],
       "opticType": "tv",
-      "turretNo": 0
+      "turretNo": 0,
+      "nvIndex": 2
     },
     "Target": {
       "pos": [
@@ -2682,10 +2685,10 @@
       "head": "optic2_turret",
       "crosshairPreset": "test_crosshair",
       "angularLimits": [
-        -90.0,
-        90.0,
-        -155.0,
-        35.0
+        -89.0,
+        89.0,
+        -154.0,
+        34.0
       ],
       "opticType": "targeting",
       "turretNo": 0,
@@ -2902,7 +2905,7 @@
       "tier": 3,
       "reqModification": "us_750lb_m117a1"
     },
-    "us_2000lb_mk84": {
+    "us_2000lb_mk84_gbu31_jdam": {
       "modClass": "weapon",
       "tier": 4,
       "reqModification": "us_1000lb_mk83"
@@ -3350,7 +3353,7 @@
         "order": 3,
         "WeaponPreset": {
           "iconType": "missile_air_to_air_midrange_special",
-          "name": "derby",
+          "name": "derby_default",
           "ShowNodes": {
             "node": [
               "pylon1",
@@ -3419,7 +3422,7 @@
         "order": 4,
         "WeaponPreset": {
           "iconType": "missile_air_to_air_midrange_special",
-          "name": "derby",
+          "name": "derby_default",
           "ShowNodes": {
             "node": [
               "pylon8",

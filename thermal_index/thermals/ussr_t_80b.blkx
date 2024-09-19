@@ -338,13 +338,11 @@
       },
       "turret_06_bottom_dm": {
         "armorClass": "tank_structural_steel",
-        "armorThickness": 6.0,
-        "secondaryShatterArmorQuality": 0.8
+        "armorThickness": 2.0
       },
       "turret_02_bottom_dm": {
         "armorClass": "tank_structural_steel",
-        "armorThickness": 6.0,
-        "secondaryShatterArmorQuality": 0.8
+        "armorThickness": 2.0
       }
     },
     "era_turret_hull": {
@@ -706,6 +704,10 @@
         "hp": 60.0,
         "armorThrough": 3.0
       },
+      "electronic_equipment_01_dm": {
+        "hp": 60.0,
+        "armorThrough": 3.0
+      },
       "fire_control_system_dm": {
         "hp": 60.0,
         "armorThrough": 3.0
@@ -740,8 +742,9 @@
         "armorThickness": 10.0
       },
       "autoloader_dm": {
-        "armorThickness": 5.0,
-        "armorThrough": 5.0
+        "armorThickness": 2.0,
+        "armorThrough": 1.0,
+        "ignoreSolidDimension": true
       }
     },
     "power_block": {
@@ -924,6 +927,11 @@
       "ammo_body_l_13_dm": {},
       "ammo_body_l_14_dm": {},
       "ammo_body_l_15_dm": {},
+      "ammo_body_l_16_dm": {},
+      "ammo_body_l_17_dm": {},
+      "ammo_body_l_18_dm": {},
+      "ammo_body_l_19_dm": {},
+      "ammo_body_l_20_dm": {},
       "ammo_body_r_01_dm": {},
       "ammo_body_r_02_dm": {},
       "ammo_body_r_03_dm": {},
@@ -942,7 +950,8 @@
       "ammo_body_r_16_dm": {},
       "ammo_body_r_17_dm": {},
       "ammo_body_r_18_dm": {},
-      "ammo_body_r_19_dm": {}
+      "ammo_body_r_19_dm": {},
+      "ammo_body_r_20_dm": {}
     },
     "fuel_tanks": {
       "armorClass": "tank_structural_steel",
@@ -2400,7 +2409,13 @@
       "trackFadeTime": 1.5,
       "trackConnector": true,
       "trackStartOffset": 0.08,
-      "trackMaxHeight": 1.17
+      "trackMaxHeight": 1.17,
+      "fricSideRot": [
+        5.0,
+        0.0,
+        0.6,
+        0.3
+      ]
     },
     "collisionProps": {
       "cls_turret": "convex_hull",

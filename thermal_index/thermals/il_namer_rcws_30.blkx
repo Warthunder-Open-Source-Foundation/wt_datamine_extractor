@@ -138,6 +138,18 @@
         "armorThickness": 10.0,
         "createSecondaryShatters": false
       },
+      "turret_01_top_dm": {
+        "armorThickness": 10.0,
+        "createSecondaryShatters": false
+      },
+      "turret_05_top_dm": {
+        "armorThickness": 10.0,
+        "createSecondaryShatters": false
+      },
+      "turret_06_bottom_dm": {
+        "armorThickness": 10.0,
+        "createSecondaryShatters": false
+      },
       "body_top_dm": {
         "armorThickness": 10.0
       },
@@ -627,6 +639,10 @@
         "hp": 60.0,
         "armorThrough": 3.0
       },
+      "electronic_equipment_01_dm": {
+        "hp": 60.0,
+        "armorThrough": 3.0
+      },
       "fire_control_system_dm": {
         "hp": 60.0,
         "armorThrough": 3.0
@@ -662,8 +678,9 @@
         "armorThickness": 10.0
       },
       "autoloader_dm": {
-        "armorThickness": 5.0,
-        "armorThrough": 5.0
+        "armorThickness": 2.0,
+        "armorThrough": 1.0,
+        "ignoreSolidDimension": true
       }
     },
     "power_block": {
@@ -848,6 +865,11 @@
       "ammo_body_l_13_dm": {},
       "ammo_body_l_14_dm": {},
       "ammo_body_l_15_dm": {},
+      "ammo_body_l_16_dm": {},
+      "ammo_body_l_17_dm": {},
+      "ammo_body_l_18_dm": {},
+      "ammo_body_l_19_dm": {},
+      "ammo_body_l_20_dm": {},
       "ammo_body_r_01_dm": {},
       "ammo_body_r_02_dm": {},
       "ammo_body_r_03_dm": {},
@@ -866,7 +888,8 @@
       "ammo_body_r_16_dm": {},
       "ammo_body_r_17_dm": {},
       "ammo_body_r_18_dm": {},
-      "ammo_body_r_19_dm": {}
+      "ammo_body_r_19_dm": {},
+      "ammo_body_r_20_dm": {}
     },
     "fuel_tanks": {
       "armorClass": "tank_structural_steel",
@@ -1012,7 +1035,7 @@
     ]
   },
   "sound": {
-    "EngineName": "engine_leo2a5",
+    "EngineName": "engine_m60_patton",
     "TrackSoundPath": "tanks/engines_tanks",
     "TrackSoundPathStudio": "ground/engines",
     "TrackSoundName": "tracks_mbt",
@@ -2041,7 +2064,7 @@
         "skipAxisEmitterCheck": true,
         "recoilMultiplier": 0.1,
         "changeBulletTypeForSet": true,
-        "staticElevation": 2.25,
+        "staticElevation": 4.9125,
         "maxAdditionalPitch": 0.0,
         "barrelDP": "gun_barrel_01_dm",
         "brokenBarrelAllowShoot": false,
@@ -2273,9 +2296,9 @@
   },
   "VehiclePhys": {
     "Mass": {
-      "Empty": 59500.0,
+      "Empty": 62900.0,
       "Fuel": 1500.0,
-      "TakeOff": 61000.0,
+      "TakeOff": 64400.0,
       "momentOfInertia": [
         2.5,
         2.5,
@@ -3687,7 +3710,7 @@
               "skipAxisEmitterCheck": true,
               "recoilMultiplier": 0.1,
               "changeBulletTypeForSet": true,
-              "staticElevation": 2.25,
+              "staticElevation": 4.9125,
               "maxAdditionalPitch": 0.0,
               "barrelDP": "gun_barrel_01_dm",
               "brokenBarrelAllowShoot": false,

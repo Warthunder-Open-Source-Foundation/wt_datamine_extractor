@@ -70,6 +70,7 @@
   "damagePartsDependencyMapBlk": "gameData/FlightModels/DM/dm_parts_additional_dependency_map.blk",
   "damagePartsToCollisionPointsMapBlk": "gameData/FlightModels/DM/dm_parts_to_collision_points_map.blk",
   "damagePartsToWeaponsMapBlk": "gameData/FlightModels/DM/dm_parts_to_weapons_map.blk",
+  "damagePartsToAvionicsPartsMapBlk": "gameData/FlightModels/DM/dm_parts_to_avionics_parts_map.blk",
   "damagePartsToVisualEffectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_visual_effects_map.blk",
   "damagePartsExcludeFromHoleBlk": "gameData/FlightModels/DM/dm_parts_exclude_from_hole.blk",
   "explosion_dmBlk": "gameData/FlightModels/DM/commonExplosion.blk",
@@ -2596,10 +2597,10 @@
       "head": "optic2_turret",
       "crosshairPreset": "test_crosshair",
       "angularLimits": [
-        -90.0,
-        90.0,
-        -155.0,
-        35.0
+        -89.0,
+        89.0,
+        -154.0,
+        34.0
       ],
       "opticType": "targeting",
       "turretNo": 0,
@@ -2681,6 +2682,14 @@
       {
         "name": "f_16c_block_50_gbu_24",
         "blk": "gameData/FlightModels/weaponPresets/f_16c_block_50_gbu_24.blk"
+      },
+      {
+        "name": "f_16c_block_50_gbu_38",
+        "blk": "gameData/FlightModels/weaponPresets/f_16c_block_50_gbu_38.blk"
+      },
+      {
+        "name": "f_16c_block_50_gbu_31",
+        "blk": "gameData/FlightModels/weaponPresets/f_16c_block_50_gbu_31.blk"
       },
       {
         "name": "f_16c_block_50_blu_1",
@@ -2907,8 +2916,7 @@
           },
           {
             "iconType": "missile_type_f_air_to_air_midrange",
-            "name": "aim_120a",
-            "reqModification": "us_aim_120a",
+            "name": "aim_120a_default",
             "ShowNodes": {
               "node": [
                 "pylon1",
@@ -2917,7 +2925,7 @@
             },
             "Weapon": {
               "trigger": "aam",
-              "blk": "gameData/Weapons/rocketGuns/us_aim_120a.blk",
+              "blk": "gameData/Weapons/rocketGuns/us_aim_120a_default.blk",
               "emitter": "aim_120a_002",
               "bullets": 1,
               "external": true,
@@ -3093,7 +3101,7 @@
           {
             "iconType": "bombs_middle_group",
             "name": "ter_mk82",
-            "reqModification": "us_500lb_mk82",
+            "reqModification": "us_500lb_mk82_gbu38_jdam",
             "ShowNodes": {
               "node": "pylon2"
             },
@@ -3109,7 +3117,7 @@
           {
             "iconType": "bombs_heavy_middle",
             "name": "us_mk84",
-            "reqModification": "us_2000lb_mk84",
+            "reqModification": "us_2000lb_mk84_gbu31_jdam",
             "ShowNodes": {
               "node": [
                 "pylon2",
@@ -3129,7 +3137,7 @@
           {
             "iconType": "bombs_large_high_drag",
             "name": "us_mk84_air",
-            "reqModification": "us_2000lb_mk84",
+            "reqModification": "us_2000lb_mk84_gbu31_jdam",
             "ShowNodes": {
               "node": [
                 "pylon2",
@@ -3149,7 +3157,7 @@
           {
             "iconType": "bombs_middle_high_drag_group",
             "name": "ter_mk82_snakeye",
-            "reqModification": "us_500lb_mk82",
+            "reqModification": "us_500lb_mk82_gbu38_jdam",
             "ShowNodes": {
               "node": "pylon2"
             },
@@ -3210,6 +3218,45 @@
             }
           },
           {
+            "iconType": "guided_bomb_middle_jdam_group_x2",
+            "name": "us_gbu_38_x2_slot3",
+            "reqModification": "us_500lb_mk82_gbu38_jdam",
+            "ShowNodes": {
+              "node": [
+                "pylon2",
+                "pylon2_holder"
+              ]
+            },
+            "Weapon": {
+              "trigger": "guided bombs",
+              "blk": "gameData/Weapons/containers/bru_57_gbu_38.blk",
+              "emitter": "ter_001",
+              "external": true,
+              "separate": true,
+              "machLimit": 1.01
+            }
+          },
+          {
+            "iconType": "guided_bomb_heavy_middle_jdam",
+            "name": "us_gbu_31_slot3",
+            "reqModification": "us_2000lb_mk84_gbu31_jdam",
+            "ShowNodes": {
+              "node": [
+                "pylon2",
+                "pylon2_holder"
+              ]
+            },
+            "Weapon": {
+              "trigger": "guided bombs",
+              "blk": "gameData/Weapons/BombGuns/us_2000lb_gbu31_usaf.blk",
+              "emitter": "bomb_2000lb_001",
+              "bullets": 1,
+              "external": true,
+              "separate": true,
+              "machLimit": 1.01
+            }
+          },
+          {
             "iconType": "napalm_large_group_x2",
             "name": "blu_27_slot3",
             "reqModification": "us_blu27_b",
@@ -3238,7 +3285,7 @@
           {
             "iconType": "bombs_middle_group",
             "name": "ter_mk82",
-            "reqModification": "us_500lb_mk82",
+            "reqModification": "us_500lb_mk82_gbu38_jdam",
             "ShowNodes": {
               "node": "pylon4"
             },
@@ -3254,7 +3301,7 @@
           {
             "iconType": "bombs_middle_group_x6",
             "name": "mer_mk82_x6",
-            "reqModification": "us_500lb_mk82",
+            "reqModification": "us_500lb_mk82_gbu38_jdam",
             "ShowNodes": {
               "node": "pylon4"
             },
@@ -3270,7 +3317,7 @@
           {
             "iconType": "bombs_heavy_middle",
             "name": "us_mk84",
-            "reqModification": "us_2000lb_mk84",
+            "reqModification": "us_2000lb_mk84_gbu31_jdam",
             "ShowNodes": {
               "node": [
                 "pylon4",
@@ -3290,7 +3337,7 @@
           {
             "iconType": "bombs_large_high_drag",
             "name": "us_mk84_air",
-            "reqModification": "us_2000lb_mk84",
+            "reqModification": "us_2000lb_mk84_gbu31_jdam",
             "ShowNodes": {
               "node": [
                 "pylon4",
@@ -3310,7 +3357,7 @@
           {
             "iconType": "bombs_middle_high_drag_group",
             "name": "ter_mk82_snakeye",
-            "reqModification": "us_500lb_mk82",
+            "reqModification": "us_500lb_mk82_gbu38_jdam",
             "ShowNodes": {
               "node": "pylon4"
             },
@@ -3326,7 +3373,7 @@
           {
             "iconType": "bombs_middle_high_drag_group_x6",
             "name": "mer_mk82_snakeye_x6",
-            "reqModification": "us_500lb_mk82",
+            "reqModification": "us_500lb_mk82_gbu38_jdam",
             "ShowNodes": {
               "node": "pylon4"
             },
@@ -3476,7 +3523,7 @@
           {
             "iconType": "bombs_middle_group",
             "name": "ter_mk82",
-            "reqModification": "us_500lb_mk82",
+            "reqModification": "us_500lb_mk82_gbu38_jdam",
             "ShowNodes": {
               "node": "pylon5"
             },
@@ -3492,7 +3539,7 @@
           {
             "iconType": "bombs_middle_group_x6",
             "name": "mer_mk82_x6",
-            "reqModification": "us_500lb_mk82",
+            "reqModification": "us_500lb_mk82_gbu38_jdam",
             "ShowNodes": {
               "node": "pylon5"
             },
@@ -3508,7 +3555,7 @@
           {
             "iconType": "bombs_heavy_middle",
             "name": "us_mk84",
-            "reqModification": "us_2000lb_mk84",
+            "reqModification": "us_2000lb_mk84_gbu31_jdam",
             "ShowNodes": {
               "node": [
                 "pylon5",
@@ -3528,7 +3575,7 @@
           {
             "iconType": "bombs_large_high_drag",
             "name": "us_mk84_air",
-            "reqModification": "us_2000lb_mk84",
+            "reqModification": "us_2000lb_mk84_gbu31_jdam",
             "ShowNodes": {
               "node": [
                 "pylon5",
@@ -3548,7 +3595,7 @@
           {
             "iconType": "bombs_middle_high_drag_group",
             "name": "ter_mk82_snakeye",
-            "reqModification": "us_500lb_mk82",
+            "reqModification": "us_500lb_mk82_gbu38_jdam",
             "ShowNodes": {
               "node": "pylon5"
             },
@@ -3564,7 +3611,7 @@
           {
             "iconType": "bombs_middle_high_drag_group_x6",
             "name": "mer_mk82_snakeye_x6",
-            "reqModification": "us_500lb_mk82",
+            "reqModification": "us_500lb_mk82_gbu38_jdam",
             "ShowNodes": {
               "node": "pylon5"
             },
@@ -3811,7 +3858,7 @@
           {
             "iconType": "bombs_middle_group",
             "name": "ter_mk82",
-            "reqModification": "us_500lb_mk82",
+            "reqModification": "us_500lb_mk82_gbu38_jdam",
             "ShowNodes": {
               "node": "pylon6"
             },
@@ -3827,7 +3874,7 @@
           {
             "iconType": "bombs_heavy_middle",
             "name": "us_mk84",
-            "reqModification": "us_2000lb_mk84",
+            "reqModification": "us_2000lb_mk84_gbu31_jdam",
             "ShowNodes": {
               "node": [
                 "pylon6",
@@ -3847,7 +3894,7 @@
           {
             "iconType": "bombs_large_high_drag",
             "name": "us_mk84_air",
-            "reqModification": "us_2000lb_mk84",
+            "reqModification": "us_2000lb_mk84_gbu31_jdam",
             "ShowNodes": {
               "node": [
                 "pylon6",
@@ -3867,7 +3914,7 @@
           {
             "iconType": "bombs_middle_high_drag_group",
             "name": "ter_mk82_snakeye",
-            "reqModification": "us_500lb_mk82",
+            "reqModification": "us_500lb_mk82_gbu38_jdam",
             "ShowNodes": {
               "node": "pylon6"
             },
@@ -3925,6 +3972,45 @@
             "DependentWeaponPreset": {
               "slot": 6,
               "preset": "litening_pod"
+            }
+          },
+          {
+            "iconType": "guided_bomb_middle_jdam_group_x2",
+            "name": "us_gbu_38_x2_slot8",
+            "reqModification": "us_500lb_mk82_gbu38_jdam",
+            "ShowNodes": {
+              "node": [
+                "pylon6",
+                "pylon6_holder"
+              ]
+            },
+            "Weapon": {
+              "trigger": "guided bombs",
+              "blk": "gameData/Weapons/containers/bru_57_gbu_38.blk",
+              "emitter": "ter_004",
+              "external": true,
+              "separate": true,
+              "machLimit": 1.01
+            }
+          },
+          {
+            "iconType": "guided_bomb_heavy_middle_jdam",
+            "name": "us_gbu_31_slot8",
+            "reqModification": "us_2000lb_mk84_gbu31_jdam",
+            "ShowNodes": {
+              "node": [
+                "pylon6",
+                "pylon6_holder"
+              ]
+            },
+            "Weapon": {
+              "trigger": "guided bombs",
+              "blk": "gameData/Weapons/BombGuns/us_2000lb_gbu31_usaf.blk",
+              "emitter": "bomb_2000lb_004",
+              "bullets": 1,
+              "external": true,
+              "separate": true,
+              "machLimit": 1.01
             }
           },
           {
@@ -3993,8 +4079,7 @@
           },
           {
             "iconType": "missile_type_f_air_to_air_midrange",
-            "name": "aim_120a",
-            "reqModification": "us_aim_120a",
+            "name": "aim_120a_default",
             "ShowNodes": {
               "node": [
                 "pylon8",
@@ -4003,7 +4088,7 @@
             },
             "Weapon": {
               "trigger": "aam",
-              "blk": "gameData/Weapons/rocketGuns/us_aim_120a.blk",
+              "blk": "gameData/Weapons/rocketGuns/us_aim_120a_default.blk",
               "emitter": "aim_120a_005",
               "bullets": 1,
               "external": true,
@@ -4278,18 +4363,18 @@
       "modClass": "weapon",
       "tier": 1
     },
-    "us_500lb_mk82": {
+    "us_500lb_mk82_gbu38_jdam": {
       "modClass": "weapon",
       "tier": 2,
       "prevModification": "us_blu27_b"
     },
-    "us_2000lb_mk84": {
+    "us_2000lb_mk84_gbu31_jdam": {
       "modClass": "weapon",
       "tier": 3,
-      "reqModification": "us_500lb_mk82"
+      "reqModification": "us_500lb_mk82_gbu38_jdam"
     },
     "us_agm_65d": {
-      "prevModification": "us_2000lb_mk84",
+      "prevModification": "us_2000lb_mk84_gbu31_jdam",
       "tier": 4,
       "modClass": "weapon"
     },
@@ -4447,6 +4532,112 @@
       -4.78337,
       -0.0561664,
       5.18666e-7
+    ]
+  },
+  "lerxVapors": {
+    "lerxVapor": [
+      {
+        "entryPoint": [
+          5.372,
+          0.165,
+          0.58
+        ],
+        "exitPoint": [
+          -3.708,
+          0.124,
+          2.069
+        ],
+        "entryTangent": [
+          1.11,
+          0.544,
+          0.672
+        ],
+        "exitTangent": [
+          -2.212,
+          1.274,
+          1.916
+        ],
+        "exitTangentHeight": [
+          -0.761,
+          0.572
+        ],
+        "exitTangentWidth": [
+          -0.855,
+          0.781
+        ],
+        "exitPointHeight": [
+          -1.057,
+          1.578
+        ],
+        "exitPointWidth": [
+          -0.478,
+          0.78
+        ],
+        "radius": [
+          0.15,
+          0.5
+        ],
+        "noiseParms": [
+          -0.25,
+          3.0
+        ],
+        "smoothIntensityParams": [
+          1.0,
+          2.2,
+          0.703
+        ]
+      },
+      {
+        "entryPoint": [
+          5.372,
+          0.165,
+          -0.58
+        ],
+        "exitPoint": [
+          -3.708,
+          0.124,
+          -2.069
+        ],
+        "entryTangent": [
+          1.11,
+          0.544,
+          -0.672
+        ],
+        "exitTangent": [
+          -2.212,
+          1.274,
+          -1.916
+        ],
+        "exitTangentHeight": [
+          -0.761,
+          0.572
+        ],
+        "exitTangentWidth": [
+          0.855,
+          -0.781
+        ],
+        "exitPointHeight": [
+          -1.057,
+          1.578
+        ],
+        "exitPointWidth": [
+          0.478,
+          -0.78
+        ],
+        "radius": [
+          0.15,
+          0.5
+        ],
+        "noiseParms": [
+          -0.25,
+          3.0
+        ],
+        "smoothIntensityParams": [
+          1.0,
+          2.2,
+          0.703
+        ]
+      }
     ]
   }
 }

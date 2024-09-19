@@ -22,6 +22,7 @@
   "support_unit_class": "structures/ussr_152mm_d1",
   "support_unit_tag": "artillery",
   "useSimpleDeathConditionsAndEffects": false,
+  "turretsBoundingBoxExtent": 0.18,
   "autoSightDistanceCorrection": true,
   "subclass": "heavyVehicle",
   "onRadarAs": "tracked",
@@ -664,6 +665,10 @@
         "hp": 60.0,
         "armorThrough": 3.0
       },
+      "electronic_equipment_01_dm": {
+        "hp": 60.0,
+        "armorThrough": 3.0
+      },
       "fire_control_system_dm": {
         "hp": 60.0,
         "armorThrough": 3.0
@@ -698,8 +703,9 @@
         "armorThickness": 10.0
       },
       "autoloader_dm": {
-        "armorThickness": 5.0,
-        "armorThrough": 5.0
+        "armorThickness": 2.0,
+        "armorThrough": 1.0,
+        "ignoreSolidDimension": true
       }
     },
     "power_block": {
@@ -882,6 +888,11 @@
       "ammo_body_l_13_dm": {},
       "ammo_body_l_14_dm": {},
       "ammo_body_l_15_dm": {},
+      "ammo_body_l_16_dm": {},
+      "ammo_body_l_17_dm": {},
+      "ammo_body_l_18_dm": {},
+      "ammo_body_l_19_dm": {},
+      "ammo_body_l_20_dm": {},
       "ammo_body_r_01_dm": {},
       "ammo_body_r_02_dm": {},
       "ammo_body_r_03_dm": {},
@@ -900,7 +911,8 @@
       "ammo_body_r_16_dm": {},
       "ammo_body_r_17_dm": {},
       "ammo_body_r_18_dm": {},
-      "ammo_body_r_19_dm": {}
+      "ammo_body_r_19_dm": {},
+      "ammo_body_r_20_dm": {}
     },
     "fuel_tanks": {
       "armorClass": "tank_structural_steel",
@@ -2140,7 +2152,7 @@
         "turret": {
           "head": "bone_mg_aa_h_01",
           "gun": "bone_mg_aa_v_01",
-          "gunnerDm": "commander_dm"
+          "gunnerDm": "loader_dm"
         },
         "limits": {
           "yaw": [
@@ -3351,7 +3363,7 @@
               "turret": {
                 "head": "bone_mg_aa_h_01",
                 "gun": "bone_mg_aa_v_01",
-                "gunnerDm": "commander_dm"
+                "gunnerDm": "loader_dm"
               },
               "limits": {
                 "yaw": [

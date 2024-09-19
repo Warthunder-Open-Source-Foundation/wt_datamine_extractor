@@ -37,7 +37,7 @@
     "useEffectiveArmorThicknessForShatter": true,
     "explodeOnRendinst": true,
     "explosiveType": "tritonal",
-    "explosiveMass": 203.0,
+    "explosiveMass": 201.8,
     "explodeTreshold": 0.00001,
     "hitPowerMult": 1.0,
     "nearHitPower": [
@@ -232,9 +232,9 @@
     },
     "DamageParts": {
       "body": {
-        "hp": 100.0,
+        "hp": 25.0,
         "armorClass": "tank_structural_steel",
-        "armorThickness": 15.0,
+        "armorThickness": 5.0,
         "explosionArmorQuality": 1.0,
         "shatterArmorQuality": 1.0
       }

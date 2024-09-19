@@ -574,6 +574,10 @@
         "hp": 60.0,
         "armorThrough": 3.0
       },
+      "electronic_equipment_01_dm": {
+        "hp": 60.0,
+        "armorThrough": 3.0
+      },
       "fire_control_system_dm": {
         "hp": 60.0,
         "armorThrough": 3.0
@@ -608,8 +612,9 @@
         "armorThickness": 10.0
       },
       "autoloader_dm": {
-        "armorThickness": 5.0,
-        "armorThrough": 5.0
+        "armorThickness": 2.0,
+        "armorThrough": 1.0,
+        "ignoreSolidDimension": true
       }
     },
     "power_block": {
@@ -792,6 +797,11 @@
       "ammo_body_l_13_dm": {},
       "ammo_body_l_14_dm": {},
       "ammo_body_l_15_dm": {},
+      "ammo_body_l_16_dm": {},
+      "ammo_body_l_17_dm": {},
+      "ammo_body_l_18_dm": {},
+      "ammo_body_l_19_dm": {},
+      "ammo_body_l_20_dm": {},
       "ammo_body_r_01_dm": {},
       "ammo_body_r_02_dm": {},
       "ammo_body_r_03_dm": {},
@@ -810,7 +820,8 @@
       "ammo_body_r_16_dm": {},
       "ammo_body_r_17_dm": {},
       "ammo_body_r_18_dm": {},
-      "ammo_body_r_19_dm": {}
+      "ammo_body_r_19_dm": {},
+      "ammo_body_r_20_dm": {}
     },
     "fuel_tanks": {
       "armorClass": "tank_structural_steel",
@@ -925,7 +936,7 @@
       },
       {
         "xrayDmPart": "composite_armor_turret_03_dm",
-        "titleLoc": "grille_structural_steel",
+        "titleLoc": "grille_air",
         "armorArrayText": {
           "layer": {
             "dmPart": "composite_armor_turret_03_dm"
@@ -934,7 +945,7 @@
       },
       {
         "xrayDmPart": "composite_armor_turret_04_dm",
-        "titleLoc": "grille_structural_steel",
+        "titleLoc": "grille_air",
         "armorArrayText": {
           "layer": {
             "dmPart": "composite_armor_turret_04_dm"
@@ -943,7 +954,7 @@
       },
       {
         "xrayDmPart": "composite_armor_turret_05_dm",
-        "titleLoc": "grille_structural_steel",
+        "titleLoc": "grille_air",
         "armorArrayText": {
           "layer": {
             "dmPart": "composite_armor_turret_05_dm"
@@ -952,7 +963,7 @@
       },
       {
         "xrayDmPart": "composite_armor_turret_06_dm",
-        "titleLoc": "grille_structural_steel",
+        "titleLoc": "grille_air",
         "armorArrayText": {
           "layer": {
             "dmPart": "composite_armor_turret_06_dm"
@@ -961,7 +972,7 @@
       },
       {
         "xrayDmPart": "composite_armor_turret_07_dm",
-        "titleLoc": "grille_structural_steel",
+        "titleLoc": "grille_air",
         "armorArrayText": {
           "layer": {
             "dmPart": "composite_armor_turret_07_dm"
@@ -970,7 +981,7 @@
       },
       {
         "xrayDmPart": "composite_armor_turret_08_dm",
-        "titleLoc": "grille_structural_steel",
+        "titleLoc": "grille_air",
         "armorArrayText": {
           "layer": {
             "dmPart": "composite_armor_turret_08_dm"
@@ -1989,7 +2000,7 @@
         "openHatchTime": 1.3,
         "shellCasingLifeTime": 10.0,
         "shellCasingImpulse": [
-          5.0,
+          7.0,
           0.0,
           0.0
         ],
@@ -2336,7 +2347,7 @@
       "maxBrakeForce": 200000.0,
       "driveGearRadius": 0.27,
       "mainGearRatio": 3.83,
-      "sideGearRatio": 1.0,
+      "sideGearRatio": 0.985,
       "neutralGearRatio": 7.5,
       "gearRatios": {
         "ratio": [
@@ -3089,7 +3100,7 @@
               "openHatchTime": 1.3,
               "shellCasingLifeTime": 10.0,
               "shellCasingImpulse": [
-                5.0,
+                7.0,
                 0.0,
                 0.0
               ],

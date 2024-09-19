@@ -18,7 +18,9 @@
   "hasPointOfInterestMemory": true,
   "isBwOpticSight": true,
   "needTpsNightVision": true,
-  "hmdF16c": true,
+  "hmdJas39": true,
+  "isMetricHmd": false,
+  "isMetricIls": false,
   "hasHelmetDesignator": true,
   "helmetDesignatorZone0": [
     -40.0,
@@ -59,6 +61,7 @@
   "damagePartsDependencyMapBlk": "gameData/FlightModels/DM/dm_parts_additional_dependency_map.blk",
   "damagePartsToCollisionPointsMapBlk": "gameData/FlightModels/DM/dm_parts_to_collision_points_map_jac.blk",
   "damagePartsToWeaponsMapBlk": "gameData/FlightModels/DM/dm_parts_to_weapons_map_jac.blk",
+  "damagePartsToAvionicsPartsMapBlk": "gameData/FlightModels/DM/dm_parts_to_avionics_parts_map.blk",
   "damagePartsToVisualEffectsMapBlk": "gameData/FlightModels/DM/dm_parts_to_visual_effects_map.blk",
   "damagePartsExcludeFromHoleBlk": "gameData/FlightModels/DM/dm_parts_exclude_from_hole.blk",
   "explosion_dmBlk": "gameData/FlightModels/DM/commonExplosion.blk",
@@ -2442,10 +2445,10 @@
       "head": "optic2_turret",
       "crosshairPreset": "test_crosshair",
       "angularLimits": [
-        -90.0,
-        90.0,
-        -155.0,
-        35.0
+        -89.0,
+        89.0,
+        -154.0,
+        34.0
       ],
       "opticType": "targeting",
       "turretNo": 0,
@@ -2725,17 +2728,17 @@
       "tier": 4,
       "modClass": "weapon"
     },
-    "us_500lb_mk82": {
+    "us_500lb_mk82_gbu38_jdam": {
       "modClass": "weapon",
       "tier": 1
     },
-    "us_1000lb_mk83": {
-      "reqModification": "us_500lb_mk82",
+    "us_1000lb_mk83_gbu31_jdam": {
+      "reqModification": "us_500lb_mk82_gbu38_jdam",
       "modClass": "weapon",
       "tier": 2
     },
     "us_agm_65b": {
-      "reqModification": "us_1000lb_mk83",
+      "reqModification": "us_1000lb_mk83_gbu31_jdam",
       "modClass": "weapon",
       "tier": 3
     },
